@@ -1,14 +1,18 @@
 {
-  "updatedAt": "2026-05-22T16:16:25Z",
+  "updatedAt": "2026-05-22T16:27:31Z",
   "provider": "GDELT DOC 2.0",
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
   "sameDayWindowStartUtc": "20260522030000",
-  "sameDayWindowEndUtc": "20260522161625",
+  "sameDayWindowEndUtc": "20260522162731",
+  "gdeltRequestsSucceeded": 3,
+  "gdeltRequestFailures": 0,
+  "retryRecoveries": 0,
   "rawArticles": 0,
   "eventsWritten": 0,
   "skippedByDate": 0,
+  "skippedNoCity": 0,
+  "skippedNoRule": 0,
   "majorContextExceptions": 0,
-  "errors": [
-    "<urlopen error _ssl.c:983: The handshake operation timed out>"
-  ]
+  "keptPreviousOnFailure": false,
+  "errors": []
 }
