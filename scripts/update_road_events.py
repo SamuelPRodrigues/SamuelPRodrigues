@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Atualiza data/road_events.json com incidentes rodoviários da TomTom Traffic API.
 
-Também grava data/road_events_status.json para diagnosticar se a chave foi aceita,
-quantas áreas foram consultadas, quantos incidentes chegaram e quais erros ocorreram.
+A API da TomTom limita a área do bbox. Por isso, este script consulta áreas
+pequenas ao redor de corredores/pontos rodoviários monitorados, mantendo o uso
+compatível com o plano gratuito.
 """
 from __future__ import annotations
 
@@ -15,6 +16,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+CONFIG = Path("data/config.json")
 OUTPUT = Path("data/road_events.json")
 STATUS_OUTPUT = Path("data/road_events_status.json")
 API_KEY = os.environ.get("TOMTOM_API_KEY", "").strip()
@@ -49,40 +51,72 @@ CATEGORY_RISK = {
     14: 52,
 }
 
+DEFAULT_WATCH_POINTS = [
+    {"name": "Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
+    {"name": "Rio-Santos", "lat": -23.20, "lon": -44.75, "road": "BR-101"},
+    {"name": "Brasília-BH-Rio", "lat": -19.78, "lon": -44.06, "road": "BR-040"},
+    {"name": "Fernão Dias", "lat": -21.85, "lon": -45.20, "road": "BR-381"},
+    {"name": "Cuiabá-Santarém", "lat": -10.55, "lon": -55.30, "road": "BR-163"},
+    {"name": "Freeway RS", "lat": -30.02, "lon": -51.05, "road": "BR-290"},
+    {"name": "Curitiba-Paranaguá", "lat": -25.45, "lon": -49.00, "road": "BR-277"},
+    {"name": "Vale do Itajaí", "lat": -27.05, "lon": -49.15, "road": "BR-470"},
+    {"name": "SP Capital", "lat": -23.55, "lon": -46.63, "road": "SP"},
+    {"name": "RJ Capital", "lat": -22.90, "lon": -43.20, "road": "RJ"},
+]
+
 
 def now_iso() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
 
-def brazil_bboxes(step: float = 6.0) -> list[tuple[float, float, float, float]]:
-    # Cobertura aproximada do Brasil em blocos menores. Rodando 1x por hora,
-    # fica bem abaixo de 2.500 consultas/dia do plano gratuito da TomTom.
-    west, east = -74.2, -34.5
-    south, north = -34.0, 5.4
-    boxes: list[tuple[float, float, float, float]] = []
-    lon = west
-    while lon < east:
-        lat = south
-        while lat < north:
-            boxes.append((round(lon, 3), round(lat, 3), round(min(lon + step, east), 3), round(min(lat + step, north), 3)))
-            lat += step
-        lon += step
-    return boxes
+def load_json(path: Path, fallback: Any) -> Any:
+    try:
+        if path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return fallback
+    return fallback
 
 
 def load_existing() -> list[dict[str, Any]]:
-    try:
-        if OUTPUT.exists():
-            data = json.loads(OUTPUT.read_text(encoding="utf-8"))
-            return data if isinstance(data, list) else []
-    except Exception:
-        return []
-    return []
+    data = load_json(OUTPUT, [])
+    return data if isinstance(data, list) else []
 
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def monitored_points() -> list[dict[str, Any]]:
+    config = load_json(CONFIG, {})
+    points: list[dict[str, Any]] = []
+    if isinstance(config, dict):
+        for key in ("roadCorridors", "roads"):
+            value = config.get(key)
+            if isinstance(value, list):
+                points.extend(item for item in value if isinstance(item, dict))
+    if not points:
+        points = DEFAULT_WATCH_POINTS
+
+    unique: dict[tuple[float, float], dict[str, Any]] = {}
+    for item in points:
+        try:
+            lat = round(float(item["lat"]), 4)
+            lon = round(float(item["lon"]), 4)
+        except Exception:
+            continue
+        unique[(lat, lon)] = {**item, "lat": lat, "lon": lon}
+    return list(unique.values())
+
+
+def bbox_around(lat: float, lon: float, delta: float = 0.18) -> tuple[float, float, float, float]:
+    # Aproximadamente 40 km x 40 km no equador: bem abaixo do limite de 10.000 km².
+    return (round(lon - delta, 4), round(lat - delta, 4), round(lon + delta, 4), round(lat + delta, 4))
+
+
+def bboxes_from_points(points: list[dict[str, Any]]) -> list[tuple[float, float, float, float]]:
+    return [bbox_around(float(point["lat"]), float(point["lon"])) for point in points]
 
 
 def first_coordinate(geometry: dict[str, Any]) -> tuple[float, float] | None:
@@ -132,7 +166,7 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> tuple[list[dict[str, 
         "language": "pt-BR",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.1"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.2"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
@@ -170,11 +204,14 @@ def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
 
 
 def main() -> None:
+    points = monitored_points()
+    boxes = bboxes_from_points(points)
     status: dict[str, Any] = {
         "updatedAt": now_iso(),
         "provider": "TomTom Traffic API",
         "tomtomKeyConfigured": bool(API_KEY),
-        "bboxRequestsPlanned": 0,
+        "monitoredPoints": len(points),
+        "bboxRequestsPlanned": len(boxes),
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
@@ -190,8 +227,6 @@ def main() -> None:
 
     seen: set[tuple[str, float, float, str]] = set()
     output: list[dict[str, Any]] = []
-    boxes = brazil_bboxes()
-    status["bboxRequestsPlanned"] = len(boxes)
 
     for bbox in boxes:
         try:
