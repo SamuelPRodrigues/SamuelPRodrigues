@@ -15,7 +15,6 @@ OUTPUT = Path("data/operational_alerts.json")
 STATUS = Path("data/operational_alerts_status.json")
 BR_TZ = ZoneInfo("America/Sao_Paulo")
 
-# Pontos aproximados para geocodificação simples por cidade. Não marca local exato.
 CITIES = {
     "são paulo": (-23.550, -46.633, "SP"), "rio de janeiro": (-22.906, -43.173, "RJ"),
     "belo horizonte": (-19.916, -43.934, "MG"), "brasília": (-15.793, -47.882, "DF"),
@@ -78,7 +77,17 @@ def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def fetch_gdelt(query: str, *, start: datetime | None = None, end: datetime | None = None, timespan: str | None = None, maxrecords: int = 75) -> list[dict[str, Any]]:
+def load_existing_events() -> list[dict[str, Any]]:
+    try:
+        if OUTPUT.exists():
+            data = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            return data if isinstance(data, list) else []
+    except Exception:
+        return []
+    return []
+
+
+def fetch_gdelt_once(query: str, *, start: datetime | None = None, end: datetime | None = None, timespan: str | None = None, maxrecords: int = 75, timeout: int = 60) -> list[dict[str, Any]]:
     params: dict[str, str] = {
         "query": query,
         "mode": "ArtList",
@@ -94,10 +103,27 @@ def fetch_gdelt(query: str, *, start: datetime | None = None, end: datetime | No
     else:
         params["timespan"] = "6h"
     url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "operational-alerts-brazil/1.1"})
-    with urllib.request.urlopen(req, timeout=30) as response:
+    req = urllib.request.Request(url, headers={"User-Agent": "operational-alerts-brazil/1.2"})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         payload = json.loads(response.read().decode("utf-8", errors="replace"))
     return payload.get("articles", []) if isinstance(payload, dict) else []
+
+
+def fetch_gdelt(label: str, query: str, status: dict[str, Any], **kwargs: Any) -> list[dict[str, Any]]:
+    errors: list[str] = []
+    for attempt in range(1, 4):
+        try:
+            result = fetch_gdelt_once(query, **kwargs)
+            status["gdeltRequestsSucceeded"] += 1
+            if attempt > 1:
+                status["retryRecoveries"] += 1
+            return result
+        except Exception as exc:
+            errors.append(f"{label} tentativa {attempt}: {exc}")
+            time.sleep(attempt * 2)
+    status["gdeltRequestFailures"] += 1
+    status["errors"].extend(errors[-2:])
+    return []
 
 
 def classify(text: str) -> tuple[str, str, int, int] | None:
@@ -124,8 +150,7 @@ def geocode(text: str) -> tuple[float, float, str, str] | None:
 
 
 def clean_title(title: str) -> str:
-    title = re.sub(r"\s+", " ", title).strip()
-    return title[:140]
+    return re.sub(r"\s+", " ", title).strip()[:140]
 
 
 def article_datetime_br(article: dict[str, Any]) -> datetime | None:
@@ -146,11 +171,7 @@ def is_same_day_article(article: dict[str, Any]) -> bool:
 
 
 def is_major_context(text: str, risk: int, article_dt: datetime | None) -> bool:
-    if not article_dt:
-        return False
-    if article_dt.date() == now_br().date():
-        return False
-    if article_dt < (now_br() - timedelta(hours=48)):
+    if not article_dt or article_dt.date() == now_br().date() or article_dt < (now_br() - timedelta(hours=48)):
         return False
     t = text.casefold()
     return risk >= 85 or any(term in t for term in MAJOR_CONTEXT_TERMS)
@@ -163,7 +184,13 @@ def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dic
     text = f"{title} {source}"
     cls = classify(text)
     geo = geocode(text)
-    if not cls or not geo or not url:
+    if not cls:
+        status["skippedNoRule"] += 1
+        return None
+    if not geo:
+        status["skippedNoCity"] += 1
+        return None
+    if not url:
         return None
     category, event_type, risk, expires_hours = cls
     article_dt = article_datetime_br(article)
@@ -207,43 +234,48 @@ def main() -> None:
         "datePolicy": "same-day Brazil time; older articles only for major-event context",
         "sameDayWindowStartUtc": gdelt_stamp(start),
         "sameDayWindowEndUtc": gdelt_stamp(end),
+        "gdeltRequestsSucceeded": 0,
+        "gdeltRequestFailures": 0,
+        "retryRecoveries": 0,
         "rawArticles": 0,
         "eventsWritten": 0,
         "skippedByDate": 0,
+        "skippedNoCity": 0,
+        "skippedNoRule": 0,
         "majorContextExceptions": 0,
+        "keptPreviousOnFailure": False,
         "errors": [],
     }
-    try:
-        articles = fetch_gdelt(SAME_DAY_QUERY, start=start, end=end, maxrecords=100)
-        major_articles = fetch_gdelt(MAJOR_CONTEXT_QUERY, timespan="48h", maxrecords=40)
-        status["rawArticles"] = len(articles) + len(major_articles)
-        seen: set[str] = set()
-        events = []
-        for article in articles:
-            event = normalize(article, allow_major_context=False, status=status)
-            if not event:
-                continue
-            key = event["sourceUrl"]
-            if key in seen:
-                continue
-            seen.add(key)
+    articles = fetch_gdelt("same-day-window", SAME_DAY_QUERY, status, start=start, end=end, maxrecords=150, timeout=60)
+    # Fallback: sometimes GDELT's explicit date window times out while timespan works. We still filter same-day after fetching.
+    if not articles:
+        articles = fetch_gdelt("same-day-timespan-fallback", SAME_DAY_QUERY, status, timespan="24h", maxrecords=150, timeout=60)
+    major_articles = fetch_gdelt("major-context", MAJOR_CONTEXT_QUERY, status, timespan="48h", maxrecords=60, timeout=60)
+    status["rawArticles"] = len(articles) + len(major_articles)
+
+    seen: set[str] = set()
+    events: list[dict[str, Any]] = []
+    for article in articles:
+        event = normalize(article, allow_major_context=False, status=status)
+        if event and event["sourceUrl"] not in seen:
+            seen.add(event["sourceUrl"])
             events.append(event)
-        for article in major_articles:
-            event = normalize(article, allow_major_context=True, status=status)
-            if not event:
-                continue
-            key = event["sourceUrl"]
-            if key in seen:
-                continue
-            seen.add(key)
+    for article in major_articles:
+        event = normalize(article, allow_major_context=True, status=status)
+        if event and event["sourceUrl"] not in seen:
+            seen.add(event["sourceUrl"])
             events.append(event)
-        events.sort(key=lambda e: int(e.get("risk", 0)), reverse=True)
+
+    events.sort(key=lambda e: int(e.get("risk", 0)), reverse=True)
+    if events or status["gdeltRequestsSucceeded"] > 0:
         write_json(OUTPUT, events[:40])
         status["eventsWritten"] = len(events[:40])
-    except Exception as exc:
-        status["errors"].append(str(exc))
-        if not OUTPUT.exists():
-            write_json(OUTPUT, [])
+    else:
+        # If GDELT is fully unavailable, keep the previous file instead of replacing it with empty data.
+        existing = load_existing_events()
+        write_json(OUTPUT, existing)
+        status["eventsWritten"] = len(existing)
+        status["keptPreviousOnFailure"] = True
     write_json(STATUS, status)
     print(json.dumps(status, ensure_ascii=False, indent=2))
 
