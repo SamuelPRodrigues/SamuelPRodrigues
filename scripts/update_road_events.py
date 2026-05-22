@@ -36,20 +36,7 @@ CATEGORY_LABELS = {
     14: "Veículo parado",
 }
 
-CATEGORY_RISK = {
-    1: 82,
-    2: 65,
-    3: 72,
-    4: 55,
-    5: 80,
-    6: 62,
-    7: 70,
-    8: 92,
-    9: 58,
-    10: 65,
-    11: 86,
-    14: 52,
-}
+CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 70, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
 
 DEFAULT_WATCH_POINTS = [
     {"name": "Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
@@ -111,7 +98,6 @@ def monitored_points() -> list[dict[str, Any]]:
 
 
 def bbox_around(lat: float, lon: float, delta: float = 0.18) -> tuple[float, float, float, float]:
-    # Aproximadamente 40 km x 40 km no equador: bem abaixo do limite de 10.000 km².
     return (round(lon - delta, 4), round(lat - delta, 4), round(lon + delta, 4), round(lat + delta, 4))
 
 
@@ -163,10 +149,10 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> tuple[list[dict[str, 
         "key": API_KEY,
         "bbox": f"{west},{south},{east},{north}",
         "fields": fields,
-        "language": "pt-BR",
+        "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.2"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.3"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
@@ -210,6 +196,7 @@ def main() -> None:
         "updatedAt": now_iso(),
         "provider": "TomTom Traffic API",
         "tomtomKeyConfigured": bool(API_KEY),
+        "language": "pt-PT",
         "monitoredPoints": len(points),
         "bboxRequestsPlanned": len(boxes),
         "bboxRequestsSucceeded": 0,
@@ -230,19 +217,14 @@ def main() -> None:
 
     for bbox in boxes:
         try:
-            incidents, http_status = fetch_bbox(bbox)
+            incidents, _ = fetch_bbox(bbox)
             status["bboxRequestsSucceeded"] += 1
             status["rawIncidents"] += len(incidents)
             for incident in incidents:
                 normalized = normalize_incident(incident)
                 if not normalized:
                     continue
-                key = (
-                    normalized["eventType"],
-                    round(float(normalized["lat"]), 3),
-                    round(float(normalized["lon"]), 3),
-                    normalized["road"],
-                )
+                key = (normalized["eventType"], round(float(normalized["lat"]), 3), round(float(normalized["lon"]), 3), normalized["road"])
                 if key in seen:
                     continue
                 seen.add(key)
