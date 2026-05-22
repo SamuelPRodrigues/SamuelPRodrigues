@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -23,6 +24,8 @@ CATEGORY_LABELS = {
 }
 CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 70, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
 ENDED_WORDS = ("encerrado", "encerrada", "ended", "cleared", "terminado", "terminada")
+MAIN_ROAD_RE = re.compile(r"\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|PB|AL|SE|PI|MA|PA|AM|RO|RR|AP|AC|TO)-?\s?\d{2,4}\b", re.I)
+MAIN_ROAD_WORDS = ("rodovia", "autoestrada", "freeway", "marginal", "anel rodoviário", "rodoanel", "estrada")
 
 DEFAULT_WATCH_POINTS = [
     {"name": "Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
@@ -120,6 +123,13 @@ def get_road(properties: dict[str, Any]) -> str:
     return "Rodovia"
 
 
+def is_main_road(road: str) -> bool:
+    text = (road or "").casefold()
+    if MAIN_ROAD_RE.search(road or ""):
+        return True
+    return any(word in text for word in MAIN_ROAD_WORDS)
+
+
 def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
     west, south, east, north = bbox
     fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,length,delay}}}"
@@ -130,7 +140,7 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
         "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.5"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.6"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
@@ -151,15 +161,19 @@ def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
     if is_finished(description):
         return None
     lat, lon = coord
+    road = get_road(props)
+    main = is_main_road(road)
     risk = CATEGORY_RISK.get(category, 60)
     delay = props.get("delay") or props.get("magnitudeOfDelay")
     if isinstance(delay, (int, float)) and delay > 600:
         risk = min(100, risk + 10)
-    road = get_road(props)
+    if not main:
+        risk = min(risk, 50)
     return {
         "active": True,
         "name": f"{label} • {road}",
         "road": road,
+        "isMainRoad": main,
         "lat": round(lat, 6),
         "lon": round(lon, 6),
         "eventType": label,
@@ -178,12 +192,14 @@ def main() -> None:
         "provider": "TomTom Traffic API",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
+        "riskRule": "Eventos fora de rodovia principal têm risco máximo 50.",
         "monitoredPoints": len(points),
         "bboxRequestsPlanned": len(boxes),
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
         "skippedFinishedOrInvalid": 0,
+        "nonMainRoadCapped": 0,
         "errors": [],
     }
 
@@ -206,6 +222,8 @@ def main() -> None:
                 if not normalized:
                     status["skippedFinishedOrInvalid"] += 1
                     continue
+                if not normalized.get("isMainRoad"):
+                    status["nonMainRoadCapped"] += 1
                 key = (normalized["eventType"], round(float(normalized["lat"]), 3), round(float(normalized["lon"]), 3), normalized["road"])
                 if key in seen:
                     continue
