@@ -49,12 +49,34 @@ RULES = [
 
 SAME_DAY_QUERY = '("tiroteio" OR "confronto" OR "ação policial" OR "operação policial" OR "bloqueio" OR "manifestação" OR "protesto" OR "incêndio" OR "roubo de carga" OR "interdição" OR "alagamento") sourcecountry:BR'
 MAJOR_CONTEXT_QUERY = '("mortes" OR "mortos" OR "feridos" OR "megaoperação" OR "operação policial" OR "bloqueio total" OR "enchente" OR "deslizamento" OR "explosão" OR "incêndio de grandes proporções" OR "interdição total") sourcecountry:BR'
-GOOGLE_QUERIES = [
-    '(tiroteio OR confronto OR "ação policial" OR "operação policial") Brasil when:1d',
-    '(bloqueio OR manifestação OR protesto OR interdição) Brasil when:1d',
-    '(incêndio OR explosão OR alagamento OR "queda de árvore") Brasil when:1d',
-    '("roubo de carga" OR "saque de carga" OR "carga roubada") Brasil when:1d',
+
+KEYWORD_BLOCKS = [
+    '(tiroteio OR confronto OR "ação policial" OR "operação policial")',
+    '(bloqueio OR manifestação OR protesto OR interdição)',
+    '(incêndio OR explosão OR alagamento OR "queda de árvore")',
+    '("roubo de carga" OR "saque de carga" OR "carga roubada")',
 ]
+TRUSTED_NEWS_SITES = [
+    ("CNN Brasil", "cnnbrasil.com.br"),
+    ("Jovem Pan", "jovempan.com.br"),
+    ("G1", "g1.globo.com"),
+    ("UOL Notícias", "noticias.uol.com.br"),
+    ("Agência Brasil", "agenciabrasil.ebc.com.br"),
+    ("Estadão", "estadao.com.br"),
+    ("Folha", "folha.uol.com.br"),
+    ("O Globo", "oglobo.globo.com"),
+    ("R7", "noticias.r7.com"),
+    ("Band", "band.uol.com.br"),
+    ("Metrópoles", "metropoles.com"),
+    ("Terra", "terra.com.br"),
+]
+GOOGLE_GENERAL_QUERIES = [f"{block} Brasil when:1d" for block in KEYWORD_BLOCKS]
+GOOGLE_SOURCE_QUERIES = [
+    f"({ ' OR '.join(['tiroteio','confronto','\"ação policial\"','\"operação policial\"','bloqueio','manifestação','protesto','incêndio','\"roubo de carga\"','interdição','alagamento']) }) site:{domain} when:1d"
+    for _, domain in TRUSTED_NEWS_SITES
+]
+GOOGLE_QUERIES = [("geral", q) for q in GOOGLE_GENERAL_QUERIES] + [("fonte-confiavel", q) for q in GOOGLE_SOURCE_QUERIES]
+
 MAJOR_CONTEXT_TERMS = ["mortes", "mortos", "feridos", "megaoperação", "bloqueio total", "enchente", "deslizamento", "explosão", "grandes proporções", "interdição total", "estado de emergência"]
 BLOCKED_DETAIL_TERMS = ["posição da polícia", "onde a polícia está", "rota da polícia", "viatura em", "blitz em tempo real"]
 
@@ -96,7 +118,7 @@ def load_existing_events() -> list[dict[str, Any]]:
 
 
 def fetch_url(url: str, timeout: int = 60) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 operational-alerts-brazil/1.3"})
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 operational-alerts-brazil/1.4"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read()
 
@@ -145,12 +167,15 @@ def parse_rss_date(raw: str) -> datetime | None:
 
 def fetch_google_news(status: dict[str, Any]) -> list[dict[str, Any]]:
     articles: list[dict[str, Any]] = []
-    for query in GOOGLE_QUERIES:
+    status["googleNewsQueriesPlanned"] = len(GOOGLE_QUERIES)
+    for kind, query in GOOGLE_QUERIES:
         try:
             params = {"q": query, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"}
             data = fetch_url("https://news.google.com/rss/search?" + urllib.parse.urlencode(params), timeout=45)
             root = ET.fromstring(data)
             status["googleNewsRequestsSucceeded"] += 1
+            if kind == "fonte-confiavel":
+                status["trustedSourceRequestsSucceeded"] += 1
             for item in root.findall(".//item"):
                 title = item.findtext("title") or ""
                 link = item.findtext("link") or ""
@@ -163,11 +188,11 @@ def fetch_google_news(status: dict[str, Any]) -> list[dict[str, Any]]:
                     "url": link,
                     "sourceCommonName": source,
                     "seendate": dt.strftime("%Y%m%dT%H%M%S") if dt else "",
-                    "provider": "Google News RSS",
+                    "provider": "Google News RSS" if kind == "geral" else "Google News RSS - fonte confiável",
                 })
         except Exception as exc:
             status["googleNewsRequestFailures"] += 1
-            status["errors"].append(f"google-news: {exc}")
+            status["errors"].append(f"google-news {kind}: {exc}")
     return articles
 
 
@@ -276,10 +301,12 @@ def main() -> None:
     start = today_start_br_as_utc()
     end = now_utc()
     status: dict[str, Any] = {
-        "updatedAt": now_iso(), "provider": "GDELT DOC 2.0 + Google News RSS",
+        "updatedAt": now_iso(), "provider": "GDELT DOC 2.0 + Google News RSS + fontes confiáveis direcionadas",
+        "trustedSources": [name for name, _ in TRUSTED_NEWS_SITES],
         "datePolicy": "same-day Brazil time; older articles only for major-event context",
         "sameDayWindowStartUtc": gdelt_stamp(start), "sameDayWindowEndUtc": gdelt_stamp(end),
-        "gdeltRequestsSucceeded": 0, "gdeltRequestFailures": 0, "googleNewsRequestsSucceeded": 0, "googleNewsRequestFailures": 0,
+        "gdeltRequestsSucceeded": 0, "gdeltRequestFailures": 0, "googleNewsQueriesPlanned": 0,
+        "googleNewsRequestsSucceeded": 0, "trustedSourceRequestsSucceeded": 0, "googleNewsRequestFailures": 0,
         "retryRecoveries": 0, "rawArticles": 0, "eventsWritten": 0, "skippedByDate": 0, "skippedNoCity": 0,
         "skippedNoRule": 0, "majorContextExceptions": 0, "keptPreviousOnFailure": False, "errors": [],
     }
