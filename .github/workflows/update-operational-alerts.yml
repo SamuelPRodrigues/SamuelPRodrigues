@@ -34,4 +34,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git commit -m "Atualiza alertas operacionais automáticos"
-          git push
+      - name: Enviar mudanças
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git pull --rebase origin main
+          git push origin HEAD:main
