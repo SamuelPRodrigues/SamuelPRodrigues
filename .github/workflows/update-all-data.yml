@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: update-all-data-main
@@ -22,9 +21,9 @@ env:
 jobs:
   update-all-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 18
     steps:
-      - name: Baixar repositório
+      - name: Baixar repositorio
         uses: actions/checkout@v4
         with:
           persist-credentials: true
@@ -33,37 +32,19 @@ jobs:
         with:
           python-version: "3.12"
       - name: Atualizar clima
-        run: |
-          for attempt in 1 2 3; do
-            python scripts/update_climate_events.py && exit 0
-            echo "Clima falhou na tentativa $attempt; tentando novamente..."
-            sleep $((attempt * 10))
-          done
-          echo "Clima falhou após 3 tentativas; continuando para não bloquear os outros dados."
+        run: python scripts/update_climate_events.py
       - name: Atualizar rodovias
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
-        run: |
-          for attempt in 1 2 3; do
-            python scripts/update_road_events.py && exit 0
-            echo "Rodovias falhou na tentativa $attempt; tentando novamente..."
-            sleep $((attempt * 10))
-          done
-          echo "Rodovias falhou após 3 tentativas; continuando para não bloquear os outros dados."
+        run: python scripts/update_road_events.py
       - name: Atualizar alertas operacionais
-        run: |
-          for attempt in 1 2 3; do
-            python scripts/update_operational_alerts.py && exit 0
-            echo "Operacionais falhou na tentativa $attempt; tentando novamente..."
-            sleep $((attempt * 15))
-          done
-          echo "Operacionais falhou após 3 tentativas; continuando para salvar o restante."
+        run: python3 scripts/update_operational_alerts.py
       - name: Preparar commit
         run: |
           git add data/climate_events.json data/climate_events_status.json || true
           git add data/road_events.json data/road_events_status.json || true
           git add data/operational_alerts.json data/operational_alerts_status.json || true
-      - name: Verificar mudanças
+      - name: Verificar mudancas
         id: verify_diff
         run: |
           if git diff --cached --quiet; then
@@ -71,50 +52,14 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-      - name: Commitar mudanças
+      - name: Commitar mudancas
         if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -m "Atualiza dados automáticos do mapa"
-      - name: Enviar mudanças com retry
+          git commit -m "Atualiza dados automaticos do mapa"
+      - name: Enviar mudancas
         if: steps.verify_diff.outputs.changed == 'true'
         run: |
-          for attempt in 1 2 3 4; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            echo "Push falhou na tentativa $attempt; preparando nova tentativa..."
-            git rebase --abort || true
-            sleep $((attempt * 10))
-          done
-          exit 1
-      - name: Ler controle de atualização
-        id: control
-        run: |
-          if [ -f data/update_control.json ]; then
-            python - <<'PY' >> "$GITHUB_OUTPUT"
-          import json
-          data=json.load(open('data/update_control.json','r',encoding='utf-8'))
-          print('enabled=' + str(bool(data.get('enabled', True))).lower())
-          print('interval=' + str(int(data.get('intervalMinutes', 15))))
-          PY
-          else
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-            echo "interval=15" >> "$GITHUB_OUTPUT"
-          fi
-      - name: Agendar próxima execução alternativa
-        if: steps.control.outputs.enabled == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          minutes="${{ steps.control.outputs.interval }}"
-          if [ -z "$minutes" ]; then minutes=15; fi
-          if [ "$minutes" -lt 5 ]; then minutes=5; fi
-          if [ "$minutes" -gt 30 ]; then minutes=30; fi
-          echo "Aguardando $minutes minutos antes de acionar a próxima execução alternativa..."
-          sleep $((minutes * 60))
-          curl -sS -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/${{ github.repository }}/dispatches \
-            -d '{"event_type":"update_all_data"}'
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
