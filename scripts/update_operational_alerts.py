@@ -38,47 +38,39 @@ CITIES = {
     "porto velho": (-8.761, -63.901, "RO"), "boa vista": (2.824, -60.675, "RR"), "macapá": (0.035, -51.070, "AP"),
 }
 
-RULES = [
-    ("Segurança operacional", "Ocorrência de segurança", 78, 2, ["tiroteio", "confronto", "disparos", "arrastão"]),
-    ("Segurança operacional", "Ação policial com impacto", 65, 2, ["ação policial", "operação policial", "polícia fecha", "polícia interditou"]),
-    ("Bloqueio urbano", "Manifestação ou bloqueio", 58, 6, ["manifestação", "protesto", "bloqueio", "interdição", "interditada", "interditado"]),
-    ("Emergência urbana", "Incêndio ou emergência", 62, 4, ["incêndio", "explosão", "fumaça", "desabamento"]),
-    ("Risco logístico", "Risco para carga ou entrega", 72, 12, ["roubo de carga", "carga roubada", "saque de carga"]),
-    ("Infraestrutura", "Falha de infraestrutura", 45, 4, ["queda de árvore", "semáforo apagado", "falta de energia", "alagamento"]),
-]
-
-SAME_DAY_QUERY = '("tiroteio" OR "confronto" OR "ação policial" OR "operação policial" OR "bloqueio" OR "manifestação" OR "protesto" OR "incêndio" OR "roubo de carga" OR "interdição" OR "alagamento") sourcecountry:BR'
-MAJOR_CONTEXT_QUERY = '("mortes" OR "mortos" OR "feridos" OR "megaoperação" OR "operação policial" OR "bloqueio total" OR "enchente" OR "deslizamento" OR "explosão" OR "incêndio de grandes proporções" OR "interdição total") sourcecountry:BR'
-
-KEYWORD_BLOCKS = [
-    '(tiroteio OR confronto OR "ação policial" OR "operação policial")',
-    '(bloqueio OR manifestação OR protesto OR interdição)',
-    '(incêndio OR explosão OR alagamento OR "queda de árvore")',
-    '("roubo de carga" OR "saque de carga" OR "carga roubada")',
-]
 TRUSTED_NEWS_SITES = [
-    ("CNN Brasil", "cnnbrasil.com.br"),
-    ("Jovem Pan", "jovempan.com.br"),
-    ("G1", "g1.globo.com"),
-    ("UOL Notícias", "noticias.uol.com.br"),
-    ("Agência Brasil", "agenciabrasil.ebc.com.br"),
-    ("Estadão", "estadao.com.br"),
-    ("Folha", "folha.uol.com.br"),
-    ("O Globo", "oglobo.globo.com"),
-    ("R7", "noticias.r7.com"),
-    ("Band", "band.uol.com.br"),
-    ("Metrópoles", "metropoles.com"),
-    ("Terra", "terra.com.br"),
+    ("CNN Brasil", "cnnbrasil.com.br"), ("Jovem Pan", "jovempan.com.br"),
+    ("G1", "g1.globo.com"), ("UOL Notícias", "noticias.uol.com.br"),
+    ("Agência Brasil", "agenciabrasil.ebc.com.br"), ("Estadão", "estadao.com.br"),
+    ("Folha", "folha.uol.com.br"), ("O Globo", "oglobo.globo.com"),
+    ("R7", "noticias.r7.com"), ("Band", "band.uol.com.br"),
+    ("Metrópoles", "metropoles.com"), ("Terra", "terra.com.br"),
 ]
-GOOGLE_GENERAL_QUERIES = [f"{block} Brasil when:1d" for block in KEYWORD_BLOCKS]
-GOOGLE_SOURCE_QUERIES = [
-    f"({ ' OR '.join(['tiroteio','confronto','\"ação policial\"','\"operação policial\"','bloqueio','manifestação','protesto','incêndio','\"roubo de carga\"','interdição','alagamento']) }) site:{domain} when:1d"
-    for _, domain in TRUSTED_NEWS_SITES
-]
-GOOGLE_QUERIES = [("geral", q) for q in GOOGLE_GENERAL_QUERIES] + [("fonte-confiavel", q) for q in GOOGLE_SOURCE_QUERIES]
 
-MAJOR_CONTEXT_TERMS = ["mortes", "mortos", "feridos", "megaoperação", "bloqueio total", "enchente", "deslizamento", "explosão", "grandes proporções", "interdição total", "estado de emergência"]
+SECURITY_TERMS = ["tiroteio", "disparos", "baleado", "baleada", "arrastão", "troca de tiros", "roubo de carga", "carga roubada", "saque de carga"]
+SECURITY_CONTEXT = ["polícia", "policial", "pm", "bope", "rota", "suspeito", "suspeitos", "criminoso", "criminosos", "facção", "tráfico", "traficantes", "homem morre", "morre em confronto", "prisão", "operação"]
+POLICE_TERMS = ["ação policial", "operação policial", "megaoperação", "polícia fecha", "polícia interditou", "polícia ocupa"]
+BLOCK_TERMS = ["bloqueio", "bloqueada", "bloqueado", "interdição", "interditada", "interditado", "manifestação", "protesto"]
+TRAFFIC_CONTEXT = ["rua", "avenida", "via", "vias", "rodovia", "estrada", "trânsito", "trafego", "tráfego", "pista", "faixa", "ponte", "túnel", "terminal", "estação", "br-", "sp-", "mg-", "rj-", "km "]
+EMERGENCY_TERMS = ["incêndio", "explosão", "fumaça", "desabamento", "queda de árvore", "alagamento", "enchente", "deslizamento", "semáforo apagado", "falta de energia"]
+
+IRRELEVANT_TERMS = [
+    "futebol", "campeonato", "partida", "jogo", "jogador", "jogadores", "técnico", "treinador", "time", "times", "clube", "clubes",
+    "série a", "série b", "libertadores", "sul-americana", "copa do brasil", "brasileirão", "crb", "ponte preta", "flamengo", "corinthians", "palmeiras", "santos fc", "são paulo fc", "vasco", "fluminense", "botafogo", "grêmio", "internacional", "atlético", "cruzeiro",
+    "orçamento", "bloqueio do orçamento", "bloqueio orçamentário", "contingenciamento", "verba", "fiscal", "ministério da fazenda", "arcabouço", "congresso", "senado", "câmara", "deputado", "senador",
+    "bolsa", "mercado", "ações", "dólar", "juros", "selic", "inflação", "lucro", "prejuízo", "balanço financeiro",
+    "confronto contra", "duelo contra", "enfrenta", "escalação", "rodada", "placar", "ingresso solidário", "torcida", "atacante", "goleiro",
+]
 BLOCKED_DETAIL_TERMS = ["posição da polícia", "onde a polícia está", "rota da polícia", "viatura em", "blitz em tempo real"]
+MAJOR_CONTEXT_TERMS = ["mortes", "mortos", "feridos", "megaoperação", "bloqueio total", "enchente", "deslizamento", "explosão", "grandes proporções", "interdição total", "estado de emergência"]
+
+BASE_QUERY = '("tiroteio" OR "troca de tiros" OR "disparos" OR "arrastão" OR "ação policial" OR "operação policial" OR "roubo de carga" OR "carga roubada" OR "manifestação bloqueia" OR "protesto bloqueia" OR "via interditada" OR "rodovia interditada" OR "incêndio" OR "explosão" OR "alagamento" OR "queda de árvore")'
+NEGATIVE_QUERY = ' -futebol -jogo -partida -campeonato -orçamento -mercado -ações -dólar'
+SAME_DAY_QUERY = BASE_QUERY + ' sourcecountry:BR'
+MAJOR_CONTEXT_QUERY = '("mortes" OR "mortos" OR "feridos" OR "megaoperação" OR "bloqueio total" OR "enchente" OR "deslizamento" OR "explosão" OR "incêndio de grandes proporções" OR "interdição total") sourcecountry:BR'
+GOOGLE_GENERAL_QUERIES = [BASE_QUERY + ' Brasil when:1d' + NEGATIVE_QUERY]
+GOOGLE_SOURCE_QUERIES = [f'{BASE_QUERY} site:{domain} when:1d{NEGATIVE_QUERY}' for _, domain in TRUSTED_NEWS_SITES]
+GOOGLE_QUERIES = [("geral", q) for q in GOOGLE_GENERAL_QUERIES] + [("fonte-confiavel", q) for q in GOOGLE_SOURCE_QUERIES]
 
 
 def now_utc() -> datetime:
@@ -113,12 +105,12 @@ def load_existing_events() -> list[dict[str, Any]]:
             data = json.loads(OUTPUT.read_text(encoding="utf-8"))
             return data if isinstance(data, list) else []
     except Exception:
-        return []
+        pass
     return []
 
 
 def fetch_url(url: str, timeout: int = 60) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 operational-alerts-brazil/1.4"})
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 operational-alerts-brazil/1.5"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read()
 
@@ -183,26 +175,38 @@ def fetch_google_news(status: dict[str, Any]) -> list[dict[str, Any]]:
                 source_el = item.find("source")
                 source = source_el.text if source_el is not None and source_el.text else "Google News"
                 dt = parse_rss_date(pub)
-                articles.append({
-                    "title": title,
-                    "url": link,
-                    "sourceCommonName": source,
-                    "seendate": dt.strftime("%Y%m%dT%H%M%S") if dt else "",
-                    "provider": "Google News RSS" if kind == "geral" else "Google News RSS - fonte confiável",
-                })
+                articles.append({"title": title, "url": link, "sourceCommonName": source, "seendate": dt.strftime("%Y%m%dT%H%M%S") if dt else "", "provider": "Google News RSS" if kind == "geral" else "Google News RSS - fonte confiável"})
         except Exception as exc:
             status["googleNewsRequestFailures"] += 1
             status["errors"].append(f"google-news {kind}: {exc}")
     return articles
 
 
-def classify(text: str) -> tuple[str, str, int, int] | None:
+def has_any(text: str, terms: list[str]) -> bool:
+    return any(term in text for term in terms)
+
+
+def classify(text: str, status: dict[str, Any]) -> tuple[str, str, int, int] | None:
     t = text.casefold()
-    if any(term in t for term in BLOCKED_DETAIL_TERMS):
+    if has_any(t, BLOCKED_DETAIL_TERMS):
+        status["skippedSensitiveDetail"] += 1
         return None
-    for category, event_type, risk, expires_hours, terms in RULES:
-        if any(term in t for term in terms):
-            return category, event_type, risk, expires_hours
+    if has_any(t, IRRELEVANT_TERMS):
+        status["skippedIrrelevant"] += 1
+        return None
+
+    if has_any(t, SECURITY_TERMS):
+        return "Segurança operacional", "Ocorrência de segurança", 78, 2
+    if "confronto" in t and has_any(t, SECURITY_CONTEXT):
+        return "Segurança operacional", "Ocorrência de segurança", 78, 2
+    if has_any(t, POLICE_TERMS):
+        return "Segurança operacional", "Ação policial com impacto", 65, 2
+    if (has_any(t, BLOCK_TERMS) and has_any(t, TRAFFIC_CONTEXT)) or "manifestação bloqueia" in t or "protesto bloqueia" in t:
+        return "Bloqueio urbano", "Manifestação ou bloqueio", 58, 6
+    if has_any(t, EMERGENCY_TERMS):
+        return "Emergência urbana", "Incêndio ou emergência", 62, 4
+
+    status["skippedNoRule"] += 1
     return None
 
 
@@ -244,7 +248,7 @@ def is_major_context(text: str, risk: int, article_dt: datetime | None) -> bool:
     if not article_dt or article_dt.date() == now_br().date() or article_dt < (now_br() - timedelta(hours=48)):
         return False
     t = text.casefold()
-    return risk >= 85 or any(term in t for term in MAJOR_CONTEXT_TERMS)
+    return risk >= 85 or has_any(t, MAJOR_CONTEXT_TERMS)
 
 
 def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dict[str, Any]) -> dict[str, Any] | None:
@@ -252,11 +256,10 @@ def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dic
     url = str(article.get("url") or "")
     source = str(article.get("sourceCommonName") or article.get("domain") or "GDELT")
     text = f"{title} {source}"
-    cls = classify(text)
-    geo = geocode(text)
+    cls = classify(text, status)
     if not cls:
-        status["skippedNoRule"] += 1
         return None
+    geo = geocode(text)
     if not geo:
         status["skippedNoCity"] += 1
         return None
@@ -274,47 +277,18 @@ def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dic
     lat, lon, city, uf = geo
     expires = datetime.now(timezone.utc) + timedelta(hours=expires_hours)
     provider = article.get("provider") or "GDELT DOC 2.0"
-    return {
-        "active": True,
-        "type": "other",
-        "category": category,
-        "eventType": event_type,
-        "name": f"{event_type} • {city}/{uf}",
-        "description": "Alerta operacional detectado em fonte pública. Região aproximada; evite a área se estiver em rota.",
-        "lat": lat,
-        "lon": lon,
-        "radiusMeters": 2000 if category == "Segurança operacional" else 1200,
-        "risk": risk,
-        "confidence": "fonte pública automatizada" if same_day else "contexto de grande evento",
-        "source": source,
-        "sourceProvider": provider,
-        "sourceUrl": url,
-        "headline": clean_title(title),
-        "newsDate": article_dt.isoformat() if article_dt else None,
-        "datePolicy": "same-day" if same_day else "major-event-context",
-        "createdAt": now_iso(),
-        "expiresAt": expires.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-    }
+    return {"active": True, "type": "other", "category": category, "eventType": event_type, "name": f"{event_type} • {city}/{uf}", "description": "Alerta operacional detectado em fonte pública. Região aproximada; evite a área se estiver em rota.", "lat": lat, "lon": lon, "radiusMeters": 2000 if category == "Segurança operacional" else 1200, "risk": risk, "confidence": "fonte pública automatizada" if same_day else "contexto de grande evento", "source": source, "sourceProvider": provider, "sourceUrl": url, "headline": clean_title(title), "newsDate": article_dt.isoformat() if article_dt else None, "datePolicy": "same-day" if same_day else "major-event-context", "createdAt": now_iso(), "expiresAt": expires.replace(microsecond=0).isoformat().replace("+00:00", "Z")}
 
 
 def main() -> None:
     start = today_start_br_as_utc()
     end = now_utc()
-    status: dict[str, Any] = {
-        "updatedAt": now_iso(), "provider": "GDELT DOC 2.0 + Google News RSS + fontes confiáveis direcionadas",
-        "trustedSources": [name for name, _ in TRUSTED_NEWS_SITES],
-        "datePolicy": "same-day Brazil time; older articles only for major-event context",
-        "sameDayWindowStartUtc": gdelt_stamp(start), "sameDayWindowEndUtc": gdelt_stamp(end),
-        "gdeltRequestsSucceeded": 0, "gdeltRequestFailures": 0, "googleNewsQueriesPlanned": 0,
-        "googleNewsRequestsSucceeded": 0, "trustedSourceRequestsSucceeded": 0, "googleNewsRequestFailures": 0,
-        "retryRecoveries": 0, "rawArticles": 0, "eventsWritten": 0, "skippedByDate": 0, "skippedNoCity": 0,
-        "skippedNoRule": 0, "majorContextExceptions": 0, "keptPreviousOnFailure": False, "errors": [],
-    }
-    articles = fetch_gdelt("same-day-window", SAME_DAY_QUERY, status, start=start, end=end, maxrecords=150, timeout=60)
+    status: dict[str, Any] = {"updatedAt": now_iso(), "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo", "trustedSources": [name for name, _ in TRUSTED_NEWS_SITES], "datePolicy": "same-day Brazil time; older articles only for major-event context", "sameDayWindowStartUtc": gdelt_stamp(start), "sameDayWindowEndUtc": gdelt_stamp(end), "gdeltRequestsSucceeded": 0, "gdeltRequestFailures": 0, "googleNewsQueriesPlanned": 0, "googleNewsRequestsSucceeded": 0, "trustedSourceRequestsSucceeded": 0, "googleNewsRequestFailures": 0, "retryRecoveries": 0, "rawArticles": 0, "eventsWritten": 0, "skippedByDate": 0, "skippedNoCity": 0, "skippedNoRule": 0, "skippedIrrelevant": 0, "skippedSensitiveDetail": 0, "majorContextExceptions": 0, "keptPreviousOnFailure": False, "errors": []}
+    articles = fetch_gdelt("same-day-window", SAME_DAY_QUERY, status, start=start, end=end, maxrecords=120, timeout=60)
     if not articles:
-        articles = fetch_gdelt("same-day-timespan-fallback", SAME_DAY_QUERY, status, timespan="24h", maxrecords=150, timeout=60)
+        articles = fetch_gdelt("same-day-timespan-fallback", SAME_DAY_QUERY, status, timespan="24h", maxrecords=120, timeout=60)
     google_articles = fetch_google_news(status)
-    major_articles = fetch_gdelt("major-context", MAJOR_CONTEXT_QUERY, status, timespan="48h", maxrecords=60, timeout=60)
+    major_articles = fetch_gdelt("major-context", MAJOR_CONTEXT_QUERY, status, timespan="48h", maxrecords=50, timeout=60)
     all_regular = articles + google_articles
     status["rawArticles"] = len(all_regular) + len(major_articles)
 
