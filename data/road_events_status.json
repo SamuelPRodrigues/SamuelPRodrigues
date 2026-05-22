@@ -1,501 +1,62 @@
 {
-  "updatedAt": "2026-05-22T14:51:35Z",
+  "updatedAt": "2026-05-22T14:54:28Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
-  "bboxRequestsPlanned": 49,
+  "monitoredPoints": 5,
+  "bboxRequestsPlanned": 5,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
   "eventsWritten": 0,
   "errors": [
     {
       "bbox": [
-        -74.2,
-        -34.0,
-        -68.2,
-        -28.0
+        -48.03,
+        -24.68,
+        -47.67,
+        -24.32
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
     },
     {
       "bbox": [
-        -74.2,
-        -28.0,
-        -68.2,
-        -22.0
+        -44.93,
+        -23.38,
+        -44.57,
+        -23.02
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
     },
     {
       "bbox": [
-        -74.2,
-        -22.0,
-        -68.2,
-        -16.0
+        -44.24,
+        -19.96,
+        -43.88,
+        -19.6
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
     },
     {
       "bbox": [
-        -74.2,
-        -16.0,
-        -68.2,
-        -10.0
+        -45.38,
+        -22.03,
+        -45.02,
+        -21.67
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
     },
     {
       "bbox": [
-        -74.2,
-        -10.0,
-        -68.2,
-        -4.0
+        -55.48,
+        -10.73,
+        -55.12,
+        -10.37
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -74.2,
-        -4.0,
-        -68.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -74.2,
-        2.0,
-        -68.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -34.0,
-        -62.2,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -28.0,
-        -62.2,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -22.0,
-        -62.2,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -16.0,
-        -62.2,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -10.0,
-        -62.2,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        -4.0,
-        -62.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -68.2,
-        2.0,
-        -62.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -34.0,
-        -56.2,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -28.0,
-        -56.2,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -22.0,
-        -56.2,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -16.0,
-        -56.2,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -10.0,
-        -56.2,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        -4.0,
-        -56.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -62.2,
-        2.0,
-        -56.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -34.0,
-        -50.2,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -28.0,
-        -50.2,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -22.0,
-        -50.2,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -16.0,
-        -50.2,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -10.0,
-        -50.2,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        -4.0,
-        -50.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -56.2,
-        2.0,
-        -50.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -34.0,
-        -44.2,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -28.0,
-        -44.2,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -22.0,
-        -44.2,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -16.0,
-        -44.2,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -10.0,
-        -44.2,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        -4.0,
-        -44.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -50.2,
-        2.0,
-        -44.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -34.0,
-        -38.2,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -28.0,
-        -38.2,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -22.0,
-        -38.2,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -16.0,
-        -38.2,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -10.0,
-        -38.2,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        -4.0,
-        -38.2,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -44.2,
-        2.0,
-        -38.2,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -34.0,
-        -34.5,
-        -28.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -28.0,
-        -34.5,
-        -22.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -22.0,
-        -34.5,
-        -16.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -16.0,
-        -34.5,
-        -10.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -10.0,
-        -34.5,
-        -4.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        -4.0,
-        -34.5,
-        2.0
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
-    },
-    {
-      "bbox": [
-        -38.2,
-        2.0,
-        -34.5,
-        5.4
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Area of 'bbox' parameter is larger than 10,000km2.\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
     }
   ]
 }
