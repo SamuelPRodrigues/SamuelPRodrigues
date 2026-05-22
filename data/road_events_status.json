@@ -1,15 +1,66 @@
 {
-  "updatedAt": "2026-05-22T22:11:02Z",
+  "updatedAt": "2026-05-22T22:19:41Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
-  "riskRule": "Eventos fora de rodovia principal têm risco máximo 50.",
+  "riskRule": "Somente eventos em rodovias ou vias expressas são gravados.",
   "monitoredPoints": 5,
   "bboxRequestsPlanned": 5,
-  "bboxRequestsSucceeded": 5,
-  "rawIncidents": 239,
-  "eventsWritten": 188,
-  "skippedFinishedOrInvalid": 50,
-  "nonMainRoadCapped": 154,
-  "errors": []
+  "bboxRequestsSucceeded": 0,
+  "rawIncidents": 0,
+  "eventsWritten": 0,
+  "skippedFinishedOrInvalid": 0,
+  "skippedNonHighway": 0,
+  "errors": [
+    {
+      "bbox": [
+        -48.03,
+        -24.68,
+        -47.67,
+        -24.32
+      ],
+      "httpStatus": 400,
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+    },
+    {
+      "bbox": [
+        -44.93,
+        -23.38,
+        -44.57,
+        -23.02
+      ],
+      "httpStatus": 400,
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+    },
+    {
+      "bbox": [
+        -44.24,
+        -19.96,
+        -43.88,
+        -19.6
+      ],
+      "httpStatus": 400,
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+    },
+    {
+      "bbox": [
+        -45.38,
+        -22.03,
+        -45.02,
+        -21.67
+      ],
+      "httpStatus": 400,
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+    },
+    {
+      "bbox": [
+        -55.48,
+        -10.73,
+        -55.12,
+        -10.37
+      ],
+      "httpStatus": 400,
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+    }
+  ]
 }
