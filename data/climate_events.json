@@ -2,30 +2,58 @@
   {
     "active": true,
     "type": "climate",
+    "name": "Coari",
+    "region": "Norte",
+    "state": "AM",
+    "lat": -4.085,
+    "lon": -63.141,
+    "risk": 67,
+    "current": {
+      "time": "2026-05-22T17:15",
+      "interval": 900,
+      "temperature_2m": 27.2,
+      "precipitation": 0.7,
+      "rain": 0.2,
+      "showers": 0.5,
+      "wind_speed_10m": 9.9,
+      "wind_gusts_10m": 25.2,
+      "weather_code": 81
+    },
+    "reasons": [
+      "Pancadas de chuva detectadas",
+      "Chuva/precipitação detectada (1.4 mm)"
+    ],
+    "time": "2026-05-22T17:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-22T20:26:59Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
     "name": "Chapecó",
     "region": "Sul",
     "state": "SC",
     "lat": -27.1,
     "lon": -52.615,
-    "risk": 59,
+    "risk": 58,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 12.5,
-      "precipitation": 0.6,
+      "temperature_2m": 11.6,
+      "precipitation": 0.5,
       "rain": 0.4,
-      "showers": 0.2,
-      "wind_speed_10m": 10.7,
-      "wind_gusts_10m": 24.8,
+      "showers": 0.1,
+      "wind_speed_10m": 6.9,
+      "wind_gusts_10m": 21.6,
       "weather_code": 61
     },
     "reasons": [
       "Chuva detectada",
-      "Chuva/precipitação detectada (1.2 mm)"
+      "Chuva/precipitação detectada (1.0 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:19Z"
+    "createdAt": "2026-05-22T20:27:03Z"
   },
   {
     "active": true,
@@ -37,23 +65,23 @@
     "lon": -53.455,
     "risk": 57,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 15.1,
+      "temperature_2m": 14.9,
       "precipitation": 0.5,
-      "rain": 0.1,
-      "showers": 0.4,
-      "wind_speed_10m": 2.9,
-      "wind_gusts_10m": 19.4,
+      "rain": 0.4,
+      "showers": 0.1,
+      "wind_speed_10m": 1.5,
+      "wind_gusts_10m": 16.6,
       "weather_code": 61
     },
     "reasons": [
       "Chuva detectada",
       "Chuva/precipitação detectada (1.0 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:18Z"
+    "createdAt": "2026-05-22T20:27:03Z"
   },
   {
     "active": true,
@@ -65,23 +93,79 @@
     "lon": -40.844,
     "risk": 47,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 19.8,
+      "temperature_2m": 19.1,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 16.9,
-      "wind_gusts_10m": 43.9,
+      "wind_speed_10m": 16.2,
+      "wind_gusts_10m": 42.8,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:16Z"
+    "createdAt": "2026-05-22T20:27:00Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Maceió",
+    "region": "Nordeste",
+    "state": "AL",
+    "lat": -9.665,
+    "lon": -35.735,
+    "risk": 44,
+    "current": {
+      "time": "2026-05-22T17:15",
+      "interval": 900,
+      "temperature_2m": 25.5,
+      "precipitation": 0.1,
+      "rain": 0.0,
+      "showers": 0.1,
+      "wind_speed_10m": 16.2,
+      "wind_gusts_10m": 32.0,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-22T17:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-22T20:27:00Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Arapiraca",
+    "region": "Nordeste",
+    "state": "AL",
+    "lat": -9.752,
+    "lon": -36.661,
+    "risk": 43,
+    "current": {
+      "time": "2026-05-22T17:15",
+      "interval": 900,
+      "temperature_2m": 23.1,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 14.3,
+      "wind_gusts_10m": 29.5,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-22T17:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-22T20:27:00Z"
   },
   {
     "active": true,
@@ -91,109 +175,53 @@
     "state": "SC",
     "lat": -27.817,
     "lon": -50.326,
-    "risk": 44,
-    "current": {
-      "time": "2026-05-22T16:30",
-      "interval": 900,
-      "temperature_2m": 12.8,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "showers": 0.0,
-      "wind_speed_10m": 11.2,
-      "wind_gusts_10m": 32.8,
-      "weather_code": 51
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
-    ],
-    "time": "2026-05-22T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:19Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Florianópolis",
-    "region": "Sul",
-    "state": "SC",
-    "lat": -27.594,
-    "lon": -48.548,
-    "risk": 43,
-    "current": {
-      "time": "2026-05-22T16:30",
-      "interval": 900,
-      "temperature_2m": 16.5,
-      "precipitation": 0.1,
-      "rain": 0.0,
-      "showers": 0.1,
-      "wind_speed_10m": 7.9,
-      "wind_gusts_10m": 27.7,
-      "weather_code": 51
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
-    ],
-    "time": "2026-05-22T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:19Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Coari",
-    "region": "Norte",
-    "state": "AM",
-    "lat": -4.085,
-    "lon": -63.141,
     "risk": 42,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 28.2,
+      "temperature_2m": 11.6,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 10.4,
-      "wind_gusts_10m": 24.1,
+      "wind_speed_10m": 10.3,
+      "wind_gusts_10m": 25.9,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:15Z"
+    "createdAt": "2026-05-22T20:27:03Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Belém",
+    "name": "Manaus",
     "region": "Norte",
-    "state": "PA",
-    "lat": -1.455,
-    "lon": -48.49,
+    "state": "AM",
+    "lat": -3.119,
+    "lon": -60.021,
     "risk": 41,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 31.5,
+      "temperature_2m": 26.5,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 4.3,
-      "wind_gusts_10m": 22.0,
+      "wind_speed_10m": 6.2,
+      "wind_gusts_10m": 19.8,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:15Z"
+    "createdAt": "2026-05-22T20:26:58Z"
   },
   {
     "active": true,
@@ -205,23 +233,23 @@
     "lon": -64.711,
     "risk": 41,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 27.6,
-      "precipitation": 0.2,
+      "temperature_2m": 27.0,
+      "precipitation": 0.1,
       "rain": 0.1,
-      "showers": 0.1,
-      "wind_speed_10m": 10.2,
-      "wind_gusts_10m": 22.7,
-      "weather_code": 53
+      "showers": 0.0,
+      "wind_speed_10m": 7.6,
+      "wind_gusts_10m": 21.2,
+      "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
-      "Chuva/precipitação detectada (0.4 mm)"
+      "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:15Z"
+    "createdAt": "2026-05-22T20:26:59Z"
   },
   {
     "active": true,
@@ -233,51 +261,51 @@
     "lon": -49.273,
     "risk": 41,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 12.6,
+      "temperature_2m": 11.9,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 8.7,
-      "wind_gusts_10m": 20.5,
+      "wind_speed_10m": 9.9,
+      "wind_gusts_10m": 22.3,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:18Z"
+    "createdAt": "2026-05-22T20:27:03Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Foz do Iguaçu",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -25.546,
-    "lon": -54.588,
-    "risk": 40,
+    "name": "Belém",
+    "region": "Norte",
+    "state": "PA",
+    "lat": -1.455,
+    "lon": -48.49,
+    "risk": 39,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 15.0,
-      "precipitation": 0.3,
+      "temperature_2m": 29.7,
+      "precipitation": 0.2,
       "rain": 0.2,
-      "showers": 0.1,
-      "wind_speed_10m": 7.3,
-      "wind_gusts_10m": 16.9,
-      "weather_code": 55
+      "showers": 0.0,
+      "wind_speed_10m": 5.1,
+      "wind_gusts_10m": 15.8,
+      "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
-      "Chuva/precipitação detectada (0.6 mm)"
+      "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:19Z"
+    "createdAt": "2026-05-22T20:26:58Z"
   },
   {
     "active": true,
@@ -289,12 +317,40 @@
     "lon": -43.177,
     "risk": 39,
     "current": {
-      "time": "2026-05-22T16:30",
+      "time": "2026-05-22T17:15",
       "interval": 900,
-      "temperature_2m": 15.3,
-      "precipitation": 0.2,
-      "rain": 0.2,
+      "temperature_2m": 14.9,
+      "precipitation": 0.1,
+      "rain": 0.1,
       "showers": 0.0,
+      "wind_speed_10m": 4.7,
+      "wind_gusts_10m": 12.6,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-22T17:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-22T20:27:02Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Foz do Iguaçu",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -25.546,
+    "lon": -54.588,
+    "risk": 39,
+    "current": {
+      "time": "2026-05-22T17:15",
+      "interval": 900,
+      "temperature_2m": 14.5,
+      "precipitation": 0.2,
+      "rain": 0.1,
+      "showers": 0.1,
       "wind_speed_10m": 5.6,
       "wind_gusts_10m": 14.4,
       "weather_code": 53
@@ -303,8 +359,36 @@
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-22T16:30",
+    "time": "2026-05-22T17:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-22T19:42:18Z"
+    "createdAt": "2026-05-22T20:27:03Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Passo Fundo",
+    "region": "Sul",
+    "state": "RS",
+    "lat": -28.262,
+    "lon": -52.408,
+    "risk": 38,
+    "current": {
+      "time": "2026-05-22T17:15",
+      "interval": 900,
+      "temperature_2m": 14.1,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 5.7,
+      "wind_gusts_10m": 10.1,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-22T17:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-22T20:27:04Z"
   }
 ]
