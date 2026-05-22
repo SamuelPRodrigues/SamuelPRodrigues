@@ -21,7 +21,7 @@ env:
 jobs:
   update-all-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 22
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
@@ -31,14 +31,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Aguardar estabilidade inicial
+        run: sleep 30
       - name: Atualizar clima
         run: python scripts/update_climate_events.py
+      - name: Pausa antes de rodovias
+        run: sleep 75
       - name: Atualizar rodovias
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
         run: python scripts/update_road_events.py
+      - name: Pausa antes de operacionais
+        run: sleep 75
       - name: Atualizar alertas operacionais
         run: python3 scripts/update_operational_alerts.py
+      - name: Pausa antes do commit
+        run: sleep 30
       - name: Preparar commit
         run: |
           git add data/climate_events.json data/climate_events_status.json || true
