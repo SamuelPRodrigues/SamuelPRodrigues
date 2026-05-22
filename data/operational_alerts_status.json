@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T20:27:06Z",
+  "updatedAt": "2026-05-22T20:44:49Z",
   "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo + aliases amplos",
   "trustedSources": [
     "CNN Brasil",
@@ -17,7 +17,7 @@
   ],
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
   "sameDayWindowStartUtc": "20260522030000",
-  "sameDayWindowEndUtc": "20260522202706",
+  "sameDayWindowEndUtc": "20260522204449",
   "gdeltRequestsSucceeded": 1,
   "gdeltRequestFailures": 2,
   "googleNewsQueriesPlanned": 14,
@@ -25,19 +25,19 @@
   "trustedSourceRequestsSucceeded": 12,
   "googleNewsRequestFailures": 0,
   "retryRecoveries": 0,
-  "rawArticles": 1025,
+  "rawArticles": 1032,
   "eventsWritten": 0,
-  "skippedByDate": 410,
-  "skippedNoCity": 583,
+  "skippedByDate": 422,
+  "skippedNoCity": 575,
   "skippedNoRule": 5,
-  "skippedIrrelevant": 27,
-  "locationAliasMatches": 282,
+  "skippedIrrelevant": 30,
+  "locationAliasMatches": 287,
   "majorContextExceptions": 0,
   "keptPreviousOnFailure": false,
   "errors": [
-    "same-day-window tentativa 2: Expecting value: line 1 column 1 (char 0)",
+    "same-day-window tentativa 2: <urlopen error timed out>",
     "same-day-window tentativa 3: Expecting value: line 1 column 1 (char 0)",
-    "same-day-timespan-fallback tentativa 2: Expecting value: line 1 column 1 (char 0)",
+    "same-day-timespan-fallback tentativa 2: HTTP Error 429: Too Many Requests",
     "same-day-timespan-fallback tentativa 3: Expecting value: line 1 column 1 (char 0)"
   ]
 }
