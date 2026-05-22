@@ -1,62 +1,12 @@
 {
-  "updatedAt": "2026-05-22T14:55:38Z",
+  "updatedAt": "2026-05-22T14:57:16Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
+  "language": "pt-PT",
   "monitoredPoints": 5,
   "bboxRequestsPlanned": 5,
-  "bboxRequestsSucceeded": 0,
-  "rawIncidents": 0,
-  "eventsWritten": 0,
-  "errors": [
-    {
-      "bbox": [
-        -48.03,
-        -24.68,
-        -47.67,
-        -24.32
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
-    },
-    {
-      "bbox": [
-        -44.93,
-        -23.38,
-        -44.57,
-        -23.02
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
-    },
-    {
-      "bbox": [
-        -44.24,
-        -19.96,
-        -43.88,
-        -19.6
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
-    },
-    {
-      "bbox": [
-        -45.38,
-        -22.03,
-        -45.02,
-        -21.67
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
-    },
-    {
-      "bbox": [
-        -55.48,
-        -10.73,
-        -55.12,
-        -10.37
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unsupported language parameter value: pt-BR\"}}"
-    }
-  ]
+  "bboxRequestsSucceeded": 5,
+  "rawIncidents": 129,
+  "eventsWritten": 129,
+  "errors": []
 }
