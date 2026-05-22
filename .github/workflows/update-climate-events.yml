@@ -3,7 +3,7 @@ name: Atualizar eventos climaticos
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "3,18,33,48 * * * *"
 
 permissions:
   contents: write
@@ -13,13 +13,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Atualizar eventos climaticos
         run: python scripts/update_climate_events.py
-      - name: Commit automatico
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Atualiza eventos climaticos
-          file_pattern: data/climate_events.json data/climate_events_status.json
+      - name: Preparar commit
+        run: git add data/climate_events.json data/climate_events_status.json
+      - name: Verificar mudanças
+        id: verify_diff
+        run: |
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commitar mudanças
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza eventos climaticos"
+      - name: Enviar mudanças
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git pull --rebase origin main
+          git push origin HEAD:main
