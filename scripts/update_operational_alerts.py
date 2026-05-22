@@ -9,9 +9,11 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 OUTPUT = Path("data/operational_alerts.json")
 STATUS = Path("data/operational_alerts_status.json")
+BR_TZ = ZoneInfo("America/Sao_Paulo")
 
 # Pontos aproximados para geocodificação simples por cidade. Não marca local exato.
 CITIES = {
@@ -43,11 +45,32 @@ RULES = [
     ("Risco logístico", "Risco para carga ou entrega", 72, 12, ["roubo de carga", "carga roubada", "saque de carga"]),
     ("Infraestrutura", "Falha de infraestrutura", 45, 4, ["queda de árvore", "semáforo apagado", "falta de energia", "alagamento"]),
 ]
+
+SAME_DAY_QUERY = '("tiroteio" OR "confronto" OR "ação policial" OR "operação policial" OR "bloqueio" OR "manifestação" OR "protesto" OR "incêndio" OR "roubo de carga" OR "interdição" OR "alagamento") sourcecountry:BR'
+MAJOR_CONTEXT_QUERY = '("mortes" OR "mortos" OR "feridos" OR "megaoperação" OR "operação policial" OR "bloqueio total" OR "enchente" OR "deslizamento" OR "explosão" OR "incêndio de grandes proporções" OR "interdição total") sourcecountry:BR'
+MAJOR_CONTEXT_TERMS = ["mortes", "mortos", "feridos", "megaoperação", "bloqueio total", "enchente", "deslizamento", "explosão", "grandes proporções", "interdição total", "estado de emergência"]
 BLOCKED_DETAIL_TERMS = ["posição da polícia", "onde a polícia está", "rota da polícia", "viatura em", "blitz em tempo real"]
 
 
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def now_br() -> datetime:
+    return now_utc().astimezone(BR_TZ)
+
+
 def now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return now_utc().replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def gdelt_stamp(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S")
+
+
+def today_start_br_as_utc() -> datetime:
+    br = now_br()
+    return datetime(br.year, br.month, br.day, 0, 0, 0, tzinfo=BR_TZ).astimezone(timezone.utc)
 
 
 def write_json(path: Path, data: Any) -> None:
@@ -55,18 +78,23 @@ def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def fetch_gdelt() -> list[dict[str, Any]]:
-    query = '("tiroteio" OR "confronto" OR "ação policial" OR "operação policial" OR "bloqueio" OR "manifestação" OR "protesto" OR "incêndio" OR "roubo de carga" OR "interdição" OR "alagamento") sourcecountry:BR'
-    params = {
+def fetch_gdelt(query: str, *, start: datetime | None = None, end: datetime | None = None, timespan: str | None = None, maxrecords: int = 75) -> list[dict[str, Any]]:
+    params: dict[str, str] = {
         "query": query,
         "mode": "ArtList",
         "format": "json",
-        "timespan": "6h",
-        "maxrecords": "75",
+        "maxrecords": str(maxrecords),
         "sort": "HybridRel",
     }
+    if start and end:
+        params["startdatetime"] = gdelt_stamp(start)
+        params["enddatetime"] = gdelt_stamp(end)
+    elif timespan:
+        params["timespan"] = timespan
+    else:
+        params["timespan"] = "6h"
     url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "operational-alerts-brazil/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "operational-alerts-brazil/1.1"})
     with urllib.request.urlopen(req, timeout=30) as response:
         payload = json.loads(response.read().decode("utf-8", errors="replace"))
     return payload.get("articles", []) if isinstance(payload, dict) else []
@@ -100,9 +128,36 @@ def clean_title(title: str) -> str:
     return title[:140]
 
 
-def normalize(article: dict[str, Any]) -> dict[str, Any] | None:
+def article_datetime_br(article: dict[str, Any]) -> datetime | None:
+    raw = str(article.get("seendate") or "")
+    match = re.search(r"(\d{8})T?(\d{6})", raw)
+    if not match:
+        return None
+    try:
+        dt = datetime.strptime("".join(match.groups()), "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+        return dt.astimezone(BR_TZ)
+    except ValueError:
+        return None
+
+
+def is_same_day_article(article: dict[str, Any]) -> bool:
+    dt = article_datetime_br(article)
+    return bool(dt and dt.date() == now_br().date())
+
+
+def is_major_context(text: str, risk: int, article_dt: datetime | None) -> bool:
+    if not article_dt:
+        return False
+    if article_dt.date() == now_br().date():
+        return False
+    if article_dt < (now_br() - timedelta(hours=48)):
+        return False
+    t = text.casefold()
+    return risk >= 85 or any(term in t for term in MAJOR_CONTEXT_TERMS)
+
+
+def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dict[str, Any]) -> dict[str, Any] | None:
     title = str(article.get("title") or "")
-    desc = str(article.get("seendate") or "")
     url = str(article.get("url") or "")
     source = str(article.get("sourceCommonName") or article.get("domain") or "GDELT")
     text = f"{title} {source}"
@@ -111,6 +166,14 @@ def normalize(article: dict[str, Any]) -> dict[str, Any] | None:
     if not cls or not geo or not url:
         return None
     category, event_type, risk, expires_hours = cls
+    article_dt = article_datetime_br(article)
+    same_day = is_same_day_article(article)
+    major_context = allow_major_context and is_major_context(text, risk, article_dt)
+    if not same_day and not major_context:
+        status["skippedByDate"] += 1
+        return None
+    if major_context:
+        status["majorContextExceptions"] += 1
     lat, lon, city, uf = geo
     expires = datetime.now(timezone.utc) + timedelta(hours=expires_hours)
     return {
@@ -124,24 +187,49 @@ def normalize(article: dict[str, Any]) -> dict[str, Any] | None:
         "lon": lon,
         "radiusMeters": 2000 if category == "Segurança operacional" else 1200,
         "risk": risk,
-        "confidence": "fonte pública automatizada",
+        "confidence": "fonte pública automatizada" if same_day else "contexto de grande evento",
         "source": source,
         "sourceUrl": url,
         "headline": clean_title(title),
+        "newsDate": article_dt.isoformat() if article_dt else None,
+        "datePolicy": "same-day" if same_day else "major-event-context",
         "createdAt": now_iso(),
         "expiresAt": expires.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
     }
 
 
 def main() -> None:
-    status = {"updatedAt": now_iso(), "provider": "GDELT DOC 2.0", "rawArticles": 0, "eventsWritten": 0, "errors": []}
+    start = today_start_br_as_utc()
+    end = now_utc()
+    status: dict[str, Any] = {
+        "updatedAt": now_iso(),
+        "provider": "GDELT DOC 2.0",
+        "datePolicy": "same-day Brazil time; older articles only for major-event context",
+        "sameDayWindowStartUtc": gdelt_stamp(start),
+        "sameDayWindowEndUtc": gdelt_stamp(end),
+        "rawArticles": 0,
+        "eventsWritten": 0,
+        "skippedByDate": 0,
+        "majorContextExceptions": 0,
+        "errors": [],
+    }
     try:
-        articles = fetch_gdelt()
-        status["rawArticles"] = len(articles)
+        articles = fetch_gdelt(SAME_DAY_QUERY, start=start, end=end, maxrecords=100)
+        major_articles = fetch_gdelt(MAJOR_CONTEXT_QUERY, timespan="48h", maxrecords=40)
+        status["rawArticles"] = len(articles) + len(major_articles)
         seen: set[str] = set()
         events = []
         for article in articles:
-            event = normalize(article)
+            event = normalize(article, allow_major_context=False, status=status)
+            if not event:
+                continue
+            key = event["sourceUrl"]
+            if key in seen:
+                continue
+            seen.add(key)
+            events.append(event)
+        for article in major_articles:
+            event = normalize(article, allow_major_context=True, status=status)
             if not event:
                 continue
             key = event["sourceUrl"]
