@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brasil Rodovias: Mapa de Calor de Clima e Congestionamento</title>
+  <meta name="description" content="Mapa nacional de risco climático em rodovias brasileiras com importação de dados reais da PRF e integração opcional com TomTom Traffic." />
+  <link rel="preconnect" href="https://tile.openstreetmap.org" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQzVxwx9T9qYV/Pf3etZf4P9zQ5uGJQ=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: rgba(15, 23, 42, .92);
+      --card: rgba(30, 41, 59, .92);
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --line: rgba(148, 163, 184, .25);
+      --good: #38bdf8;
+      --warn: #f59e0b;
+      --danger: #ef4444;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--text); background: var(--bg); }
+    #map { height: 100vh; width: 100vw; background: #0b1220; }
+    .topbar { position: absolute; z-index: 1000; top: 16px; left: 16px; right: 16px; display: flex; gap: 12px; align-items: stretch; pointer-events: none; }
+    .hero, .stats, .panel { pointer-events: auto; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(2, 6, 23, .35); backdrop-filter: blur(14px); }
+    .hero { background: var(--panel); border-radius: 22px; padding: 16px 18px; max-width: 530px; }
+    .hero h1 { margin: 0 0 6px; font-size: clamp(18px, 3vw, 26px); line-height: 1.05; }
+    .hero p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .badge { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 8px; color: #bae6fd; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+    .stats { margin-left: auto; background: var(--panel); border-radius: 22px; display: grid; grid-template-columns: repeat(3, minmax(100px, 1fr)); overflow: hidden; min-width: 360px; }
+    .stat { padding: 14px 16px; border-left: 1px solid var(--line); }
+    .stat:first-child { border-left: 0; }
+    .stat strong { display: block; font-size: 22px; line-height: 1; }
+    .stat span { display: block; color: var(--muted); font-size: 12px; margin-top: 6px; }
+    .panel { position: absolute; z-index: 1000; bottom: 18px; left: 16px; width: min(450px, calc(100vw - 32px)); background: var(--panel); border-radius: 24px; padding: 16px; }
+    .panel h2 { margin: 0 0 10px; font-size: 16px; }
+    .controls { display: grid; gap: 10px; }
+    label { display: grid; gap: 6px; color: var(--muted); font-size: 12px; }
+    input, select, button { font: inherit; border-radius: 14px; border: 1px solid var(--line); background: rgba(15, 23, 42, .72); color: var(--text); padding: 10px 12px; outline: none; }
+    input[type="file"] { padding: 9px; }
+    button { cursor: pointer; background: linear-gradient(135deg, #0284c7, #0f766e); border: 0; font-weight: 700; }
+    button.secondary { background: rgba(15, 23, 42, .72); border: 1px solid var(--line); color: var(--text); }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .fineprint { color: var(--muted); font-size: 11px; line-height: 1.4; margin-top: 10px; }
+    .legend { position: absolute; z-index: 1000; right: 16px; bottom: 18px; width: min(330px, calc(100vw - 32px)); background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 14px 16px; box-shadow: 0 20px 60px rgba(2, 6, 23, .35); }
+    .legend h3 { margin: 0 0 10px; font-size: 14px; }
+    .scale { height: 12px; border-radius: 999px; background: linear-gradient(90deg, #22c55e, #eab308, #f97316, #ef4444); margin-bottom: 8px; }
+    .legend p { color: var(--muted); font-size: 11px; line-height: 1.45; margin: 0 0 8px; }
+    .source-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); font-size: 11px; line-height: 1.45; }
+    .source-list a { color: #93c5fd; }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #0f172a; color: var(--text); }
+    .leaflet-popup-content { font-size: 13px; line-height: 1.45; }
+    .pill { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 999px; background: rgba(56,189,248,.12); color: #bae6fd; margin-top: 6px; font-size: 11px; }
+    @media (max-width: 900px) { .topbar { flex-direction: column; right: 16px; } .stats { margin-left: 0; min-width: 0; } .hero { max-width: none; } .legend { display: none; } }
+    @media (max-width: 640px) { .panel { max-height: 45vh; overflow: auto; } .stats { grid-template-columns: 1fr 1fr 1fr; } .stat { padding: 10px; } .stat strong { font-size: 18px; } .hero p { display: none; } }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <header class="topbar">
+    <section class="hero">
+      <div class="badge">Brasil • Rodovias • Clima</div>
+      <h1>Mapa de calor de risco rodoviário climático</h1>
+      <p>Visualização nacional com clima real via Open-Meteo, corredores rodoviários brasileiros, importação de CSV da PRF e integração opcional com TomTom Traffic API para fluxo de trânsito em tempo real.</p>
+    </section>
+    <section class="stats" aria-live="polite">
+      <div class="stat"><strong id="riskAvg">--</strong><span>risco médio</span></div>
+      <div class="stat"><strong id="weatherPoints">--</strong><span>pontos climáticos</span></div>
+      <div class="stat"><strong id="trafficPoints">--</strong><span>pontos de tráfego</span></div>
+    </section>
+  </header>
+
+  <aside class="panel">
+    <h2>Controles do mapa</h2>
+    <div class="controls">
+      <div class="row">
+        <label>Camada principal
+          <select id="layerMode">
+            <option value="combined">Risco combinado</option>
+            <option value="weather">Clima real</option>
+            <option value="traffic">Trânsito / acidentes</option>
+          </select>
+        </label>
+        <label>Severidade mínima
+          <select id="minRisk">
+            <option value="0">Todas</option>
+            <option value="35">Médio+</option>
+            <option value="60">Alto+</option>
+            <option value="80">Crítico</option>
+          </select>
+        </label>
+      </div>
+
+      <label>Importar CSV real da PRF ou outro dataset com latitude/longitude
+        <input id="csvFile" type="file" accept=".csv,text/csv" />
+      </label>
+
+      <label>TomTom Traffic API key opcional, para trânsito em tempo real
+        <input id="tomtomKey" type="password" placeholder="Cole sua chave TomTom aqui, se tiver" />
+      </label>
+
+      <div class="row">
+        <button id="refreshWeather">Atualizar clima real</button>
+        <button id="loadTraffic" class="secondary">Usar TomTom</button>
+      </div>
+    </div>
+    <p class="fineprint">Sem chave TomTom, o mapa não inventa congestionamento ao vivo: usa clima real + pontos rodoviários de referência e dados importados. O CSV fica só no seu navegador.</p>
+  </aside>
+
+  <aside class="legend">
+    <h3>Como ler o mapa</h3>
+    <div class="scale"></div>
+    <p>Verde indica baixo risco; amarelo/laranja indicam atenção; vermelho indica risco elevado por chuva, vento, calor/frio extremo, baixa visibilidade presumida ou tráfego importado/API.</p>
+    <ul class="source-list">
+      <li>Clima: <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">Open-Meteo</a></li>
+      <li>Mapa base: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a></li>
+      <li>Trânsito real opcional: <a href="https://developer.tomtom.com/traffic-api" target="_blank" rel="noreferrer">TomTom Traffic API</a></li>
+      <li>CSV sugerido: dados abertos de acidentes da PRF</li>
+    </ul>
+  </aside>
+
+  <script>
+    const corridors = [
+      { name: 'BR-116 • Régis Bittencourt / Sudeste-Sul', lat: -24.50, lon: -47.85, road: 'BR-116' },
+      { name: 'BR-101 • Rio-Santos / Litoral Sudeste', lat: -23.20, lon: -44.75, road: 'BR-101' },
+      { name: 'BR-040 • Brasília-BH-Rio', lat: -19.78, lon: -44.06, road: 'BR-040' },
+      { name: 'BR-381 • Fernão Dias', lat: -21.85, lon: -45.20, road: 'BR-381' },
+      { name: 'BR-262 • MS-MG-ES', lat: -20.45, lon: -45.20, road: 'BR-262' },
+      { name: 'BR-153 • Transbrasiliana', lat: -16.50, lon: -49.20, road: 'BR-153' },
+      { name: 'BR-364 • MT-RO-AC', lat: -13.15, lon: -56.10, road: 'BR-364' },
+      { name: 'BR-163 • Cuiabá-Santarém', lat: -10.55, lon: -55.30, road: 'BR-163' },
+      { name: 'BR-230 • Transamazônica', lat: -5.20, lon: -52.80, road: 'BR-230' },
+      { name: 'BR-316 • Pará-Maranhão-Piauí', lat: -3.90, lon: -47.70, road: 'BR-316' },
+      { name: 'BR-222 • Ceará-Maranhão-Pará', lat: -3.40, lon: -43.80, road: 'BR-222' },
+      { name: 'BR-020 • Brasília-Fortaleza', lat: -10.85, lon: -44.15, road: 'BR-020' },
+      { name: 'BR-242 • Bahia-Tocantins', lat: -12.20, lon: -45.40, road: 'BR-242' },
+      { name: 'BR-470 • Vale do Itajaí', lat: -27.05, lon: -49.15, road: 'BR-470' },
+      { name: 'BR-290 • Freeway / RS', lat: -30.02, lon: -51.05, road: 'BR-290' },
+      { name: 'BR-277 • Paraná', lat: -25.45, lon: -49.80, road: 'BR-277' },
+      { name: 'BR-060 • Brasília-Goiânia-Campo Grande', lat: -17.20, lon: -54.90, road: 'BR-060' },
+      { name: 'BR-174 • Manaus-Boa Vista', lat: 0.95, lon: -60.15, road: 'BR-174' },
+      { name: 'BR-135 • Maranhão-Piauí-MG', lat: -7.75, lon: -43.70, road: 'BR-135' },
+      { name: 'BR-304 • Natal-Fortaleza', lat: -5.45, lon: -37.20, road: 'BR-304' }
+    ];
+
+    const state = {
+      weather: [],
+      importedTraffic: [],
+      tomtomTraffic: [],
+      markers: [],
+      heatLayer: null,
+      markerLayer: L.layerGroup(),
+    };
+
+    const map = L.map('map', { zoomControl: false }).setView([-14.2, -52.2], 4);
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    state.markerLayer.addTo(map);
+
+    function clamp(value, min, max) { return Math.max(min, Math.min(max, value)); }
+    function normalize(value, max) { return clamp(value / max, 0, 1); }
+    function parseDecimal(value) {
+      if (value === undefined || value === null) return NaN;
+      return Number(String(value).trim().replace(',', '.'));
+    }
+    function colorForRisk(risk) {
+      if (risk >= 80) return '#ef4444';
+      if (risk >= 60) return '#f97316';
+      if (risk >= 35) return '#eab308';
+      return '#22c55e';
+    }
+
+    function weatherRisk(w) {
+      const precipitation = Number(w.precipitation || 0);
+      const rain = Number(w.rain || 0);
+      const showers = Number(w.showers || 0);
+      const wind = Number(w.wind_speed_10m || 0);
+      const gust = Number(w.wind_gusts_10m || 0);
+      const temp = Number(w.temperature_2m || 0);
+      const precipRisk = normalize(precipitation + rain + showers, 20) * 45;
+      const windRisk = normalize(Math.max(wind, gust * 0.75), 80) * 30;
+      const heatRisk = temp >= 35 ? normalize(temp - 34, 10) * 15 : 0;
+      const coldRisk = temp <= 8 ? normalize(8 - temp, 10) * 10 : 0;
+      return Math.round(clamp(precipRisk + windRisk + heatRisk + coldRisk, 0, 100));
+    }
+
+    function trafficBaseline(index) {
+      // Baseline conservador só para visualização quando não há API/CSV: corredores com maior fluxo esperado recebem peso maior.
+      const weights = [72, 58, 62, 76, 48, 55, 46, 52, 38, 40, 35, 44, 36, 57, 61, 64, 42, 33, 34, 39];
+      return weights[index] || 35;
+    }
+
+    async function fetchWeather() {
+      const latitudes = corridors.map(c => c.lat).join(',');
+      const longitudes = corridors.map(c => c.lon).join(',');
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitudes}&longitude=${longitudes}&current=temperature_2m,precipitation,rain,showers,wind_speed_10m,wind_gusts_10m&timezone=America%2FSao_Paulo`;
+      const response = await fetch(url);
+      if (!response.ok) throw new Error('Falha ao buscar clima real');
+      const data = await response.json();
+      const list = Array.isArray(data) ? data : [data];
+      state.weather = list.map((item, index) => ({
+        ...corridors[index],
+        current: item.current || {},
+        risk: weatherRisk(item.current || {}),
+        time: item.current?.time || 'sem horário'
+      }));
+      render();
+    }
+
+    function currentTrafficRiskFor(corridor, index) {
+      const tomtom = state.tomtomTraffic.find(t => t.road === corridor.road);
+      if (tomtom) return tomtom.risk;
+      const importedNearby = state.importedTraffic.filter(p => Math.abs(p.lat - corridor.lat) < 1.2 && Math.abs(p.lon - corridor.lon) < 1.2);
+      if (importedNearby.length) return clamp(35 + importedNearby.length * 3, 0, 100);
+      return trafficBaseline(index);
+    }
+
+    function render() {
+      const mode = document.getElementById('layerMode').value;
+      const minRisk = Number(document.getElementById('minRisk').value);
+      const base = state.weather.length ? state.weather : corridors.map((c, i) => ({ ...c, risk: 0, current: {}, time: 'não carregado' }));
+      const points = [];
+      const markers = [];
+
+      base.forEach((corridor, index) => {
+        const climate = corridor.risk || 0;
+        const traffic = currentTrafficRiskFor(corridor, index);
+        const combined = Math.round(clamp(climate * 0.58 + traffic * 0.42, 0, 100));
+        const risk = mode === 'weather' ? climate : mode === 'traffic' ? traffic : combined;
+        if (risk < minRisk) return;
+        points.push([corridor.lat, corridor.lon, Math.max(0.15, risk / 100)]);
+        markers.push({ ...corridor, climate, traffic, combined, risk });
+      });
+
+      if (mode === 'traffic' || mode === 'combined') {
+        state.importedTraffic.forEach(p => {
+          const risk = p.risk || 65;
+          if (risk >= minRisk) points.push([p.lat, p.lon, Math.max(0.2, risk / 100)]);
+        });
+      }
+
+      if (state.heatLayer) map.removeLayer(state.heatLayer);
+      state.heatLayer = L.heatLayer(points, { radius: 34, blur: 28, maxZoom: 8, gradient: { 0.20: '#22c55e', 0.45: '#eab308', 0.70: '#f97316', 1.00: '#ef4444' } }).addTo(map);
+
+      state.markerLayer.clearLayers();
+      markers.forEach(m => {
+        const marker = L.circleMarker([m.lat, m.lon], {
+          radius: 8,
+          color: colorForRisk(m.risk),
+          fillColor: colorForRisk(m.risk),
+          fillOpacity: .86,
+          weight: 2
+        });
+        const temp = m.current.temperature_2m ?? '--';
+        const precip = m.current.precipitation ?? '--';
+        const wind = m.current.wind_speed_10m ?? '--';
+        marker.bindPopup(`<strong>${m.name}</strong><br><span class="pill">${m.road}</span><br>Risco exibido: <strong>${m.risk}</strong>/100<br>Clima real: ${m.climate}/100<br>Trânsito/API/CSV: ${m.traffic}/100<br>Temperatura: ${temp} °C<br>Precipitação: ${precip} mm<br>Vento: ${wind} km/h<br>Atualização clima: ${m.time}`);
+        marker.addTo(state.markerLayer);
+      });
+
+      const avg = markers.length ? Math.round(markers.reduce((sum, item) => sum + item.risk, 0) / markers.length) : 0;
+      document.getElementById('riskAvg').textContent = avg || '--';
+      document.getElementById('weatherPoints').textContent = state.weather.length || '--';
+      document.getElementById('trafficPoints').textContent = state.importedTraffic.length + state.tomtomTraffic.length || '--';
+    }
+
+    function parseCSV(text) {
+      const lines = text.split(/\r?\n/).filter(Boolean);
+      if (!lines.length) return [];
+      const separator = (lines[0].match(/;/g) || []).length > (lines[0].match(/,/g) || []).length ? ';' : ',';
+      const headers = lines.shift().split(separator).map(h => h.trim().toLowerCase());
+      const latIndex = headers.findIndex(h => ['latitude', 'lat', 'y'].includes(h));
+      const lonIndex = headers.findIndex(h => ['longitude', 'lon', 'lng', 'long', 'x'].includes(h));
+      const brIndex = headers.findIndex(h => h === 'br' || h.includes('rodovia'));
+      if (latIndex < 0 || lonIndex < 0) throw new Error('CSV precisa ter colunas latitude e longitude');
+      return lines.map(line => {
+        const cols = line.split(separator);
+        const lat = parseDecimal(cols[latIndex]);
+        const lon = parseDecimal(cols[lonIndex]);
+        const br = brIndex >= 0 ? cols[brIndex] : 'CSV';
+        if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+        return { lat, lon, road: br, risk: 75 };
+      }).filter(Boolean);
+    }
+
+    async function loadTomTom() {
+      const key = document.getElementById('tomtomKey').value.trim();
+      if (!key) {
+        alert('Cole uma chave TomTom para ativar tráfego em tempo real. Sem ela, o site mantém clima real e dados importados.');
+        return;
+      }
+      const selected = corridors.slice(0, 10); // limita chamadas no navegador
+      const results = [];
+      for (const c of selected) {
+        try {
+          const url = `https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json?point=${c.lat},${c.lon}&unit=KMPH&key=${encodeURIComponent(key)}`;
+          const response = await fetch(url);
+          if (!response.ok) continue;
+          const data = await response.json();
+          const flow = data.flowSegmentData || {};
+          const free = Number(flow.freeFlowSpeed || 0);
+          const current = Number(flow.currentSpeed || 0);
+          const loss = free > 0 ? clamp((free - current) / free, 0, 1) : 0;
+          results.push({ ...c, risk: Math.round(25 + loss * 75), currentSpeed: current, freeFlowSpeed: free });
+        } catch (error) {
+          console.warn('Falha TomTom em', c.name, error);
+        }
+      }
+      state.tomtomTraffic = results;
+      render();
+      alert(results.length ? `TomTom carregado em ${results.length} pontos.` : 'Não consegui carregar dados TomTom. Verifique a chave, CORS, limite da API ou permissões.');
+    }
+
+    document.getElementById('refreshWeather').addEventListener('click', () => fetchWeather().catch(err => alert(err.message)));
+    document.getElementById('loadTraffic').addEventListener('click', loadTomTom);
+    document.getElementById('layerMode').addEventListener('change', render);
+    document.getElementById('minRisk').addEventListener('change', render);
+    document.getElementById('csvFile').addEventListener('change', async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        state.importedTraffic = parseCSV(text);
+        render();
+        alert(`CSV carregado: ${state.importedTraffic.length} pontos com latitude/longitude.`);
+      } catch (error) {
+        alert(error.message || 'Erro ao ler CSV');
+      }
+    });
+
+    render();
+    fetchWeather().catch(error => {
+      console.error(error);
+      render();
+    });
+  </script>
+</body>
+</html>
