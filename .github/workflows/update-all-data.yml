@@ -2,6 +2,9 @@ name: Atualizar todos os dados
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - update_all_data
   schedule:
     - cron: "5,20,35,50 * * * *"
 
