@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Administração • Mapa Rodoviário Climático</title>
+  <style>
+    :root{--bg:#07111f;--panel:#0f172a;--panel2:#111c31;--text:#e5e7eb;--muted:#94a3b8;--line:rgba(148,163,184,.28);--accent:#38bdf8;--danger:#ef4444}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:linear-gradient(135deg,#07111f,#0f172a);color:var(--text)}main{width:min(1180px,calc(100vw - 32px));margin:24px auto 80px}.top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;margin-bottom:18px}.card{background:rgba(15,23,42,.94);border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.hero{padding:18px 20px}.hero h1{margin:0 0 8px;font-size:30px}.hero p{margin:0;color:var(--muted);line-height:1.45}.actions{display:flex;gap:10px;flex-wrap:wrap}.btn,button,a.btn{border:0;border-radius:14px;padding:11px 14px;color:white;background:linear-gradient(135deg,#0284c7,#0f766e);font-weight:800;text-decoration:none;cursor:pointer}.btn.secondary,button.secondary{background:#172033;border:1px solid var(--line)}.btn.danger,button.danger{background:var(--danger)}.grid{display:grid;grid-template-columns:380px 1fr;gap:16px}.panel{padding:16px}label{font-size:12px;color:var(--muted);display:grid;gap:7px;margin-bottom:12px}input,select,textarea{width:100%;font:inherit;border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#07111f;color:var(--text)}textarea{min-height:180px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}.roads{display:grid;gap:10px}.road{display:grid;grid-template-columns:1.5fr .7fr .7fr .8fr .8fr auto;gap:8px;align-items:end;background:var(--panel2);border:1px solid var(--line);border-radius:18px;padding:12px}.road label{margin:0}.road button{padding:10px 12px}.notice{border-left:4px solid var(--accent);padding:12px 14px;color:var(--muted);line-height:1.45;background:rgba(56,189,248,.08);border-radius:14px;margin:12px 0}.small{font-size:12px;color:var(--muted);line-height:1.45}.status{margin-top:10px;color:#bae6fd;font-size:13px;min-height:20px}@media(max-width:900px){.grid{grid-template-columns:1fr}.top{flex-direction:column}.road{grid-template-columns:1fr 1fr}.road label:first-child{grid-column:1/-1}}
+  </style>
+</head>
+<body>
+<main>
+  <section class="top">
+    <div class="card hero"><h1>Administração do mapa</h1><p>Edite nome, intervalo de atualização, filtros padrão e corredores monitorados. Nesta versão estática do GitHub Pages, as alterações são salvas no navegador do administrador e podem ser exportadas como JSON para substituir o arquivo <code>data/config.json</code>.</p></div>
+    <div class="actions"><a class="btn secondary" href="index.html">Ver página pública</a><button id="saveBtn">Salvar localmente</button><button id="exportBtn" class="secondary">Exportar JSON</button><button id="resetBtn" class="danger">Restaurar padrão</button></div>
+  </section>
+  <section class="grid">
+    <aside class="card panel">
+      <label>Nome do sistema<input id="appName" /></label>
+      <label>Atualizar clima a cada quantos minutos?<input id="refreshMinutes" type="number" min="1" max="120" /></label>
+      <label>Camada padrão<select id="defaultLayer"><option value="combined">Risco combinado</option><option value="weather">Clima real</option><option value="traffic">Risco rodoviário estimado</option></select></label>
+      <label>Severidade mínima padrão<select id="defaultMinRisk"><option value="0">Todas</option><option value="35">Médio+</option><option value="60">Alto+</option><option value="80">Crítico</option></select></label>
+      <div class="notice">Para auto-atualização sem input, a página pública busca a API da Open-Meteo automaticamente no carregamento e depois no intervalo definido aqui.</div>
+      <label>Importar configuração JSON<textarea id="jsonImport" placeholder="Cole aqui um JSON de configuração para importar"></textarea></label>
+      <button id="importBtn" class="secondary">Importar JSON colado</button>
+      <div id="status" class="status"></div>
+      <p class="small">Observação: proteção real de administrador exige backend/login. Em GitHub Pages puro, qualquer pessoa que saiba o link consegue abrir esta página. Para produção, use Netlify/Vercel com autenticação ou um backend.</p>
+    </aside>
+    <section class="card panel">
+      <div class="actions" style="justify-content:space-between;margin-bottom:12px"><h2 style="margin:0">Corredores rodoviários</h2><button id="addRoad" class="secondary">Adicionar rodovia</button></div>
+      <div id="roads" class="roads"></div>
+    </section>
+  </section>
+</main>
+<script>
+const STORE='rodovias_clima_config_v1';
+let config=null;
+const $=id=>document.getElementById(id);
+async function load(){const local=localStorage.getItem(STORE);if(local){config=JSON.parse(local)}else{const r=await fetch('data/config.json?ts='+Date.now());config=await r.json()}fill();renderRoads()}
+function fill(){appName.value=config.appName||'';refreshMinutes.value=config.refreshMinutes||10;defaultLayer.value=config.defaultLayer||'combined';defaultMinRisk.value=String(config.defaultMinRisk??0)}
+function collect(){config.appName=appName.value.trim()||'Mapa Rodoviário Climático do Brasil';config.refreshMinutes=Math.max(1,Number(refreshMinutes.value||10));config.defaultLayer=defaultLayer.value;config.defaultMinRisk=Number(defaultMinRisk.value||0);config.roads=[...document.querySelectorAll('.road')].map(row=>({name:row.querySelector('[data-k=name]').value.trim(),road:row.querySelector('[data-k=road]').value.trim(),lat:Number(row.querySelector('[data-k=lat]').value),lon:Number(row.querySelector('[data-k=lon]').value),trafficWeight:Number(row.querySelector('[data-k=trafficWeight]').value)})).filter(r=>r.name&&Number.isFinite(r.lat)&&Number.isFinite(r.lon));return config}
+function renderRoads(){roads.innerHTML='';(config.roads||[]).forEach((r,i)=>roads.appendChild(roadRow(r,i)))}
+function roadRow(r,i){const div=document.createElement('div');div.className='road';div.innerHTML=`<label>Nome<input data-k="name" value="${esc(r.name||'')}"></label><label>BR<input data-k="road" value="${esc(r.road||'')}"></label><label>Latitude<input data-k="lat" type="number" step="0.0001" value="${r.lat??0}"></label><label>Longitude<input data-k="lon" type="number" step="0.0001" value="${r.lon??0}"></label><label>Peso 0-100<input data-k="trafficWeight" type="number" min="0" max="100" value="${r.trafficWeight??35}"></label><button class="danger" type="button">Excluir</button>`;div.querySelector('button').onclick=()=>{div.remove();setStatus('Rodovia removida. Clique em salvar para manter.')};return div}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function setStatus(t){status.textContent=t;setTimeout(()=>{if(status.textContent===t)status.textContent=''},5000)}
+saveBtn.onclick=()=>{localStorage.setItem(STORE,JSON.stringify(collect(),null,2));setStatus('Configuração salva localmente. Abra a página pública neste mesmo navegador para ver as alterações.')}
+exportBtn.onclick=()=>{const data=JSON.stringify(collect(),null,2);const blob=new Blob([data],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='config.json';a.click();URL.revokeObjectURL(url);jsonImport.value=data;setStatus('JSON exportado. Para publicar globalmente, substitua data/config.json no GitHub.')}
+resetBtn.onclick=()=>{if(confirm('Remover alterações locais e voltar ao config.json publicado?')){localStorage.removeItem(STORE);location.reload()}}
+addRoad.onclick=()=>{roads.appendChild(roadRow({name:'Nova rodovia',road:'BR-',lat:-15,lon:-47,trafficWeight:35},Date.now()))}
+importBtn.onclick=()=>{try{config=JSON.parse(jsonImport.value);fill();renderRoads();setStatus('JSON importado. Clique em salvar localmente para aplicar.')}catch(e){setStatus('JSON inválido: '+e.message)}}
+load().catch(e=>setStatus('Erro ao carregar configuração: '+e.message));
+</script>
+</body>
+</html>
