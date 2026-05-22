@@ -37,8 +37,6 @@ DEFAULT_WATCH_POINTS = [
     {"name": "Freeway RS", "lat": -30.02, "lon": -51.05, "road": "BR-290"},
     {"name": "Curitiba-Paranaguá", "lat": -25.45, "lon": -49.00, "road": "BR-277"},
     {"name": "Vale do Itajaí", "lat": -27.05, "lon": -49.15, "road": "BR-470"},
-    {"name": "SP Capital", "lat": -23.55, "lon": -46.63, "road": "SP"},
-    {"name": "RJ Capital", "lat": -22.90, "lon": -43.20, "road": "RJ"},
 ]
 
 
@@ -80,11 +78,11 @@ def monitored_points() -> list[dict[str, Any]]:
         if (lat, lon) in seen:
             continue
         seen.add((lat, lon))
-        result.append({**item, "lat": lat, "lon": lon})
+        result.append({**item, "lat": lat, "lon": lon, "road": item.get("road") or item.get("name") or "Corredor rodoviário"})
     return result
 
 
-def bbox_around(lat: float, lon: float, delta: float = 0.18) -> tuple[float, float, float, float]:
+def bbox_around(lat: float, lon: float, delta: float = 0.07) -> tuple[float, float, float, float]:
     return (round(lon - delta, 4), round(lat - delta, 4), round(lon + delta, 4), round(lat + delta, 4))
 
 
@@ -114,22 +112,30 @@ def is_finished(description: str) -> bool:
     return any(word in text for word in ENDED_WORDS)
 
 
+def split_names(value: Any) -> list[str]:
+    values = value if isinstance(value, list) else [value]
+    names: list[str] = []
+    for item in values:
+        if isinstance(item, str):
+            for part in re.split(r"\s*/\s*|\s*;\s*|\s+--\s+", item):
+                part = part.strip(" ,;|-")
+                if part:
+                    names.append(part)
+    return names
+
+
 def is_road_allowed(text: str) -> bool:
     if not text or LOCAL_WORD_RE.search(text):
         return False
     return bool(ROAD_CODE_RE.search(text) or ROAD_WORD_RE.search(text))
 
 
-def split_names(value: Any) -> list[str]:
-    values = value if isinstance(value, list) else [value]
-    names: list[str] = []
-    for item in values:
-        if isinstance(item, str):
-            for part in re.split(r"\s*/\s*|\s*;\s*", item):
-                part = part.strip(" ,;|-")
-                if part:
-                    names.append(part)
-    return names
+def has_local_street(properties: dict[str, Any]) -> bool:
+    for key in ("roadName", "from", "to"):
+        for name in split_names(properties.get(key)):
+            if LOCAL_WORD_RE.search(name):
+                return True
+    return False
 
 
 def get_road(properties: dict[str, Any]) -> str | None:
@@ -150,14 +156,14 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
         "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.8"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.9"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
         return incidents if isinstance(incidents, list) else []
 
 
-def normalize_incident(incident: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
+def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
     geometry = incident.get("geometry") or {}
     props = incident.get("properties") or {}
     if not isinstance(geometry, dict) or not isinstance(props, dict):
@@ -171,8 +177,12 @@ def normalize_incident(incident: dict[str, Any]) -> tuple[dict[str, Any] | None,
     if is_finished(description):
         return None, "finished"
     road = get_road(props)
+    fallback_used = False
     if not road:
-        return None, "non_highway"
+        if has_local_street(props):
+            return None, "local_street"
+        road = str(corridor.get("road") or corridor.get("name") or "Corredor rodoviário")
+        fallback_used = True
     lat, lon = coord
     risk = CATEGORY_RISK.get(category, 60)
     delay = props.get("delay") or props.get("magnitudeOfDelay")
@@ -182,7 +192,9 @@ def normalize_incident(incident: dict[str, Any]) -> tuple[dict[str, Any] | None,
         "active": True,
         "name": f"{label} • {road}",
         "road": road,
+        "corridor": corridor.get("name") or road,
         "isMainRoad": True,
+        "fallbackCorridor": fallback_used,
         "lat": round(lat, 6),
         "lon": round(lon, 6),
         "eventType": label,
@@ -195,20 +207,19 @@ def normalize_incident(incident: dict[str, Any]) -> tuple[dict[str, Any] | None,
 
 def main() -> None:
     points = monitored_points()
-    boxes = [bbox_around(float(point["lat"]), float(point["lon"])) for point in points]
     status: dict[str, Any] = {
         "updatedAt": now_iso(),
         "provider": "TomTom Traffic API",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
-        "riskRule": "Somente eventos em rodovias ou vias expressas são gravados.",
+        "riskRule": "Meio-termo: aceita rodovias/códigos claros e ocorrências próximas a corredores monitorados, descartando ruas e avenidas locais.",
         "monitoredPoints": len(points),
-        "bboxRequestsPlanned": len(boxes),
+        "bboxRequestsPlanned": len(points),
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
         "skippedFinishedOrInvalid": 0,
-        "skippedNonHighway": 0,
+        "skippedLocalStreet": 0,
         "errors": [],
     }
 
@@ -221,16 +232,17 @@ def main() -> None:
 
     seen = set()
     output = []
-    for bbox in boxes:
+    for point in points:
+        bbox = bbox_around(float(point["lat"]), float(point["lon"]))
         try:
             incidents = fetch_bbox(bbox)
             status["bboxRequestsSucceeded"] += 1
             status["rawIncidents"] += len(incidents)
             for incident in incidents:
-                normalized, reason = normalize_incident(incident)
+                normalized, reason = normalize_incident(incident, point)
                 if not normalized:
-                    if reason == "non_highway":
-                        status["skippedNonHighway"] += 1
+                    if reason == "local_street":
+                        status["skippedLocalStreet"] += 1
                     else:
                         status["skippedFinishedOrInvalid"] += 1
                     continue
