@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""Atualiza data/road_events.json com incidentes rodoviários da TomTom Traffic API.
-
-A API da TomTom limita a área do bbox. Por isso, este script consulta áreas
-pequenas ao redor de corredores/pontos rodoviários monitorados, mantendo o uso
-compatível com o plano gratuito.
-"""
 from __future__ import annotations
 
 import json
@@ -22,21 +16,13 @@ STATUS_OUTPUT = Path("data/road_events_status.json")
 API_KEY = os.environ.get("TOMTOM_API_KEY", "").strip()
 
 CATEGORY_LABELS = {
-    1: "Acidente",
-    2: "Neblina",
-    3: "Condição perigosa",
-    4: "Chuva",
-    5: "Gelo/neve",
-    6: "Congestionamento",
-    7: "Faixa bloqueada",
-    8: "Interdição",
-    9: "Obra",
-    10: "Vento forte",
-    11: "Alagamento",
+    1: "Acidente", 2: "Neblina", 3: "Condição perigosa", 4: "Chuva",
+    5: "Gelo/neve", 6: "Congestionamento", 7: "Faixa bloqueada",
+    8: "Interdição", 9: "Obra", 10: "Vento forte", 11: "Alagamento",
     14: "Veículo parado",
 }
-
 CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 70, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
+ENDED_WORDS = ("encerrado", "encerrada", "ended", "cleared", "terminado", "terminada")
 
 DEFAULT_WATCH_POINTS = [
     {"name": "Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
@@ -61,13 +47,8 @@ def load_json(path: Path, fallback: Any) -> Any:
         if path.exists():
             return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        return fallback
+        pass
     return fallback
-
-
-def load_existing() -> list[dict[str, Any]]:
-    data = load_json(OUTPUT, [])
-    return data if isinstance(data, list) else []
 
 
 def write_json(path: Path, data: Any) -> None:
@@ -83,53 +64,50 @@ def monitored_points() -> list[dict[str, Any]]:
             value = config.get(key)
             if isinstance(value, list):
                 points.extend(item for item in value if isinstance(item, dict))
-    if not points:
-        points = DEFAULT_WATCH_POINTS
-
-    unique: dict[tuple[float, float], dict[str, Any]] = {}
+    points = points or DEFAULT_WATCH_POINTS
+    result = []
+    seen = set()
     for item in points:
         try:
             lat = round(float(item["lat"]), 4)
             lon = round(float(item["lon"]), 4)
         except Exception:
             continue
-        unique[(lat, lon)] = {**item, "lat": lat, "lon": lon}
-    return list(unique.values())
+        if (lat, lon) in seen:
+            continue
+        seen.add((lat, lon))
+        result.append({**item, "lat": lat, "lon": lon})
+    return result
 
 
 def bbox_around(lat: float, lon: float, delta: float = 0.18) -> tuple[float, float, float, float]:
     return (round(lon - delta, 4), round(lat - delta, 4), round(lon + delta, 4), round(lat + delta, 4))
 
 
-def bboxes_from_points(points: list[dict[str, Any]]) -> list[tuple[float, float, float, float]]:
-    return [bbox_around(float(point["lat"]), float(point["lon"])) for point in points]
-
-
 def first_coordinate(geometry: dict[str, Any]) -> tuple[float, float] | None:
     coords = geometry.get("coordinates")
-    if not coords:
-        return None
     if isinstance(coords, list) and len(coords) >= 2 and all(isinstance(x, (int, float)) for x in coords[:2]):
-        lon, lat = float(coords[0]), float(coords[1])
-        return lat, lon
+        return float(coords[1]), float(coords[0])
     if isinstance(coords, list):
         for item in coords:
             if isinstance(item, list) and len(item) >= 2:
-                lon, lat = float(item[0]), float(item[1])
-                return lat, lon
+                return float(item[1]), float(item[0])
     return None
 
 
 def event_description(properties: dict[str, Any], label: str) -> str:
-    events = properties.get("events") or []
-    descriptions: list[str] = []
-    if isinstance(events, list):
-        for event in events:
-            if isinstance(event, dict):
-                text = event.get("description") or event.get("phrase") or event.get("eventDescription")
-                if text and text not in descriptions:
-                    descriptions.append(str(text))
-    return "; ".join(descriptions[:3]) if descriptions else f"Evento detectado pela TomTom Traffic API: {label}."
+    texts = []
+    for event in properties.get("events") or []:
+        if isinstance(event, dict):
+            text = event.get("description") or event.get("phrase") or event.get("eventDescription")
+            if text and text not in texts:
+                texts.append(str(text))
+    return "; ".join(texts[:3]) if texts else f"Evento detectado pela TomTom Traffic API: {label}."
+
+
+def is_finished(description: str) -> bool:
+    text = description.casefold()
+    return any(word in text for word in ENDED_WORDS)
 
 
 def get_road(properties: dict[str, Any]) -> str:
@@ -142,7 +120,7 @@ def get_road(properties: dict[str, Any]) -> str:
     return "Rodovia"
 
 
-def fetch_bbox(bbox: tuple[float, float, float, float]) -> tuple[list[dict[str, Any]], int]:
+def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
     west, south, east, north = bbox
     fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,length,delay}}}"
     query = urllib.parse.urlencode({
@@ -152,11 +130,11 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> tuple[list[dict[str, 
         "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.3"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.5"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
-        return incidents if isinstance(incidents, list) else [], int(response.status)
+        return incidents if isinstance(incidents, list) else []
 
 
 def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
@@ -167,9 +145,12 @@ def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
     coord = first_coordinate(geometry)
     if not coord:
         return None
-    lat, lon = coord
     category = int(props.get("iconCategory") or 0)
     label = CATEGORY_LABELS.get(category, "Ocorrência rodoviária")
+    description = event_description(props, label)
+    if is_finished(description):
+        return None
+    lat, lon = coord
     risk = CATEGORY_RISK.get(category, 60)
     delay = props.get("delay") or props.get("magnitudeOfDelay")
     if isinstance(delay, (int, float)) and delay > 600:
@@ -182,7 +163,7 @@ def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
         "lat": round(lat, 6),
         "lon": round(lon, 6),
         "eventType": label,
-        "description": event_description(props, label),
+        "description": description,
         "risk": risk,
         "source": "TomTom Traffic API",
         "updatedAt": now_iso(),
@@ -191,7 +172,7 @@ def normalize_incident(incident: dict[str, Any]) -> dict[str, Any] | None:
 
 def main() -> None:
     points = monitored_points()
-    boxes = bboxes_from_points(points)
+    boxes = [bbox_around(float(point["lat"]), float(point["lon"])) for point in points]
     status: dict[str, Any] = {
         "updatedAt": now_iso(),
         "provider": "TomTom Traffic API",
@@ -202,27 +183,28 @@ def main() -> None:
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
+        "skippedFinishedOrInvalid": 0,
         "errors": [],
     }
 
     if not API_KEY:
-        write_json(OUTPUT, load_existing())
+        write_json(OUTPUT, load_json(OUTPUT, []))
         status["errors"].append("TOMTOM_API_KEY não está configurada nos Secrets do GitHub Actions.")
         write_json(STATUS_OUTPUT, status)
         print(json.dumps(status, ensure_ascii=False, indent=2))
         return
 
-    seen: set[tuple[str, float, float, str]] = set()
-    output: list[dict[str, Any]] = []
-
+    seen = set()
+    output = []
     for bbox in boxes:
         try:
-            incidents, _ = fetch_bbox(bbox)
+            incidents = fetch_bbox(bbox)
             status["bboxRequestsSucceeded"] += 1
             status["rawIncidents"] += len(incidents)
             for incident in incidents:
                 normalized = normalize_incident(incident)
                 if not normalized:
+                    status["skippedFinishedOrInvalid"] += 1
                     continue
                 key = (normalized["eventType"], round(float(normalized["lat"]), 3), round(float(normalized["lon"]), 3), normalized["road"])
                 if key in seen:
