@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import email.utils
 import json
 import re
 import time
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -47,6 +49,12 @@ RULES = [
 
 SAME_DAY_QUERY = '("tiroteio" OR "confronto" OR "ação policial" OR "operação policial" OR "bloqueio" OR "manifestação" OR "protesto" OR "incêndio" OR "roubo de carga" OR "interdição" OR "alagamento") sourcecountry:BR'
 MAJOR_CONTEXT_QUERY = '("mortes" OR "mortos" OR "feridos" OR "megaoperação" OR "operação policial" OR "bloqueio total" OR "enchente" OR "deslizamento" OR "explosão" OR "incêndio de grandes proporções" OR "interdição total") sourcecountry:BR'
+GOOGLE_QUERIES = [
+    '(tiroteio OR confronto OR "ação policial" OR "operação policial") Brasil when:1d',
+    '(bloqueio OR manifestação OR protesto OR interdição) Brasil when:1d',
+    '(incêndio OR explosão OR alagamento OR "queda de árvore") Brasil when:1d',
+    '("roubo de carga" OR "saque de carga" OR "carga roubada") Brasil when:1d',
+]
 MAJOR_CONTEXT_TERMS = ["mortes", "mortos", "feridos", "megaoperação", "bloqueio total", "enchente", "deslizamento", "explosão", "grandes proporções", "interdição total", "estado de emergência"]
 BLOCKED_DETAIL_TERMS = ["posição da polícia", "onde a polícia está", "rota da polícia", "viatura em", "blitz em tempo real"]
 
@@ -87,14 +95,14 @@ def load_existing_events() -> list[dict[str, Any]]:
     return []
 
 
+def fetch_url(url: str, timeout: int = 60) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 operational-alerts-brazil/1.3"})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return response.read()
+
+
 def fetch_gdelt_once(query: str, *, start: datetime | None = None, end: datetime | None = None, timespan: str | None = None, maxrecords: int = 75, timeout: int = 60) -> list[dict[str, Any]]:
-    params: dict[str, str] = {
-        "query": query,
-        "mode": "ArtList",
-        "format": "json",
-        "maxrecords": str(maxrecords),
-        "sort": "HybridRel",
-    }
+    params: dict[str, str] = {"query": query, "mode": "ArtList", "format": "json", "maxrecords": str(maxrecords), "sort": "HybridRel"}
     if start and end:
         params["startdatetime"] = gdelt_stamp(start)
         params["enddatetime"] = gdelt_stamp(end)
@@ -102,10 +110,7 @@ def fetch_gdelt_once(query: str, *, start: datetime | None = None, end: datetime
         params["timespan"] = timespan
     else:
         params["timespan"] = "6h"
-    url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "operational-alerts-brazil/1.2"})
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        payload = json.loads(response.read().decode("utf-8", errors="replace"))
+    payload = json.loads(fetch_url("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params), timeout).decode("utf-8", errors="replace"))
     return payload.get("articles", []) if isinstance(payload, dict) else []
 
 
@@ -124,6 +129,46 @@ def fetch_gdelt(label: str, query: str, status: dict[str, Any], **kwargs: Any) -
     status["gdeltRequestFailures"] += 1
     status["errors"].extend(errors[-2:])
     return []
+
+
+def parse_rss_date(raw: str) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        parsed = email.utils.parsedate_to_datetime(raw)
+        if not parsed.tzinfo:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(BR_TZ)
+    except Exception:
+        return None
+
+
+def fetch_google_news(status: dict[str, Any]) -> list[dict[str, Any]]:
+    articles: list[dict[str, Any]] = []
+    for query in GOOGLE_QUERIES:
+        try:
+            params = {"q": query, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"}
+            data = fetch_url("https://news.google.com/rss/search?" + urllib.parse.urlencode(params), timeout=45)
+            root = ET.fromstring(data)
+            status["googleNewsRequestsSucceeded"] += 1
+            for item in root.findall(".//item"):
+                title = item.findtext("title") or ""
+                link = item.findtext("link") or ""
+                pub = item.findtext("pubDate") or ""
+                source_el = item.find("source")
+                source = source_el.text if source_el is not None and source_el.text else "Google News"
+                dt = parse_rss_date(pub)
+                articles.append({
+                    "title": title,
+                    "url": link,
+                    "sourceCommonName": source,
+                    "seendate": dt.strftime("%Y%m%dT%H%M%S") if dt else "",
+                    "provider": "Google News RSS",
+                })
+        except Exception as exc:
+            status["googleNewsRequestFailures"] += 1
+            status["errors"].append(f"google-news: {exc}")
+    return articles
 
 
 def classify(text: str) -> tuple[str, str, int, int] | None:
@@ -159,7 +204,7 @@ def article_datetime_br(article: dict[str, Any]) -> datetime | None:
     if not match:
         return None
     try:
-        dt = datetime.strptime("".join(match.groups()), "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+        dt = datetime.strptime("".join(match.groups()), "%Y%m%d%H%M%S").replace(tzinfo=BR_TZ)
         return dt.astimezone(BR_TZ)
     except ValueError:
         return None
@@ -203,6 +248,7 @@ def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dic
         status["majorContextExceptions"] += 1
     lat, lon, city, uf = geo
     expires = datetime.now(timezone.utc) + timedelta(hours=expires_hours)
+    provider = article.get("provider") or "GDELT DOC 2.0"
     return {
         "active": True,
         "type": "other",
@@ -216,6 +262,7 @@ def normalize(article: dict[str, Any], *, allow_major_context: bool, status: dic
         "risk": risk,
         "confidence": "fonte pública automatizada" if same_day else "contexto de grande evento",
         "source": source,
+        "sourceProvider": provider,
         "sourceUrl": url,
         "headline": clean_title(title),
         "newsDate": article_dt.isoformat() if article_dt else None,
@@ -229,33 +276,24 @@ def main() -> None:
     start = today_start_br_as_utc()
     end = now_utc()
     status: dict[str, Any] = {
-        "updatedAt": now_iso(),
-        "provider": "GDELT DOC 2.0",
+        "updatedAt": now_iso(), "provider": "GDELT DOC 2.0 + Google News RSS",
         "datePolicy": "same-day Brazil time; older articles only for major-event context",
-        "sameDayWindowStartUtc": gdelt_stamp(start),
-        "sameDayWindowEndUtc": gdelt_stamp(end),
-        "gdeltRequestsSucceeded": 0,
-        "gdeltRequestFailures": 0,
-        "retryRecoveries": 0,
-        "rawArticles": 0,
-        "eventsWritten": 0,
-        "skippedByDate": 0,
-        "skippedNoCity": 0,
-        "skippedNoRule": 0,
-        "majorContextExceptions": 0,
-        "keptPreviousOnFailure": False,
-        "errors": [],
+        "sameDayWindowStartUtc": gdelt_stamp(start), "sameDayWindowEndUtc": gdelt_stamp(end),
+        "gdeltRequestsSucceeded": 0, "gdeltRequestFailures": 0, "googleNewsRequestsSucceeded": 0, "googleNewsRequestFailures": 0,
+        "retryRecoveries": 0, "rawArticles": 0, "eventsWritten": 0, "skippedByDate": 0, "skippedNoCity": 0,
+        "skippedNoRule": 0, "majorContextExceptions": 0, "keptPreviousOnFailure": False, "errors": [],
     }
     articles = fetch_gdelt("same-day-window", SAME_DAY_QUERY, status, start=start, end=end, maxrecords=150, timeout=60)
-    # Fallback: sometimes GDELT's explicit date window times out while timespan works. We still filter same-day after fetching.
     if not articles:
         articles = fetch_gdelt("same-day-timespan-fallback", SAME_DAY_QUERY, status, timespan="24h", maxrecords=150, timeout=60)
+    google_articles = fetch_google_news(status)
     major_articles = fetch_gdelt("major-context", MAJOR_CONTEXT_QUERY, status, timespan="48h", maxrecords=60, timeout=60)
-    status["rawArticles"] = len(articles) + len(major_articles)
+    all_regular = articles + google_articles
+    status["rawArticles"] = len(all_regular) + len(major_articles)
 
     seen: set[str] = set()
     events: list[dict[str, Any]] = []
-    for article in articles:
+    for article in all_regular:
         event = normalize(article, allow_major_context=False, status=status)
         if event and event["sourceUrl"] not in seen:
             seen.add(event["sourceUrl"])
@@ -267,11 +305,10 @@ def main() -> None:
             events.append(event)
 
     events.sort(key=lambda e: int(e.get("risk", 0)), reverse=True)
-    if events or status["gdeltRequestsSucceeded"] > 0:
+    if events or status["gdeltRequestsSucceeded"] > 0 or status["googleNewsRequestsSucceeded"] > 0:
         write_json(OUTPUT, events[:40])
         status["eventsWritten"] = len(events[:40])
     else:
-        # If GDELT is fully unavailable, keep the previous file instead of replacing it with empty data.
         existing = load_existing_events()
         write_json(OUTPUT, existing)
         status["eventsWritten"] = len(existing)
