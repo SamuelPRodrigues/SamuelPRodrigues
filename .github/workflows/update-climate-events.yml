@@ -3,7 +3,7 @@ name: Atualizar eventos climaticos
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: "7,22,37,52 * * * *"
 
 permissions:
   contents: write
