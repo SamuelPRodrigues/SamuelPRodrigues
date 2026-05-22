@@ -1,63 +1,63 @@
 {
-  "updatedAt": "2026-05-22T22:19:41Z",
+  "updatedAt": "2026-05-22T23:03:07Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
-  "riskRule": "Somente eventos em rodovias ou vias expressas são gravados.",
+  "riskRule": "Meio-termo: aceita rodovias/códigos claros e ocorrências próximas a corredores monitorados, descartando ruas e avenidas locais.",
   "monitoredPoints": 5,
   "bboxRequestsPlanned": 5,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
   "eventsWritten": 0,
   "skippedFinishedOrInvalid": 0,
-  "skippedNonHighway": 0,
+  "skippedLocalStreet": 0,
   "errors": [
     {
       "bbox": [
-        -48.03,
-        -24.68,
-        -47.67,
-        -24.32
+        -47.92,
+        -24.57,
+        -47.78,
+        -24.43
       ],
       "httpStatus": 400,
       "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
     },
     {
       "bbox": [
-        -44.93,
-        -23.38,
-        -44.57,
-        -23.02
+        -44.82,
+        -23.27,
+        -44.68,
+        -23.13
       ],
       "httpStatus": 400,
       "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
     },
     {
       "bbox": [
-        -44.24,
-        -19.96,
-        -43.88,
-        -19.6
+        -44.13,
+        -19.85,
+        -43.99,
+        -19.71
       ],
       "httpStatus": 400,
       "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
     },
     {
       "bbox": [
-        -45.38,
-        -22.03,
-        -45.02,
-        -21.67
+        -45.27,
+        -21.92,
+        -45.13,
+        -21.78
       ],
       "httpStatus": 400,
       "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
     },
     {
       "bbox": [
-        -55.48,
-        -10.73,
-        -55.12,
-        -10.37
+        -55.37,
+        -10.62,
+        -55.23,
+        -10.48
       ],
       "httpStatus": 400,
       "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
