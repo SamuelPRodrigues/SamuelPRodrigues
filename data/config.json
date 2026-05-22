@@ -707,5 +707,24 @@
     }
   ],
   "roads": [],
-  "climateEvents": []
+  "climateEvents": [],
+  "operationalEvents": [
+    {
+      "active": true,
+      "type": "other",
+      "category": "Alerta operacional",
+      "confidence": "cadastro manual",
+      "name": "Teste",
+      "eventType": "Alerta operacional",
+      "road": "Região aproximada",
+      "description": "Alerta manual criado pelo administrador.",
+      "lat": -23.293168605203206,
+      "lon": -47.29593810103858,
+      "risk": 60,
+      "radiusMeters": 1000,
+      "sourceUrl": "",
+      "source": "Cadastro manual",
+      "expiresAt": "2026-05-22T19:23:33.240Z"
+    }
+  ]
 }
