@@ -1,0 +1,85 @@
+name: Atualizar todos os dados
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5,20,35,50 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-all-data-main
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  update-all-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Atualizar clima
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/update_climate_events.py && exit 0
+            echo "Clima falhou na tentativa $attempt; tentando novamente..."
+            sleep $((attempt * 10))
+          done
+          echo "Clima falhou após 3 tentativas; continuando para não bloquear os outros dados."
+      - name: Atualizar rodovias
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/update_road_events.py && exit 0
+            echo "Rodovias falhou na tentativa $attempt; tentando novamente..."
+            sleep $((attempt * 10))
+          done
+          echo "Rodovias falhou após 3 tentativas; continuando para não bloquear os outros dados."
+      - name: Atualizar alertas operacionais
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/update_operational_alerts.py && exit 0
+            echo "Operacionais falhou na tentativa $attempt; tentando novamente..."
+            sleep $((attempt * 15))
+          done
+          echo "Operacionais falhou após 3 tentativas; continuando para salvar o restante."
+      - name: Preparar commit
+        run: |
+          git add data/climate_events.json data/climate_events_status.json || true
+          git add data/road_events.json data/road_events_status.json || true
+          git add data/operational_alerts.json data/operational_alerts_status.json || true
+      - name: Verificar mudanças
+        id: verify_diff
+        run: |
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commitar mudanças
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza dados automáticos do mapa"
+      - name: Enviar mudanças com retry
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push falhou na tentativa $attempt; preparando nova tentativa..."
+            git rebase --abort || true
+            sleep $((attempt * 10))
+          done
+          exit 1
