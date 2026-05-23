@@ -3,6 +3,8 @@ name: Publicar site estático no GitHub Pages
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "data/**"
   workflow_dispatch:
 
 permissions:
