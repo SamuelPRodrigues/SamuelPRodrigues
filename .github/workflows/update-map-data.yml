@@ -2,16 +2,14 @@ name: Atualizar dados do mapa
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: update-map-data-and-pages-main
+  group: update-map-data-main
   cancel-in-progress: false
 
 env:
@@ -20,10 +18,7 @@ env:
 jobs:
   update-map-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 20
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
@@ -43,7 +38,6 @@ jobs:
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
           import os
-          import time
           from datetime import datetime, timezone
           from pathlib import Path
 
@@ -91,13 +85,10 @@ jobs:
 
           python scripts/update_climate_events.py
           climate_status=$?
-
           python scripts/update_road_events.py
           road_status=$?
-
           python scripts/update_operational_alerts.py
           operational_status=$?
-
           python scripts/update_manual_events_from_sheet.py
           manual_status=$?
 
@@ -119,7 +110,7 @@ jobs:
               'roadExitCode': int(os.environ.get('ROAD_STATUS', '0')),
               'operationalExitCode': int(os.environ.get('OPERATIONAL_STATUS', '0')),
               'manualSheetExitCode': int(os.environ.get('MANUAL_STATUS', '0')),
-              'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou e publicou o Pages.'
+              'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou.'
           }
           Path('data/update_health.json').write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
@@ -177,22 +168,3 @@ jobs:
         run: |
           git pull --rebase --autostash origin main
           git push origin HEAD:main
-
-      - name: Preparar HTML publicado
-        if: steps.update_window.outputs.should_update == 'true'
-        run: python scripts/patch_published_html.py
-
-      - name: Configurar Pages
-        if: steps.update_window.outputs.should_update == 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Enviar artefato do site atualizado
-        if: steps.update_window.outputs.should_update == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Publicar Pages com os dados atualizados
-        if: steps.update_window.outputs.should_update == 'true'
-        id: deployment
-        uses: actions/deploy-pages@v4
