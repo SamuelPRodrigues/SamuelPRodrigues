@@ -51,7 +51,11 @@ jobs:
           python scripts/update_operational_alerts.py
           operational_status=$?
 
-          python - <<PY
+          export CLIMATE_STATUS="$climate_status"
+          export ROAD_STATUS="$road_status"
+          export OPERATIONAL_STATUS="$operational_status"
+
+          python - <<'PY'
           import json
           import os
           import time
@@ -66,26 +70,6 @@ jobs:
               'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou e publicou o Pages.'
           }
           Path('data/update_health.json').write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
-        env:
-          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
-          CLIMATE_STATUS: ${{ env.CLIMATE_STATUS }}
-          ROAD_STATUS: ${{ env.ROAD_STATUS }}
-          OPERATIONAL_STATUS: ${{ env.OPERATIONAL_STATUS }}
-
-      - name: Corrigir auditoria de status dos scripts
-        run: |
-          python - <<'PY'
-          import json
-          import time
-          from pathlib import Path
-
-          health_path = Path('data/update_health.json')
-          health = json.loads(health_path.read_text(encoding='utf-8')) if health_path.exists() else {}
-          health['updatedAt'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-          health['workflow'] = 'Atualizar dados do mapa'
-          health['note'] = 'Arquivo de auditoria: se este timestamp mudou, o workflow executou e publicou o Pages.'
-          health_path.write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
       - name: Normalizar rodovias para exibicao
