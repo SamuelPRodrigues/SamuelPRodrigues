@@ -1,10 +1,9 @@
 name: Atualizar dados do mapa
 
 on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
-  repository_dispatch:
-    types:
-      - update_map_data
 
 permissions:
   contents: write
@@ -31,53 +30,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verificar janela de atualizacao
-        id: update_window
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          python - <<'PY' >> "$GITHUB_OUTPUT"
-          import json
-          import os
-          from datetime import datetime, timezone
-          from pathlib import Path
-
-          should_update = False
-          age_minutes = 9999.0
-          reason = 'sem histórico de atualização'
-
-          if os.environ.get('EVENT_NAME') in ('workflow_dispatch', 'repository_dispatch'):
-              should_update = True
-              reason = 'execução solicitada'
-          else:
-              health_path = Path('data/update_health.json')
-              if health_path.exists():
-                  try:
-                      health = json.loads(health_path.read_text(encoding='utf-8'))
-                      updated_at = str(health.get('updatedAt') or '').replace('Z', '+00:00')
-                      last = datetime.fromisoformat(updated_at).astimezone(timezone.utc)
-                      now = datetime.now(timezone.utc)
-                      age_minutes = (now - last).total_seconds() / 60
-                      should_update = age_minutes >= 12
-                      reason = f'última atualização há {age_minutes:.1f} min'
-                  except Exception as exc:
-                      should_update = True
-                      reason = f'falha ao ler auditoria: {exc}'
-              else:
-                  should_update = True
-
-          print(f"should_update={'true' if should_update else 'false'}")
-          print(f"age_minutes={age_minutes:.1f}")
-          print(f"reason={reason}")
-          PY
-
-      - name: Mostrar decisao de atualizacao
-        run: |
-          echo "should_update=${{ steps.update_window.outputs.should_update }}"
-          echo "reason=${{ steps.update_window.outputs.reason }}"
-
       - name: Atualizar fontes de dados
-        if: steps.update_window.outputs.should_update == 'true'
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
         run: |
@@ -107,6 +60,7 @@ jobs:
           health = {
               'updatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
               'workflow': 'Atualizar dados do mapa',
+              'trigger': os.environ.get('GITHUB_EVENT_NAME', ''),
               'climateExitCode': int(os.environ.get('CLIMATE_STATUS', '0')),
               'roadExitCode': int(os.environ.get('ROAD_STATUS', '0')),
               'operationalExitCode': int(os.environ.get('OPERATIONAL_STATUS', '0')),
@@ -117,7 +71,6 @@ jobs:
           PY
 
       - name: Normalizar rodovias para exibicao
-        if: steps.update_window.outputs.should_update == 'true'
         run: |
           python - <<'PY'
           import json
@@ -144,11 +97,9 @@ jobs:
           PY
 
       - name: Preparar commit
-        if: steps.update_window.outputs.should_update == 'true'
         run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
 
       - name: Verificar mudancas
-        if: steps.update_window.outputs.should_update == 'true'
         id: verify_diff
         run: |
           if git diff --cached --quiet; then
@@ -158,14 +109,14 @@ jobs:
           fi
 
       - name: Commitar mudancas
-        if: steps.update_window.outputs.should_update == 'true' && steps.verify_diff.outputs.changed == 'true'
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git commit -m "Atualiza dados automaticos do mapa"
 
       - name: Enviar mudancas
-        if: steps.update_window.outputs.should_update == 'true' && steps.verify_diff.outputs.changed == 'true'
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git pull --rebase --autostash origin main
           git push origin HEAD:main
