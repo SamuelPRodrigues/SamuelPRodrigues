@@ -1,6 +1,8 @@
 name: Atualizar alertas operacionais
 
 on:
+  schedule:
+    - cron: "10,25,40,55 * * * *"
   workflow_dispatch:
 
 permissions:
