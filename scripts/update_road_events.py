@@ -29,14 +29,11 @@ ROAD_WORD_RE = re.compile(r"\b(rodovia|autoestrada|freeway|rodoanel|anel rodovi[
 LOCAL_WORD_RE = re.compile(r"^\s*(rua|r\.|avenida|av\.?|pra[çc]a|travessa|alameda|largo|beco|viela|estrada municipal)\b", re.I)
 
 DEFAULT_WATCH_POINTS = [
-    {"name": "Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
-    {"name": "Rio-Santos", "lat": -23.20, "lon": -44.75, "road": "BR-101"},
-    {"name": "Brasília-BH-Rio", "lat": -19.78, "lon": -44.06, "road": "BR-040"},
-    {"name": "Fernão Dias", "lat": -21.85, "lon": -45.20, "road": "BR-381"},
-    {"name": "Cuiabá-Santarém", "lat": -10.55, "lon": -55.30, "road": "BR-163"},
-    {"name": "Freeway RS", "lat": -30.02, "lon": -51.05, "road": "BR-290"},
-    {"name": "Curitiba-Paranaguá", "lat": -25.45, "lon": -49.00, "road": "BR-277"},
-    {"name": "Vale do Itajaí", "lat": -27.05, "lon": -49.15, "road": "BR-470"},
+    {"name": "BR-116 • Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
+    {"name": "BR-101 • Rio-Santos", "lat": -23.20, "lon": -44.75, "road": "BR-101"},
+    {"name": "BR-040 • Brasília-BH-Rio", "lat": -19.78, "lon": -44.06, "road": "BR-040"},
+    {"name": "BR-381 • Fernão Dias", "lat": -21.85, "lon": -45.20, "road": "BR-381"},
+    {"name": "BR-163 • Cuiabá-Santarém", "lat": -10.55, "lon": -55.30, "road": "BR-163"},
 ]
 
 
@@ -82,7 +79,7 @@ def monitored_points() -> list[dict[str, Any]]:
     return result
 
 
-def bbox_around(lat: float, lon: float, delta: float = 0.07) -> tuple[float, float, float, float]:
+def bbox_around(lat: float, lon: float, delta: float = 0.09) -> tuple[float, float, float, float]:
     return (round(lon - delta, 4), round(lat - delta, 4), round(lon + delta, 4), round(lat + delta, 4))
 
 
@@ -131,7 +128,7 @@ def is_road_allowed(text: str) -> bool:
 
 
 def has_local_street(properties: dict[str, Any]) -> bool:
-    for key in ("roadName", "from", "to"):
+    for key in ("from", "to"):
         for name in split_names(properties.get(key)):
             if LOCAL_WORD_RE.search(name):
                 return True
@@ -139,7 +136,7 @@ def has_local_street(properties: dict[str, Any]) -> bool:
 
 
 def get_road(properties: dict[str, Any]) -> str | None:
-    for key in ("roadNumbers", "roadNumber", "roadName", "from", "to"):
+    for key in ("roadNumbers", "roadNumber", "from", "to"):
         for name in split_names(properties.get(key)):
             if is_road_allowed(name):
                 return name
@@ -148,7 +145,7 @@ def get_road(properties: dict[str, Any]) -> str | None:
 
 def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
     west, south, east, north = bbox
-    fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,roadNumber,roadName,length,delay}}}"
+    fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,roadNumber,length,delay}}}"
     query = urllib.parse.urlencode({
         "key": API_KEY,
         "bbox": f"{west},{south},{east},{north}",
@@ -156,7 +153,7 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
         "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/1.9"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.0"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
@@ -212,7 +209,7 @@ def main() -> None:
         "provider": "TomTom Traffic API",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
-        "riskRule": "Meio-termo: aceita rodovias/códigos claros e ocorrências próximas a corredores monitorados, descartando ruas e avenidas locais.",
+        "riskRule": "Meio-termo: aceita códigos claros e ocorrências próximas aos corredores monitorados, descartando ruas e avenidas locais.",
         "monitoredPoints": len(points),
         "bboxRequestsPlanned": len(points),
         "bboxRequestsSucceeded": 0,
