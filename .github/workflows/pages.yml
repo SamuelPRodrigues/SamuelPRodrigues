@@ -23,17 +23,22 @@ jobs:
     steps:
       - name: Baixar código
         uses: actions/checkout@v4
-      - name: Priorizar JSONs atuais do branch main
+      - name: Preparar HTML publicado
         run: |
           python - <<'PY'
           from pathlib import Path
 
           path = Path('index.html')
           text = path.read_text(encoding='utf-8')
+
           old = "async function getJson(path,fallbackValue){return getJsonAny([path,RAW+path],fallbackValue)}"
           new = "async function getJson(path,fallbackValue){const sources=String(path||'').startsWith('data/')?[RAW+path,path]:[path,RAW+path];return getJsonAny(sources,fallbackValue)}"
-          if old in text:
-              path.write_text(text.replace(old, new), encoding='utf-8')
+          text = text.replace(old, new)
+
+          text = text.replace('<button id="clearChartFilters" class="mini-action" type="button">Limpar filtros gráficos</button>', '')
+          text = text.replace("$('clearChartFilters').onclick=clearChartFilters;", '')
+
+          path.write_text(text, encoding='utf-8')
           PY
       - name: Configurar Pages
         uses: actions/configure-pages@v5
