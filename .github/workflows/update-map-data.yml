@@ -7,9 +7,11 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: update-map-data-main
+  group: update-map-data-and-pages-main
   cancel-in-progress: false
 
 env:
@@ -18,7 +20,10 @@ env:
 jobs:
   update-map-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
@@ -30,16 +35,58 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Atualizar clima
-        run: python scripts/update_climate_events.py
-
-      - name: Atualizar rodovias
+      - name: Atualizar fontes de dados
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
-        run: python scripts/update_road_events.py
+        run: |
+          set +e
+          mkdir -p data
 
-      - name: Atualizar alertas operacionais
-        run: python scripts/update_operational_alerts.py
+          python scripts/update_climate_events.py
+          climate_status=$?
+
+          python scripts/update_road_events.py
+          road_status=$?
+
+          python scripts/update_operational_alerts.py
+          operational_status=$?
+
+          python - <<PY
+          import json
+          import os
+          import time
+          from pathlib import Path
+
+          health = {
+              'updatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
+              'workflow': 'Atualizar dados do mapa',
+              'climateExitCode': int(os.environ.get('CLIMATE_STATUS', '0')),
+              'roadExitCode': int(os.environ.get('ROAD_STATUS', '0')),
+              'operationalExitCode': int(os.environ.get('OPERATIONAL_STATUS', '0')),
+              'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou e publicou o Pages.'
+          }
+          Path('data/update_health.json').write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+          CLIMATE_STATUS: ${{ env.CLIMATE_STATUS }}
+          ROAD_STATUS: ${{ env.ROAD_STATUS }}
+          OPERATIONAL_STATUS: ${{ env.OPERATIONAL_STATUS }}
+
+      - name: Corrigir auditoria de status dos scripts
+        run: |
+          python - <<'PY'
+          import json
+          import time
+          from pathlib import Path
+
+          health_path = Path('data/update_health.json')
+          health = json.loads(health_path.read_text(encoding='utf-8')) if health_path.exists() else {}
+          health['updatedAt'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+          health['workflow'] = 'Atualizar dados do mapa'
+          health['note'] = 'Arquivo de auditoria: se este timestamp mudou, o workflow executou e publicou o Pages.'
+          health_path.write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
 
       - name: Normalizar rodovias para exibicao
         run: |
@@ -64,7 +111,7 @@ jobs:
           PY
 
       - name: Preparar commit
-        run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json
+        run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/update_health.json
 
       - name: Verificar mudancas
         id: verify_diff
@@ -87,3 +134,15 @@ jobs:
         run: |
           git pull --rebase --autostash origin main
           git push origin HEAD:main
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar artefato do site atualizado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Publicar Pages com os dados atualizados
+        id: deployment
+        uses: actions/deploy-pages@v4
