@@ -1,9 +1,10 @@
 name: Atualizar dados do mapa
 
 on:
-  schedule:
-    - cron: "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - update_map_data
 
 permissions:
   contents: write
@@ -45,9 +46,9 @@ jobs:
           age_minutes = 9999.0
           reason = 'sem histórico de atualização'
 
-          if os.environ.get('EVENT_NAME') == 'workflow_dispatch':
+          if os.environ.get('EVENT_NAME') in ('workflow_dispatch', 'repository_dispatch'):
               should_update = True
-              reason = 'execução manual'
+              reason = 'execução solicitada'
           else:
               health_path = Path('data/update_health.json')
               if health_path.exists():
