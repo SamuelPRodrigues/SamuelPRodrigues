@@ -2,7 +2,7 @@ name: Atualizar dados do mapa
 
 on:
   schedule:
-    - cron: "8,23,38,53 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,7 +35,54 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Verificar janela de atualizacao
+        id: update_window
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          import os
+          import time
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          should_update = False
+          age_minutes = 9999.0
+          reason = 'sem histórico de atualização'
+
+          if os.environ.get('EVENT_NAME') == 'workflow_dispatch':
+              should_update = True
+              reason = 'execução manual'
+          else:
+              health_path = Path('data/update_health.json')
+              if health_path.exists():
+                  try:
+                      health = json.loads(health_path.read_text(encoding='utf-8'))
+                      updated_at = str(health.get('updatedAt') or '').replace('Z', '+00:00')
+                      last = datetime.fromisoformat(updated_at).astimezone(timezone.utc)
+                      now = datetime.now(timezone.utc)
+                      age_minutes = (now - last).total_seconds() / 60
+                      should_update = age_minutes >= 12
+                      reason = f'última atualização há {age_minutes:.1f} min'
+                  except Exception as exc:
+                      should_update = True
+                      reason = f'falha ao ler auditoria: {exc}'
+              else:
+                  should_update = True
+
+          print(f"should_update={'true' if should_update else 'false'}")
+          print(f"age_minutes={age_minutes:.1f}")
+          print(f"reason={reason}")
+          PY
+
+      - name: Mostrar decisao de atualizacao
+        run: |
+          echo "should_update=${{ steps.update_window.outputs.should_update }}"
+          echo "reason=${{ steps.update_window.outputs.reason }}"
+
       - name: Atualizar fontes de dados
+        if: steps.update_window.outputs.should_update == 'true'
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
         run: |
@@ -78,6 +125,7 @@ jobs:
           PY
 
       - name: Normalizar rodovias para exibicao
+        if: steps.update_window.outputs.should_update == 'true'
         run: |
           python - <<'PY'
           import json
@@ -104,9 +152,11 @@ jobs:
           PY
 
       - name: Preparar commit
+        if: steps.update_window.outputs.should_update == 'true'
         run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
 
       - name: Verificar mudancas
+        if: steps.update_window.outputs.should_update == 'true'
         id: verify_diff
         run: |
           if git diff --cached --quiet; then
@@ -116,29 +166,33 @@ jobs:
           fi
 
       - name: Commitar mudancas
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.update_window.outputs.should_update == 'true' && steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git commit -m "Atualiza dados automaticos do mapa"
 
       - name: Enviar mudancas
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.update_window.outputs.should_update == 'true' && steps.verify_diff.outputs.changed == 'true'
         run: |
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
       - name: Preparar HTML publicado
+        if: steps.update_window.outputs.should_update == 'true'
         run: python scripts/patch_published_html.py
 
       - name: Configurar Pages
+        if: steps.update_window.outputs.should_update == 'true'
         uses: actions/configure-pages@v5
 
       - name: Enviar artefato do site atualizado
+        if: steps.update_window.outputs.should_update == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
       - name: Publicar Pages com os dados atualizados
+        if: steps.update_window.outputs.should_update == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
