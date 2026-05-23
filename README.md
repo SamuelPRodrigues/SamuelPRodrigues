@@ -10,6 +10,4 @@ Este repositório contém um workflow em `.github/workflows/pages.yml` para publ
 
 Quando o Pages estiver ativo, o endereço esperado é:
 
-https://samuelprodriques.github.io/SamuelPRodrigues/
-
-Se aparecer 404, ative em: Settings > Pages > Build and deployment > Source: GitHub Actions.
+https://samuelprodrigues.github.io/SamuelPRodrigues/
