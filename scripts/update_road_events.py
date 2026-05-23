@@ -136,7 +136,7 @@ def has_local_street(properties: dict[str, Any]) -> bool:
 
 
 def get_road(properties: dict[str, Any]) -> str | None:
-    for key in ("roadNumbers", "roadNumber", "from", "to"):
+    for key in ("roadNumbers", "from", "to"):
         for name in split_names(properties.get(key)):
             if is_road_allowed(name):
                 return name
@@ -145,7 +145,7 @@ def get_road(properties: dict[str, Any]) -> str | None:
 
 def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
     west, south, east, north = bbox
-    fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,roadNumber,length,delay}}}"
+    fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,length,delay}}}"
     query = urllib.parse.urlencode({
         "key": API_KEY,
         "bbox": f"{west},{south},{east},{north}",
@@ -153,7 +153,7 @@ def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
         "language": "pt-PT",
     }, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.1"})
     with urllib.request.urlopen(req, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
         incidents = payload.get("incidents", [])
