@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-23T12:09:31Z",
+  "updatedAt": "2026-05-23T14:21:06Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
-  "riskRule": "Meio-termo: aceita rodovias/códigos claros e ocorrências próximas a corredores monitorados, descartando ruas e avenidas locais.",
+  "riskRule": "Meio-termo: aceita códigos claros e ocorrências próximas aos corredores monitorados, descartando ruas e avenidas locais.",
   "monitoredPoints": 5,
   "bboxRequestsPlanned": 5,
   "bboxRequestsSucceeded": 0,
@@ -14,53 +14,53 @@
   "errors": [
     {
       "bbox": [
-        -47.92,
-        -24.57,
-        -47.78,
-        -24.43
+        -47.94,
+        -24.59,
+        -47.76,
+        -24.41
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
     },
     {
       "bbox": [
-        -44.82,
-        -23.27,
-        -44.68,
-        -23.13
+        -44.84,
+        -23.29,
+        -44.66,
+        -23.11
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
     },
     {
       "bbox": [
-        -44.13,
-        -19.85,
-        -43.99,
-        -19.71
+        -44.15,
+        -19.87,
+        -43.97,
+        -19.69
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
     },
     {
       "bbox": [
-        -45.27,
-        -21.92,
-        -45.13,
-        -21.78
+        -45.29,
+        -21.94,
+        -45.11,
+        -21.76
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
     },
     {
       "bbox": [
-        -55.37,
-        -10.62,
-        -55.23,
-        -10.48
+        -55.39,
+        -10.64,
+        -55.21,
+        -10.46
       ],
       "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadName\"}}"
+      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
     }
   ]
 }
