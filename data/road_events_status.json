@@ -1,66 +1,15 @@
 {
-  "updatedAt": "2026-05-23T14:21:06Z",
+  "updatedAt": "2026-05-23T15:35:31Z",
   "provider": "TomTom Traffic API",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
   "riskRule": "Meio-termo: aceita códigos claros e ocorrências próximas aos corredores monitorados, descartando ruas e avenidas locais.",
   "monitoredPoints": 5,
   "bboxRequestsPlanned": 5,
-  "bboxRequestsSucceeded": 0,
-  "rawIncidents": 0,
-  "eventsWritten": 0,
-  "skippedFinishedOrInvalid": 0,
-  "skippedLocalStreet": 0,
-  "errors": [
-    {
-      "bbox": [
-        -47.94,
-        -24.59,
-        -47.76,
-        -24.41
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
-    },
-    {
-      "bbox": [
-        -44.84,
-        -23.29,
-        -44.66,
-        -23.11
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
-    },
-    {
-      "bbox": [
-        -44.15,
-        -19.87,
-        -43.97,
-        -19.69
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
-    },
-    {
-      "bbox": [
-        -45.29,
-        -21.94,
-        -45.11,
-        -21.76
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
-    },
-    {
-      "bbox": [
-        -55.39,
-        -10.64,
-        -55.21,
-        -10.46
-      ],
-      "httpStatus": 400,
-      "message": "{\"detailedError\":{\"code\":\"INVALID_REQUEST\",\"message\":\"Unknown field in fields=incidents.properties.roadNumber\"}}"
-    }
-  ]
+  "bboxRequestsSucceeded": 5,
+  "rawIncidents": 25,
+  "eventsWritten": 1,
+  "skippedFinishedOrInvalid": 11,
+  "skippedLocalStreet": 12,
+  "errors": []
 }
