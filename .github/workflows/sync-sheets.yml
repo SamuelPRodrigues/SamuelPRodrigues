@@ -32,13 +32,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Enviar eventos para Google Sheets e gerar cache
+        id: sync
+        continue-on-error: true
         env:
           SHEETS_WEBAPP_URL: ${{ secrets.SHEETS_WEBAPP_URL }}
           SHEETS_WEBAPP_KEY: ${{ secrets.SHEETS_WEBAPP_KEY }}
         run: python scripts/sync_events_to_sheets.py
       - name: Salvar status e cache da sincronizacao
+        if: always()
         run: git add data/sheets_sync_status.json data/analytics_cache.json || true
       - name: Verificar mudancas
+        if: always()
         id: verify_diff
         run: |
           if git diff --cached --quiet; then
@@ -47,13 +51,30 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Commitar status
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: always() && steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git commit -m "Atualiza historico e cache de analises"
       - name: Enviar mudancas
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: always() && steps.verify_diff.outputs.changed == 'true'
         run: |
           git pull --rebase --autostash origin main
           git push origin HEAD:main
+      - name: Validar resposta do Sheets
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          status = json.loads(Path('data/sheets_sync_status.json').read_text(encoding='utf-8'))
+          if not status.get('configured'):
+              print('Secrets do Sheets não configurados.')
+              sys.exit(1)
+          if not status.get('ok'):
+              print('Google Sheets não confirmou sucesso:', status.get('error') or status.get('response'))
+              sys.exit(1)
+          response = status.get('response') or {}
+          print('Sheets OK:', response)
+          PY
