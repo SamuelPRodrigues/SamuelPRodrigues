@@ -42,7 +42,8 @@ jobs:
           text = path.read_text(encoding='utf-8')
           text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
           text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
-          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=2"></script>\n</body>')
+          text = re.sub(r'\n?<script src="analytics-dashboard-hotfix\.js[^\"]*"></script>', '', text)
+          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=2"></script>\n<script src="analytics-dashboard-hotfix.js?v=1"></script>\n</body>')
           path.write_text(text, encoding='utf-8')
           PY
 
@@ -52,6 +53,40 @@ jobs:
         run: |
           set +e
           mkdir -p data
+
+          python - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+          config_path = Path('data/config.json')
+          catalog_path = Path('data/road_corridors.csv')
+          config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
+          corridors = []
+          if catalog_path.exists():
+              with catalog_path.open('r', encoding='utf-8') as handle:
+                  for row in csv.DictReader(handle, delimiter='|'):
+                      try:
+                          corridors.append({
+                              'state': row.get('state', ''),
+                              'city': row.get('city', ''),
+                              'region': row.get('region', ''),
+                              'name': f"{row.get('city', '').strip()} • {row.get('road', '').strip()}",
+                              'lat': float(row.get('lat', '')),
+                              'lon': float(row.get('lon', '')),
+                              'road': row.get('road', '').strip(),
+                              'source': 'data/road_corridors.csv'
+                          })
+                      except Exception:
+                          pass
+          if corridors:
+              config['roadCorridors'] = corridors
+              config['roadCorridorsSource'] = 'data/road_corridors.csv'
+              config['roadCorridorsCount'] = len(corridors)
+              config_path.write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              print(f'Catálogo rodoviário aplicado: {len(corridors)} corredor(es).')
+          else:
+              print('Catálogo rodoviário não encontrado ou vazio; seguindo com configuração existente.')
+          PY
 
           python scripts/update_climate_events.py
           climate_status=$?
