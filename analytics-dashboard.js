@@ -13,5 +13,5 @@
   }
 
   load('site-redesign.js?v=2', 'site-redesign');
-  load('site-redesign-enhance.js?v=4', 'site-redesign-enhance');
+  load('site-redesign-enhance.js?v=5', 'site-redesign-enhance');
 })();
