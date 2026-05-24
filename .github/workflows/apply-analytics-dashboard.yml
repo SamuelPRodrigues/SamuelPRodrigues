@@ -16,20 +16,16 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Trocar versao do painel de analises
+      - name: Trocar painel antigo pelo novo dashboard
         run: |
           python - <<'PY'
+          import re
           from pathlib import Path
           path = Path('index.html')
           text = path.read_text(encoding='utf-8')
-          for old in (
-              '<script src="analytics-panel.js?v=1"></script>',
-              '<script src="analytics-panel.js?v=2"></script>',
-              '<script src="analytics-panel.js?v=3"></script>',
-              '<script src="analytics-panel.js"></script>',
-          ):
-              text = text.replace(old, '')
-          text = text.replace('</body>', '<script src="analytics-panel.js?v=4"></script>\n</body>')
+          text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
+          text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
+          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=1"></script>\n</body>')
           path.write_text(text, encoding='utf-8')
           PY
 
@@ -48,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -m "Aplica dashboard de analises v4"
+          git commit -m "Aplica novo dashboard de analises"
 
       - name: Enviar mudanca
         if: steps.diff.outputs.changed == 'true'
