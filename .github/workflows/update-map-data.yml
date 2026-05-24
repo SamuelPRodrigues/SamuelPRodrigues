@@ -88,6 +88,18 @@ jobs:
               'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou.'
           }
           Path('data/update_health.json').write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          supplemental = Path('data/news_supplemental_events_status.json')
+          if not supplemental.exists():
+              supplemental.write_text(json.dumps({
+                  'updatedAt': health['updatedAt'],
+                  'provider': 'Google News RSS - eventos suplementares',
+                  'ok': False,
+                  'note': 'Arquivo criado pelo workflow porque o script suplementar não gerou status nesta execução.',
+                  'newsSupplementalExitCode': health['newsSupplementalExitCode'],
+                  'climateEventsAdded': 0,
+                  'roadEventsAdded': 0,
+              }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
       - name: Normalizar rodovias para exibicao
@@ -117,7 +129,19 @@ jobs:
           PY
 
       - name: Preparar commit
-        run: git add index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
+        run: |
+          git add --ignore-missing \
+            index.html \
+            data/climate_events.json \
+            data/climate_events_status.json \
+            data/road_events.json \
+            data/road_events_status.json \
+            data/operational_alerts.json \
+            data/operational_alerts_status.json \
+            data/news_supplemental_events_status.json \
+            data/manual_events.json \
+            data/manual_events_status.json \
+            data/update_health.json
 
       - name: Verificar mudancas
         id: verify_diff
