@@ -39,10 +39,12 @@ jobs:
           from pathlib import Path
           path = Path('index.html')
           text = path.read_text(encoding='utf-8')
-          tag = '<script src="analytics-panel.js?v=1"></script>'
+          old = '<script src="analytics-panel.js?v=1"></script>'
+          tag = '<script src="analytics-panel.js?v=2"></script>'
+          text = text.replace(old, tag)
           if tag not in text:
               text = text.replace('</body>', tag + '\n</body>')
-              path.write_text(text, encoding='utf-8')
+          path.write_text(text, encoding='utf-8')
           PY
 
       - name: Atualizar fontes de dados
