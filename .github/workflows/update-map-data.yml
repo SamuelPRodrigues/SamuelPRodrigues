@@ -163,9 +163,16 @@ jobs:
               path.write_text(json.dumps(events, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
+      - name: Sincronizar historico permanente no Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python scripts/sync_events_to_supabase.py
+
       - name: Preparar commit
         run: |
-          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json"
+          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json data/supabase_sync_status.json data/supabase_analytics_cache.json data/analytics_cache.json"
           for file in $files; do
             if [ -e "$file" ]; then
               git add "$file"
