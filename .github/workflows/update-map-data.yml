@@ -33,6 +33,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Garantir dashboard atual
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          path = Path('index.html')
+          text = path.read_text(encoding='utf-8')
+          text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
+          text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
+          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=2"></script>\n</body>')
+          path.write_text(text, encoding='utf-8')
+          PY
+
       - name: Atualizar fontes de dados
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
@@ -100,7 +113,7 @@ jobs:
           PY
 
       - name: Preparar commit
-        run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
+        run: git add index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
 
       - name: Verificar mudancas
         id: verify_diff
