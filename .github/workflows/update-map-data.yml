@@ -33,21 +33,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Garantir dashboard atual
-        run: |
-          python - <<'PY'
-          import re
-          from pathlib import Path
-          path = Path('index.html')
-          text = path.read_text(encoding='utf-8')
-          text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
-          text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
-          text = re.sub(r'\n?<script src="analytics-dashboard-hotfix\.js[^\"]*"></script>', '', text)
-          text = re.sub(r'\n?<script src="analytics-dashboard-v3\.js[^\"]*"></script>', '', text)
-          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=3"></script>\n</body>')
-          path.write_text(text, encoding='utf-8')
-          PY
-
       - name: Atualizar fontes de dados
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
