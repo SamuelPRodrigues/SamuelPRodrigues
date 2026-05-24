@@ -57,5 +57,6 @@
     function renderEvents(events,{fit=false}={}){markerLayer.clearLayers();if(heatLayer){map.removeLayer(heatLayer);heatLayer=null}const heat=[];events.forEach(ev=>{L.marker([ev.lat,ev.lon],{icon:markerIcon(ev.type)}).bindPopup(popup(ev)).addTo(markerLayer);heat.push([ev.lat,ev.lon,Math.max(.25,ev.risk/100)])});updateCounts(events);if(window.L&&L.heatLayer&&heat.length){heatLayer=L.heatLayer(heat,{radius:32,blur:24,maxZoom:8,minOpacity:.25,gradient:{.25:'#22c55e',.55:'#f59e0b',.85:'#ef4444'}});if($('heatToggle').checked)heatLayer.addTo(map)}if(fit&&events.length){const group=L.featureGroup(events.map(ev=>L.marker([ev.lat,ev.lon])));try{map.fitBounds(group.getBounds().pad(.18),{maxZoom:5,animate:false})}catch(e){}}}
     $('heatToggle').addEventListener('change',e=>{if(!heatLayer)return;if(e.target.checked)heatLayer.addTo(map);else map.removeLayer(heatLayer)});loadEvents();setInterval(loadEvents,AUTO_REFRESH_MS);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')loadEvents()});
   </script>
+<script src="analytics-dashboard.js?v=3"></script>
 </body>
 </html>
