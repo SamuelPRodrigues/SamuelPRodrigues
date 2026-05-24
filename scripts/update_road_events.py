@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import email.utils
 import json
 import os
 import re
@@ -8,6 +9,8 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +18,7 @@ CONFIG = Path("data/config.json")
 OUTPUT = Path("data/road_events.json")
 STATUS_OUTPUT = Path("data/road_events_status.json")
 API_KEY = os.environ.get("TOMTOM_API_KEY", "").strip()
+BR_TZ = timezone(timedelta(hours=-3))
 
 CATEGORY_LABELS = {
     1: "Acidente", 2: "Neblina", 3: "Condição perigosa", 4: "Chuva",
@@ -28,6 +32,18 @@ ROAD_CODE_RE = re.compile(r"\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|P
 ROAD_WORD_RE = re.compile(r"\b(rodovia|autoestrada|freeway|rodoanel|anel rodovi[aá]rio|marginal tiet[eê]|marginal pinheiros|linha amarela|linha vermelha|via dutra|via expressa)\b", re.I)
 LOCAL_WORD_RE = re.compile(r"^\s*(rua|r\.|avenida|av\.?|pra[çc]a|travessa|alameda|largo|beco|viela|estrada municipal)\b", re.I)
 
+PUBLIC_ROAD_TERMS = [
+    "acidente", "batida", "colisão", "colisao", "interdição", "interditada", "interditado",
+    "bloqueio", "bloqueada", "bloqueado", "congestionamento", "lentidão", "lentidao",
+    "pista", "faixa", "carreta tomba", "caminhão tomba", "caminhao tomba", "ônibus",
+    "onibus", "queda de barreira", "deslizamento", "pega fogo", "incêndio", "incendio",
+    "mortos", "morto", "feridos", "ferido",
+]
+IRRELEVANT_TERMS = [
+    "futebol", "campeonato", "partida", "jogo", "jogador", "time", "placar", "rodada",
+    "orçamento", "orçamentos", "mercado", "ações", "dólar", "selic", "inflação",
+]
+
 DEFAULT_WATCH_POINTS = [
     {"name": "BR-116 • Régis Bittencourt", "lat": -24.50, "lon": -47.85, "road": "BR-116"},
     {"name": "BR-101 • Rio-Santos", "lat": -23.20, "lon": -44.75, "road": "BR-101"},
@@ -36,9 +52,19 @@ DEFAULT_WATCH_POINTS = [
     {"name": "BR-163 • Cuiabá-Santarém", "lat": -10.55, "lon": -55.30, "road": "BR-163"},
 ]
 
+PUBLIC_QUERIES = [
+    '(rodovia OR BR OR "pista interditada" OR "rodovia interditada") (acidente OR batida OR colisão OR bloqueio OR interdição OR congestionamento OR "queda de barreira" OR "carreta tomba" OR "pega fogo" OR mortos OR feridos) Brasil when:1d -futebol -jogo -mercado',
+    '("BR-101" OR "BR 101" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040" OR "BR-163" OR "BR 163") (acidente OR batida OR colisão OR interdição OR interditada OR "pega fogo" OR mortos OR feridos) when:1d -futebol -jogo',
+]
+GDELT_QUERY = '(rodovia OR "BR-" OR "pista interditada" OR "rodovia interditada" OR "acidente na rodovia" OR "acidente na BR" OR "carreta tomba" OR "queda de barreira") sourcecountry:BR'
+
 
 def now_iso() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+def now_br() -> datetime:
+    return datetime.now(timezone.utc).astimezone(BR_TZ)
 
 
 def load_json(path: Path, fallback: Any) -> Any:
@@ -143,21 +169,20 @@ def get_road(properties: dict[str, Any]) -> str | None:
     return None
 
 
+def fetch_url(url: str, timeout: int = 45) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.2"})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return response.read()
+
+
 def fetch_bbox(bbox: tuple[float, float, float, float]) -> list[dict[str, Any]]:
     west, south, east, north = bbox
     fields = "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code},from,to,roadNumbers,length,delay}}}"
-    query = urllib.parse.urlencode({
-        "key": API_KEY,
-        "bbox": f"{west},{south},{east},{north}",
-        "fields": fields,
-        "language": "pt-PT",
-    }, safe="{},")
+    query = urllib.parse.urlencode({"key": API_KEY, "bbox": f"{west},{south},{east},{north}", "fields": fields, "language": "pt-PT"}, safe="{},")
     url = f"https://api.tomtom.com/traffic/services/5/incidentDetails?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.1"})
-    with urllib.request.urlopen(req, timeout=25) as response:
-        payload = json.loads(response.read().decode("utf-8"))
-        incidents = payload.get("incidents", [])
-        return incidents if isinstance(incidents, list) else []
+    payload = json.loads(fetch_url(url, timeout=25).decode("utf-8"))
+    incidents = payload.get("incidents", [])
+    return incidents if isinstance(incidents, list) else []
 
 
 def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
@@ -186,79 +211,279 @@ def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tu
     if isinstance(delay, (int, float)) and delay > 600:
         risk = min(100, risk + 10)
     return {
-        "active": True,
-        "name": f"{label} • {road}",
-        "road": road,
-        "corridor": corridor.get("name") or road,
-        "isMainRoad": True,
-        "fallbackCorridor": fallback_used,
-        "lat": round(lat, 6),
-        "lon": round(lon, 6),
-        "eventType": label,
-        "description": description,
-        "risk": risk,
-        "source": "TomTom Traffic API",
-        "updatedAt": now_iso(),
+        "active": True, "name": f"{label} • {road}", "road": road,
+        "corridor": corridor.get("name") or road, "isMainRoad": True,
+        "fallbackCorridor": fallback_used, "lat": round(lat, 6), "lon": round(lon, 6),
+        "eventType": label, "description": description, "risk": risk,
+        "source": "TomTom Traffic API", "updatedAt": now_iso(),
     }, "ok"
+
+
+def normalize_road_code(raw: str) -> str:
+    raw = raw.upper().replace(" ", "").replace("--", "-")
+    m = re.match(r"^([A-Z]{2})-?(\d{2,4})$", raw)
+    return f"{m.group(1)}-{m.group(2)}" if m else raw
+
+
+def detect_road(text: str) -> str | None:
+    match = ROAD_CODE_RE.search(text)
+    if match:
+        return normalize_road_code(match.group(0))
+    t = text.casefold()
+    names = {
+        "dutra": "BR-116", "régis bittencourt": "BR-116", "regis bittencourt": "BR-116",
+        "fernão dias": "BR-381", "fernao dias": "BR-381", "rio-santos": "BR-101",
+        "transbrasiliana": "BR-153", "cuiabá-santarém": "BR-163", "cuiaba-santarem": "BR-163",
+    }
+    for needle, road in names.items():
+        if needle in t:
+            return road
+    return None
+
+
+def article_dt(raw: str) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        dt = email.utils.parsedate_to_datetime(raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(BR_TZ)
+    except Exception:
+        return None
+
+
+def same_day(dt: datetime | None) -> bool:
+    return bool(dt and dt.date() == now_br().date())
+
+
+def public_event_type(text: str) -> tuple[str, int] | None:
+    t = text.casefold()
+    if any(term in t for term in IRRELEVANT_TERMS):
+        return None
+    if not any(term in t for term in PUBLIC_ROAD_TERMS):
+        return None
+    if any(term in t for term in ("interdit", "bloque", "queda de barreira", "deslizamento")):
+        return "Interdição ou bloqueio por notícia pública", 74
+    if any(term in t for term in ("mortos", "morto", "feridos", "ferido", "pega fogo", "incêndio", "incendio")):
+        return "Acidente grave por notícia pública", 76
+    if any(term in t for term in ("acidente", "batida", "colisão", "colisao", "tomba")):
+        return "Acidente rodoviário por notícia pública", 66
+    return "Ocorrência rodoviária por notícia pública", 58
+
+
+def corridor_for_article(text: str, road: str | None, points: list[dict[str, Any]]) -> dict[str, Any] | None:
+    t = text.casefold()
+    if road:
+        for p in points:
+            if road.upper().replace(" ", "") in str(p.get("road") or p.get("name") or "").upper().replace(" ", ""):
+                return p
+    best = None
+    for p in points:
+        city = str(p.get("city") or "").casefold()
+        state = str(p.get("state") or "").casefold()
+        name = str(p.get("name") or "").casefold()
+        if city and city in t:
+            return p
+        if state and re.search(rf"\b{re.escape(state)}\b", t):
+            best = best or p
+        if name and name in t:
+            return p
+    return best
+
+
+def clean_title(title: str) -> str:
+    return re.sub(r"\s+", " ", title).strip()[:180]
+
+
+def fetch_google_news(status: dict[str, Any]) -> list[dict[str, Any]]:
+    articles: list[dict[str, Any]] = []
+    for query in PUBLIC_QUERIES:
+        params = {"q": query, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"}
+        try:
+            root = ET.fromstring(fetch_url("https://news.google.com/rss/search?" + urllib.parse.urlencode(params), timeout=45))
+            status["publicFallbackRequestsSucceeded"] += 1
+            for item in root.findall(".//item"):
+                source_el = item.find("source")
+                articles.append({
+                    "title": item.findtext("title") or "",
+                    "url": item.findtext("link") or "",
+                    "source": source_el.text if source_el is not None and source_el.text else "Google News",
+                    "published": item.findtext("pubDate") or "",
+                    "published_dt": article_dt(item.findtext("pubDate") or ""),
+                    "provider": "Google News RSS",
+                })
+        except Exception as exc:
+            status["publicFallbackRequestFailures"] += 1
+            status["errors"].append(f"google-news-fallback: {exc}")
+    return articles
+
+
+def fetch_gdelt(status: dict[str, Any]) -> list[dict[str, Any]]:
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(hours=30)
+    params = {
+        "query": GDELT_QUERY,
+        "mode": "ArtList",
+        "format": "json",
+        "maxrecords": "100",
+        "sort": "HybridRel",
+        "startdatetime": start.strftime("%Y%m%d%H%M%S"),
+        "enddatetime": end.strftime("%Y%m%d%H%M%S"),
+    }
+    try:
+        payload = json.loads(fetch_url("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params), timeout=60).decode("utf-8", errors="replace"))
+        status["publicFallbackRequestsSucceeded"] += 1
+        out = []
+        for article in payload.get("articles", []) if isinstance(payload, dict) else []:
+            seen = str(article.get("seendate") or "")
+            dt = None
+            m = re.search(r"(\d{8})T?(\d{6})", seen)
+            if m:
+                try:
+                    dt = datetime.strptime("".join(m.groups()), "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).astimezone(BR_TZ)
+                except Exception:
+                    pass
+            out.append({
+                "title": article.get("title") or "",
+                "url": article.get("url") or "",
+                "source": article.get("sourceCommonName") or article.get("domain") or "GDELT",
+                "published": dt.isoformat() if dt else "",
+                "published_dt": dt,
+                "provider": "GDELT DOC 2.0",
+            })
+        return out
+    except Exception as exc:
+        status["publicFallbackRequestFailures"] += 1
+        status["errors"].append(f"gdelt-fallback: {exc}")
+        return []
+
+
+def public_fallback_events(points: list[dict[str, Any]], status: dict[str, Any]) -> list[dict[str, Any]]:
+    articles = fetch_gdelt(status) + fetch_google_news(status)
+    status["publicFallbackRawArticles"] = len(articles)
+    out = []
+    seen = set()
+    for article in articles:
+        text = f"{article.get('title','')} {article.get('source','')}"
+        road = detect_road(text)
+        classification = public_event_type(text)
+        if not road or not classification:
+            continue
+        dt = article.get("published_dt")
+        if dt and not same_day(dt) and dt < now_br() - timedelta(hours=36):
+            continue
+        corridor = corridor_for_article(text, road, points)
+        if not corridor:
+            status["publicFallbackSkippedNoCorridor"] += 1
+            continue
+        event_type, risk = classification
+        key = article.get("url") or clean_title(article.get("title") or "")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({
+            "active": True,
+            "name": f"{event_type} • {road}",
+            "road": road,
+            "corridor": corridor.get("name") or road,
+            "isMainRoad": True,
+            "fallbackCorridor": True,
+            "lat": float(corridor["lat"]),
+            "lon": float(corridor["lon"]),
+            "eventType": event_type,
+            "description": f"{clean_title(article.get('title') or '')}. Localização aproximada pelo corredor monitorado.",
+            "risk": risk,
+            "source": f"Notícias públicas - {article.get('source') or article.get('provider') or 'fonte pública'}",
+            "sourceProvider": article.get("provider") or "Fonte pública sem chave",
+            "sourceUrl": article.get("url") or "",
+            "headline": clean_title(article.get("title") or ""),
+            "newsDate": article.get("published") or None,
+            "updatedAt": now_iso(),
+        })
+    out.sort(key=lambda item: int(item.get("risk", 0)), reverse=True)
+    status["publicFallbackEventsWritten"] = len(out[:50])
+    return out[:50]
+
+
+def hard_api_failure(status: dict[str, Any]) -> bool:
+    if status.get("bboxRequestsSucceeded", 0) > 0:
+        return False
+    text = json.dumps(status.get("errors", []), ensure_ascii=False).casefold()
+    return bool(status.get("errors")) and any(term in text for term in ("insufficientfunds", "forbidden", "403", "quota", "credit"))
 
 
 def main() -> None:
     points = monitored_points()
+    previous = load_json(OUTPUT, [])
     status: dict[str, Any] = {
         "updatedAt": now_iso(),
-        "provider": "TomTom Traffic API",
+        "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
-        "riskRule": "Meio-termo: aceita códigos claros e ocorrências próximas aos corredores monitorados, descartando ruas e avenidas locais.",
+        "riskRule": "TomTom quando disponível; se a API falhar por crédito/quota, usa notícias públicas recentes como fallback aproximado.",
         "monitoredPoints": len(points),
-        "bboxRequestsPlanned": len(points),
+        "bboxRequestsPlanned": len(points) if API_KEY else 0,
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
         "skippedFinishedOrInvalid": 0,
         "skippedLocalStreet": 0,
+        "publicFallbackUsed": False,
+        "publicFallbackRequestsSucceeded": 0,
+        "publicFallbackRequestFailures": 0,
+        "publicFallbackRawArticles": 0,
+        "publicFallbackEventsWritten": 0,
+        "publicFallbackSkippedNoCorridor": 0,
+        "keptPreviousOnApiFailure": False,
         "errors": [],
     }
 
-    if not API_KEY:
-        write_json(OUTPUT, load_json(OUTPUT, []))
-        status["errors"].append("TOMTOM_API_KEY não está configurada nos Secrets do GitHub Actions.")
-        write_json(STATUS_OUTPUT, status)
-        print(json.dumps(status, ensure_ascii=False, indent=2))
-        return
-
-    seen = set()
     output = []
-    for point in points:
-        bbox = bbox_around(float(point["lat"]), float(point["lon"]))
-        try:
-            incidents = fetch_bbox(bbox)
-            status["bboxRequestsSucceeded"] += 1
-            status["rawIncidents"] += len(incidents)
-            for incident in incidents:
-                normalized, reason = normalize_incident(incident, point)
-                if not normalized:
-                    if reason == "local_street":
-                        status["skippedLocalStreet"] += 1
-                    else:
-                        status["skippedFinishedOrInvalid"] += 1
-                    continue
-                key = (normalized["eventType"], round(float(normalized["lat"]), 3), round(float(normalized["lon"]), 3), normalized["road"])
-                if key in seen:
-                    continue
-                seen.add(key)
-                output.append(normalized)
-        except urllib.error.HTTPError as exc:
-            body = ""
+    seen = set()
+    if API_KEY:
+        for point in points:
+            bbox = bbox_around(float(point["lat"]), float(point["lon"]))
             try:
-                body = exc.read().decode("utf-8")[:400]
-            except Exception:
-                pass
-            status["errors"].append({"bbox": bbox, "httpStatus": exc.code, "message": body or str(exc)})
-        except Exception as exc:
-            status["errors"].append({"bbox": bbox, "message": str(exc)})
+                incidents = fetch_bbox(bbox)
+                status["bboxRequestsSucceeded"] += 1
+                status["rawIncidents"] += len(incidents)
+                for incident in incidents:
+                    normalized, reason = normalize_incident(incident, point)
+                    if not normalized:
+                        if reason == "local_street":
+                            status["skippedLocalStreet"] += 1
+                        else:
+                            status["skippedFinishedOrInvalid"] += 1
+                        continue
+                    key = (normalized["eventType"], round(float(normalized["lat"]), 3), round(float(normalized["lon"]), 3), normalized["road"])
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    output.append(normalized)
+            except urllib.error.HTTPError as exc:
+                body = ""
+                try:
+                    body = exc.read().decode("utf-8")[:400]
+                except Exception:
+                    pass
+                status["errors"].append({"bbox": bbox, "httpStatus": exc.code, "message": body or str(exc)})
+            except Exception as exc:
+                status["errors"].append({"bbox": bbox, "message": str(exc)})
+    else:
+        status["errors"].append("TOMTOM_API_KEY não está configurada nos Secrets do GitHub Actions.")
 
     output.sort(key=lambda item: int(item.get("risk", 0)), reverse=True)
+
+    if not output and (hard_api_failure(status) or not API_KEY):
+        fallback = public_fallback_events(points, status)
+        if fallback:
+            output = fallback
+            status["publicFallbackUsed"] = True
+        elif isinstance(previous, list) and previous:
+            output = previous
+            status["keptPreviousOnApiFailure"] = True
+
     status["eventsWritten"] = len(output)
     write_json(OUTPUT, output)
     write_json(STATUS_OUTPUT, status)
