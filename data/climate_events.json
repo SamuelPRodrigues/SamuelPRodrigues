@@ -2,34 +2,6 @@
   {
     "active": true,
     "type": "climate",
-    "name": "Boa Vista",
-    "region": "Norte",
-    "state": "RR",
-    "lat": 2.824,
-    "lon": -60.675,
-    "risk": 63,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 24.1,
-      "precipitation": 1.3,
-      "rain": 0.0,
-      "showers": 1.3,
-      "wind_speed_10m": 6.8,
-      "wind_gusts_10m": 11.9,
-      "weather_code": 81
-    },
-    "reasons": [
-      "Pancadas de chuva detectadas",
-      "Chuva/precipitação detectada (2.6 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:13Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
     "name": "Altamira",
     "region": "Norte",
     "state": "PA",
@@ -37,51 +9,23 @@
     "lon": -52.206,
     "risk": 59,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 23.1,
+      "temperature_2m": 23.0,
       "precipitation": 1.6,
       "rain": 0.7,
       "showers": 0.9,
-      "wind_speed_10m": 6.2,
-      "wind_gusts_10m": 24.5,
+      "wind_speed_10m": 6.1,
+      "wind_gusts_10m": 24.8,
       "weather_code": 63
     },
     "reasons": [
       "Chuva detectada",
       "Chuva/precipitação detectada (3.2 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:13Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Piracicaba",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -22.725,
-    "lon": -47.649,
-    "risk": 58,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 17.4,
-      "precipitation": 1.2,
-      "rain": 0.1,
-      "showers": 1.1,
-      "wind_speed_10m": 7.3,
-      "wind_gusts_10m": 21.2,
-      "weather_code": 63
-    },
-    "reasons": [
-      "Chuva detectada",
-      "Chuva/precipitação detectada (2.4 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:00:36Z"
   },
   {
     "active": true,
@@ -91,25 +35,75 @@
     "state": "SP",
     "lat": -23.55,
     "lon": -46.633,
-    "risk": 57,
+    "risk": 58,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
       "temperature_2m": 15.2,
       "precipitation": 1.4,
       "rain": 0.1,
       "showers": 1.3,
-      "wind_speed_10m": 7.0,
-      "wind_gusts_10m": 19.4,
+      "wind_speed_10m": 7.3,
+      "wind_gusts_10m": 20.5,
       "weather_code": 63
     },
     "reasons": [
       "Chuva detectada",
       "Chuva/precipitação detectada (2.8 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:02:31Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Boa Vista",
+    "region": "Norte",
+    "state": "RR",
+    "lat": 2.824,
+    "lon": -60.675,
+    "risk": 55,
+    "current": {
+      "time": "2026-05-24T00:00",
+      "interval": 900,
+      "temperature_2m": 23.9,
+      "precipitation": 1.3,
+      "rain": 0.0,
+      "showers": 1.3,
+      "wind_speed_10m": 7.4,
+      "wind_gusts_10m": 12.2,
+      "weather_code": 63
+    },
+    "reasons": [
+      "Chuva detectada",
+      "Chuva/precipitação detectada (2.6 mm)"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:00:36Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Piracicaba",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -22.725,
+    "lon": -47.649,
+    "risk": 55,
+    "current": {
+      "temperature_2m": 17.4,
+      "wind_speed_10m": 7.5,
+      "weather_code": 63,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Chuva detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:03:22Z"
   },
   {
     "active": true,
@@ -121,79 +115,23 @@
     "lon": -38.501,
     "risk": 46,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 24.9,
+      "temperature_2m": 24.8,
       "precipitation": 0.2,
       "rain": 0.2,
       "showers": 0.0,
-      "wind_speed_10m": 19.3,
-      "wind_gusts_10m": 39.6,
+      "wind_speed_10m": 19.2,
+      "wind_gusts_10m": 38.9,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:15Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Ilhéus",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -14.793,
-    "lon": -39.046,
-    "risk": 43,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 22.8,
-      "precipitation": 0.2,
-      "rain": 0.2,
-      "showers": 0.0,
-      "wind_speed_10m": 11.9,
-      "wind_gusts_10m": 27.0,
-      "weather_code": 53
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.4 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:15Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "João Pessoa",
-    "region": "Nordeste",
-    "state": "PB",
-    "lat": -7.119,
-    "lon": -34.845,
-    "risk": 42,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 24.3,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "showers": 0.0,
-      "wind_speed_10m": 12.3,
-      "wind_gusts_10m": 24.5,
-      "weather_code": 51
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:15Z"
+    "createdAt": "2026-05-24T03:01:40Z"
   },
   {
     "active": true,
@@ -205,9 +143,9 @@
     "lon": -35.735,
     "risk": 42,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 25.6,
+      "temperature_2m": 25.5,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
@@ -219,93 +157,87 @@
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:15Z"
+    "createdAt": "2026-05-24T03:01:40Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Campo Grande",
-    "region": "Centro-Oeste",
-    "state": "MS",
-    "lat": -20.469,
-    "lon": -54.62,
+    "name": "Ilhéus",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -14.793,
+    "lon": -39.046,
     "risk": 42,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 18.4,
-      "precipitation": 0.3,
-      "rain": 0.0,
-      "showers": 0.3,
-      "wind_speed_10m": 11.7,
-      "wind_gusts_10m": 24.1,
-      "weather_code": 55
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.6 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:16Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Recife",
-    "region": "Nordeste",
-    "state": "PE",
-    "lat": -8.047,
-    "lon": -34.877,
-    "risk": 41,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 23.8,
-      "precipitation": 0.3,
-      "rain": 0.3,
-      "showers": 0.0,
-      "wind_speed_10m": 11.4,
-      "wind_gusts_10m": 22.3,
-      "weather_code": 55
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.6 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:15Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Presidente Prudente",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -22.121,
-    "lon": -51.393,
-    "risk": 40,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 18.0,
+      "temperature_2m": 22.8,
       "precipitation": 0.2,
-      "rain": 0.1,
-      "showers": 0.1,
-      "wind_speed_10m": 6.3,
-      "wind_gusts_10m": 18.7,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 11.2,
+      "wind_gusts_10m": 26.6,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:01:40Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Belém",
+    "region": "Norte",
+    "state": "PA",
+    "lat": -1.455,
+    "lon": -48.49,
+    "risk": 40,
+    "current": {
+      "time": "2026-05-24T00:00",
+      "interval": 900,
+      "temperature_2m": 24.2,
+      "precipitation": 0.2,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 9.2,
+      "wind_gusts_10m": 16.6,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:00:36Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "João Pessoa",
+    "region": "Nordeste",
+    "state": "PB",
+    "lat": -7.119,
+    "lon": -34.845,
+    "risk": 40,
+    "current": {
+      "temperature_2m": 24.1,
+      "wind_speed_10m": 12.4,
+      "weather_code": 51,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Garoa detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:01:38Z"
   },
   {
     "active": true,
@@ -317,13 +249,13 @@
     "lon": -50.161,
     "risk": 40,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
       "temperature_2m": 14.1,
       "precipitation": 0.1,
       "rain": 0.0,
       "showers": 0.1,
-      "wind_speed_10m": 9.3,
+      "wind_speed_10m": 9.0,
       "wind_gusts_10m": 18.0,
       "weather_code": 51
     },
@@ -331,37 +263,53 @@
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:18Z"
+    "createdAt": "2026-05-24T03:03:23Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Belém",
-    "region": "Norte",
-    "state": "PA",
-    "lat": -1.455,
-    "lon": -48.49,
+    "name": "Recife",
+    "region": "Nordeste",
+    "state": "PE",
+    "lat": -8.047,
+    "lon": -34.877,
     "risk": 39,
     "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 24.4,
-      "precipitation": 0.2,
-      "rain": 0.2,
-      "showers": 0.0,
-      "wind_speed_10m": 8.8,
-      "wind_gusts_10m": 15.1,
-      "weather_code": 53
+      "temperature_2m": 23.7,
+      "wind_speed_10m": 11.3,
+      "weather_code": 55,
+      "time": "2026-05-24T00:00"
     },
     "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.4 mm)"
+      "Garoa detectada"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:13Z"
+    "createdAt": "2026-05-24T03:01:38Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Campo Grande",
+    "region": "Centro-Oeste",
+    "state": "MS",
+    "lat": -20.469,
+    "lon": -54.62,
+    "risk": 39,
+    "current": {
+      "temperature_2m": 18.2,
+      "wind_speed_10m": 11.6,
+      "weather_code": 55,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Garoa detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:02:30Z"
   },
   {
     "active": true,
@@ -373,79 +321,23 @@
     "lon": -46.333,
     "risk": 39,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 17.9,
+      "temperature_2m": 17.8,
       "precipitation": 0.3,
       "rain": 0.1,
       "showers": 0.2,
-      "wind_speed_10m": 3.8,
-      "wind_gusts_10m": 14.4,
+      "wind_speed_10m": 2.9,
+      "wind_gusts_10m": 14.0,
       "weather_code": 55
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.6 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Bauru",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -22.315,
-    "lon": -49.061,
-    "risk": 39,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 17.2,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "showers": 0.0,
-      "wind_speed_10m": 8.1,
-      "wind_gusts_10m": 15.8,
-      "weather_code": 51
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Sorocaba",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -23.501,
-    "lon": -47.458,
-    "risk": 39,
-    "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 16.5,
-      "precipitation": 0.3,
-      "rain": 0.1,
-      "showers": 0.2,
-      "wind_speed_10m": 5.2,
-      "wind_gusts_10m": 15.8,
-      "weather_code": 55
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.6 mm)"
-    ],
-    "time": "2026-05-23T23:45",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:02:31Z"
   },
   {
     "active": true,
@@ -457,23 +349,89 @@
     "lon": -47.063,
     "risk": 38,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 17.0,
+      "temperature_2m": 16.9,
       "precipitation": 0.2,
       "rain": 0.2,
       "showers": 0.0,
-      "wind_speed_10m": 1.2,
-      "wind_gusts_10m": 10.1,
+      "wind_speed_10m": 1.3,
+      "wind_gusts_10m": 9.7,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:02:31Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Bauru",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -22.315,
+    "lon": -49.061,
+    "risk": 38,
+    "current": {
+      "temperature_2m": 17.1,
+      "wind_speed_10m": 8.1,
+      "weather_code": 51,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Garoa detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:03:22Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Sorocaba",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -23.501,
+    "lon": -47.458,
+    "risk": 37,
+    "current": {
+      "temperature_2m": 16.5,
+      "wind_speed_10m": 4.4,
+      "weather_code": 55,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Garoa detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:03:22Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Presidente Prudente",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -22.121,
+    "lon": -51.393,
+    "risk": 37,
+    "current": {
+      "temperature_2m": 18.0,
+      "wind_speed_10m": 6.1,
+      "weather_code": 53,
+      "time": "2026-05-24T00:00"
+    },
+    "reasons": [
+      "Garoa detectada"
+    ],
+    "time": "2026-05-24T00:00",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T03:03:22Z"
   },
   {
     "active": true,
@@ -485,13 +443,13 @@
     "lon": -45.884,
     "risk": 36,
     "current": {
-      "time": "2026-05-23T23:45",
+      "time": "2026-05-24T00:00",
       "interval": 900,
-      "temperature_2m": 16.8,
+      "temperature_2m": 16.7,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 0.9,
+      "wind_speed_10m": 1.4,
       "wind_gusts_10m": 4.7,
       "weather_code": 51
     },
@@ -499,9 +457,9 @@
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:02:31Z"
   },
   {
     "active": true,
@@ -513,22 +471,16 @@
     "lon": -51.933,
     "risk": 36,
     "current": {
-      "time": "2026-05-23T23:45",
-      "interval": 900,
-      "temperature_2m": 17.7,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "showers": 0.0,
-      "wind_speed_10m": 2.2,
-      "wind_gusts_10m": 4.7,
-      "weather_code": 51
+      "temperature_2m": 17.6,
+      "wind_speed_10m": 2.6,
+      "weather_code": 51,
+      "time": "2026-05-24T00:00"
     },
     "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
+      "Garoa detectada"
     ],
-    "time": "2026-05-23T23:45",
+    "time": "2026-05-24T00:00",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T02:45:17Z"
+    "createdAt": "2026-05-24T03:03:22Z"
   }
 ]
