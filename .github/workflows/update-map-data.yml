@@ -135,8 +135,20 @@ jobs:
           git config user.email "actions@github.com"
           git commit -m "Atualiza dados automaticos do mapa"
 
-      - name: Enviar mudancas
+      - name: Enviar mudancas com retry
         if: steps.verify_diff.outputs.changed == 'true'
         run: |
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
+          set -e
+          for attempt in 1 2 3 4 5; do
+            echo "Tentativa $attempt de sincronizar e enviar mudanças..."
+            git status --short
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "Push realizado com sucesso."
+              exit 0
+            fi
+            echo "Falha na tentativa $attempt. Limpando rebase pendente e aguardando..."
+            git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          echo "Não foi possível enviar as mudanças após múltiplas tentativas."
+          exit 1
