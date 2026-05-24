@@ -33,23 +33,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Garantir painel de analises
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          path = Path('index.html')
-          text = path.read_text(encoding='utf-8')
-          for old in (
-              '<script src="analytics-panel.js?v=1"></script>',
-              '<script src="analytics-panel.js?v=2"></script>',
-              '<script src="analytics-panel.js"></script>',
-          ):
-              text = text.replace(old, '')
-          tag = '<script src="analytics-panel.js?v=3"></script>'
-          text = text.replace('</body>', tag + '\n</body>')
-          path.write_text(text, encoding='utf-8')
-          PY
-
       - name: Atualizar fontes de dados
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
@@ -117,7 +100,7 @@ jobs:
           PY
 
       - name: Preparar commit
-        run: git add index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
+        run: git add data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
 
       - name: Verificar mudancas
         id: verify_diff
