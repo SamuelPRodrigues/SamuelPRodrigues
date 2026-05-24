@@ -13,7 +13,8 @@
   }
 
   function css(src,id){
-    if(document.getElementById(id)) return;
+    const existing=document.getElementById(id);
+    if(existing){ existing.href=src; return; }
     const link=document.createElement('link');
     link.id=id;
     link.rel='stylesheet';
@@ -23,5 +24,5 @@
 
   load('site-redesign.js?v=2', 'site-redesign');
   load('site-redesign-enhance.js?v=5', 'site-redesign-enhance');
-  css('site-redesign-hotfix.css?v=1','site-redesign-hotfix');
+  css('site-redesign-hotfix.css?v=3','site-redesign-hotfix');
 })();
