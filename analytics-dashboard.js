@@ -25,4 +25,6 @@
   load('site-redesign.js?v=2', 'site-redesign');
   load('site-redesign-enhance.js?v=5', 'site-redesign-enhance');
   css('site-redesign-hotfix.css?v=3','site-redesign-hotfix');
+  css('site-redesign-mapfix.css?v=1','site-redesign-mapfix');
+  load('site-redesign-mapfix.js?v=1','site-redesign-mapfix');
 })();
