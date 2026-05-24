@@ -1,0 +1,53 @@
+name: Sincronizar histórico no Google Sheets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-sheets-main
+  cancel-in-progress: false
+
+jobs:
+  sync-sheets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar eventos para Google Sheets
+        env:
+          SHEETS_WEBAPP_URL: ${{ secrets.SHEETS_WEBAPP_URL }}
+          SHEETS_WEBAPP_KEY: ${{ secrets.SHEETS_WEBAPP_KEY }}
+        run: python scripts/sync_events_to_sheets.py
+      - name: Salvar status da sincronização
+        run: git add data/sheets_sync_status.json || true
+      - name: Verificar mudanças
+        id: verify_diff
+        run: |
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commitar status
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza status de sincronização com Sheets"
+      - name: Enviar mudanças
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
