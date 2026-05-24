@@ -12,6 +12,16 @@
     document.body.appendChild(script);
   }
 
+  function css(src,id){
+    if(document.getElementById(id)) return;
+    const link=document.createElement('link');
+    link.id=id;
+    link.rel='stylesheet';
+    link.href=src;
+    document.head.appendChild(link);
+  }
+
   load('site-redesign.js?v=2', 'site-redesign');
   load('site-redesign-enhance.js?v=5', 'site-redesign-enhance');
+  css('site-redesign-hotfix.css?v=1','site-redesign-hotfix');
 })();
