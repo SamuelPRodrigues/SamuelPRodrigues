@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T10:45:18Z",
+  "updatedAt": "2026-05-24T10:48:31Z",
   "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo + aliases amplos",
   "trustedSources": [
     "CNN Brasil",
@@ -17,7 +17,7 @@
   ],
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
   "sameDayWindowStartUtc": "20260524030000",
-  "sameDayWindowEndUtc": "20260524104518",
+  "sameDayWindowEndUtc": "20260524104831",
   "gdeltRequestsSucceeded": 1,
   "gdeltRequestFailures": 2,
   "googleNewsQueriesPlanned": 14,
@@ -27,17 +27,17 @@
   "retryRecoveries": 0,
   "rawArticles": 1018,
   "eventsWritten": 0,
-  "skippedByDate": 331,
-  "skippedNoCity": 643,
+  "skippedByDate": 335,
+  "skippedNoCity": 628,
   "skippedNoRule": 3,
-  "skippedIrrelevant": 41,
-  "locationAliasMatches": 182,
+  "skippedIrrelevant": 52,
+  "locationAliasMatches": 199,
   "majorContextExceptions": 0,
   "keptPreviousOnFailure": false,
   "errors": [
     "same-day-window tentativa 2: HTTP Error 429: Too Many Requests",
     "same-day-window tentativa 3: HTTP Error 429: Too Many Requests",
     "same-day-timespan-fallback tentativa 2: Expecting value: line 1 column 1 (char 0)",
-    "same-day-timespan-fallback tentativa 3: HTTP Error 429: Too Many Requests"
+    "same-day-timespan-fallback tentativa 3: Expecting value: line 1 column 1 (char 0)"
   ]
 }
