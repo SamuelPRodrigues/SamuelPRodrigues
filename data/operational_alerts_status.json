@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T20:15:32Z",
+  "updatedAt": "2026-05-24T20:32:36Z",
   "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo + aliases amplos",
   "trustedSources": [
     "CNN Brasil",
@@ -17,29 +17,27 @@
   ],
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
   "sameDayWindowStartUtc": "20260524030000",
-  "sameDayWindowEndUtc": "20260524201532",
-  "gdeltRequestsSucceeded": 0,
-  "gdeltRequestFailures": 3,
+  "sameDayWindowEndUtc": "20260524203236",
+  "gdeltRequestsSucceeded": 1,
+  "gdeltRequestFailures": 2,
   "googleNewsQueriesPlanned": 14,
   "googleNewsRequestsSucceeded": 14,
   "trustedSourceRequestsSucceeded": 12,
   "googleNewsRequestFailures": 0,
-  "retryRecoveries": 0,
-  "rawArticles": 995,
+  "retryRecoveries": 1,
+  "rawArticles": 1029,
   "eventsWritten": 0,
-  "skippedByDate": 287,
-  "skippedNoCity": 650,
-  "skippedNoRule": 8,
-  "skippedIrrelevant": 50,
-  "locationAliasMatches": 141,
+  "skippedByDate": 317,
+  "skippedNoCity": 642,
+  "skippedNoRule": 15,
+  "skippedIrrelevant": 55,
+  "locationAliasMatches": 161,
   "majorContextExceptions": 0,
   "keptPreviousOnFailure": false,
   "errors": [
     "same-day-window tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-window tentativa 3: HTTP Error 429: Too Many Requests",
+    "same-day-window tentativa 3: <urlopen error timed out>",
     "same-day-timespan-fallback tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-timespan-fallback tentativa 3: HTTP Error 429: Too Many Requests",
-    "major-context tentativa 2: HTTP Error 429: Too Many Requests",
-    "major-context tentativa 3: HTTP Error 429: Too Many Requests"
+    "same-day-timespan-fallback tentativa 3: HTTP Error 429: Too Many Requests"
   ]
 }
