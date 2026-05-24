@@ -6,7 +6,7 @@ import re
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -46,10 +46,15 @@ ROAD_TERMS = [
     'rodovia interditada','rodovia bloqueada','pista interditada','pista bloqueada',
     'interdição na rodovia','acidente na rodovia','acidente deixa','congestionamento na rodovia',
     'queda de barreira na rodovia','caminhão tomba','carreta tomba','bloqueio na br',
-    'trânsito parado','faixa interditada','km '
+    'trânsito parado','faixa interditada','km ',
+    'batida na br','batida na rodovia','colisão na br','colisão na rodovia','ônibus e carreta',
+    'onibus e carreta','pegam fogo','pega fogo','incêndio na br','incendio na br',
+    'mortos e feridos','morto e feridos','deixa mortos','deixa feridos'
 ]
-ROAD_HARD_TERMS = ['interditada','interditado','bloqueada','bloqueado','acidente','tomba','congestionamento','queda de barreira']
-ROAD_CONTEXT_TERMS = ['rodovia','br-','br ','sp-','mg-','rj-','pr-','sc-','rs-','ba-','pe-','ce-','go-','mt-','ms-','es-','km ']
+ROAD_HARD_TERMS = [
+    'interditada','interditado','bloqueada','bloqueado','acidente','tomba','congestionamento','queda de barreira',
+    'batida','colisão','colisao','pega fogo','pegam fogo','incêndio','incendio','mortos','morto','feridos','ferido'
+]
 
 ROAD_PATTERNS = [
     r'\b(?:BR|SP|MG|RJ|PR|SC|RS|BA|PE|CE|GO|MT|MS|ES|PA|AM|RO|TO|DF)-?\s?\d{2,4}\b',
@@ -73,14 +78,28 @@ NAMED_HIGHWAYS = {
     'rodoanel': 'Rodoanel',
 }
 
+REGION_FALLBACKS = {
+    'norte de mg': (-16.7282, -43.8578, 'Norte de MG', 'MG'),
+    'norte de minas': (-16.7282, -43.8578, 'Norte de MG', 'MG'),
+    'norte de minas gerais': (-16.7282, -43.8578, 'Norte de MG', 'MG'),
+    'grande minas': (-16.7282, -43.8578, 'Grande Minas', 'MG'),
+    'sul de minas': (-21.5560, -45.4360, 'Sul de MG', 'MG'),
+    'zona da mata': (-21.7642, -43.3503, 'Zona da Mata', 'MG'),
+    'triângulo mineiro': (-18.9186, -48.2772, 'Triângulo Mineiro', 'MG'),
+    'triangulo mineiro': (-18.9186, -48.2772, 'Triângulo Mineiro', 'MG'),
+    'vale do aço': (-19.4683, -42.5367, 'Vale do Aço', 'MG'),
+    'vale do aco': (-19.4683, -42.5367, 'Vale do Aço', 'MG'),
+}
+
 GENERAL_QUERIES = [
     '("chuva forte" OR temporal OR alagamento OR enchente OR deslizamento OR "queda de barreira" OR "alerta laranja" OR "alerta vermelho") Brasil when:1d -futebol -jogo -mercado',
-    '((rodovia OR BR OR "pista interditada" OR "rodovia interditada") (acidente OR bloqueio OR interdição OR congestionamento OR "queda de barreira" OR "carreta tomba")) Brasil when:1d -futebol -jogo -mercado',
+    '((rodovia OR BR OR "pista interditada" OR "rodovia interditada") (acidente OR batida OR colisão OR bloqueio OR interdição OR congestionamento OR "queda de barreira" OR "carreta tomba" OR "pega fogo" OR "mortos" OR "feridos")) Brasil when:1d -futebol -jogo -mercado',
+    '("BR-251" OR "BR 251" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040") (acidente OR batida OR colisão OR interdição OR interditada OR "pega fogo" OR mortos OR feridos) when:1d -futebol -jogo',
 ]
 SOURCE_QUERIES = []
 for _, domain in TRUSTED_NEWS_SITES:
     SOURCE_QUERIES.append(f'("chuva forte" OR temporal OR alagamento OR enchente OR deslizamento OR "alerta vermelho") site:{domain} when:1d -futebol -jogo')
-    SOURCE_QUERIES.append(f'(rodovia OR BR OR "pista interditada" OR "rodovia interditada" OR acidente OR bloqueio) site:{domain} when:1d -futebol -jogo')
+    SOURCE_QUERIES.append(f'(rodovia OR BR OR "pista interditada" OR "rodovia interditada" OR acidente OR batida OR colisão OR bloqueio OR "pega fogo" OR mortos OR feridos) site:{domain} when:1d -futebol -jogo')
 
 
 def load_list(path: Path) -> list[dict[str, Any]]:
@@ -96,7 +115,7 @@ def same_day(dt: datetime | None) -> bool:
 
 
 def clean_title(title: str) -> str:
-    return re.sub(r'\s+', ' ', title).strip()[:160]
+    return re.sub(r'\s+', ' ', title).strip()[:180]
 
 
 def fetch_google_news(query: str, status: dict[str, Any]) -> list[dict[str, Any]]:
@@ -130,6 +149,10 @@ def geocode(text: str, status: dict[str, Any]) -> tuple[float, float, str, str] 
     if best:
         city, lat, lon, uf = best
         return lat, lon, city.title(), uf
+    for needle, data in REGION_FALLBACKS.items():
+        if needle in t:
+            status['regionFallbackMatches'] += 1
+            return data
     padded = f' {t} '
     for alias, city in LOCATION_ALIASES.items():
         if f' {alias} ' in padded or alias in t:
@@ -139,12 +162,18 @@ def geocode(text: str, status: dict[str, Any]) -> tuple[float, float, str, str] 
     return None
 
 
+def normalize_road_code(raw: str) -> str:
+    raw = raw.upper().replace(' ', '').replace('--', '-')
+    m = re.match(r'^([A-Z]{2})-?(\d{2,4})$', raw)
+    return f'{m.group(1)}-{m.group(2)}' if m else raw
+
+
 def detect_road(text: str) -> str | None:
     t = text.casefold()
     for pattern in ROAD_PATTERNS:
         match = re.search(pattern, text, re.I)
         if match:
-            return match.group(0).upper().replace(' ', '').replace('BR', 'BR-').replace('SP', 'SP-').replace('MG', 'MG-').replace('RJ', 'RJ-').replace('PR', 'PR-').replace('SC', 'SC-').replace('RS', 'RS-').replace('BA', 'BA-').replace('PE', 'PE-').replace('CE', 'CE-').replace('GO', 'GO-').replace('MT', 'MT-').replace('MS', 'MS-').replace('ES', 'ES-').replace('--', '-')
+            return normalize_road_code(match.group(0))
     for needle, name in NAMED_HIGHWAYS.items():
         if needle in t:
             return name
@@ -174,9 +203,11 @@ def classify_road(text: str) -> tuple[str, int, str] | None:
     if not (has_any(t, ROAD_HARD_TERMS) or has_any(t, ROAD_TERMS)):
         return None
     if has_any(t, ['interditada','interditado','bloqueada','bloqueado','queda de barreira']):
-        return 'Interdição ou bloqueio por notícia', 72, road
-    if has_any(t, ['acidente','tomba','carreta','caminhão']):
-        return 'Acidente rodoviário por notícia', 64, road
+        return 'Interdição ou bloqueio por notícia', 74, road
+    if has_any(t, ['mortos','morto','feridos','ferido','pega fogo','pegam fogo','incêndio','incendio']):
+        return 'Acidente grave rodoviário por notícia', 76, road
+    if has_any(t, ['acidente','batida','colisão','colisao','tomba','carreta','caminhão','onibus','ônibus']):
+        return 'Acidente rodoviário por notícia', 66, road
     return 'Ocorrência rodoviária por notícia', 58, road
 
 
@@ -194,7 +225,7 @@ def make_climate_event(article: dict[str, Any], status: dict[str, Any]) -> dict[
         return None
     event_type, risk = classification
     lat, lon, city, uf = geo
-    event = {
+    return {
         'active': True,
         'type': 'climate',
         'name': city,
@@ -212,7 +243,6 @@ def make_climate_event(article: dict[str, Any], status: dict[str, Any]) -> dict[
         'headline': clean_title(article.get('title') or ''),
         'createdAt': now_iso(),
     }
-    return event
 
 
 def make_road_event(article: dict[str, Any], status: dict[str, Any]) -> dict[str, Any] | None:
@@ -239,7 +269,7 @@ def make_road_event(article: dict[str, Any], status: dict[str, Any]) -> dict[str
         'lat': lat,
         'lon': lon,
         'eventType': event_type,
-        'description': f"{clean_title(article.get('title') or '')}. Região aproximada por cidade/UF citada na notícia.",
+        'description': f"{clean_title(article.get('title') or '')}. Localização aproximada por cidade/região/UF citada na notícia.",
         'risk': risk,
         'source': f"Notícias - {article.get('source') or 'Google News'}",
         'sourceProvider': PROVIDER,
@@ -280,6 +310,7 @@ def main() -> None:
         'skippedClimateNoCity': 0,
         'skippedRoadNoCity': 0,
         'locationAliasMatches': 0,
+        'regionFallbackMatches': 0,
         'errors': [],
     }
 
