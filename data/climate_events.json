@@ -25,7 +25,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:33Z"
+    "createdAt": "2026-05-24T07:38:07Z"
   },
   {
     "active": true,
@@ -53,7 +53,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:28Z"
+    "createdAt": "2026-05-24T07:38:06Z"
   },
   {
     "active": true,
@@ -81,7 +81,35 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:36Z"
+    "createdAt": "2026-05-24T07:38:07Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Sorocaba",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -23.501,
+    "lon": -47.458,
+    "risk": 56,
+    "current": {
+      "time": "2026-05-24T04:30",
+      "interval": 900,
+      "temperature_2m": 15.9,
+      "precipitation": 1.2,
+      "rain": 0.1,
+      "showers": 1.1,
+      "wind_speed_10m": 5.6,
+      "wind_gusts_10m": 13.3,
+      "weather_code": 63
+    },
+    "reasons": [
+      "Chuva detectada",
+      "Chuva/precipitação detectada (2.4 mm)"
+    ],
+    "time": "2026-05-24T04:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T07:38:09Z"
   },
   {
     "active": true,
@@ -109,7 +137,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:33:13Z"
+    "createdAt": "2026-05-24T07:38:10Z"
   },
   {
     "active": true,
@@ -137,7 +165,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:28Z"
+    "createdAt": "2026-05-24T07:38:06Z"
   },
   {
     "active": true,
@@ -165,7 +193,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:28Z"
+    "createdAt": "2026-05-24T07:38:06Z"
   },
   {
     "active": true,
@@ -193,29 +221,91 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:32:21Z"
+    "createdAt": "2026-05-24T07:38:09Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Sorocaba",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -23.501,
-    "lon": -47.458,
-    "risk": 54,
+    "name": "Salvador",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -12.977,
+    "lon": -38.501,
+    "risk": 44,
     "current": {
-      "temperature_2m": 15.9,
-      "wind_speed_10m": 5.6,
-      "weather_code": 63,
-      "time": "2026-05-24T04:30"
+      "time": "2026-05-24T04:30",
+      "interval": 900,
+      "temperature_2m": 24.4,
+      "precipitation": 0.2,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 16.6,
+      "wind_gusts_10m": 32.0,
+      "weather_code": 53
     },
     "reasons": [
-      "Chuva detectada"
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:33:12Z"
+    "createdAt": "2026-05-24T07:38:07Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Ilhéus",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -14.793,
+    "lon": -39.046,
+    "risk": 44,
+    "current": {
+      "time": "2026-05-24T04:30",
+      "interval": 900,
+      "temperature_2m": 22.0,
+      "precipitation": 0.2,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 14.7,
+      "wind_gusts_10m": 31.3,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T04:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T07:38:07Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Maceió",
+    "region": "Nordeste",
+    "state": "AL",
+    "lat": -9.665,
+    "lon": -35.735,
+    "risk": 43,
+    "current": {
+      "time": "2026-05-24T04:30",
+      "interval": 900,
+      "temperature_2m": 24.1,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 15.8,
+      "wind_gusts_10m": 29.9,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-24T04:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T07:38:07Z"
   },
   {
     "active": true,
@@ -243,73 +333,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:36Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Maceió",
-    "region": "Nordeste",
-    "state": "AL",
-    "lat": -9.665,
-    "lon": -35.735,
-    "risk": 41,
-    "current": {
-      "temperature_2m": 24.1,
-      "wind_speed_10m": 15.8,
-      "weather_code": 51,
-      "time": "2026-05-24T04:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T04:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:31:28Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Salvador",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -12.977,
-    "lon": -38.501,
-    "risk": 41,
-    "current": {
-      "temperature_2m": 24.4,
-      "wind_speed_10m": 16.6,
-      "weather_code": 53,
-      "time": "2026-05-24T04:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T04:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:31:28Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Ilhéus",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -14.793,
-    "lon": -39.046,
-    "risk": 40,
-    "current": {
-      "temperature_2m": 22.0,
-      "wind_speed_10m": 14.7,
-      "weather_code": 53,
-      "time": "2026-05-24T04:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T04:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:31:28Z"
+    "createdAt": "2026-05-24T07:38:07Z"
   },
   {
     "active": true,
@@ -337,7 +361,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:32:21Z"
+    "createdAt": "2026-05-24T07:38:09Z"
   },
   {
     "active": true,
@@ -365,7 +389,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:30:33Z"
+    "createdAt": "2026-05-24T07:38:07Z"
   },
   {
     "active": true,
@@ -393,7 +417,7 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:33:13Z"
+    "createdAt": "2026-05-24T07:38:10Z"
   },
   {
     "active": true,
@@ -421,6 +445,6 @@
     ],
     "time": "2026-05-24T04:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T07:33:13Z"
+    "createdAt": "2026-05-24T07:38:10Z"
   }
 ]
