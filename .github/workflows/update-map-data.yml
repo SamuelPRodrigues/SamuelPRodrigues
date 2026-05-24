@@ -59,12 +59,15 @@ jobs:
           road_status=$?
           python scripts/update_operational_alerts.py
           operational_status=$?
+          python scripts/update_news_supplemental_events.py
+          news_supplemental_status=$?
           python scripts/update_manual_events_from_sheet.py
           manual_status=$?
 
           export CLIMATE_STATUS="$climate_status"
           export ROAD_STATUS="$road_status"
           export OPERATIONAL_STATUS="$operational_status"
+          export NEWS_SUPPLEMENTAL_STATUS="$news_supplemental_status"
           export MANUAL_STATUS="$manual_status"
 
           python - <<'PY'
@@ -80,6 +83,7 @@ jobs:
               'climateExitCode': int(os.environ.get('CLIMATE_STATUS', '0')),
               'roadExitCode': int(os.environ.get('ROAD_STATUS', '0')),
               'operationalExitCode': int(os.environ.get('OPERATIONAL_STATUS', '0')),
+              'newsSupplementalExitCode': int(os.environ.get('NEWS_SUPPLEMENTAL_STATUS', '0')),
               'manualSheetExitCode': int(os.environ.get('MANUAL_STATUS', '0')),
               'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou.'
           }
@@ -113,7 +117,7 @@ jobs:
           PY
 
       - name: Preparar commit
-        run: git add index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
+        run: git add index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json
 
       - name: Verificar mudancas
         id: verify_diff
