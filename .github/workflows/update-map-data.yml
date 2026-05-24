@@ -43,7 +43,8 @@ jobs:
           text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
           text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
           text = re.sub(r'\n?<script src="analytics-dashboard-hotfix\.js[^\"]*"></script>', '', text)
-          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=2"></script>\n<script src="analytics-dashboard-hotfix.js?v=1"></script>\n</body>')
+          text = re.sub(r'\n?<script src="analytics-dashboard-v3\.js[^\"]*"></script>', '', text)
+          text = text.replace('</body>', '<script src="analytics-dashboard.js?v=3"></script>\n</body>')
           path.write_text(text, encoding='utf-8')
           PY
 
