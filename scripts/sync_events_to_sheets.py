@@ -54,11 +54,12 @@ def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
-def hour_bucket(value: str | None) -> str:
-    text = str(value or now_iso())
-    if len(text) >= 13:
-        return text[:13]
-    return now_iso()[:13]
+def snapshot_bucket(value: str | None) -> str:
+    """Bucket de 15 minutos para criar histórico visível sem duplicar re-runs imediatos."""
+    dt = parse_dt(value) or datetime.now(timezone.utc)
+    minute = (dt.minute // 15) * 15
+    bucket = dt.replace(minute=minute, second=0, microsecond=0)
+    return bucket.strftime('%Y-%m-%dT%H:%MZ')
 
 
 def region_from_event(event: dict[str, Any]) -> str:
@@ -103,16 +104,23 @@ def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) 
         lon = float(event.get('lon'))
     except Exception:
         return None
+
     risk = int(float(event.get('risk') or 0))
     updated = str(event.get('updatedAt') or event.get('updated_at') or event.get('time') or generated_at)
-    bucket = hour_bucket(updated)
+    bucket = snapshot_bucket(generated_at)
     name = str(event.get('name') or event.get('road') or event.get('eventType') or source_type)
     event_type = str(event.get('eventType') or event.get('event_type') or event.get('category') or source_type)
-    key = '|'.join([source_type, bucket, name, event_type, f'{lat:.3f}', f'{lon:.3f}'])
-    event_hash = hashlib.sha256(key.encode('utf-8')).hexdigest()[:24]
+
+    stable_key = '|'.join([source_type, name, event_type, f'{lat:.3f}', f'{lon:.3f}'])
+    stable_event_id = hashlib.sha256(stable_key.encode('utf-8')).hexdigest()[:24]
+    historical_key = '|'.join([bucket, stable_key])
+    event_hash = hashlib.sha256(historical_key.encode('utf-8')).hexdigest()[:24]
+
     return {
         'event_id': event_hash,
         'hash': event_hash,
+        'stable_event_id': stable_event_id,
+        'snapshot_bucket': bucket,
         'snapshot_at': generated_at,
         'updated_at': updated,
         'source_type': source_type,
@@ -214,6 +222,8 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
     for row in rows[:2000]:
         compact_rows.append({
             'event_id': row.get('event_id') or row.get('hash') or '',
+            'stable_event_id': row.get('stable_event_id') or '',
+            'snapshot_bucket': row.get('snapshot_bucket') or '',
             'snapshot_at': row.get('snapshot_at') or row.get('updated_at') or row.get('last_seen_at') or now_iso(),
             'updated_at': row.get('updated_at') or '',
             'source_type': row.get('source_type') or row.get('type') or '',
@@ -260,7 +270,18 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
 
 def main() -> None:
     events = collect_events()
-    status = {'updatedAt': now_iso(), 'configured': bool(WEBAPP_URL and WEBAPP_KEY), 'eventsPrepared': len(events), 'ok': False, 'response': None, 'analyticsCache': False, 'error': None}
+    current_bucket = events[0].get('snapshot_bucket') if events else snapshot_bucket(now_iso())
+    status = {
+        'updatedAt': now_iso(),
+        'configured': bool(WEBAPP_URL and WEBAPP_KEY),
+        'eventsPrepared': len(events),
+        'historyMode': '15-minute snapshot bucket',
+        'snapshotBucket': current_bucket,
+        'ok': False,
+        'response': None,
+        'analyticsCache': False,
+        'error': None,
+    }
     history_rows: list[dict[str, Any]] = []
     cache_error: str | None = None
 
