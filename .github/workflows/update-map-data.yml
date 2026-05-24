@@ -39,11 +39,14 @@ jobs:
           from pathlib import Path
           path = Path('index.html')
           text = path.read_text(encoding='utf-8')
-          old = '<script src="analytics-panel.js?v=1"></script>'
-          tag = '<script src="analytics-panel.js?v=2"></script>'
-          text = text.replace(old, tag)
-          if tag not in text:
-              text = text.replace('</body>', tag + '\n</body>')
+          for old in (
+              '<script src="analytics-panel.js?v=1"></script>',
+              '<script src="analytics-panel.js?v=2"></script>',
+              '<script src="analytics-panel.js"></script>',
+          ):
+              text = text.replace(old, '')
+          tag = '<script src="analytics-panel.js?v=3"></script>'
+          text = text.replace('</body>', tag + '\n</body>')
           path.write_text(text, encoding='utf-8')
           PY
 
