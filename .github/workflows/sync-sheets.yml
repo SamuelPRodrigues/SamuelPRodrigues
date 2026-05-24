@@ -31,13 +31,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Enviar eventos para Google Sheets
+      - name: Enviar eventos para Google Sheets e gerar cache
         env:
           SHEETS_WEBAPP_URL: ${{ secrets.SHEETS_WEBAPP_URL }}
           SHEETS_WEBAPP_KEY: ${{ secrets.SHEETS_WEBAPP_KEY }}
         run: python scripts/sync_events_to_sheets.py
-      - name: Salvar status da sincronizacao
-        run: git add data/sheets_sync_status.json || true
+      - name: Salvar status e cache da sincronizacao
+        run: git add data/sheets_sync_status.json data/analytics_cache.json || true
       - name: Verificar mudancas
         id: verify_diff
         run: |
@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -m "Atualiza status de sincronizacao com Sheets"
+          git commit -m "Atualiza historico e cache de analises"
       - name: Enviar mudancas
         if: steps.verify_diff.outputs.changed == 'true'
         run: |
