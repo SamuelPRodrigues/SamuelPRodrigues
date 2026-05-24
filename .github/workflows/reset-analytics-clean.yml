@@ -1,0 +1,66 @@
+name: Resetar painel de analises
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reset-analytics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Remover arquivos e chamadas do painel de analises
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          index = Path('index.html')
+          if index.exists():
+              text = index.read_text(encoding='utf-8')
+              text = re.sub(r'\n?<script src="analytics-panel\.js[^\"]*"></script>', '', text)
+              text = re.sub(r'\n?<script src="analytics-dashboard\.js[^\"]*"></script>', '', text)
+              index.write_text(text, encoding='utf-8')
+
+          for path in [
+              Path('analytics-panel.js'),
+              Path('analytics-dashboard.js'),
+              Path('historico.html'),
+              Path('data/analytics_cache.json'),
+              Path('.github/workflows/apply-analytics-dashboard.yml'),
+              Path('.github/workflows/install-analytics-panel.yml'),
+              Path('.github/workflows/inject-analytics-panel.yml'),
+          ]:
+              if path.exists():
+                  path.unlink()
+          PY
+
+      - name: Verificar mudancas
+        id: diff
+        run: |
+          git add -A index.html analytics-panel.js analytics-dashboard.js historico.html data/analytics_cache.json .github/workflows/apply-analytics-dashboard.yml .github/workflows/install-analytics-panel.yml .github/workflows/inject-analytics-panel.yml || true
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commitar limpeza
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -m "Remove painel de analises para reinicio limpo"
+
+      - name: Enviar limpeza
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
