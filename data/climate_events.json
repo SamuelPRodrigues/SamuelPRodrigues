@@ -7,25 +7,25 @@
     "state": "SP",
     "lat": -23.55,
     "lon": -46.633,
-    "risk": 64,
+    "risk": 65,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
-      "temperature_2m": 17.9,
+      "temperature_2m": 17.6,
       "precipitation": 0.4,
       "rain": 0.1,
       "showers": 0.3,
-      "wind_speed_10m": 4.2,
-      "wind_gusts_10m": 13.3,
+      "wind_speed_10m": 5.5,
+      "wind_gusts_10m": 16.6,
       "weather_code": 80
     },
     "reasons": [
       "Pancadas de chuva detectadas",
       "Chuva/precipitação detectada (0.8 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:31:30Z"
+    "createdAt": "2026-05-24T21:45:15Z"
   },
   {
     "active": true,
@@ -35,19 +35,25 @@
     "state": "SP",
     "lat": -23.501,
     "lon": -47.458,
-    "risk": 61,
+    "risk": 65,
     "current": {
+      "time": "2026-05-24T18:45",
+      "interval": 900,
       "temperature_2m": 17.5,
-      "wind_speed_10m": 3.6,
-      "weather_code": 81,
-      "time": "2026-05-24T18:30"
+      "precipitation": 2.7,
+      "rain": 0.0,
+      "showers": 2.7,
+      "wind_speed_10m": 4.3,
+      "wind_gusts_10m": 17.3,
+      "weather_code": 81
     },
     "reasons": [
-      "Pancadas de chuva detectadas"
+      "Pancadas de chuva detectadas",
+      "Chuva/precipitação detectada (5.4 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:32:22Z"
+    "createdAt": "2026-05-24T21:45:16Z"
   },
   {
     "active": true,
@@ -59,23 +65,23 @@
     "lon": -50.161,
     "risk": 56,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
       "temperature_2m": 15.7,
       "precipitation": 0.5,
       "rain": 0.2,
       "showers": 0.3,
-      "wind_speed_10m": 5.5,
-      "wind_gusts_10m": 15.8,
+      "wind_speed_10m": 4.1,
+      "wind_gusts_10m": 15.5,
       "weather_code": 61
     },
     "reasons": [
       "Chuva detectada",
       "Chuva/precipitação detectada (1.0 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:32:22Z"
+    "createdAt": "2026-05-24T21:45:16Z"
   },
   {
     "active": true,
@@ -87,13 +93,41 @@
     "lon": -34.845,
     "risk": 44,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
-      "temperature_2m": 25.2,
+      "temperature_2m": 25.1,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 15.6,
+      "wind_speed_10m": 14.9,
+      "wind_gusts_10m": 31.3,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-24T18:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T21:45:14Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Salvador",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -12.977,
+    "lon": -38.501,
+    "risk": 44,
+    "current": {
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 25.7,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 15.3,
       "wind_gusts_10m": 32.0,
       "weather_code": 51
     },
@@ -101,9 +135,37 @@
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:30:37Z"
+    "createdAt": "2026-05-24T21:45:14Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Piracicaba",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -22.725,
+    "lon": -47.649,
+    "risk": 44,
+    "current": {
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 19.0,
+      "precipitation": 0.2,
+      "rain": 0.0,
+      "showers": 0.2,
+      "wind_speed_10m": 12.1,
+      "wind_gusts_10m": 31.7,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T18:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T21:45:16Z"
   },
   {
     "active": true,
@@ -115,23 +177,23 @@
     "lon": -34.877,
     "risk": 42,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
-      "temperature_2m": 23.7,
+      "temperature_2m": 23.4,
       "precipitation": 0.2,
       "rain": 0.1,
       "showers": 0.1,
-      "wind_speed_10m": 11.1,
-      "wind_gusts_10m": 23.8,
+      "wind_speed_10m": 11.4,
+      "wind_gusts_10m": 24.1,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:30:37Z"
+    "createdAt": "2026-05-24T21:45:14Z"
   },
   {
     "active": true,
@@ -143,73 +205,23 @@
     "lon": -35.97,
     "risk": 42,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
-      "temperature_2m": 20.2,
+      "temperature_2m": 20.1,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 13.7,
-      "wind_gusts_10m": 26.3,
+      "wind_speed_10m": 13.8,
+      "wind_gusts_10m": 26.6,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:30:37Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Salvador",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -12.977,
-    "lon": -38.501,
-    "risk": 41,
-    "current": {
-      "temperature_2m": 25.6,
-      "wind_speed_10m": 15.3,
-      "weather_code": 51,
-      "time": "2026-05-24T18:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T18:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:31:28Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Macapá",
-    "region": "Norte",
-    "state": "AP",
-    "lat": 0.035,
-    "lon": -51.07,
-    "risk": 40,
-    "current": {
-      "time": "2026-05-24T18:30",
-      "interval": 900,
-      "temperature_2m": 25.1,
-      "precipitation": 0.1,
-      "rain": 0.0,
-      "showers": 0.1,
-      "wind_speed_10m": 5.1,
-      "wind_gusts_10m": 16.2,
-      "weather_code": 51
-    },
-    "reasons": [
-      "Garoa detectada",
-      "Chuva/precipitação detectada (0.2 mm)"
-    ],
-    "time": "2026-05-24T18:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:30:29Z"
+    "createdAt": "2026-05-24T21:45:14Z"
   },
   {
     "active": true,
@@ -219,41 +231,81 @@
     "state": "AL",
     "lat": -9.665,
     "lon": -35.735,
-    "risk": 40,
+    "risk": 41,
     "current": {
-      "temperature_2m": 25.3,
-      "wind_speed_10m": 13.0,
-      "weather_code": 51,
-      "time": "2026-05-24T18:30"
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 25.1,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 12.7,
+      "wind_gusts_10m": 23.0,
+      "weather_code": 51
     },
     "reasons": [
-      "Garoa detectada"
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:31:28Z"
+    "createdAt": "2026-05-24T21:45:14Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Piracicaba",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -22.725,
-    "lon": -47.649,
+    "name": "Macapá",
+    "region": "Norte",
+    "state": "AP",
+    "lat": 0.035,
+    "lon": -51.07,
     "risk": 39,
     "current": {
-      "temperature_2m": 19.5,
-      "wind_speed_10m": 10.8,
-      "weather_code": 53,
-      "time": "2026-05-24T18:30"
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 25.0,
+      "precipitation": 0.1,
+      "rain": 0.0,
+      "showers": 0.1,
+      "wind_speed_10m": 4.2,
+      "wind_gusts_10m": 14.0,
+      "weather_code": 51
     },
     "reasons": [
-      "Garoa detectada"
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:32:22Z"
+    "createdAt": "2026-05-24T21:45:13Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Curitiba",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -25.428,
+    "lon": -49.273,
+    "risk": 39,
+    "current": {
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 15.2,
+      "precipitation": 0.2,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 7.7,
+      "wind_gusts_10m": 14.0,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T18:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T21:45:16Z"
   },
   {
     "active": true,
@@ -265,23 +317,51 @@
     "lon": -46.333,
     "risk": 38,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
       "temperature_2m": 20.0,
       "precipitation": 0.1,
       "rain": 0.1,
       "showers": 0.0,
-      "wind_speed_10m": 3.4,
-      "wind_gusts_10m": 11.2,
+      "wind_speed_10m": 4.0,
+      "wind_gusts_10m": 10.4,
       "weather_code": 51
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.2 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:31:30Z"
+    "createdAt": "2026-05-24T21:45:15Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Cascavel",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -24.955,
+    "lon": -53.455,
+    "risk": 38,
+    "current": {
+      "time": "2026-05-24T18:45",
+      "interval": 900,
+      "temperature_2m": 17.4,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 2.6,
+      "wind_gusts_10m": 9.0,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-24T18:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T21:45:16Z"
   },
   {
     "active": true,
@@ -293,66 +373,22 @@
     "lon": -47.063,
     "risk": 37,
     "current": {
-      "time": "2026-05-24T18:30",
+      "time": "2026-05-24T18:45",
       "interval": 900,
-      "temperature_2m": 18.9,
+      "temperature_2m": 18.8,
       "precipitation": 0.2,
       "rain": 0.2,
       "showers": 0.0,
-      "wind_speed_10m": 2.0,
-      "wind_gusts_10m": 7.9,
+      "wind_speed_10m": 0.8,
+      "wind_gusts_10m": 6.8,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-05-24T18:30",
+    "time": "2026-05-24T18:45",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:31:30Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Curitiba",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -25.428,
-    "lon": -49.273,
-    "risk": 37,
-    "current": {
-      "temperature_2m": 15.4,
-      "wind_speed_10m": 6.6,
-      "weather_code": 53,
-      "time": "2026-05-24T18:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T18:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:32:22Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Cascavel",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -24.955,
-    "lon": -53.455,
-    "risk": 36,
-    "current": {
-      "temperature_2m": 17.5,
-      "wind_speed_10m": 2.5,
-      "weather_code": 51,
-      "time": "2026-05-24T18:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T18:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T21:32:22Z"
+    "createdAt": "2026-05-24T21:45:15Z"
   }
 ]
