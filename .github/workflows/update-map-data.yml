@@ -98,7 +98,7 @@ jobs:
                   'note': 'Arquivo criado pelo workflow porque o script suplementar não gerou status nesta execução.',
                   'newsSupplementalExitCode': health['newsSupplementalExitCode'],
                   'climateEventsAdded': 0,
-                  'roadEventsAdded': 0,
+                  'roadEventsAdded': 0
               }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
@@ -108,7 +108,6 @@ jobs:
           import json
           import re
           from pathlib import Path
-
           for filename in ('data/road_events.json', 'data/manual_events.json'):
               path = Path(filename)
               if not path.exists():
@@ -130,18 +129,14 @@ jobs:
 
       - name: Preparar commit
         run: |
-          git add --ignore-missing \
-            index.html \
-            data/climate_events.json \
-            data/climate_events_status.json \
-            data/road_events.json \
-            data/road_events_status.json \
-            data/operational_alerts.json \
-            data/operational_alerts_status.json \
-            data/news_supplemental_events_status.json \
-            data/manual_events.json \
-            data/manual_events_status.json \
-            data/update_health.json
+          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json"
+          for file in $files; do
+            if [ -e "$file" ]; then
+              git add "$file"
+            else
+              echo "Arquivo opcional ausente, ignorando: $file"
+            fi
+          done
 
       - name: Verificar mudancas
         id: verify_diff
