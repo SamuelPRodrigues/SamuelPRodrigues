@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
-      - Atualizar todos os dados
+      - Atualizar dados do mapa
     types:
       - completed
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    - cron: "9,24,39,54 * * * *"
 
 permissions:
   contents: write
