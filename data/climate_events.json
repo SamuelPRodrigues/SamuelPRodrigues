@@ -2,6 +2,34 @@
   {
     "active": true,
     "type": "climate",
+    "name": "Sorocaba",
+    "region": "Sudeste",
+    "state": "SP",
+    "lat": -23.501,
+    "lon": -47.458,
+    "risk": 67,
+    "current": {
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 18.6,
+      "precipitation": 0.7,
+      "rain": 0.0,
+      "showers": 0.7,
+      "wind_speed_10m": 7.7,
+      "wind_gusts_10m": 26.3,
+      "weather_code": 81
+    },
+    "reasons": [
+      "Pancadas de chuva detectadas",
+      "Chuva/precipitação detectada (1.4 mm)"
+    ],
+    "time": "2026-05-24T16:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T19:41:58Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
     "name": "Parintins",
     "region": "Norte",
     "state": "AM",
@@ -25,29 +53,35 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:30:36Z"
+    "createdAt": "2026-05-24T19:41:54Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Sorocaba",
-    "region": "Sudeste",
-    "state": "SP",
-    "lat": -23.501,
-    "lon": -47.458,
-    "risk": 63,
+    "name": "Cascavel",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -24.955,
+    "lon": -53.455,
+    "risk": 59,
     "current": {
-      "temperature_2m": 18.6,
-      "wind_speed_10m": 7.7,
-      "weather_code": 81,
-      "time": "2026-05-24T16:30"
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 18.1,
+      "precipitation": 0.6,
+      "rain": 0.2,
+      "showers": 0.4,
+      "wind_speed_10m": 7.9,
+      "wind_gusts_10m": 23.8,
+      "weather_code": 61
     },
     "reasons": [
-      "Pancadas de chuva detectadas"
+      "Chuva detectada",
+      "Chuva/precipitação detectada (1.2 mm)"
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:21Z"
+    "createdAt": "2026-05-24T19:41:58Z"
   },
   {
     "active": true,
@@ -75,29 +109,7 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:22Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Cascavel",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -24.955,
-    "lon": -53.455,
-    "risk": 55,
-    "current": {
-      "temperature_2m": 18.1,
-      "wind_speed_10m": 7.9,
-      "weather_code": 61,
-      "time": "2026-05-24T16:30"
-    },
-    "reasons": [
-      "Chuva detectada"
-    ],
-    "time": "2026-05-24T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:21Z"
+    "createdAt": "2026-05-24T19:41:58Z"
   },
   {
     "active": true,
@@ -125,7 +137,35 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:22Z"
+    "createdAt": "2026-05-24T19:41:58Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Feira de Santana",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -12.266,
+    "lon": -38.966,
+    "risk": 46,
+    "current": {
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 24.1,
+      "precipitation": 0.1,
+      "rain": 0.0,
+      "showers": 0.1,
+      "wind_speed_10m": 15.3,
+      "wind_gusts_10m": 38.9,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-24T16:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T19:41:55Z"
   },
   {
     "active": true,
@@ -153,7 +193,35 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:30:39Z"
+    "createdAt": "2026-05-24T19:41:54Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Salvador",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -12.977,
+    "lon": -38.501,
+    "risk": 45,
+    "current": {
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 25.5,
+      "precipitation": 0.2,
+      "rain": 0.1,
+      "showers": 0.1,
+      "wind_speed_10m": 15.7,
+      "wind_gusts_10m": 36.4,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T16:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T19:41:55Z"
   },
   {
     "active": true,
@@ -181,7 +249,35 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:30:39Z"
+    "createdAt": "2026-05-24T19:41:54Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Maceió",
+    "region": "Nordeste",
+    "state": "AL",
+    "lat": -9.665,
+    "lon": -35.735,
+    "risk": 43,
+    "current": {
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 26.8,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 12.7,
+      "wind_gusts_10m": 27.4,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-05-24T16:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T19:41:55Z"
   },
   {
     "active": true,
@@ -209,7 +305,7 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:30:39Z"
+    "createdAt": "2026-05-24T19:41:54Z"
   },
   {
     "active": true,
@@ -237,51 +333,7 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:30:36Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Salvador",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -12.977,
-    "lon": -38.501,
-    "risk": 41,
-    "current": {
-      "temperature_2m": 25.5,
-      "wind_speed_10m": 15.7,
-      "weather_code": 53,
-      "time": "2026-05-24T16:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:30Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Feira de Santana",
-    "region": "Nordeste",
-    "state": "BA",
-    "lat": -12.266,
-    "lon": -38.966,
-    "risk": 41,
-    "current": {
-      "temperature_2m": 24.1,
-      "wind_speed_10m": 15.3,
-      "weather_code": 51,
-      "time": "2026-05-24T16:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:30Z"
+    "createdAt": "2026-05-24T19:41:54Z"
   },
   {
     "active": true,
@@ -309,29 +361,63 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:30Z"
+    "createdAt": "2026-05-24T19:41:56Z"
   },
   {
     "active": true,
     "type": "climate",
-    "name": "Maceió",
-    "region": "Nordeste",
-    "state": "AL",
-    "lat": -9.665,
-    "lon": -35.735,
-    "risk": 40,
+    "name": "Maringá",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -23.42,
+    "lon": -51.933,
+    "risk": 41,
     "current": {
-      "temperature_2m": 26.8,
-      "wind_speed_10m": 12.7,
-      "weather_code": 51,
-      "time": "2026-05-24T16:30"
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 22.0,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 5.4,
+      "wind_gusts_10m": 22.3,
+      "weather_code": 51
     },
     "reasons": [
-      "Garoa detectada"
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:30Z"
+    "createdAt": "2026-05-24T19:41:58Z"
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Curitiba",
+    "region": "Sul",
+    "state": "PR",
+    "lat": -25.428,
+    "lon": -49.273,
+    "risk": 40,
+    "current": {
+      "time": "2026-05-24T16:30",
+      "interval": 900,
+      "temperature_2m": 16.6,
+      "precipitation": 0.2,
+      "rain": 0.2,
+      "showers": 0.0,
+      "wind_speed_10m": 3.2,
+      "wind_gusts_10m": 18.4,
+      "weather_code": 53
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.4 mm)"
+    ],
+    "time": "2026-05-24T16:30",
+    "source": "Open-Meteo",
+    "createdAt": "2026-05-24T19:41:58Z"
   },
   {
     "active": true,
@@ -359,7 +445,7 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:31Z"
+    "createdAt": "2026-05-24T19:41:57Z"
   },
   {
     "active": true,
@@ -387,50 +473,6 @@
     ],
     "time": "2026-05-24T16:30",
     "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:31:31Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Maringá",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -23.42,
-    "lon": -51.933,
-    "risk": 37,
-    "current": {
-      "temperature_2m": 22.0,
-      "wind_speed_10m": 5.4,
-      "weather_code": 51,
-      "time": "2026-05-24T16:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:21Z"
-  },
-  {
-    "active": true,
-    "type": "climate",
-    "name": "Curitiba",
-    "region": "Sul",
-    "state": "PR",
-    "lat": -25.428,
-    "lon": -49.273,
-    "risk": 36,
-    "current": {
-      "temperature_2m": 16.6,
-      "wind_speed_10m": 3.2,
-      "weather_code": 53,
-      "time": "2026-05-24T16:30"
-    },
-    "reasons": [
-      "Garoa detectada"
-    ],
-    "time": "2026-05-24T16:30",
-    "source": "Open-Meteo",
-    "createdAt": "2026-05-24T19:32:21Z"
+    "createdAt": "2026-05-24T19:41:57Z"
   }
 ]
