@@ -52,6 +52,7 @@ function render(){const raw=visibleItems(),items=jittered(raw);if(state.heat){ma
 let zoomTimer=null;map.on('zoomend',()=>{clearTimeout(zoomTimer);zoomTimer=setTimeout(render,120)});
 async function boot(){await loadConfig();$('title').textContent=config.appName||fallback.appName;$('layerMode').value=config.defaultLayer||'all';$('minRisk').value=String(config.defaultMinRisk??0);$('layerMode').onchange=()=>{state.chartFilters.severity='';state.chartFilters.region='';render()};$('minRisk').onchange=()=>{state.chartFilters.severity='';render()};$('clearChartFilters').onclick=clearChartFilters;$('eventSearch').oninput=()=>updateReader(visibleItems());$('eventSort').onchange=()=>updateReader(visibleItems());$('readerSeverity').onchange=()=>updateReader(visibleItems());$('readerRegion').onchange=()=>updateReader(visibleItems());$('readerClear').onclick=()=>{state.readerFilter.type='all';$('eventSearch').value='';$('readerSeverity').value='all';$('readerRegion').value='all';$('eventSort').value='recent';updateReader(visibleItems())};document.querySelectorAll('[data-reader-type]').forEach(btn=>btn.onclick=()=>{state.readerFilter.type=btn.dataset.readerType;updateReader(visibleItems())});await updateAll();setInterval(()=>updateAll().catch(console.error),Math.max(1,Number(config.refreshMinutes||10))*60000)}boot();
 </script>
-<script src="analytics-panel.js?v=2"></script>
+
+<script src="analytics-panel.js?v=3"></script>
 </body>
 </html>
