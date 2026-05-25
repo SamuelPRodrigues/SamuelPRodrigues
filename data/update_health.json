@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T21:17:43Z",
+  "updatedAt": "2026-05-25T21:33:36Z",
   "workflow": "Atualizar dados do mapa",
   "trigger": "repository_dispatch",
   "climateExitCode": 0,
@@ -8,5 +8,6 @@
   "newsSupplementalExitCode": 1,
   "manualSheetExitCode": 0,
   "roadSeverityRule": "Eventos de bloqueio/interdição de rodovia têm teto 69, severidade Alta.",
+  "roadNewsDuplicatePolicy": "Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.",
   "note": "Arquivo de auditoria: se este timestamp mudou, o workflow executou."
 }
