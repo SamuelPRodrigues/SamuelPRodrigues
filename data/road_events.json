@@ -1,18 +1,18 @@
 [
   {
     "active": true,
-    "name": "Congestionamento • BR-251",
-    "road": "BR-251",
-    "corridor": "Taguatinga • BR-060 / DF-001",
+    "name": "Congestionamento • BR-101",
+    "road": "BR-101",
+    "corridor": "Vitória / Serra • BR-101 / BR-262",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -15.827926,
-    "lon": -48.053322,
+    "lat": -20.2927,
+    "lon": -40.392434,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 72,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -21,13 +21,13 @@
     "corridor": "Governador Valadares • BR-116 / BR-381",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -18.940851,
-    "lon": -42.058211,
+    "lat": -18.923447,
+    "lon": -42.032277,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 72,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -36,29 +36,73 @@
     "corridor": "Governador Valadares • BR-116 / BR-381",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -18.898147,
-    "lon": -42.004107,
+    "lat": -18.895917,
+    "lon": -42.004426,
     "eventType": "Congestionamento",
     "description": "Trânsito parado; Trabalhos na estrada",
     "risk": 72,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-116 / Rodovia Anel de Contorno",
-    "road": "BR-116 / Rodovia Anel de Contorno",
-    "corridor": "Vitória da Conquista • BR-116 / BR-415",
+    "name": "Congestionamento • BR-307",
+    "road": "BR-307",
+    "corridor": "Cruzeiro do Sul • BR-364",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -14.8996,
-    "lon": -40.855212,
+    "lat": -7.721789,
+    "lon": -72.643439,
+    "eventType": "Congestionamento",
+    "description": "Trânsito lento",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:32Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-174 / BR-319 / AM-010",
+    "road": "BR-174 / BR-319 / AM-010",
+    "corridor": "Manaus • BR-174 / BR-319 / AM-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -3.090888,
+    "lon": -60.038791,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:29Z",
-    "detectedRoad": "Rodovia Anel de Contorno"
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-324 / BR-101 / BA-099",
+    "road": "BR-324 / BR-101 / BA-099",
+    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.944487,
+    "lon": -38.491274,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-116",
+    "road": "BR-116",
+    "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -12.322854,
+    "lon": -39.052148,
+    "eventType": "Congestionamento",
+    "description": "Trânsito lento",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -67,152 +111,58 @@
     "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
     "isMainRoad": true,
     "fallbackCorridor": true,
-    "lat": -15.802666,
-    "lon": -47.931475,
-    "eventType": "Congestionamento",
-    "description": "Trânsito lento",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / DF-001",
-    "road": "BR-060 / DF-001",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -15.821153,
-    "lon": -48.064885,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / DF-001",
-    "road": "BR-060 / DF-001",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -15.812609,
-    "lon": -48.064283,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / DF-001",
-    "road": "BR-060 / DF-001",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -15.814192,
-    "lon": -48.059415,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / Rodovia Epct",
-    "road": "BR-060 / Rodovia Epct",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -15.817731,
-    "lon": -48.063497,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
-    "detectedRoad": "Rodovia Epct"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / Rodovia Epct",
-    "road": "BR-060 / Rodovia Epct",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -15.818439,
-    "lon": -48.057612,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
-    "detectedRoad": "Rodovia Epct"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / DF-001",
-    "road": "BR-060 / DF-001",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -15.820373,
-    "lon": -48.057768,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / DF-001",
-    "road": "BR-060 / DF-001",
-    "corridor": "Taguatinga • BR-060 / DF-001",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -15.822368,
-    "lon": -48.057103,
+    "lat": -15.843818,
+    "lon": -47.982092,
     "eventType": "Congestionamento",
     "description": "Filas de trânsito",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-060 / Rodovia Epct",
-    "road": "BR-060 / Rodovia Epct",
-    "corridor": "Taguatinga • BR-060 / DF-001",
+    "name": "Congestionamento • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "road": "BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
     "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -15.82184,
-    "lon": -48.056597,
+    "fallbackCorridor": true,
+    "lat": -15.827593,
+    "lon": -47.954299,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
-    "detectedRoad": "Rodovia Epct"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-060 / Rodovia Epct",
-    "road": "BR-060 / Rodovia Epct",
-    "corridor": "Taguatinga • BR-060 / DF-001",
+    "name": "Congestionamento • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "road": "BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
     "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -15.809476,
-    "lon": -48.055758,
+    "fallbackCorridor": true,
+    "lat": -15.867855,
+    "lon": -47.923938,
+    "eventType": "Congestionamento",
+    "description": "Trânsito lento",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "road": "BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.866252,
+    "lon": -47.864391,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
-    "detectedRoad": "Rodovia Epct"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -221,13 +171,73 @@
     "corridor": "Taguatinga • BR-060 / DF-001",
     "isMainRoad": true,
     "fallbackCorridor": true,
-    "lat": -15.810553,
-    "lon": -48.055377,
+    "lat": -15.821263,
+    "lon": -48.112284,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.821312,
+    "lon": -48.061318,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.815336,
+    "lon": -48.060729,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.816682,
+    "lon": -48.060283,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.818904,
+    "lon": -48.059038,
+    "eventType": "Congestionamento",
+    "description": "Filas de trânsito",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -236,14 +246,44 @@
     "corridor": "Taguatinga • BR-060 / DF-001",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -15.809589,
-    "lon": -48.056189,
+    "lat": -15.822447,
+    "lon": -48.058575,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "Rodovia Epct"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-251",
+    "road": "BR-251",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.810734,
+    "lon": -48.058719,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-251",
+    "road": "BR-251",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.810277,
+    "lon": -48.058707,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -252,135 +292,211 @@
     "corridor": "Taguatinga • BR-060 / DF-001",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -15.825543,
-    "lon": -48.054522,
+    "lat": -15.818904,
+    "lon": -48.059038,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "Rodovia Epct"
   },
   {
     "active": true,
+    "name": "Congestionamento • BR-251",
+    "road": "BR-251",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.817323,
+    "lon": -48.057545,
+    "eventType": "Congestionamento",
+    "description": "Filas de trânsito",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-251",
+    "road": "BR-251",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.805513,
+    "lon": -48.057948,
+    "eventType": "Congestionamento",
+    "description": "Filas de trânsito",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.811421,
+    "lon": -48.055031,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-251",
+    "road": "BR-251",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.819317,
+    "lon": -48.057394,
+    "eventType": "Congestionamento",
+    "description": "Filas de trânsito",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / Rodovia Eptg",
+    "road": "BR-060 / Rodovia Eptg",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -15.829744,
+    "lon": -48.040045,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z",
+    "detectedRoad": "Rodovia Eptg"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-060 / DF-001",
+    "road": "BR-060 / DF-001",
+    "corridor": "Taguatinga • BR-060 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.843818,
+    "lon": -47.982092,
+    "eventType": "Congestionamento",
+    "description": "Filas de trânsito",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:33Z"
+  },
+  {
+    "active": true,
     "name": "Congestionamento • BR-101",
     "road": "BR-101",
     "corridor": "Vitória / Serra • BR-101 / BR-262",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -20.330074,
-    "lon": -40.398972,
+    "lat": -20.329873,
+    "lon": -40.398869,
     "eventType": "Congestionamento",
     "description": "Trânsito lento",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-101",
-    "road": "BR-101",
-    "corridor": "Vitória / Serra • BR-101 / BR-262",
+    "name": "Congestionamento • BR-158",
+    "road": "BR-158",
+    "corridor": "Jataí • BR-060 / BR-364",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -20.291883,
-    "lon": -40.392083,
+    "lat": -17.843542,
+    "lon": -51.746402,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-262",
-    "road": "BR-262",
-    "corridor": "Vitória / Serra • BR-101 / BR-262",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -20.267355,
-    "lon": -40.283065,
-    "eventType": "Congestionamento",
-    "description": "Trânsito lento",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-060 / GO-222",
-    "road": "BR-060 / GO-222",
-    "corridor": "Anápolis • BR-060 / BR-153 / BR-414",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -16.344342,
-    "lon": -48.972869,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:31Z",
-    "detectedRoad": "GO-222"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
     "name": "Congestionamento • BR-060",
     "road": "BR-060",
-    "corridor": "Rio Verde • BR-060 / BR-452",
+    "corridor": "Jataí • BR-060 / BR-364",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -17.749773,
-    "lon": -50.876598,
+    "lat": -17.873735,
+    "lon": -51.634703,
     "eventType": "Congestionamento",
     "description": "Trânsito lento",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:31Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-050",
-    "road": "BR-050",
-    "corridor": "Uberlândia • BR-050 / BR-365 / BR-452",
+    "name": "Congestionamento • BR-163",
+    "road": "BR-163",
+    "corridor": "Dourados • BR-163 / MS-156",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -18.999137,
-    "lon": -48.210147,
+    "lat": -22.227913,
+    "lon": -54.739961,
     "eventType": "Congestionamento",
-    "description": "Trânsito lento",
+    "description": "Filas de trânsito",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-316 / BR-010",
-    "road": "BR-316 / BR-010",
-    "corridor": "Belém / Ananindeua • BR-316 / BR-010",
+    "name": "Congestionamento • BR-116 / Rodovia Santos Dumont",
+    "road": "BR-116 / Rodovia Santos Dumont",
+    "corridor": "Governador Valadares • BR-116 / BR-381",
     "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -1.405482,
-    "lon": -48.473007,
+    "fallbackCorridor": false,
+    "lat": -18.870538,
+    "lon": -41.96724,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z",
+    "detectedRoad": "Rodovia Santos Dumont"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-467",
-    "road": "BR-467",
-    "corridor": "Cascavel • BR-277 / BR-163 / BR-369",
+    "name": "Congestionamento • BR-381",
+    "road": "BR-381",
+    "corridor": "Governador Valadares • BR-116 / BR-381",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -24.937272,
-    "lon": -53.428499,
+    "lat": -18.835451,
+    "lon": -41.906976,
     "eventType": "Congestionamento",
-    "description": "Trânsito denso",
+    "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-267",
+    "road": "BR-267",
+    "corridor": "Poços de Caldas • BR-267 / BR-146",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -21.785324,
+    "lon": -46.580932,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -388,29 +504,45 @@
     "road": "BR-277",
     "corridor": "Foz do Iguaçu • BR-277",
     "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -25.601198,
-    "lon": -54.562449,
+    "fallbackCorridor": false,
+    "lat": -25.509491,
+    "lon": -54.598184,
     "eventType": "Congestionamento",
-    "description": "Filas de trânsito",
+    "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:35Z"
+    "updatedAt": "2026-05-25T00:31:36Z"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-407",
-    "road": "BR-407",
-    "corridor": "Picos • BR-316 / BR-407 / BR-020",
+    "name": "Congestionamento • BR-423",
+    "road": "BR-423",
+    "corridor": "Garanhuns • BR-423 / BR-424",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -7.012889,
-    "lon": -41.385001,
+    "lat": -8.875082,
+    "lon": -36.548712,
     "eventType": "Congestionamento",
-    "description": "Filas de trânsito",
+    "description": "Trânsito denso",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:35Z"
+    "updatedAt": "2026-05-25T00:31:36Z"
+  },
+  {
+    "active": true,
+    "name": "Congestionamento • BR-116 / RJ-153",
+    "road": "BR-116 / RJ-153",
+    "corridor": "Volta Redonda • BR-116",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -22.490529,
+    "lon": -44.092711,
+    "eventType": "Congestionamento",
+    "description": "Trânsito parado",
+    "risk": 62,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:37Z",
+    "detectedRoad": "RJ-153"
   },
   {
     "active": true,
@@ -419,13 +551,13 @@
     "corridor": "Caxias do Sul • BR-116 / RS-122",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -29.237383,
-    "lon": -51.15783,
+    "lat": -29.237568,
+    "lon": -51.158241,
     "eventType": "Congestionamento",
-    "description": "Trânsito parado",
+    "description": "Filas de trânsito",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z"
+    "updatedAt": "2026-05-25T00:31:37Z"
   },
   {
     "active": true,
@@ -440,7 +572,7 @@
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z"
+    "updatedAt": "2026-05-25T00:31:37Z"
   },
   {
     "active": true,
@@ -449,13 +581,13 @@
     "corridor": "São Paulo / Guarulhos • BR-116 / BR-381 / SP-330 / SP-280 / Rodoanel",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -23.503546,
-    "lon": -46.724805,
+    "lat": -23.498058,
+    "lon": -46.729319,
     "eventType": "Congestionamento",
-    "description": "Filas de trânsito",
+    "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z",
+    "updatedAt": "2026-05-25T00:31:38Z",
     "detectedRoad": "SP-348"
   },
   {
@@ -471,39 +603,23 @@
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z",
+    "updatedAt": "2026-05-25T00:31:38Z",
     "detectedRoad": "SP-348"
   },
   {
     "active": true,
-    "name": "Congestionamento • BR-116 / BR-381 / SP-330 / SP-280 / Rodoanel",
-    "road": "BR-116 / BR-381 / SP-330 / SP-280 / Rodoanel",
-    "corridor": "São Paulo / Guarulhos • BR-116 / BR-381 / SP-330 / SP-280 / Rodoanel",
+    "name": "Congestionamento • Rodovia Castelo Branco - Pista Lateral",
+    "road": "Rodovia Castelo Branco - Pista Lateral",
+    "corridor": "Ribeirão Preto • SP-330 / SP-334",
     "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -23.519207,
-    "lon": -46.582769,
+    "fallbackCorridor": false,
+    "lat": -21.185456,
+    "lon": -47.787267,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-153 / SP-300",
-    "road": "BR-153 / SP-300",
-    "corridor": "Bauru • SP-300 / BR-153",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -22.26289,
-    "lon": -49.107045,
-    "eventType": "Congestionamento",
-    "description": "Trânsito lento",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z",
-    "detectedRoad": "SP-300"
+    "updatedAt": "2026-05-25T00:31:38Z"
   },
   {
     "active": true,
@@ -512,30 +628,14 @@
     "corridor": "Aracaju • BR-101 / BR-235",
     "isMainRoad": true,
     "fallbackCorridor": false,
-    "lat": -10.960926,
-    "lon": -37.054647,
+    "lat": -10.95898,
+    "lon": -37.054329,
     "eventType": "Congestionamento",
     "description": "Trânsito parado",
     "risk": 62,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:40Z",
+    "updatedAt": "2026-05-25T00:31:39Z",
     "detectedRoad": "SE-050"
-  },
-  {
-    "active": true,
-    "name": "Congestionamento • BR-010 / Rodovia TO-134 - Pista Central",
-    "road": "BR-010 / Rodovia TO-134 - Pista Central",
-    "corridor": "Palmas • BR-010 / TO-050",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -10.168162,
-    "lon": -48.303959,
-    "eventType": "Congestionamento",
-    "description": "Trânsito parado",
-    "risk": 62,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:40Z",
-    "detectedRoad": "Rodovia TO-134 - Pista Central"
   },
   {
     "active": true,
@@ -550,7 +650,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:28Z"
+    "updatedAt": "2026-05-25T00:31:32Z"
   },
   {
     "active": true,
@@ -565,7 +665,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:28Z"
+    "updatedAt": "2026-05-25T00:31:32Z"
   },
   {
     "active": true,
@@ -580,7 +680,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -595,7 +695,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "BA-210"
   },
   {
@@ -611,7 +711,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "BA-210"
   },
   {
@@ -627,7 +727,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "CE-417"
   },
   {
@@ -643,7 +743,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "CE-417"
   },
   {
@@ -659,7 +759,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:33Z",
     "detectedRoad": "CE-060"
   },
   {
@@ -675,7 +775,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -690,7 +790,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -705,7 +805,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:33Z"
   },
   {
     "active": true,
@@ -720,7 +820,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -735,7 +835,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-060"
   },
   {
@@ -751,7 +851,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -766,7 +866,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -781,7 +881,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -797,7 +897,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -813,7 +913,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -829,7 +929,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -845,7 +945,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -861,7 +961,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:30Z",
+    "updatedAt": "2026-05-25T00:31:34Z",
     "detectedRoad": "ES-488"
   },
   {
@@ -877,7 +977,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:31Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -892,7 +992,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:31Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -907,7 +1007,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:31Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -922,7 +1022,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:32Z"
+    "updatedAt": "2026-05-25T00:31:34Z"
   },
   {
     "active": true,
@@ -937,7 +1037,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -952,7 +1052,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -967,7 +1067,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -982,7 +1082,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:33Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -997,7 +1097,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1012,7 +1112,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:35Z",
     "detectedRoad": "Via Expressa Padre Zé"
   },
   {
@@ -1028,7 +1128,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1043,7 +1143,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:35Z",
     "detectedRoad": "Rodovia Governador Pedro Gondim"
   },
   {
@@ -1059,7 +1159,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1074,7 +1174,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1089,22 +1189,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
-  },
-  {
-    "active": true,
-    "name": "Obra • BR-361",
-    "road": "BR-361",
-    "corridor": "Patos • BR-230 / BR-361",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -7.041931,
-    "lon": -37.355065,
-    "eventType": "Obra",
-    "description": "Trabalhos na estrada",
-    "risk": 58,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1119,7 +1204,22 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
+  },
+  {
+    "active": true,
+    "name": "Obra • BR-361",
+    "road": "BR-361",
+    "corridor": "Patos • BR-230 / BR-361",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -7.041931,
+    "lon": -37.355065,
+    "eventType": "Obra",
+    "description": "Trabalhos na estrada",
+    "risk": 58,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1134,7 +1234,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:35Z"
   },
   {
     "active": true,
@@ -1149,7 +1249,7 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:35Z",
     "detectedRoad": "PB-420"
   },
   {
@@ -1165,7 +1265,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:36Z",
     "detectedRoad": "PR-418"
   },
   {
@@ -1181,7 +1281,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:36Z",
     "detectedRoad": "Rodovia Régis Bittencourt"
   },
   {
@@ -1197,7 +1297,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z"
+    "updatedAt": "2026-05-25T00:31:36Z"
   },
   {
     "active": true,
@@ -1212,24 +1312,8 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:34Z",
+    "updatedAt": "2026-05-25T00:31:36Z",
     "detectedRoad": "PR-317"
-  },
-  {
-    "active": true,
-    "name": "Obra • BR-101 / Rodovia RJ-196",
-    "road": "BR-101 / Rodovia RJ-196",
-    "corridor": "Campos dos Goytacazes • BR-101",
-    "isMainRoad": true,
-    "fallbackCorridor": false,
-    "lat": -21.819719,
-    "lon": -41.327837,
-    "eventType": "Obra",
-    "description": "Trabalhos na estrada",
-    "risk": 58,
-    "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:36Z",
-    "detectedRoad": "Rodovia RJ-196"
   },
   {
     "active": true,
@@ -1244,7 +1328,23 @@
     "description": "Trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:36Z",
+    "updatedAt": "2026-05-25T00:31:37Z",
+    "detectedRoad": "Rodovia RJ-196"
+  },
+  {
+    "active": true,
+    "name": "Obra • BR-101 / Rodovia RJ-196",
+    "road": "BR-101 / Rodovia RJ-196",
+    "corridor": "Campos dos Goytacazes • BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": false,
+    "lat": -21.819719,
+    "lon": -41.327837,
+    "eventType": "Obra",
+    "description": "Trabalhos na estrada",
+    "risk": 58,
+    "source": "TomTom Traffic API",
+    "updatedAt": "2026-05-25T00:31:37Z",
     "detectedRoad": "Rodovia RJ-196"
   },
   {
@@ -1260,7 +1360,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z",
+    "updatedAt": "2026-05-25T00:31:37Z",
     "detectedRoad": "RS-453"
   },
   {
@@ -1276,7 +1376,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z",
+    "updatedAt": "2026-05-25T00:31:37Z",
     "detectedRoad": "RS-453"
   },
   {
@@ -1292,7 +1392,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z"
+    "updatedAt": "2026-05-25T00:31:37Z"
   },
   {
     "active": true,
@@ -1307,7 +1407,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z"
+    "updatedAt": "2026-05-25T00:31:37Z"
   },
   {
     "active": true,
@@ -1322,7 +1422,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:37Z"
+    "updatedAt": "2026-05-25T00:31:37Z"
   },
   {
     "active": true,
@@ -1337,7 +1437,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z"
+    "updatedAt": "2026-05-25T00:31:38Z"
   },
   {
     "active": true,
@@ -1352,7 +1452,7 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z"
+    "updatedAt": "2026-05-25T00:31:38Z"
   },
   {
     "active": true,
@@ -1367,6 +1467,6 @@
     "description": "Trabalhos na estrada; Nova disposição de trabalhos na estrada",
     "risk": 58,
     "source": "TomTom Traffic API",
-    "updatedAt": "2026-05-25T00:04:39Z"
+    "updatedAt": "2026-05-25T00:31:38Z"
   }
 ]
