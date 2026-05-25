@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T20:13:51Z",
+  "updatedAt": "2026-05-25T20:17:39Z",
   "maxRoadBlockingRisk": 69,
   "severityCap": "Alto",
   "rule": "Eventos de bloqueio/interdição de rodovia não podem passar de severidade Alta.",
@@ -7,67 +7,38 @@
     "files": [
       {
         "path": "data/road_events.json",
-        "rowsChanged": 12
+        "rowsChanged": 0
       },
       {
         "path": "data/manual_events.json",
         "rowsChanged": 0
       }
     ],
-    "rowsChanged": 12
+    "rowsChanged": 0
   },
   "localCaches": {
     "files": [
       {
         "path": "data/analytics_cache.json",
-        "rowsChanged": 12
+        "rowsChanged": 0
       },
       {
         "path": "data/supabase_analytics_cache.json",
-        "rowsChanged": 12
+        "rowsChanged": 0
       }
     ],
-    "rowsChanged": 24
+    "rowsChanged": 0
   },
   "googleSheets": {
-    "ok": true,
-    "received": 0,
-    "inserted": 0,
-    "updated": 0,
-    "total_rows": 65,
-    "configured": true
+    "configured": false,
+    "ok": false,
+    "note": "SHEETS_WEBAPP_URL e/ou SHEETS_WEBAPP_KEY ausentes."
   },
   "supabase": {
-    "configured": true,
-    "tables": [
-      {
-        "table": "event_snapshots",
-        "ok": false,
-        "error": "HTTP 404: {\"code\":\"PGRST205\",\"details\":null,\"hint\":\"Perhaps you meant the table 'public.event_observations'\",\"message\":\"Could not find the table 'public.event_snapshots' in the schema cache\"}"
-      },
-      {
-        "table": "events",
-        "ok": false,
-        "error": "HTTP 400: {\"code\":\"PGRST204\",\"details\":null,\"hint\":null,\"message\":\"Could not find the 'risk' column of 'events' in the schema cache\"}"
-      },
-      {
-        "table": "event_history",
-        "ok": false,
-        "error": "HTTP 404: {\"code\":\"PGRST205\",\"details\":null,\"hint\":\"Perhaps you meant the table 'public.event_observations'\",\"message\":\"Could not find the table 'public.event_history' in the schema cache\"}"
-      },
-      {
-        "table": "dashboard_events",
-        "ok": false,
-        "error": "HTTP 404: {\"code\":\"PGRST205\",\"details\":null,\"hint\":\"Perhaps you meant the table 'public.dashboard_events_recent'\",\"message\":\"Could not find the table 'public.dashboard_events' in the schema cache\"}"
-      },
-      {
-        "table": "dashboard_event_snapshots",
-        "ok": false,
-        "error": "HTTP 404: {\"code\":\"PGRST205\",\"details\":null,\"hint\":\"Perhaps you meant the table 'public.dashboard_events_recent'\",\"message\":\"Could not find the table 'public.dashboard_event_snapshots' in the schema cache\"}"
-      }
-    ],
-    "cacheRows": 42,
-    "cacheWritten": true,
-    "error": null
+    "configured": false,
+    "tables": [],
+    "cacheRows": 0,
+    "cacheWritten": false,
+    "error": "SUPABASE_URL e/ou SUPABASE_SERVICE_ROLE_KEY ausentes."
   }
 }

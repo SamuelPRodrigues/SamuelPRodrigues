@@ -1,22 +1,23 @@
 {
-  "updatedAt": "2026-05-25T20:04:16Z",
+  "updatedAt": "2026-05-25T20:15:17Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
-  "riskRule": "Só gera evento rodoviário quando houver bloqueio/interdição ativa; notícias de liberação removem ou impedem o evento.",
+  "riskRule": "Só gera evento rodoviário quando houver bloqueio/interdição ativa; eventos rodoviários de bloqueio/interdição têm teto 69, severidade Alta.",
+  "maxRoadBlockingRisk": 69,
   "monitoredPoints": 130,
   "bboxRequestsPlanned": 130,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
-  "eventsWritten": 12,
+  "eventsWritten": 13,
   "skippedFinishedOrInvalid": 0,
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
   "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 2,
-  "publicFallbackRequestFailures": 1,
-  "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 12,
+  "publicFallbackRequestsSucceeded": 3,
+  "publicFallbackRequestFailures": 0,
+  "publicFallbackRawArticles": 222,
+  "publicFallbackEventsWritten": 13,
   "publicFallbackSkippedNoCorridor": 2,
   "publicFallbackSkippedReleased": 0,
   "keptPreviousOnApiFailure": false,
@@ -1320,7 +1321,6 @@
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    "gdelt-fallback: HTTP Error 429: Too Many Requests"
+    }
   ]
 }
