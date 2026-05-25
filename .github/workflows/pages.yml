@@ -6,6 +6,9 @@ on:
     paths-ignore:
       - "data/**"
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - deploy_pages
 
 permissions:
   contents: read
