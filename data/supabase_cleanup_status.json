@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-25T18:19:17Z",
+  "updatedAt": "2026-05-25T18:20:37Z",
   "configured": true,
   "cutoffUtc": "2026-05-25T16:21:57Z",
-  "dryRun": true,
-  "confirmed": false,
+  "dryRun": false,
+  "confirmed": true,
   "tablesChecked": [
     {
       "table": "event_snapshots",
@@ -18,11 +18,11 @@
         {
           "column": "last_seen_at",
           "matchedRows": 863,
-          "deletedRows": 0
+          "deletedRows": 863
         }
       ],
       "matchedRows": 863,
-      "deletedRows": 0,
+      "deletedRows": 863,
       "exists": true
     },
     {
@@ -48,7 +48,7 @@
     }
   ],
   "deletedOrMatchedRows": 863,
-  "cacheReset": false,
+  "cacheReset": true,
   "error": null,
   "dashboardRecentReachable": true
 }
