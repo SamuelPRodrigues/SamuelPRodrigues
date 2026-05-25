@@ -26,18 +26,34 @@ CATEGORY_LABELS = {
     8: "Interdição", 9: "Obra", 10: "Vento forte", 11: "Alagamento",
     14: "Veículo parado",
 }
-CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 70, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
-ENDED_WORDS = ("encerrado", "encerrada", "ended", "cleared", "terminado", "terminada")
+CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 84, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
+ENDED_WORDS = (
+    "encerrado", "encerrada", "ended", "cleared", "terminado", "terminada",
+    "liberado", "liberada", "liberação", "liberacao", "desbloqueado", "desbloqueada",
+    "tráfego liberado", "trafego liberado", "trânsito liberado", "transito liberado",
+    "pista liberada", "rodovia liberada", "via liberada", "fluxo liberado",
+)
 ROAD_CODE_RE = re.compile(r"\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|PB|AL|SE|PI|MA|PA|AM|RO|RR|AP|AC|TO)-?\s?\d{2,4}\b", re.I)
 ROAD_WORD_RE = re.compile(r"\b(rodovia|autoestrada|freeway|rodoanel|anel rodovi[aá]rio|marginal tiet[eê]|marginal pinheiros|linha amarela|linha vermelha|via dutra|via expressa)\b", re.I)
 LOCAL_WORD_RE = re.compile(r"^\s*(rua|r\.|avenida|av\.?|pra[çc]a|travessa|alameda|largo|beco|viela|estrada municipal)\b", re.I)
 
+BLOCKAGE_TERMS = (
+    "interdit", "bloque", "fechad", "pista interditada", "pista bloqueada",
+    "rodovia interditada", "rodovia bloqueada", "faixa interditada", "faixa bloqueada",
+    "trânsito bloqueado", "transito bloqueado", "tráfego bloqueado", "trafego bloqueado",
+    "bloqueio total", "bloqueio parcial", "interdição total", "interdicao total",
+    "interdição parcial", "interdicao parcial", "queda de barreira", "deslizamento",
+)
+RELEASE_TERMS = ENDED_WORDS + (
+    "normalizado", "normalizada", "tráfego normal", "trafego normal", "trânsito normal",
+    "transito normal", "sem interdição", "sem interdicao", "sem bloqueio", "foi liberada",
+    "foi liberado", "volta a fluir", "volta ao normal", "pista reaberta", "rodovia reaberta",
+)
 PUBLIC_ROAD_TERMS = [
-    "acidente", "batida", "colisão", "colisao", "interdição", "interditada", "interditado",
-    "bloqueio", "bloqueada", "bloqueado", "congestionamento", "lentidão", "lentidao",
-    "pista", "faixa", "carreta tomba", "caminhão tomba", "caminhao tomba", "ônibus",
-    "onibus", "queda de barreira", "deslizamento", "pega fogo", "incêndio", "incendio",
-    "mortos", "morto", "feridos", "ferido",
+    "interdição", "interdicao", "interditada", "interditado", "bloqueio", "bloqueada",
+    "bloqueado", "pista bloqueada", "pista interditada", "rodovia bloqueada", "rodovia interditada",
+    "faixa bloqueada", "faixa interditada", "trânsito bloqueado", "transito bloqueado",
+    "queda de barreira", "deslizamento", "rodovia fechada", "pista fechada",
 ]
 IRRELEVANT_TERMS = [
     "futebol", "campeonato", "partida", "jogo", "jogador", "time", "placar", "rodada",
@@ -53,10 +69,10 @@ DEFAULT_WATCH_POINTS = [
 ]
 
 PUBLIC_QUERIES = [
-    '(rodovia OR BR OR "pista interditada" OR "rodovia interditada") (acidente OR batida OR colisão OR bloqueio OR interdição OR congestionamento OR "queda de barreira" OR "carreta tomba" OR "pega fogo" OR mortos OR feridos) Brasil when:1d -futebol -jogo -mercado',
-    '("BR-101" OR "BR 101" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040" OR "BR-163" OR "BR 163") (acidente OR batida OR colisão OR interdição OR interditada OR "pega fogo" OR mortos OR feridos) when:1d -futebol -jogo',
+    '(rodovia OR BR OR pista) (interditada OR interditado OR bloqueada OR bloqueado OR "pista interditada" OR "pista bloqueada" OR "rodovia interditada" OR "rodovia bloqueada" OR "queda de barreira") Brasil when:1d -futebol -jogo -mercado',
+    '("BR-101" OR "BR 101" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040" OR "BR-163" OR "BR 163") (interdição OR interdicao OR interditada OR bloqueio OR bloqueada OR "pista bloqueada" OR "pista interditada") when:1d -futebol -jogo',
 ]
-GDELT_QUERY = '(rodovia OR "BR-" OR "pista interditada" OR "rodovia interditada" OR "acidente na rodovia" OR "acidente na BR" OR "carreta tomba" OR "queda de barreira") sourcecountry:BR'
+GDELT_QUERY = '(rodovia OR "BR-" OR "pista interditada" OR "rodovia interditada" OR "pista bloqueada" OR "rodovia bloqueada" OR "bloqueio na BR" OR "interdição na BR" OR "queda de barreira") sourcecountry:BR'
 
 
 def now_iso() -> str:
@@ -130,9 +146,21 @@ def event_description(properties: dict[str, Any], label: str) -> str:
     return "; ".join(texts[:3]) if texts else f"Evento detectado pela TomTom Traffic API: {label}."
 
 
+def has_any_text(text: str, terms: tuple[str, ...] | list[str]) -> bool:
+    folded = text.casefold()
+    return any(term.casefold() in folded for term in terms)
+
+
+def is_release_notice(text: str) -> bool:
+    return has_any_text(text, RELEASE_TERMS)
+
+
+def is_blocking_notice(text: str) -> bool:
+    return has_any_text(text, BLOCKAGE_TERMS) and not is_release_notice(text)
+
+
 def is_finished(description: str) -> bool:
-    text = description.casefold()
-    return any(word in text for word in ENDED_WORDS)
+    return is_release_notice(description)
 
 
 def split_names(value: Any) -> list[str]:
@@ -170,7 +198,7 @@ def get_road(properties: dict[str, Any]) -> str | None:
 
 
 def fetch_url(url: str, timeout: int = 45) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.2"})
+    req = urllib.request.Request(url, headers={"User-Agent": "rodovias-clima-github-action/2.3"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read()
 
@@ -198,6 +226,9 @@ def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tu
     description = event_description(props, label)
     if is_finished(description):
         return None, "finished"
+    blocking = category in (7, 8) or is_blocking_notice(description) or is_blocking_notice(json.dumps(props, ensure_ascii=False))
+    if not blocking:
+        return None, "not_blocking"
     road = get_road(props)
     fallback_used = False
     if not road:
@@ -206,7 +237,7 @@ def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tu
         road = str(corridor.get("road") or corridor.get("name") or "Corredor rodoviário")
         fallback_used = True
     lat, lon = coord
-    risk = CATEGORY_RISK.get(category, 60)
+    risk = CATEGORY_RISK.get(category, 84)
     delay = props.get("delay") or props.get("magnitudeOfDelay")
     if isinstance(delay, (int, float)) and delay > 600:
         risk = min(100, risk + 10)
@@ -261,15 +292,11 @@ def public_event_type(text: str) -> tuple[str, int] | None:
     t = text.casefold()
     if any(term in t for term in IRRELEVANT_TERMS):
         return None
-    if not any(term in t for term in PUBLIC_ROAD_TERMS):
+    if is_release_notice(t):
         return None
-    if any(term in t for term in ("interdit", "bloque", "queda de barreira", "deslizamento")):
-        return "Interdição ou bloqueio por notícia pública", 74
-    if any(term in t for term in ("mortos", "morto", "feridos", "ferido", "pega fogo", "incêndio", "incendio")):
-        return "Acidente grave por notícia pública", 76
-    if any(term in t for term in ("acidente", "batida", "colisão", "colisao", "tomba")):
-        return "Acidente rodoviário por notícia pública", 66
-    return "Ocorrência rodoviária por notícia pública", 58
+    if not is_blocking_notice(t):
+        return None
+    return "Interdição ou bloqueio por notícia pública", 84
 
 
 def corridor_for_article(text: str, road: str | None, points: list[dict[str, Any]]) -> dict[str, Any] | None:
@@ -362,6 +389,15 @@ def fetch_gdelt(status: dict[str, Any]) -> list[dict[str, Any]]:
 def public_fallback_events(points: list[dict[str, Any]], status: dict[str, Any]) -> list[dict[str, Any]]:
     articles = fetch_gdelt(status) + fetch_google_news(status)
     status["publicFallbackRawArticles"] = len(articles)
+    release_by_road: dict[str, datetime] = {}
+    for article in articles:
+        text = f"{article.get('title','')} {article.get('source','')}"
+        road = detect_road(text)
+        dt = article.get("published_dt")
+        if road and is_release_notice(text) and isinstance(dt, datetime):
+            current = release_by_road.get(road)
+            if current is None or dt > current:
+                release_by_road[road] = dt
     out = []
     seen = set()
     for article in articles:
@@ -372,6 +408,10 @@ def public_fallback_events(points: list[dict[str, Any]], status: dict[str, Any])
             continue
         dt = article.get("published_dt")
         if dt and not same_day(dt) and dt < now_br() - timedelta(hours=36):
+            continue
+        release_dt = release_by_road.get(road)
+        if release_dt and (not isinstance(dt, datetime) or release_dt >= dt):
+            status["publicFallbackSkippedReleased"] += 1
             continue
         corridor = corridor_for_article(text, road, points)
         if not corridor:
@@ -415,19 +455,19 @@ def hard_api_failure(status: dict[str, Any]) -> bool:
 
 def main() -> None:
     points = monitored_points()
-    previous = load_json(OUTPUT, [])
     status: dict[str, Any] = {
         "updatedAt": now_iso(),
         "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
-        "riskRule": "TomTom quando disponível; se a API falhar por crédito/quota, usa notícias públicas recentes como fallback aproximado.",
+        "riskRule": "Só gera evento rodoviário quando houver bloqueio/interdição ativa; notícias de liberação removem ou impedem o evento.",
         "monitoredPoints": len(points),
         "bboxRequestsPlanned": len(points) if API_KEY else 0,
         "bboxRequestsSucceeded": 0,
         "rawIncidents": 0,
         "eventsWritten": 0,
         "skippedFinishedOrInvalid": 0,
+        "skippedNonBlocking": 0,
         "skippedLocalStreet": 0,
         "publicFallbackUsed": False,
         "publicFallbackRequestsSucceeded": 0,
@@ -435,6 +475,7 @@ def main() -> None:
         "publicFallbackRawArticles": 0,
         "publicFallbackEventsWritten": 0,
         "publicFallbackSkippedNoCorridor": 0,
+        "publicFallbackSkippedReleased": 0,
         "keptPreviousOnApiFailure": False,
         "errors": [],
     }
@@ -453,6 +494,8 @@ def main() -> None:
                     if not normalized:
                         if reason == "local_street":
                             status["skippedLocalStreet"] += 1
+                        elif reason == "not_blocking":
+                            status["skippedNonBlocking"] += 1
                         else:
                             status["skippedFinishedOrInvalid"] += 1
                         continue
@@ -480,9 +523,6 @@ def main() -> None:
         if fallback:
             output = fallback
             status["publicFallbackUsed"] = True
-        elif isinstance(previous, list) and previous:
-            output = previous
-            status["keptPreviousOnApiFailure"] = True
 
     status["eventsWritten"] = len(output)
     write_json(OUTPUT, output)
