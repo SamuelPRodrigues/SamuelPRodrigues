@@ -16,6 +16,18 @@ text = text.replace(
     "@media(max-width:760px){.dock.expanded{width:var(--dock-collapsed);align-items:center}.dock.expanded .nav-item{width:48px;justify-content:center;padding:0;margin:0 auto}.dock.expanded .nav-label{display:none}.map-panel,.dock.expanded + .map-panel{left:var(--dock-collapsed);right:0;top:0;bottom:0;width:auto;border-radius:0 18px 18px 0;padding:13px}.donut-wrap{grid-template-columns:116px 1fr}.legend{right:10px;bottom:88px;width:calc(100vw - 92px);padding:12px}}",
 )
 
+# Evita a opção "Sem região" no painel do mapa. A região passa a ser inferida por UF ou coordenadas.
+text = text.replace(
+    "function regionOf(ev){const r=ev.raw||{};return String(firstValue(r,['region','regiao','state','uf','estado','city','municipality','cidade'])||'Sem região').trim()}",
+    "function normalizeRegionName(v){const raw=String(v??'').trim();if(!raw||/^sem região$/i.test(raw))return'';const t=raw.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toUpperCase();const full={NORTE:'Norte',NORDESTE:'Nordeste','CENTRO-OESTE':'Centro-Oeste',CENTROOESTE:'Centro-Oeste',SUDESTE:'Sudeste',SUL:'Sul'};const uf={AC:'Norte',AP:'Norte',AM:'Norte',PA:'Norte',RO:'Norte',RR:'Norte',TO:'Norte',AL:'Nordeste',BA:'Nordeste',CE:'Nordeste',MA:'Nordeste',PB:'Nordeste',PE:'Nordeste',PI:'Nordeste',RN:'Nordeste',SE:'Nordeste',DF:'Centro-Oeste',GO:'Centro-Oeste',MT:'Centro-Oeste',MS:'Centro-Oeste',ES:'Sudeste',MG:'Sudeste',RJ:'Sudeste',SP:'Sudeste',PR:'Sul',RS:'Sul',SC:'Sul'};return full[t]||uf[t]||''}function regionFromCoords(lat,lon){lat=Number(lat);lon=Number(lon);if(!Number.isFinite(lat)||!Number.isFinite(lon))return'Centro-Oeste';if(lat<-23.5&&lon<-44)return'Sul';if(lat>-18&&lon>-45)return'Nordeste';if(lon<-52&&lat>-18)return'Norte';if(lon<-50)return'Centro-Oeste';if(lat<-14&&lon>-52)return'Sudeste';if(lat>-8)return'Norte';return'Nordeste'}function regionOf(ev){const r=ev.raw||{};for(const value of [r.region,r.regiao,r.state,r.uf,r.estado]){const region=normalizeRegionName(value);if(region)return region}return regionFromCoords(ev.lat,ev.lon)}",
+)
+
+# Clicar outra vez no mesmo item de gráfico remove aquele filtro.
+text = text.replace(
+    "function setFilter(key,value){if(key==='type')$('filterType').value=value;if(key==='severity')$('filterSeverity').value=value;if(key==='region'){const select=$('filterRegion');if([...select.options].some(o=>o.value===value))select.value=value}applyFilters({fit:true})}",
+    "function setFilter(key,value){const select=key==='type'?$('filterType'):key==='severity'?$('filterSeverity'):key==='region'?$('filterRegion'):null;if(!select)return;const next=select.value===value?'all':value;if([...select.options].some(o=>o.value===next))select.value=next;applyFilters({fit:true})}",
+)
+
 text = text.replace(
     "async function getJson(path,fallbackValue){return getJsonAny([path,RAW+path],fallbackValue)}",
     "async function getJson(path,fallbackValue){const sources=String(path||'').startsWith('data/')?[RAW+path,path]:[path,RAW+path];return getJsonAny(sources,fallbackValue)}",
