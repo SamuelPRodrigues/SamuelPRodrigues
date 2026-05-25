@@ -1,0 +1,49 @@
+name: Reclassificar severidade rodoviaria
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reclassify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Reclassificar eventos rodoviarios
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SHEETS_WEBAPP_URL: ${{ secrets.SHEETS_WEBAPP_URL }}
+          SHEETS_WEBAPP_KEY: ${{ secrets.SHEETS_WEBAPP_KEY }}
+          MAX_ROAD_BLOCKING_RISK: "69"
+        run: python scripts/reclassify_road_severity.py
+
+      - name: Commitar dados e relatorio
+        run: |
+          git add data/road_events.json data/manual_events.json data/analytics_cache.json data/supabase_analytics_cache.json data/road_severity_reclassify_status.json || true
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança local para commitar."
+          else
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git commit -m "Reclassifica severidade de eventos rodoviarios"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Solicitar publicacao do GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api repos/${{ github.repository }}/dispatches -f event_type=deploy_pages
