@@ -29,7 +29,9 @@ jobs:
       - name: Baixar código
         uses: actions/checkout@v4
       - name: Preparar HTML publicado
-        run: python scripts/patch_published_html.py
+        run: |
+          python scripts/patch_published_html.py
+          python scripts/inject_map_crossfilter.py
       - name: Configurar Pages
         uses: actions/configure-pages@v5
       - name: Enviar artefato
