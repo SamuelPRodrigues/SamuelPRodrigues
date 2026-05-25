@@ -19,6 +19,7 @@ OUTPUT = Path("data/road_events.json")
 STATUS_OUTPUT = Path("data/road_events_status.json")
 API_KEY = os.environ.get("TOMTOM_API_KEY", "").strip()
 BR_TZ = timezone(timedelta(hours=-3))
+MAX_ROAD_BLOCKING_RISK = 69
 
 CATEGORY_LABELS = {
     1: "Acidente", 2: "Neblina", 3: "Condição perigosa", 4: "Chuva",
@@ -26,7 +27,7 @@ CATEGORY_LABELS = {
     8: "Interdição", 9: "Obra", 10: "Vento forte", 11: "Alagamento",
     14: "Veículo parado",
 }
-CATEGORY_RISK = {1: 82, 2: 65, 3: 72, 4: 55, 5: 80, 6: 62, 7: 84, 8: 92, 9: 58, 10: 65, 11: 86, 14: 52}
+CATEGORY_RISK = {1: 69, 2: 65, 3: 69, 4: 55, 5: 69, 6: 62, 7: 69, 8: 69, 9: 58, 10: 65, 11: 69, 14: 52}
 ENDED_WORDS = (
     "encerrado", "encerrada", "ended", "cleared", "terminado", "terminada",
     "liberado", "liberada", "liberação", "liberacao", "desbloqueado", "desbloqueada",
@@ -73,6 +74,10 @@ PUBLIC_QUERIES = [
     '("BR-101" OR "BR 101" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040" OR "BR-163" OR "BR 163") (interdição OR interdicao OR interditada OR bloqueio OR bloqueada OR "pista bloqueada" OR "pista interditada") when:1d -futebol -jogo',
 ]
 GDELT_QUERY = '(rodovia OR "BR-" OR "pista interditada" OR "rodovia interditada" OR "pista bloqueada" OR "rodovia bloqueada" OR "bloqueio na BR" OR "interdição na BR" OR "queda de barreira") sourcecountry:BR'
+
+
+def cap_road_blocking_risk(risk: int | float) -> int:
+    return min(MAX_ROAD_BLOCKING_RISK, int(float(risk or 0)))
 
 
 def now_iso() -> str:
@@ -237,15 +242,14 @@ def normalize_incident(incident: dict[str, Any], corridor: dict[str, Any]) -> tu
         road = str(corridor.get("road") or corridor.get("name") or "Corredor rodoviário")
         fallback_used = True
     lat, lon = coord
-    risk = CATEGORY_RISK.get(category, 84)
-    delay = props.get("delay") or props.get("magnitudeOfDelay")
-    if isinstance(delay, (int, float)) and delay > 600:
-        risk = min(100, risk + 10)
+    risk = cap_road_blocking_risk(CATEGORY_RISK.get(category, MAX_ROAD_BLOCKING_RISK))
     return {
         "active": True, "name": f"{label} • {road}", "road": road,
         "corridor": corridor.get("name") or road, "isMainRoad": True,
         "fallbackCorridor": fallback_used, "lat": round(lat, 6), "lon": round(lon, 6),
         "eventType": label, "description": description, "risk": risk,
+        "severity": "Alto" if risk >= 60 else "Moderado",
+        "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
         "source": "TomTom Traffic API", "updatedAt": now_iso(),
     }, "ok"
 
@@ -296,7 +300,7 @@ def public_event_type(text: str) -> tuple[str, int] | None:
         return None
     if not is_blocking_notice(t):
         return None
-    return "Interdição ou bloqueio por notícia pública", 84
+    return "Interdição ou bloqueio por notícia pública", MAX_ROAD_BLOCKING_RISK
 
 
 def corridor_for_article(text: str, road: str | None, points: list[dict[str, Any]]) -> dict[str, Any] | None:
@@ -418,6 +422,7 @@ def public_fallback_events(points: list[dict[str, Any]], status: dict[str, Any])
             status["publicFallbackSkippedNoCorridor"] += 1
             continue
         event_type, risk = classification
+        risk = cap_road_blocking_risk(risk)
         key = article.get("url") or clean_title(article.get("title") or "")
         if key in seen:
             continue
@@ -434,6 +439,8 @@ def public_fallback_events(points: list[dict[str, Any]], status: dict[str, Any])
             "eventType": event_type,
             "description": f"{clean_title(article.get('title') or '')}. Localização aproximada pelo corredor monitorado.",
             "risk": risk,
+            "severity": "Alto" if risk >= 60 else "Moderado",
+            "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
             "source": f"Notícias públicas - {article.get('source') or article.get('provider') or 'fonte pública'}",
             "sourceProvider": article.get("provider") or "Fonte pública sem chave",
             "sourceUrl": article.get("url") or "",
@@ -460,7 +467,8 @@ def main() -> None:
         "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
         "tomtomKeyConfigured": bool(API_KEY),
         "language": "pt-PT",
-        "riskRule": "Só gera evento rodoviário quando houver bloqueio/interdição ativa; notícias de liberação removem ou impedem o evento.",
+        "riskRule": "Só gera evento rodoviário quando houver bloqueio/interdição ativa; eventos rodoviários de bloqueio/interdição têm teto 69, severidade Alta.",
+        "maxRoadBlockingRisk": MAX_ROAD_BLOCKING_RISK,
         "monitoredPoints": len(points),
         "bboxRequestsPlanned": len(points) if API_KEY else 0,
         "bboxRequestsSucceeded": 0,
