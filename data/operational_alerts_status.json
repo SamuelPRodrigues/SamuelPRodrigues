@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T03:02:54Z",
+  "updatedAt": "2026-05-25T03:15:35Z",
   "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo + aliases amplos",
   "trustedSources": [
     "CNN Brasil",
@@ -17,7 +17,7 @@
   ],
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
   "sameDayWindowStartUtc": "20260525030000",
-  "sameDayWindowEndUtc": "20260525030254",
+  "sameDayWindowEndUtc": "20260525031535",
   "gdeltRequestsSucceeded": 1,
   "gdeltRequestFailures": 2,
   "googleNewsQueriesPlanned": 14,
@@ -25,19 +25,19 @@
   "trustedSourceRequestsSucceeded": 12,
   "googleNewsRequestFailures": 0,
   "retryRecoveries": 0,
-  "rawArticles": 1014,
+  "rawArticles": 1023,
   "eventsWritten": 0,
-  "skippedByDate": 291,
-  "skippedNoCity": 667,
+  "skippedByDate": 311,
+  "skippedNoCity": 650,
   "skippedNoRule": 13,
-  "skippedIrrelevant": 43,
-  "locationAliasMatches": 135,
+  "skippedIrrelevant": 49,
+  "locationAliasMatches": 143,
   "majorContextExceptions": 0,
   "keptPreviousOnFailure": false,
   "errors": [
     "same-day-window tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-window tentativa 3: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "same-day-timespan-fallback tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-timespan-fallback tentativa 3: Expecting value: line 1 column 1 (char 0)"
+    "same-day-window tentativa 3: Expecting value: line 1 column 1 (char 0)",
+    "same-day-timespan-fallback tentativa 2: Expecting value: line 1 column 1 (char 0)",
+    "same-day-timespan-fallback tentativa 3: <urlopen error timed out>"
   ]
 }
