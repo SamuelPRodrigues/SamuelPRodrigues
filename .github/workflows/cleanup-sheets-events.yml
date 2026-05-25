@@ -32,10 +32,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install --upgrade google-api-python-client google-auth
       - name: Executar limpeza
         env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEETS_WEBAPP_URL: ${{ secrets.SHEETS_WEBAPP_URL }}
+          SHEETS_WEBAPP_KEY: ${{ secrets.SHEETS_WEBAPP_KEY }}
           CLEANUP_CUTOFF_UTC: ${{ inputs.cutoff_utc }}
           DRY_RUN: ${{ inputs.dry_run }}
           CONFIRM_DELETE: ${{ inputs.confirm_delete }}
