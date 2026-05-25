@@ -42,18 +42,20 @@ CLIMATE_TERMS = [
 ]
 CLIMATE_HARD_TERMS = ['alagamento','enchente','inundação','deslizamento','queda de barreira','alerta vermelho','temporal']
 
-ROAD_TERMS = [
-    'rodovia interditada','rodovia bloqueada','pista interditada','pista bloqueada',
-    'interdição na rodovia','acidente na rodovia','acidente deixa','congestionamento na rodovia',
-    'queda de barreira na rodovia','caminhão tomba','carreta tomba','bloqueio na br',
-    'trânsito parado','faixa interditada','km ',
-    'batida na br','batida na rodovia','colisão na br','colisão na rodovia','ônibus e carreta',
-    'onibus e carreta','pegam fogo','pega fogo','incêndio na br','incendio na br',
-    'mortos e feridos','morto e feridos','deixa mortos','deixa feridos'
+ROAD_BLOCK_TERMS = [
+    'interditada','interditado','interdição','interdicao','bloqueada','bloqueado','bloqueio',
+    'pista interditada','pista bloqueada','rodovia interditada','rodovia bloqueada',
+    'faixa interditada','faixa bloqueada','trânsito bloqueado','transito bloqueado',
+    'tráfego bloqueado','trafego bloqueado','bloqueio total','bloqueio parcial',
+    'interdição total','interdicao total','interdição parcial','interdicao parcial',
+    'queda de barreira','deslizamento','rodovia fechada','pista fechada','via fechada'
 ]
-ROAD_HARD_TERMS = [
-    'interditada','interditado','bloqueada','bloqueado','acidente','tomba','congestionamento','queda de barreira',
-    'batida','colisão','colisao','pega fogo','pegam fogo','incêndio','incendio','mortos','morto','feridos','ferido'
+ROAD_RELEASE_TERMS = [
+    'liberada','liberado','liberação','liberacao','pista liberada','rodovia liberada',
+    'via liberada','tráfego liberado','trafego liberado','trânsito liberado','transito liberado',
+    'fluxo liberado','desbloqueada','desbloqueado','normalizado','normalizada',
+    'tráfego normal','trafego normal','trânsito normal','transito normal','sem interdição',
+    'sem interdicao','sem bloqueio','pista reaberta','rodovia reaberta','volta ao normal'
 ]
 
 ROAD_PATTERNS = [
@@ -93,13 +95,12 @@ REGION_FALLBACKS = {
 
 GENERAL_QUERIES = [
     '("chuva forte" OR temporal OR alagamento OR enchente OR deslizamento OR "queda de barreira" OR "alerta laranja" OR "alerta vermelho") Brasil when:1d -futebol -jogo -mercado',
-    '((rodovia OR BR OR "pista interditada" OR "rodovia interditada") (acidente OR batida OR colisão OR bloqueio OR interdição OR congestionamento OR "queda de barreira" OR "carreta tomba" OR "pega fogo" OR "mortos" OR "feridos")) Brasil when:1d -futebol -jogo -mercado',
-    '("BR-251" OR "BR 251" OR "BR-116" OR "BR 116" OR "BR-381" OR "BR 381" OR "BR-040" OR "BR 040") (acidente OR batida OR colisão OR interdição OR interditada OR "pega fogo" OR mortos OR feridos) when:1d -futebol -jogo',
+    '((rodovia OR BR OR pista) (interditada OR interditado OR interdição OR bloqueada OR bloqueado OR bloqueio OR "pista interditada" OR "pista bloqueada" OR "rodovia interditada" OR "rodovia bloqueada" OR "queda de barreira")) Brasil when:1d -futebol -jogo -mercado',
 ]
 SOURCE_QUERIES = []
 for _, domain in TRUSTED_NEWS_SITES:
     SOURCE_QUERIES.append(f'("chuva forte" OR temporal OR alagamento OR enchente OR deslizamento OR "alerta vermelho") site:{domain} when:1d -futebol -jogo')
-    SOURCE_QUERIES.append(f'(rodovia OR BR OR "pista interditada" OR "rodovia interditada" OR acidente OR batida OR colisão OR bloqueio OR "pega fogo" OR mortos OR feridos) site:{domain} when:1d -futebol -jogo')
+    SOURCE_QUERIES.append(f'(rodovia OR BR OR pista) (interditada OR interditado OR interdição OR bloqueada OR bloqueado OR bloqueio OR "pista interditada" OR "pista bloqueada" OR "rodovia interditada" OR "rodovia bloqueada") site:{domain} when:1d -futebol -jogo')
 
 
 def load_list(path: Path) -> list[dict[str, Any]]:
@@ -116,6 +117,15 @@ def same_day(dt: datetime | None) -> bool:
 
 def clean_title(title: str) -> str:
     return re.sub(r'\s+', ' ', title).strip()[:180]
+
+
+def has_release(text: str) -> bool:
+    return has_any(text.casefold(), ROAD_RELEASE_TERMS)
+
+
+def has_active_block(text: str) -> bool:
+    t = text.casefold()
+    return has_any(t, ROAD_BLOCK_TERMS) and not has_release(t)
 
 
 def fetch_google_news(query: str, status: dict[str, Any]) -> list[dict[str, Any]]:
@@ -200,15 +210,11 @@ def classify_road(text: str) -> tuple[str, int, str] | None:
     road = detect_road(text)
     if not road:
         return None
-    if not (has_any(t, ROAD_HARD_TERMS) or has_any(t, ROAD_TERMS)):
+    if has_release(t):
         return None
-    if has_any(t, ['interditada','interditado','bloqueada','bloqueado','queda de barreira']):
-        return 'Interdição ou bloqueio por notícia', 74, road
-    if has_any(t, ['mortos','morto','feridos','ferido','pega fogo','pegam fogo','incêndio','incendio']):
-        return 'Acidente grave rodoviário por notícia', 76, road
-    if has_any(t, ['acidente','batida','colisão','colisao','tomba','carreta','caminhão','onibus','ônibus']):
-        return 'Acidente rodoviário por notícia', 66, road
-    return 'Ocorrência rodoviária por notícia', 58, road
+    if not has_active_block(t):
+        return None
+    return 'Interdição ou bloqueio por notícia', 84, road
 
 
 def make_climate_event(article: dict[str, Any], status: dict[str, Any]) -> dict[str, Any] | None:
@@ -295,17 +301,47 @@ def strip_previous_supplemental(events: list[dict[str, Any]]) -> list[dict[str, 
     return [event for event in events if event.get('sourceProvider') != PROVIDER]
 
 
+def latest_releases_by_road(articles: list[dict[str, Any]]) -> dict[str, datetime]:
+    releases: dict[str, datetime] = {}
+    for article in articles:
+        text = f"{article.get('title','')} {article.get('source','')}"
+        road = detect_road(text)
+        dt = article.get('published_dt')
+        if road and isinstance(dt, datetime) and has_release(text):
+            if road not in releases or dt > releases[road]:
+                releases[road] = dt
+    return releases
+
+
+def remove_released_events(events: list[dict[str, Any]], releases: dict[str, datetime]) -> list[dict[str, Any]]:
+    if not releases:
+        return events
+    out = []
+    for event in events:
+        road = str(event.get('road') or '')
+        release_dt = releases.get(road)
+        if not release_dt:
+            out.append(event)
+            continue
+        news_dt = parse_rss_date(str(event.get('newsDate') or ''))
+        if news_dt and news_dt > release_dt:
+            out.append(event)
+    return out
+
+
 def main() -> None:
     status: dict[str, Any] = {
         'updatedAt': now_iso(),
         'provider': PROVIDER,
         'datePolicy': 'same-day Brazil time only',
+        'roadPolicy': 'only active road blocks/closures; release news removes supplemental road events',
         'queriesPlanned': len(GENERAL_QUERIES) + len(SOURCE_QUERIES),
         'googleNewsRequestsSucceeded': 0,
         'googleNewsRequestFailures': 0,
         'rawArticles': 0,
         'climateEventsAdded': 0,
         'roadEventsAdded': 0,
+        'roadReleaseNoticesFound': 0,
         'skippedByDate': 0,
         'skippedClimateNoCity': 0,
         'skippedRoadNoCity': 0,
@@ -320,16 +356,19 @@ def main() -> None:
         time.sleep(0.4)
     status['rawArticles'] = len(articles)
 
+    releases = latest_releases_by_road(articles)
+    status['roadReleaseNoticesFound'] = len(releases)
+
     climate_events = dedupe_by_url([event for article in articles if (event := make_climate_event(article, status))])[:25]
     road_events = dedupe_by_url([event for article in articles if (event := make_road_event(article, status))])[:25]
+    road_events = remove_released_events(road_events, releases)
 
     existing_climate = strip_previous_supplemental(load_list(CLIMATE_OUTPUT))
     existing_road = strip_previous_supplemental(load_list(ROAD_OUTPUT))
 
     if climate_events:
         write_json(CLIMATE_OUTPUT, (climate_events + existing_climate)[:120])
-    if road_events:
-        write_json(ROAD_OUTPUT, (road_events + existing_road)[:120])
+    write_json(ROAD_OUTPUT, (road_events + existing_road)[:120])
 
     status['climateEventsAdded'] = len(climate_events)
     status['roadEventsAdded'] = len(road_events)
