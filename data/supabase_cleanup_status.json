@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-05-25T18:19:17Z",
+  "configured": true,
+  "cutoffUtc": "2026-05-25T16:21:57Z",
+  "dryRun": true,
+  "confirmed": false,
+  "tablesChecked": [
+    {
+      "table": "event_snapshots",
+      "columns": [],
+      "matchedRows": 0,
+      "deletedRows": 0,
+      "exists": false
+    },
+    {
+      "table": "events",
+      "columns": [
+        {
+          "column": "last_seen_at",
+          "matchedRows": 863,
+          "deletedRows": 0
+        }
+      ],
+      "matchedRows": 863,
+      "deletedRows": 0,
+      "exists": true
+    },
+    {
+      "table": "event_history",
+      "columns": [],
+      "matchedRows": 0,
+      "deletedRows": 0,
+      "exists": false
+    },
+    {
+      "table": "dashboard_events",
+      "columns": [],
+      "matchedRows": 0,
+      "deletedRows": 0,
+      "exists": false
+    },
+    {
+      "table": "dashboard_event_snapshots",
+      "columns": [],
+      "matchedRows": 0,
+      "deletedRows": 0,
+      "exists": false
+    }
+  ],
+  "deletedOrMatchedRows": 863,
+  "cacheReset": false,
+  "error": null,
+  "dashboardRecentReachable": true
+}
