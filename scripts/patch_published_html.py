@@ -16,6 +16,11 @@ text = text.replace(
     "@media(max-width:760px){.dock.expanded{width:var(--dock-collapsed);align-items:center}.dock.expanded .nav-item{width:48px;justify-content:center;padding:0;margin:0 auto}.dock.expanded .nav-label{display:none}.map-panel,.dock.expanded + .map-panel{left:var(--dock-collapsed);right:0;top:0;bottom:0;width:auto;border-radius:0 18px 18px 0;padding:13px}.donut-wrap{grid-template-columns:116px 1fr}.legend{right:10px;bottom:88px;width:calc(100vw - 92px);padding:12px}}",
 )
 
+# Deixa a barra de rolagem do painel mais discreta e coerente com o tema escuro.
+if ".map-panel::-webkit-scrollbar" not in text:
+    scrollbar_css = """.map-panel{scrollbar-width:thin;scrollbar-color:rgba(147,197,253,.42) rgba(7,17,32,.32)}.map-panel::-webkit-scrollbar{width:10px}.map-panel::-webkit-scrollbar-track{background:rgba(7,17,32,.28);border-left:1px solid rgba(96,165,250,.10)}.map-panel::-webkit-scrollbar-thumb{background:linear-gradient(180deg,rgba(147,197,253,.55),rgba(37,99,235,.38));border:2px solid rgba(7,17,32,.95);border-radius:999px}.map-panel::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,rgba(191,219,254,.75),rgba(96,165,250,.55))}"""
+    text = text.replace(".panel-help{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.35}", ".panel-help{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.35}" + scrollbar_css)
+
 # Evita a opção "Sem região" no painel do mapa. A região passa a ser inferida por UF ou coordenadas.
 text = text.replace(
     "function regionOf(ev){const r=ev.raw||{};return String(firstValue(r,['region','regiao','state','uf','estado','city','municipality','cidade'])||'Sem região').trim()}",
