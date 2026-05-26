@@ -73,7 +73,46 @@
       .join('');
   }
 
+  function addBulletinNavStyles() {
+    if (document.getElementById('bulletinNavStyles')) return;
+    const style = document.createElement('style');
+    style.id = 'bulletinNavStyles';
+    style.textContent = `
+      .dock .nav{display:flex;flex-direction:column;flex:1;gap:10px;width:100%}
+      .nav-item.bulletin-nav{margin-top:auto}
+      .dock.expanded .nav-item.bulletin-nav{margin-top:auto}
+      .bulletin-icon{-webkit-mask-image:url('assets/icons/Boletim.png');mask-image:url('assets/icons/Boletim.png')}
+    `;
+    document.head.appendChild(style);
+  }
+
+  function addBulletinButton() {
+    const nav = document.querySelector('#dock .nav');
+    if (!nav || document.getElementById('bulletinNav')) return;
+    const button = document.createElement('button');
+    button.id = 'bulletinNav';
+    button.className = 'nav-item bulletin-nav';
+    button.type = 'button';
+    button.title = 'Boletim';
+    button.setAttribute('aria-label', 'Abrir boletim de notícias');
+    button.innerHTML = '<span class="nav-icon bulletin-icon"></span><span class="nav-label">Boletim</span>';
+    button.addEventListener('click', () => {
+      window.location.href = 'boletim.html';
+    });
+    nav.appendChild(button);
+  }
+
+  function initBulletinNav() {
+    addBulletinNavStyles();
+    addBulletinButton();
+  }
+
   try {
     window.detailRows = detailRowsFixed;
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initBulletinNav, { once: true });
+    } else {
+      initBulletinNav();
+    }
   } catch (_) {}
 })();
