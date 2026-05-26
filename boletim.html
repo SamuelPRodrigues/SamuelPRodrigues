@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boletim operacional</title>
+  <style>
+    :root{
+      --dock:72px;
+      --bg:#071120;
+      --panel:#0b1628;
+      --panel-soft:#102039;
+      --line:#244066;
+      --text:#eaf2ff;
+      --muted:#9db2d4;
+      --accent:#2563eb;
+      --icon:#bfdbfe;
+      --good:#22c55e;
+      --warn:#f59e0b;
+      --risk:#ef4444;
+    }
+    *{box-sizing:border-box}
+    html,body{min-height:100%;margin:0}
+    body{
+      font-family:system-ui,-apple-system,Segoe UI,sans-serif;
+      background:
+        radial-gradient(circle at 12% 12%,rgba(37,99,235,.14),transparent 28%),
+        radial-gradient(circle at 85% 20%,rgba(14,165,233,.08),transparent 26%),
+        var(--bg);
+      color:var(--text);
+      overflow-x:hidden;
+    }
+    button,input,select{font:inherit}
+    .dock{
+      position:fixed;
+      z-index:20;
+      inset:0 auto 0 0;
+      width:var(--dock);
+      background:rgba(7,17,32,.97);
+      border-right:1px solid var(--line);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:space-between;
+      padding:14px 10px;
+      box-shadow:12px 0 28px rgba(0,0,0,.24);
+    }
+    .dock-group{display:grid;gap:10px;width:100%;justify-items:center}
+    .dock-link{
+      width:48px;
+      height:48px;
+      border-radius:16px;
+      border:1px solid rgba(96,165,250,.24);
+      background:rgba(15,35,64,.50);
+      display:grid;
+      place-items:center;
+      text-decoration:none;
+      transition:background .16s ease,border-color .16s ease,transform .16s ease;
+    }
+    .dock-link:hover,.dock-link.active{
+      background:rgba(37,99,235,.24);
+      border-color:rgba(147,197,253,.55);
+      transform:translateY(-1px);
+    }
+    .dock-link:focus-visible,.ghost-button:focus-visible,.primary-button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}
+    .dock-icon{
+      width:27px;
+      height:27px;
+      background:var(--icon);
+      -webkit-mask-position:center;
+      mask-position:center;
+      -webkit-mask-repeat:no-repeat;
+      mask-repeat:no-repeat;
+      -webkit-mask-size:contain;
+      mask-size:contain;
+    }
+    .bulletin-icon{-webkit-mask-image:url('assets/icons/Boletim.png');mask-image:url('assets/icons/Boletim.png')}
+    .map-icon{-webkit-mask-image:url('assets/icons/Mapa.png');mask-image:url('assets/icons/Mapa.png')}
+    .page{
+      min-height:100vh;
+      margin-left:var(--dock);
+      padding:28px;
+    }
+    .shell{
+      max-width:1180px;
+      margin:0 auto;
+      display:grid;
+      gap:18px;
+    }
+    .hero{
+      border:1px solid rgba(96,165,250,.18);
+      background:linear-gradient(135deg,rgba(11,22,40,.92),rgba(16,32,57,.68));
+      border-radius:22px;
+      padding:22px;
+      box-shadow:0 24px 70px rgba(0,0,0,.22);
+    }
+    .eyebrow{
+      font-size:11px;
+      font-weight:950;
+      letter-spacing:.11em;
+      text-transform:uppercase;
+      color:#93c5fd;
+      margin-bottom:6px;
+    }
+    h1{
+      font-size:clamp(28px,4vw,44px);
+      line-height:1;
+      margin:0;
+      letter-spacing:-.04em;
+    }
+    .hero-subtitle{
+      max-width:780px;
+      margin:10px 0 0;
+      color:#b8c7df;
+      font-size:14px;
+      line-height:1.55;
+    }
+    .toolbar{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:minmax(220px,1fr) 180px 150px auto;
+      gap:10px;
+      align-items:center;
+    }
+    .field{
+      height:44px;
+      border-radius:14px;
+      border:1px solid rgba(96,165,250,.22);
+      background:#081426;
+      color:var(--text);
+      padding:0 13px;
+      outline:none;
+    }
+    .field::placeholder{color:#7f91ad}
+    .primary-button,.ghost-button{
+      height:44px;
+      border-radius:14px;
+      border:1px solid rgba(96,165,250,.28);
+      color:#dbeafe;
+      font-weight:900;
+      cursor:default;
+      padding:0 14px;
+    }
+    .primary-button{background:rgba(37,99,235,.28)}
+    .ghost-button{background:rgba(15,35,64,.62)}
+    .muted-note{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:11px;
+      line-height:1.4;
+    }
+    .summary-grid{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:12px;
+    }
+    .metric,.panel{
+      border:1px solid rgba(96,165,250,.16);
+      background:rgba(11,22,40,.78);
+      border-radius:18px;
+    }
+    .metric{padding:14px}
+    .metric-label{font-size:11px;color:var(--muted);font-weight:800}
+    .metric-value{font-size:25px;font-weight:950;margin-top:5px;letter-spacing:-.03em}
+    .metric small{display:block;color:#8ea4c4;margin-top:3px;font-size:11px}
+    .content-grid{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:14px;
+      align-items:start;
+    }
+    .panel{padding:16px}
+    .panel-head{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:flex-start;
+      margin-bottom:12px;
+    }
+    .panel-title{font-size:15px;font-weight:950}
+    .panel-caption{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35}
+    .status-pill{
+      border:1px solid rgba(96,165,250,.22);
+      background:rgba(37,99,235,.14);
+      color:#bfdbfe;
+      border-radius:999px;
+      padding:6px 9px;
+      font-size:10px;
+      font-weight:900;
+      white-space:nowrap;
+    }
+    .news-list{display:grid;gap:10px}
+    .news-card{
+      border:1px solid rgba(96,165,250,.13);
+      background:rgba(16,32,57,.42);
+      border-radius:15px;
+      padding:13px;
+    }
+    .news-meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+    .tag{
+      border:1px solid rgba(96,165,250,.18);
+      background:rgba(37,99,235,.13);
+      color:#cfe4ff;
+      border-radius:999px;
+      padding:4px 7px;
+      font-size:10px;
+      font-weight:850;
+    }
+    .tag.warn{border-color:rgba(245,158,11,.25);background:rgba(245,158,11,.12);color:#fde68a}
+    .tag.risk{border-color:rgba(239,68,68,.22);background:rgba(239,68,68,.12);color:#fecaca}
+    .news-title{font-weight:950;font-size:14px;line-height:1.25;margin:0}
+    .news-copy{color:#b8c7df;font-size:12px;line-height:1.45;margin:7px 0 0}
+    .side-list{display:grid;gap:9px}
+    .side-row{
+      display:grid;
+      grid-template-columns:10px 1fr auto;
+      align-items:center;
+      gap:9px;
+      padding:10px 0;
+      border-bottom:1px solid rgba(96,165,250,.10);
+      color:#dbeafe;
+      font-size:12px;
+    }
+    .side-row:last-child{border-bottom:0}
+    .dot{width:10px;height:10px;border-radius:99px;background:#60a5fa}
+    .dot.warn{background:var(--warn)}.dot.risk{background:var(--risk)}.dot.good{background:var(--good)}
+    .side-row b{font-size:12px}.side-row span{color:var(--muted);font-size:11px}
+    .empty-state{
+      border:1px dashed rgba(147,197,253,.25);
+      background:rgba(15,35,64,.28);
+      border-radius:16px;
+      padding:18px;
+      color:#9db2d4;
+      font-size:12px;
+      line-height:1.45;
+      text-align:center;
+    }
+    @media(max-width:900px){
+      .page{padding:18px 14px 18px 86px;margin-left:0}
+      .toolbar{grid-template-columns:1fr}
+      .summary-grid,.content-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <aside class="dock" aria-label="Navegação do boletim">
+    <div class="dock-group">
+      <a class="dock-link active" href="boletim.html" title="Boletim" aria-label="Boletim"><span class="dock-icon bulletin-icon"></span></a>
+    </div>
+    <div class="dock-group">
+      <a class="dock-link" href="index.html" title="Mapa" aria-label="Voltar ao mapa"><span class="dock-icon map-icon"></span></a>
+    </div>
+  </aside>
+
+  <main class="page">
+    <div class="shell">
+      <section class="hero">
+        <div class="eyebrow">Boletim</div>
+        <h1>Monitoramento de notícias operacionais</h1>
+        <p class="hero-subtitle">Painel reservado para leitura diária de notícias e sinais públicos que possam afetar deslocamentos, rotas e previsibilidade operacional. Esta versão é apenas visual e ainda não está conectada ao mecanismo de pesquisa.</p>
+        <div class="toolbar" aria-label="Filtros do boletim em desenvolvimento">
+          <input class="field" type="search" placeholder="Pesquisar por rodovia, cidade, ocorrência ou fonte..." disabled>
+          <select class="field" disabled>
+            <option>Todas as categorias</option>
+            <option>Clima</option>
+            <option>Rodovia</option>
+            <option>Mobilização</option>
+            <option>Segurança pública</option>
+          </select>
+          <select class="field" disabled>
+            <option>Últimas 24h</option>
+            <option>Últimas 48h</option>
+            <option>Últimos 7 dias</option>
+          </select>
+          <button class="primary-button" type="button" disabled>Atualizar boletim</button>
+        </div>
+        <div class="muted-note">Os controles são placeholders de design. A integração com o bot de pesquisa será adicionada em uma próxima etapa.</div>
+      </section>
+
+      <section class="summary-grid" aria-label="Resumo do boletim">
+        <article class="metric"><div class="metric-label">Notícias monitoradas</div><div class="metric-value">--</div><small>Aguardando integração</small></article>
+        <article class="metric"><div class="metric-label">Ocorrências relevantes</div><div class="metric-value">--</div><small>Classificação pendente</small></article>
+        <article class="metric"><div class="metric-label">Regiões em atenção</div><div class="metric-value">--</div><small>Sem dados carregados</small></article>
+        <article class="metric"><div class="metric-label">Última leitura</div><div class="metric-value">--:--</div><small>Não configurado</small></article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <div class="panel-title">Leitura principal</div>
+              <div class="panel-caption">Espaço para notícias priorizadas por impacto operacional.</div>
+            </div>
+            <span class="status-pill">Prévia visual</span>
+          </div>
+          <div class="news-list">
+            <section class="news-card">
+              <div class="news-meta"><span class="tag warn">Rodovia</span><span class="tag">Sudeste</span><span class="tag">Em validação</span></div>
+              <h2 class="news-title">Interdição ou restrição em corredor monitorado</h2>
+              <p class="news-copy">Card modelo para ocorrência rodoviária com possível impacto em rota. O texto final será gerado a partir das fontes públicas consolidadas.</p>
+            </section>
+            <section class="news-card">
+              <div class="news-meta"><span class="tag risk">Clima</span><span class="tag">Sul</span><span class="tag">Acompanhar</span></div>
+              <h2 class="news-title">Condição meteorológica adversa em área de deslocamento</h2>
+              <p class="news-copy">Card modelo para alertas de chuva intensa, vento, baixa visibilidade ou outros fatores que exijam atenção operacional.</p>
+            </section>
+            <section class="empty-state">A lista real de notícias será exibida aqui quando a coleta estiver conectada.</section>
+          </div>
+        </article>
+
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <div class="panel-title">Categorias monitoradas</div>
+              <div class="panel-caption">Estrutura inicial do boletim.</div>
+            </div>
+          </div>
+          <div class="side-list">
+            <div class="side-row"><i class="dot warn"></i><b>Rodovias e bloqueios</b><span>Interdições, obras e acidentes</span></div>
+            <div class="side-row"><i class="dot risk"></i><b>Clima severo</b><span>Chuva, vento e visibilidade</span></div>
+            <div class="side-row"><i class="dot"></i><b>Mobilizações</b><span>Greves, protestos e bloqueios</span></div>
+            <div class="side-row"><i class="dot good"></i><b>Operações públicas</b><span>Fiscalização e segurança viária</span></div>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
