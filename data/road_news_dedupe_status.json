@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-26T18:17:08Z",
+  "updatedAt": "2026-05-26T18:33:42Z",
   "policy": "Consolidar noticias publicas duplicadas de uma mesma situacao rodoviaria em evento unico com lista de fontes.",
   "eventFiles": {
     "files": [
       {
         "path": "data/road_events.json",
         "groups": 4,
-        "roadNewsRows": 7,
+        "roadNewsRows": 8,
         "mergedRows": 4,
-        "duplicatesRemoved": 3,
+        "duplicatesRemoved": 4,
         "multiSourceGroups": 2
       },
       {
@@ -20,27 +20,27 @@
         "multiSourceGroups": 0
       }
     ],
-    "duplicatesRemoved": 3
+    "duplicatesRemoved": 4
   },
   "cacheFiles": {
     "files": [
       {
         "path": "data/analytics_cache.json",
         "groups": 17,
-        "roadNewsRows": 33,
+        "roadNewsRows": 34,
         "mergedRows": 17,
-        "duplicatesRemoved": 16,
+        "duplicatesRemoved": 17,
         "multiSourceGroups": 8
       },
       {
         "path": "data/supabase_analytics_cache.json",
         "groups": 17,
-        "roadNewsRows": 33,
+        "roadNewsRows": 34,
         "mergedRows": 17,
-        "duplicatesRemoved": 16,
+        "duplicatesRemoved": 17,
         "multiSourceGroups": 8
       }
     ],
-    "duplicatesRemoved": 32
+    "duplicatesRemoved": 34
   }
 }
