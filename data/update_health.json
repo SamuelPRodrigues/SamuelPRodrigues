@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T09:18:43Z",
+  "updatedAt": "2026-05-26T09:39:48Z",
   "workflow": "Atualizar dados do mapa",
   "trigger": "repository_dispatch",
   "climateExitCode": 0,
@@ -9,6 +9,7 @@
   "manualSheetExitCode": 0,
   "roadSeverityRule": "Eventos de bloqueio/interdição de rodovia têm teto 69, severidade Alta.",
   "roadNewsDuplicatePolicy": "Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.",
-  "eventLifecyclePolicy": "Rastreador registra first_seen_at, last_seen_at, duração ativa e desativa eventos liberados ou não reconfirmados.",
+  "roadNewsFreshnessPolicy": "Noticias publicas rodoviarias ativas precisam ter ate 12 horas.",
+  "eventLifecyclePolicy": "Rastreador registra first_seen_at, last_seen_at, duração ativa e desativa notícias públicas rodoviárias sem reconfirmação após 4 horas.",
   "note": "Arquivo de auditoria: se este timestamp mudou, o workflow executou."
 }
