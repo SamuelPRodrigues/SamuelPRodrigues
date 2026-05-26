@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import time
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -12,10 +13,12 @@ from typing import Any
 STATUS_OUTPUT = Path('data/road_news_dedupe_status.json')
 EVENT_FILES = [Path('data/road_events.json'), Path('data/manual_events.json')]
 CACHE_FILES = [Path('data/analytics_cache.json'), Path('data/supabase_analytics_cache.json')]
-ROAD_RE = re.compile(r'\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|PB|AL|SE|PI|MA|PA|AM|RO|RR|AP|AC|TO)-?\s?(\d{2,4})\b', re.I)
-NEWS_RE = re.compile(r'noticias publicas|noticias públicas|noticia publica|notícia pública|google news|gdelt|fonte publica|fonte pública', re.I)
+ROAD_RE = re.compile(r'\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|PB|AL|SE|PI|MA|PA|AM|RO|RR|AP|AC|TO)-?\s?(\d{2,4}|150)\b', re.I)
+NEWS_RE = re.compile(r'noticias publicas|notícias públicas|noticia publica|notícia pública|google news|gdelt|fonte publica|fonte pública|interdição planejada|interdicao planejada', re.I)
 OFFICIAL = ('gov.br', 'dnit', 'antt', 'prf', 'defesa civil')
-NATIONAL = ('g1', 'globo', 'folha', 'estadao', 'uol', 'r7', 'cnn', 'band')
+NATIONAL = ('g1', 'globo', 'folha', 'estadao', 'estadão', 'uol', 'r7', 'cnn', 'band')
+TRACKING_RE = re.compile(r'\s*Rastreio:\s*primeiro registro em .*?(?:\.|$)', re.I | re.S)
+TRAILING_RE = re.compile(r'\s*(?:Fontes consolidadas:.*|Localização aproximada pelo corredor monitorado\.?|Período informado:.*|Rastreio:.*)$', re.I | re.S)
 
 
 def now_iso() -> str:
@@ -61,7 +64,7 @@ def parse_dt(value: Any) -> datetime | None:
 
 
 def road_code(row: dict[str, Any]) -> str:
-    blob = ' '.join(text(row.get(k)) for k in ('road', 'name', 'description', 'headline'))
+    blob = ' '.join(text(row.get(k)) for k in ('road', 'name', 'description', 'headline', 'corridor'))
     match = ROAD_RE.search(blob)
     if match:
         return f'{match.group(1).upper()}-{match.group(2)}'
@@ -82,7 +85,7 @@ def is_public_road_news(row: dict[str, Any]) -> bool:
 
 
 def day_key(row: dict[str, Any]) -> str:
-    dt = parse_dt(row.get('newsDate') or row.get('snapshot_at') or row.get('last_seen_at') or row.get('updated_at') or row.get('updatedAt'))
+    dt = parse_dt(row.get('newsDate') or row.get('plannedStartAt') or row.get('snapshot_at') or row.get('last_seen_at') or row.get('updated_at') or row.get('updatedAt'))
     return dt.date().isoformat() if dt else 'sem-data'
 
 
@@ -95,8 +98,51 @@ def loc_key(row: dict[str, Any]) -> str:
     return '|'.join(p for p in parts if p) or 'sem-local'
 
 
-def group_key(row: dict[str, Any]) -> str:
-    return '|'.join([road_code(row), loc_key(row), day_key(row)])
+def normalize_url(value: Any) -> str:
+    raw = text(value)
+    if not raw:
+        return ''
+    try:
+        parsed = urllib.parse.urlsplit(raw)
+        query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+        filtered = [(k, v) for k, v in query if not k.lower().startswith('utm_') and k.lower() not in {'fbclid', 'gclid', 'oc', 'ceid'}]
+        return urllib.parse.urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path, urllib.parse.urlencode(filtered), ''))
+    except Exception:
+        return raw
+
+
+def base_headline(row: dict[str, Any]) -> str:
+    raw = text(row.get('headline') or row.get('title') or row.get('description') or row.get('name'))
+    raw = TRACKING_RE.sub('', raw)
+    raw = TRAILING_RE.sub('', raw)
+    raw = re.sub(r'\s*[-|–]\s*(G1|Globo|UOL|Folha|Estadão|R7|CNN|Band|Portal.*|Metrópoles|DETRAN.*)$', '', raw, flags=re.I)
+    raw = re.sub(r'https?://\S+', '', raw)
+    return re.sub(r'\s+', ' ', raw).strip()
+
+
+def title_signature(row: dict[str, Any]) -> str:
+    title = base_headline(row).casefold()
+    title = re.sub(r'[^a-z0-9áàâãéêíóôõúç\s-]', ' ', title)
+    words = [w for w in re.split(r'\s+', title) if len(w) > 2]
+    if len(words) < 5:
+        return ''
+    return ' '.join(words[:16])
+
+
+def article_key(row: dict[str, Any]) -> str:
+    road = road_code(row)
+    url = normalize_url(row.get('sourceUrl') or row.get('source_url'))
+    title = title_signature(row)
+    # URL direta é a melhor chave. Título entra para unir Google News, URL monitorada e fallback com a mesma matéria.
+    if title:
+        return f'article|{road}|{title}'
+    if url:
+        return f'article|{road}|{url}'
+    return ''
+
+
+def situation_key(row: dict[str, Any]) -> str:
+    return '|'.join(['situation', road_code(row), loc_key(row), day_key(row)])
 
 
 def source_rank(source: str, url: str) -> int:
@@ -112,9 +158,9 @@ def source_rank(source: str, url: str) -> int:
 
 def source_item(row: dict[str, Any]) -> dict[str, Any]:
     source = text(row.get('source') or row.get('sourceProvider') or row.get('provider') or 'Fonte pública')
-    url = text(row.get('source_url') or row.get('sourceUrl'))
-    headline = text(row.get('headline') or row.get('description') or row.get('name'))[:240]
-    date = text(row.get('newsDate') or row.get('updated_at') or row.get('updatedAt') or row.get('snapshot_at'))
+    url = normalize_url(row.get('source_url') or row.get('sourceUrl'))
+    headline = base_headline(row)[:240]
+    date = text(row.get('newsDate') or row.get('plannedStartAt') or row.get('updated_at') or row.get('updatedAt') or row.get('snapshot_at'))
     return {'source': source, 'url': url, 'headline': headline, 'date': date, '_rank': source_rank(source, url)}
 
 
@@ -126,10 +172,10 @@ def collect_sources(row: dict[str, Any]) -> list[dict[str, Any]]:
             if isinstance(src, dict):
                 items.append({
                     'source': text(src.get('source') or src.get('name') or src.get('provider') or 'Fonte pública'),
-                    'url': text(src.get('url') or src.get('source_url') or src.get('sourceUrl')),
+                    'url': normalize_url(src.get('url') or src.get('source_url') or src.get('sourceUrl')),
                     'headline': text(src.get('headline') or src.get('title') or src.get('description'))[:240],
                     'date': text(src.get('date') or src.get('published') or src.get('newsDate')),
-                    '_rank': safe_int(src.get('_rank')),
+                    '_rank': safe_int(src.get('_rank')) or source_rank(text(src.get('source')), text(src.get('url'))),
                 })
     items.append(source_item(row))
     dedup: dict[str, dict[str, Any]] = {}
@@ -140,13 +186,37 @@ def collect_sources(row: dict[str, Any]) -> list[dict[str, Any]]:
     return sorted(dedup.values(), key=lambda x: (safe_int(x.get('_rank')), text(x.get('date'))), reverse=True)
 
 
+def severity(value: Any) -> str:
+    risk = safe_int(value)
+    if risk >= 80:
+        return 'Crítico'
+    if risk >= 60:
+        return 'Alto'
+    if risk >= 35:
+        return 'Moderado'
+    if risk >= 1:
+        return 'Baixo'
+    return 'Sem risco'
+
+
+def base_score(row: dict[str, Any]) -> tuple[int, int, int, str]:
+    planned = 1 if text(row.get('plannedEndAt') or row.get('plannedStartAt') or row.get('eventType')).casefold().find('planejad') >= 0 else 0
+    return (
+        planned,
+        source_item(row)['_rank'],
+        len(text(row.get('description') or row.get('headline'))),
+        text(row.get('newsDate') or row.get('plannedStartAt') or row.get('updated_at') or row.get('updatedAt')),
+    )
+
+
 def best_base(rows: list[dict[str, Any]]) -> dict[str, Any]:
-    return dict(max(rows, key=lambda r: (source_item(r)['_rank'], len(text(r.get('description') or r.get('headline'))), text(r.get('newsDate') or r.get('updated_at') or r.get('updatedAt')))))
+    return dict(max(rows, key=base_score))
 
 
 def stable_id(row: dict[str, Any]) -> str:
-    base = '|'.join([road_code(row), loc_key(row), day_key(row), text(row.get('event_type') or row.get('eventType') or 'road')])
-    return hashlib.sha256(base.encode('utf-8')).hexdigest()[:24]
+    key = article_key(row) or situation_key(row)
+    event_type = text(row.get('event_type') or row.get('eventType') or 'road')
+    return hashlib.sha256(f'{key}|{event_type}'.encode('utf-8')).hexdigest()[:24]
 
 
 def merge_group(rows: list[dict[str, Any]]) -> dict[str, Any]:
@@ -161,6 +231,7 @@ def merge_group(rows: list[dict[str, Any]]) -> dict[str, Any]:
             dedup[key] = item
     sources = sorted(dedup.values(), key=lambda x: (safe_int(x.get('_rank')), text(x.get('date'))), reverse=True)
     primary = sources[0] if sources else source_item(base)
+
     names: list[str] = []
     for item in sources:
         name = text(item.get('source'))
@@ -169,9 +240,26 @@ def merge_group(rows: list[dict[str, Any]]) -> dict[str, Any]:
     source_text = '; '.join(names[:6])
     if len(names) > 6:
         source_text += f'; +{len(names)-6} fonte(s)'
-    desc = text(base.get('description') or base.get('headline') or base.get('name'))
-    desc = re.sub(r'\s*Localização aproximada pelo corredor monitorado\.?', '', desc).strip()
-    base['description'] = f'{desc}. Fontes consolidadas: {source_text}. Localização aproximada pelo corredor monitorado.' if desc else f'Evento consolidado a partir de {len(sources)} fonte(s): {source_text}. Localização aproximada pelo corredor monitorado.'
+
+    planned_rows = [row for row in rows if text(row.get('plannedEndAt') or row.get('plannedStartAt'))]
+    if planned_rows:
+        planned = max(planned_rows, key=base_score)
+        for key in ('plannedStartAt', 'plannedEndAt', 'plannedWindowRule', 'newsLifecycleRule'):
+            if planned.get(key):
+                base[key] = planned.get(key)
+        base['eventType'] = 'Interdição planejada por notícia pública'
+        base['name'] = f"Interdição planejada por notícia pública • {road_code(base)}"
+        base['lifecycle_status'] = planned.get('lifecycle_status') or base.get('lifecycle_status') or 'active_planned_closure'
+        base['tracker_reason'] = planned.get('tracker_reason') or base.get('tracker_reason') or 'planned_road_news_window'
+
+    desc = base_headline(base) or text(base.get('description') or base.get('name'))
+    period = ''
+    if base.get('plannedStartAt') or base.get('plannedEndAt'):
+        period = f" Período informado: {base.get('plannedStartAt') or 'início não identificado'} até {base.get('plannedEndAt') or 'fim não identificado'}."
+    if desc:
+        base['description'] = f'{desc}.{period} Fontes consolidadas: {source_text}. Localização aproximada pelo corredor monitorado.'
+    else:
+        base['description'] = f'Evento consolidado a partir de {len(sources)} fonte(s): {source_text}.{period} Localização aproximada pelo corredor monitorado.'
     base['source'] = text(primary.get('source')) if len(sources) == 1 else f"{text(primary.get('source'))} + {len(sources)-1} fonte(s)"
     base['sourceProvider'] = 'Noticias publicas consolidadas'
     base['source_url'] = text(primary.get('url') or base.get('source_url') or base.get('sourceUrl'))
@@ -180,32 +268,52 @@ def merge_group(rows: list[dict[str, Any]]) -> dict[str, Any]:
     base['sources'] = [{k: v for k, v in item.items() if k != '_rank'} for item in sources]
     base['sourceCount'] = len(sources)
     base['dedupedFrom'] = len(rows)
-    base['duplicatePolicy'] = 'Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.'
+    base['duplicatePolicy'] = 'Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.'
     sid = stable_id(base)
     base['stable_event_id'] = sid
-    base['event_id'] = base.get('event_id') or sid
+    base['event_id'] = sid
     base['risk'] = min(69, safe_int(base.get('risk')) or 69)
     base['severity'] = 'Alto' if safe_int(base.get('risk')) >= 60 else severity(base.get('risk'))
     return base
 
 
-def dedupe_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+def collapse_once(rows: list[dict[str, Any]], key_func) -> tuple[list[dict[str, Any]], dict[str, int]]:
     groups: dict[str, list[dict[str, Any]]] = {}
     kept: list[dict[str, Any]] = []
     for row in rows:
         if isinstance(row, dict) and is_public_road_news(row):
-            groups.setdefault(group_key(row), []).append(row)
+            key = key_func(row)
+            if key:
+                groups.setdefault(key, []).append(row)
+            else:
+                kept.append(row)
         else:
             kept.append(row)
     merged = [merge_group(group) for group in groups.values()]
-    out = kept + merged
-    out.sort(key=lambda row: (safe_int(row.get('risk')), text(row.get('newsDate') or row.get('snapshot_at') or row.get('last_seen_at') or row.get('updated_at') or row.get('updatedAt'))), reverse=True)
-    return out, {
+    return kept + merged, {
         'groups': len(groups),
         'roadNewsRows': sum(len(group) for group in groups.values()),
         'mergedRows': len(merged),
         'duplicatesRemoved': sum(max(0, len(group) - 1) for group in groups.values()),
         'multiSourceGroups': sum(1 for group in groups.values() if len(group) > 1),
+    }
+
+
+def dedupe_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    # 1) remove duplicatas causadas pela mesma matéria entrando por caminhos diferentes
+    pass1, stats1 = collapse_once(rows, article_key)
+    # 2) consolida matérias diferentes que parecem descrever a mesma situação no mesmo dia/local
+    pass2, stats2 = collapse_once(pass1, situation_key)
+    out = pass2
+    out.sort(key=lambda row: (safe_int(row.get('risk')), text(row.get('plannedStartAt') or row.get('newsDate') or row.get('snapshot_at') or row.get('last_seen_at') or row.get('updated_at') or row.get('updatedAt'))), reverse=True)
+    return out, {
+        'groups': stats1['groups'] + stats2['groups'],
+        'roadNewsRows': stats1['roadNewsRows'] + stats2['roadNewsRows'],
+        'mergedRows': stats1['mergedRows'] + stats2['mergedRows'],
+        'duplicatesRemoved': stats1['duplicatesRemoved'] + stats2['duplicatesRemoved'],
+        'multiSourceGroups': stats1['multiSourceGroups'] + stats2['multiSourceGroups'],
+        'articleDuplicatesRemoved': stats1['duplicatesRemoved'],
+        'situationDuplicatesRemoved': stats2['duplicatesRemoved'],
     }
 
 
@@ -258,7 +366,7 @@ def rebuild_cache(cache: dict[str, Any]) -> None:
         }
     cache['windows'] = windows
     cache['updatedAt'] = now_iso()
-    cache['roadNewsDuplicatePolicy'] = 'Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.'
+    cache['roadNewsDuplicatePolicy'] = 'Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.'
 
 
 def process_event_files() -> dict[str, Any]:
@@ -294,7 +402,7 @@ def process_cache_files() -> dict[str, Any]:
 def main() -> None:
     status = {
         'updatedAt': now_iso(),
-        'policy': 'Consolidar noticias publicas duplicadas de uma mesma situacao rodoviaria em evento unico com lista de fontes.',
+        'policy': 'Consolidar noticias publicas duplicadas da mesma matéria primeiro e, depois, da mesma situacao rodoviaria.',
         'eventFiles': process_event_files(),
         'cacheFiles': process_cache_files(),
     }
