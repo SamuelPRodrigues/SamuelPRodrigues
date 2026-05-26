@@ -24,7 +24,7 @@ TRACKED_FILES = [
 ]
 
 BR_TZ = timezone(timedelta(hours=-3))
-ROAD_NEWS_STALE_HOURS = float(os.environ.get('ROAD_NEWS_STALE_HOURS', '24'))
+ROAD_NEWS_STALE_HOURS = float(os.environ.get('ROAD_NEWS_STALE_HOURS', '12'))
 ROAD_LIVE_FEED_GRACE_RUNS = int(os.environ.get('ROAD_LIVE_FEED_GRACE_RUNS', '1'))
 NEWS_RELEASE_LOOKUP_LIMIT = int(os.environ.get('NEWS_RELEASE_LOOKUP_LIMIT', '10'))
 ROAD_RE = re.compile(r'\b(BR|SP|MG|RJ|ES|PR|SC|RS|MS|MT|GO|DF|BA|PE|CE|RN|PB|AL|SE|PI|MA|PA|AM|RO|RR|AP|AC|TO)-?\s?(\d{2,4})\b', re.I)
