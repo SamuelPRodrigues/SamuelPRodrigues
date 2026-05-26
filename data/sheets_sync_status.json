@@ -1,16 +1,17 @@
 {
-  "updatedAt": "2026-05-25T23:48:19Z",
+  "updatedAt": "2026-05-26T00:07:43Z",
   "configured": true,
-  "eventsPrepared": 23,
+  "eventsPrepared": 16,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-05-25T23:45Z",
+  "snapshotBucket": "2026-05-26T00:00Z",
+  "eventLifecycleFields": true,
   "ok": true,
   "response": {
     "ok": true,
-    "received": 23,
+    "received": 16,
     "inserted": 0,
-    "updated": 23,
+    "updated": 16,
     "total_rows": 76
   },
   "analyticsCache": true,
