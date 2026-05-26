@@ -17,6 +17,8 @@ concurrency:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  ROAD_NEWS_STALE_HOURS: "4"
+  NEWS_PUBLIC_LOOKBACK_HOURS: "12"
 
 jobs:
   update-map-data:
@@ -78,6 +80,7 @@ jobs:
           climate_status=$?
           python scripts/update_road_events.py
           road_status=$?
+          python scripts/filter_stale_road_news.py || true
           python scripts/update_operational_alerts.py
           operational_status=$?
           python scripts/update_news_supplemental_events.py
@@ -86,6 +89,7 @@ jobs:
           manual_status=$?
           python scripts/reclassify_road_severity.py || true
           python scripts/dedupe_road_news_events.py || true
+          python scripts/filter_stale_road_news.py || true
           python scripts/track_event_lifecycle.py || true
 
           export CLIMATE_STATUS="$climate_status"
@@ -111,7 +115,8 @@ jobs:
               'manualSheetExitCode': int(os.environ.get('MANUAL_STATUS', '0')),
               'roadSeverityRule': 'Eventos de bloqueio/interdição de rodovia têm teto 69, severidade Alta.',
               'roadNewsDuplicatePolicy': 'Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.',
-              'eventLifecyclePolicy': 'Rastreador registra first_seen_at, last_seen_at, duração ativa e desativa eventos liberados ou não reconfirmados.',
+              'roadNewsFreshnessPolicy': 'Noticias publicas rodoviarias ativas precisam ter ate 12 horas.',
+              'eventLifecyclePolicy': 'Rastreador registra first_seen_at, last_seen_at, duração ativa e desativa notícias públicas rodoviárias sem reconfirmação após 4 horas.',
               'note': 'Arquivo de auditoria: se este timestamp mudou, o workflow executou.'
           }
           Path('data/update_health.json').write_text(json.dumps(health, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -155,6 +160,7 @@ jobs:
           PY
           python scripts/reclassify_road_severity.py || true
           python scripts/dedupe_road_news_events.py || true
+          python scripts/filter_stale_road_news.py || true
           python scripts/track_event_lifecycle.py || true
 
       - name: Sincronizar historico permanente no Supabase
@@ -164,11 +170,12 @@ jobs:
         run: |
           python scripts/sync_events_to_supabase.py
           python scripts/dedupe_road_news_events.py || true
+          python scripts/filter_stale_road_news.py || true
           python scripts/track_event_lifecycle.py || true
 
       - name: Preparar commit
         run: |
-          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json data/supabase_sync_status.json data/supabase_analytics_cache.json data/analytics_cache.json data/road_severity_reclassify_status.json data/road_news_dedupe_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json"
+          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/road_news_freshness_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json data/supabase_sync_status.json data/supabase_analytics_cache.json data/analytics_cache.json data/road_severity_reclassify_status.json data/road_news_dedupe_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json"
           for file in $files; do
             if [ -e "$file" ]; then
               git add "$file"
