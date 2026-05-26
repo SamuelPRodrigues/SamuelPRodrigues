@@ -28,9 +28,12 @@
     "active_duration_hours": 0.36,
     "active_duration_label": "22 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h; a duração usa newsDate/publicação, não updatedAt.",
-    "detectedRoad": "DF-150"
+    "detectedRoad": "DF-150",
+    "last_confirmed_at": "2026-05-26T17:16:42Z",
+    "news_signature": "a38ff48b8642c4520f326bdc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -42,7 +45,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 1.0 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -61,7 +64,10 @@
     "active_duration_hours": 1.03,
     "active_duration_label": "1.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h; a duração usa newsDate/publicação, não updatedAt."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h; a duração usa newsDate/publicação, não updatedAt.",
+    "last_confirmed_at": "2026-05-26T17:16:42Z",
+    "news_signature": "16c4438ded3964fa09eddadb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
