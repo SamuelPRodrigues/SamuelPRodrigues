@@ -7,6 +7,7 @@
   <style>
     :root{
       --dock:72px;
+      --dock-expanded:224px;
       --bg:#071120;
       --panel:#0b1628;
       --panel-soft:#102039;
@@ -42,30 +43,40 @@
       flex-direction:column;
       align-items:center;
       justify-content:space-between;
-      padding:14px 10px;
+      padding:12px 10px 14px;
       box-shadow:12px 0 28px rgba(0,0,0,.24);
+      transition:width .22s ease;
     }
+    .dock.expanded{width:var(--dock-expanded);align-items:stretch}
     .dock-group{display:grid;gap:10px;width:100%;justify-items:center}
-    .dock-link{
+    .dock-toggle,.dock-link{
       width:48px;
       height:48px;
       border-radius:16px;
       border:1px solid rgba(96,165,250,.24);
       background:rgba(15,35,64,.50);
-      display:grid;
-      place-items:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+      color:var(--text);
       text-decoration:none;
       transition:background .16s ease,border-color .16s ease,transform .16s ease;
     }
-    .dock-link:hover,.dock-link.active{
+    .dock-toggle{cursor:pointer;padding:0}
+    .dock-link{font-weight:900;letter-spacing:.01em}
+    .dock-toggle:hover,.dock-link:hover,.dock-link.active{
       background:rgba(37,99,235,.24);
       border-color:rgba(147,197,253,.55);
       transform:translateY(-1px);
     }
-    .dock-link:focus-visible,.ghost-button:focus-visible,.primary-button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}
+    .dock.expanded .dock-link{width:100%;justify-content:flex-start;padding:0 14px}
+    .dock.expanded .dock-toggle{margin-left:auto;margin-right:0}
+    .dock-link:focus-visible,.dock-toggle:focus-visible,.ghost-button:focus-visible,.primary-button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}
     .dock-icon{
       width:27px;
       height:27px;
+      flex:0 0 27px;
       background:var(--icon);
       -webkit-mask-position:center;
       mask-position:center;
@@ -74,13 +85,19 @@
       -webkit-mask-size:contain;
       mask-size:contain;
     }
+    .dock-label{display:none;font-size:15px;white-space:nowrap}
+    .dock.expanded .dock-label{display:block}
+    .toggle-icon{-webkit-mask-image:url('assets/icons/Expandir.png');mask-image:url('assets/icons/Expandir.png')}
+    .dock.expanded .toggle-icon{-webkit-mask-image:url('assets/icons/Retrair.png');mask-image:url('assets/icons/Retrair.png')}
     .bulletin-icon{-webkit-mask-image:url('assets/icons/Boletim.png');mask-image:url('assets/icons/Boletim.png')}
     .map-icon{-webkit-mask-image:url('assets/icons/Mapa.png');mask-image:url('assets/icons/Mapa.png')}
     .page{
       min-height:100vh;
       margin-left:var(--dock);
       padding:28px;
+      transition:margin-left .22s ease;
     }
+    .dock.expanded + .page{margin-left:var(--dock-expanded)}
     .shell{
       max-width:1180px;
       margin:0 auto;
@@ -237,18 +254,20 @@
     }
     @media(max-width:900px){
       .page{padding:18px 14px 18px 86px;margin-left:0}
+      .dock.expanded + .page{margin-left:0;padding-left:calc(var(--dock-expanded) + 14px)}
       .toolbar{grid-template-columns:1fr}
       .summary-grid,.content-grid{grid-template-columns:1fr}
     }
   </style>
 </head>
 <body>
-  <aside class="dock" aria-label="Navegação do boletim">
+  <aside id="dock" class="dock" aria-label="Navegação do boletim">
     <div class="dock-group">
-      <a class="dock-link active" href="boletim.html" title="Boletim" aria-label="Boletim"><span class="dock-icon bulletin-icon"></span></a>
+      <button id="dockToggle" class="dock-toggle" type="button" aria-label="Expandir barra lateral" aria-expanded="false"><span class="dock-icon toggle-icon"></span></button>
+      <a class="dock-link active" href="boletim.html" title="Boletim" aria-label="Boletim"><span class="dock-icon bulletin-icon"></span><span class="dock-label">Boletim</span></a>
     </div>
     <div class="dock-group">
-      <a class="dock-link" href="index.html" title="Mapa" aria-label="Voltar ao mapa"><span class="dock-icon map-icon"></span></a>
+      <a class="dock-link" href="index.html" title="Mapa" aria-label="Voltar ao mapa"><span class="dock-icon map-icon"></span><span class="dock-label">Mapa</span></a>
     </div>
   </aside>
 
@@ -325,5 +344,15 @@
       </section>
     </div>
   </main>
+
+  <script>
+    const dock = document.getElementById('dock');
+    const dockToggle = document.getElementById('dockToggle');
+    dockToggle?.addEventListener('click', () => {
+      const expanded = dock.classList.toggle('expanded');
+      dockToggle.setAttribute('aria-expanded', String(expanded));
+      dockToggle.setAttribute('aria-label', expanded ? 'Retrair barra lateral' : 'Expandir barra lateral');
+    });
+  </script>
 </body>
 </html>
