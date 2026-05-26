@@ -103,7 +103,6 @@ def event_key(event: dict[str, Any]) -> str:
         value = text(event.get(key))
         if value:
             return value
-    # Fallback id only for malformed old rows.
     import hashlib
     return hashlib.sha256(event_blob(event).encode('utf-8')).hexdigest()[:24]
 
@@ -124,6 +123,20 @@ def news_dt(event: dict[str, Any]) -> datetime | None:
         if dates:
             return min(dates)
     return None
+
+
+def planned_window(event: dict[str, Any]) -> tuple[datetime | None, datetime | None]:
+    return parse_dt(event.get('plannedStartAt')), parse_dt(event.get('plannedEndAt'))
+
+
+def planned_window_keeps_event(event: dict[str, Any]) -> bool:
+    start, end = planned_window(event)
+    now = now_dt()
+    if end and now <= end and (not start or now >= start):
+        return True
+    if start and now < start:
+        return True
+    return False
 
 
 def clean_description(description: Any) -> str:
@@ -188,6 +201,7 @@ def main() -> None:
     updated_descriptions = 0
     removed_old = 0
     removed_no_date = 0
+    planned_preserved = 0
     samples: list[dict[str, Any]] = []
     cutoff_hours = LOOKBACK_HOURS
 
@@ -199,6 +213,7 @@ def main() -> None:
         key = event_key(event)
         state_row = state_events.get(key) if isinstance(state_events.get(key), dict) else {}
         dt = news_dt(event)
+        start, end = planned_window(event)
         if not dt:
             reason = 'public_news_without_reliable_publication_date'
             deactivated.append(deactivate_event(event, state_row, reason))
@@ -206,30 +221,40 @@ def main() -> None:
             samples.append({'name': event.get('name'), 'road': event.get('road'), 'reason': reason})
             continue
 
-        age = duration_hours(iso(dt))
-        if age > cutoff_hours:
-            reason = f'public_news_older_than_{cutoff_hours:g}h'
-            deactivated.append(deactivate_event(event, state_row, reason))
-            if key in state_events:
-                state_events[key]['active'] = False
-                state_events[key]['deactivated_at'] = now_iso()
-                state_events[key]['tracker_reason'] = reason
-            removed_old += 1
-            samples.append({'name': event.get('name'), 'road': event.get('road'), 'reason': reason, 'newsDate': iso(dt)})
-            continue
+        if not planned_window_keeps_event(event):
+            age = duration_hours(iso(dt))
+            if age > cutoff_hours:
+                reason = f'public_news_older_than_{cutoff_hours:g}h'
+                deactivated.append(deactivate_event(event, state_row, reason))
+                if key in state_events:
+                    state_events[key]['active'] = False
+                    state_events[key]['deactivated_at'] = now_iso()
+                    state_events[key]['tracker_reason'] = reason
+                removed_old += 1
+                samples.append({'name': event.get('name'), 'road': event.get('road'), 'reason': reason, 'newsDate': iso(dt)})
+                continue
+        else:
+            planned_preserved += 1
+            event['active'] = bool(not start or now_dt() >= start)
+            event['lifecycle_status'] = 'active_planned_closure' if event['active'] else 'scheduled'
+            event['tracker_reason'] = 'planned_road_news_window'
 
         first_seen_dt = parse_dt(event.get('first_seen_at'))
-        if not first_seen_dt or first_seen_dt > dt:
-            event['first_seen_at'] = iso(dt)
+        start_basis = start or dt
+        if not first_seen_dt or first_seen_dt > start_basis:
+            event['first_seen_at'] = iso(start_basis)
             corrected_first_seen += 1
-        first_seen = text(event.get('first_seen_at')) or iso(dt)
-        hours = duration_hours(first_seen)
+        first_seen = text(event.get('first_seen_at')) or iso(start_basis)
+        end_for_duration = now_iso()
+        if end and now_dt() > end:
+            end_for_duration = iso(end)
+        hours = duration_hours(first_seen, end_for_duration)
         event['active_duration_hours'] = hours
         event['active_duration_label'] = human_duration(hours)
         event['last_seen_at'] = event.get('last_seen_at') or now_iso()
-        event['lifecycle_status'] = 'active'
+        event['lifecycle_status'] = event.get('lifecycle_status') or 'active'
         event['tracker_reason'] = event.get('tracker_reason') or 'public_news_recent'
-        event['newsLifecycleRule'] = f'Notícias públicas rodoviárias ativas precisam ter até {LOOKBACK_HOURS:g}h; a duração usa newsDate/publicação, não updatedAt.'
+        event['newsLifecycleRule'] = f'Notícias públicas rodoviárias ativas precisam ter até {LOOKBACK_HOURS:g}h, exceto quando há plannedEndAt ainda vigente.'
         old_desc = text(event.get('description'))
         append_tracking(event, first_seen, hours)
         if event.get('description') != old_desc:
@@ -240,9 +265,13 @@ def main() -> None:
             row['first_seen_at'] = first_seen
             row['active_duration_hours'] = hours
             row['active_duration_label'] = human_duration(hours)
-            row['active'] = True
+            row['active'] = event.get('active', True)
             row['tracker_reason'] = event.get('tracker_reason')
             row['news_lifecycle_rule'] = event['newsLifecycleRule']
+            if event.get('plannedStartAt'):
+                row['plannedStartAt'] = event.get('plannedStartAt')
+            if event.get('plannedEndAt'):
+                row['plannedEndAt'] = event.get('plannedEndAt')
             state_events[key] = row
         kept.append(event)
 
@@ -251,6 +280,7 @@ def main() -> None:
     settings['roadNewsDurationUsesPublicationDate'] = True
     settings['newsPublicLookbackHours'] = LOOKBACK_HOURS
     settings['roadNewsStaleHours'] = ROAD_NEWS_STALE_HOURS
+    settings['plannedRoadNewsWindowPreserved'] = True
     state['settings'] = settings
     state['updatedAt'] = now_iso()
 
@@ -265,10 +295,11 @@ def main() -> None:
         'keptEvents': len(kept),
         'correctedFirstSeen': corrected_first_seen,
         'updatedDescriptions': updated_descriptions,
+        'plannedWindowPreserved': planned_preserved,
         'removedOldPublicNews': removed_old,
         'removedWithoutReliableDate': removed_no_date,
         'removedSample': samples[:25],
-        'policy': 'Notícias públicas usam a data da notícia como first_seen_at; updatedAt do workflow não pode resetar duração ativa.',
+        'policy': 'Notícias públicas usam a data da notícia como first_seen_at; plannedStartAt/plannedEndAt mantém interdições planejadas ativas durante o período informado.',
     }
     write_json(STATUS_FILE, status)
     print(json.dumps(status, ensure_ascii=False, indent=2))
