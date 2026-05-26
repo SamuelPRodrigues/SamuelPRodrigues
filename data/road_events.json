@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "DF-150 é interditada após acidente e queda de fios na rodovia. Veja vídeo - DELIO ANDRADE.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE; Notícias públicas - Metrópoles.7 h.7 h.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE + 1 fonte(s); Notícias públicas - Metrópoles.7 h.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE + 1 fonte(s) + 1 fonte(s); Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-05-26T17:22:14Z; ativo há 1.7 h.",
+    "description": "DF-150 é interditada após acidente e queda de fios na rodovia. Veja vídeo - DELIO ANDRADE.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE; Notícias públicas - Metrópoles.7 h.7 h.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE + 1 fonte(s); Notícias públicas - Metrópoles.7 h.. Fontes consolidadas: Notícias públicas - DELIO ANDRADE + 1 fonte(s) + 1 fonte(s); Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-05-26T17:22:14Z; ativo há 1.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,12 +43,15 @@
     "event_id": "6be3e22c4491102e50ef6763",
     "first_seen_at": "2026-05-26T17:22:14Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 1.68,
+    "active_duration_hours": 1.69,
     "active_duration_label": "1.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "DF-150"
+    "detectedRoad": "DF-150",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "5b9fccb1af4189a0657a0547",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -60,7 +63,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.. Fontes consolidadas: Notícias públicas - Portal Você Online.5 h.5 h.. Fontes consolidadas: Notícias públicas - Portal Você Online.5 h.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-05-26T04:34:34Z; ativo há 14.5 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.. Fontes consolidadas: Notícias públicas - Portal Você Online.5 h.5 h.. Fontes consolidadas: Notícias públicas - Portal Você Online.5 h.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-26T04:34:34Z; ativo há 14.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -91,8 +94,11 @@
     "active_duration_hours": 14.48,
     "active_duration_label": "14.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "16c4438ded3964fa09eddadb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.  Período informado: 2026-05-26T16:15:07Z até fim não identificado.. Fontes consolidadas: Notícias públicas - Portal Você Online.8 h.8 h.. Fontes consolidadas: Notícias públicas - Portal Você Online.8 h.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 2.8 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.  Período informado: 2026-05-26T16:15:07Z até fim não identificado.. Fontes consolidadas: Notícias públicas - Portal Você Online.8 h.8 h.. Fontes consolidadas: Notícias públicas - Portal Você Online.8 h.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,7 +128,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-26T19:02:06Z",
     "sources": [
       {
@@ -140,9 +146,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-26T16:15:07Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 2.8,
+    "active_duration_hours": 2.81,
     "active_duration_label": "2.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "c3e1dfddebd5e88575004825",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -159,7 +168,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1. Bloqueio ocorre entre os km 576 e 584,5, entre Bom Jesus da Penha e Jacuí, e deve durar cerca de 90 dias. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - g1.globo.com.0 h.0 h.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - G1 + 2 fonte(s); Notícias públicas - g1.globo.com.0 h.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - G1 + 2 fonte(s); Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 40.0 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1. Bloqueio ocorre entre os km 576 e 584,5, entre Bom Jesus da Penha e Jacuí, e deve durar cerca de 90 dias. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - g1.globo.com.0 h.0 h.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - G1 + 2 fonte(s); Notícias públicas - g1.globo.com.0 h.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - G1 + 2 fonte(s); Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 40.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -201,9 +210,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-25T03:00:00Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 40.05,
-    "active_duration_label": "40.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 40.06,
+    "active_duration_label": "40.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "230a4d7085d6745a312c9321",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -220,7 +232,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1. Bloqueio ocorre entre os km 576 e 584,5, entre Bom Jesus da Penha e Jacuí, e deve durar cerca de 90 dias. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 40.0 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1. Bloqueio ocorre entre os km 576 e 584,5, entre Bom Jesus da Penha e Jacuí, e deve durar cerca de 90 dias. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 40.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -245,9 +257,12 @@
     ],
     "first_seen_at": "2026-05-25T03:00:00Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 40.05,
-    "active_duration_label": "40.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 40.06,
+    "active_duration_label": "40.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "f3dbc397985330a0d7b1ce50",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -264,7 +279,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.  Período informado: 2026-05-26T16:00:06Z até fim não identificado. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-05-26T16:00:06Z; ativo há 3.0 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.  Período informado: 2026-05-26T16:00:06Z até fim não identificado. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T16:00:06Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -277,7 +292,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-26T19:03:16Z",
     "sources": [
       {
@@ -289,9 +304,12 @@
     ],
     "first_seen_at": "2026-05-26T16:00:06Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 3.05,
-    "active_duration_label": "3.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 3.06,
+    "active_duration_label": "3.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "d84886ba3d57d702b3e9e09a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -308,7 +326,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.  Período informado: 2026-05-26T16:15:07Z até fim não identificado. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 2.8 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.  Período informado: 2026-05-26T16:15:07Z até fim não identificado. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -321,7 +339,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-26T19:03:16Z",
     "sources": [
       {
@@ -333,9 +351,12 @@
     ],
     "first_seen_at": "2026-05-26T16:15:07Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 2.8,
+    "active_duration_hours": 2.81,
     "active_duration_label": "2.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "2d21098c0b4d19815cac0141",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -352,7 +373,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas - G1.  Período informado: 2026-05-26T17:48:41Z até fim não identificado. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-05-26T17:48:41Z; ativo há 1.2 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas - G1.  Período informado: 2026-05-26T17:48:41Z até fim não identificado. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-05-26T17:48:41Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -365,7 +386,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-26T19:03:16Z",
     "sources": [
       {
@@ -377,8 +398,11 @@
     ],
     "first_seen_at": "2026-05-26T17:48:41Z",
     "last_seen_at": "2026-05-26T19:03:16Z",
-    "active_duration_hours": 1.24,
+    "active_duration_hours": 1.25,
     "active_duration_label": "1.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T19:03:16Z",
+    "news_signature": "4fac6e8da49b3b3e424147ae",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
