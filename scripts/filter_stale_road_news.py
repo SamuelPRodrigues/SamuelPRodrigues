@@ -47,7 +47,6 @@ def parse_dt(value: Any) -> datetime | None:
     if not value:
         return None
     raw = text(value)
-    # ISO primeiro.
     try:
         dt = datetime.fromisoformat(raw.replace('Z', '+00:00'))
         if dt.tzinfo is None:
@@ -55,7 +54,6 @@ def parse_dt(value: Any) -> datetime | None:
         return dt.astimezone(timezone.utc)
     except Exception:
         pass
-    # Datas RSS/Google News às vezes chegam em formato RFC 822 no campo published.
     try:
         import email.utils
         dt = email.utils.parsedate_to_datetime(raw)
@@ -83,6 +81,23 @@ def event_date(event: dict[str, Any]) -> datetime | None:
     return None
 
 
+def planned_window_active(event: dict[str, Any]) -> bool:
+    end = parse_dt(event.get('plannedEndAt'))
+    start = parse_dt(event.get('plannedStartAt'))
+    now = now_utc()
+    if end and now <= end and (not start or now >= start):
+        event['active'] = True
+        event['lifecycle_status'] = 'active_planned_closure'
+        event['newsFreshnessRule'] = 'Evento preservado porque a notícia informa período de interdição ainda vigente.'
+        return True
+    if start and now < start:
+        event['active'] = False
+        event['lifecycle_status'] = 'scheduled'
+        event['newsFreshnessRule'] = 'Evento planejado preservado, mas ainda fora do horário de início.'
+        return True
+    return False
+
+
 def main() -> None:
     events = read_json(INPUT, [])
     if not isinstance(events, list):
@@ -92,6 +107,7 @@ def main() -> None:
     removed: list[dict[str, Any]] = []
     release_like = 0
     undated = 0
+    planned_preserved = 0
 
     for event in events:
         if not isinstance(event, dict):
@@ -109,6 +125,10 @@ def main() -> None:
                 'reason': 'release_like_public_news',
                 'date': event.get('newsDate') or event.get('updatedAt') or event.get('updated_at'),
             })
+            continue
+        if planned_window_active(event):
+            planned_preserved += 1
+            kept.append(event)
             continue
         dt = event_date(event)
         if not dt:
@@ -131,7 +151,7 @@ def main() -> None:
             })
             continue
         event['newsFreshnessHours'] = round((now_utc() - dt).total_seconds() / 3600, 2)
-        event['newsFreshnessRule'] = f'Notícias públicas rodoviárias só ficam ativas se tiverem até {LOOKBACK_HOURS:g}h.'
+        event['newsFreshnessRule'] = f'Notícias públicas rodoviárias só ficam ativas se tiverem até {LOOKBACK_HOURS:g}h, exceto interdições planejadas dentro do período informado.'
         kept.append(event)
 
     if len(kept) != len(events):
@@ -142,10 +162,11 @@ def main() -> None:
         'inputEvents': len(events),
         'keptEvents': len(kept),
         'removedEvents': len(removed),
+        'plannedWindowPreserved': planned_preserved,
         'releaseLikeRemoved': release_like,
         'undatedRemoved': undated,
         'removedSample': removed[:25],
-        'policy': 'Notícias públicas rodoviárias antigas não reconfirmam eventos ativos; isso permite que o rastreador desative ocorrências vencidas.',
+        'policy': 'Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente.',
     }
     write_json(STATUS_OUTPUT, status)
     print(json.dumps(status, ensure_ascii=False, indent=2))
