@@ -23,7 +23,7 @@ env:
 jobs:
   update-map-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
@@ -41,6 +41,23 @@ jobs:
         run: |
           set +e
           mkdir -p data
+
+          run_py() {
+            local seconds="$1"
+            local label="$2"
+            shift 2
+            echo "::group::$label"
+            timeout --preserve-status "${seconds}s" python "$@"
+            local status=$?
+            if [ "$status" -eq 124 ] || [ "$status" -eq 143 ]; then
+              echo "Timeout em ${label} após ${seconds}s; seguindo com os dados disponíveis."
+              status=124
+            elif [ "$status" -ne 0 ]; then
+              echo "${label} terminou com código ${status}; seguindo para não travar o workflow."
+            fi
+            echo "::endgroup::"
+            return "$status"
+          }
 
           python - <<'PY'
           import csv
@@ -76,21 +93,22 @@ jobs:
               print('Catálogo rodoviário não encontrado ou vazio; seguindo com configuração existente.')
           PY
 
-          python scripts/update_climate_events.py
+          run_py 90 "Clima" scripts/update_climate_events.py
           climate_status=$?
-          python scripts/update_road_events.py
+          run_py 150 "Rodovias e notícias públicas" scripts/update_road_events.py
           road_status=$?
-          python scripts/filter_stale_road_news.py || true
-          python scripts/update_operational_alerts.py
+          run_py 40 "Filtro de notícias rodoviárias antigas" scripts/filter_stale_road_news.py
+          run_py 60 "Alertas operacionais" scripts/update_operational_alerts.py
           operational_status=$?
-          python scripts/update_news_supplemental_events.py
+          run_py 75 "Notícias suplementares" scripts/update_news_supplemental_events.py
           news_supplemental_status=$?
-          python scripts/update_manual_events_from_sheet.py
+          run_py 75 "Eventos manuais da planilha" scripts/update_manual_events_from_sheet.py
           manual_status=$?
-          python scripts/reclassify_road_severity.py || true
-          python scripts/dedupe_road_news_events.py || true
-          python scripts/filter_stale_road_news.py || true
-          python scripts/track_event_lifecycle.py || true
+          run_py 45 "Reclassificação rodoviária" scripts/reclassify_road_severity.py
+          run_py 45 "Consolidação de notícias rodoviárias" scripts/dedupe_road_news_events.py
+          run_py 40 "Filtro final de notícias rodoviárias antigas" scripts/filter_stale_road_news.py
+          run_py 60 "Rastreador de ciclo de vida" scripts/track_event_lifecycle.py
+          run_py 45 "Normalização de duração de notícias rodoviárias" scripts/normalize_road_news_lifecycle.py
 
           export CLIMATE_STATUS="$climate_status"
           export ROAD_STATUS="$road_status"
@@ -113,6 +131,7 @@ jobs:
               'operationalExitCode': int(os.environ.get('OPERATIONAL_STATUS', '0')),
               'newsSupplementalExitCode': int(os.environ.get('NEWS_SUPPLEMENTAL_STATUS', '0')),
               'manualSheetExitCode': int(os.environ.get('MANUAL_STATUS', '0')),
+              'scriptTimeoutPolicy': 'Cada fonte tem timeout próprio; se uma chamada externa travar, o workflow segue com os dados disponíveis.',
               'roadSeverityRule': 'Eventos de bloqueio/interdição de rodovia têm teto 69, severidade Alta.',
               'roadNewsDuplicatePolicy': 'Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.',
               'roadNewsFreshnessPolicy': 'Noticias publicas rodoviarias ativas precisam ter ate 12 horas.',
@@ -136,6 +155,7 @@ jobs:
 
       - name: Normalizar rodovias para exibicao
         run: |
+          set +e
           python - <<'PY'
           import json
           import re
@@ -158,24 +178,27 @@ jobs:
                       event['name'] = f"{event.get('eventType', 'Evento')} • {event['road']}"
               path.write_text(json.dumps(events, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
-          python scripts/reclassify_road_severity.py || true
-          python scripts/dedupe_road_news_events.py || true
-          python scripts/filter_stale_road_news.py || true
-          python scripts/track_event_lifecycle.py || true
+          timeout --preserve-status 45s python scripts/reclassify_road_severity.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
+          timeout --preserve-status 40s python scripts/filter_stale_road_news.py || true
+          timeout --preserve-status 60s python scripts/track_event_lifecycle.py || true
+          timeout --preserve-status 45s python scripts/normalize_road_news_lifecycle.py || true
 
       - name: Sincronizar historico permanente no Supabase
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          python scripts/sync_events_to_supabase.py
-          python scripts/dedupe_road_news_events.py || true
-          python scripts/filter_stale_road_news.py || true
-          python scripts/track_event_lifecycle.py || true
+          set +e
+          timeout --preserve-status 150s python scripts/sync_events_to_supabase.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
+          timeout --preserve-status 40s python scripts/filter_stale_road_news.py || true
+          timeout --preserve-status 60s python scripts/track_event_lifecycle.py || true
+          timeout --preserve-status 45s python scripts/normalize_road_news_lifecycle.py || true
 
       - name: Preparar commit
         run: |
-          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/road_news_freshness_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json data/supabase_sync_status.json data/supabase_analytics_cache.json data/analytics_cache.json data/road_severity_reclassify_status.json data/road_news_dedupe_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json"
+          files="index.html data/climate_events.json data/climate_events_status.json data/road_events.json data/road_events_status.json data/road_news_freshness_status.json data/road_news_lifecycle_normalize_status.json data/operational_alerts.json data/operational_alerts_status.json data/news_supplemental_events_status.json data/manual_events.json data/manual_events_status.json data/update_health.json data/supabase_sync_status.json data/supabase_analytics_cache.json data/analytics_cache.json data/road_severity_reclassify_status.json data/road_news_dedupe_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json"
           for file in $files; do
             if [ -e "$file" ]; then
               git add "$file"
