@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "DF-150 é interditada após acidente e queda de fios na rodovia. Veja vídeo - DELIO ANDRADE. Fontes consolidadas: Notícias públicas - DELIO ANDRADE; Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-05-26T17:22:14Z; ativo há 4.9 h.",
+    "description": "DF-150 é interditada após acidente e queda de fios na rodovia. Veja vídeo - DELIO ANDRADE. Fontes consolidadas: Notícias públicas - DELIO ANDRADE; Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-05-26T17:22:14Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,12 +43,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-26T17:22:14Z",
     "last_seen_at": "2026-05-26T22:14:06Z",
-    "active_duration_hours": 4.86,
+    "active_duration_hours": 4.87,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "DF-150"
+    "detectedRoad": "DF-150",
+    "last_confirmed_at": "2026-05-26T22:14:06Z",
+    "news_signature": "c982f03f10dc48047b41c738",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 6.0 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -78,7 +81,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-26T22:12:56Z",
     "sources": [
       {
@@ -96,9 +99,12 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-26T16:15:07Z",
     "last_seen_at": "2026-05-26T22:14:06Z",
-    "active_duration_hours": 5.98,
+    "active_duration_hours": 5.99,
     "active_duration_label": "6.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T22:14:06Z",
+    "news_signature": "28d2d52acdac7f3f2fa975a1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +121,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 43.2 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 43.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -156,8 +162,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-25T03:00:00Z",
     "last_seen_at": "2026-05-26T22:14:06Z",
-    "active_duration_hours": 43.23,
+    "active_duration_hours": 43.24,
     "active_duration_label": "43.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-26T22:14:06Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
