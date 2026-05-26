@@ -99,6 +99,7 @@ jobs:
           run_py 150 "Rodovias e notícias públicas" scripts/update_road_events.py
           road_status=$?
           run_py 45 "Interdições rodoviárias planejadas por notícia" scripts/add_planned_road_news_events.py
+          run_py 45 "Consolidação pós-planejados" scripts/dedupe_road_news_events.py
           run_py 40 "Filtro de notícias rodoviárias antigas" scripts/filter_stale_road_news.py
           run_py 60 "Alertas operacionais" scripts/update_operational_alerts.py
           operational_status=$?
@@ -109,9 +110,11 @@ jobs:
           run_py 45 "Reclassificação rodoviária" scripts/reclassify_road_severity.py
           run_py 45 "Consolidação de notícias rodoviárias" scripts/dedupe_road_news_events.py
           run_py 45 "Interdições rodoviárias planejadas por notícia" scripts/add_planned_road_news_events.py
+          run_py 45 "Consolidação final pós-planejados" scripts/dedupe_road_news_events.py
           run_py 40 "Filtro final de notícias rodoviárias antigas" scripts/filter_stale_road_news.py
           run_py 60 "Rastreador de ciclo de vida" scripts/track_event_lifecycle.py
           run_py 45 "Normalização de duração de notícias rodoviárias" scripts/normalize_road_news_lifecycle.py
+          run_py 45 "Consolidação final após rastreio" scripts/dedupe_road_news_events.py
 
           export CLIMATE_STATUS="$climate_status"
           export ROAD_STATUS="$road_status"
@@ -136,7 +139,7 @@ jobs:
               'manualSheetExitCode': int(os.environ.get('MANUAL_STATUS', '0')),
               'scriptTimeoutPolicy': 'Cada fonte tem timeout próprio; se uma chamada externa travar, o workflow segue com os dados disponíveis.',
               'roadSeverityRule': 'Eventos de bloqueio/interdição de rodovia têm teto 69, severidade Alta.',
-              'roadNewsDuplicatePolicy': 'Noticias publicas da mesma situacao rodoviaria sao consolidadas em um unico evento.',
+              'roadNewsDuplicatePolicy': 'Noticias publicas comuns e planejadas sao consolidadas após cada etapa de inserção.',
               'roadNewsFreshnessPolicy': 'Noticias publicas rodoviarias ativas precisam ter ate 12 horas, exceto interdição planejada com período informado.',
               'plannedRoadNewsPolicy': 'Quando a notícia informa plannedStartAt/plannedEndAt, o evento fica ativo dentro desse período salvo notícia posterior de liberação.',
               'eventLifecyclePolicy': 'Rastreador registra first_seen_at, last_seen_at, duração ativa e desativa notícias públicas rodoviárias sem reconfirmação após 4 horas.',
@@ -183,11 +186,12 @@ jobs:
               path.write_text(json.dumps(events, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
           timeout --preserve-status 45s python scripts/reclassify_road_severity.py || true
-          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
           timeout --preserve-status 45s python scripts/add_planned_road_news_events.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
           timeout --preserve-status 40s python scripts/filter_stale_road_news.py || true
           timeout --preserve-status 60s python scripts/track_event_lifecycle.py || true
           timeout --preserve-status 45s python scripts/normalize_road_news_lifecycle.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
 
       - name: Sincronizar historico permanente no Supabase
         env:
@@ -196,11 +200,12 @@ jobs:
         run: |
           set +e
           timeout --preserve-status 150s python scripts/sync_events_to_supabase.py || true
-          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
           timeout --preserve-status 45s python scripts/add_planned_road_news_events.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
           timeout --preserve-status 40s python scripts/filter_stale_road_news.py || true
           timeout --preserve-status 60s python scripts/track_event_lifecycle.py || true
           timeout --preserve-status 45s python scripts/normalize_road_news_lifecycle.py || true
+          timeout --preserve-status 45s python scripts/dedupe_road_news_events.py || true
 
       - name: Preparar commit
         run: |
