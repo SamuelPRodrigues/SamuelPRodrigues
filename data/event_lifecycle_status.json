@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-05-26T00:36:45Z",
+  "eventsSeen": 15,
+  "newEvents": 0,
+  "updatedEvents": 15,
+  "deactivatedEvents": 0,
+  "releaseNewsMatches": 0,
+  "stalePublicNewsDeactivated": 0,
+  "liveFeedMissingDeactivated": 0,
+  "filesUpdated": [
+    "data/climate_events.json",
+    "data/road_events.json",
+    "data/operational_alerts.json",
+    "data/manual_events.json"
+  ],
+  "policy": "first_seen_at persistente; last_seen_at por execução; desativação por sinal de liberação, desaparecimento de feed ao vivo ou notícia pública sem reconfirmação."
+}
