@@ -1,0 +1,60 @@
+name: Validar reconfirmacao por noticia nova
+
+on:
+  schedule:
+    - cron: "10,25,40,55 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - enforce_news_reconfirmation
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enforce-news-reconfirmation-main
+  cancel-in-progress: false
+
+env:
+  ROAD_NEWS_STALE_HOURS: "4"
+  NEWS_PUBLIC_LOOKBACK_HOURS: "12"
+
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar noticias rodoviarias
+        run: |
+          cp data/event_lifecycle_state.json data/event_lifecycle_state_before.json 2>/dev/null || true
+          python scripts/filter_stale_road_news.py
+          python scripts/track_event_lifecycle.py
+          python scripts/enforce_news_reconfirmation.py
+
+      - name: Commitar ajustes
+        run: |
+          git add data/road_events.json data/road_news_freshness_status.json data/news_reconfirmation_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json || true
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança para commitar."
+          else
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git commit -m "Aplica validacao de reconfirmacao por noticia nova"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Solicitar publicacao do GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api repos/${{ github.repository }}/dispatches -f event_type=deploy_pages
