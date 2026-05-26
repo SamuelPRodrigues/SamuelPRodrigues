@@ -17,6 +17,7 @@ DATA_FILES = [
     ('road', Path('data/road_events.json')),
     ('operational', Path('data/operational_alerts.json')),
     ('manual', Path('data/manual_events.json')),
+    ('deactivated', Path('data/deactivated_events.json')),
 ]
 STATUS_OUTPUT = Path('data/sheets_sync_status.json')
 ANALYTICS_OUTPUT = Path('data/analytics_cache.json')
@@ -103,6 +104,14 @@ def stable_text(*parts: Any) -> str:
     return '|'.join(str(part or '').strip() for part in parts)
 
 
+def duration_hours(first_seen: Any, end_seen: Any = None) -> float:
+    start = parse_dt(first_seen)
+    end = parse_dt(end_seen) or datetime.now(timezone.utc)
+    if not start:
+        return 0.0
+    return round(max(0.0, (end - start).total_seconds() / 3600), 2)
+
+
 def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) -> dict[str, Any] | None:
     try:
         lat = float(event.get('lat'))
@@ -112,9 +121,19 @@ def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) 
 
     risk = int(float(event.get('risk') or 0))
     updated = str(event.get('updatedAt') or event.get('updated_at') or event.get('time') or event.get('createdAt') or generated_at)
+    first_seen = str(event.get('first_seen_at') or event.get('createdAt') or event.get('created_at') or updated or generated_at)
+    last_seen = str(event.get('last_seen_at') or generated_at)
+    deactivated_at = str(event.get('deactivated_at') or '')
+    is_active = bool(event.get('active', True)) and not deactivated_at
+    lifecycle_status = str(event.get('lifecycle_status') or ('active' if is_active else 'inactive'))
+    tracker_reason = str(event.get('tracker_reason') or '')
+    active_duration = event.get('active_duration_hours')
+    if active_duration in (None, ''):
+        active_duration = duration_hours(first_seen, deactivated_at or last_seen or generated_at)
     bucket = snapshot_bucket(generated_at)
-    name = str(event.get('name') or event.get('road') or event.get('eventType') or source_type)
-    event_type = str(event.get('eventType') or event.get('event_type') or event.get('category') or source_type)
+    effective_source_type = 'road' if source_type == 'deactivated' else source_type
+    name = str(event.get('name') or event.get('road') or event.get('eventType') or effective_source_type)
+    event_type = str(event.get('eventType') or event.get('event_type') or event.get('category') or effective_source_type)
     road = str(event.get('road') or '')
     city = str(event.get('city') or event.get('name') or '')
     state = str(event.get('state') or '')
@@ -123,13 +142,10 @@ def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) 
     source_url = event.get('sourceUrl') or event.get('source_url') or ''
     precipitation = (event.get('current') or {}).get('precipitation') if isinstance(event.get('current'), dict) else event.get('precipitation', 0)
 
-    stable_key = stable_text(source_type, name, event_type, road, city, state, f'{lat:.3f}', f'{lon:.3f}', source_url)
-    stable_event_id = hashlib.sha256(stable_key.encode('utf-8')).hexdigest()[:24]
-    observation_key = stable_text(stable_event_id, risk, event_type, description, source, source_url, precipitation)
+    stable_key = stable_text(effective_source_type, name, event_type, road, city, state, f'{lat:.3f}', f'{lon:.3f}', source_url)
+    stable_event_id = str(event.get('stable_event_id') or event.get('event_id') or hashlib.sha256(stable_key.encode('utf-8')).hexdigest()[:24])
+    observation_key = stable_text(stable_event_id, risk, event_type, description, source, source_url, precipitation, lifecycle_status, deactivated_at)
     observation_hash = hashlib.sha256(observation_key.encode('utf-8')).hexdigest()[:24]
-
-    # IMPORTANTE: para o Google Sheets, event_id agora é estável.
-    # Assim, o Apps Script faz upsert da mesma linha em vez de criar uma linha nova a cada 15 minutos.
     event_id = stable_event_id if SHEET_MODE == 'current_state_upsert' else hashlib.sha256(stable_text(bucket, stable_key).encode('utf-8')).hexdigest()[:24]
 
     return {
@@ -139,14 +155,20 @@ def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) 
         'observation_hash': observation_hash,
         'snapshot_bucket': bucket,
         'snapshot_at': generated_at,
-        'last_seen_at': generated_at,
+        'first_seen_at': first_seen,
+        'last_seen_at': last_seen,
         'updated_at': updated,
-        'source_type': source_type,
+        'deactivated_at': deactivated_at,
+        'active_duration_hours': active_duration,
+        'active_duration_label': event.get('active_duration_label') or '',
+        'lifecycle_status': lifecycle_status,
+        'tracker_reason': tracker_reason,
+        'source_type': effective_source_type,
         'category': event.get('category') or '',
         'event_type': event_type,
         'name': name,
         'risk': risk,
-        'severity': severity(risk),
+        'severity': event.get('severity') or severity(risk),
         'lat': round(lat, 6),
         'lon': round(lon, 6),
         'city': city,
@@ -156,7 +178,7 @@ def normalize_event(source_type: str, event: dict[str, Any], generated_at: str) 
         'description': description,
         'source': source,
         'source_url': source_url,
-        'active': event.get('active', True),
+        'active': is_active,
         'expires_at': event.get('expiresAt') or event.get('expires_at') or '',
         'precipitation': precipitation,
         'storage_mode': SHEET_MODE,
@@ -175,12 +197,11 @@ def collect_events() -> list[dict[str, Any]]:
                 item = normalize_event(source_type, event, generated_at)
                 if item:
                     out.append(item)
-    # dedupe local por event_id para reduzir payload e linhas do Sheets
     seen: set[str] = set()
     deduped: list[dict[str, Any]] = []
     for item in out:
         key = str(item.get('event_id') or item.get('stable_event_id'))
-        if key in seen:
+        if key in seen and item.get('active', True):
             continue
         seen.add(key)
         deduped.append(item)
@@ -259,8 +280,14 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
             'observation_hash': row.get('observation_hash') or '',
             'snapshot_bucket': row.get('snapshot_bucket') or '',
             'snapshot_at': row.get('snapshot_at') or row.get('last_seen_at') or row.get('updated_at') or now_iso(),
+            'first_seen_at': row.get('first_seen_at') or '',
             'last_seen_at': row.get('last_seen_at') or row.get('snapshot_at') or '',
             'updated_at': row.get('updated_at') or '',
+            'deactivated_at': row.get('deactivated_at') or '',
+            'active_duration_hours': row.get('active_duration_hours') or 0,
+            'active_duration_label': row.get('active_duration_label') or '',
+            'lifecycle_status': row.get('lifecycle_status') or ('active' if row.get('active', True) else 'inactive'),
+            'tracker_reason': row.get('tracker_reason') or '',
             'source_type': row.get('source_type') or row.get('type') or '',
             'category': row.get('category') or '',
             'event_type': row.get('event_type') or row.get('eventType') or '',
@@ -276,6 +303,7 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
             'description': row.get('description') or '',
             'source': row.get('source') or '',
             'source_url': row.get('source_url') or row.get('sourceUrl') or '',
+            'active': row.get('active', True),
             'precipitation': row.get('precipitation') or 0,
         })
     windows: dict[str, Any] = {}
@@ -286,12 +314,15 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
         rainy = [r for r in climate if safe_int(r.get('precipitation')) > 0 or 'chuva' in str(r.get('description') or r.get('event_type') or r.get('name')).lower()]
         windows[str(days)] = {
             'events': len(subset),
+            'activeEvents': len([r for r in subset if r.get('active', True)]),
+            'inactiveEvents': len([r for r in subset if not r.get('active', True)]),
             'avgRisk': round(sum(risks) / max(1, len(risks))) if risks else 0,
             'maxRisk': max(risks or [0]),
             'rainChance': round(len(rainy) / max(1, len(climate)) * 100) if climate else 0,
             'byType': count_by(subset, 'source_type'),
             'byRegion': count_by(subset, 'region'),
             'bySeverity': count_by(subset, 'severity'),
+            'byLifecycle': count_by(subset, 'lifecycle_status'),
             'dailyRisk': daily_risk(subset),
         }
     return {
@@ -301,6 +332,7 @@ def build_analytics_cache(history_rows: list[dict[str, Any]], current_rows: list
         'error': error,
         'rows': compact_rows,
         'windows': windows,
+        'eventLifecyclePolicy': 'Campos first_seen_at, last_seen_at, active_duration_hours, lifecycle_status e deactivated_at são gerados pelo rastreador.',
     }
 
 
@@ -314,6 +346,7 @@ def main() -> None:
         'historyMode': 'current state upsert in Google Sheets; permanent history should use external database',
         'storageMode': SHEET_MODE,
         'snapshotBucket': current_bucket,
+        'eventLifecycleFields': True,
         'ok': False,
         'response': None,
         'analyticsCache': False,
