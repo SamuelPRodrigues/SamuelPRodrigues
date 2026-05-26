@@ -1,15 +1,17 @@
 {
-  "updatedAt": "2026-05-26T19:03:14Z",
-  "policy": "Consolidar noticias publicas duplicadas de uma mesma situacao rodoviaria em evento unico com lista de fontes.",
+  "updatedAt": "2026-05-26T19:16:51Z",
+  "policy": "Consolidar noticias publicas duplicadas da mesma matéria primeiro e, depois, da mesma situacao rodoviaria.",
   "eventFiles": {
     "files": [
       {
         "path": "data/road_events.json",
-        "groups": 4,
-        "roadNewsRows": 8,
-        "mergedRows": 4,
+        "groups": 7,
+        "roadNewsRows": 11,
+        "mergedRows": 7,
         "duplicatesRemoved": 4,
-        "multiSourceGroups": 2
+        "multiSourceGroups": 4,
+        "articleDuplicatesRemoved": 3,
+        "situationDuplicatesRemoved": 1
       },
       {
         "path": "data/manual_events.json",
@@ -17,7 +19,9 @@
         "roadNewsRows": 0,
         "mergedRows": 0,
         "duplicatesRemoved": 0,
-        "multiSourceGroups": 0
+        "multiSourceGroups": 0,
+        "articleDuplicatesRemoved": 0,
+        "situationDuplicatesRemoved": 0
       }
     ],
     "duplicatesRemoved": 4
@@ -26,21 +30,25 @@
     "files": [
       {
         "path": "data/analytics_cache.json",
-        "groups": 17,
-        "roadNewsRows": 34,
-        "mergedRows": 17,
-        "duplicatesRemoved": 17,
-        "multiSourceGroups": 8
+        "groups": 40,
+        "roadNewsRows": 62,
+        "mergedRows": 40,
+        "duplicatesRemoved": 22,
+        "multiSourceGroups": 12,
+        "articleDuplicatesRemoved": 12,
+        "situationDuplicatesRemoved": 10
       },
       {
         "path": "data/supabase_analytics_cache.json",
-        "groups": 17,
-        "roadNewsRows": 34,
-        "mergedRows": 17,
-        "duplicatesRemoved": 17,
-        "multiSourceGroups": 8
+        "groups": 40,
+        "roadNewsRows": 62,
+        "mergedRows": 40,
+        "duplicatesRemoved": 22,
+        "multiSourceGroups": 12,
+        "articleDuplicatesRemoved": 12,
+        "situationDuplicatesRemoved": 10
       }
     ],
-    "duplicatesRemoved": 34
+    "duplicatesRemoved": 44
   }
 }
