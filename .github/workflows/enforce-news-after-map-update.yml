@@ -44,10 +44,11 @@ jobs:
           python scripts/filter_stale_road_news.py
           python scripts/track_event_lifecycle.py
           python scripts/enforce_news_reconfirmation.py
+          python scripts/normalize_road_news_lifecycle.py
 
       - name: Commitar ajustes
         run: |
-          git add data/road_events.json data/road_news_freshness_status.json data/news_reconfirmation_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json || true
+          git add data/road_events.json data/road_news_freshness_status.json data/news_reconfirmation_status.json data/road_news_lifecycle_normalize_status.json data/event_lifecycle_state.json data/event_lifecycle_status.json data/deactivated_events.json || true
           if git diff --cached --quiet; then
             echo "Nenhuma mudança para commitar."
           else
