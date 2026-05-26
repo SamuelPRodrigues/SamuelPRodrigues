@@ -1,13 +1,14 @@
 {
-  "updatedAt": "2026-05-26T17:32:44Z",
+  "updatedAt": "2026-05-26T17:32:57Z",
   "lookbackHours": 12.0,
   "staleHours": 4.0,
   "inputEvents": 2,
   "keptEvents": 2,
   "correctedFirstSeen": 0,
-  "updatedDescriptions": 2,
+  "updatedDescriptions": 1,
+  "plannedWindowPreserved": 0,
   "removedOldPublicNews": 0,
   "removedWithoutReliableDate": 0,
   "removedSample": [],
-  "policy": "Notícias públicas usam a data da notícia como first_seen_at; updatedAt do workflow não pode resetar duração ativa."
+  "policy": "Notícias públicas usam a data da notícia como first_seen_at; plannedStartAt/plannedEndAt mantém interdições planejadas ativas durante o período informado."
 }

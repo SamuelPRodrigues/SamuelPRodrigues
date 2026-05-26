@@ -42,13 +42,15 @@
     "stable_event_id": "6be3e22c4491102e50ef6763",
     "event_id": "6be3e22c4491102e50ef6763",
     "first_seen_at": "2026-05-26T17:22:14Z",
-    "last_seen_at": "2026-05-26T17:32:44Z",
+    "last_seen_at": "2026-05-26T17:32:56Z",
     "active_duration_hours": 0.18,
     "active_duration_label": "11 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h; a duração usa newsDate/publicação, não updatedAt.",
-    "detectedRoad": "DF-150"
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "DF-150",
+    "news_signature": "05347c43033df910681a0317",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -60,7 +62,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T04:34:34Z; ativo há 13.0 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo - Portal Você Online.. Fontes consolidadas: Notícias públicas - Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T04:34:34Z; ativo há 13.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +89,13 @@
     "stable_event_id": "e36bf0ebe646ef714670b5ca",
     "event_id": "e36bf0ebe646ef714670b5ca",
     "first_seen_at": "2026-05-26T04:34:34Z",
-    "last_seen_at": "2026-05-26T17:32:44Z",
+    "last_seen_at": "2026-05-26T17:32:56Z",
     "active_duration_hours": 12.97,
     "active_duration_label": "13.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h; a duração usa newsDate/publicação, não updatedAt."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "16c4438ded3964fa09eddadb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
