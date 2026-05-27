@@ -14,7 +14,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 11.8 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-27T04:01:59Z",
     "sources": [
       {
@@ -47,6 +47,9 @@
     "last_seen_at": "2026-05-27T04:03:09Z",
     "active_duration_hours": 11.8,
     "active_duration_label": "11.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-27T04:03:09Z",
+    "news_signature": "2d21098c0b4d19815cac0141",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
