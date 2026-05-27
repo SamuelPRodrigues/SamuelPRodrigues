@@ -14,7 +14,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 10.3 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-27T02:32:02Z",
     "sources": [
       {
@@ -43,9 +43,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-26T16:15:07Z",
     "last_seen_at": "2026-05-27T02:33:13Z",
-    "active_duration_hours": 10.3,
+    "active_duration_hours": 10.31,
     "active_duration_label": "10.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-27T02:33:13Z",
+    "news_signature": "2d21098c0b4d19815cac0141",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -62,7 +65,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-26T16:00:06Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 47.5 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-26T16:00:06Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 47.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -75,7 +78,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-05-27T02:33:13Z",
     "sources": [
       {
@@ -97,8 +100,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-25T03:00:00Z",
     "last_seen_at": "2026-05-27T02:33:13Z",
-    "active_duration_hours": 47.55,
-    "active_duration_label": "47.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 47.56,
+    "active_duration_label": "47.6 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-27T02:33:13Z",
+    "news_signature": "94fc6d5a3ac308af6317e15f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
