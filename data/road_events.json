@@ -9,7 +9,7 @@
     "lat": 2.824,
     "lon": -60.675,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-401 segue interditado após erosão em Normandia - Roraima 1. Fontes consolidadas: Notícias públicas - Roraima 1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-27T12:35:48Z; ativo há 2.5 h.",
+    "description": "Trecho da BR-401 segue interditado após erosão em Normandia - Roraima 1. Fontes consolidadas: Notícias públicas - Roraima 1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-05-27T12:35:48Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.47,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-27T15:03:43Z",
+    "news_signature": "281892b8884be18d28f61e48",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Em Três Lagoas| BR 262 interditada e deixa 2 feridos, após grave acidente envolvendo carreta boiadeira, ônibus e carro - ArapuaNews. Fontes consolidadas: Notícias públicas - ArapuaNews. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-27T12:32:00Z; ativo há 2.5 h.",
+    "description": "Em Três Lagoas| BR 262 interditada e deixa 2 feridos, após grave acidente envolvendo carreta boiadeira, ônibus e carro - ArapuaNews. Fontes consolidadas: Notícias públicas - ArapuaNews. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-05-27T12:32:00Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,7 +87,10 @@
     "active_duration_hours": 2.53,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-27T15:03:43Z",
+    "news_signature": "abc88477f9bae5a0156c6af2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
