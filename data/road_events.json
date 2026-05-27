@@ -14,7 +14,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 9.0 h.",
+    "description": "BR-174 será totalmente interditada durante a noite e tem restrição parcial próximo a Presidente Figueiredo. Período informado: 2026-05-26T16:15:07Z até fim não identificado. Fontes consolidadas: Portal Você Online. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-05-26T16:15:07Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-05-27T01:15:40Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-05-27T01:32:05Z",
     "sources": [
       {
         "source": "Portal Você Online",
@@ -42,13 +42,10 @@
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-26T16:15:07Z",
-    "last_seen_at": "2026-05-27T01:16:53Z",
-    "active_duration_hours": 9.03,
-    "active_duration_label": "9.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-05-27T01:16:53Z",
-    "news_signature": "2d21098c0b4d19815cac0141",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-05-27T01:33:17Z",
+    "active_duration_hours": 9.3,
+    "active_duration_label": "9.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -65,21 +62,21 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-05-27T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 46.3 h.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-26T16:00:06Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 46.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "G1 + 2 fonte(s)",
+    "source": "G1 + 1 fonte(s)",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
     "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas - G1",
-    "newsDate": "2026-05-26T03:00:00Z",
-    "plannedStartAt": "2026-05-25T03:00:00Z",
-    "plannedEndAt": "2026-05-27T02:59:59Z",
-    "plannedWindowRule": "Período extraído do texto da notícia.",
-    "lifecycle_status": "active_planned_closure",
-    "tracker_reason": "planned_road_news_window",
-    "updatedAt": "2026-05-27T01:16:52Z",
+    "newsDate": "2026-05-26T16:00:06Z",
+    "plannedStartAt": "2026-05-26T16:00:06Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-05-27T01:33:17Z",
     "sources": [
       {
         "source": "G1",
@@ -92,25 +89,16 @@
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVi1LamZNanh4S2g4al9KbEVSSXFveC14Y2tGQWRIbkQ5VXhlQUJLSWdrRFlxQVFqN0htc3BCamdDeTA5NHBSc1NDT29aYXJVVXlYUS00dGl2QkRqdUdGSzlwd0N2dWk3TGF3WHJnd3NUekRiN1V5U1h1bE9JZWd5bVlRaTdZT2VCaVRYTVdpSnRoTW5BVWdJcTg3T0tyRWxUcnVhR1lVejBuTkZxVGJfdXJFOXpLZHE2em9UdU5oZXItOG1ocjlZck41RnpIRVdVSjJ1Rzl2YjFkQ3ZFU0RQam5LQXJvLXI5cmfSAfgBQVVfeXFMTjhuTTVROFFWTllZXzQ2bmw1MEtIdm1Ob2xMbV9zWE90X25FSjZCUm1DUHZILWJSbDhzbkZHLXVVVEtxZXYzOXhFNEt1dFAtUGwwbG93Q3V0d3BLNlMxWmhEYWtRUVZ6Uk9YcVJXWTlaLVA2ekMwUGxuNzkyV3U5OFVrVWxvRWdVOWRHV2ZqNVJWZzc3NHJPTk8zNzZ5cXlVR3FHQ18yQ0pkSWJBcnBiWmRRT0pva2hZTVJ0dGEtN3ZHNmtWRnQxVmR1SnprNV81R2p3czRPN3Fqd0RCeVlrX0NvekkySzFiMWdocDV6ZGdwT2Z3M3JwT3E",
         "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1",
         "date": "2026-05-26T16:00:06Z"
-      },
-      {
-        "source": "g1.globo.com",
-        "url": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/05/26/trecho-da-br-265-e-totalmente-interditado-para-obras-no-sul-de-minas-veja-rotas-alternativas.ghtml",
-        "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1",
-        "date": "2026-05-26T03:00:00Z"
       }
     ],
     "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-    "sourceCount": 3,
+    "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "first_seen_at": "2026-05-25T03:00:00Z",
-    "last_seen_at": "2026-05-27T01:16:53Z",
-    "active_duration_hours": 46.29,
-    "active_duration_label": "46.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-05-27T01:16:53Z",
-    "news_signature": "ea17f30a752d438687312fc0",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-05-27T01:33:17Z",
+    "active_duration_hours": 46.55,
+    "active_duration_label": "46.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
