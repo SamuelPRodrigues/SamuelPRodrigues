@@ -9,7 +9,7 @@
     "lat": -1.455,
     "lon": -48.49,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PA-483 é interditada em protesto no Acará e causa congestionamento quilométrico na Alça Viária. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-05-28T15:36:10Z; ativo há 6.5 h.",
+    "description": "PA-483 é interditada em protesto no Acará e causa congestionamento quilométrico na Alça Viária. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-05-28T15:36:10Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 6.45,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PA-483"
+    "detectedRoad": "PA-483",
+    "last_confirmed_at": "2026-05-28T22:03:13Z",
+    "news_signature": "fb10dc97b234414b35a6f697",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
