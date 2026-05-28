@@ -1,6 +1,11 @@
 name: Atualizar boletim de notícias
 
 on:
+  workflow_run:
+    workflows:
+      - Atualizar dados do mapa
+    types:
+      - completed
   workflow_dispatch:
   repository_dispatch:
     types:
@@ -15,6 +20,7 @@ concurrency:
 
 jobs:
   update-bulletin-news:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
