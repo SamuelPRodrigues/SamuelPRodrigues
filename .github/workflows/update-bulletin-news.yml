@@ -1,0 +1,74 @@
+name: Atualizar boletim de notícias
+
+on:
+  schedule:
+    - cron: "12,42 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - update_bulletin_news
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-bulletin-news-main
+  cancel-in-progress: false
+
+jobs:
+  update-bulletin-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar noticias do boletim
+        run: |
+          mkdir -p data
+          timeout --preserve-status 240s python scripts/update_bulletin_news.py
+
+      - name: Preparar commit
+        run: |
+          git add data/boletim_news.json data/boletim_news_status.json || true
+
+      - name: Verificar mudancas
+        id: verify_diff
+        run: |
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commitar mudancas
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza boletim de noticias"
+
+      - name: Enviar mudancas
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+      - name: Solicitar publicacao do GitHub Pages
+        if: steps.verify_diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api repos/${{ github.repository }}/dispatches -f event_type=deploy_pages
