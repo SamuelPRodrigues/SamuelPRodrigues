@@ -1,17 +1,46 @@
 {
-  "updatedAt": "2026-05-28T21:16:47Z",
+  "updatedAt": "2026-05-28T21:32:55Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
     {
+      "event_id": "175f98924a2c739dfcd6eac5",
+      "stable_event_id": "175f98924a2c739dfcd6eac5",
+      "observation_hash": "79ec95436d64f67a3b31e41a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
+      "first_seen_at": "2026-05-26T10:18:22+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Parintins",
+      "risk": 81,
+      "severity": "Crítico",
+      "lat": -2.628,
+      "lon": -56.735,
+      "city": "Parintins",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:18Z; ativo há 2.5 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 94,
+      "estimated_hours": 23.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "c611c3f018f3a44f2f688ed3",
       "stable_event_id": "c611c3f018f3a44f2f688ed3",
-      "observation_hash": "fc10c48de75645efe9f0dff0",
+      "observation_hash": "4fc8136568a1071bfee90c8f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
       "first_seen_at": "2026-05-28T20:03:30+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -27,8 +56,8 @@
       "description": "PA-483 é interditada em protesto no Acará e causa congestionamento quilométrico na Alça Viária.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSWJvQVFXOWo3cFYzelJZTUxvS2F3VmhhWUxjSWRyVG0tUUYxVHZfR3N0Sjh5U0lQSjQtV25HckI5dUgtVnB6RWxqaGFmVWFYMkhJZWd5cE05T2dSYkZFWXdhZXlQd0dZZXhCaTdTVGpfWWVpbGR2TEFGZFJrOFR4b28ycE8tSzZRR1JNSURuVFlpV3JZaWJqbjdlMC1fTWQ3ekFvTG03S2lkRUdLeEdHN0tHLW10Smx4NFBXams4dkRMLTJWSzBGeVp6Zll5SFVZdWd0MVFwUUJJYk1zMmg0OG1B0gHwAUFVX3lxTE5xN2NQbTc0TzBVWWFfSFV6VjdIWGdHMjJrVTIxMGt6WWNKanh3akpvSHJWZ3ZzS0tLN1h4SVhZX0lXclNnemVFeTZ4T3JUY3FEMzN1R0hMOWh1ZHBndHMtLVhHR2VCYjVaUXd5M2hHUWpVNlVRRmo4LTROWTdQc2M1ZGNkNm40SDhDWG80MTJSTXNrV0R2RWNYX0NHUlBZTFlnWkctbk5acmh5MDRzV1NuUm5zZmFVYTg4VHVERFAzMVV6Nm91OHVzM0dUbVE5RmNOTG5PMWVGX2lQSU50VVdBUDFFREZXZkJUNG5CWi1HWQ",
-      "total_snapshots": 7,
-      "estimated_hours": 1.75,
+      "total_snapshots": 8,
+      "estimated_hours": 2.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -39,7 +68,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSWJvQVFXOWo3cFYzelJZTUxvS2F3VmhhWUxjSWRyVG0tUUYxVHZfR3N0Sjh5U0lQSjQtV25HckI5dUgtVnB6RWxqaGFmVWFYMkhJZWd5cE05T2dSYkZFWXdhZXlQd0dZZXhCaTdTVGpfWWVpbGR2TEFGZFJrOFR4b28ycE8tSzZRR1JNSURuVFlpV3JZaWJqbjdlMC1fTWQ3ekFvTG03S2lkRUdLeEdHN0tHLW10Smx4NFBXams4dkRMLTJWSzBGeVp6Zll5SFVZdWd0MVFwUUJJYk1zMmg0OG1B0gHwAUFVX3lxTE5xN2NQbTc0TzBVWWFfSFV6VjdIWGdHMjJrVTIxMGt6WWNKanh3akpvSHJWZ3ZzS0tLN1h4SVhZX0lXclNnemVFeTZ4T3JUY3FEMzN1R0hMOWh1ZHBndHMtLVhHR2VCYjVaUXd5M2hHUWpVNlVRRmo4LTROWTdQc2M1ZGNkNm40SDhDWG80MTJSTXNrV0R2RWNYX0NHUlBZTFlnWkctbk5acmh5MDRzV1NuUm5zZmFVYTg4VHVERFAzMVV6Nm91OHVzM0dUbVE5RmNOTG5PMWVGX2lQSU50VVdBUDFFREZXZkJUNG5CWi1HWQ",
           "headline": "PA-483 é interditada em protesto no Acará e causa congestionamento quilométrico na Alça Viária.",
-          "date": "2026-05-28T21:16:45.361622+00:00"
+          "date": "2026-05-28T21:32:52.63534+00:00"
         }
       ],
       "sourceCount": 1,
@@ -1012,17 +1041,17 @@
     {
       "event_id": "af769bd0f5b9b44054da5403",
       "stable_event_id": "af769bd0f5b9b44054da5403",
-      "observation_hash": "62e990de05209bd31518ae41",
+      "observation_hash": "e1bf1b03c0ee63524976e029",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Belém",
-      "risk": 67,
+      "risk": 66,
       "severity": "Alto",
       "lat": -1.455,
       "lon": -48.49,
@@ -1033,8 +1062,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 2.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 108,
-      "estimated_hours": 27.0,
+      "total_snapshots": 109,
+      "estimated_hours": 27.25,
       "active": true,
       "storage": "supabase"
     },
@@ -1619,35 +1648,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "770292d906636e18edaa18dc",
-      "stable_event_id": "770292d906636e18edaa18dc",
-      "observation_hash": "7fcdbc5fcc8fad7d89471768",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
-      "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Salvador",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -12.977,
-      "lon": -38.501,
-      "city": "Salvador",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 2.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 82,
-      "estimated_hours": 20.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "cc02bf3e90d52279a0836147",
       "stable_event_id": "cc02bf3e90d52279a0836147",
       "observation_hash": "b61598db83cbb4e4c01a25eb",
@@ -2199,14 +2199,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "770292d906636e18edaa18dc",
+      "stable_event_id": "770292d906636e18edaa18dc",
+      "observation_hash": "db38ee6ff849a16c8d797853",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
+      "first_seen_at": "2026-05-26T15:17:02+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Salvador",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Salvador",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 2.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 83,
+      "estimated_hours": 20.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "554021f5434490a857b89c43",
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "887161ab8a24ee930eec44be",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2222,8 +2251,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 2.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 198,
-      "estimated_hours": 49.5,
+      "total_snapshots": 199,
+      "estimated_hours": 49.75,
       "active": true,
       "storage": "supabase"
     },
@@ -3098,35 +3127,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "175f98924a2c739dfcd6eac5",
-      "stable_event_id": "175f98924a2c739dfcd6eac5",
-      "observation_hash": "5b01cd1f3d2dc63f9066bc1c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T19:03:20+00:00",
-      "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-05-28T19:03:20+00:00",
-      "updated_at": "2026-05-28T19:03:21.009194+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Parintins",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -2.628,
-      "lon": -56.735,
-      "city": "Parintins",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:18Z; ativo há 2.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 93,
-      "estimated_hours": 23.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "9b86c406e5987317c955096d",
       "stable_event_id": "9b86c406e5987317c955096d",
       "observation_hash": "266bc18ab73587a8cbc5e5a0",
@@ -3390,12 +3390,12 @@
     {
       "event_id": "dbf91db815d3abd8bcb6283a",
       "stable_event_id": "dbf91db815d3abd8bcb6283a",
-      "observation_hash": "8451100f0310eaf7a9130b26",
+      "observation_hash": "3c708fad3667f211cffbd5fc",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
       "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3408,11 +3408,11 @@
       "state": "RN",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 31.0 h.",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 31.3 h.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 23,
-      "estimated_hours": 5.75,
+      "total_snapshots": 24,
+      "estimated_hours": 6.0,
       "active": true,
       "storage": "supabase"
     },
@@ -3421,10 +3421,10 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "4ddf3105b9325b5eb57d1490",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T21:16:44+00:00",
+      "snapshot_at": "2026-05-28T21:32:51+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-05-28T21:16:44+00:00",
-      "updated_at": "2026-05-28T21:16:45.361622+00:00",
+      "last_seen_at": "2026-05-28T21:32:51+00:00",
+      "updated_at": "2026-05-28T21:32:52.63534+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3440,8 +3440,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 2.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 135,
-      "estimated_hours": 33.75,
+      "total_snapshots": 136,
+      "estimated_hours": 34.0,
       "active": true,
       "storage": "supabase"
     },
@@ -3972,7 +3972,7 @@
     "7": {
       "events": 124,
       "avgRisk": 46,
-      "maxRisk": 69,
+      "maxRisk": 81,
       "rainChance": 32,
       "byType": {
         "climate": 102,
@@ -3987,9 +3987,10 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 97,
+        "Moderado": 96,
         "Alto": 24,
-        "Baixo": 3
+        "Baixo": 3,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -4012,16 +4013,16 @@
         },
         {
           "date": "2026-05-28",
-          "avgRisk": 41,
+          "avgRisk": 42,
           "events": 36,
-          "maxRisk": 69
+          "maxRisk": 81
         }
       ]
     },
     "30": {
       "events": 124,
       "avgRisk": 46,
-      "maxRisk": 69,
+      "maxRisk": 81,
       "rainChance": 32,
       "byType": {
         "climate": 102,
@@ -4036,9 +4037,10 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 97,
+        "Moderado": 96,
         "Alto": 24,
-        "Baixo": 3
+        "Baixo": 3,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -4061,16 +4063,16 @@
         },
         {
           "date": "2026-05-28",
-          "avgRisk": 41,
+          "avgRisk": 42,
           "events": 36,
-          "maxRisk": 69
+          "maxRisk": 81
         }
       ]
     },
     "90": {
       "events": 124,
       "avgRisk": 46,
-      "maxRisk": 69,
+      "maxRisk": 81,
       "rainChance": 32,
       "byType": {
         "climate": 102,
@@ -4085,9 +4087,10 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 97,
+        "Moderado": 96,
         "Alto": 24,
-        "Baixo": 3
+        "Baixo": 3,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -4110,9 +4113,9 @@
         },
         {
           "date": "2026-05-28",
-          "avgRisk": 41,
+          "avgRisk": 42,
           "events": 36,
-          "maxRisk": 69
+          "maxRisk": 81
         }
       ]
     }
