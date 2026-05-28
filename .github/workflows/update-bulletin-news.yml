@@ -1,8 +1,6 @@
 name: Atualizar boletim de notícias
 
 on:
-  schedule:
-    - cron: "12,42 * * * *"
   workflow_dispatch:
   repository_dispatch:
     types:
