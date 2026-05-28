@@ -6,258 +6,13 @@
   <title>Boletim operacional</title>
   <style>
     :root{
-      --dock:72px;
-      --dock-expanded:224px;
-      --bg:#071120;
-      --panel:#0b1628;
-      --panel-soft:#102039;
-      --line:#244066;
-      --text:#eaf2ff;
-      --muted:#9db2d4;
-      --accent:#2563eb;
-      --icon:#bfdbfe;
-      --good:#22c55e;
-      --warn:#f59e0b;
-      --risk:#ef4444;
+      --dock:72px;--dock-expanded:224px;--bg:#071120;--panel:#0b1628;--panel-soft:#102039;--line:#244066;--text:#eaf2ff;--muted:#9db2d4;--accent:#2563eb;--icon:#bfdbfe;--good:#22c55e;--warn:#f59e0b;--risk:#ef4444;
     }
-    *{box-sizing:border-box}
-    html,body{min-height:100%;margin:0}
-    body{
-      font-family:system-ui,-apple-system,Segoe UI,sans-serif;
-      background:
-        radial-gradient(circle at 12% 12%,rgba(37,99,235,.14),transparent 28%),
-        radial-gradient(circle at 85% 20%,rgba(14,165,233,.08),transparent 26%),
-        var(--bg);
-      color:var(--text);
-      overflow-x:hidden;
-    }
-    button,input,select{font:inherit}
-    .dock{
-      position:fixed;
-      z-index:20;
-      inset:0 auto 0 0;
-      width:var(--dock);
-      background:rgba(7,17,32,.97);
-      border-right:1px solid var(--line);
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:space-between;
-      padding:12px 10px 14px;
-      box-shadow:12px 0 28px rgba(0,0,0,.24);
-      transition:width .22s ease;
-    }
-    .dock.expanded{width:var(--dock-expanded);align-items:stretch}
-    .dock-group{display:grid;gap:10px;width:100%;justify-items:center}
-    .dock-toggle,.dock-link{
-      width:48px;
-      height:48px;
-      border-radius:16px;
-      border:1px solid rgba(96,165,250,.24);
-      background:rgba(15,35,64,.50);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      gap:12px;
-      color:var(--text);
-      text-decoration:none;
-      transition:background .16s ease,border-color .16s ease,transform .16s ease;
-    }
-    .dock-toggle{cursor:pointer;padding:0}
-    .dock-link{font-weight:900;letter-spacing:.01em}
-    .dock-toggle:hover,.dock-link:hover,.dock-link.active{
-      background:rgba(37,99,235,.24);
-      border-color:rgba(147,197,253,.55);
-      transform:translateY(-1px);
-    }
-    .dock.expanded .dock-link{width:100%;justify-content:flex-start;padding:0 14px}
-    .dock.expanded .dock-toggle{margin-left:auto;margin-right:0}
-    .dock-link:focus-visible,.dock-toggle:focus-visible,.ghost-button:focus-visible,.primary-button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}
-    .dock-icon{
-      width:27px;
-      height:27px;
-      flex:0 0 27px;
-      background:var(--icon);
-      -webkit-mask-position:center;
-      mask-position:center;
-      -webkit-mask-repeat:no-repeat;
-      mask-repeat:no-repeat;
-      -webkit-mask-size:contain;
-      mask-size:contain;
-    }
-    .dock-label{display:none;font-size:15px;white-space:nowrap}
-    .dock.expanded .dock-label{display:block}
-    .toggle-icon{-webkit-mask-image:url('assets/icons/Expandir.png');mask-image:url('assets/icons/Expandir.png')}
-    .dock.expanded .toggle-icon{-webkit-mask-image:url('assets/icons/Retrair.png');mask-image:url('assets/icons/Retrair.png')}
-    .bulletin-icon{-webkit-mask-image:url('assets/icons/Boletim.png');mask-image:url('assets/icons/Boletim.png')}
-    .map-icon{-webkit-mask-image:url('assets/icons/Mapa.png');mask-image:url('assets/icons/Mapa.png')}
-    .page{
-      min-height:100vh;
-      margin-left:var(--dock);
-      padding:28px;
-      transition:margin-left .22s ease;
-    }
-    .dock.expanded + .page{margin-left:var(--dock-expanded)}
-    .shell{
-      max-width:1180px;
-      margin:0 auto;
-      display:grid;
-      gap:18px;
-    }
-    .hero{
-      border:1px solid rgba(96,165,250,.18);
-      background:linear-gradient(135deg,rgba(11,22,40,.92),rgba(16,32,57,.68));
-      border-radius:22px;
-      padding:22px;
-      box-shadow:0 24px 70px rgba(0,0,0,.22);
-    }
-    .eyebrow{
-      font-size:11px;
-      font-weight:950;
-      letter-spacing:.11em;
-      text-transform:uppercase;
-      color:#93c5fd;
-      margin-bottom:6px;
-    }
-    h1{
-      font-size:clamp(28px,4vw,44px);
-      line-height:1;
-      margin:0;
-      letter-spacing:-.04em;
-    }
-    .hero-subtitle{
-      max-width:780px;
-      margin:10px 0 0;
-      color:#b8c7df;
-      font-size:14px;
-      line-height:1.55;
-    }
-    .toolbar{
-      margin-top:18px;
-      display:grid;
-      grid-template-columns:minmax(220px,1fr) 180px 150px auto;
-      gap:10px;
-      align-items:center;
-    }
-    .field{
-      height:44px;
-      border-radius:14px;
-      border:1px solid rgba(96,165,250,.22);
-      background:#081426;
-      color:var(--text);
-      padding:0 13px;
-      outline:none;
-    }
-    .field::placeholder{color:#7f91ad}
-    .primary-button,.ghost-button{
-      height:44px;
-      border-radius:14px;
-      border:1px solid rgba(96,165,250,.28);
-      color:#dbeafe;
-      font-weight:900;
-      cursor:default;
-      padding:0 14px;
-    }
-    .primary-button{background:rgba(37,99,235,.28)}
-    .ghost-button{background:rgba(15,35,64,.62)}
-    .muted-note{
-      margin-top:10px;
-      color:var(--muted);
-      font-size:11px;
-      line-height:1.4;
-    }
-    .summary-grid{
-      display:grid;
-      grid-template-columns:repeat(4,minmax(0,1fr));
-      gap:12px;
-    }
-    .metric,.panel{
-      border:1px solid rgba(96,165,250,.16);
-      background:rgba(11,22,40,.78);
-      border-radius:18px;
-    }
-    .metric{padding:14px}
-    .metric-label{font-size:11px;color:var(--muted);font-weight:800}
-    .metric-value{font-size:25px;font-weight:950;margin-top:5px;letter-spacing:-.03em}
-    .metric small{display:block;color:#8ea4c4;margin-top:3px;font-size:11px}
-    .content-grid{
-      display:grid;
-      grid-template-columns:1.2fr .8fr;
-      gap:14px;
-      align-items:start;
-    }
-    .panel{padding:16px}
-    .panel-head{
-      display:flex;
-      justify-content:space-between;
-      gap:12px;
-      align-items:flex-start;
-      margin-bottom:12px;
-    }
-    .panel-title{font-size:15px;font-weight:950}
-    .panel-caption{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35}
-    .status-pill{
-      border:1px solid rgba(96,165,250,.22);
-      background:rgba(37,99,235,.14);
-      color:#bfdbfe;
-      border-radius:999px;
-      padding:6px 9px;
-      font-size:10px;
-      font-weight:900;
-      white-space:nowrap;
-    }
-    .news-list{display:grid;gap:10px}
-    .news-card{
-      border:1px solid rgba(96,165,250,.13);
-      background:rgba(16,32,57,.42);
-      border-radius:15px;
-      padding:13px;
-    }
-    .news-meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-    .tag{
-      border:1px solid rgba(96,165,250,.18);
-      background:rgba(37,99,235,.13);
-      color:#cfe4ff;
-      border-radius:999px;
-      padding:4px 7px;
-      font-size:10px;
-      font-weight:850;
-    }
-    .tag.warn{border-color:rgba(245,158,11,.25);background:rgba(245,158,11,.12);color:#fde68a}
-    .tag.risk{border-color:rgba(239,68,68,.22);background:rgba(239,68,68,.12);color:#fecaca}
-    .news-title{font-weight:950;font-size:14px;line-height:1.25;margin:0}
-    .news-copy{color:#b8c7df;font-size:12px;line-height:1.45;margin:7px 0 0}
-    .side-list{display:grid;gap:9px}
-    .side-row{
-      display:grid;
-      grid-template-columns:10px 1fr auto;
-      align-items:center;
-      gap:9px;
-      padding:10px 0;
-      border-bottom:1px solid rgba(96,165,250,.10);
-      color:#dbeafe;
-      font-size:12px;
-    }
-    .side-row:last-child{border-bottom:0}
-    .dot{width:10px;height:10px;border-radius:99px;background:#60a5fa}
-    .dot.warn{background:var(--warn)}.dot.risk{background:var(--risk)}.dot.good{background:var(--good)}
-    .side-row b{font-size:12px}.side-row span{color:var(--muted);font-size:11px}
-    .empty-state{
-      border:1px dashed rgba(147,197,253,.25);
-      background:rgba(15,35,64,.28);
-      border-radius:16px;
-      padding:18px;
-      color:#9db2d4;
-      font-size:12px;
-      line-height:1.45;
-      text-align:center;
-    }
-    @media(max-width:900px){
-      .page{padding:18px 14px 18px 86px;margin-left:0}
-      .dock.expanded + .page{margin-left:0;padding-left:calc(var(--dock-expanded) + 14px)}
-      .toolbar{grid-template-columns:1fr}
-      .summary-grid,.content-grid{grid-template-columns:1fr}
-    }
+    *{box-sizing:border-box}html,body{min-height:100%;margin:0}body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 12% 12%,rgba(37,99,235,.14),transparent 28%),radial-gradient(circle at 85% 20%,rgba(14,165,233,.08),transparent 26%),var(--bg);color:var(--text);overflow-x:hidden}button,input,select{font:inherit}
+    .dock{position:fixed;z-index:20;inset:0 auto 0 0;width:var(--dock);background:rgba(7,17,32,.97);border-right:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:12px 10px 14px;box-shadow:12px 0 28px rgba(0,0,0,.24);transition:width .22s ease}.dock.expanded{width:var(--dock-expanded);align-items:stretch}.dock-group{display:grid;gap:10px;width:100%;justify-items:center}.dock-toggle,.dock-link{width:48px;height:48px;border-radius:16px;border:1px solid rgba(96,165,250,.24);background:rgba(15,35,64,.50);display:flex;align-items:center;justify-content:center;gap:12px;color:var(--text);text-decoration:none;transition:background .16s ease,border-color .16s ease,transform .16s ease}.dock-toggle{cursor:pointer;padding:0}.dock-link{font-weight:900;letter-spacing:.01em}.dock-toggle:hover,.dock-link:hover,.dock-link.active{background:rgba(37,99,235,.24);border-color:rgba(147,197,253,.55);transform:translateY(-1px)}.dock.expanded .dock-link{width:100%;justify-content:flex-start;padding:0 14px}.dock.expanded .dock-toggle{margin-left:auto;margin-right:0}.dock-link:focus-visible,.dock-toggle:focus-visible,.tab:focus-visible,.mini-button:focus-visible,.primary-button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}.dock-icon{width:27px;height:27px;flex:0 0 27px;background:var(--icon);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}.dock-label{display:none;font-size:15px;white-space:nowrap}.dock.expanded .dock-label{display:block}.toggle-icon{-webkit-mask-image:url('assets/icons/Expandir.png');mask-image:url('assets/icons/Expandir.png')}.dock.expanded .toggle-icon{-webkit-mask-image:url('assets/icons/Retrair.png');mask-image:url('assets/icons/Retrair.png')}.bulletin-icon{-webkit-mask-image:url('assets/icons/Boletim.png');mask-image:url('assets/icons/Boletim.png')}.map-icon{-webkit-mask-image:url('assets/icons/Mapa.png');mask-image:url('assets/icons/Mapa.png')}
+    .page{min-height:100vh;margin-left:var(--dock);padding:28px;transition:margin-left .22s ease}.dock.expanded + .page{margin-left:var(--dock-expanded)}.shell{max-width:1180px;margin:0 auto;display:grid;gap:18px}.hero{border:1px solid rgba(96,165,250,.18);background:linear-gradient(135deg,rgba(11,22,40,.92),rgba(16,32,57,.68));border-radius:22px;padding:22px;box-shadow:0 24px 70px rgba(0,0,0,.22)}.eyebrow{font-size:11px;font-weight:950;letter-spacing:.11em;text-transform:uppercase;color:#93c5fd;margin-bottom:6px}h1{font-size:clamp(28px,4vw,44px);line-height:1;margin:0;letter-spacing:-.04em}.hero-subtitle{max-width:820px;margin:10px 0 0;color:#b8c7df;font-size:14px;line-height:1.55}
+    .view-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.tab,.mini-button,.primary-button{border-radius:14px;border:1px solid rgba(96,165,250,.24);font-weight:900;color:#dbeafe;background:rgba(15,35,64,.62);cursor:pointer}.tab{height:40px;padding:0 15px}.tab.active{background:rgba(37,99,235,.30);border-color:rgba(147,197,253,.55)}.mini-button{height:36px;padding:0 12px;text-decoration:none;display:inline-flex;align-items:center;gap:7px}.primary-button{height:44px;padding:0 14px;background:rgba(37,99,235,.28)}.toolbar{margin-top:14px;display:grid;grid-template-columns:minmax(220px,1fr) 180px 150px auto;gap:10px;align-items:center}.field{height:44px;border-radius:14px;border:1px solid rgba(96,165,250,.22);background:#081426;color:var(--text);padding:0 13px;outline:none}.field::placeholder{color:#7f91ad}.muted-note{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.4}.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.metric,.panel{border:1px solid rgba(96,165,250,.16);background:rgba(11,22,40,.78);border-radius:18px}.metric{padding:14px}.metric-label{font-size:11px;color:var(--muted);font-weight:800}.metric-value{font-size:25px;font-weight:950;margin-top:5px;letter-spacing:-.03em}.metric small{display:block;color:#8ea4c4;margin-top:3px;font-size:11px}.content-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:14px;align-items:start}.panel{padding:16px}.panel-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:12px}.panel-title{font-size:15px;font-weight:950}.panel-caption{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35}.status-pill{border:1px solid rgba(96,165,250,.22);background:rgba(37,99,235,.14);color:#bfdbfe;border-radius:999px;padding:6px 9px;font-size:10px;font-weight:900;white-space:nowrap}.news-list{display:grid;gap:10px}.news-card{border:1px solid rgba(96,165,250,.13);background:rgba(16,32,57,.42);border-radius:15px;padding:13px}.news-meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.tag{border:1px solid rgba(96,165,250,.18);background:rgba(37,99,235,.13);color:#cfe4ff;border-radius:999px;padding:4px 7px;font-size:10px;font-weight:850}.tag.warn{border-color:rgba(245,158,11,.25);background:rgba(245,158,11,.12);color:#fde68a}.tag.risk{border-color:rgba(239,68,68,.22);background:rgba(239,68,68,.12);color:#fecaca}.tag.good{border-color:rgba(34,197,94,.25);background:rgba(34,197,94,.12);color:#bbf7d0}.news-title{font-weight:950;font-size:15px;line-height:1.25;margin:0}.news-copy{color:#b8c7df;font-size:12px;line-height:1.45;margin:7px 0 0}.news-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}.source-link{color:#93c5fd;text-decoration:none;font-size:12px;font-weight:900}.source-link:hover{text-decoration:underline}.details{margin-top:10px;border-top:1px solid rgba(96,165,250,.12);padding-top:9px}.details summary{cursor:pointer;color:#bfdbfe;font-size:12px;font-weight:950}.detail-grid{display:grid;grid-template-columns:130px 1fr;gap:6px 10px;margin-top:9px;font-size:12px;color:#c7d8f4}.detail-grid span{color:#8ea4c4}.sources{margin-top:9px;display:grid;gap:6px}.sources a{font-size:12px;color:#93c5fd;text-decoration:none}.sources a:hover{text-decoration:underline}.side-list{display:grid;gap:9px}.side-row{display:grid;grid-template-columns:10px 1fr auto;align-items:center;gap:9px;padding:10px 0;border-bottom:1px solid rgba(96,165,250,.10);color:#dbeafe;font-size:12px}.side-row:last-child{border-bottom:0}.dot{width:10px;height:10px;border-radius:99px;background:#60a5fa}.dot.warn{background:var(--warn)}.dot.risk{background:var(--risk)}.dot.good{background:var(--good)}.side-row b{font-size:12px}.side-row span{color:var(--muted);font-size:11px;text-align:right}.empty-state{border:1px dashed rgba(147,197,253,.25);background:rgba(15,35,64,.28);border-radius:16px;padding:18px;color:#9db2d4;font-size:12px;line-height:1.45;text-align:center}.loading{color:#9db2d4;font-size:13px;padding:18px;text-align:center}.hidden{display:none!important}
+    @media(max-width:900px){.page{padding:18px 14px 18px 86px;margin-left:0}.dock.expanded + .page{margin-left:0;padding-left:calc(var(--dock-expanded) + 14px)}.toolbar{grid-template-columns:1fr}.summary-grid,.content-grid{grid-template-columns:1fr}.detail-grid{grid-template-columns:1fr}.side-row{grid-template-columns:10px 1fr}}
   </style>
 </head>
 <body>
@@ -276,69 +31,60 @@
       <section class="hero">
         <div class="eyebrow">Boletim</div>
         <h1>Monitoramento de notícias operacionais</h1>
-        <p class="hero-subtitle">Painel reservado para leitura diária de notícias e sinais públicos que possam afetar deslocamentos, rotas e previsibilidade operacional. Esta versão é apenas visual e ainda não está conectada ao mecanismo de pesquisa.</p>
-        <div class="toolbar" aria-label="Filtros do boletim em desenvolvimento">
-          <input class="field" type="search" placeholder="Pesquisar por rodovia, cidade, ocorrência ou fonte..." disabled>
-          <select class="field" disabled>
-            <option>Todas as categorias</option>
-            <option>Clima</option>
-            <option>Rodovia</option>
-            <option>Mobilização</option>
-            <option>Segurança pública</option>
-          </select>
-          <select class="field" disabled>
-            <option>Últimas 24h</option>
-            <option>Últimas 48h</option>
-            <option>Últimos 7 dias</option>
-          </select>
-          <button class="primary-button" type="button" disabled>Atualizar boletim</button>
+        <p class="hero-subtitle">Leitura de notícias e sinais públicos que possam afetar deslocamentos, rotas e previsibilidade operacional. O painel organiza ocorrências por período e mantém um acervo pesquisável das notícias já salvas pelo site.</p>
+        <div class="view-tabs" role="tablist" aria-label="Períodos do boletim">
+          <button class="tab active" type="button" data-view="day">Hoje</button>
+          <button class="tab" type="button" data-view="week">Semana</button>
+          <button class="tab" type="button" data-view="month">Mês</button>
+          <button class="tab" type="button" data-view="archive">Acervo</button>
         </div>
-        <div class="muted-note">Os controles são placeholders de design. A integração com o bot de pesquisa será adicionada em uma próxima etapa.</div>
+        <div class="toolbar" aria-label="Filtros do boletim">
+          <input id="searchInput" class="field" type="search" placeholder="Pesquisar por rodovia, cidade, ocorrência ou fonte...">
+          <select id="categoryFilter" class="field">
+            <option value="all">Todas as categorias</option>
+            <option value="road">Rodovia</option>
+            <option value="climate">Clima</option>
+            <option value="mobilization">Mobilização</option>
+            <option value="security">Segurança pública</option>
+            <option value="operational">Operacional</option>
+          </select>
+          <select id="regionFilter" class="field"><option value="all">Todas as regiões</option></select>
+          <button id="clearFilters" class="primary-button" type="button">Limpar filtros</button>
+        </div>
+        <div id="dataNote" class="muted-note">Carregando dados salvos do site...</div>
       </section>
 
       <section class="summary-grid" aria-label="Resumo do boletim">
-        <article class="metric"><div class="metric-label">Notícias monitoradas</div><div class="metric-value">--</div><small>Aguardando integração</small></article>
-        <article class="metric"><div class="metric-label">Ocorrências relevantes</div><div class="metric-value">--</div><small>Classificação pendente</small></article>
-        <article class="metric"><div class="metric-label">Regiões em atenção</div><div class="metric-value">--</div><small>Sem dados carregados</small></article>
-        <article class="metric"><div class="metric-label">Última leitura</div><div class="metric-value">--:--</div><small>Não configurado</small></article>
+        <article class="metric"><div class="metric-label">Itens no período</div><div id="metricTotal" class="metric-value">--</div><small id="metricWindow">Carregando</small></article>
+        <article class="metric"><div class="metric-label">Maior risco</div><div id="metricRisk" class="metric-value">--</div><small>entre os itens exibidos</small></article>
+        <article class="metric"><div class="metric-label">Regiões em atenção</div><div id="metricRegions" class="metric-value">--</div><small>com notícia ou ocorrência</small></article>
+        <article class="metric"><div class="metric-label">Última leitura</div><div id="metricUpdated" class="metric-value">--:--</div><small>dados publicados</small></article>
       </section>
 
       <section class="content-grid">
         <article class="panel">
           <div class="panel-head">
             <div>
-              <div class="panel-title">Leitura principal</div>
-              <div class="panel-caption">Espaço para notícias priorizadas por impacto operacional.</div>
+              <div id="listTitle" class="panel-title">Notícias principais de hoje</div>
+              <div id="listCaption" class="panel-caption">Cards priorizados por risco, recência e relevância operacional.</div>
             </div>
-            <span class="status-pill">Prévia visual</span>
+            <span id="listPill" class="status-pill">Dia</span>
           </div>
-          <div class="news-list">
-            <section class="news-card">
-              <div class="news-meta"><span class="tag warn">Rodovia</span><span class="tag">Sudeste</span><span class="tag">Em validação</span></div>
-              <h2 class="news-title">Interdição ou restrição em corredor monitorado</h2>
-              <p class="news-copy">Card modelo para ocorrência rodoviária com possível impacto em rota. O texto final será gerado a partir das fontes públicas consolidadas.</p>
-            </section>
-            <section class="news-card">
-              <div class="news-meta"><span class="tag risk">Clima</span><span class="tag">Sul</span><span class="tag">Acompanhar</span></div>
-              <h2 class="news-title">Condição meteorológica adversa em área de deslocamento</h2>
-              <p class="news-copy">Card modelo para alertas de chuva intensa, vento, baixa visibilidade ou outros fatores que exijam atenção operacional.</p>
-            </section>
-            <section class="empty-state">A lista real de notícias será exibida aqui quando a coleta estiver conectada.</section>
-          </div>
+          <div id="newsList" class="news-list"><div class="loading">Carregando boletim...</div></div>
         </article>
 
         <aside class="panel">
           <div class="panel-head">
             <div>
-              <div class="panel-title">Categorias monitoradas</div>
-              <div class="panel-caption">Estrutura inicial do boletim.</div>
+              <div class="panel-title">Leitura rápida</div>
+              <div class="panel-caption">Distribuição dos itens exibidos.</div>
             </div>
           </div>
-          <div class="side-list">
-            <div class="side-row"><i class="dot warn"></i><b>Rodovias e bloqueios</b><span>Interdições, obras e acidentes</span></div>
-            <div class="side-row"><i class="dot risk"></i><b>Clima severo</b><span>Chuva, vento e visibilidade</span></div>
-            <div class="side-row"><i class="dot"></i><b>Mobilizações</b><span>Greves, protestos e bloqueios</span></div>
-            <div class="side-row"><i class="dot good"></i><b>Operações públicas</b><span>Fiscalização e segurança viária</span></div>
+          <div class="side-list" id="quickStats">
+            <div class="side-row"><i class="dot warn"></i><b>Rodovias</b><span>--</span></div>
+            <div class="side-row"><i class="dot risk"></i><b>Clima</b><span>--</span></div>
+            <div class="side-row"><i class="dot"></i><b>Mobilizações</b><span>--</span></div>
+            <div class="side-row"><i class="dot good"></i><b>Operacional</b><span>--</span></div>
           </div>
         </aside>
       </section>
@@ -346,13 +92,48 @@
   </main>
 
   <script>
-    const dock = document.getElementById('dock');
-    const dockToggle = document.getElementById('dockToggle');
-    dockToggle?.addEventListener('click', () => {
-      const expanded = dock.classList.toggle('expanded');
-      dockToggle.setAttribute('aria-expanded', String(expanded));
-      dockToggle.setAttribute('aria-label', expanded ? 'Retrair barra lateral' : 'Expandir barra lateral');
-    });
+    const dock=document.getElementById('dock');const dockToggle=document.getElementById('dockToggle');dockToggle?.addEventListener('click',()=>{const expanded=dock.classList.toggle('expanded');dockToggle.setAttribute('aria-expanded',String(expanded));dockToggle.setAttribute('aria-label',expanded?'Retrair barra lateral':'Expandir barra lateral')});
+
+    const DATA_FILES=['data/analytics_cache.json','data/supabase_analytics_cache.json','data/road_events.json','data/operational_alerts.json','data/manual_events.json','data/deactivated_events.json'];
+    const state={items:[],view:'day',loadedAt:null,failed:0};
+    const $=(id)=>document.getElementById(id);
+    const esc=(v)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const text=(v)=>String(v??'').trim();
+    const norm=(v)=>text(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    const toDate=(v)=>{if(!v)return null;const d=new Date(String(v));return Number.isNaN(d.getTime())?null:d};
+    const fmtDate=(v)=>{const d=toDate(v);return d?d.toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',year:'2-digit',hour:'2-digit',minute:'2-digit'}):''};
+    const fmtShort=(v)=>{const d=toDate(v);return d?d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'}):'sem data'};
+    const now=()=>Date.now();
+    const daysAgo=(date)=>{const d=toDate(date);return d?Math.max(0,(now()-d.getTime())/86400000):9999};
+    const sourceType=(row)=>text(row.source_type||row.type||row.event_type||row.eventType).toLowerCase();
+    const sourceUrl=(row)=>text(row.source_url||row.sourceUrl||row.url||row.link||(Array.isArray(row.sources)&&row.sources[0]&&(row.sources[0].url||row.sources[0].sourceUrl))||'');
+    const dateValue=(row)=>text(row.newsDate||row.plannedStartAt||row.snapshot_at||row.last_seen_at||row.updated_at||row.updatedAt||row.createdAt||row.created_at||'');
+    const riskValue=(row)=>Number(row.risk||row.score||0)||0;
+    const severity=(risk)=>risk>=80?'Crítica':risk>=60?'Alta':risk>=35?'Moderada':risk>=1?'Baixa':'Sem risco';
+    const categoryOf=(row)=>{const blob=norm([row.name,row.description,row.headline,row.source,row.sourceProvider,row.event_type,row.eventType,sourceType(row)].join(' '));if(sourceType(row)==='climate'||blob.includes('clima')||blob.includes('chuva')||blob.includes('vento'))return'climate';if(blob.includes('greve')||blob.includes('manifest')||blob.includes('protest')||blob.includes('caminhoneir'))return'mobilization';if(blob.includes('policial')||blob.includes('policia')||blob.includes('operacao')||blob.includes('seguranca'))return'security';if(sourceType(row)==='operational')return'operational';if(sourceType(row)==='road'||blob.includes('rodovia')||blob.includes('br-')||blob.includes('interdit')||blob.includes('bloque'))return'road';return'operational'};
+    const categoryLabel=(cat)=>({road:'Rodovia',climate:'Clima',mobilization:'Mobilização',security:'Segurança pública',operational:'Operacional'}[cat]||'Operacional');
+    const categoryTagClass=(cat)=>cat==='climate'?'risk':cat==='road'?'warn':cat==='operational'?'good':'';
+    const region=(row)=>text(row.region||row.state||row.uf||row.city||'Sem região');
+    const titleOf=(row)=>{const raw=text(row.headline||row.title||row.name||row.eventType||row.event_type||'Ocorrência monitorada');return raw.replace(/\s*Rastreio:\s*primeiro registro em .*$/i,'').slice(0,160)};
+    const descriptionOf=(row)=>{let desc=text(row.description||row.summary||row.headline||row.name||'');desc=desc.replace(/\s*Rastreio:\s*primeiro registro em .*$/i,'').replace(/\s+/g,' ').trim();if(!desc&&categoryOf(row)==='climate')desc=`Condição climática monitorada em ${text(row.city||row.name||'localidade monitorada')}.`;return desc.slice(0,260)};
+    const sourcesOf=(row)=>{const out=[];if(Array.isArray(row.sources)){row.sources.forEach(s=>{const url=text(s.url||s.source_url||s.sourceUrl);const name=text(s.source||s.name||s.provider||'Fonte pública');const headline=text(s.headline||s.title||'Artigo original');if(url)out.push({url,name,headline})})}const url=sourceUrl(row);if(url)out.push({url,name:text(row.source||row.sourceProvider||'Fonte pública'),headline:titleOf(row)});const seen=new Set();return out.filter(s=>{const k=s.url||s.name+s.headline;if(seen.has(k))return false;seen.add(k);return true})};
+    const isRelevant=(row)=>{const blob=norm([row.name,row.description,row.headline,row.source,row.sourceProvider,row.event_type,row.eventType,sourceType(row),row.road].join(' '));return categoryOf(row)!=='operational'||blob.includes('notic')||blob.includes('rodovia')||blob.includes('interdit')||blob.includes('bloque')||blob.includes('operacao')||blob.includes('alerta')||riskValue(row)>0};
+    const itemKey=(row)=>text(row.stable_event_id||row.event_id||row.id||sourceUrl(row)||`${titleOf(row)}|${dateValue(row)}|${region(row)}`);
+
+    async function fetchJson(path){try{const res=await fetch(`${path}?v=${Date.now()}`,{cache:'no-store'});if(!res.ok)throw new Error(res.status);return await res.json()}catch(e){state.failed+=1;return null}}
+    function rowsFrom(payload){if(Array.isArray(payload))return payload;if(payload&&Array.isArray(payload.rows))return payload.rows;return[]}
+    function toItem(row){const cat=categoryOf(row);const date=dateValue(row);const risk=riskValue(row);return{key:itemKey(row),cat,date,age:daysAgo(date),risk,severity:severity(risk),title:titleOf(row),description:descriptionOf(row),region:region(row),source:text(row.source||row.sourceProvider||row.provider||'Fonte salva'),url:sourceUrl(row),sources:sourcesOf(row),raw:row,search:norm([titleOf(row),descriptionOf(row),region(row),row.road,row.city,row.state,row.source,row.sourceProvider,cat].join(' '))}}
+    function dedupe(items){const map=new Map();for(const item of items){const url=item.url||'';const title=norm(item.title).slice(0,80);const key=url?`url:${url}`:`${item.cat}|${item.region}|${title}`;const current=map.get(key);if(!current||item.risk>current.risk||toDate(item.date)>toDate(current.date)){map.set(key,{...item,sources:[...item.sources,...(current?.sources||[])]})}else if(current){current.sources=[...current.sources,...item.sources]}}return [...map.values()].map(i=>({...i,sources:dedupeSources(i.sources)}))}
+    function dedupeSources(sources){const seen=new Set();return sources.filter(s=>{const k=s.url||s.name+s.headline;if(!k||seen.has(k))return false;seen.add(k);return true})}
+    async function loadData(){const payloads=await Promise.all(DATA_FILES.map(fetchJson));const rows=payloads.flatMap(rowsFrom).filter(r=>r&&typeof r==='object'&&isRelevant(r));state.items=dedupe(rows.map(toItem)).sort((a,b)=>(b.risk-a.risk)||((toDate(b.date)?.getTime()||0)-(toDate(a.date)?.getTime()||0)));state.loadedAt=new Date();populateRegions();render()}
+    function populateRegions(){const select=$('regionFilter');const values=[...new Set(state.items.map(i=>i.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'pt-BR'));select.innerHTML='<option value="all">Todas as regiões</option>'+values.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('')}
+    function windowDays(){return state.view==='day'?1:state.view==='week'?7:state.view==='month'?30:Infinity}
+    function windowLabel(){return state.view==='day'?'Hoje':state.view==='week'?'Semana':state.view==='month'?'Mês':'Acervo'}
+    function filteredItems(){const q=norm($('searchInput').value);const cat=$('categoryFilter').value;const reg=$('regionFilter').value;const limit=windowDays();return state.items.filter(i=>(limit===Infinity||i.age<=limit)&&(cat==='all'||i.cat===cat)&&(reg==='all'||i.region===reg)&&(!q||i.search.includes(q)))}
+    function cardHtml(item){const tagClass=categoryTagClass(item.cat);const primaryLink=item.url?`<a class="source-link" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">Abrir artigo original</a>`:'<span class="muted-note">Sem link de artigo salvo</span>';const sources=item.sources.length?`<div class="sources">${item.sources.slice(0,6).map((s,idx)=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name||'Fonte')} · ${esc(s.headline||`Artigo ${idx+1}`)}</a>`).join('')}</div>`:'';return`<section class="news-card"><div class="news-meta"><span class="tag ${tagClass}">${esc(categoryLabel(item.cat))}</span><span class="tag">${esc(item.region)}</span><span class="tag">${esc(item.severity)}</span><span class="tag">Risco ${esc(item.risk)}</span><span class="tag">${esc(fmtShort(item.date))}</span></div><h2 class="news-title">${esc(item.title)}</h2><p class="news-copy">${esc(item.description||'Sem descrição resumida disponível.')}</p><div class="news-actions">${primaryLink}</div><details class="details"><summary>Expandir / saber mais</summary><div class="detail-grid"><span>Data</span><b>${esc(fmtDate(item.date)||'Sem data')}</b><span>Categoria</span><b>${esc(categoryLabel(item.cat))}</b><span>Severidade</span><b>${esc(item.severity)}</b><span>Região</span><b>${esc(item.region)}</b><span>Fonte</span><b>${esc(item.source)}</b><span>ID</span><b>${esc(item.key)}</b></div>${sources}</details></section>`}
+    function render(){document.querySelectorAll('.tab').forEach(btn=>btn.classList.toggle('active',btn.dataset.view===state.view));const items=filteredItems();$('listTitle').textContent=state.view==='archive'?'Acervo de notícias salvas':`Notícias principais — ${windowLabel().toLowerCase()}`;$('listCaption').textContent=state.view==='archive'?'Pesquise e filtre todos os itens salvos pelo site.':'Cards priorizados por risco, recência e relevância operacional.';$('listPill').textContent=windowLabel();$('newsList').innerHTML=items.length?items.slice(0,state.view==='archive'?120:24).map(cardHtml).join(''):`<section class="empty-state">Nenhuma notícia encontrada para os filtros selecionados.</section>`;$('metricTotal').textContent=items.length;$('metricWindow').textContent=windowLabel();$('metricRisk').textContent=items.length?Math.max(...items.map(i=>i.risk)):'--';$('metricRegions').textContent=new Set(items.map(i=>i.region).filter(Boolean)).size||'--';$('metricUpdated').textContent=state.loadedAt?state.loadedAt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}):'--:--';renderStats(items);$('dataNote').textContent=`Dados carregados de ${DATA_FILES.length-state.failed}/${DATA_FILES.length} arquivo(s). ${state.items.length} item(ns) disponíveis no boletim.`;location.hash=state.view==='day'?'':state.view}
+    function renderStats(items){const count=(cat)=>items.filter(i=>i.cat===cat).length;$('quickStats').innerHTML=`<div class="side-row"><i class="dot warn"></i><b>Rodovias</b><span>${count('road')}</span></div><div class="side-row"><i class="dot risk"></i><b>Clima</b><span>${count('climate')}</span></div><div class="side-row"><i class="dot"></i><b>Mobilizações</b><span>${count('mobilization')}</span></div><div class="side-row"><i class="dot good"></i><b>Operacional</b><span>${count('operational')+count('security')}</span></div>`}
+    document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>{state.view=btn.dataset.view;render()}));['searchInput','categoryFilter','regionFilter'].forEach(id=>$(id).addEventListener('input',render));$('clearFilters').addEventListener('click',()=>{$('searchInput').value='';$('categoryFilter').value='all';$('regionFilter').value='all';render()});const initial=location.hash.replace('#','');if(['day','week','month','archive'].includes(initial))state.view=initial;loadData();
   </script>
 </body>
 </html>
