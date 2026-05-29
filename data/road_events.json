@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 vai ser totalmente bloqueada nesta sexta-feira (29) em Guaraciaba. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-05-29T11:51:57Z; ativo há 7.2 h.",
+    "description": "BR-163 vai ser totalmente bloqueada nesta sexta-feira (29) em Guaraciaba. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-05-29T11:51:57Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 7.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-29T11:51:57Z",
-    "last_seen_at": "2026-05-29T19:03:23Z",
+    "last_seen_at": "2026-05-29T19:03:36Z",
     "active_duration_hours": 7.19,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5941f0876682195e4e31b6a7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
