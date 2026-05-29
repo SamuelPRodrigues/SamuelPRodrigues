@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T02:02:54Z",
+  "updatedAt": "2026-05-29T02:16:53Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -37,10 +37,10 @@
       "stable_event_id": "175f98924a2c739dfcd6eac5",
       "observation_hash": "c4123e9deea5f7b7b9a843ff",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-29T02:02:51+00:00",
+      "snapshot_at": "2026-05-29T02:16:49+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-05-29T02:02:51+00:00",
-      "updated_at": "2026-05-29T02:02:52.190064+00:00",
+      "last_seen_at": "2026-05-29T02:16:49+00:00",
+      "updated_at": "2026-05-29T02:16:51.020838+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -56,8 +56,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T10:15:18Z; ativo há 2.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 114,
-      "estimated_hours": 28.5,
+      "total_snapshots": 115,
+      "estimated_hours": 28.75,
       "active": true,
       "storage": "supabase"
     },
@@ -1664,12 +1664,12 @@
     {
       "event_id": "770292d906636e18edaa18dc",
       "stable_event_id": "770292d906636e18edaa18dc",
-      "observation_hash": "42af6374f5c774c1714416dc",
+      "observation_hash": "1a9db00aa0f0fae6937e7d77",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-29T02:02:51+00:00",
+      "snapshot_at": "2026-05-29T02:16:49+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-05-29T02:02:51+00:00",
-      "updated_at": "2026-05-29T02:02:52.190064+00:00",
+      "last_seen_at": "2026-05-29T02:16:49+00:00",
+      "updated_at": "2026-05-29T02:16:51.020838+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -1682,11 +1682,11 @@
       "state": "BA",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 2.4 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 2.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 100,
-      "estimated_hours": 25.0,
+      "total_snapshots": 101,
+      "estimated_hours": 25.25,
       "active": true,
       "storage": "supabase"
     },
@@ -3431,35 +3431,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "4ddf3105b9325b5eb57d1490",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-28T22:03:10+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-05-28T22:03:10+00:00",
-      "updated_at": "2026-05-28T22:03:11.236813+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 38,
-      "severity": "Moderado",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 2.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 138,
-      "estimated_hours": 34.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "815f19dcfc0de3f0efea9ff3",
       "stable_event_id": "815f19dcfc0de3f0efea9ff3",
       "observation_hash": "1fc24acbed64ae894e6f4174",
@@ -3663,6 +3634,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "756603c7f38aedf219017c64",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-05-29T02:16:49+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-05-29T02:16:49+00:00",
+      "updated_at": "2026-05-29T02:16:51.020838+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 2.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 139,
+      "estimated_hours": 34.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "83baaed9d8aede34697da9f3",
       "stable_event_id": "83baaed9d8aede34697da9f3",
       "observation_hash": "f898ceb9694018d0531ce162",
@@ -3839,12 +3839,12 @@
     {
       "event_id": "cccfff4bc2c909d44ee82c74",
       "stable_event_id": "cccfff4bc2c909d44ee82c74",
-      "observation_hash": "5b289387cde1f2bd68032e5c",
+      "observation_hash": "7bfb8221561e187a88089644",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-29T02:02:51+00:00",
+      "snapshot_at": "2026-05-29T02:16:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-05-29T02:02:51+00:00",
-      "updated_at": "2026-05-29T02:02:52.190064+00:00",
+      "last_seen_at": "2026-05-29T02:16:49+00:00",
+      "updated_at": "2026-05-29T02:16:51.020838+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3860,8 +3860,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 3.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 138,
-      "estimated_hours": 34.5,
+      "total_snapshots": 139,
+      "estimated_hours": 34.75,
       "active": true,
       "storage": "supabase"
     },
@@ -4057,13 +4057,13 @@
         {
           "date": "2026-05-28",
           "avgRisk": 43,
-          "events": 24,
+          "events": 23,
           "maxRisk": 69
         },
         {
           "date": "2026-05-29",
           "avgRisk": 46,
-          "events": 15,
+          "events": 16,
           "maxRisk": 84
         }
       ]
@@ -4113,13 +4113,13 @@
         {
           "date": "2026-05-28",
           "avgRisk": 43,
-          "events": 24,
+          "events": 23,
           "maxRisk": 69
         },
         {
           "date": "2026-05-29",
           "avgRisk": 46,
-          "events": 15,
+          "events": 16,
           "maxRisk": 84
         }
       ]
@@ -4169,13 +4169,13 @@
         {
           "date": "2026-05-28",
           "avgRisk": 43,
-          "events": 24,
+          "events": 23,
           "maxRisk": 69
         },
         {
           "date": "2026-05-29",
           "avgRisk": 46,
-          "events": 15,
+          "events": 16,
           "maxRisk": 84
         }
       ]
