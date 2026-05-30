@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso. Período informado: 2026-05-30T09:01:14Z até fim não identificado. Fontes consolidadas: G1; g1.globo.com; Notícias públicas - Futebol na Web. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-05-30T09:01:14Z; ativo há 9.7 h.",
+    "description": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso. Período informado: 2026-05-30T09:01:14Z até fim não identificado. Fontes consolidadas: G1; g1.globo.com; Notícias públicas - Futebol na Web. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-05-30T09:01:14Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -56,9 +56,11 @@
     "newsFreshnessHours": 9.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-30T09:01:14Z",
-    "last_seen_at": "2026-05-30T18:43:09Z",
+    "last_seen_at": "2026-05-30T18:43:20Z",
     "active_duration_hours": 9.7,
     "active_duration_label": "9.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8bdb7c54ee3da612184395ff",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
