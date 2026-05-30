@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso. Período informado: 2026-05-30T09:01:14Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Futebol na Web. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-05-30T09:01:14Z; ativo há 1.5 h.",
+    "description": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso. Período informado: 2026-05-30T09:01:14Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Futebol na Web. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-05-30T09:01:14Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-05-30T10:32:18Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-05-30T10:45:43Z",
     "sources": [
       {
         "source": "G1",
@@ -47,15 +47,12 @@
     "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 1.54,
+    "newsFreshnessHours": 1.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-30T09:01:14Z",
-    "last_seen_at": "2026-05-30T10:33:27Z",
-    "active_duration_hours": 1.54,
-    "active_duration_label": "1.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-05-30T10:33:27Z",
-    "news_signature": "e164d3e5c6d579d60575e75c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-05-30T10:46:57Z",
+    "active_duration_hours": 1.76,
+    "active_duration_label": "1.8 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
