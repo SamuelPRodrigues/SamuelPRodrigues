@@ -9,7 +9,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Desmoronamento mantém trecho da BR-174 interditado durante o fim de semana - Radar Amazônico. Fontes consolidadas: Notícias públicas - Radar Amazônico. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-05-29T18:13:06Z; ativo há 10.3 h.",
+    "description": "Desmoronamento mantém trecho da BR-174 interditado durante o fim de semana - Radar Amazônico. Fontes consolidadas: Notícias públicas - Radar Amazônico. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-05-29T18:13:06Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 10.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-29T18:13:06Z",
-    "last_seen_at": "2026-05-30T04:30:29Z",
+    "last_seen_at": "2026-05-30T04:30:41Z",
     "active_duration_hours": 10.29,
     "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d52f0dbf35f4bcb8709c6bbe",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
