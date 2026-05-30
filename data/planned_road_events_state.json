@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T18:03:34Z",
+  "updatedAt": "2026-05-30T18:16:48Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -186,13 +186,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-05-30T18:03:34Z",
+      "updatedAt": "2026-05-30T18:16:48Z",
       "sources": [
         {
           "source": "Futebol na Web",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWThYZ05TT09DTkVQYlNUbWVKX0xsRThfY3NZazRfcDZuMWw3V3pWd0x6cm15YTFVSTVyQ2hTWlpXeWdmZHA5SElWdllNVXVpUFNhRElKSG56d1Bpa295U2V2REdqQVVMdTFLSk9mNi1pdGkwZGJ1VDIwN0VhUTFuRUFRRVUyQ1VnVlhPbllaRko4a3ZyU1dHTjh5cUU?oc=5",
           "headline": "Acidente fatal na BR-265 e mercado interditado: os principais fatos da Zona da Mata - Futebol na Web",
           "date": "2026-05-30T10:00:29Z"
+        }
+      ]
+    },
+    "141ca8042f631842b0cecdf8": {
+      "active": true,
+      "event_id": "141ca8042f631842b0cecdf8",
+      "stable_event_id": "141ca8042f631842b0cecdf8",
+      "name": "Interdição planejada por notícia pública • BR-265",
+      "road": "BR-265",
+      "corridor": "Sul de Minas • BR-265",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -21.25,
+      "lon": -44.9,
+      "city": "Sul de Minas",
+      "state": "MG",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso - g1.globo.com.  Período informado: 2026-05-30T09:01:14Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - g1.globo.com",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZ2RPU2RQR19ZbTlXdXR6aGkyeHBkZlZpdzN1RW5kOXVxN3daMV9zQlZWb0o0eEpZS2t5cTNra3ppWkpNVFpfTGhVZWRyVUhmREVIX3c3ZWNGd0JDWDlqdmhIUDlSc3JYQV9lSE1rUzBiTjRlTWVqX2ZpcEI5VVh5X0RBV0o0Q0dvTEZtR3hUcjUtdHpZUzBsTnEtUnRDT2dTbkZuZEt6Tlg3TDlSRmhhOWhRY1B6N1JYUWMzSFozdFhKSnZYTnJsRmdIbFNPQi1paDhBNUhrX0VQVTBlTVNEZVUxNTBuRzh3OGptRkM0b2w0S01QMURlVXNPRG1yZ1pWOE1GcGJET2NHWGN2OHpKbDFYVkh2aFNI0gGYAkFVX3lxTE1nZE9TZFBHX1ltOVd1dHpoaTJ4cGRmVml3M3VFbmQ5dXE3d1oxX3NCVlZvSjR4SllLa3lxM2tremlaSk1UWl9MaFVlZHJVSGZERUhfdzdlY0Z3QkNYOWp2aEhQOVJzclhBX2VITWtTMGJONGVNZWpfZmlwQjlVWHlfREFXSjRDR29MRm1HeFRyNS10ellTMGxOcS1SdENPZ1NuRm5kS3pOWDdMOVJGaGE5aFFjUHo3UlhRYzNIWjN0WEpKdlhOcmxGZ0hsU09CLWloOEE1SGtfRVBVMGVNU0RlVTE1MG5HOHc4am1GQzRvbDRLTVAxRGVVc09EbXJnWlY4TUZwYkRPY0dYY3Y4ekpsMVhWSHZoU0g?oc=5",
+      "headline": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso - g1.globo.com",
+      "newsDate": "2026-05-30T09:01:14Z",
+      "plannedStartAt": "2026-05-30T09:01:14Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-05-30T18:16:48Z",
+      "sources": [
+        {
+          "source": "g1.globo.com",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZ2RPU2RQR19ZbTlXdXR6aGkyeHBkZlZpdzN1RW5kOXVxN3daMV9zQlZWb0o0eEpZS2t5cTNra3ppWkpNVFpfTGhVZWRyVUhmREVIX3c3ZWNGd0JDWDlqdmhIUDlSc3JYQV9lSE1rUzBiTjRlTWVqX2ZpcEI5VVh5X0RBV0o0Q0dvTEZtR3hUcjUtdHpZUzBsTnEtUnRDT2dTbkZuZEt6Tlg3TDlSRmhhOWhRY1B6N1JYUWMzSFozdFhKSnZYTnJsRmdIbFNPQi1paDhBNUhrX0VQVTBlTVNEZVUxNTBuRzh3OGptRkM0b2w0S01QMURlVXNPRG1yZ1pWOE1GcGJET2NHWGN2OHpKbDFYVkh2aFNI0gGYAkFVX3lxTE1nZE9TZFBHX1ltOVd1dHpoaTJ4cGRmVml3M3VFbmQ5dXE3d1oxX3NCVlZvSjR4SllLa3lxM2tremlaSk1UWl9MaFVlZHJVSGZERUhfdzdlY0Z3QkNYOWp2aEhQOVJzclhBX2VITWtTMGJONGVNZWpfZmlwQjlVWHlfREFXSjRDR29MRm1HeFRyNS10ellTMGxOcS1SdENPZ1NuRm5kS3pOWDdMOVJGaGE5aFFjUHo3UlhRYzNIWjN0WEpKdlhOcmxGZ0hsU09CLWloOEE1SGtfRVBVMGVNU0RlVTE1MG5HOHc4am1GQzRvbDRLTVAxRGVVc09EbXJnWlY4TUZwYkRPY0dYY3Y4ekpsMVhWSHZoU0g?oc=5",
+          "headline": "Você viu? Produtor rural morre na BR-265, restaurante fechado com alimentos impróprios e roda de caminhão atinge idoso - g1.globo.com",
+          "date": "2026-05-30T09:01:14Z"
         }
       ]
     }
