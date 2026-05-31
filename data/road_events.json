@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Jundiaí (SP): Homem morre atropelado por caminhonete na Rodovia SP-360 e faixa é interditada - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-05-31T17:20:32Z; ativo há 4.7 h.",
+    "description": "Jundiaí (SP): Homem morre atropelado por caminhonete na Rodovia SP-360 e faixa é interditada - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-05-31T17:20:32Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-31T17:20:32Z",
     "last_seen_at": "2026-05-31T22:03:16Z",
-    "active_duration_hours": 4.71,
+    "active_duration_hours": 4.72,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-360"
+    "detectedRoad": "SP-360",
+    "last_confirmed_at": "2026-05-31T22:03:16Z",
+    "news_signature": "658f66679a5306326930186c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 11.2 h.",
+    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +88,10 @@
     "active_duration_hours": 11.18,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-05-31T22:03:16Z",
+    "news_signature": "996bdf35503112e5033106ed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
