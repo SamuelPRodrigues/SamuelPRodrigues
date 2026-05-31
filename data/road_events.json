@@ -9,7 +9,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 3.2 h.",
+    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81SzZWRDNpeGlmTF92eUxfMlM1clUtNUVYTnhUN1BFUGJtZlBUdGZucjhjaEZMY3JfMFBMX0twN05TaXFyYmdqUjcwNzdCdkkzSTVrOE83SHF0d0VCSmdIaHkzbmFrZXc1bm1IRTB6MDhsZDZsWmxOcg",
     "headline": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB",
     "newsDate": "Sun, 31 May 2026 10:52:46 GMT",
-    "updatedAt": "2026-05-31T14:02:19Z",
+    "updatedAt": "2026-05-31T14:15:35Z",
     "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81SzZWRDNpeGlmTF92eUxfMlM1clUtNUVYTnhUN1BFUGJtZlBUdGZucjhjaEZMY3JfMFBMX0twN05TaXFyYmdqUjcwNzdCdkkzSTVrOE83SHF0d0VCSmdIaHkzbmFrZXc1bm1IRTB6MDhsZDZsWmxOcg",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "86f66ebb85571073383bc72e",
     "event_id": "86f66ebb85571073383bc72e",
-    "newsFreshnessHours": 3.18,
+    "newsFreshnessHours": 3.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-31T10:52:46Z",
-    "last_seen_at": "2026-05-31T14:03:35Z",
-    "active_duration_hours": 3.18,
-    "active_duration_label": "3.2 h",
+    "last_seen_at": "2026-05-31T14:16:51Z",
+    "active_duration_hours": 3.4,
+    "active_duration_label": "3.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-05-31T14:03:35Z",
-    "news_signature": "996bdf35503112e5033106ed",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
