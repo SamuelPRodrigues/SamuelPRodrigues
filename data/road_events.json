@@ -1,6 +1,51 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116 / SP-360",
+    "road": "BR-116 / SP-360",
+    "corridor": "São Paulo / Guarulhos • BR-116 / BR-381 / SP-330 / SP-280 / Rodoanel",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -23.55,
+    "lon": -46.633,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Jundiaí (SP): Homem morre atropelado por caminhonete na Rodovia SP-360 e faixa é interditada - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-05-31T17:20:32Z; ativo há 12 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - diário do estado",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOREhxMi1jRHlnMG1wS0dJaUpsemJRWWg0WVowdzhJMGh6YzBoVlJKYjBTV3RTQTR5eXFyMmZGeTBLbUxYUW14X21QSEtQZUJmTkhQY3FaeFJ5Z0NpZGlLMXdSZ2dGeFRSSXZQanNHSWlmRTM3T2hYQy1yRnl1ZDVPVFJQYS1sblQtVnpKaU1qT0x2WTc4Nnc5b1FtVFBJbU9SYmpveDhubEVGVDZjcmR1RG9MTi0xVFFVQlJqVl9DQQ",
+    "headline": "Jundiaí (SP): Homem morre atropelado por caminhonete na Rodovia SP-360 e faixa é interditada - diário do estado",
+    "newsDate": "Sun, 31 May 2026 17:20:32 GMT",
+    "updatedAt": "2026-05-31T17:31:38Z",
+    "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOREhxMi1jRHlnMG1wS0dJaUpsemJRWWg0WVowdzhJMGh6YzBoVlJKYjBTV3RTQTR5eXFyMmZGeTBLbUxYUW14X21QSEtQZUJmTkhQY3FaeFJ5Z0NpZGlLMXdSZ2dGeFRSSXZQanNHSWlmRTM3T2hYQy1yRnl1ZDVPVFJQYS1sblQtVnpKaU1qT0x2WTc4Nnc5b1FtVFBJbU9SYmpveDhubEVGVDZjcmR1RG9MTi0xVFFVQlJqVl9DQQ",
+    "sources": [
+      {
+        "source": "Notícias públicas - diário do estado",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOREhxMi1jRHlnMG1wS0dJaUpsemJRWWg0WVowdzhJMGh6YzBoVlJKYjBTV3RTQTR5eXFyMmZGeTBLbUxYUW14X21QSEtQZUJmTkhQY3FaeFJ5Z0NpZGlLMXdSZ2dGeFRSSXZQanNHSWlmRTM3T2hYQy1yRnl1ZDVPVFJQYS1sblQtVnpKaU1qT0x2WTc4Nnc5b1FtVFBJbU9SYmpveDhubEVGVDZjcmR1RG9MTi0xVFFVQlJqVl9DQQ",
+        "headline": "Jundiaí (SP): Homem morre atropelado por caminhonete na Rodovia SP-360 e faixa é interditada - diário do estado",
+        "date": "Sun, 31 May 2026 17:20:32 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "577a616081c2d79d90582c68",
+    "event_id": "577a616081c2d79d90582c68",
+    "newsFreshnessHours": 0.21,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-05-31T17:20:32Z",
+    "last_seen_at": "2026-05-31T17:32:50Z",
+    "active_duration_hours": 0.2,
+    "active_duration_label": "12 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "SP-360"
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-230",
     "road": "BR-230",
     "corridor": "Humaitá • BR-319 / BR-230",
@@ -9,7 +54,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 6.4 h.",
+    "description": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-05-31T10:52:46Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +63,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81SzZWRDNpeGlmTF92eUxfMlM1clUtNUVYTnhUN1BFUGJtZlBUdGZucjhjaEZMY3JfMFBMX0twN05TaXFyYmdqUjcwNzdCdkkzSTVrOE83SHF0d0VCSmdIaHkzbmFrZXc1bm1IRTB6MDhsZDZsWmxOcg",
     "headline": "Acidente entre caminhonete e carreta deixa BR-230 interditada em Campina Grande - ClickPB",
     "newsDate": "Sun, 31 May 2026 10:52:46 GMT",
-    "updatedAt": "2026-05-31T17:15:37Z",
+    "updatedAt": "2026-05-31T17:31:38Z",
     "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81SzZWRDNpeGlmTF92eUxfMlM1clUtNUVYTnhUN1BFUGJtZlBUdGZucjhjaEZMY3JfMFBMX0twN05TaXFyYmdqUjcwNzdCdkkzSTVrOE83SHF0d0VCSmdIaHkzbmFrZXc1bm1IRTB6MDhsZDZsWmxOcg",
     "sources": [
       {
@@ -33,17 +78,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "86f66ebb85571073383bc72e",
     "event_id": "86f66ebb85571073383bc72e",
-    "newsFreshnessHours": 6.4,
+    "newsFreshnessHours": 6.67,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-05-31T10:52:46Z",
-    "last_seen_at": "2026-05-31T17:16:50Z",
-    "active_duration_hours": 6.4,
-    "active_duration_label": "6.4 h",
+    "last_seen_at": "2026-05-31T17:32:50Z",
+    "active_duration_hours": 6.67,
+    "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-05-31T17:16:50Z",
-    "news_signature": "996bdf35503112e5033106ed",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
