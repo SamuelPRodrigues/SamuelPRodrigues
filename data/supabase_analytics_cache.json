@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T23:46:43Z",
+  "updatedAt": "2026-06-01T00:03:16Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -2925,10 +2925,10 @@
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "86fe166ec11660eb71670c76",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-31T23:46:39+00:00",
+      "snapshot_at": "2026-06-01T00:03:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-05-31T23:46:39+00:00",
-      "updated_at": "2026-05-31T23:46:40.702101+00:00",
+      "last_seen_at": "2026-06-01T00:03:12+00:00",
+      "updated_at": "2026-06-01T00:03:13.734891+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2944,8 +2944,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 6.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 97,
-      "estimated_hours": 24.25,
+      "total_snapshots": 98,
+      "estimated_hours": 24.5,
       "active": true,
       "storage": "supabase"
     },
@@ -3621,10 +3621,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "3f1386b86802b90631486449",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-05-31T23:46:39+00:00",
+      "snapshot_at": "2026-06-01T00:03:12+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-05-31T23:46:39+00:00",
-      "updated_at": "2026-05-31T23:46:40.702101+00:00",
+      "last_seen_at": "2026-06-01T00:03:12+00:00",
+      "updated_at": "2026-06-01T00:03:13.734891+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3640,8 +3640,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 4.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 121,
-      "estimated_hours": 30.25,
+      "total_snapshots": 122,
+      "estimated_hours": 30.5,
       "active": true,
       "storage": "supabase"
     },
@@ -4753,8 +4753,14 @@
         {
           "date": "2026-05-31",
           "avgRisk": 41,
-          "events": 45,
+          "events": 43,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-06-01",
+          "avgRisk": 40,
+          "events": 2,
+          "maxRisk": 40
         }
       ]
     },
@@ -4820,8 +4826,14 @@
         {
           "date": "2026-05-31",
           "avgRisk": 41,
-          "events": 45,
+          "events": 43,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-06-01",
+          "avgRisk": 40,
+          "events": 2,
+          "maxRisk": 40
         }
       ]
     },
@@ -4887,8 +4899,14 @@
         {
           "date": "2026-05-31",
           "avgRisk": 41,
-          "events": 45,
+          "events": 43,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-06-01",
+          "avgRisk": 40,
+          "events": 2,
+          "maxRisk": 40
         }
       ]
     }
