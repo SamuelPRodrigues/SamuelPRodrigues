@@ -9,7 +9,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 1.2 h.",
+    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 1.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-01T16:35:58Z",
-    "last_seen_at": "2026-06-01T17:46:44Z",
+    "last_seen_at": "2026-06-01T17:47:00Z",
     "active_duration_hours": 1.18,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "454bc4b6ad7cd566f3724179",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
