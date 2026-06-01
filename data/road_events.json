@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-163 será interditado para detonação de rochas na quarta - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-01T20:28:00Z; ativo há 1.3 h.",
+    "description": "Trecho da BR-163 será interditado para detonação de rochas na quarta - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-01T20:28:00Z; ativo há 1.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 1.31,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-01T20:28:00Z",
-    "last_seen_at": "2026-06-01T21:46:49Z",
-    "active_duration_hours": 1.31,
+    "last_seen_at": "2026-06-01T21:47:04Z",
+    "active_duration_hours": 1.32,
     "active_duration_label": "1.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "44e39a18fcd4e5ea7f87f045",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 5.2 h.",
+    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 5.18,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-01T21:46:49Z",
+    "news_signature": "454bc4b6ad7cd566f3724179",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +108,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada nas próximas horas para retirada de estruturas de 4 toneladas; saiba onde - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-01T14:22:41Z; ativo há 7.4 h.",
+    "description": "BR-381 será interditada nas próximas horas para retirada de estruturas de 4 toneladas; saiba onde - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-01T14:22:41Z; ativo há 7.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,10 +136,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-01T14:22:41Z",
     "last_seen_at": "2026-06-01T21:46:49Z",
-    "active_duration_hours": 7.4,
+    "active_duration_hours": 7.41,
     "active_duration_label": "7.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-01T21:46:49Z",
+    "news_signature": "216eec00d1157286d7ce4937",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
