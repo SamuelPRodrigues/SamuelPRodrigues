@@ -9,7 +9,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 4.0 h.",
+    "description": "BR-230 é interditada por manifestantes em Anapu; e BR-422 fica intrafegavel com lamaçal. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-01T16:35:58Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 3.96,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-01T20:33:31Z",
+    "news_signature": "454bc4b6ad7cd566f3724179",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada nas próximas horas para retirada de estruturas de 4 toneladas; saiba onde - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-01T14:22:41Z; ativo há 6.2 h.",
+    "description": "BR-381 será interditada nas próximas horas para retirada de estruturas de 4 toneladas; saiba onde - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-01T14:22:41Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +93,10 @@
     "active_duration_hours": 6.18,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-01T20:33:31Z",
+    "news_signature": "216eec00d1157286d7ce4937",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
