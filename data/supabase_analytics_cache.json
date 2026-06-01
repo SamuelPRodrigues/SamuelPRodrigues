@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T01:33:04Z",
+  "updatedAt": "2026-06-01T01:46:45Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -1268,6 +1268,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "a4bb356e4d690486e39fe31e",
+      "stable_event_id": "a4bb356e4d690486e39fe31e",
+      "observation_hash": "49fe97cc80cd54d9e6f93eca",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-01T01:46:41+00:00",
+      "first_seen_at": "2026-05-29T13:17:03+00:00",
+      "last_seen_at": "2026-06-01T01:46:41+00:00",
+      "updated_at": "2026-06-01T01:46:42.902582+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Imperatriz",
+      "risk": 60,
+      "severity": "Alto",
+      "lat": -5.526,
+      "lon": -47.477,
+      "city": "Imperatriz",
+      "state": "MA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-29T13:15:17Z; ativo há 2.5 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 20,
+      "estimated_hours": 5.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -1322,35 +1351,6 @@
       "source_url": "",
       "total_snapshots": 21,
       "estimated_hours": 5.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "a4bb356e4d690486e39fe31e",
-      "stable_event_id": "a4bb356e4d690486e39fe31e",
-      "observation_hash": "896814148b1fe7b1c13c42fe",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-01T01:33:01+00:00",
-      "first_seen_at": "2026-05-29T13:17:03+00:00",
-      "last_seen_at": "2026-06-01T01:33:01+00:00",
-      "updated_at": "2026-06-01T01:33:02.49007+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Imperatriz",
-      "risk": 58,
-      "severity": "Moderado",
-      "lat": -5.526,
-      "lon": -47.477,
-      "city": "Imperatriz",
-      "state": "MA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T13:15:17Z; ativo há 2.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 19,
-      "estimated_hours": 4.75,
       "active": true,
       "storage": "supabase"
     },
@@ -2314,12 +2314,12 @@
     {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
-      "observation_hash": "f0a3d7203183b6c6bebdf343",
+      "observation_hash": "a0a85ac730d1379d56001e82",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-01T01:33:01+00:00",
+      "snapshot_at": "2026-06-01T01:46:41+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-01T01:33:01+00:00",
-      "updated_at": "2026-06-01T01:33:02.49007+00:00",
+      "last_seen_at": "2026-06-01T01:46:41+00:00",
+      "updated_at": "2026-06-01T01:46:42.902582+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2332,11 +2332,11 @@
       "state": "PE",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 6.0 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 6.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 382,
-      "estimated_hours": 95.5,
+      "total_snapshots": 383,
+      "estimated_hours": 95.75,
       "active": true,
       "storage": "supabase"
     },
@@ -3592,10 +3592,10 @@
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "ec64204b7f9550ee5ca95b57",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-01T01:33:01+00:00",
+      "snapshot_at": "2026-06-01T01:46:41+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-01T01:33:01+00:00",
-      "updated_at": "2026-06-01T01:33:02.49007+00:00",
+      "last_seen_at": "2026-06-01T01:46:41+00:00",
+      "updated_at": "2026-06-01T01:46:42.902582+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3611,8 +3611,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 6.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 260,
-      "estimated_hours": 65.0,
+      "total_snapshots": 261,
+      "estimated_hours": 65.25,
       "active": true,
       "storage": "supabase"
     },
@@ -4056,10 +4056,10 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "f5736da22118ad2dc4f261dc",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-01T01:33:01+00:00",
+      "snapshot_at": "2026-06-01T01:46:41+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-06-01T01:33:01+00:00",
-      "updated_at": "2026-06-01T01:33:02.49007+00:00",
+      "last_seen_at": "2026-06-01T01:46:41+00:00",
+      "updated_at": "2026-06-01T01:46:42.902582+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4075,8 +4075,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 5.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 306,
-      "estimated_hours": 76.5,
+      "total_snapshots": 307,
+      "estimated_hours": 76.75,
       "active": true,
       "storage": "supabase"
     },
@@ -4709,8 +4709,8 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 112,
-        "Alto": 29,
+        "Moderado": 111,
+        "Alto": 30,
         "Baixo": 5
       },
       "dailyRisk": [
@@ -4760,7 +4760,7 @@
           "date": "2026-06-01",
           "avgRisk": 43,
           "events": 6,
-          "maxRisk": 58
+          "maxRisk": 60
         }
       ]
     },
@@ -4782,8 +4782,8 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 112,
-        "Alto": 29,
+        "Moderado": 111,
+        "Alto": 30,
         "Baixo": 5
       },
       "dailyRisk": [
@@ -4833,7 +4833,7 @@
           "date": "2026-06-01",
           "avgRisk": 43,
           "events": 6,
-          "maxRisk": 58
+          "maxRisk": 60
         }
       ]
     },
@@ -4855,8 +4855,8 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 112,
-        "Alto": 29,
+        "Moderado": 111,
+        "Alto": 30,
         "Baixo": 5
       },
       "dailyRisk": [
@@ -4906,7 +4906,7 @@
           "date": "2026-06-01",
           "avgRisk": 43,
           "events": 6,
-          "maxRisk": 58
+          "maxRisk": 60
         }
       ]
     }
