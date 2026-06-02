@@ -1,27 +1,12 @@
 {
-  "updatedAt": "2026-06-02T22:47:02Z",
+  "updatedAt": "2026-06-02T22:47:15Z",
   "lookbackHours": 12.0,
-  "inputEvents": 5,
+  "inputEvents": 3,
   "keptEvents": 3,
-  "removedEvents": 2,
+  "removedEvents": 0,
   "plannedWindowPreserved": 1,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
-  "removedSample": [
-    {
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "road": "BR-265",
-      "source": "G1 + 2 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-05-30T09:01:14Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-174",
-      "road": "BR-174",
-      "source": "Portal Você Online",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-05-26T16:15:07Z"
-    }
-  ],
+  "removedSample": [],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
 }
