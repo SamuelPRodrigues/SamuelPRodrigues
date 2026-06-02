@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-282 é totalmente bloqueada após tombamento de carreta na Grande Florianópolis - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total; Notícias públicas - Estradas; Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-02T12:40:26Z; ativo há 3.9 h.",
+    "description": "BR-282 é totalmente bloqueada após tombamento de carreta na Grande Florianópolis - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total; Notícias públicas - Estradas; Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-02T12:40:26Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ1RsU1EtUnJ2LUlSek1TSmpxd2ZsWUlFWkUzX25OS2FseDRrZTBUN2s0UmRJN3dOYWx5WDB6Tno3TTQ4dk9ET1V1eE1fNUE0S3JkNjlTb3dNRVBkSFhDUF82Q0o4YUlXcldPLUl1eUJ6ZnV2V2s5elBBalhrd1R0SDBPbzhkc2NkWXo1YllPbVpTSzJReWRZYzNxc0tHSW9sZ1pjWkRLdkxtNHVOYnVCbTVVN1F3QQ",
     "headline": "BR-282 é totalmente bloqueada após tombamento de carreta na Grande Florianópolis - CBN Total",
     "newsDate": "Tue, 02 Jun 2026 12:40:26 GMT",
-    "updatedAt": "2026-06-02T16:32:18Z",
+    "updatedAt": "2026-06-02T16:45:50Z",
     "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ1RsU1EtUnJ2LUlSek1TSmpxd2ZsWUlFWkUzX25OS2FseDRrZTBUN2s0UmRJN3dOYWx5WDB6Tno3TTQ4dk9ET1V1eE1fNUE0S3JkNjlTb3dNRVBkSFhDUF82Q0o4YUlXcldPLUl1eUJ6ZnV2V2s5elBBalhrd1R0SDBPbzhkc2NkWXo1YllPbVpTSzJReWRZYzNxc0tHSW9sZ1pjWkRLdkxtNHVOYnVCbTVVN1F3QQ",
     "sources": [
       {
@@ -45,18 +45,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "4b5c86b7af903cbbcf81ecce",
     "event_id": "4b5c86b7af903cbbcf81ecce",
-    "newsFreshnessHours": 3.89,
+    "newsFreshnessHours": 4.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T12:40:26Z",
-    "last_seen_at": "2026-06-02T16:33:36Z",
-    "active_duration_hours": 3.89,
-    "active_duration_label": "3.9 h",
+    "last_seen_at": "2026-06-02T16:47:06Z",
+    "active_duration_hours": 4.11,
+    "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-02T16:33:36Z",
-    "news_signature": "453b2a52d294ea8f5ce81f01",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -73,7 +70,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Tombamento de caminhão com carga de toras mantém BR-282 totalmente interditada em Rancho Queimado - jornaljc.com.br. Período informado: 2026-06-02T12:58:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-02T12:58:32Z; ativo há 3.6 h.",
+    "description": "Tombamento de caminhão com carga de toras mantém BR-282 totalmente interditada em Rancho Queimado - jornaljc.com.br. Período informado: 2026-06-02T12:58:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-02T12:58:32Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,8 +83,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-02T16:32:23Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-02T16:45:54Z",
     "sources": [
       {
         "source": "Notícias públicas - jornaljc.com.br",
@@ -100,15 +97,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 3.58,
+    "newsFreshnessHours": 3.81,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T12:58:32Z",
-    "last_seen_at": "2026-06-02T16:33:36Z",
-    "active_duration_hours": 3.59,
-    "active_duration_label": "3.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-02T16:33:36Z",
-    "news_signature": "01045859ef216a0d2fc2acfa",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-02T16:47:06Z",
+    "active_duration_hours": 3.81,
+    "active_duration_label": "3.8 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
