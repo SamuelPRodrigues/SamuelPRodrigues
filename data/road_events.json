@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carretas tombam e deixam pista interditada na BR-163; um motorista morreu. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-02T13:15:36Z; ativo há 2.3 h.",
+    "description": "Carretas tombam e deixam pista interditada na BR-163; um motorista morreu. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-02T13:15:36Z; ativo há 2.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 2.3,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T13:15:36Z",
-    "last_seen_at": "2026-06-02T15:33:40Z",
-    "active_duration_hours": 2.3,
+    "last_seen_at": "2026-06-02T15:34:03Z",
+    "active_duration_hours": 2.31,
     "active_duration_label": "2.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c1a265eaf8afb9bae9566bd5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Tombamento de caminhão com carga de toras mantém BR-282 totalmente interditada em Rancho Queimado - jornaljc.com.br. Período informado: 2026-06-02T12:58:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-02T12:58:32Z; ativo há 2.6 h.",
+    "description": "Tombamento de caminhão com carga de toras mantém BR-282 totalmente interditada em Rancho Queimado - jornaljc.com.br. Período informado: 2026-06-02T12:58:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-02T12:58:32Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -88,9 +90,11 @@
     "newsFreshnessHours": 2.59,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T12:58:32Z",
-    "last_seen_at": "2026-06-02T15:33:40Z",
+    "last_seen_at": "2026-06-02T15:34:03Z",
     "active_duration_hours": 2.59,
     "active_duration_label": "2.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "558289ecfb6a7d44d09a495e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
