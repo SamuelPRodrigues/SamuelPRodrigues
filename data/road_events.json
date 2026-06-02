@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-282 é totalmente bloqueada após tombamento de carreta na Grande Florianópolis - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total; Notícias públicas - Estradas; Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-02T12:40:26Z; ativo há 11.1 h.",
+    "description": "BR-282 é totalmente bloqueada após tombamento de carreta na Grande Florianópolis - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total; Notícias públicas - Estradas; Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-02T12:40:26Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -52,8 +52,11 @@
     "active_duration_hours": 11.11,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-02T23:46:45Z",
+    "news_signature": "453b2a52d294ea8f5ce81f01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -70,7 +73,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - NoPontoSC; Notícias públicas - jornaljc.com.br; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 10.4 h.",
+    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - NoPontoSC; Notícias públicas - jornaljc.com.br; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -83,7 +86,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-02T23:45:35Z",
     "sources": [
       {
@@ -127,7 +130,10 @@
     "last_seen_at": "2026-06-02T23:46:45Z",
     "active_duration_hours": 10.39,
     "active_duration_label": "10.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-02T23:46:45Z",
+    "news_signature": "c334cc85b4e97d7b4979ab60",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -144,7 +150,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-06-03T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 8.9 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-06-03T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias.9 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 8.9 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -188,6 +194,9 @@
     "last_seen_at": "2026-06-02T23:46:45Z",
     "active_duration_hours": 212.78,
     "active_duration_label": "8.9 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-02T23:46:45Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
