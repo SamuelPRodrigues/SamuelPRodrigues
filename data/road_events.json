@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MG-030 é interditada pelo segundo dia consecutivo - Rede 98. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-02T22:20:00Z; ativo há 7.7 h.",
+    "description": "MG-030 é interditada pelo segundo dia consecutivo - Rede 98. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-02T22:20:00Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOemdtaXZILXZtanNNbFNWczNpbzVHUFdFRndycjJXTnliV3lNWnFCVG9lS3JhWkQxbDNFeVJ1dnd1OVMyc1F4bzQ5UjlkeEVqOUZVZGEtQmtxb1BpTDlyRmJUV1YyWFlfVC0zeFlRM0J2ak1jbTNmb25udW9sNnJPYXNlby1vMjQ",
     "headline": "MG-030 é interditada pelo segundo dia consecutivo - Rede 98",
     "newsDate": "Tue, 02 Jun 2026 22:20:00 GMT",
-    "updatedAt": "2026-06-03T06:02:12Z",
+    "updatedAt": "2026-06-03T06:15:36Z",
     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOemdtaXZILXZtanNNbFNWczNpbzVHUFdFRndycjJXTnliV3lNWnFCVG9lS3JhWkQxbDNFeVJ1dnd1OVMyc1F4bzQ5UjlkeEVqOUZVZGEtQmtxb1BpTDlyRmJUV1YyWFlfVC0zeFlRM0J2ak1jbTNmb25udW9sNnJPYXNlby1vMjQ",
     "sources": [
       {
@@ -33,18 +33,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "4940f0e6d889b8f71b742ced",
     "event_id": "4940f0e6d889b8f71b742ced",
-    "newsFreshnessHours": 7.72,
+    "newsFreshnessHours": 7.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T22:20:00Z",
-    "last_seen_at": "2026-06-03T06:03:27Z",
-    "active_duration_hours": 7.73,
-    "active_duration_label": "7.7 h",
+    "last_seen_at": "2026-06-03T06:16:51Z",
+    "active_duration_hours": 7.95,
+    "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-030",
-    "last_confirmed_at": "2026-06-03T06:03:27Z",
-    "news_signature": "421aef231b1dfe66c319c677",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "MG-030"
   }
 ]
