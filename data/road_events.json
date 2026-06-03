@@ -14,7 +14,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: NoPontoSC; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC; Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 11.4 h.",
+    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: NoPontoSC; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC; Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-03T00:45:34Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-03T01:01:57Z",
     "sources": [
       {
         "source": "NoPontoSC",
@@ -65,15 +65,12 @@
     "sourceCount": 5,
     "dedupedFrom": 5,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.64,
+    "newsFreshnessHours": 8.92,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T13:23:31Z",
-    "last_seen_at": "2026-06-03T00:46:45Z",
-    "active_duration_hours": 11.39,
-    "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-03T00:46:45Z",
-    "news_signature": "91d44400d67b04479d80eb98",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-03T01:03:07Z",
+    "active_duration_hours": 11.66,
+    "active_duration_label": "11.7 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
