@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.17,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-03T18:53:26Z",
-    "last_seen_at": "2026-06-03T19:03:36Z",
+    "last_seen_at": "2026-06-03T19:03:55Z",
     "active_duration_hours": 0.17,
     "active_duration_label": "10 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "acbba14e1dff6c1bd610b80d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte na PR-427, entre Lapa e Campo do Tenente, será interditada neste fim de semana - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-03T17:18:13Z; ativo há 1.8 h.",
+    "description": "Ponte na PR-427, entre Lapa e Campo do Tenente, será interditada neste fim de semana - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-03T17:18:13Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +86,12 @@
     "active_duration_hours": 1.76,
     "active_duration_label": "1.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-427"
+    "detectedRoad": "PR-427",
+    "last_confirmed_at": "2026-06-03T19:03:36Z",
+    "news_signature": "09ebcf95baae5b1f96899fb3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente com ônibus do Transcol e faixa da BR-101 é interditada, em Cariacica. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-03T12:06:07Z; ativo há 7.0 h.",
+    "description": "Motociclista morre em acidente com ônibus do Transcol e faixa da BR-101 é interditada, em Cariacica. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-03T12:06:07Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -129,7 +134,10 @@
     "active_duration_hours": 6.96,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-03T19:03:36Z",
+    "news_signature": "d708eb8f74edff58171b4e6c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
