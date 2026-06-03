@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MG-030 é interditada pelo segundo dia consecutivo - Rede 98. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-02T22:20:00Z; ativo há 10.7 h.",
+    "description": "MG-030 é interditada pelo segundo dia consecutivo - Rede 98. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-02T22:20:00Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-02T22:20:00Z",
     "last_seen_at": "2026-06-03T09:03:28Z",
-    "active_duration_hours": 10.72,
+    "active_duration_hours": 10.73,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-030"
+    "detectedRoad": "MG-030",
+    "last_confirmed_at": "2026-06-03T09:03:28Z",
+    "news_signature": "421aef231b1dfe66c319c677",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
