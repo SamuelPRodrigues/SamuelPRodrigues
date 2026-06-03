@@ -1,6 +1,51 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116 / PR-427",
+    "road": "BR-116 / PR-427",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte na PR-427, entre Lapa e Campo do Tenente, será interditada neste fim de semana - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-06-03T17:18:13Z; ativo há 1.5 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Estradas",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHRPazhBc2N5WENiQUhzQ0FPYUVtZXdRcjYxWnREWkZmRjJ6QUdTcC1XU3ltVEk3RF9QSFBIa0NiU0c2b3hGeVI0UVYyTmUtR1oxZTVZSDNjRFpnSjlWNmRzVS1ibmZ1Ul9JRDZJLWY0UmJ5OFBfWVc4RWtESnQxVXNFS0RhLXNPdDN4VkpNd0pCODNtY1EtS1N0ekJzTmYwb0c3SHR1bHRtcnM",
+    "headline": "Ponte na PR-427, entre Lapa e Campo do Tenente, será interditada neste fim de semana - Estradas",
+    "newsDate": "Wed, 03 Jun 2026 17:18:13 GMT",
+    "updatedAt": "2026-06-03T18:45:42Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHRPazhBc2N5WENiQUhzQ0FPYUVtZXdRcjYxWnREWkZmRjJ6QUdTcC1XU3ltVEk3RF9QSFBIa0NiU0c2b3hGeVI0UVYyTmUtR1oxZTVZSDNjRFpnSjlWNmRzVS1ibmZ1Ul9JRDZJLWY0UmJ5OFBfWVc4RWtESnQxVXNFS0RhLXNPdDN4VkpNd0pCODNtY1EtS1N0ekJzTmYwb0c3SHR1bHRtcnM",
+    "sources": [
+      {
+        "source": "Notícias públicas - Estradas",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHRPazhBc2N5WENiQUhzQ0FPYUVtZXdRcjYxWnREWkZmRjJ6QUdTcC1XU3ltVEk3RF9QSFBIa0NiU0c2b3hGeVI0UVYyTmUtR1oxZTVZSDNjRFpnSjlWNmRzVS1ibmZ1Ul9JRDZJLWY0UmJ5OFBfWVc4RWtESnQxVXNFS0RhLXNPdDN4VkpNd0pCODNtY1EtS1N0ekJzTmYwb0c3SHR1bHRtcnM",
+        "headline": "Ponte na PR-427, entre Lapa e Campo do Tenente, será interditada neste fim de semana - Estradas",
+        "date": "Wed, 03 Jun 2026 17:18:13 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "8a2363187e797cf78ee59582",
+    "event_id": "8a2363187e797cf78ee59582",
+    "newsFreshnessHours": 1.48,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-03T17:18:13Z",
+    "last_seen_at": "2026-06-03T18:46:55Z",
+    "active_duration_hours": 1.48,
+    "active_duration_label": "1.5 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "PR-427"
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-101",
     "road": "BR-101",
     "corridor": "Maceió • BR-101 / BR-104 / AL-101",
@@ -9,7 +54,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente com ônibus do Transcol e faixa da BR-101 é interditada, em Cariacica. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-06-03T12:06:07Z; ativo há 6.5 h.",
+    "description": "Motociclista morre em acidente com ônibus do Transcol e faixa da BR-101 é interditada, em Cariacica. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-03T12:06:07Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +63,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQald2dGFDZWdMbUZNMndoQmFuOElUeHM1WDFSWE15UTBIbDl0MnV2V2p6cmYzSThDbHVhLUkwak1tZzA4MVBqcC1aM0t3ajFoLXJ4eWJDazc2TVlybEtVaVNhLUNRdnBtT3ZjaUh3MUM3RWFFU1lhVDhadEdiNkJhRC0yNWJTMW5wWlZjSHpUelNoMWpBel9mWlVwOFp5dmFhVFh0dU9qNEU3VGVQeDRnc2tNaVBCUkFKQm54NzBmYUJzdk9Cc3R1MVgzbndrMzFUUGlGNjBUYTdGOU1PRVdvVWRoY3VOeWtra08wZGMzTHdZRUg40gGDAkFVX3lxTE1ZNTNzYUw1TUVZc2NIeDlxR21VTlBNRnhXQUJhajc4LXZCajFQc1gzWGN4cUxacFdPaE5hdzhwNGpvSmM5MkJTLTRCYTg5MHZsTU9wYXhUcFJOUTczSk5IeTE2MGhLdG5TWW0yQ3NjcjhLZGEtYkpRNEZaVWxQb0MzZW1lUDVZWUs3R0lQeGRXQi1CODZ1eG1CYlNzLWJocjEwUlh3UTFNa1o5cENmc1pPeWxEM1l0a0lESThTNjZmX3Zpa2l0OGU0aDdRZWdUZW9HQUZtZ2MzVG5mNW5qWGllMkRBdFlMUU10MF9fR3pYRWlnUTBtRnl2SGViSl9OUmJWMUE",
     "headline": "Motociclista morre em acidente com ônibus do Transcol e faixa da BR-101 é interditada, em Cariacica",
     "newsDate": "Wed, 03 Jun 2026 12:06:07 GMT",
-    "updatedAt": "2026-06-03T18:32:19Z",
+    "updatedAt": "2026-06-03T18:45:42Z",
     "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQald2dGFDZWdMbUZNMndoQmFuOElUeHM1WDFSWE15UTBIbDl0MnV2V2p6cmYzSThDbHVhLUkwak1tZzA4MVBqcC1aM0t3ajFoLXJ4eWJDazc2TVlybEtVaVNhLUNRdnBtT3ZjaUh3MUM3RWFFU1lhVDhadEdiNkJhRC0yNWJTMW5wWlZjSHpUelNoMWpBel9mWlVwOFp5dmFhVFh0dU9qNEU3VGVQeDRnc2tNaVBCUkFKQm54NzBmYUJzdk9Cc3R1MVgzbndrMzFUUGlGNjBUYTdGOU1PRVdvVWRoY3VOeWtra08wZGMzTHdZRUg40gGDAkFVX3lxTE1ZNTNzYUw1TUVZc2NIeDlxR21VTlBNRnhXQUJhajc4LXZCajFQc1gzWGN4cUxacFdPaE5hdzhwNGpvSmM5MkJTLTRCYTg5MHZsTU9wYXhUcFJOUTczSk5IeTE2MGhLdG5TWW0yQ3NjcjhLZGEtYkpRNEZaVWxQb0MzZW1lUDVZWUs3R0lQeGRXQi1CODZ1eG1CYlNzLWJocjEwUlh3UTFNa1o5cENmc1pPeWxEM1l0a0lESThTNjZmX3Zpa2l0OGU0aDdRZWdUZW9HQUZtZ2MzVG5mNW5qWGllMkRBdFlMUU10MF9fR3pYRWlnUTBtRnl2SGViSl9OUmJWMUE",
     "sources": [
       {
@@ -33,17 +78,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "fb0ba8ca60d46cd802b9b689",
     "event_id": "fb0ba8ca60d46cd802b9b689",
-    "newsFreshnessHours": 6.46,
+    "newsFreshnessHours": 6.68,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-03T12:06:07Z",
-    "last_seen_at": "2026-06-03T18:33:33Z",
-    "active_duration_hours": 6.46,
-    "active_duration_label": "6.5 h",
+    "last_seen_at": "2026-06-03T18:46:55Z",
+    "active_duration_hours": 6.68,
+    "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-03T18:33:33Z",
-    "news_signature": "d708eb8f74edff58171b4e6c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
