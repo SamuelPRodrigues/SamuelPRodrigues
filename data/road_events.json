@@ -14,7 +14,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: NoPontoSC; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC; Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 12.9 h.",
+    "description": "BR-282 permanece totalmente interditada em Rancho Queimado após tombamento de caminhão com carga de toras - NoPontoSC. Período informado: 2026-06-02T16:08:11Z até fim não identificado. Fontes consolidadas: NoPontoSC; Notícias públicas - jornalrazao.com; Notícias públicas - lerunica.com.br; Notícias públicas - ClicRDC; Notícias públicas - jornaljc.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-02T13:23:31Z; ativo há 12.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-03T02:15:42Z",
     "sources": [
       {
@@ -71,6 +71,9 @@
     "last_seen_at": "2026-06-03T02:16:57Z",
     "active_duration_hours": 12.89,
     "active_duration_label": "12.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-03T02:16:57Z",
+    "news_signature": "1e7731638bebbe9ec002340f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
