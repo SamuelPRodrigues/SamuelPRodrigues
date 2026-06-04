@@ -9,7 +9,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-060 tem novo trecho interditado e motoristas devem usar desvios entre Goiânia e Trindade - Diário de Goiás. Fontes consolidadas: Notícias públicas - Diário de Goiás. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-03T19:29:31Z; ativo há 10.6 h.",
+    "description": "GO-060 tem novo trecho interditado e motoristas devem usar desvios entre Goiânia e Trindade - Diário de Goiás. Fontes consolidadas: Notícias públicas - Diário de Goiás. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-03T19:29:31Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 10.57,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-03T19:29:31Z",
-    "last_seen_at": "2026-06-04T06:03:31Z",
+    "last_seen_at": "2026-06-04T06:03:46Z",
     "active_duration_hours": 10.57,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-060"
+    "detectedRoad": "GO-060",
+    "news_signature": "668ed15a93d9520a559b3595",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Caeté, na BR-364, será interditada para reparos após movimentação do solo. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Acre Agora; Notícias públicas - Portal Acre; Notícias públicas - muvucapopular.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-03T19:09:58Z; ativo há 10.9 h.",
+    "description": "Ponte sobre o Rio Caeté, na BR-364, será interditada para reparos após movimentação do solo. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Acre Agora; Notícias públicas - Portal Acre; Notícias públicas - muvucapopular.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-03T19:09:58Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,12 +101,14 @@
     "newsFreshnessHours": 10.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-03T19:09:58Z",
-    "last_seen_at": "2026-06-04T06:03:31Z",
-    "active_duration_hours": 10.89,
+    "last_seen_at": "2026-06-04T06:03:46Z",
+    "active_duration_hours": 10.9,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3027b87bcfd85baf9da63948",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -116,7 +120,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada temporariamente nesta sexta-feira (5) para nova detonação de rochas - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-03T18:53:26Z; ativo há 11.2 h.",
+    "description": "BR-304 será interditada temporariamente nesta sexta-feira (5) para nova detonação de rochas - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-03T18:53:26Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -147,7 +151,10 @@
     "active_duration_hours": 11.17,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T06:03:31Z",
+    "news_signature": "0ce909594185a7c2a08a5e6d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
