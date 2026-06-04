@@ -9,7 +9,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão pega fogo na BR-230 e trecho é interditado em Campina Grande. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-04T12:36:38Z; ativo há 41 min.",
+    "description": "Caminhão pega fogo na BR-230 e trecho é interditado em Campina Grande. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-04T12:36:38Z; ativo há 42 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T12:36:38Z",
     "last_seen_at": "2026-06-04T13:18:15Z",
-    "active_duration_hours": 0.69,
-    "active_duration_label": "41 min",
+    "active_duration_hours": 0.7,
+    "active_duration_label": "42 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T13:18:15Z",
+    "news_signature": "b8cef839630cf8cf3231e65a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
