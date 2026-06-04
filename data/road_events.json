@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-262 interditada: Motociclista morre após colidir com carreta em Domingos Martins - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-04T13:52:22Z; ativo há 7.9 h.",
+    "description": "BR-262 interditada: Motociclista morre após colidir com carreta em Domingos Martins - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-04T13:52:22Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T13:52:22Z",
     "last_seen_at": "2026-06-04T21:47:00Z",
-    "active_duration_hours": 7.91,
+    "active_duration_hours": 7.92,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T21:47:00Z",
+    "news_signature": "4008a5933b18e74f55e26217",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada temporariamente nesta sexta-feira (5) para nova detonação de rochas - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-03T18:53:26Z; ativo há 26.9 h.",
+    "description": "BR-304 será interditada temporariamente nesta sexta-feira (5) para nova detonação de rochas - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-03T18:53:26Z; ativo há 26.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-03T18:53:26Z",
     "last_seen_at": "2026-06-04T21:47:00Z",
-    "active_duration_hours": 26.89,
+    "active_duration_hours": 26.9,
     "active_duration_label": "26.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T21:47:00Z",
+    "news_signature": "ac9e56a0ac32b79573872e63",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão pega fogo na BR-230 e trecho é interditado em Campina Grande; VÍDEO. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Correio; Notícias públicas - O POVO PB; Notícias públicas - ParaibaOnline. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-04T12:36:38Z; ativo há 9.2 h.",
+    "description": "Caminhão pega fogo na BR-230 e trecho é interditado em Campina Grande; VÍDEO. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Correio; Notícias públicas - O POVO PB; Notícias públicas - ParaibaOnline. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-04T12:36:38Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -149,11 +155,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T12:36:38Z",
     "last_seen_at": "2026-06-04T21:47:00Z",
-    "active_duration_hours": 9.17,
+    "active_duration_hours": 9.18,
     "active_duration_label": "9.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T21:47:00Z",
+    "news_signature": "e1f63fa32490a1b2702039f3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -165,7 +174,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de carreta interdita trecho da Rodovia Fernão Dias em Minas - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-04T11:24:35Z; ativo há 10.4 h.",
+    "description": "Tombamento de carreta interdita trecho da Rodovia Fernão Dias em Minas - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-04T11:24:35Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -193,10 +202,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T11:24:35Z",
     "last_seen_at": "2026-06-04T21:47:00Z",
-    "active_duration_hours": 10.37,
+    "active_duration_hours": 10.38,
     "active_duration_label": "10.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-04T21:47:00Z",
+    "news_signature": "5771d250066c4033ee87c4a7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
