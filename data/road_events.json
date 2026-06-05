@@ -9,7 +9,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 terá trecho interditado, em Assú, nesta sexta-feira (5). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-05T00:54:26Z; ativo há 9.9 h.",
+    "description": "BR-304 terá trecho interditado, em Assú, nesta sexta-feira (5). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-05T00:54:26Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,7 +46,10 @@
     "active_duration_hours": 9.88,
     "active_duration_label": "9.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-05T10:47:06Z",
+    "news_signature": "1916a8d8250091a49a280931",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
