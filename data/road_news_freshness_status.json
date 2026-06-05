@@ -1,41 +1,12 @@
 {
-  "updatedAt": "2026-06-05T21:33:22Z",
+  "updatedAt": "2026-06-05T21:33:34Z",
   "lookbackHours": 12.0,
-  "inputEvents": 8,
+  "inputEvents": 4,
   "keptEvents": 4,
-  "removedEvents": 4,
+  "removedEvents": 0,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
-  "removedSample": [
-    {
-      "name": "Interdição planejada por notícia pública • BR-282",
-      "road": "BR-282",
-      "source": "NoPontoSC + 4 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-06-02T16:08:11Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "road": "BR-265",
-      "source": "G1 + 2 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-05-30T09:01:14Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-174",
-      "road": "BR-174",
-      "source": "Portal Você Online",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-05-26T16:15:07Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "road": "BR-265",
-      "source": "G1 + 1 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-05-26T16:00:06Z"
-    }
-  ],
+  "removedSample": [],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
 }
