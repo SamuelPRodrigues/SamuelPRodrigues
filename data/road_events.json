@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 36 min.",
+    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 52 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-05T14:45:44Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-05T15:02:16Z",
     "sources": [
       {
         "source": "Notícias públicas - Folha Vitória",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.59,
+    "newsFreshnessHours": 0.87,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T14:11:20Z",
-    "last_seen_at": "2026-06-05T14:46:56Z",
-    "active_duration_hours": 0.6,
-    "active_duration_label": "36 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-05T14:46:56Z",
-    "news_signature": "0d7352088e34ac5e22ce79c6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-05T15:03:26Z",
+    "active_duration_hours": 0.87,
+    "active_duration_label": "52 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
