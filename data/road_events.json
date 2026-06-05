@@ -9,7 +9,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-445: trecho entre Lerroville e Irerê será bloqueado na terça-feira (9) - Folha de Londrina - Folha de Londrina. Fontes consolidadas: Notícias públicas - Folha de Londrina. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-04T20:25:00Z; ativo há 9.7 h.",
+    "description": "PR-445: trecho entre Lerroville e Irerê será bloqueado na terça-feira (9) - Folha de Londrina - Folha de Londrina. Fontes consolidadas: Notícias públicas - Folha de Londrina. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-04T20:25:00Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 9.65,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T20:25:00Z",
-    "last_seen_at": "2026-06-05T06:03:46Z",
+    "last_seen_at": "2026-06-05T06:03:59Z",
     "active_duration_hours": 9.65,
     "active_duration_label": "9.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-445"
+    "detectedRoad": "PR-445",
+    "news_signature": "704111ca39039ff4f6b8bef2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alerta de Interdição: trecho da BR-330/BA permanece bloqueado após acidente - GOV.BR. Fontes consolidadas: Notícias públicas - GOV.BR. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-04T18:14:15Z; ativo há 11.8 h.",
+    "description": "Alerta de Interdição: trecho da BR-330/BA permanece bloqueado após acidente - GOV.BR. Fontes consolidadas: Notícias públicas - GOV.BR. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-04T18:14:15Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,12 +83,14 @@
     "newsFreshnessHours": 11.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-04T18:14:15Z",
-    "last_seen_at": "2026-06-05T06:03:46Z",
+    "last_seen_at": "2026-06-05T06:03:59Z",
     "active_duration_hours": 11.83,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3116af6a736c021629dd1eb9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +102,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 terá trecho interditado, em Assú, nesta sexta-feira (5). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TCM Notícia; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-05T00:54:26Z; ativo há 5.2 h.",
+    "description": "BR-304 terá trecho interditado, em Assú, nesta sexta-feira (5). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TCM Notícia; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-05T00:54:26Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -141,7 +145,10 @@
     "active_duration_hours": 5.16,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-05T06:03:46Z",
+    "news_signature": "58b941f7de547f155b832518",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
