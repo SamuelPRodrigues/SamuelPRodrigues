@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo: BR-116 é interditada após tombamento de carreta na Serra entre Teresópolis e Guapimirim - Agenda do Poder. Fontes consolidadas: Notícias públicas - Agenda do Poder. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-05T16:01:25Z; ativo há 17 min.",
+    "description": "Vídeo: BR-116 é interditada após tombamento de carreta na Serra entre Teresópolis e Guapimirim - Agenda do Poder. Fontes consolidadas: Notícias públicas - Agenda do Poder. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-05T16:01:25Z; ativo há 32 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFVYWHItYUo3MDRmNTN6WDdPQ285LWpKWGdERXVQMi1wVjV6dW5pNmFob2g5b0dDaC1OSFk5MTJ3NnVtbHZNdU9Pd3pEQ3VJRWVvNEhDUmVNR0p4emRDZ29WYnVJSDlzWnFiWFp3X0FYYWhqczU0UmQyd3pGOXJpcGhmSWFwS3RuUTUwWnF3RDhFRDVHcUVCM1ZZYzJMMlhjcW40SHp6UzRDYkpWdmI3QkxnR3BoUU80YkNiUENJeXY",
     "headline": "Vídeo: BR-116 é interditada após tombamento de carreta na Serra entre Teresópolis e Guapimirim - Agenda do Poder",
     "newsDate": "Fri, 05 Jun 2026 16:01:25 GMT",
-    "updatedAt": "2026-06-05T16:16:53Z",
+    "updatedAt": "2026-06-05T16:32:14Z",
     "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFVYWHItYUo3MDRmNTN6WDdPQ285LWpKWGdERXVQMi1wVjV6dW5pNmFob2g5b0dDaC1OSFk5MTJ3NnVtbHZNdU9Pd3pEQ3VJRWVvNEhDUmVNR0p4emRDZ29WYnVJSDlzWnFiWFp3X0FYYWhqczU0UmQyd3pGOXJpcGhmSWFwS3RuUTUwWnF3RDhFRDVHcUVCM1ZZYzJMMlhjcW40SHp6UzRDYkpWdmI3QkxnR3BoUU80YkNiUENJeXY",
     "sources": [
       {
@@ -33,17 +33,71 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "0f2d4bdc078721a6c19cbe67",
     "event_id": "0f2d4bdc078721a6c19cbe67",
-    "newsFreshnessHours": 0.28,
+    "newsFreshnessHours": 0.53,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T16:01:25Z",
-    "last_seen_at": "2026-06-05T16:18:24Z",
-    "active_duration_hours": 0.28,
-    "active_duration_label": "17 min",
+    "last_seen_at": "2026-06-05T16:33:29Z",
+    "active_duration_hours": 0.53,
+    "active_duration_label": "32 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "cc76f1a4f37e04cb0b998f6a",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-304",
+    "road": "BR-304",
+    "corridor": "Natal / Parnamirim • BR-101 / BR-304 / BR-226",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -5.795,
+    "lon": -35.209,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho da BR-304 será interditada para detonação de rochas nesta sexta-feira - rnnews.com.br. Fontes consolidadas: Notícias públicas - rnnews.com.br; Notícias públicas - G1; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-05T13:17:57Z; ativo há 3.3 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - rnnews.com.br + 2 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ05PWEtFS1VwM2lXcy1DQUhHTnhsQmRZNmVhMG13YTVKbzZTb3g2YTRCTFgxM0I2NENuMkl4dVdtRGtlY3F3NndZMi1xMWJ6NGY3RmRheFo1WkZQSUp5c0cyVkVxNHVvd1d2d0VzNE9HbUpNYXpHdm5KcW1INVhQcnRWdkdmdUtxU1I5TGFyOXVySWlGMGExT21qeERsVUZMeTZMdFY3SHRYczRaeDVr",
+    "headline": "Trecho da BR-304 será interditada para detonação de rochas nesta sexta-feira - rnnews.com.br",
+    "newsDate": "Fri, 05 Jun 2026 13:17:57 GMT",
+    "updatedAt": "2026-06-05T16:32:14Z",
+    "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ05PWEtFS1VwM2lXcy1DQUhHTnhsQmRZNmVhMG13YTVKbzZTb3g2YTRCTFgxM0I2NENuMkl4dVdtRGtlY3F3NndZMi1xMWJ6NGY3RmRheFo1WkZQSUp5c0cyVkVxNHVvd1d2d0VzNE9HbUpNYXpHdm5KcW1INVhQcnRWdkdmdUtxU1I5TGFyOXVySWlGMGExT21qeERsVUZMeTZMdFY3SHRYczRaeDVr",
+    "sources": [
+      {
+        "source": "Notícias públicas - rnnews.com.br",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ05PWEtFS1VwM2lXcy1DQUhHTnhsQmRZNmVhMG13YTVKbzZTb3g2YTRCTFgxM0I2NENuMkl4dVdtRGtlY3F3NndZMi1xMWJ6NGY3RmRheFo1WkZQSUp5c0cyVkVxNHVvd1d2d0VzNE9HbUpNYXpHdm5KcW1INVhQcnRWdkdmdUtxU1I5TGFyOXVySWlGMGExT21qeERsVUZMeTZMdFY3SHRYczRaeDVr",
+        "headline": "Trecho da BR-304 será interditada para detonação de rochas nesta sexta-feira - rnnews.com.br",
+        "date": "Fri, 05 Jun 2026 13:17:57 GMT"
+      },
+      {
+        "source": "Notícias públicas - G1",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdU9kcXlHOGx1OFNyN09FTy10bzFmendFQ0llb1pGbVNKWTEwVEVFaElTWVZRRnNDX05HWnROemRaWGdfUDFjR0JfT25GaHJWLVpCc2JlSWp6aUUxZEEwWHNOMElVT3BvUjZsUUFpTnlkNTJhNV9MakJBajRIZDY3QS02UV93OFBMZ2VBX2t6RFZGYUFQeEpxY1lpaXRNMFJqLXJwVXlSNndURjZ5MVhic3FEc3I3ekpPSFRyQTlDNFUxdFdack5rVWJVUWZvZ0w1LUVIUmFmdTlraE5M0gHrAUFVX3lxTE1XSlU5b3VaTVBhT3BtWW5RXzJKZjktTzhQRElhblZIRW5KQ0h0Vm11azk3N0tZdXZtWTVLd1dVdnFxalZ6Q015eEl2bXdhUTBydGk0dFhBM0VGTkI1UDIwUk41OWlrVVRES0VGMTF4TEkwdmNFQTYzdkI5M0N3VUZzeG1McnhiOHI0dmhWRFNQalNCZDhOSGw4MWhISFVlRXpZb3k3aW9TeVlpd3NGVmhCNWprcGJCNXVHVDBSRkxBeGl5eXJXMUkzc1NiQkUtTkNiaGhsa2NSQVBCTTFfTHQ4UTJTX1RvUG1ESUU",
+        "headline": "BR-304 terá trecho interditado, em Assú, nesta sexta-feira (5)",
+        "date": "Fri, 05 Jun 2026 00:54:26 GMT"
+      },
+      {
+        "source": "Notícias públicas - difusoramossoro.com.br",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeGpCR003QjFjNW9HY0JsVkctQk1sbnhYYkttdzFhamZtUEw5MWpZT2h4Q2NpUDFNTDJUNWJaSzNfSEE0MVBVUlhRV0ZZdmVlcGtnazNvUXFLNGZRcVp3a1ZyYlQ5NmpQdHVQWHdrdWhjUEJmN3lUNXF2N2M4NldpV1FBV09IR2dQS1pDYnI2UldENTgyMy1aYXNvMWJLTHRSWW81cEJVYTA5VXRGU1ZGQmhXdTVEZ3ZMOWhHQXVPTnhPdGxSek11dXVB",
+        "headline": "Trecho da BR-304 entre Mossoró e Assú será interditado para detonação de rochas nesta quinta-feira. - difusoramossoro.com.br",
+        "date": "Thu, 04 Jun 2026 13:29:16 GMT"
+      }
+    ],
+    "sourceCount": 3,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "88230e8b6ab9fc50f89ffa6f",
+    "event_id": "88230e8b6ab9fc50f89ffa6f",
+    "newsFreshnessHours": 3.26,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-05T13:17:57Z",
+    "last_seen_at": "2026-06-05T16:33:29Z",
+    "active_duration_hours": 3.26,
+    "active_duration_label": "3.3 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -60,7 +114,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 2.1 h.",
+    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -73,8 +127,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-05T16:16:58Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-05T16:32:18Z",
     "sources": [
       {
         "source": "Notícias públicas - Folha Vitória",
@@ -87,15 +141,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 2.11,
+    "newsFreshnessHours": 2.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T14:11:20Z",
-    "last_seen_at": "2026-06-05T16:18:09Z",
-    "active_duration_hours": 2.12,
-    "active_duration_label": "2.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-05T16:18:09Z",
-    "news_signature": "0d7352088e34ac5e22ce79c6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-05T16:33:29Z",
+    "active_duration_hours": 2.37,
+    "active_duration_label": "2.4 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
