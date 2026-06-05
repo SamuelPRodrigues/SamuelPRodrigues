@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo: BR-116 é interditada após tombamento de carreta na Serra entre Teresópolis e Guapimirim - Agenda do Poder. Fontes consolidadas: Notícias públicas - Agenda do Poder. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-05T16:01:25Z; ativo há 3.0 h.",
+    "description": "Vídeo: BR-116 é interditada após tombamento de carreta na Serra entre Teresópolis e Guapimirim - Agenda do Poder. Fontes consolidadas: Notícias públicas - Agenda do Poder. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-05T16:01:25Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 3.03,
     "active_duration_label": "3.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-05T19:03:11Z",
+    "news_signature": "cc76f1a4f37e04cb0b998f6a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-304 será interditada para detonação de rochas nesta sexta-feira - rnnews.com.br. Fontes consolidadas: Notícias públicas - rnnews.com.br; Notícias públicas - G1; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-05T13:17:57Z; ativo há 5.8 h.",
+    "description": "Trecho da BR-304 será interditada para detonação de rochas nesta sexta-feira - rnnews.com.br. Fontes consolidadas: Notícias públicas - rnnews.com.br; Notícias públicas - G1; Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-05T13:17:57Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,11 +96,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T13:17:57Z",
     "last_seen_at": "2026-06-05T19:03:11Z",
-    "active_duration_hours": 5.75,
+    "active_duration_hours": 5.76,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-05T19:03:11Z",
+    "news_signature": "20af68fd4114f951701a659d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira fecha trecho da Serra Dona Francisca e afeta trânsito na SC-418 - sctododia. Fontes consolidadas: Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-05T12:15:23Z; ativo há 6.8 h.",
+    "description": "Queda de barreira fecha trecho da Serra Dona Francisca e afeta trânsito na SC-418 - sctododia. Fontes consolidadas: Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-05T12:15:23Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,9 +146,12 @@
     "active_duration_hours": 6.8,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-06-05T19:03:11Z",
+    "news_signature": "f1a979f3a7b3b0ddb69a3301",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -159,7 +168,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 4.9 h.",
+    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -172,7 +181,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-05T19:02:00Z",
     "sources": [
       {
@@ -190,8 +199,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T14:11:20Z",
     "last_seen_at": "2026-06-05T19:03:11Z",
-    "active_duration_hours": 4.86,
+    "active_duration_hours": 4.87,
     "active_duration_label": "4.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-05T19:03:11Z",
+    "news_signature": "0d7352088e34ac5e22ce79c6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
