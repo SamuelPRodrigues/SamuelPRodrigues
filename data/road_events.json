@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "26cdd0a943598ec319af1789",
+    "stable_event_id": "26cdd0a943598ec319af1789",
+    "name": "Interdição planejada por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "city": "Maceió",
+    "state": "AL",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 5 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Folha Vitória",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+    "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória",
+    "newsDate": "2026-06-05T14:11:20Z",
+    "plannedStartAt": "2026-06-05T14:11:20Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-05T14:15:49Z",
+    "sources": [
+      {
+        "source": "Notícias públicas - Folha Vitória",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+        "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória",
+        "date": "Fri, 05 Jun 2026 14:11:20 GMT"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 0.09,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-05T14:11:20Z",
+    "last_seen_at": "2026-06-05T14:17:01Z",
+    "active_duration_hours": 0.09,
+    "active_duration_label": "5 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
