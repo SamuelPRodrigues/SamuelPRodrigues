@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 9.9 h.",
+    "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória. Período informado: 2026-06-05T14:11:20Z até fim não identificado. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-05T14:11:20Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 9.86,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-05T14:11:20Z",
-    "last_seen_at": "2026-06-06T00:03:07Z",
-    "active_duration_hours": 9.86,
+    "last_seen_at": "2026-06-06T00:03:21Z",
+    "active_duration_hours": 9.87,
     "active_duration_label": "9.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "752aa9c6a23a0516d7e67d4f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
