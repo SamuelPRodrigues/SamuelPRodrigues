@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:47:01Z",
+  "updatedAt": "2026-06-06T00:03:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -60,6 +60,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "26cdd0a943598ec319af1789",
+      "stable_event_id": "26cdd0a943598ec319af1789",
+      "observation_hash": "cfb117775b20d33bd220c0e6",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
+      "first_seen_at": "2026-06-05T14:16:56+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "BR-101",
+      "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.",
+      "source": "Folha Vitória",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+      "total_snapshots": 45,
+      "estimated_hours": 11.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+      "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.",
+      "sources": [
+        {
+          "source": "Folha Vitória",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
+          "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.",
+          "date": "2026-06-06T00:03:04.871473+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "0f2d4bdc078721a6c19cbe67",
@@ -201,49 +244,6 @@
           "source": "Notícias públicas - sctododia",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeDFTNUZkSmx6Qjd6bm5QSUZ5MHRqYnVSQUdsNkJDdGtNS2FHTEl3NHYyYXhsRnpuWEpLSDZyR3BuSHhTU0Q1cG5GLVRONGxTa2k0MjAzLUhCa0hjRzd1ajNwUzZOSkFTeERqT3dJdl9XUThvWm9Ed1hnQktwUkpzTmdLSXM4Q1FtbUtNVG05S05lTllQTFlTU2dxU2ZNbXYwZWdQY2k4S29GMnVk",
           "headline": "Queda de barreira fecha trecho da Serra Dona Francisca e afeta trânsito na SC-418 - sctododia.",
-          "date": "2026-06-05T23:46:58.489416+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "26cdd0a943598ec319af1789",
-      "stable_event_id": "26cdd0a943598ec319af1789",
-      "observation_hash": "4331dcaf00ce4e4079bf794a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
-      "first_seen_at": "2026-06-05T14:16:56+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-101",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "BR-101",
-      "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Folha Vitória",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
-      "total_snapshots": 44,
-      "estimated_hours": 11.0,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
-      "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.",
-      "sources": [
-        {
-          "source": "Notícias públicas - Folha Vitória",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
-          "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.",
           "date": "2026-06-05T23:46:58.489416+00:00"
         }
       ],
@@ -2382,10 +2382,10 @@
       "stable_event_id": "a55da2883acd143278548819",
       "observation_hash": "4ef9dc048148e3c56ab4eada",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
       "first_seen_at": "2026-05-27T20:16:47+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2401,8 +2401,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 9.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 315,
-      "estimated_hours": 78.75,
+      "total_snapshots": 316,
+      "estimated_hours": 79.0,
       "active": true,
       "storage": "supabase"
     },
@@ -2904,10 +2904,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "1c5fc974599c1c33de466d55",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2923,8 +2923,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 11.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 680,
-      "estimated_hours": 170.0,
+      "total_snapshots": 681,
+      "estimated_hours": 170.25,
       "active": true,
       "storage": "supabase"
     },
@@ -3600,10 +3600,10 @@
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "26ee73d84a02a6bb8d7a3986",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3619,8 +3619,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 10.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 414,
-      "estimated_hours": 103.5,
+      "total_snapshots": 415,
+      "estimated_hours": 103.75,
       "active": true,
       "storage": "supabase"
     },
@@ -5253,10 +5253,10 @@
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "bb7db28b1a7fd194f4889824",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5272,8 +5272,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 11.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 417,
-      "estimated_hours": 104.25,
+      "total_snapshots": 418,
+      "estimated_hours": 104.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5659,10 +5659,10 @@
       "stable_event_id": "770292d906636e18edaa18dc",
       "observation_hash": "435bb447d47d12f74e8b3e4e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:46:57+00:00",
+      "snapshot_at": "2026-06-06T00:03:03+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-06-05T23:46:57+00:00",
-      "updated_at": "2026-06-05T23:46:58.489416+00:00",
+      "last_seen_at": "2026-06-06T00:03:03+00:00",
+      "updated_at": "2026-06-06T00:03:04.871473+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5678,8 +5678,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 10.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 688,
-      "estimated_hours": 172.0,
+      "total_snapshots": 689,
+      "estimated_hours": 172.25,
       "active": true,
       "storage": "supabase"
     },
@@ -5889,12 +5889,12 @@
   ],
   "windows": {
     "7": {
-      "events": 105,
+      "events": 104,
       "avgRisk": 47,
       "maxRisk": 78,
       "rainChance": 0,
       "byType": {
-        "climate": 76,
+        "climate": 75,
         "road": 27,
         "operational": 2
       },
@@ -5903,11 +5903,11 @@
         "Sudeste": 26,
         "Sul": 22,
         "Norte": 22,
-        "Centro-Oeste": 6,
+        "Centro-Oeste": 5,
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 66,
+        "Moderado": 65,
         "Alto": 29,
         "Baixo": 10
       },
@@ -5915,7 +5915,7 @@
         {
           "date": "2026-05-30",
           "avgRisk": 44,
-          "events": 11,
+          "events": 10,
           "maxRisk": 69
         },
         {
@@ -5950,8 +5950,14 @@
         },
         {
           "date": "2026-06-05",
-          "avgRisk": 41,
-          "events": 48,
+          "avgRisk": 40,
+          "events": 42,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-06",
+          "avgRisk": 44,
+          "events": 6,
           "maxRisk": 69
         }
       ]
@@ -6048,8 +6054,14 @@
         },
         {
           "date": "2026-06-05",
-          "avgRisk": 41,
-          "events": 48,
+          "avgRisk": 40,
+          "events": 42,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-06",
+          "avgRisk": 44,
+          "events": 6,
           "maxRisk": 69
         }
       ]
@@ -6146,8 +6158,14 @@
         },
         {
           "date": "2026-06-05",
-          "avgRisk": 41,
-          "events": 48,
+          "avgRisk": 40,
+          "events": 42,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-06",
+          "avgRisk": 44,
+          "events": 6,
           "maxRisk": 69
         }
       ]
