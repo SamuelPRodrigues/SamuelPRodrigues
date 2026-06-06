@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381, em MG, é interditada após caminhão carregado de combustível tombar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-06T11:57:00Z; ativo há 11.1 h.",
+    "description": "BR-381, em MG, é interditada após caminhão carregado de combustível tombar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-06T11:57:00Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 11.11,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-06T23:03:31Z",
+    "news_signature": "5474173f55839a199b532cda",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra Dona Francisca será totalmente bloqueada nesta segunda-feira na SC-418 - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-06T13:03:07Z; ativo há 10.0 h.",
+    "description": "Serra Dona Francisca será totalmente bloqueada nesta segunda-feira na SC-418 - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-06T13:03:07Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,9 +93,12 @@
     "active_duration_hours": 10.01,
     "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-06-06T23:03:31Z",
+    "news_signature": "e1bd25753f880e05dd8c0598",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 3.4 h.",
+    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,7 +128,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-06T23:02:18Z",
     "sources": [
       {
@@ -154,6 +160,9 @@
     "last_seen_at": "2026-06-06T23:03:31Z",
     "active_duration_hours": 3.43,
     "active_duration_label": "3.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-06T23:03:31Z",
+    "news_signature": "2842f0f5ba77f1af5eaca45a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
