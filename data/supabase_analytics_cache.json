@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:03:07Z",
+  "updatedAt": "2026-06-06T00:16:55Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -64,12 +64,12 @@
     {
       "event_id": "26cdd0a943598ec319af1789",
       "stable_event_id": "26cdd0a943598ec319af1789",
-      "observation_hash": "cfb117775b20d33bd220c0e6",
+      "observation_hash": "ac49fb9b5b71652790d4174d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-06T00:03:03+00:00",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
       "first_seen_at": "2026-06-05T14:16:56+00:00",
-      "last_seen_at": "2026-06-06T00:03:03+00:00",
-      "updated_at": "2026-06-06T00:03:04.871473+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -85,8 +85,8 @@
       "description": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.",
       "source": "Folha Vitória",
       "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
-      "total_snapshots": 45,
-      "estimated_hours": 11.25,
+      "total_snapshots": 46,
+      "estimated_hours": 11.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +97,7 @@
           "source": "Folha Vitória",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXVJNk9lalRZNUZ6ZWRHcnZ2RzRpdVdxNlFrV2FBNzgxeVBaR2xtdzFNbUZQUFo1T3lkRnIwZFZXS3IyYlVpWHprTHZVM0pOY3kxQUtNLXJHQ2JlQlpCcE1xcnRKaTlya3gxb196SHQzZklKQkxiWUoyVmp3YjJIMWwzZlJzejZmQXJOcDdMNFRLZWpXVGU4UHZlNEgyWVVhTGk4Y214SkZFVXNXR0tldURzYVpPcUNJRk0xQUtMWmJ4Q1hYODdv",
           "headline": "BR-101 será totalmente interditada no Sul do ES para explosão de rochas; veja o horário - Folha Vitória.",
-          "date": "2026-06-06T00:03:04.871473+00:00"
+          "date": "2026-06-06T00:16:52.142724+00:00"
         }
       ],
       "sourceCount": 1,
@@ -2320,6 +2320,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "5fa2d3b705b27721ba81a565",
+      "stable_event_id": "5fa2d3b705b27721ba81a565",
+      "observation_hash": "12feeb280de13267f4dc714b",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Aracaju",
+      "risk": 61,
+      "severity": "Alto",
+      "lat": -10.947,
+      "lon": -37.073,
+      "city": "Aracaju",
+      "state": "SE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 11.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 252,
+      "estimated_hours": 63.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -2380,17 +2409,17 @@
     {
       "event_id": "a55da2883acd143278548819",
       "stable_event_id": "a55da2883acd143278548819",
-      "observation_hash": "4ef9dc048148e3c56ab4eada",
+      "observation_hash": "bd8f749297bf37c5ad560cca",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-06T00:03:03+00:00",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
       "first_seen_at": "2026-05-27T20:16:47+00:00",
-      "last_seen_at": "2026-06-06T00:03:03+00:00",
-      "updated_at": "2026-06-06T00:03:04.871473+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Altamira",
-      "risk": 57,
+      "risk": 56,
       "severity": "Moderado",
       "lat": -3.203,
       "lon": -52.206,
@@ -2398,11 +2427,11 @@
       "state": "PA",
       "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 9.1 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 9.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 316,
-      "estimated_hours": 79.0,
+      "total_snapshots": 317,
+      "estimated_hours": 79.25,
       "active": true,
       "storage": "supabase"
     },
@@ -2606,35 +2635,6 @@
       "source_url": "",
       "total_snapshots": 6,
       "estimated_hours": 1.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "5fa2d3b705b27721ba81a565",
-      "stable_event_id": "5fa2d3b705b27721ba81a565",
-      "observation_hash": "7fe62bc4f18fa57a51f6ff55",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T22:03:15+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-05T22:03:15+00:00",
-      "updated_at": "2026-06-05T22:03:17.005176+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Aracaju",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -10.947,
-      "lon": -37.073,
-      "city": "Aracaju",
-      "state": "SE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 10.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 251,
-      "estimated_hours": 62.75,
       "active": true,
       "storage": "supabase"
     },
@@ -2904,10 +2904,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "1c5fc974599c1c33de466d55",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-06T00:03:03+00:00",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-06T00:03:03+00:00",
-      "updated_at": "2026-06-06T00:03:04.871473+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2923,8 +2923,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 11.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 681,
-      "estimated_hours": 170.25,
+      "total_snapshots": 682,
+      "estimated_hours": 170.5,
       "active": true,
       "storage": "supabase"
     },
@@ -3596,35 +3596,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "26ee73d84a02a6bb8d7a3986",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-06T00:03:03+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-06T00:03:03+00:00",
-      "updated_at": "2026-06-06T00:03:04.871473+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 10.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 415,
-      "estimated_hours": 103.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "2569a381fe8a1abed1056a48",
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "1204cd3fb16015f3666d660f",
@@ -4172,6 +4143,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "c57907039bbc8d5feefdc9df",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 10.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 416,
+      "estimated_hours": 104.0,
       "active": true,
       "storage": "supabase"
     },
@@ -5019,12 +5019,12 @@
     {
       "event_id": "4aeff1b5cdfa54777fe8051f",
       "stable_event_id": "4aeff1b5cdfa54777fe8051f",
-      "observation_hash": "219850f491600c5ac6cea686",
+      "observation_hash": "05ba339fb01c44c23855c25f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-05T23:03:13+00:00",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
       "first_seen_at": "2026-05-26T06:17:45+00:00",
-      "last_seen_at": "2026-06-05T23:03:13+00:00",
-      "updated_at": "2026-06-05T23:03:15.223028+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5037,11 +5037,11 @@
       "state": "AM",
       "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 10.7 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 10.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 352,
-      "estimated_hours": 88.0,
+      "total_snapshots": 353,
+      "estimated_hours": 88.25,
       "active": true,
       "storage": "supabase"
     },
@@ -5659,10 +5659,10 @@
       "stable_event_id": "770292d906636e18edaa18dc",
       "observation_hash": "435bb447d47d12f74e8b3e4e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-06T00:03:03+00:00",
+      "snapshot_at": "2026-06-06T00:16:51+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-06-06T00:03:03+00:00",
-      "updated_at": "2026-06-06T00:03:04.871473+00:00",
+      "last_seen_at": "2026-06-06T00:16:51+00:00",
+      "updated_at": "2026-06-06T00:16:52.142724+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5678,8 +5678,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 10.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 689,
-      "estimated_hours": 172.25,
+      "total_snapshots": 690,
+      "estimated_hours": 172.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5907,8 +5907,8 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 65,
-        "Alto": 29,
+        "Moderado": 64,
+        "Alto": 30,
         "Baixo": 10
       },
       "dailyRisk": [
@@ -5951,13 +5951,13 @@
         {
           "date": "2026-06-05",
           "avgRisk": 40,
-          "events": 42,
+          "events": 40,
           "maxRisk": 69
         },
         {
           "date": "2026-06-06",
-          "avgRisk": 44,
-          "events": 6,
+          "avgRisk": 45,
+          "events": 8,
           "maxRisk": 69
         }
       ]
@@ -5981,8 +5981,8 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 112,
-        "Alto": 53,
+        "Moderado": 111,
+        "Alto": 54,
         "Baixo": 10
       },
       "dailyRisk": [
@@ -6055,13 +6055,13 @@
         {
           "date": "2026-06-05",
           "avgRisk": 40,
-          "events": 42,
+          "events": 40,
           "maxRisk": 69
         },
         {
           "date": "2026-06-06",
-          "avgRisk": 44,
-          "events": 6,
+          "avgRisk": 45,
+          "events": 8,
           "maxRisk": 69
         }
       ]
@@ -6085,8 +6085,8 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 112,
-        "Alto": 53,
+        "Moderado": 111,
+        "Alto": 54,
         "Baixo": 10
       },
       "dailyRisk": [
@@ -6159,13 +6159,13 @@
         {
           "date": "2026-06-05",
           "avgRisk": 40,
-          "events": 42,
+          "events": 40,
           "maxRisk": 69
         },
         {
           "date": "2026-06-06",
-          "avgRisk": 44,
-          "events": 6,
+          "avgRisk": 45,
+          "events": 8,
           "maxRisk": 69
         }
       ]
