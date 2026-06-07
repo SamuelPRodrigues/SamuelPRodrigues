@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Incêndio após acidente deixa BR-282 bloqueada e gera filas de 8 km na Serra Catarinense - Visor Notícias. Fontes consolidadas: Notícias públicas - Visor Notícias; Notícias públicas - NSC Total; Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-07T13:54:44Z; ativo há 7.4 h.",
+    "description": "Incêndio após acidente deixa BR-282 bloqueada e gera filas de 8 km na Serra Catarinense - Visor Notícias. Fontes consolidadas: Notícias públicas - Visor Notícias; Notícias públicas - NSC Total; Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-07T13:54:44Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1didlFxaUMzQzMxNG15TlA3bnY1S1hwNE9yWFFOUnFqcmlCM2QyS19YNXd0ckxwN3BBanpLZVZrU0RIMkFob1BYVUVPZGdzb1lpeGNiMGk3dElkcjNnYkt4dl9YU2RuRUVCWEhZRjl3dDQtZXhnRHBIMDdsTC1aTVNaT1JWaEtMVy1DcEhlZF9GTUxaQjV3WTJLLWdlaFdvOEdKbjFFZEVwUHQ3dHlqSl9SOGE1RWY0",
     "headline": "Incêndio após acidente deixa BR-282 bloqueada e gera filas de 8 km na Serra Catarinense - Visor Notícias",
     "newsDate": "Sun, 07 Jun 2026 13:54:44 GMT",
-    "updatedAt": "2026-06-07T21:15:35Z",
+    "updatedAt": "2026-06-07T21:30:45Z",
     "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1didlFxaUMzQzMxNG15TlA3bnY1S1hwNE9yWFFOUnFqcmlCM2QyS19YNXd0ckxwN3BBanpLZVZrU0RIMkFob1BYVUVPZGdzb1lpeGNiMGk3dElkcjNnYkt4dl9YU2RuRUVCWEhZRjl3dDQtZXhnRHBIMDdsTC1aTVNaT1JWaEtMVy1DcEhlZF9GTUxaQjV3WTJLLWdlaFdvOEdKbjFFZEVwUHQ3dHlqSl9SOGE1RWY0",
     "sources": [
       {
@@ -45,17 +45,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "0fac111649f6813ec0134b1c",
     "event_id": "0fac111649f6813ec0134b1c",
-    "newsFreshnessHours": 7.37,
+    "newsFreshnessHours": 7.62,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-07T13:54:44Z",
-    "last_seen_at": "2026-06-07T21:16:48Z",
-    "active_duration_hours": 7.37,
-    "active_duration_label": "7.4 h",
+    "last_seen_at": "2026-06-07T21:31:59Z",
+    "active_duration_hours": 7.62,
+    "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-07T21:16:48Z",
-    "news_signature": "3e4dc26d6ed541a0ddd5bce5",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
