@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 6.7 h.",
+    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-06-07T02:15:37Z",
+    "updatedAt": "2026-06-07T02:31:56Z",
     "sources": [
       {
         "source": "G1",
@@ -53,12 +53,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 6.65,
+    "newsFreshnessHours": 6.92,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-06T19:37:52Z",
-    "last_seen_at": "2026-06-07T02:16:48Z",
-    "active_duration_hours": 6.65,
-    "active_duration_label": "6.7 h",
+    "last_seen_at": "2026-06-07T02:33:09Z",
+    "active_duration_hours": 6.92,
+    "active_duration_label": "6.9 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
