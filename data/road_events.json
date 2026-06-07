@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 4.4 h.",
+    "description": "Caminhão pega fogo e deixa BR-365 totalmente interditada em Patrocínio; veja rota alternativa. Período informado: 2026-06-06T19:37:52Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Grupo Jota Sidney. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-06T19:37:52Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -56,9 +56,11 @@
     "newsFreshnessHours": 4.42,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-06T19:37:52Z",
-    "last_seen_at": "2026-06-07T00:03:01Z",
+    "last_seen_at": "2026-06-07T00:03:15Z",
     "active_duration_hours": 4.42,
     "active_duration_label": "4.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "14bb1347efacb501a2e79362",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
