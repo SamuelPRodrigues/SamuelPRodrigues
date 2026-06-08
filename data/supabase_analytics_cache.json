@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T07:03:36Z",
+  "updatedAt": "2026-06-08T07:16:55Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -2541,35 +2541,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "554021f5434490a857b89c43",
-      "stable_event_id": "554021f5434490a857b89c43",
-      "observation_hash": "e33c327385362fa8c8901162",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
-      "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Macapá",
-      "risk": 66,
-      "severity": "Alto",
-      "lat": 0.035,
-      "lon": -51.07,
-      "city": "Macapá",
-      "state": "AP",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 13.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 753,
-      "estimated_hours": 188.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -2624,6 +2595,35 @@
       "source_url": "",
       "total_snapshots": 21,
       "estimated_hours": 5.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "52259929d3b21bf912b47175",
+      "stable_event_id": "52259929d3b21bf912b47175",
+      "observation_hash": "358d2157822a759ab3f77ab6",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Pelotas",
+      "risk": 56,
+      "severity": "Moderado",
+      "lat": -31.765,
+      "lon": -52.337,
+      "city": "Pelotas",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 88,
+      "estimated_hours": 22.0,
       "active": true,
       "storage": "supabase"
     },
@@ -3067,10 +3067,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "3ffe17a92de4a50a6a9b0be9",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3086,8 +3086,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 13.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 912,
-      "estimated_hours": 228.0,
+      "total_snapshots": 913,
+      "estimated_hours": 228.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "57a64278cbd624610c5498e1",
+      "stable_event_id": "57a64278cbd624610c5498e1",
+      "observation_hash": "8bd9bba3de016a140b28efff",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "João Pessoa",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": -7.119,
+      "lon": -34.845,
+      "city": "João Pessoa",
+      "state": "PB",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 692,
+      "estimated_hours": 173.0,
       "active": true,
       "storage": "supabase"
     },
@@ -3117,35 +3146,6 @@
       "source_url": "",
       "total_snapshots": 509,
       "estimated_hours": 127.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "57a64278cbd624610c5498e1",
-      "stable_event_id": "57a64278cbd624610c5498e1",
-      "observation_hash": "220a2656234f1c781d32cb36",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "João Pessoa",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -7.119,
-      "lon": -34.845,
-      "city": "João Pessoa",
-      "state": "PB",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 13.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 691,
-      "estimated_hours": 172.75,
       "active": true,
       "storage": "supabase"
     },
@@ -3819,12 +3819,12 @@
     {
       "event_id": "94eba1bea36aeec0d426f14d",
       "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "f1c7cd63268fc0be30b3f801",
+      "observation_hash": "7f68e96cf01b6d47371554af",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3840,37 +3840,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 13.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 145,
-      "estimated_hours": 36.25,
+      "total_snapshots": 146,
+      "estimated_hours": 36.5,
       "active": true,
       "storage": "supabase"
     },
     {
-      "event_id": "f13e2269fc4592f622f09fc2",
-      "stable_event_id": "f13e2269fc4592f622f09fc2",
-      "observation_hash": "f4050007dd0e9ff16efb59c4",
+      "event_id": "554021f5434490a857b89c43",
+      "stable_event_id": "554021f5434490a857b89c43",
+      "observation_hash": "6d4ccb3124c0e5b739927fb0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T02:17:52+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Passo Fundo",
+      "name": "Macapá",
       "risk": 41,
       "severity": "Moderado",
-      "lat": -28.262,
-      "lon": -52.408,
-      "city": "Passo Fundo",
-      "state": "RS",
-      "region": "Sul",
+      "lat": 0.035,
+      "lon": -51.07,
+      "city": "Macapá",
+      "state": "AP",
+      "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 13.3 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 13.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 137,
-      "estimated_hours": 34.25,
+      "total_snapshots": 754,
+      "estimated_hours": 188.5,
       "active": true,
       "storage": "supabase"
     },
@@ -3879,10 +3879,10 @@
       "stable_event_id": "cccfff4bc2c909d44ee82c74",
       "observation_hash": "990330db3cf8f607130dec78",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3898,8 +3898,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 13.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 639,
-      "estimated_hours": 159.75,
+      "total_snapshots": 640,
+      "estimated_hours": 160.0,
       "active": true,
       "storage": "supabase"
     },
@@ -4103,35 +4103,6 @@
       "source_url": "",
       "total_snapshots": 309,
       "estimated_hours": 77.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "5cca55e4ca30532da426bf44",
-      "stable_event_id": "5cca55e4ca30532da426bf44",
-      "observation_hash": "890eb43700f8a8ec062d5983",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-01T14:03:30+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-01T14:03:30+00:00",
-      "updated_at": "2026-06-01T14:03:31.541167+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Porto Alegre",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -30.034,
-      "lon": -51.217,
-      "city": "Porto Alegre",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 6.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 154,
-      "estimated_hours": 38.5,
       "active": true,
       "storage": "supabase"
     },
@@ -4397,6 +4368,64 @@
       "storage": "supabase"
     },
     {
+      "event_id": "f13e2269fc4592f622f09fc2",
+      "stable_event_id": "f13e2269fc4592f622f09fc2",
+      "observation_hash": "55d98be23e21b96606da79ef",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Passo Fundo",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -28.262,
+      "lon": -52.408,
+      "city": "Passo Fundo",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 138,
+      "estimated_hours": 34.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "833c194f23ed10ea96e00b30",
+      "stable_event_id": "833c194f23ed10ea96e00b30",
+      "observation_hash": "2aceb3a6c5e51d526a6de272",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rio Grande",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -32.034,
+      "lon": -52.098,
+      "city": "Rio Grande",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 87,
+      "estimated_hours": 21.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "175f98924a2c739dfcd6eac5",
       "stable_event_id": "175f98924a2c739dfcd6eac5",
       "observation_hash": "7de1186277791910306fa771",
@@ -4422,35 +4451,6 @@
       "source_url": "",
       "total_snapshots": 586,
       "estimated_hours": 146.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "833c194f23ed10ea96e00b30",
-      "stable_event_id": "833c194f23ed10ea96e00b30",
-      "observation_hash": "f40bafd40edca02528c4b397",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rio Grande",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -32.034,
-      "lon": -52.098,
-      "city": "Rio Grande",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 13.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 86,
-      "estimated_hours": 21.5,
       "active": true,
       "storage": "supabase"
     },
@@ -4977,35 +4977,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "52259929d3b21bf912b47175",
-      "stable_event_id": "52259929d3b21bf912b47175",
-      "observation_hash": "42485cd5995336e47e2e9f0c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Pelotas",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -31.765,
-      "lon": -52.337,
-      "city": "Pelotas",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 13.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 87,
-      "estimated_hours": 21.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "13d939eb1f55840857661190",
@@ -5089,35 +5060,6 @@
       "source_url": "",
       "total_snapshots": 4,
       "estimated_hours": 1.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "9b86c406e5987317c955096d",
-      "stable_event_id": "9b86c406e5987317c955096d",
-      "observation_hash": "0a1ffde3d355271b2bfda5ab",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-30T03:03:17+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-05-30T03:03:17+00:00",
-      "updated_at": "2026-05-30T03:03:17.941887+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Foz do Iguaçu",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -25.546,
-      "lon": -54.588,
-      "city": "Foz do Iguaçu",
-      "state": "PR",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 4.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 27,
-      "estimated_hours": 6.75,
       "active": true,
       "storage": "supabase"
     },
@@ -5325,6 +5267,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "5cca55e4ca30532da426bf44",
+      "stable_event_id": "5cca55e4ca30532da426bf44",
+      "observation_hash": "61e04543e518a8a7797b977e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Porto Alegre",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -30.034,
+      "lon": -51.217,
+      "city": "Porto Alegre",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 155,
+      "estimated_hours": 38.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "4aeff1b5cdfa54777fe8051f",
       "stable_event_id": "4aeff1b5cdfa54777fe8051f",
       "observation_hash": "72ee2c100d6ce880f5945aae",
@@ -5528,35 +5499,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "81996c61139cfa5997723f54",
-      "stable_event_id": "81996c61139cfa5997723f54",
-      "observation_hash": "3eee43a3c7892919bf1b950c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-07T21:03:12+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-07T21:03:12+00:00",
-      "updated_at": "2026-06-07T21:03:13.037168+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Criciúma",
-      "risk": 38,
-      "severity": "Moderado",
-      "lat": -28.672,
-      "lon": -49.373,
-      "city": "Criciúma",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 12.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 143,
-      "estimated_hours": 35.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "701c07ab341aaede4be27552",
       "stable_event_id": "701c07ab341aaede4be27552",
       "observation_hash": "f17c2162c478338e855e4ec9",
@@ -5702,14 +5644,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "9b86c406e5987317c955096d",
+      "stable_event_id": "9b86c406e5987317c955096d",
+      "observation_hash": "3ebf086dfee213fd8cd43bb0",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Foz do Iguaçu",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -25.546,
+      "lon": -54.588,
+      "city": "Foz do Iguaçu",
+      "state": "PR",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 28,
+      "estimated_hours": 7.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "07816ebe0d21148d66395a6f",
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "7fa77a86c6216a9cf4a12615",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T07:03:31+00:00",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T07:03:31+00:00",
-      "updated_at": "2026-06-08T07:03:32.675388+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5725,8 +5696,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 13.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 229,
-      "estimated_hours": 57.25,
+      "total_snapshots": 230,
+      "estimated_hours": 57.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5901,6 +5872,35 @@
       "source_url": "",
       "total_snapshots": 11,
       "estimated_hours": 2.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "81996c61139cfa5997723f54",
+      "stable_event_id": "81996c61139cfa5997723f54",
+      "observation_hash": "0e7c8daa7fb34f6a55846158",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T07:16:50+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-06-08T07:16:50+00:00",
+      "updated_at": "2026-06-08T07:16:51.796794+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Criciúma",
+      "risk": 36,
+      "severity": "Moderado",
+      "lat": -28.672,
+      "lon": -49.373,
+      "city": "Criciúma",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 13.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 144,
+      "estimated_hours": 36.0,
       "active": true,
       "storage": "supabase"
     },
@@ -6110,32 +6110,148 @@
   ],
   "windows": {
     "7": {
-      "events": 98,
+      "events": 99,
       "avgRisk": 49,
       "maxRisk": 78,
       "rainChance": 0,
       "byType": {
-        "climate": 68,
+        "climate": 69,
         "road": 28,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 28,
         "Sudeste": 24,
-        "Sul": 23,
+        "Sul": 24,
         "Norte": 20,
         "Centro-Oeste": 2,
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 63,
-        "Alto": 31,
+        "Moderado": 65,
+        "Alto": 30,
         "Baixo": 4
       },
       "dailyRisk": [
         {
           "date": "2026-06-01",
-          "avgRisk": 53,
+          "avgRisk": 56,
+          "events": 4,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-02",
+          "avgRisk": 62,
+          "events": 4,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-03",
+          "avgRisk": 57,
+          "events": 10,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-04",
+          "avgRisk": 58,
+          "events": 15,
+          "maxRisk": 78
+        },
+        {
+          "date": "2026-06-05",
+          "avgRisk": 44,
+          "events": 16,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-06",
+          "avgRisk": 61,
+          "events": 6,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-07",
+          "avgRisk": 44,
+          "events": 24,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-08",
+          "avgRisk": 41,
+          "events": 20,
+          "maxRisk": 56
+        }
+      ]
+    },
+    "30": {
+      "events": 180,
+      "avgRisk": 49,
+      "maxRisk": 78,
+      "rainChance": 27,
+      "byType": {
+        "climate": 123,
+        "road": 55,
+        "operational": 2
+      },
+      "byRegion": {
+        "Sul": 45,
+        "Sudeste": 43,
+        "Nordeste": 43,
+        "Norte": 39,
+        "Centro-Oeste": 7,
+        "Sem região": 3
+      },
+      "bySeverity": {
+        "Moderado": 117,
+        "Alto": 58,
+        "Baixo": 5
+      },
+      "dailyRisk": [
+        {
+          "date": "2026-05-25",
+          "avgRisk": 47,
+          "events": 27,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-26",
+          "avgRisk": 52,
+          "events": 27,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-27",
+          "avgRisk": 51,
+          "events": 11,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-28",
+          "avgRisk": 69,
+          "events": 2,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-29",
+          "avgRisk": 69,
+          "events": 2,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-30",
+          "avgRisk": 44,
+          "events": 9,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-05-31",
+          "avgRisk": 54,
+          "events": 2,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-06-01",
+          "avgRisk": 58,
           "events": 5,
           "maxRisk": 69
         },
@@ -6171,137 +6287,21 @@
         },
         {
           "date": "2026-06-07",
-          "avgRisk": 43,
-          "events": 25,
+          "avgRisk": 44,
+          "events": 24,
           "maxRisk": 69
         },
         {
           "date": "2026-06-08",
-          "avgRisk": 42,
-          "events": 17,
-          "maxRisk": 66
-        }
-      ]
-    },
-    "30": {
-      "events": 180,
-      "avgRisk": 50,
-      "maxRisk": 78,
-      "rainChance": 27,
-      "byType": {
-        "climate": 123,
-        "road": 55,
-        "operational": 2
-      },
-      "byRegion": {
-        "Sul": 45,
-        "Sudeste": 43,
-        "Nordeste": 43,
-        "Norte": 39,
-        "Centro-Oeste": 7,
-        "Sem região": 3
-      },
-      "bySeverity": {
-        "Moderado": 116,
-        "Alto": 59,
-        "Baixo": 5
-      },
-      "dailyRisk": [
-        {
-          "date": "2026-05-25",
-          "avgRisk": 47,
-          "events": 27,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-26",
-          "avgRisk": 52,
-          "events": 27,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-27",
-          "avgRisk": 51,
-          "events": 11,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-28",
-          "avgRisk": 69,
-          "events": 2,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-29",
-          "avgRisk": 69,
-          "events": 2,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-30",
-          "avgRisk": 44,
-          "events": 10,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-05-31",
-          "avgRisk": 54,
-          "events": 2,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-01",
-          "avgRisk": 56,
-          "events": 6,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-02",
-          "avgRisk": 62,
-          "events": 4,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-03",
-          "avgRisk": 57,
-          "events": 10,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-04",
-          "avgRisk": 58,
-          "events": 15,
-          "maxRisk": 78
-        },
-        {
-          "date": "2026-06-05",
-          "avgRisk": 44,
-          "events": 16,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-06",
-          "avgRisk": 61,
-          "events": 6,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-07",
-          "avgRisk": 43,
-          "events": 25,
-          "maxRisk": 69
-        },
-        {
-          "date": "2026-06-08",
-          "avgRisk": 42,
-          "events": 17,
-          "maxRisk": 66
+          "avgRisk": 41,
+          "events": 20,
+          "maxRisk": 56
         }
       ]
     },
     "90": {
       "events": 180,
-      "avgRisk": 50,
+      "avgRisk": 49,
       "maxRisk": 78,
       "rainChance": 27,
       "byType": {
@@ -6318,8 +6318,8 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 116,
-        "Alto": 59,
+        "Moderado": 117,
+        "Alto": 58,
         "Baixo": 5
       },
       "dailyRisk": [
@@ -6356,7 +6356,7 @@
         {
           "date": "2026-05-30",
           "avgRisk": 44,
-          "events": 10,
+          "events": 9,
           "maxRisk": 69
         },
         {
@@ -6367,8 +6367,8 @@
         },
         {
           "date": "2026-06-01",
-          "avgRisk": 56,
-          "events": 6,
+          "avgRisk": 58,
+          "events": 5,
           "maxRisk": 69
         },
         {
@@ -6403,15 +6403,15 @@
         },
         {
           "date": "2026-06-07",
-          "avgRisk": 43,
-          "events": 25,
+          "avgRisk": 44,
+          "events": 24,
           "maxRisk": 69
         },
         {
           "date": "2026-06-08",
-          "avgRisk": 42,
-          "events": 17,
-          "maxRisk": 66
+          "avgRisk": 41,
+          "events": 20,
+          "maxRisk": 56
         }
       ]
     }
