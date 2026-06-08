@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T23:45:18Z",
+  "updatedAt": "2026-06-08T00:01:49Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -7,19 +7,19 @@
   "maxRoadBlockingRisk": 69,
   "monitoredPoints": 130,
   "bboxRequestsPlanned": 130,
-  "bboxRequestsSucceeded": 0,
-  "rawIncidents": 0,
-  "eventsWritten": 5,
-  "skippedFinishedOrInvalid": 0,
-  "skippedNonBlocking": 0,
+  "bboxRequestsSucceeded": 44,
+  "rawIncidents": 384,
+  "eventsWritten": 0,
+  "skippedFinishedOrInvalid": 258,
+  "skippedNonBlocking": 126,
   "skippedLocalStreet": 0,
-  "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 2,
-  "publicFallbackRequestFailures": 1,
-  "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 5,
+  "publicFallbackUsed": false,
+  "publicFallbackRequestsSucceeded": 0,
+  "publicFallbackRequestFailures": 0,
+  "publicFallbackRawArticles": 0,
+  "publicFallbackEventsWritten": 0,
   "publicFallbackSkippedNoCorridor": 0,
-  "publicFallbackSkippedReleased": 6,
+  "publicFallbackSkippedReleased": 0,
   "keptPreviousOnApiFailure": false,
   "errors": [
     {
@@ -74,16 +74,6 @@
     },
     {
       "bbox": [
-        -36.723,
-        -9.495,
-        -36.543,
-        -9.315
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -51.16,
         -0.055,
         -50.98,
@@ -114,40 +104,10 @@
     },
     {
       "bbox": [
-        -60.111,
-        -3.209,
-        -59.931,
-        -3.029
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -58.534,
         -3.233,
         -58.354,
         -3.053
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -60.711,
-        -3.389,
-        -60.531,
-        -3.209
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -63.11,
-        -7.596,
-        -62.93,
-        -7.416
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -174,16 +134,6 @@
     },
     {
       "bbox": [
-        -40.934,
-        -14.951,
-        -40.754,
-        -14.771
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -39.37,
         -14.883,
         -39.19,
@@ -194,40 +144,10 @@
     },
     {
       "bbox": [
-        -45.08,
-        -12.242,
-        -44.9,
-        -12.062
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -40.593,
-        -9.506,
-        -40.413,
-        -9.326
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -38.616,
         -3.821,
         -38.436,
         -3.641
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -40.44,
-        -3.779,
-        -40.26,
-        -3.599
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -294,16 +214,6 @@
     },
     {
       "bbox": [
-        -41.202,
-        -20.938,
-        -41.022,
-        -20.758
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -40.72,
         -19.629,
         -40.54,
@@ -318,16 +228,6 @@
         -16.776,
         -49.174,
         -16.596
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -49.043,
-        -16.418,
-        -48.863,
-        -16.238
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -374,16 +274,6 @@
     },
     {
       "bbox": [
-        -47.567,
-        -5.616,
-        -47.387,
-        -5.436
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -47.59,
         -5.036,
         -47.41,
@@ -404,40 +294,10 @@
     },
     {
       "bbox": [
-        -46.125,
-        -7.622,
-        -45.945,
-        -7.442
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -56.187,
         -15.691,
         -56.007,
         -15.511
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -54.728,
-        -16.557,
-        -54.548,
-        -16.377
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -55.592,
-        -11.954,
-        -55.412,
-        -11.774
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -468,26 +328,6 @@
         -20.559,
         -54.53,
         -20.379
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -54.895,
-        -22.311,
-        -54.715,
-        -22.131
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -51.79,
-        -20.874,
-        -51.61,
-        -20.694
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -584,30 +424,10 @@
     },
     {
       "bbox": [
-        -48.58,
-        -1.545,
-        -48.4,
-        -1.365
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -48.011,
         -1.386,
         -47.831,
         -1.206
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -54.798,
-        -2.533,
-        -54.618,
-        -2.353
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -644,50 +464,10 @@
     },
     {
       "bbox": [
-        -35.971,
-        -7.32,
-        -35.791,
-        -7.14
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -37.37,
-        -7.114,
-        -37.19,
-        -6.934
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -38.651,
-        -6.979,
-        -38.471,
-        -6.799
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -49.363,
         -25.518,
         -49.183,
         -25.338
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -51.259,
-        -23.394,
-        -51.079,
-        -23.214
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -728,16 +508,6 @@
         -25.636,
         -54.498,
         -25.456
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -51.552,
-        -25.48,
-        -51.372,
-        -25.3
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -788,26 +558,6 @@
         -8.98,
         -36.402,
         -8.8
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -42.893,
-        -5.181,
-        -42.713,
-        -5.001
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -41.865,
-        -2.995,
-        -41.685,
-        -2.815
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -874,16 +624,6 @@
     },
     {
       "bbox": [
-        -41.408,
-        -21.852,
-        -41.228,
-        -21.672
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -44.189,
         -22.61,
         -44.009,
@@ -914,60 +654,10 @@
     },
     {
       "bbox": [
-        -35.299,
-        -5.885,
-        -35.119,
-        -5.705
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -37.434,
-        -5.277,
-        -37.254,
-        -5.097
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -37.187,
         -6.549,
         -37.007,
         -6.369
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -51.307,
-        -30.124,
-        -51.127,
-        -29.944
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -51.269,
-        -29.258,
-        -51.089,
-        -29.078
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -52.427,
-        -31.855,
-        -52.247,
-        -31.675
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -994,70 +684,10 @@
     },
     {
       "bbox": [
-        -52.188,
-        -32.125,
-        -52.008,
-        -31.945
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -57.179,
         -29.844,
         -56.999,
         -29.664
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -63.991,
-        -8.851,
-        -63.811,
-        -8.671
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -62.022,
-        -10.967,
-        -61.842,
-        -10.787
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -63.131,
-        -10.003,
-        -62.951,
-        -9.823
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -60.235,
-        -12.831,
-        -60.055,
-        -12.651
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -60.765,
-        2.734,
-        -60.585,
-        2.914
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -1124,30 +754,10 @@
     },
     {
       "bbox": [
-        -52.705,
-        -27.19,
-        -52.525,
-        -27.01
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -49.463,
         -28.762,
         -49.283,
         -28.582
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -50.416,
-        -27.905,
-        -50.236,
-        -27.725
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -1174,16 +784,6 @@
     },
     {
       "bbox": [
-        -46.423,
-        -24.05,
-        -46.243,
-        -23.87
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -47.9,
         -21.267,
         -47.72,
@@ -1198,16 +798,6 @@
         -23.279,
         -45.794,
         -23.099
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -47.548,
-        -23.591,
-        -47.368,
-        -23.411
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -1244,16 +834,6 @@
     },
     {
       "bbox": [
-        -37.163,
-        -11.037,
-        -36.983,
-        -10.857
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -37.515,
         -10.775,
         -37.335,
@@ -1284,30 +864,10 @@
     },
     {
       "bbox": [
-        -48.424,
-        -10.274,
-        -48.244,
-        -10.094
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
         -48.297,
         -7.282,
         -48.117,
         -7.102
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -49.158,
-        -11.818,
-        -48.978,
-        -11.638
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
@@ -1321,7 +881,6 @@
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    "gdelt-fallback: HTTP Error 429: Too Many Requests"
+    }
   ]
 }
