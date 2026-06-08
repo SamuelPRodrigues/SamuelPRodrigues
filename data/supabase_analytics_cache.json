@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T01:03:06Z",
+  "updatedAt": "2026-06-08T01:16:52Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -2541,35 +2541,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "acc13dfdbd9aefcd00355715",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T01:03:02+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-06-08T01:03:02+00:00",
-      "updated_at": "2026-06-08T01:03:03.908304+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 62,
-      "severity": "Alto",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 12.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 555,
-      "estimated_hours": 138.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -2624,6 +2595,35 @@
       "source_url": "",
       "total_snapshots": 21,
       "estimated_hours": 5.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "94eba1bea36aeec0d426f14d",
+      "stable_event_id": "94eba1bea36aeec0d426f14d",
+      "observation_hash": "5b1de38fb359e579abf7cf9d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
+      "first_seen_at": "2026-05-26T03:18:15+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santa Maria",
+      "risk": 58,
+      "severity": "Moderado",
+      "lat": -29.686,
+      "lon": -53.806,
+      "city": "Santa Maria",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 12.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 120,
+      "estimated_hours": 30.0,
       "active": true,
       "storage": "supabase"
     },
@@ -2889,35 +2889,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "cccfff4bc2c909d44ee82c74",
-      "stable_event_id": "cccfff4bc2c909d44ee82c74",
-      "observation_hash": "3785c8637f6f63eb6aa4c4a5",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-07T16:02:48+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-07T16:02:48+00:00",
-      "updated_at": "2026-06-07T16:02:49.938579+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santarém",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -2.443,
-      "lon": -54.708,
-      "city": "Santarém",
-      "state": "PA",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 12.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 621,
-      "estimated_hours": 155.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "32351db9c1a47893713d6d70",
       "stable_event_id": "32351db9c1a47893713d6d70",
       "observation_hash": "0b1e9f7cfd3cc7a159388ba6",
@@ -2980,10 +2951,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "8bf64fc57b09a13752f7f0f2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T01:03:02+00:00",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-08T01:03:02+00:00",
-      "updated_at": "2026-06-08T01:03:03.908304+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -2999,8 +2970,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 13.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 886,
-      "estimated_hours": 221.5,
+      "total_snapshots": 887,
+      "estimated_hours": 221.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "57a64278cbd624610c5498e1",
+      "stable_event_id": "57a64278cbd624610c5498e1",
+      "observation_hash": "a197124c30540fe71ff79644",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "João Pessoa",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -7.119,
+      "lon": -34.845,
+      "city": "João Pessoa",
+      "state": "PB",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 13.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 670,
+      "estimated_hours": 167.5,
       "active": true,
       "storage": "supabase"
     },
@@ -3030,35 +3030,6 @@
       "source_url": "",
       "total_snapshots": 110,
       "estimated_hours": 27.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "57a64278cbd624610c5498e1",
-      "stable_event_id": "57a64278cbd624610c5498e1",
-      "observation_hash": "539cc0345ff0eba6c665c7ba",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T01:03:02+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-08T01:03:02+00:00",
-      "updated_at": "2026-06-08T01:03:03.908304+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "João Pessoa",
-      "risk": 44,
-      "severity": "Moderado",
-      "lat": -7.119,
-      "lon": -34.845,
-      "city": "João Pessoa",
-      "state": "PB",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 13.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 669,
-      "estimated_hours": 167.25,
       "active": true,
       "storage": "supabase"
     },
@@ -3933,35 +3904,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "94eba1bea36aeec0d426f14d",
-      "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "0781d4dc80ac64549229685c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T01:03:02+00:00",
-      "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-06-08T01:03:02+00:00",
-      "updated_at": "2026-06-08T01:03:03.908304+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santa Maria",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -29.686,
-      "lon": -53.806,
-      "city": "Santa Maria",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 12.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 119,
-      "estimated_hours": 29.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "91f25bd66eda67407d02f69b",
       "stable_event_id": "91f25bd66eda67407d02f69b",
       "observation_hash": "3dd48644e76bc404543b3b90",
@@ -4480,6 +4422,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "cccfff4bc2c909d44ee82c74",
+      "stable_event_id": "cccfff4bc2c909d44ee82c74",
+      "observation_hash": "9359d6d15d10e16699dd9842",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santarém",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -2.443,
+      "lon": -54.708,
+      "city": "Santarém",
+      "state": "PA",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 13.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 622,
+      "estimated_hours": 155.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5006,6 +4977,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "9055ebd0a3e53b37297d0cf2",
+      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
+      "observation_hash": "5ef8ddbdb5c2d77ab2ab3918",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Boa Vista",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": 2.824,
+      "lon": -60.675,
+      "city": "Boa Vista",
+      "state": "RR",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 13.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 724,
+      "estimated_hours": 181.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1e7b30ba66890a70624ba3de",
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "02f6908634eb5573bd60e0b9",
@@ -5350,6 +5350,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "2d379ced10eaecd69c162c97",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-08T01:16:49+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-06-08T01:16:49+00:00",
+      "updated_at": "2026-06-08T01:16:49.71718+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 12.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 556,
+      "estimated_hours": 139.0,
       "active": true,
       "storage": "supabase"
     },
@@ -6077,35 +6106,6 @@
       "estimated_hours": 7.5,
       "active": true,
       "storage": "supabase"
-    },
-    {
-      "event_id": "9055ebd0a3e53b37297d0cf2",
-      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "3a59a91d472b9e16782dd993",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-08T01:03:02+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-08T01:03:02+00:00",
-      "updated_at": "2026-06-08T01:03:03.908304+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Boa Vista",
-      "risk": 4,
-      "severity": "Baixo",
-      "lat": 2.824,
-      "lon": -60.675,
-      "city": "Boa Vista",
-      "state": "RR",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 13.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 723,
-      "estimated_hours": 180.75,
-      "active": true,
-      "storage": "supabase"
     }
   ],
   "windows": {
@@ -6128,9 +6128,9 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 62,
-        "Alto": 32,
-        "Baixo": 5
+        "Moderado": 64,
+        "Alto": 31,
+        "Baixo": 4
       },
       "dailyRisk": [
         {
@@ -6172,20 +6172,20 @@
         {
           "date": "2026-06-07",
           "avgRisk": 43,
-          "events": 32,
+          "events": 31,
           "maxRisk": 69
         },
         {
           "date": "2026-06-08",
-          "avgRisk": 39,
-          "events": 8,
-          "maxRisk": 62
+          "avgRisk": 43,
+          "events": 9,
+          "maxRisk": 58
         }
       ]
     },
     "30": {
       "events": 180,
-      "avgRisk": 49,
+      "avgRisk": 50,
       "maxRisk": 78,
       "rainChance": 27,
       "byType": {
@@ -6202,9 +6202,9 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 115,
-        "Alto": 59,
-        "Baixo": 6
+        "Moderado": 117,
+        "Alto": 58,
+        "Baixo": 5
       },
       "dailyRisk": [
         {
@@ -6288,20 +6288,20 @@
         {
           "date": "2026-06-07",
           "avgRisk": 43,
-          "events": 32,
+          "events": 31,
           "maxRisk": 69
         },
         {
           "date": "2026-06-08",
-          "avgRisk": 39,
-          "events": 8,
-          "maxRisk": 62
+          "avgRisk": 43,
+          "events": 9,
+          "maxRisk": 58
         }
       ]
     },
     "90": {
       "events": 180,
-      "avgRisk": 49,
+      "avgRisk": 50,
       "maxRisk": 78,
       "rainChance": 27,
       "byType": {
@@ -6318,9 +6318,9 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 115,
-        "Alto": 59,
-        "Baixo": 6
+        "Moderado": 117,
+        "Alto": 58,
+        "Baixo": 5
       },
       "dailyRisk": [
         {
@@ -6404,14 +6404,14 @@
         {
           "date": "2026-06-07",
           "avgRisk": 43,
-          "events": 32,
+          "events": 31,
           "maxRisk": 69
         },
         {
           "date": "2026-06-08",
-          "avgRisk": 39,
-          "events": 8,
-          "maxRisk": 62
+          "avgRisk": 43,
+          "events": 9,
+          "maxRisk": 58
         }
       ]
     }
