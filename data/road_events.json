@@ -9,7 +9,7 @@
     "lat": -10.947,
     "lon": -37.073,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-386 segue interditada em Sarandi e congestionamento se estende por quilômetros - radiominuano.com.br. Fontes consolidadas: Notícias públicas - radiominuano.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-08T19:06:00Z; ativo há 4.8 h.",
+    "description": "BR-386 segue interditada em Sarandi e congestionamento se estende por quilômetros - radiominuano.com.br. Fontes consolidadas: Notícias públicas - radiominuano.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-08T19:06:00Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 4.78,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-08T23:52:44Z",
+    "news_signature": "e4e3b4ce829ee14234c5a779",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 é interditada para reconstituição de acidente que matou jovem motociclista em Guarujá do Sul - WH3. Fontes consolidadas: Notícias públicas - WH3. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-08T18:07:00Z; ativo há 5.8 h.",
+    "description": "BR-163 é interditada para reconstituição de acidente que matou jovem motociclista em Guarujá do Sul - WH3. Fontes consolidadas: Notícias públicas - WH3. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-08T18:07:00Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-08T18:07:00Z",
     "last_seen_at": "2026-06-08T23:52:44Z",
-    "active_duration_hours": 5.76,
+    "active_duration_hours": 5.77,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-08T23:52:44Z",
+    "news_signature": "2d55d89f6fa559e47a427587",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre dois ônibus deixa faixa da Dutra temporariamente interditada - Diário de Suzano. Fontes consolidadas: Notícias públicas - Diário de Suzano. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-08T13:32:00Z; ativo há 10.3 h.",
+    "description": "Acidente entre dois ônibus deixa faixa da Dutra temporariamente interditada - Diário de Suzano. Fontes consolidadas: Notícias públicas - Diário de Suzano. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-08T13:32:00Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,7 +134,10 @@
     "active_duration_hours": 10.35,
     "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-08T23:52:44Z",
+    "news_signature": "301fd671c756b3d060470f80",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
