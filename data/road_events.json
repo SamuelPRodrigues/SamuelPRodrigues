@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-251",
+    "road": "BR-251",
+    "corridor": "Montes Claros • BR-251 / BR-135 / BR-365",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -16.728,
+    "lon": -43.858,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Explosão de Carreta Interdita BR-251 em Minas Gerais - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-09T12:02:09Z; ativo há 10.7 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - diário do estado",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNnY5Ym1xRXpqUDNNWTZUaWQyc0VEYk9xNGlRbHRURlpqNklGbllrSks2VW5iUHFJR3RZX2drazl5and0ZUlXYm1LV056ZWdFOHh5NDcwMll5MGZ0S1MzbDBmN3lvM3oxZk1EektlMi1rTzRZMmNXdFZkWm53NmJCTTlZcFlmUTNhd3l6cW9B",
+    "headline": "Explosão de Carreta Interdita BR-251 em Minas Gerais - diário do estado",
+    "newsDate": "Tue, 09 Jun 2026 12:02:09 GMT",
+    "updatedAt": "2026-06-09T22:42:54Z",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNnY5Ym1xRXpqUDNNWTZUaWQyc0VEYk9xNGlRbHRURlpqNklGbllrSks2VW5iUHFJR3RZX2drazl5and0ZUlXYm1LV056ZWdFOHh5NDcwMll5MGZ0S1MzbDBmN3lvM3oxZk1EektlMi1rTzRZMmNXdFZkWm53NmJCTTlZcFlmUTNhd3l6cW9B",
+    "sources": [
+      {
+        "source": "Notícias públicas - diário do estado",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNnY5Ym1xRXpqUDNNWTZUaWQyc0VEYk9xNGlRbHRURlpqNklGbllrSks2VW5iUHFJR3RZX2drazl5and0ZUlXYm1LV056ZWdFOHh5NDcwMll5MGZ0S1MzbDBmN3lvM3oxZk1EektlMi1rTzRZMmNXdFZkWm53NmJCTTlZcFlmUTNhd3l6cW9B",
+        "headline": "Explosão de Carreta Interdita BR-251 em Minas Gerais - diário do estado",
+        "date": "Tue, 09 Jun 2026 12:02:09 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "ab85871ceb991f3407baae84",
+    "event_id": "ab85871ceb991f3407baae84",
+    "newsFreshnessHours": 10.7,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-09T12:02:09Z",
+    "last_seen_at": "2026-06-09T22:44:09Z",
+    "active_duration_hours": 10.7,
+    "active_duration_label": "10.7 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "d50de28f6f5c9fb046886c53",
     "stable_event_id": "d50de28f6f5c9fb046886c53",
     "name": "Interdição planejada por notícia pública • BR-381",
@@ -14,7 +58,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 12.7 h.",
+    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 12.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +71,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-06-09T16:32:56Z",
     "sources": [
       {
@@ -53,15 +97,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.92,
+    "newsFreshnessHours": 10.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T09:53:36Z",
-    "last_seen_at": "2026-06-09T22:32:19Z",
-    "active_duration_hours": 12.65,
-    "active_duration_label": "12.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-09T22:32:19Z",
-    "news_signature": "1e831223969006eae7a246a6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-09T22:44:09Z",
+    "active_duration_hours": 12.84,
+    "active_duration_label": "12.8 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
