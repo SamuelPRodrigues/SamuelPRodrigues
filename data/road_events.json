@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após tombamento de carreta com combustível em MG - Por Dentro de Minas. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-09T12:36:58Z; ativo há 2.2 h.",
+    "description": "BR-381 é totalmente interditada após tombamento de carreta com combustível em MG - Por Dentro de Minas. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-09T12:36:58Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -53,12 +53,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 2.16,
+    "newsFreshnessHours": 2.67,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T12:36:58Z",
-    "last_seen_at": "2026-06-09T14:46:43Z",
-    "active_duration_hours": 2.16,
-    "active_duration_label": "2.2 h",
+    "last_seen_at": "2026-06-09T15:17:06Z",
+    "active_duration_hours": 2.67,
+    "active_duration_label": "2.7 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
