@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T09:53:36Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 2.2 h.",
+    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T09:53:36Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-09T12:02:13Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T09:53:36Z",
     "last_seen_at": "2026-06-09T12:03:27Z",
-    "active_duration_hours": 2.16,
+    "active_duration_hours": 2.17,
     "active_duration_label": "2.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-09T12:03:27Z",
+    "news_signature": "9eb6f64fcf94e6f25b64f520",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
