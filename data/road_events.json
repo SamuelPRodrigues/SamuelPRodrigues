@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 enfrenta novo acidente com combustível e rodovia é totalmente interditada - Itabira Online. Período informado: 2026-06-09T10:22:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-09T10:22:54Z; ativo há 2.7 h.",
+    "description": "BR-381 enfrenta novo acidente com combustível e rodovia é totalmente interditada - Itabira Online. Período informado: 2026-06-09T10:22:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-09T10:22:54Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-06-09T12:32:51Z",
     "sources": [
       {
@@ -47,15 +47,12 @@
     "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 2.68,
+    "newsFreshnessHours": 2.9,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T10:22:54Z",
-    "last_seen_at": "2026-06-09T13:03:32Z",
-    "active_duration_hours": 2.68,
-    "active_duration_label": "2.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-09T13:03:32Z",
-    "news_signature": "63bdafb992db5d1b447b71d5",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-09T13:16:55Z",
+    "active_duration_hours": 2.9,
+    "active_duration_label": "2.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
