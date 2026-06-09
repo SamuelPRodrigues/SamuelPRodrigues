@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 enfrenta novo acidente com combustível e rodovia é totalmente interditada - Itabira Online. Período informado: 2026-06-09T10:22:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-09T10:22:54Z; ativo há 2.2 h.",
+    "description": "BR-381 enfrenta novo acidente com combustível e rodovia é totalmente interditada - Itabira Online. Período informado: 2026-06-09T10:22:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-09T10:22:54Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -50,9 +50,11 @@
     "newsFreshnessHours": 2.17,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T10:22:54Z",
-    "last_seen_at": "2026-06-09T12:32:51Z",
+    "last_seen_at": "2026-06-09T12:33:04Z",
     "active_duration_hours": 2.17,
     "active_duration_label": "2.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "63bdafb992db5d1b447b71d5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
