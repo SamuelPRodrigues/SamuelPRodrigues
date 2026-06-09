@@ -9,7 +9,7 @@
     "lat": -16.728,
     "lon": -43.858,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Explosão de Carreta Interdita BR-251 em Minas Gerais - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-09T12:02:09Z; ativo há 10.7 h.",
+    "description": "Explosão de Carreta Interdita BR-251 em Minas Gerais - diário do estado. Fontes consolidadas: Notícias públicas - diário do estado. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-09T12:02:09Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 10.7,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-09T22:44:09Z",
+    "news_signature": "d4d2a4ac9b3e64ec42c2ce13",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 12.8 h.",
+    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 12.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-09T16:32:56Z",
     "sources": [
       {
@@ -101,8 +104,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T09:53:36Z",
     "last_seen_at": "2026-06-09T22:44:09Z",
-    "active_duration_hours": 12.84,
+    "active_duration_hours": 12.85,
     "active_duration_label": "12.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-09T22:44:09Z",
+    "news_signature": "1e831223969006eae7a246a6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
