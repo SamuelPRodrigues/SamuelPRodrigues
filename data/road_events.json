@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T09:53:36Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 24 min.",
+    "description": "BR-381 é totalmente interditada após caminhão-tanque tombar em MG - O TEMPO. Período informado: 2026-06-09T09:53:36Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-09T09:53:36Z; ativo há 40 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-09T10:15:52Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-09T10:32:00Z",
     "sources": [
       {
         "source": "Notícias públicas - O TEMPO",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.39,
+    "newsFreshnessHours": 0.66,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T09:53:36Z",
-    "last_seen_at": "2026-06-09T10:17:04Z",
-    "active_duration_hours": 0.4,
-    "active_duration_label": "24 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-09T10:17:04Z",
-    "news_signature": "9eb6f64fcf94e6f25b64f520",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-09T10:33:13Z",
+    "active_duration_hours": 0.66,
+    "active_duration_label": "40 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
