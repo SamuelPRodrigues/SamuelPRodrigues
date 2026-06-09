@@ -1,42 +1,143 @@
 {
-  "updatedAt": "2026-06-09T10:48:10Z",
+  "updatedAt": "2026-06-09T11:03:58Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
+  "newItemsBeforeMerge": 55,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 36,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "DNIT alerta para interdição na BR-304/RN, em Assú — Departamento Nacional de Infraestrutura de Transportes - GOV.BR",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Trecho da BR-304 no RN passa por interdição total para detonação de rochas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Acidente entre carreta e carros deixa uma pessoa morta na Grande Natal - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista morre e filho fica ferido após caminhão bater em carreta parada fora da pista, na BR-101; corpo ficou preso às ferragens - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carreta tomba na BR-116, na Rio-Teresópolis, e causa interdição parcial em feriado de Corpus Christi - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "BR-381 continua com interdição após carreta tanque carregada com combustível tombar no sábado (6) - CBN",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Patrulha da Chuva - Serviços de limpeza continuam por toda cidade - Prefeitura Municipal de Boa Vista",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva de granizo é registrada em alguns bairros de Divinópolis; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria coloca sete estados em alerta para chuvas e frio nesta semana - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Niterói registra volume recorde de chuva em 24h - A Seguir Niterói",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva de granizo: gelo de 30 cm cobre cidade no sul de Minas Gerais - Paranaíba Mais",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte chuva de granizo deixa cenário similar a neve em Barbacena - Rádio Itatiaia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Em dois dias, bairros de Salvador já acumulam mais de um terço da chuva prevista para junho - Metro 1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Salvador registra o terceiro maior volume de chuva do Brasil em 24h - Jornal Correio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria derruba temperaturas e pode provocar chuva forte no estado do Rio de Janeiro - Gazeta 24 Horas Rio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Tempo vira e Londrina tem previsão de chuva forte; confira os próximos dias - Tem Londrina",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Entenda chuva de granizo e de raios que assustou moradores de Juiz de Fora; confira a previsão - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Mulher é arrastada por enxurrada durante forte chuva em Campinas (SP) - Terra",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva de granizo cobre ruas de gelo em Barbacena; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Celebração de Corpus Christi altera trânsito e itinerários do transporte coletivo nesta quinta - Prefeitura de Curitiba",
+      "reason": "not_operationally_relevant"
     },
+    {
+      "category": "mobilization",
+      "title": "Setor produtivo discute greve dos caminhoneiros com o governador - FIERN",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Greve dos caminhoneiros no RN ganha respaldo da Justiça e segue sem acordo - Saiba Mais",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Caminhoneiros suspendem greve no RN até domingo e aguardam acordo - Tribuna do Norte",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "BR-116/Contorno Leste terá passagem de carga excedente neste domingo (31) - Arteris S.A.",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Greve dos servidores de Taubaté entra na segunda semana com impacto em escolas e postos de saúde - G1",
+      "reason": "not_operationally_relevant"
+    }
+  ],
+  "errors": [
     {
       "category": "security",
       "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
     }
   ]
 }
