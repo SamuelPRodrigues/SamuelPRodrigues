@@ -9,7 +9,7 @@
     "lat": -20.469,
     "lon": -54.62,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Miranda será interditada na próxima segunda para avanço da obra na MS-345 - agenciadenoticias.ms.gov.br. Fontes consolidadas: Notícias públicas - agenciadenoticias.ms.gov.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-10T15:57:00Z; ativo há 7.9 h.",
+    "description": "Ponte sobre o Rio Miranda será interditada na próxima segunda para avanço da obra na MS-345 - agenciadenoticias.ms.gov.br. Fontes consolidadas: Notícias públicas - agenciadenoticias.ms.gov.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-10T15:57:00Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 7.93,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MS-345"
+    "detectedRoad": "MS-345",
+    "last_confirmed_at": "2026-06-10T23:52:50Z",
+    "news_signature": "ed77a698aca2ed68cd55c3a1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
