@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-06-10T22:17:09Z",
+  "updatedAt": "2026-06-10T22:33:52Z",
   "queries": 6,
-  "newItemsBeforeMerge": 52,
+  "newItemsBeforeMerge": 1,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 57,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Governo do Estado investe mais de R$ 1 bilhão em estradas na Serra, superando 33% do total aplicado em rodovias no RS - Portal do Estado do Rio Grande do Sul",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Trecho da BR-304 no RN passa por interdição total para detonação de rochas - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Acidente entre carreta e carros deixa uma pessoa morta na Grande Natal - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Atleta de bicicross morre em acidente entre carro e motos na Grande Natal - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista de carro invade a contramão e morre após bater contra ônibus na BR-262, em Uberaba - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre e filho fica ferido após caminhão bater em carreta parada fora da pista, na BR-101; corpo ficou preso às ferragens - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carreta tomba na BR-116, na Rio-Teresópolis, e causa interdição parcial em feriado de Corpus Christi - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre em batida com caminhão na BR-116, em Ponto dos Volantes - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Homem cai de moto e morre atropelado por carreta na BR-101 - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Previsão do tempo é atualizada e Paraná recebe alerta de tempestades em 203 cidades; veja quais - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte e queda na temperatura mudam o tempo em Maringá nesta quarta-feira (10) - Maringá Post",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "São Paulo terá chuva acima da média a partir desta quarta (10) - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Dia dos Namorados com previsão de chuva e granizo para 43 cidades do ES - A Gazeta",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "INMET emite alerta de chuva forte e ventos intensos para Londrina - Tarobá",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ciclone extratropical 'muda de fase' e coloca seis estados na rota das tempestades; veja quais - ND Mais",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Tempo vira e Londrina tem previsão de chuva forte; confira os próximos dias - Tem Londrina",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Forte chuva em Orlando adia horário de amistoso entre Inglaterra e Costa Rica - Rádio Itatiaia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Frente fria derruba temperaturas e pode provocar chuva forte no estado do Rio de Janeiro - Gazeta 24 Horas Rio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Salvador registra o terceiro maior volume de chuva do Brasil em 24h - Jornal Correio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Atenção para virada radical de tempo em SP - Climatempo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Frente fria coloca sete estados em alerta para chuvas e frio nesta semana - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "JP1: Virada no tempo: chuva forte chega a Piracicaba nesta semana - sampi.net.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte atinge estádio de Argentina x Islândia - ge",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ciclone em formação provoca temporais e mudança de tempo pelo Brasil; veja - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Celebração de Corpus Christi altera trânsito e itinerários do transporte coletivo nesta quinta - Prefeitura de Curitiba",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
