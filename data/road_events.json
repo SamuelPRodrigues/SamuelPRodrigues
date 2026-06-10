@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada após tombamento de carreta com combustível em MG - Por Dentro de Minas. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-09T12:36:58Z; ativo há 11.4 h.",
+    "description": "BR-381 é totalmente interditada após tombamento de carreta com combustível em MG - Por Dentro de Minas. Período informado: 2026-06-09T12:36:58Z até fim não identificado. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Itabira Online; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-09T12:36:58Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -56,9 +56,11 @@
     "newsFreshnessHours": 11.43,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-09T12:36:58Z",
-    "last_seen_at": "2026-06-10T00:03:02Z",
-    "active_duration_hours": 11.43,
+    "last_seen_at": "2026-06-10T00:03:16Z",
+    "active_duration_hours": 11.44,
     "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "41c6962f95b0885ccc0a3463",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
