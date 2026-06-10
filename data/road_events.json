@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277, em Morretes, é interditada para destombamento de caminhão - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-10T10:53:33Z; ativo há 11.9 h.",
+    "description": "BR-277, em Morretes, é interditada para destombamento de caminhão - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-10T10:53:33Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 11.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-10T10:53:33Z",
-    "last_seen_at": "2026-06-10T22:46:49Z",
+    "last_seen_at": "2026-06-10T22:47:04Z",
     "active_duration_hours": 11.89,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "51f8aeeab8073a6a8abdacc3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
