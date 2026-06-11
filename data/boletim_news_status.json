@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-11T14:02:51Z",
+  "updatedAt": "2026-06-11T14:17:44Z",
   "queries": 6,
-  "newItemsBeforeMerge": 50,
-  "savedRoadNewsReused": 0,
+  "newItemsBeforeMerge": 54,
+  "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 58,
+  "rejectedAsIrrelevant": 55,
   "removedPreviouslyStoredIrrelevant": 0,
   "rejectedSample": [
     {
@@ -25,6 +25,11 @@
     {
       "category": "road",
       "title": "Motorista de carro invade a contramão e morre após bater contra ônibus na BR-262, em Uberaba - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Três pessoas morrem após colisão entre carro e caminhão na BR-110, na Bahia - G1",
       "reason": "not_operationally_relevant"
     },
     {
@@ -50,16 +55,6 @@
     {
       "category": "road",
       "title": "Homem morre após colisão entre caminhonete e caminhão na BR-381, em Santana do Paraíso - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre em batida com caminhão na BR-116, em Ponto dos Volantes - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Homem cai de moto e morre atropelado por carreta na BR-101 - G1",
       "reason": "not_operationally_relevant"
     },
     {
@@ -104,7 +99,12 @@
     },
     {
       "category": "weather_news",
-      "title": "Frente fria derruba temperaturas e pode provocar chuva forte no estado do Rio de Janeiro - Gazeta 24 Horas Rio",
+      "title": "Abertura da Copa tem ameaça de chuva, e Fifa adota protocolo rígido para tempestades - Terra",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte chuva em Orlando adia horário de amistoso entre Inglaterra e Costa Rica - Rádio Itatiaia",
       "reason": "not_operationally_relevant"
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "category": "weather_news",
-      "title": "Forte chuva em Orlando adia horário de amistoso entre Inglaterra e Costa Rica - Rádio Itatiaia",
+      "title": "Frente fria derruba temperaturas e pode provocar chuva forte no estado do Rio de Janeiro - Gazeta 24 Horas Rio",
       "reason": "not_operationally_relevant"
     }
   ],
