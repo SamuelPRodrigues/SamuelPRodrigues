@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-101 tem bloqueio parcial após tombamento de carreta carregada em Biguaçu - TopElegance. Fontes consolidadas: Notícias públicas - TopElegance. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-10T18:17:30Z; ativo há 10.0 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - TopElegance",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRVplQ3JPeFZVelg4NmpfM0xVTHBzbHJpSGdUTFZtS1lPRFptUnhKZndRaUF1bFFlNm1hM1QxQnRtNzBpMGhsdWNfTmljUXVSSWFoNFBqVl90aWk3LWtyQ1VtS1RUaVR1WGR1WDRPXzFkVkNGc01pNW5lZmcxY0c1Mzh5cTRZTGk5b25ITnRSUEtUcEVvbVF2TU1tdVJqWFdtRlNoRWRsWEZMd2pyS3ZNUWhEczRaTWI1RWxmbkZ2WmdlNExxVWY4",
+    "headline": "BR-101 tem bloqueio parcial após tombamento de carreta carregada em Biguaçu - TopElegance",
+    "newsDate": "Wed, 10 Jun 2026 18:17:30 GMT",
+    "updatedAt": "2026-06-11T04:15:51Z",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRVplQ3JPeFZVelg4NmpfM0xVTHBzbHJpSGdUTFZtS1lPRFptUnhKZndRaUF1bFFlNm1hM1QxQnRtNzBpMGhsdWNfTmljUXVSSWFoNFBqVl90aWk3LWtyQ1VtS1RUaVR1WGR1WDRPXzFkVkNGc01pNW5lZmcxY0c1Mzh5cTRZTGk5b25ITnRSUEtUcEVvbVF2TU1tdVJqWFdtRlNoRWRsWEZMd2pyS3ZNUWhEczRaTWI1RWxmbkZ2WmdlNExxVWY4",
+    "sources": [
+      {
+        "source": "Notícias públicas - TopElegance",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRVplQ3JPeFZVelg4NmpfM0xVTHBzbHJpSGdUTFZtS1lPRFptUnhKZndRaUF1bFFlNm1hM1QxQnRtNzBpMGhsdWNfTmljUXVSSWFoNFBqVl90aWk3LWtyQ1VtS1RUaVR1WGR1WDRPXzFkVkNGc01pNW5lZmcxY0c1Mzh5cTRZTGk5b25ITnRSUEtUcEVvbVF2TU1tdVJqWFdtRlNoRWRsWEZMd2pyS3ZNUWhEczRaTWI1RWxmbkZ2WmdlNExxVWY4",
+        "headline": "BR-101 tem bloqueio parcial após tombamento de carreta carregada em Biguaçu - TopElegance",
+        "date": "Wed, 10 Jun 2026 18:17:30 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "8feba8df80ca583dada6c0f8",
+    "event_id": "8feba8df80ca583dada6c0f8",
+    "newsFreshnessHours": 9.99,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-10T18:17:30Z",
+    "last_seen_at": "2026-06-11T04:17:09Z",
+    "active_duration_hours": 9.99,
+    "active_duration_label": "10.0 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
