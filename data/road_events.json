@@ -9,7 +9,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-445 entre Lerroville e Irerê será interditada dia 19 para detonação de rochas - Governo do Paraná. Fontes consolidadas: Notícias públicas - Governo do Paraná. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-12T12:08:00Z; ativo há 39 min.",
+    "description": "PR-445 entre Lerroville e Irerê será interditada dia 19 para detonação de rochas - Governo do Paraná. Fontes consolidadas: Notícias públicas - Governo do Paraná. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-12T12:08:00Z; ativo há 40 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-12T12:08:00Z",
     "last_seen_at": "2026-06-12T12:47:05Z",
-    "active_duration_hours": 0.65,
-    "active_duration_label": "39 min",
+    "active_duration_hours": 0.66,
+    "active_duration_label": "40 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-445"
+    "detectedRoad": "PR-445",
+    "last_confirmed_at": "2026-06-12T12:47:05Z",
+    "news_signature": "814be36fa37faa856d13c91b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -7.991,
     "lon": -38.298,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-110 em Campo Grande será totalmente interditado para obras - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-12T10:55:27Z; ativo há 1.9 h.",
+    "description": "Trecho da BR-110 em Campo Grande será totalmente interditado para obras - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-12T10:55:27Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +88,10 @@
     "active_duration_hours": 1.86,
     "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-12T12:47:05Z",
+    "news_signature": "bd108f9d87876a813e1d542f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
