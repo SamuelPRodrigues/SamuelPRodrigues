@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-06-12T23:24:51Z",
+  "updatedAt": "2026-06-12T23:32:05Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "cccfff4bc2c909d44ee82c74",
+      "stable_event_id": "cccfff4bc2c909d44ee82c74",
+      "observation_hash": "a141a813457fee9902fc5815",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santarém",
+      "risk": 83,
+      "severity": "Crítico",
+      "lat": -2.443,
+      "lon": -54.708,
+      "city": "Santarém",
+      "state": "PA",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 18.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 843,
+      "estimated_hours": 210.75,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -64,12 +93,12 @@
     {
       "event_id": "0ceeba892cc0ab0c057d20d7",
       "stable_event_id": "0ceeba892cc0ab0c057d20d7",
-      "observation_hash": "f1f9b4cfaf887a7adfc081d0",
+      "observation_hash": "0e46662720d5c065d931c61e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T23:24:47+00:00",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
       "first_seen_at": "2026-06-12T19:02:19+00:00",
-      "last_seen_at": "2026-06-12T23:24:47+00:00",
-      "updated_at": "2026-06-12T23:24:48.651564+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -85,8 +114,8 @@
       "description": "Trecho da PR-445 será interditado para detonação de rochas na próxima sexta-feira - Rádio Paiquerê FM 98.9.. Fontes consolidadas: Notícias públicas - Rádio Paiquerê FM 98.9 + 1 fonte(s); Notícias públicas - Governo do Paraná; Notícias públicas - Marechal News; Notícias públicas - Arena de Notícias. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Rádio Paiquerê FM 98.9 + 1 fonte(s) + 3 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTlwSGpSSTFuU1VtZDhvWlRDV2s0TURVRmlwZGFKbU9SZ29qUGRWcVY5UGZXUVZjYVlKVG8xcllxQlZjZm5NN2NaME5URVc1UEFvYTFwSlpadDhQb3IzRkxKLUhaSXNoRHhqU0Jmb3ZyYW9XbWFVY3g3R3dna08zSjlJVVU4cGdRWUtZZ1RvY0NpeHRwZVlmQUFHczFubTZtbGZzNHJJbUxmRzgz",
-      "total_snapshots": 20,
-      "estimated_hours": 5.0,
+      "total_snapshots": 21,
+      "estimated_hours": 5.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +126,7 @@
           "source": "Notícias públicas - Rádio Paiquerê FM 98.9 + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTlwSGpSSTFuU1VtZDhvWlRDV2s0TURVRmlwZGFKbU9SZ29qUGRWcVY5UGZXUVZjYVlKVG8xcllxQlZjZm5NN2NaME5URVc1UEFvYTFwSlpadDhQb3IzRkxKLUhaSXNoRHhqU0Jmb3ZyYW9XbWFVY3g3R3dna08zSjlJVVU4cGdRWUtZZ1RvY0NpeHRwZVlmQUFHczFubTZtbGZzNHJJbUxmRzgz",
           "headline": "Trecho da PR-445 será interditado para detonação de rochas na próxima sexta-feira - Rádio Paiquerê FM 98.9.",
-          "date": "2026-06-12T23:24:48.651564+00:00"
+          "date": "2026-06-12T23:32:03.248103+00:00"
         },
         {
           "source": "Notícias públicas - Governo do Paraná",
@@ -3781,6 +3810,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "07816ebe0d21148d66395a6f",
+      "stable_event_id": "07816ebe0d21148d66395a6f",
+      "observation_hash": "a433c9523a345262904c5a15",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caxias do Sul",
+      "risk": 46,
+      "severity": "Moderado",
+      "lat": -29.168,
+      "lon": -51.179,
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 18.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 392,
+      "estimated_hours": 98.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f13e2269fc4592f622f09fc2",
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "97a2c64eab410d850dc82458",
@@ -3926,35 +3984,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "07816ebe0d21148d66395a6f",
-      "stable_event_id": "07816ebe0d21148d66395a6f",
-      "observation_hash": "80b0cb3ebcc554f857e303bd",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T23:24:47+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-12T23:24:47+00:00",
-      "updated_at": "2026-06-12T23:24:48.651564+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caxias do Sul",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -29.168,
-      "lon": -51.179,
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 18.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 391,
-      "estimated_hours": 97.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "833c194f23ed10ea96e00b30",
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "711dd2ba315e8c03e2d1ca36",
@@ -4009,35 +4038,6 @@
       "source_url": "",
       "total_snapshots": 284,
       "estimated_hours": 71.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "8aa8dc50a333b47c6ac0b19b",
-      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
-      "observation_hash": "d3c83e45a120a813226aba78",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T20:21:05+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-12T20:21:05+00:00",
-      "updated_at": "2026-06-12T20:21:06.102178+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Petrópolis",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -22.511,
-      "lon": -43.177,
-      "city": "Petrópolis",
-      "state": "RJ",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 17.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 332,
-      "estimated_hours": 83.0,
       "active": true,
       "storage": "supabase"
     },
@@ -4419,35 +4419,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "7c17d0c1c1937464ce40bc1f",
-      "stable_event_id": "7c17d0c1c1937464ce40bc1f",
-      "observation_hash": "9dcfcf9671921d68e3c05c91",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T23:24:47+00:00",
-      "first_seen_at": "2026-05-30T16:16:54+00:00",
-      "last_seen_at": "2026-06-12T23:24:47+00:00",
-      "updated_at": "2026-06-12T23:24:48.651564+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uberlândia",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -18.914,
-      "lon": -48.275,
-      "city": "Uberlândia",
-      "state": "MG",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-30T16:15:19Z; ativo há 13.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 25,
-      "estimated_hours": 6.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "52259929d3b21bf912b47175",
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "327ad8f2119507252e45898c",
@@ -4651,35 +4622,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "cccfff4bc2c909d44ee82c74",
-      "stable_event_id": "cccfff4bc2c909d44ee82c74",
-      "observation_hash": "ed8e16adc480096b437e0775",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T14:33:32+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-12T14:33:32+00:00",
-      "updated_at": "2026-06-12T14:33:33.48144+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santarém",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -2.443,
-      "lon": -54.708,
-      "city": "Santarém",
-      "state": "PA",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 17.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 842,
-      "estimated_hours": 210.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "bb6d3798fb4823bed1c6ba1d",
       "stable_event_id": "bb6d3798fb4823bed1c6ba1d",
       "observation_hash": "ea3c65b44cee1bcf2db606c7",
@@ -4792,6 +4734,35 @@
       "source_url": "",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "7c17d0c1c1937464ce40bc1f",
+      "stable_event_id": "7c17d0c1c1937464ce40bc1f",
+      "observation_hash": "5ad13aa33c417da46c993aad",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
+      "first_seen_at": "2026-05-30T16:16:54+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uberlândia",
+      "risk": 42,
+      "severity": "Moderado",
+      "lat": -18.914,
+      "lon": -48.275,
+      "city": "Uberlândia",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-30T16:15:19Z; ativo há 13.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 26,
+      "estimated_hours": 6.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5434,6 +5405,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "a6c8456715bc7e439c8c52ef",
+      "stable_event_id": "a6c8456715bc7e439c8c52ef",
+      "observation_hash": "99c2e2f570775a910cb855c2",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
+      "first_seen_at": "2026-06-11T02:16:36+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Três Lagoas",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -20.784,
+      "lon": -51.7,
+      "city": "Três Lagoas",
+      "state": "MS",
+      "region": "Centro-Oeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-11T02:15:18Z; ativo há 45.3 h.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 31,
+      "estimated_hours": 7.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "fb3844f2e5494d4927df88b7",
       "stable_event_id": "fb3844f2e5494d4927df88b7",
       "observation_hash": "565b4920a5c4332f89ac1880",
@@ -6010,35 +6010,6 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "a6c8456715bc7e439c8c52ef",
-      "stable_event_id": "a6c8456715bc7e439c8c52ef",
-      "observation_hash": "e03a4eec01a7429da54cdeb8",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-12T23:24:47+00:00",
-      "first_seen_at": "2026-06-11T02:16:36+00:00",
-      "last_seen_at": "2026-06-12T23:24:47+00:00",
-      "updated_at": "2026-06-12T23:24:48.651564+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Três Lagoas",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -20.784,
-      "lon": -51.7,
-      "city": "Três Lagoas",
-      "state": "MS",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-11T02:15:18Z; ativo há 45.2 h.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 30,
-      "estimated_hours": 7.5,
       "active": true,
       "storage": "supabase"
     },
@@ -6884,6 +6855,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "8aa8dc50a333b47c6ac0b19b",
+      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
+      "observation_hash": "d6ab62f37cd6d3f0b876febb",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-12T23:32:02+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-12T23:32:02+00:00",
+      "updated_at": "2026-06-12T23:32:03.248103+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Petrópolis",
+      "risk": 14,
+      "severity": "Baixo",
+      "lat": -22.511,
+      "lon": -43.177,
+      "city": "Petrópolis",
+      "state": "RJ",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 18.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 333,
+      "estimated_hours": 83.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "ec5767af500445c922d4539a",
       "stable_event_id": "ec5767af500445c922d4539a",
       "observation_hash": "b76306066e009026ee23bed5",
@@ -7120,7 +7120,7 @@
     "7": {
       "events": 113,
       "avgRisk": 47,
-      "maxRisk": 69,
+      "maxRisk": 83,
       "rainChance": 0,
       "byType": {
         "climate": 88,
@@ -7135,9 +7135,10 @@
         "Sem região": 4
       },
       "bySeverity": {
-        "Moderado": 82,
+        "Moderado": 80,
         "Alto": 25,
-        "Baixo": 6
+        "Baixo": 7,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -7186,14 +7187,14 @@
           "date": "2026-06-12",
           "avgRisk": 43,
           "events": 72,
-          "maxRisk": 69
+          "maxRisk": 83
         }
       ]
     },
     "30": {
       "events": 206,
       "avgRisk": 51,
-      "maxRisk": 78,
+      "maxRisk": 83,
       "rainChance": 25,
       "byType": {
         "climate": 133,
@@ -7209,9 +7210,10 @@
         "Sem região": 7
       },
       "bySeverity": {
-        "Moderado": 123,
+        "Moderado": 121,
         "Alto": 74,
-        "Baixo": 9
+        "Baixo": 10,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -7326,14 +7328,14 @@
           "date": "2026-06-12",
           "avgRisk": 43,
           "events": 72,
-          "maxRisk": 69
+          "maxRisk": 83
         }
       ]
     },
     "90": {
       "events": 206,
       "avgRisk": 51,
-      "maxRisk": 78,
+      "maxRisk": 83,
       "rainChance": 25,
       "byType": {
         "climate": 133,
@@ -7349,9 +7351,10 @@
         "Sem região": 7
       },
       "bySeverity": {
-        "Moderado": 123,
+        "Moderado": 121,
         "Alto": 74,
-        "Baixo": 9
+        "Baixo": 10,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -7466,7 +7469,7 @@
           "date": "2026-06-12",
           "avgRisk": 43,
           "events": 72,
-          "maxRisk": 69
+          "maxRisk": 83
         }
       ]
     }
