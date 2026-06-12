@@ -36,13 +36,15 @@
     "newsFreshnessHours": 0.16,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-12T12:08:00Z",
-    "last_seen_at": "2026-06-12T12:17:20Z",
+    "last_seen_at": "2026-06-12T12:17:35Z",
     "active_duration_hours": 0.16,
     "active_duration_label": "10 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-445"
+    "detectedRoad": "PR-445",
+    "news_signature": "814be36fa37faa856d13c91b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -7.991,
     "lon": -38.298,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-110 em Campo Grande será totalmente interditado para obras - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-12T10:55:27Z; ativo há 1.4 h.",
+    "description": "Trecho da BR-110 em Campo Grande será totalmente interditado para obras - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-12T10:55:27Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,10 +84,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-12T10:55:27Z",
     "last_seen_at": "2026-06-12T12:17:20Z",
-    "active_duration_hours": 1.36,
+    "active_duration_hours": 1.37,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-12T12:17:20Z",
+    "news_signature": "bd108f9d87876a813e1d542f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
