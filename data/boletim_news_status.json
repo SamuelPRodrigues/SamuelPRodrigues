@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-06-14T21:04:10Z",
+  "updatedAt": "2026-06-14T21:17:27Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
+  "newItemsBeforeMerge": 57,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 52,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motorista de carro invade a contramão e morre após bater contra ônibus na BR-262, em Uberaba - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Mãe e filha em motocicleta morrem após colisão com dois caminhões na BR-101 em Itajaí - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista morre e filho fica ferido após caminhão bater em carreta parada fora da pista, na BR-101; corpo ficou preso às ferragens - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caos na BR-262: motoristas ficam travados em filas quilométricas no Indubrasil - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista de carro invade a contramão e morre após bater contra ônibus na BR-262, em Uberaba - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Homens caem de moto e morrem atropelados na BR-101, em Paulista - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: Retroescavadeira cai de caminhão e atinge carro na BR-116 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carreta tomba na BR-101 e espalha carga de tubos pela rodovia em Campos, no RJ - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Ciclone extratropical provoca chuva forte e deixa RS sob aviso; saiba quais regiões podem ser afetadas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva em Campo Grande atinge 68mm e Capital segue em alerta - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Jornal Midiamax. . A forte chuva que atingiu Três Lagoas, cidade localizada a 327 quilômetros de Campo Grande, causou a abertura de uma grande cratera na Rua Manoel de Faria Duque,",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Previsão se confirma e chuva forte atinge Campo Grande na noite do Dia dos Namorados - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "São Paulo terá chuva acima da média a partir desta quarta (10) - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva e raios atingem Campo Grande com alerta de temporal - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte atingiu a cidade de Campo Grande por volta das 18h30, totalizando mais de 24 milímetros de chuva acumulados em um período de meia hora de precipitações - facebook.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Jornal Midiamax. . 🔵 MS terá dia nublado e risco de temporal nesta quinta-feira ↗️ Chuva deve atingir principalmente a região sul do estado ✅ Veja essas e mais notícias em https://",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "A forte chuva que atingiu Três Lagoas, cidade localizada a 327 quilômetros de Campo Grande, causou a abertura de uma grande cratera na Rua Manoel de Faria Duque, via que dá acesso ",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria traz granizo e temporais para o sul de MS - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Mato Grosso do Sul terá chuva forte, ventos de até 60 km/h e frio neste fim de semana - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte interrompe show da dupla Brenno & Matheus em rodeio no interior de SP - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Vai chover na abertura da Copa do Mundo? Fifa padroniza protocolo para tempestades; entenda - ge",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Operação de lançamento de vigas terá bloqueios de trânsito e desvios no Capão da Imbuia e Bairro Alto - Prefeitura de Curitiba",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "CET-Rio implanta operação especial de trânsito para as provas da Maratona do Rio 2026 - Prefeitura da Cidade do Rio de Janeiro",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "CIOT 2026: Regras atualizadas e principais riscos jurídicos - Migalhas",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Usuários dos restaurantes comunitários de Ceilândia Norte e Estrutural têm transporte gratuito para almoçar em outras unidades - Agência Brasília",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
