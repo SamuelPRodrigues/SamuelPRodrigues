@@ -9,7 +9,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-242 é totalmente interditado após acidente na Chapada Diamantina - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-14T16:13:52Z; ativo há 33 min.",
+    "description": "Trecho da BR-242 é totalmente interditado após acidente na Chapada Diamantina - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-14T16:13:52Z; ativo há 34 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-14T16:13:52Z",
     "last_seen_at": "2026-06-14T16:46:54Z",
-    "active_duration_hours": 0.55,
-    "active_duration_label": "33 min",
+    "active_duration_hours": 0.56,
+    "active_duration_label": "34 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-14T16:46:54Z",
+    "news_signature": "d0636f97ce6cfe87c8586c71",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
