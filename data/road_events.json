@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 está totalmente interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-14T21:28:38Z; ativo há 7.1 h.",
+    "description": "BR-364 está totalmente interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-14T21:28:38Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONm85QXM5VkpsQ1NKcWxhazFpUzYwS05QdjlMaFAwZXNDTnpxYnRaM1lRak5MSWNuWHlQNXRFc0lSX3hsZTBrN2dfTV82cV9Na0JTZlpqRlBDbHE0d1d5bGsxR0JvT3BiZ294bE12QmZyT3h5UEcwQlBLUUhlS1VnX1BweExkNW1OeHhRNHozV0lGZndENlE3bHlpSTBhTWw1blhBTi1EemJYWXFPcG5HOG5QVVdVckZ3Q3c4YU9BSURueHN1Njg0WXgtMkFBYXpWanZyWUE0cEZJbnPSAeoBQVVfeXFMTUxKMERpb3VuOXRhWWRjc2E5M1NvVzdmcHhmcUtwSTg4U3NQV1BsUFpvZ0Q2SThpdmxMcnlaSjJlOVo0TVZQcXc1ek54Y1dvNklVM2V5V01mUkZLZFlHNjlCQUI1OExLMHRGRlpWUzZNRGQ5VGtmUFljTzZpWGY2TVBOLW5OWWFWLTZrVS0tY3dFREloVHlQU3A1TllGa1cyMEFTSW1KeDVuNVNad2s0dG9xNkI5X0RHNXFNT25hTXVMMnVBc29HZ0E5bFE3WHhDOGhvV2lySTJLMTU5U0ZwVmQtQWFlanJWV1Nn",
     "headline": "BR-364 está totalmente interditada após tombamento de caminhão",
     "newsDate": "Sun, 14 Jun 2026 21:28:38 GMT",
-    "updatedAt": "2026-06-15T04:30:52Z",
+    "updatedAt": "2026-06-15T04:45:40Z",
     "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONm85QXM5VkpsQ1NKcWxhazFpUzYwS05QdjlMaFAwZXNDTnpxYnRaM1lRak5MSWNuWHlQNXRFc0lSX3hsZTBrN2dfTV82cV9Na0JTZlpqRlBDbHE0d1d5bGsxR0JvT3BiZ294bE12QmZyT3h5UEcwQlBLUUhlS1VnX1BweExkNW1OeHhRNHozV0lGZndENlE3bHlpSTBhTWw1blhBTi1EemJYWXFPcG5HOG5QVVdVckZ3Q3c4YU9BSURueHN1Njg0WXgtMkFBYXpWanZyWUE0cEZJbnPSAeoBQVVfeXFMTUxKMERpb3VuOXRhWWRjc2E5M1NvVzdmcHhmcUtwSTg4U3NQV1BsUFpvZ0Q2SThpdmxMcnlaSjJlOVo0TVZQcXc1ek54Y1dvNklVM2V5V01mUkZLZFlHNjlCQUI1OExLMHRGRlpWUzZNRGQ5VGtmUFljTzZpWGY2TVBOLW5OWWFWLTZrVS0tY3dFREloVHlQU3A1TllGa1cyMEFTSW1KeDVuNVNad2s0dG9xNkI5X0RHNXFNT25hTXVMMnVBc29HZ0E5bFE3WHhDOGhvV2lySTJLMTU5U0ZwVmQtQWFlanJWV1Nn",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "0900a470ed48cceed31a18ec",
     "event_id": "0900a470ed48cceed31a18ec",
-    "newsFreshnessHours": 7.06,
+    "newsFreshnessHours": 7.31,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-14T21:28:38Z",
-    "last_seen_at": "2026-06-15T04:32:07Z",
-    "active_duration_hours": 7.06,
-    "active_duration_label": "7.1 h",
+    "last_seen_at": "2026-06-15T04:46:57Z",
+    "active_duration_hours": 7.31,
+    "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-15T04:32:07Z",
-    "news_signature": "2db1470b3198a599623223b5",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
