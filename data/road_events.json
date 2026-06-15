@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 está totalmente interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-14T21:28:38Z; ativo há 9.8 h.",
+    "description": "BR-364 está totalmente interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-14T21:28:38Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 9.81,
     "active_duration_label": "9.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-15T07:16:59Z",
+    "news_signature": "2db1470b3198a599623223b5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de caminhão interdita faixa na BR-163 - Mobilidade Curitiba. Fontes consolidadas: Notícias públicas - Mobilidade Curitiba. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-15T00:15:40Z; ativo há 7.0 h.",
+    "description": "Tombamento de caminhão interdita faixa na BR-163 - Mobilidade Curitiba. Fontes consolidadas: Notícias públicas - Mobilidade Curitiba. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-15T00:15:40Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +83,13 @@
     "newsFreshnessHours": 7.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-15T00:15:40Z",
-    "last_seen_at": "2026-06-15T07:16:59Z",
-    "active_duration_hours": 7.02,
+    "last_seen_at": "2026-06-15T07:17:18Z",
+    "active_duration_hours": 7.03,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "14dd3935b02113f1d58479ba",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
