@@ -9,7 +9,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-050 tem trecho interditado após acidente em Uberlândia; veja a situação da rodovia - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-15T17:12:12Z; ativo há 4.9 h.",
+    "description": "BR-050 tem trecho interditado após acidente em Uberlândia; veja a situação da rodovia - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-15T17:12:12Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-15T17:12:12Z",
     "last_seen_at": "2026-06-15T22:03:56Z",
-    "active_duration_hours": 4.86,
+    "active_duration_hours": 4.87,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-15T22:03:56Z",
+    "news_signature": "ed55172c075561b5dbd8c1da",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na PR-182, derrama diesel e interdita rodovia por cerca de 17 horas em Nova Londrina - Diário do Noroeste. Fontes consolidadas: Notícias públicas - Diário do Noroeste. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-15T14:07:13Z; ativo há 8.0 h.",
+    "description": "Caminhão tomba na PR-182, derrama diesel e interdita rodovia por cerca de 17 horas em Nova Londrina - Diário do Noroeste. Fontes consolidadas: Notícias públicas - Diário do Noroeste. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-15T14:07:13Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 7.95,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-182"
+    "detectedRoad": "PR-182",
+    "last_confirmed_at": "2026-06-15T22:03:56Z",
+    "news_signature": "28426096a51c99dbb5e2bb93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
