@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-16T22:28:36Z",
-    "last_seen_at": "2026-06-16T22:32:09Z",
+    "last_seen_at": "2026-06-16T22:32:29Z",
     "active_duration_hours": 0.06,
     "active_duration_label": "4 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b7a4969c5a9872d8d3636269",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente em trecho interditado da BR-163 deixa dois feridos graves em São Gabriel do Oeste - Idest. Fontes consolidadas: Notícias públicas - Idest. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-16T17:48:00Z; ativo há 4.7 h.",
+    "description": "Acidente em trecho interditado da BR-163 deixa dois feridos graves em São Gabriel do Oeste - Idest. Fontes consolidadas: Notícias públicas - Idest. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-16T17:48:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +86,11 @@
     "active_duration_hours": 4.74,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-16T22:32:09Z",
+    "news_signature": "d2fd4f02a4671e54c382ac38",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada por duas horas na BR-262 em Corumbá. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-16T13:09:56Z; ativo há 9.4 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada por duas horas na BR-262 em Corumbá. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-16T13:09:56Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,10 +130,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-16T13:09:56Z",
     "last_seen_at": "2026-06-16T22:32:09Z",
-    "active_duration_hours": 9.37,
+    "active_duration_hours": 9.38,
     "active_duration_label": "9.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-16T22:32:09Z",
+    "news_signature": "92c115dcebc016cbcc009120",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
