@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada por duas horas na BR-262 em Corumbá. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-16T13:09:56Z; ativo há 22 min.",
+    "description": "Ponte sobre o Rio Paraguai será interditada por duas horas na BR-262 em Corumbá. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-16T13:09:56Z; ativo há 23 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 0.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-16T13:09:56Z",
-    "last_seen_at": "2026-06-16T13:32:23Z",
-    "active_duration_hours": 0.37,
-    "active_duration_label": "22 min",
+    "last_seen_at": "2026-06-16T13:32:40Z",
+    "active_duration_hours": 0.38,
+    "active_duration_label": "23 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3ff318393b7cadf616e9c56d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
