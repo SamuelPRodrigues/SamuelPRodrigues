@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T23:59:02Z",
+  "updatedAt": "2026-06-17T00:03:42Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -118,6 +118,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "632d1e02eb827a63c3a75319",
+      "stable_event_id": "632d1e02eb827a63c3a75319",
+      "observation_hash": "0f8cb36a30b6ded02a3e897a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
+      "first_seen_at": "2026-06-17T00:03:37+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-381",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Belo Horizonte / Contagem",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "BR-381",
+      "description": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO.. Fontes consolidadas: O TEMPO. Localização aproximada pelo corredor monitorado.",
+      "source": "O TEMPO",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlQ4bGNRdDVTNE9MR044ckxpQ2JxYTFtRG1qal9iNTF1RllYNDQ3VGdMR3M0RS1hbzBGRGplNlUxVzFwa3FYbUIxV2c4dmV6U1dUXzVFUDFRcDVjT3Q4c1p0Z1kzdXFDcFJkYzdIMWQ3V2VGTmdsMUdRQlB0bVdzSHB6T1hVNnZFbGdvRGx0U0ZnaTBybTZBaGh1RVcxVl9jTDNvT3JCQVctY1E",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlQ4bGNRdDVTNE9MR044ckxpQ2JxYTFtRG1qal9iNTF1RllYNDQ3VGdMR3M0RS1hbzBGRGplNlUxVzFwa3FYbUIxV2c4dmV6U1dUXzVFUDFRcDVjT3Q4c1p0Z1kzdXFDcFJkYzdIMWQ3V2VGTmdsMUdRQlB0bVdzSHB6T1hVNnZFbGdvRGx0U0ZnaTBybTZBaGh1RVcxVl9jTDNvT3JCQVctY1E",
+      "headline": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO.",
+      "sources": [
+        {
+          "source": "O TEMPO",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlQ4bGNRdDVTNE9MR044ckxpQ2JxYTFtRG1qal9iNTF1RllYNDQ3VGdMR3M0RS1hbzBGRGplNlUxVzFwa3FYbUIxV2c4dmV6U1dUXzVFUDFRcDVjT3Q4c1p0Z1kzdXFDcFJkYzdIMWQ3V2VGTmdsMUdRQlB0bVdzSHB6T1hVNnZFbGdvRGx0U0ZnaTBybTZBaGh1RVcxVl9jTDNvT3JCQVctY1E",
+          "headline": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO.",
+          "date": "2026-06-17T00:03:38.152152+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "017232349e39607ea59f9d92",
@@ -3866,10 +3909,10 @@
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "e236ab67d0f35cfa68f98f46",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3885,8 +3928,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 21.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 946,
-      "estimated_hours": 236.5,
+      "total_snapshots": 947,
+      "estimated_hours": 236.75,
       "active": true,
       "storage": "supabase"
     },
@@ -3895,10 +3938,10 @@
       "stable_event_id": "d2b4afa337141178062e487c",
       "observation_hash": "7541f40aeb02945133f8b297",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-27T15:16:56+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3914,8 +3957,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T15:15:29Z; ativo há 20.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 421,
-      "estimated_hours": 105.25,
+      "total_snapshots": 422,
+      "estimated_hours": 105.5,
       "active": true,
       "storage": "supabase"
     },
@@ -3953,10 +3996,10 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "8b97f98b24ac4b7f9488a257",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -3972,8 +4015,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 21.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 895,
-      "estimated_hours": 223.75,
+      "total_snapshots": 896,
+      "estimated_hours": 224.0,
       "active": true,
       "storage": "supabase"
     },
@@ -5200,10 +5243,10 @@
       "stable_event_id": "aaf5e379367a15a27969b229",
       "observation_hash": "6870cb9905157a36977bca04",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-27T16:17:24+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5219,8 +5262,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T16:15:24Z; ativo há 20.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 377,
-      "estimated_hours": 94.25,
+      "total_snapshots": 378,
+      "estimated_hours": 94.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5693,10 +5736,10 @@
       "stable_event_id": "af769bd0f5b9b44054da5403",
       "observation_hash": "c0f0400e175dccd713e7ba48",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -5712,8 +5755,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 22.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 508,
-      "estimated_hours": 127.0,
+      "total_snapshots": 509,
+      "estimated_hours": 127.25,
       "active": true,
       "storage": "supabase"
     },
@@ -6215,10 +6258,10 @@
       "stable_event_id": "888620a50e07c99dc3588172",
       "observation_hash": "78384f7f4b71c566b76b6432",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-27T01:16:49+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -6234,8 +6277,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T01:15:17Z; ativo há 20.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 365,
-      "estimated_hours": 91.25,
+      "total_snapshots": 366,
+      "estimated_hours": 91.5,
       "active": true,
       "storage": "supabase"
     },
@@ -6650,10 +6693,10 @@
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
       "observation_hash": "0c026d2e09cbe9a49fd94aa1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -6669,8 +6712,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 22.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 571,
-      "estimated_hours": 142.75,
+      "total_snapshots": 572,
+      "estimated_hours": 143.0,
       "active": true,
       "storage": "supabase"
     },
@@ -7346,10 +7389,10 @@
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "33eef6e36cd9388c195e6745",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-16T23:58:58+00:00",
+      "snapshot_at": "2026-06-17T00:03:37+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-16T23:58:58+00:00",
-      "updated_at": "2026-06-16T23:59:00.143806+00:00",
+      "last_seen_at": "2026-06-17T00:03:37+00:00",
+      "updated_at": "2026-06-17T00:03:38.152152+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -7365,8 +7408,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 22.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 465,
-      "estimated_hours": 116.25,
+      "total_snapshots": 466,
+      "estimated_hours": 116.5,
       "active": true,
       "storage": "supabase"
     },
@@ -7634,16 +7677,16 @@
   ],
   "windows": {
     "7": {
-      "events": 110,
+      "events": 111,
       "avgRisk": 44,
       "maxRisk": 89,
       "rainChance": 0,
       "byType": {
         "climate": 90,
-        "road": 20
+        "road": 21
       },
       "byRegion": {
-        "Sudeste": 34,
+        "Sudeste": 35,
         "Nordeste": 21,
         "Sul": 21,
         "Norte": 18,
@@ -7652,7 +7695,7 @@
       },
       "bySeverity": {
         "Moderado": 68,
-        "Alto": 25,
+        "Alto": 26,
         "Baixo": 15,
         "Crítico": 2
       },
@@ -7695,24 +7738,30 @@
         },
         {
           "date": "2026-06-16",
-          "avgRisk": 39,
-          "events": 68,
+          "avgRisk": 38,
+          "events": 60,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-06-17",
+          "avgRisk": 48,
+          "events": 9,
+          "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 218,
+      "events": 219,
       "avgRisk": 51,
       "maxRisk": 89,
       "rainChance": 25,
       "byType": {
         "climate": 133,
-        "road": 83,
+        "road": 84,
         "operational": 2
       },
       "byRegion": {
-        "Sudeste": 58,
+        "Sudeste": 59,
         "Nordeste": 50,
         "Sul": 47,
         "Norte": 41,
@@ -7721,7 +7770,7 @@
       },
       "bySeverity": {
         "Moderado": 108,
-        "Alto": 91,
+        "Alto": 92,
         "Baixo": 17,
         "Crítico": 2
       },
@@ -7860,24 +7909,30 @@
         },
         {
           "date": "2026-06-16",
-          "avgRisk": 39,
-          "events": 68,
+          "avgRisk": 38,
+          "events": 60,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-06-17",
+          "avgRisk": 48,
+          "events": 9,
+          "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 218,
+      "events": 219,
       "avgRisk": 51,
       "maxRisk": 89,
       "rainChance": 25,
       "byType": {
         "climate": 133,
-        "road": 83,
+        "road": 84,
         "operational": 2
       },
       "byRegion": {
-        "Sudeste": 58,
+        "Sudeste": 59,
         "Nordeste": 50,
         "Sul": 47,
         "Norte": 41,
@@ -7886,7 +7941,7 @@
       },
       "bySeverity": {
         "Moderado": 108,
-        "Alto": 91,
+        "Alto": 92,
         "Baixo": 17,
         "Crítico": 2
       },
@@ -8025,9 +8080,15 @@
         },
         {
           "date": "2026-06-16",
-          "avgRisk": 39,
-          "events": 68,
+          "avgRisk": 38,
+          "events": 60,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-06-17",
+          "avgRisk": 48,
+          "events": 9,
+          "maxRisk": 69
         }
       ]
     }
