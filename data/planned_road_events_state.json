@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T10:47:11Z",
+  "updatedAt": "2026-06-17T11:03:06Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -732,7 +732,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-06-17T10:47:11Z",
+      "updatedAt": "2026-06-17T11:03:06Z",
       "sources": [
         {
           "source": "Rádio Itatiaia",
@@ -771,7 +771,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T10:47:11Z",
+      "updatedAt": "2026-06-17T11:03:06Z",
       "sources": [
         {
           "source": "O TEMPO",
@@ -849,13 +849,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T10:47:11Z",
+      "updatedAt": "2026-06-17T11:03:06Z",
       "sources": [
         {
           "source": "Estado de Minas",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWUNKbmZjUUtxbm1LNXVBNHpsbFkwd0V6aHBBelhEc3ZXa1hGVGNzaXEtd2pDVHhYU0Qyd1dNSGVMQklnaGRXNGxlM2pkVk0yeWRKaGNib2hkNmFqRkFGQ1h6X1VjSjdmOFhTMmNKbXBKcnRxWVp3dkdtMXFzY1d3SlVMeWZTRmdTWUdiZUdvTERUVDhFSmgxWjNlUFgxYjBCd2xheE5aWk9ZLUh0YnJ1cmx1bGPSAboBQVVfeXFMUDRzTVpXZHFGanN1WnA5MDNncWJKNUU0M0xCdjJoWDBhdFpzSlRFVUY1RERHejQzMllDQnk5WHBNaHA5d1l4OXNYNE43bGo4OVlNU1k2STNGSk8ybzdnRGtRLXlnN2h1OUVmajE1NGF6ZmFMSk1qTEhXWkxZcnlCVEU2OHdmSENaOHlQeTZMbHdEMzlIUE9QXzZyd0d0YUh5cFpQNS1RVUpjTlV2bEljN2t6MjkwYUlvMDZB?oc=5",
           "headline": "Trecho da BR-381, em Caeté, será totalmente interditada para obras - Estado de Minas",
           "date": "2026-06-17T01:41:00Z"
+        }
+      ]
+    },
+    "d2e4869190ea0d9a2ddf00b6": {
+      "active": true,
+      "event_id": "d2e4869190ea0d9a2ddf00b6",
+      "stable_event_id": "d2e4869190ea0d9a2ddf00b6",
+      "name": "Interdição planejada por notícia pública • BR-381",
+      "road": "BR-381",
+      "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Belo Horizonte / Contagem",
+      "state": "MG",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-381 será totalmente interditada em Caeté nesta quarta-feira para obras no pavimento - Impactto News.  Período informado: 2026-06-17T10:54:13Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Impactto News",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVUh4RmJMdEVoMlppYWd1OTJyRWVaR0Jod2NnU0doU1dKaXdHMDZyLThQc3pnQTYyQnJJajg4akxCTVRDNGZJamhwTDRfREJxWllwX3NSOXk5NzNPOHRVNjh4MlUzM1Y2bTU2UmRiQkwxd1RjNVZwaU1MSjkwX3lzLS0wNUY0clNjempZNzBkVFZLS1ZhM3c4TUJWY3p2SzdWOFA4akZSNnRnTG5xdEhiaTRyMHFHNzh1Q3IyNk5WcEZIcVdGUk96dkJB?oc=5",
+      "headline": "BR-381 será totalmente interditada em Caeté nesta quarta-feira para obras no pavimento - Impactto News",
+      "newsDate": "2026-06-17T10:54:13Z",
+      "plannedStartAt": "2026-06-17T10:54:13Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-06-17T11:03:06Z",
+      "sources": [
+        {
+          "source": "Impactto News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVUh4RmJMdEVoMlppYWd1OTJyRWVaR0Jod2NnU0doU1dKaXdHMDZyLThQc3pnQTYyQnJJajg4akxCTVRDNGZJamhwTDRfREJxWllwX3NSOXk5NzNPOHRVNjh4MlUzM1Y2bTU2UmRiQkwxd1RjNVZwaU1MSjkwX3lzLS0wNUY0clNjempZNzBkVFZLS1ZhM3c4TUJWY3p2SzdWOFA4akZSNnRnTG5xdEhiaTRyMHFHNzh1Q3IyNk5WcEZIcVdGUk96dkJB?oc=5",
+          "headline": "BR-381 será totalmente interditada em Caeté nesta quarta-feira para obras no pavimento - Impactto News",
+          "date": "2026-06-17T10:54:13Z"
         }
       ]
     }
