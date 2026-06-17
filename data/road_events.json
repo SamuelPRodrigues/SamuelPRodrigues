@@ -40,8 +40,11 @@
     "active_duration_hours": 0.78,
     "active_duration_label": "47 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T14:32:26Z",
+    "news_signature": "3248435e17ad4843f260f45e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 2.5 h.",
+    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T12:00:00Z",
     "last_seen_at": "2026-06-17T14:32:26Z",
-    "active_duration_hours": 2.54,
+    "active_duration_hours": 2.55,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T14:32:26Z",
+    "news_signature": "c57e841e59874209912bdc5b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 2.8 h.",
+    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -121,7 +127,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-17T14:31:13Z",
     "sources": [
       {
@@ -163,8 +169,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T11:43:00Z",
     "last_seen_at": "2026-06-17T14:32:26Z",
-    "active_duration_hours": 2.82,
+    "active_duration_hours": 2.83,
     "active_duration_label": "2.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T14:32:26Z",
+    "news_signature": "b1124686de4e445f6f530481",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
