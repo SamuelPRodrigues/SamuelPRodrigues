@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 7.6 h.",
+    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T16:12:13Z",
     "last_seen_at": "2026-06-17T23:47:08Z",
-    "active_duration_hours": 7.58,
+    "active_duration_hours": 7.59,
     "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T23:47:08Z",
+    "news_signature": "9b3bfc85782f34d8072aec81",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.4 h.",
+    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 10.36,
     "active_duration_label": "10.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T23:47:08Z",
+    "news_signature": "6894954ef3cddc3d1861a212",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 11.8 h.",
+    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,7 +152,10 @@
     "active_duration_hours": 11.79,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T23:47:08Z",
+    "news_signature": "6ed939523758b8bc784b4289",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
