@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T13:47:13Z",
+  "updatedAt": "2026-06-17T14:03:21Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -91,6 +91,49 @@
       "storage": "supabase"
     },
     {
+      "event_id": "d012b5af02e29e0d888ffdc6",
+      "stable_event_id": "d012b5af02e29e0d888ffdc6",
+      "observation_hash": "e47228d9294ba03b75cbf9c1",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
+      "first_seen_at": "2026-06-17T14:03:16+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-324",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Interdição ou bloqueio por notícia pública • BR-324",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-324",
+      "description": "Trecho da BR-324 é interditado após tombamento de veículo na Bahia - Jornal Correio.. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Correio",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0lnRG9FQXdOS1dicl9teHB6Nm93RF9NcFJQOXJKZ1hzU3g4cVpQQ0FLLUtRSUhJS2dfSC1JNkpPUnRRUUpCUXhCZGxNSDZKbjJ4cGlyT3A1T0k0QVkxcjFCTktHYk5nLUtHbnVVSlBfM014OUttWmR4U2d3SmJYUi00Q0hoV084MHNwTWw5VlRpaUgybXNBbGl3QXlhOVU1VXFGd0Z6NTBleVA4enBxNHNZWGE2OFR6",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0lnRG9FQXdOS1dicl9teHB6Nm93RF9NcFJQOXJKZ1hzU3g4cVpQQ0FLLUtRSUhJS2dfSC1JNkpPUnRRUUpCUXhCZGxNSDZKbjJ4cGlyT3A1T0k0QVkxcjFCTktHYk5nLUtHbnVVSlBfM014OUttWmR4U2d3SmJYUi00Q0hoV084MHNwTWw5VlRpaUgybXNBbGl3QXlhOVU1VXFGd0Z6NTBleVA4enBxNHNZWGE2OFR6",
+      "headline": "Trecho da BR-324 é interditado após tombamento de veículo na Bahia - Jornal Correio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0lnRG9FQXdOS1dicl9teHB6Nm93RF9NcFJQOXJKZ1hzU3g4cVpQQ0FLLUtRSUhJS2dfSC1JNkpPUnRRUUpCUXhCZGxNSDZKbjJ4cGlyT3A1T0k0QVkxcjFCTktHYk5nLUtHbnVVSlBfM014OUttWmR4U2d3SmJYUi00Q0hoV084MHNwTWw5VlRpaUgybXNBbGl3QXlhOVU1VXFGd0Z6NTBleVA4enBxNHNZWGE2OFR6",
+          "headline": "Trecho da BR-324 é interditado após tombamento de veículo na Bahia - Jornal Correio.",
+          "date": "2026-06-17T14:03:17.481638+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "4d26d842b58fa42b70dcbf8f",
       "stable_event_id": "4d26d842b58fa42b70dcbf8f",
       "observation_hash": "8367512c1666bab0bd2b66f0",
@@ -126,7 +169,7 @@
           "source": "Rede 98 + 4 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOXFQcnFuZGtaUDFPWXFpLTFEQ1BwNVA5WktvYXRrbDJkLVplNWM0ajBjTEthNkZBcXhJRlluTExwZmVNdURrTHlPd1BEazV0WjBSaUVhaFJobW1PZndkVG5iM3RHWHhCclItT1BBZjJfNURCcDRaeEc0c0lhNkFNeUx6cm1CbzlvaTE1RHRrdWxkU1NIc20xNFg1ekpUNEplV01uRkNtUWlnS0dWd1hsSUYyYUU0Zw",
           "headline": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98.",
-          "date": "2026-06-17T13:47:10.844804+00:00"
+          "date": "2026-06-17T14:03:17.481638+00:00"
         },
         {
           "source": "Notícias públicas - O TEMPO + 2 fonte(s)",
@@ -322,7 +365,7 @@
           "source": "Notícias públicas - Estado de Minas + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3NhMWxJZFJCSEdzSTRVRFlISEUxTk9iaTE4V1I0Vjc3cEFZTXBPS3p0UU0yYUxuYlhXY1V6WDhhX0hfeU15ZjZvRF9UTjhZSmxtQXJ3Znc3UjJoTi1xU3ZsdkZzZlQwSVlneUhKa1pBQ0xFS3l1UHpqVFlJb1FqM3VSYzNEa2xPSmt2bHg1N2hxSFFZc1c3VTZwMTBnTmdYV2wzbXlVdEQtYU96VTZmVmNYX01IMHQtQ1ZOaHhqTzbSAcYBQVVfeXFMUFFxVXRYQ1JmMUdESlc3RmsyQ1BwWm5EMVVNS19GMWUzZEp0N3p4ZGcyb0hrUllHYXlldTdQb2pVVjZDWWFONTBBT3RtblQ4MHREZ2lmZDFsYmNWWVJ1SGl0QW15aWYtZEJ5Ry15a1BaS2R4RDg1b0s0TlZOcjhIZjZxRU9MUV9WSEV3aFhKVDVSaW82S3B3ZXFRMmpJaFVRTXAzMUM3eVJJR1JHSURCM3hCS2p5ejR2S2J2b09YT2hRZHAyMFB3",
           "headline": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas.",
-          "date": "2026-06-17T13:47:10.844804+00:00"
+          "date": "2026-06-17T14:03:17.481638+00:00"
         },
         {
           "source": "Notícias públicas - Por Dentro de Minas + 1 fonte(s)",
@@ -4539,10 +4582,10 @@
       "stable_event_id": "66e1791f8dbba3841f3d59de",
       "observation_hash": "92ef143dff963c9188764b6e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-17T13:47:09+00:00",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-06-17T13:47:09+00:00",
-      "updated_at": "2026-06-17T13:47:10.844804+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4558,8 +4601,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 21.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 552,
-      "estimated_hours": 138.0,
+      "total_snapshots": 553,
+      "estimated_hours": 138.25,
       "active": true,
       "storage": "supabase"
     },
@@ -4568,10 +4611,10 @@
       "stable_event_id": "16af4132e97e98b46886d5b2",
       "observation_hash": "a99b359f9a120a2bcecb7dc5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-17T13:47:09+00:00",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
       "first_seen_at": "2026-05-26T23:16:39+00:00",
-      "last_seen_at": "2026-06-17T13:47:09+00:00",
-      "updated_at": "2026-06-17T13:47:10.844804+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4587,8 +4630,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 21.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 630,
-      "estimated_hours": 157.5,
+      "total_snapshots": 631,
+      "estimated_hours": 157.75,
       "active": true,
       "storage": "supabase"
     },
@@ -4597,10 +4640,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "426566bca4ccd27bdb49e116",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-17T13:47:09+00:00",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-06-17T13:47:09+00:00",
-      "updated_at": "2026-06-17T13:47:10.844804+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4616,8 +4659,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 22.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1051,
-      "estimated_hours": 262.75,
+      "total_snapshots": 1052,
+      "estimated_hours": 263.0,
       "active": true,
       "storage": "supabase"
     },
@@ -4626,10 +4669,10 @@
       "stable_event_id": "dbf91db815d3abd8bcb6283a",
       "observation_hash": "af45cf9269136a4905e5787c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-17T13:47:09+00:00",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
       "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-06-17T13:47:09+00:00",
-      "updated_at": "2026-06-17T13:47:10.844804+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4645,8 +4688,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 21.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 319,
-      "estimated_hours": 79.75,
+      "total_snapshots": 320,
+      "estimated_hours": 80.0,
       "active": true,
       "storage": "supabase"
     },
@@ -4887,10 +4930,10 @@
       "stable_event_id": "cccfff4bc2c909d44ee82c74",
       "observation_hash": "d114c1dab6c79e662b5b5a69",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-17T13:47:09+00:00",
+      "snapshot_at": "2026-06-17T14:03:16+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-17T13:47:09+00:00",
-      "updated_at": "2026-06-17T13:47:10.844804+00:00",
+      "last_seen_at": "2026-06-17T14:03:16+00:00",
+      "updated_at": "2026-06-17T14:03:17.481638+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4906,8 +4949,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 22.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 958,
-      "estimated_hours": 239.5,
+      "total_snapshots": 959,
+      "estimated_hours": 239.75,
       "active": true,
       "storage": "supabase"
     },
@@ -7756,17 +7799,17 @@
   ],
   "windows": {
     "7": {
-      "events": 111,
+      "events": 112,
       "avgRisk": 42,
       "maxRisk": 89,
       "rainChance": 0,
       "byType": {
         "climate": 90,
-        "road": 21
+        "road": 22
       },
       "byRegion": {
         "Sudeste": 35,
-        "Nordeste": 21,
+        "Nordeste": 22,
         "Sul": 21,
         "Norte": 18,
         "Centro-Oeste": 12,
@@ -7774,7 +7817,7 @@
       },
       "bySeverity": {
         "Moderado": 70,
-        "Alto": 23,
+        "Alto": 24,
         "Baixo": 17,
         "Crítico": 1
       },
@@ -7823,25 +7866,25 @@
         },
         {
           "date": "2026-06-17",
-          "avgRisk": 35,
-          "events": 41,
+          "avgRisk": 36,
+          "events": 42,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 220,
+      "events": 221,
       "avgRisk": 50,
       "maxRisk": 89,
       "rainChance": 25,
       "byType": {
         "climate": 133,
-        "road": 85,
+        "road": 86,
         "operational": 2
       },
       "byRegion": {
         "Sudeste": 60,
-        "Nordeste": 50,
+        "Nordeste": 51,
         "Sul": 47,
         "Norte": 41,
         "Centro-Oeste": 13,
@@ -7849,7 +7892,7 @@
       },
       "bySeverity": {
         "Moderado": 110,
-        "Alto": 90,
+        "Alto": 91,
         "Baixo": 19,
         "Crítico": 1
       },
@@ -7994,25 +8037,25 @@
         },
         {
           "date": "2026-06-17",
-          "avgRisk": 35,
-          "events": 41,
+          "avgRisk": 36,
+          "events": 42,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 220,
+      "events": 221,
       "avgRisk": 50,
       "maxRisk": 89,
       "rainChance": 25,
       "byType": {
         "climate": 133,
-        "road": 85,
+        "road": 86,
         "operational": 2
       },
       "byRegion": {
         "Sudeste": 60,
-        "Nordeste": 50,
+        "Nordeste": 51,
         "Sul": 47,
         "Norte": 41,
         "Centro-Oeste": 13,
@@ -8020,7 +8063,7 @@
       },
       "bySeverity": {
         "Moderado": 110,
-        "Alto": 90,
+        "Alto": 91,
         "Baixo": 19,
         "Crítico": 1
       },
@@ -8165,8 +8208,8 @@
         },
         {
           "date": "2026-06-17",
-          "avgRisk": 35,
-          "events": 41,
+          "avgRisk": 36,
+          "events": 42,
           "maxRisk": 69
         }
       ]
