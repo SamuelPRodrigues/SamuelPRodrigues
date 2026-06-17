@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-381, em Caeté, será totalmente interditada para obras - Estado de Minas. Período informado: 2026-06-17T01:41:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-17T01:41:00Z; ativo há 2.1 h.",
+    "description": "Trecho da BR-381, em Caeté, será totalmente interditada para obras - Estado de Minas. Período informado: 2026-06-17T01:41:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-17T01:41:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-17T03:45:40Z",
     "sources": [
       {
@@ -47,7 +47,10 @@
     "last_seen_at": "2026-06-17T03:46:53Z",
     "active_duration_hours": 2.1,
     "active_duration_label": "2.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T03:46:53Z",
+    "news_signature": "116cb0ae7068692425d71f71",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +67,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO. Período informado: 2026-06-16T23:40:39Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Itabira Online; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-16T23:40:39Z; ativo há 4.1 h.",
+    "description": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO. Período informado: 2026-06-16T23:40:39Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Itabira Online; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-16T23:40:39Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-17T03:45:40Z",
     "sources": [
       {
@@ -107,8 +110,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-16T23:40:39Z",
     "last_seen_at": "2026-06-17T03:46:53Z",
-    "active_duration_hours": 4.1,
+    "active_duration_hours": 4.11,
     "active_duration_label": "4.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T03:46:53Z",
+    "news_signature": "8392ab95c095fd6fbc71c989",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
