@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO. Período informado: 2026-06-16T23:40:39Z até fim não identificado. Fontes consolidadas: O TEMPO. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-16T23:40:39Z; ativo há 1.1 h.",
+    "description": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO. Período informado: 2026-06-16T23:40:39Z até fim não identificado. Fontes consolidadas: O TEMPO. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-16T23:40:39Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-06-17T00:46:35Z",
+    "updatedAt": "2026-06-17T01:00:49Z",
     "sources": [
       {
         "source": "O TEMPO",
@@ -41,12 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 1.12,
+    "newsFreshnessHours": 1.36,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-16T23:40:39Z",
-    "last_seen_at": "2026-06-17T00:47:47Z",
-    "active_duration_hours": 1.12,
-    "active_duration_label": "1.1 h",
+    "last_seen_at": "2026-06-17T01:02:01Z",
+    "active_duration_hours": 1.36,
+    "active_duration_label": "1.4 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
