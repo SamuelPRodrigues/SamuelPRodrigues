@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T01:16:46Z",
+  "updatedAt": "2026-06-17T01:32:13Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -732,7 +732,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-06-17T01:16:46Z",
+      "updatedAt": "2026-06-17T01:32:13Z",
       "sources": [
         {
           "source": "Rádio Itatiaia",
@@ -771,13 +771,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T01:16:46Z",
+      "updatedAt": "2026-06-17T01:32:13Z",
       "sources": [
         {
           "source": "O TEMPO",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlQ4bGNRdDVTNE9MR044ckxpQ2JxYTFtRG1qal9iNTF1RllYNDQ3VGdMR3M0RS1hbzBGRGplNlUxVzFwa3FYbUIxV2c4dmV6U1dUXzVFUDFRcDVjT3Q4c1p0Z1kzdXFDcFJkYzdIMWQ3V2VGTmdsMUdRQlB0bVdzSHB6T1hVNnZFbGdvRGx0U0ZnaTBybTZBaGh1RVcxVl9jTDNvT3JCQVctY1E?oc=5",
           "headline": "BR-381 será totalmente interditada no trevo de Caeté para obras - O TEMPO",
           "date": "2026-06-16T23:40:39Z"
+        }
+      ]
+    },
+    "b27ad217a66b4e5ee46e9318": {
+      "active": false,
+      "event_id": "b27ad217a66b4e5ee46e9318",
+      "stable_event_id": "b27ad217a66b4e5ee46e9318",
+      "name": "Interdição planejada por notícia pública • BR-381",
+      "road": "BR-381",
+      "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Belo Horizonte / Contagem",
+      "state": "MG",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-381 será totalmente interditada em Caeté para obras nesta quarta-feira (17) - Itabira Online.  Período informado: 2026-06-17T03:00:00Z até 2026-06-18T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Itabira Online",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcE04QVhobnhHdnF2aUxmMngzTlFFNVhLSnpBTUJmcWRHTGFjTHdCRXJ6MmR5YlNmckJFdGRSTFdBVGdQa29MMV9lTW5yYWJBYlZmcnRnUHlLOFpWME9IZ3FiOVBTZVdhelVyd29ISWhpdkZzbTBfTHJ0dXE4SDlQVVJ6QmlkN2JoUjlrMXBpSGJqbXZCZjNiQ2VkTThXbUpCbGh0cTg2SW8zaTk5d0tFeFByWFItUUdt?oc=5",
+      "headline": "BR-381 será totalmente interditada em Caeté para obras nesta quarta-feira (17) - Itabira Online",
+      "newsDate": "2026-06-16T23:09:52Z",
+      "plannedStartAt": "2026-06-17T03:00:00Z",
+      "plannedEndAt": "2026-06-18T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "scheduled",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-06-17T01:32:13Z",
+      "sources": [
+        {
+          "source": "Itabira Online",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcE04QVhobnhHdnF2aUxmMngzTlFFNVhLSnpBTUJmcWRHTGFjTHdCRXJ6MmR5YlNmckJFdGRSTFdBVGdQa29MMV9lTW5yYWJBYlZmcnRnUHlLOFpWME9IZ3FiOVBTZVdhelVyd29ISWhpdkZzbTBfTHJ0dXE4SDlQVVJ6QmlkN2JoUjlrMXBpSGJqbXZCZjNiQ2VkTThXbUpCbGh0cTg2SW8zaTk5d0tFeFByWFItUUdt?oc=5",
+          "headline": "BR-381 será totalmente interditada em Caeté para obras nesta quarta-feira (17) - Itabira Online",
+          "date": "2026-06-16T23:09:52Z"
         }
       ]
     }
