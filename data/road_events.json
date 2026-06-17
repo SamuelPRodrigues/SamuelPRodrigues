@@ -1,165 +1,6 @@
 [
   {
     "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-324",
-    "road": "BR-324",
-    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -12.977,
-    "lon": -38.501,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 5.3 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Metro 1 + 1 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdlJLemtOSVV0OGFNUWQyS1diR2RLS0pPMlRTWXJhR2RudGRqU1F2S2xTaTByY3dXM0FzYUFsQUFVQ1NhRnZ3UkRGSTE4LVNobG1Ua0pCNHNqbDRtdW5yRjZ3TW9WOGtUSEhCT05vU0IzRUNTZWN5M3ktajNNWXRGMzc5c2trQmJ2cmh1cmR2Z2lCT3BwOUczRWNDMlJNQkV0aEFDRU51YnM",
-    "headline": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1",
-    "newsDate": "Wed, 17 Jun 2026 16:12:13 GMT",
-    "updatedAt": "2026-06-17T21:31:00Z",
-    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdlJLemtOSVV0OGFNUWQyS1diR2RLS0pPMlRTWXJhR2RudGRqU1F2S2xTaTByY3dXM0FzYUFsQUFVQ1NhRnZ3UkRGSTE4LVNobG1Ua0pCNHNqbDRtdW5yRjZ3TW9WOGtUSEhCT05vU0IzRUNTZWN5M3ktajNNWXRGMzc5c2trQmJ2cmh1cmR2Z2lCT3BwOUczRWNDMlJNQkV0aEFDRU51YnM",
-    "sources": [
-      {
-        "source": "Notícias públicas - Metro 1",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdlJLemtOSVV0OGFNUWQyS1diR2RLS0pPMlRTWXJhR2RudGRqU1F2S2xTaTByY3dXM0FzYUFsQUFVQ1NhRnZ3UkRGSTE4LVNobG1Ua0pCNHNqbDRtdW5yRjZ3TW9WOGtUSEhCT05vU0IzRUNTZWN5M3ktajNNWXRGMzc5c2trQmJ2cmh1cmR2Z2lCT3BwOUczRWNDMlJNQkV0aEFDRU51YnM",
-        "headline": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1",
-        "date": "Wed, 17 Jun 2026 16:12:13 GMT"
-      },
-      {
-        "source": "Notícias públicas - - Bahia Economica",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1FDYmRlYm1qYTZuWWNmN1E4M1NPV2RtajUyU1pGYnNzWmNTN3Z0OUN2VHJ6am1VakM3NVc5NjdrVHkzV0d3S2ZuU2NjU2h3UjQtTUI4ZVdYdTYyWENIaFVYempUVEI0ZFdPdV9YTnh6VU1VbWtQSlRwUWFHc19DMTJXMFljcVhqMEdRZ2FkYl96MXlObV9RMWxoWnI3WXpBaEdEUEV4S2ZpSnZUNEdPMw",
-        "headline": "TRECHO DA BR-324 É INTERDITADO APÓS TOMBAMENTO DE VEÍCULO NA BAHIA - - Bahia Economica",
-        "date": "Wed, 17 Jun 2026 15:39:00 GMT"
-      }
-    ],
-    "sourceCount": 2,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "0c63f4d6c7c8e71fb49e02fb",
-    "event_id": "0c63f4d6c7c8e71fb49e02fb",
-    "newsFreshnessHours": 5.33,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-06-17T16:12:13Z",
-    "last_seen_at": "2026-06-17T21:32:16Z",
-    "active_duration_hours": 5.34,
-    "active_duration_label": "5.3 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-17T21:32:16Z",
-    "news_signature": "9b3bfc85782f34d8072aec81",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-470",
-    "road": "BR-470",
-    "corridor": "Blumenau • BR-470",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -26.919,
-    "lon": -49.066,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 8.1 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Testo Notícias",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamNxWHh5bHRtMkJEMm9QbzN3am5KS1F0ajJ6VGJVaDRRVVF6UGttMFFaVGxEZUxrQXczSzF1TnB2ekNJcXExMWZBN2V5YmljXzNicDBxc0FQT3lpVkg3LUdUbVJhQnRNazR2VGdEdDFYTUkyaGZyMllDQ0JjaXk1OExLVnhOWVpmR3pzQ2RTVGtFTG5RTVdyeVJ1ck4tQ0ZtSFJfS2dJODVUTDY4X05rVXBySXFpSzFlMzRaaW53WVh5OHBsU1VrSE5BUmdBZ0VIQ0JoSC1RazR1RGNiOGl0ZDNEc3V1LUJWWWc",
-    "headline": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias",
-    "newsDate": "Wed, 17 Jun 2026 13:25:47 GMT",
-    "updatedAt": "2026-06-17T21:31:00Z",
-    "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamNxWHh5bHRtMkJEMm9QbzN3am5KS1F0ajJ6VGJVaDRRVVF6UGttMFFaVGxEZUxrQXczSzF1TnB2ekNJcXExMWZBN2V5YmljXzNicDBxc0FQT3lpVkg3LUdUbVJhQnRNazR2VGdEdDFYTUkyaGZyMllDQ0JjaXk1OExLVnhOWVpmR3pzQ2RTVGtFTG5RTVdyeVJ1ck4tQ0ZtSFJfS2dJODVUTDY4X05rVXBySXFpSzFlMzRaaW53WVh5OHBsU1VrSE5BUmdBZ0VIQ0JoSC1RazR1RGNiOGl0ZDNEc3V1LUJWWWc",
-    "sources": [
-      {
-        "source": "Notícias públicas - Testo Notícias",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamNxWHh5bHRtMkJEMm9QbzN3am5KS1F0ajJ6VGJVaDRRVVF6UGttMFFaVGxEZUxrQXczSzF1TnB2ekNJcXExMWZBN2V5YmljXzNicDBxc0FQT3lpVkg3LUdUbVJhQnRNazR2VGdEdDFYTUkyaGZyMllDQ0JjaXk1OExLVnhOWVpmR3pzQ2RTVGtFTG5RTVdyeVJ1ck4tQ0ZtSFJfS2dJODVUTDY4X05rVXBySXFpSzFlMzRaaW53WVh5OHBsU1VrSE5BUmdBZ0VIQ0JoSC1RazR1RGNiOGl0ZDNEc3V1LUJWWWc",
-        "headline": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias",
-        "date": "Wed, 17 Jun 2026 13:25:47 GMT"
-      }
-    ],
-    "sourceCount": 1,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "1bcec9ce18a4a0a12ecf4fc1",
-    "event_id": "1bcec9ce18a4a0a12ecf4fc1",
-    "newsFreshnessHours": 8.11,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-06-17T13:25:47Z",
-    "last_seen_at": "2026-06-17T21:32:16Z",
-    "active_duration_hours": 8.11,
-    "active_duration_label": "8.1 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-17T21:32:16Z",
-    "news_signature": "6894954ef3cddc3d1861a212",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-381",
-    "road": "BR-381",
-    "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -19.916,
-    "lon": -43.934,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 9.5 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Estado de Minas + 2 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3NhMWxJZFJCSEdzSTRVRFlISEUxTk9iaTE4V1I0Vjc3cEFZTXBPS3p0UU0yYUxuYlhXY1V6WDhhX0hfeU15ZjZvRF9UTjhZSmxtQXJ3Znc3UjJoTi1xU3ZsdkZzZlQwSVlneUhKa1pBQ0xFS3l1UHpqVFlJb1FqM3VSYzNEa2xPSmt2bHg1N2hxSFFZc1c3VTZwMTBnTmdYV2wzbXlVdEQtYU96VTZmVmNYX01IMHQtQ1ZOaHhqTzbSAcYBQVVfeXFMUFFxVXRYQ1JmMUdESlc3RmsyQ1BwWm5EMVVNS19GMWUzZEp0N3p4ZGcyb0hrUllHYXlldTdQb2pVVjZDWWFONTBBT3RtblQ4MHREZ2lmZDFsYmNWWVJ1SGl0QW15aWYtZEJ5Ry15a1BaS2R4RDg1b0s0TlZOcjhIZjZxRU9MUV9WSEV3aFhKVDVSaW82S3B3ZXFRMmpJaFVRTXAzMUM3eVJJR1JHSURCM3hCS2p5ejR2S2J2b09YT2hRZHAyMFB3",
-    "headline": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas",
-    "newsDate": "Wed, 17 Jun 2026 12:00:00 GMT",
-    "updatedAt": "2026-06-17T21:31:00Z",
-    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3NhMWxJZFJCSEdzSTRVRFlISEUxTk9iaTE4V1I0Vjc3cEFZTXBPS3p0UU0yYUxuYlhXY1V6WDhhX0hfeU15ZjZvRF9UTjhZSmxtQXJ3Znc3UjJoTi1xU3ZsdkZzZlQwSVlneUhKa1pBQ0xFS3l1UHpqVFlJb1FqM3VSYzNEa2xPSmt2bHg1N2hxSFFZc1c3VTZwMTBnTmdYV2wzbXlVdEQtYU96VTZmVmNYX01IMHQtQ1ZOaHhqTzbSAcYBQVVfeXFMUFFxVXRYQ1JmMUdESlc3RmsyQ1BwWm5EMVVNS19GMWUzZEp0N3p4ZGcyb0hrUllHYXlldTdQb2pVVjZDWWFONTBBT3RtblQ4MHREZ2lmZDFsYmNWWVJ1SGl0QW15aWYtZEJ5Ry15a1BaS2R4RDg1b0s0TlZOcjhIZjZxRU9MUV9WSEV3aFhKVDVSaW82S3B3ZXFRMmpJaFVRTXAzMUM3eVJJR1JHSURCM3hCS2p5ejR2S2J2b09YT2hRZHAyMFB3",
-    "sources": [
-      {
-        "source": "Notícias públicas - Estado de Minas",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3NhMWxJZFJCSEdzSTRVRFlISEUxTk9iaTE4V1I0Vjc3cEFZTXBPS3p0UU0yYUxuYlhXY1V6WDhhX0hfeU15ZjZvRF9UTjhZSmxtQXJ3Znc3UjJoTi1xU3ZsdkZzZlQwSVlneUhKa1pBQ0xFS3l1UHpqVFlJb1FqM3VSYzNEa2xPSmt2bHg1N2hxSFFZc1c3VTZwMTBnTmdYV2wzbXlVdEQtYU96VTZmVmNYX01IMHQtQ1ZOaHhqTzbSAcYBQVVfeXFMUFFxVXRYQ1JmMUdESlc3RmsyQ1BwWm5EMVVNS19GMWUzZEp0N3p4ZGcyb0hrUllHYXlldTdQb2pVVjZDWWFONTBBT3RtblQ4MHREZ2lmZDFsYmNWWVJ1SGl0QW15aWYtZEJ5Ry15a1BaS2R4RDg1b0s0TlZOcjhIZjZxRU9MUV9WSEV3aFhKVDVSaW82S3B3ZXFRMmpJaFVRTXAzMUM3eVJJR1JHSURCM3hCS2p5ejR2S2J2b09YT2hRZHAyMFB3",
-        "headline": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas",
-        "date": "Wed, 17 Jun 2026 12:00:00 GMT"
-      },
-      {
-        "source": "Notícias públicas - instagram.com",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94Sm5NSHJ0eGVGbHVwZ0xORUZST2NuT2lHaUMzNDl1OWZHdkVKdDZwWkQ4MUM4cDRTcmhobDF1bFdxeXVDc1I1dURmV1lsMlJkTVE",
-        "headline": "A BR-381 terá um trecho totalmente interditado na manhã desta quarta-feira (17) em Caeté, na Região Metropolitana de Belo Horizonte, para a realização de obras de manutenção no pav",
-        "date": "Wed, 17 Jun 2026 11:02:47 GMT"
-      },
-      {
-        "source": "Notícias públicas - Estado de Minas",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHhoRVFyNF9YMkZvQTltcjhIZjdha2F0bUdkYmFmVnJBcTJTRi1ZSEtQY05TRnlHY1Q4dHNpQ21HeERjMmJyc0d2WWdwRzFPMmpFQ1lpWVBsME9aMHppTjVneHhIWVhzZUszWnJ2c0x3RDgwSldNLTNfMW53aVFJOUFWU1lRMnFLeFRSME5xV0lRZXZ0X3oxZzlHcElPUDRlbl9OV3h5bWpGNFRSaXMxN0gzOG7SAboBQVVfeXFMTkV2RXhjR0NvQXo0N0RjWmxoUFZkT0F4MDNQZTB5ZmFKdm5lWXZqbS1hYTlEcGdzMXJVTFQ1OFRYOS1lOEVyT1ZKcU43WjRYQS0yYmV0M3VSdUZrNVJtdTdoMlN5Ul9Hd19BNXMyQXlDbjhGSnlSYW9OSWFDZ3RFRmdJbjBpbmdrZ1RKWUFZQkFoSGRhdm1yVnlCNGEzaERGU2oyRElnd01FcGlRTjdGYlFWYTUyRHRWZEN3",
-        "headline": "Trecho da BR-381, em Caeté, será totalmente interditado para obras - Estado de Minas",
-        "date": "Wed, 17 Jun 2026 01:41:00 GMT"
-      }
-    ],
-    "sourceCount": 3,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "81acf4f6c6783d8b43bcbe35",
-    "event_id": "81acf4f6c6783d8b43bcbe35",
-    "newsFreshnessHours": 9.54,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-06-17T12:00:00Z",
-    "last_seen_at": "2026-06-17T21:32:16Z",
-    "active_duration_hours": 9.54,
-    "active_duration_label": "9.5 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-17T21:32:16Z",
-    "news_signature": "6ed939523758b8bc784b4289",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
     "event_id": "4d26d842b58fa42b70dcbf8f",
     "stable_event_id": "4d26d842b58fa42b70dcbf8f",
     "name": "Interdição planejada por notícia pública • BR-381",
@@ -173,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 9.8 h.",
+    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -186,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-06-17T18:32:05Z",
     "sources": [
       {
@@ -199,19 +40,19 @@
         "source": "Notícias públicas - BHAZ",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zQkZ5OGkzS18xYXNZZXNOZy15MTM3U1dNNm54UnlvM0hnd2J6cl9VUEVMcEYyVjU1WkhtZndLdmtBbi1IZmJQWVMzWUh6eEsyMzZmQ0ptWTFhUGpQeEVvQURIMzc1YWFLUXN0aS1mcGtSVWFrZkJBWVV3",
         "headline": "BR-381 é totalmente interditada na Grande BH nesta quarta-feira - BHAZ",
-        "date": "Wed, 17 Jun 2026 13:44:00 GMT"
+        "date": "2026-06-17T13:44:00Z"
       },
       {
         "source": "Notícias públicas - O TEMPO",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXRDRUtBNGZFSTFNbmtZQ2NjV3RSeHhGUkxCXzFZZjJlelQ3ZGNPNXVuV0ItdWl5STVsNmdYaVpjQWNyejRURXRDUlV1SDVYTDB1RGhoeDd4UEpkaFhhSDBLUmp0TmRCU1FNbEphcDhtaTlSbURac1BqLVdaZ1Q1T0N1NUdqekhxM21NdDM1Z0I1bFJyQ3BJbE5ZSURSMUc0aGFNQkhTOGZGeUt0VHV5cmlB",
         "headline": "BR-381 será totalmente interditada nesta quarta-feira; saiba detalhes - O TEMPO",
-        "date": "Wed, 17 Jun 2026 11:31:29 GMT"
+        "date": "2026-06-17T11:31:29Z"
       },
       {
         "source": "Notícias públicas - Impactto News",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVUh4RmJMdEVoMlppYWd1OTJyRWVaR0Jod2NnU0doU1dKaXdHMDZyLThQc3pnQTYyQnJJajg4akxCTVRDNGZJamhwTDRfREJxWllwX3NSOXk5NzNPOHRVNjh4MlUzM1Y2bTU2UmRiQkwxd1RjNVZwaU1MSjkwX3lzLS0wNUY0clNjempZNzBkVFZLS1ZhM3c4TUJWY3p2SzdWOFA4akZSNnRnTG5xdEhiaTRyMHFHNzh1Q3IyNk5WcEZIcVdGUk96dkJB",
         "headline": "BR-381 será totalmente interditada em Caeté nesta quarta-feira para obras no pavimento - Impactto News",
-        "date": "Wed, 17 Jun 2026 10:54:13 GMT"
+        "date": "2026-06-17T10:54:13Z"
       },
       {
         "source": "Notícias públicas - Estado de Minas",
@@ -224,15 +65,12 @@
     "sourceCount": 5,
     "dedupedFrom": 5,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.82,
+    "newsFreshnessHours": 10.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T11:43:00Z",
-    "last_seen_at": "2026-06-17T21:32:16Z",
-    "active_duration_hours": 9.83,
-    "active_duration_label": "9.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-17T21:32:16Z",
-    "news_signature": "b1124686de4e445f6f530481",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-17T21:47:04Z",
+    "active_duration_hours": 10.07,
+    "active_duration_label": "10.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
