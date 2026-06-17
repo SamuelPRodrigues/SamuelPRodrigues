@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T13:32:36Z",
+  "updatedAt": "2026-06-17T13:47:13Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -732,7 +732,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-06-17T13:32:36Z",
+      "updatedAt": "2026-06-17T13:47:13Z",
       "sources": [
         {
           "source": "Rádio Itatiaia",
@@ -888,7 +888,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T13:32:36Z",
+      "updatedAt": "2026-06-17T13:47:13Z",
       "sources": [
         {
           "source": "Impactto News",
@@ -927,7 +927,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T13:32:36Z",
+      "updatedAt": "2026-06-17T13:47:13Z",
       "sources": [
         {
           "source": "O TEMPO",
@@ -966,13 +966,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-06-17T13:32:36Z",
+      "updatedAt": "2026-06-17T13:47:13Z",
       "sources": [
         {
           "source": "Rede 98",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOXFQcnFuZGtaUDFPWXFpLTFEQ1BwNVA5WktvYXRrbDJkLVplNWM0ajBjTEthNkZBcXhJRlluTExwZmVNdURrTHlPd1BEazV0WjBSaUVhaFJobW1PZndkVG5iM3RHWHhCclItT1BBZjJfNURCcDRaeEc0c0lhNkFNeUx6cm1CbzlvaTE1RHRrdWxkU1NIc20xNFg1ekpUNEplV01uRkNtUWlnS0dWd1hsSUYyYUU0Zw?oc=5",
           "headline": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98",
           "date": "2026-06-17T11:43:00Z"
+        }
+      ]
+    },
+    "25c780479da9af7d998536bd": {
+      "active": true,
+      "event_id": "25c780479da9af7d998536bd",
+      "stable_event_id": "25c780479da9af7d998536bd",
+      "name": "Interdição planejada por notícia pública • BR-381",
+      "road": "BR-381",
+      "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Belo Horizonte / Contagem",
+      "state": "MG",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-381 é totalmente interditada na Grande BH nesta quarta-feira - BHAZ.  Período informado: 2026-06-17T13:44:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - BHAZ",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zQkZ5OGkzS18xYXNZZXNOZy15MTM3U1dNNm54UnlvM0hnd2J6cl9VUEVMcEYyVjU1WkhtZndLdmtBbi1IZmJQWVMzWUh6eEsyMzZmQ0ptWTFhUGpQeEVvQURIMzc1YWFLUXN0aS1mcGtSVWFrZkJBWVV3?oc=5",
+      "headline": "BR-381 é totalmente interditada na Grande BH nesta quarta-feira - BHAZ",
+      "newsDate": "2026-06-17T13:44:00Z",
+      "plannedStartAt": "2026-06-17T13:44:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-06-17T13:47:13Z",
+      "sources": [
+        {
+          "source": "BHAZ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zQkZ5OGkzS18xYXNZZXNOZy15MTM3U1dNNm54UnlvM0hnd2J6cl9VUEVMcEYyVjU1WkhtZndLdmtBbi1IZmJQWVMzWUh6eEsyMzZmQ0ptWTFhUGpQeEVvQURIMzc1YWFLUXN0aS1mcGtSVWFrZkJBWVV3?oc=5",
+          "headline": "BR-381 é totalmente interditada na Grande BH nesta quarta-feira - BHAZ",
+          "date": "2026-06-17T13:44:00Z"
         }
       ]
     }
