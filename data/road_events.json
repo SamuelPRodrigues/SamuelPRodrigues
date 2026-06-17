@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 2.6 h.",
+    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T16:12:13Z",
     "last_seen_at": "2026-06-17T18:47:01Z",
-    "active_duration_hours": 2.58,
+    "active_duration_hours": 2.59,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T18:47:01Z",
+    "news_signature": "9b3bfc85782f34d8072aec81",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 5.3 h.",
+    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 5.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T13:25:47Z",
     "last_seen_at": "2026-06-17T18:47:01Z",
-    "active_duration_hours": 5.35,
-    "active_duration_label": "5.3 h",
+    "active_duration_hours": 5.36,
+    "active_duration_label": "5.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T18:47:01Z",
+    "news_signature": "6894954ef3cddc3d1861a212",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 6.8 h.",
+    "description": "BR-381 será interditada por duas horas nesta quarta; veja rota alternativa - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-17T12:00:00Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,11 +149,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T12:00:00Z",
     "last_seen_at": "2026-06-17T18:47:01Z",
-    "active_duration_hours": 6.78,
+    "active_duration_hours": 6.79,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-17T18:47:01Z",
+    "news_signature": "6ed939523758b8bc784b4289",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -164,7 +173,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 7.1 h.",
+    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -218,9 +227,11 @@
     "newsFreshnessHours": 7.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T11:43:00Z",
-    "last_seen_at": "2026-06-17T18:47:01Z",
+    "last_seen_at": "2026-06-17T18:47:19Z",
     "active_duration_hours": 7.07,
     "active_duration_label": "7.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b1124686de4e445f6f530481",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
