@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 10.1 h.",
+    "description": "BR-381 é totalmente interditada em Caeté para obras nesta quarta-feira - Rede 98. Período informado: 2026-06-17T11:43:00Z até fim não identificado. Fontes consolidadas: Rede 98; Notícias públicas - BHAZ; Notícias públicas - O TEMPO; Notícias públicas - Impactto News; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-17T11:43:00Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -68,9 +68,11 @@
     "newsFreshnessHours": 10.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T11:43:00Z",
-    "last_seen_at": "2026-06-17T21:47:04Z",
+    "last_seen_at": "2026-06-17T21:47:26Z",
     "active_duration_hours": 10.07,
     "active_duration_label": "10.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2ceef05299c7611c6ac62f99",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
