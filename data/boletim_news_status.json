@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-06-18T16:18:16Z",
+  "updatedAt": "2026-06-18T16:19:54Z",
   "queries": 6,
-  "newItemsBeforeMerge": 2,
+  "newItemsBeforeMerge": 63,
   "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 47,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Régis Bittencourt terá interdição noturna no km 284, em Embu das Artes/SP - Arteris S.A.",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Governo de Goiás autoriza obras de pavimentação entre Estiva e São Domingos - goinfra.go.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Arteris S.A - Arteris S.A.",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ônibus sai da pista, tomba na BR-232 em Caruaru e 16 pessoas ficam feridas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Pais e filho que morreram em acidente na BR-386 estavam a caminho de festival de dança - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "BR-262 terá interdição total na ponte do Rio Paraguai - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "PRF acompanha manifestação e garante liberação rápida da BR-364 em Bujari/AC - www.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Adolescente morre em batida entre carro e moto na BR-040 em João Pinheiro - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Chuva causa transtornos em vários bairros do Rio, e barranco desliza na Rocinha - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Jornal Midiamax. . A forte chuva que atingiu Três Lagoas, cidade localizada a 327 quilômetros de Campo Grande, causou a abertura de uma grande cratera na Rua Manoel de Faria Duque,",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva na Rocinha superou em mais que duas vezes a média de junho - Agência Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva e raios atingem Campo Grande com alerta de temporal - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Desmoronamento durante chuva forte na Rocinha assusta moradores da região - VEJA RIO",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Previsão se confirma e chuva forte atinge Campo Grande na noite do Dia dos Namorados - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal derruba 23 árvores e registra até 64 mm de chuva em Goiânia - Jornal Opção",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Jornal Midiamax. . Confirmando as previsões, uma chuva forte atingiu a cidade de Campo Grande por volta das 18h30, totalizando mais de 24 milímetros de chuva acumulados em um perío",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva em Campo Grande atinge 68mm e Capital segue em alerta - Campo Grande News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte atingiu a cidade de Campo Grande por volta das 18h30, totalizando mais de 24 milímetros de chuva acumulados em um período de meia hora de precipitações - facebook.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte abre cratera gigante na véspera do aniversário da cidade, em Três Lagoas; veja VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone extratropical provoca chuva forte e deixa RS sob aviso; saiba quais regiões podem ser afetadas - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "RioSP realiza operações especiais na Serra das Araras neste fim de semana - Motiva Rodovias",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "CIOT 2026: Regras atualizadas e principais riscos jurídicos - Migalhas",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Câmara aprova ‘jabuti’ que anistia caminhoneiros de bloqueios em MP do Frete - InfoMoney",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Usuários dos restaurantes comunitários de Ceilândia Norte e Estrutural têm transporte gratuito para almoçar em outras unidades - Agência Brasília",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Câmara aprova MP do piso do frete e inclui anistia a multas para caminhoneiros que fizeram mobilizações pró-golpe - Brasil 247",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
