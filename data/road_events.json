@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116",
+    "road": "BR-116",
+    "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.266,
+    "lon": -38.966,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Um trecho da BR-116 tem trânsito parcialmente interditado na manhã desta quinta (18), em Rafael Jambeiro, no Centro-norte da Bahia. Segundo a Polícia Rodoviária Federal, uma carret. Fontes consolidadas: Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-18T12:52:33Z; ativo há 10 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - instagram.com",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVklfQktyMjVWazdzbVpFZ1VDU1ZJN3c3a2UtNk00RzJmVmc0X3g4LXRLQ0F5OHlOV1hfN0VYODloUkxwb0VnaGN5NXJ5LTNtc3hHbXdn",
+    "headline": "Um trecho da BR-116 tem trânsito parcialmente interditado na manhã desta quinta (18), em Rafael Jambeiro, no Centro-norte da Bahia. Segundo a Polícia Rodoviária Federal, uma carret",
+    "newsDate": "Thu, 18 Jun 2026 12:52:33 GMT",
+    "updatedAt": "2026-06-18T13:01:10Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVklfQktyMjVWazdzbVpFZ1VDU1ZJN3c3a2UtNk00RzJmVmc0X3g4LXRLQ0F5OHlOV1hfN0VYODloUkxwb0VnaGN5NXJ5LTNtc3hHbXdn",
+    "sources": [
+      {
+        "source": "Notícias públicas - instagram.com",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVklfQktyMjVWazdzbVpFZ1VDU1ZJN3c3a2UtNk00RzJmVmc0X3g4LXRLQ0F5OHlOV1hfN0VYODloUkxwb0VnaGN5NXJ5LTNtc3hHbXdn",
+        "headline": "Um trecho da BR-116 tem trânsito parcialmente interditado na manhã desta quinta (18), em Rafael Jambeiro, no Centro-norte da Bahia. Segundo a Polícia Rodoviária Federal, uma carret",
+        "date": "Thu, 18 Jun 2026 12:52:33 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "884fb4baae8ea8f04ff1dbbd",
+    "event_id": "884fb4baae8ea8f04ff1dbbd",
+    "newsFreshnessHours": 0.16,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-18T12:52:33Z",
+    "last_seen_at": "2026-06-18T13:02:25Z",
+    "active_duration_hours": 0.16,
+    "active_duration_label": "10 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
