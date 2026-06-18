@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T19:02:28Z",
+  "updatedAt": "2026-06-18T19:16:57Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -62,6 +62,55 @@
       "storage": "supabase"
     },
     {
+      "event_id": "865e2cfdb9c0e06754746656",
+      "stable_event_id": "865e2cfdb9c0e06754746656",
+      "observation_hash": "ef4f07f8da10c3fcdeebb774",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-18T19:16:53+00:00",
+      "first_seen_at": "2026-06-18T18:17:17+00:00",
+      "last_seen_at": "2026-06-18T19:16:53+00:00",
+      "updated_at": "2026-06-18T19:16:55.047911+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-210",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": 0.035,
+      "lon": -51.07,
+      "city": "Interdição ou bloqueio por notícia pública • BR-210",
+      "state": "",
+      "region": "Norte",
+      "road": "BR-210",
+      "description": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.. Fontes consolidadas: Notícias públicas - Roraima 1 + 1 fonte(s); Notícias públicas - Folha BV. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Roraima 1 + 1 fonte(s) + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
+      "total_snapshots": 6,
+      "estimated_hours": 1.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
+      "headline": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Roraima 1 + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
+          "headline": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.",
+          "date": "2026-06-18T19:16:55.047911+00:00"
+        },
+        {
+          "source": "Notícias públicas - Folha BV",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1ZaNjBwQk1pT0FDY2FnS29iMW1SaU94bHE0WDEyQlBfQkZjUFVyVmJqdU5FcllKM0RHNFhmYlJQLUJHekJHdHZCSDZ6U1pwOHc3RW1SdVNDM2VkRXlUSHF2dm50QUlWMmx5blV1ZFQ4QXQ0MEhOSU81aHhVZnhBREpWZDBVamhFc2g0YklRMUU2ZzFHcUF2cHE4YVcxcGhlbFB4MHRjMUNHa2NWZXZRVDJodjhWSnVzQ01lSmRvX3lXclRfYjhB",
+          "headline": "Trecho da BR-210 é parcialmente interditado para manutenção em bueiro em São Luiz do Anauá - Folha BV.",
+          "date": "2026-06-18T18:03:33.76588+00:00"
+        }
+      ],
+      "sourceCount": 2,
+      "dedupedFrom": 2,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "9bb09d07ed67fa9523885f31",
       "stable_event_id": "9bb09d07ed67fa9523885f31",
       "observation_hash": "79d316dca383ed3529ed83e0",
@@ -103,56 +152,7 @@
           "source": "Notícias públicas - instagram.com",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVklfQktyMjVWazdzbVpFZ1VDU1ZJN3c3a2UtNk00RzJmVmc0X3g4LXRLQ0F5OHlOV1hfN0VYODloUkxwb0VnaGN5NXJ5LTNtc3hHbXdn",
           "headline": "Um trecho da BR-116 tem trânsito parcialmente interditado na manhã desta quinta (18), em Rafael Jambeiro, no Centro-norte da Bahia. Segundo a Polícia Rodoviária Federal, uma carret.",
-          "date": "2026-06-18T18:47:06.404787+00:00"
-        }
-      ],
-      "sourceCount": 2,
-      "dedupedFrom": 2,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "865e2cfdb9c0e06754746656",
-      "stable_event_id": "865e2cfdb9c0e06754746656",
-      "observation_hash": "2c84cf98aed05a74d4e75f33",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-18T19:02:24+00:00",
-      "first_seen_at": "2026-06-18T18:17:17+00:00",
-      "last_seen_at": "2026-06-18T19:02:24+00:00",
-      "updated_at": "2026-06-18T19:02:25.377148+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-210",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": 0.035,
-      "lon": -51.07,
-      "city": "Interdição ou bloqueio por notícia pública • BR-210",
-      "state": "",
-      "region": "Norte",
-      "road": "BR-210",
-      "description": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.. Fontes consolidadas: Notícias públicas - Roraima 1 + 1 fonte(s); Notícias públicas - Folha BV. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Roraima 1 + 1 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
-      "total_snapshots": 5,
-      "estimated_hours": 1.25,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
-      "headline": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.",
-      "sources": [
-        {
-          "source": "Notícias públicas - Roraima 1 + 1 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkl5cVZTRmJsV29waW5QOGVtZ0xURmEya1F2WldiNGxHUEdWVnN5dkZQX2tHbXZELWYwR1pqQkZhODBrcTFPakVQelVYT3lKRnpsSm5NU0IwN1FkOVg2MzBiRVBHNVMwNnJHN1p5SnJmWVdzbG1ISlFOYkgwbGJNNExta1BmdGRKc2F6N3JpdnVwSkZwQ0lTRGZmVlNZamoyOTJEcTFSdnY1djNBN0RGVVlR",
-          "headline": "Trecho da BR-210 em São Luiz do Anauá é parcialmente interditado após erosão na rodovia - Roraima 1.",
-          "date": "2026-06-18T19:02:25.377148+00:00"
-        },
-        {
-          "source": "Notícias públicas - Folha BV",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1ZaNjBwQk1pT0FDY2FnS29iMW1SaU94bHE0WDEyQlBfQkZjUFVyVmJqdU5FcllKM0RHNFhmYlJQLUJHekJHdHZCSDZ6U1pwOHc3RW1SdVNDM2VkRXlUSHF2dm50QUlWMmx5blV1ZFQ4QXQ0MEhOSU81aHhVZnhBREpWZDBVamhFc2g0YklRMUU2ZzFHcUF2cHE4YVcxcGhlbFB4MHRjMUNHa2NWZXZRVDJodjhWSnVzQ01lSmRvX3lXclRfYjhB",
-          "headline": "Trecho da BR-210 é parcialmente interditado para manutenção em bueiro em São Luiz do Anauá - Folha BV.",
-          "date": "2026-06-18T18:03:33.76588+00:00"
+          "date": "2026-06-18T19:16:55.047911+00:00"
         }
       ],
       "sourceCount": 2,
@@ -4355,17 +4355,17 @@
     {
       "event_id": "770292d906636e18edaa18dc",
       "stable_event_id": "770292d906636e18edaa18dc",
-      "observation_hash": "7e1f158cdacd642f486544f3",
+      "observation_hash": "75c27a0783412a5333a3c34f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-18T19:02:24+00:00",
+      "snapshot_at": "2026-06-18T19:16:53+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-06-18T19:02:24+00:00",
-      "updated_at": "2026-06-18T19:02:25.377148+00:00",
+      "last_seen_at": "2026-06-18T19:16:53+00:00",
+      "updated_at": "2026-06-18T19:16:55.047911+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Salvador",
-      "risk": 51,
+      "risk": 48,
       "severity": "Moderado",
       "lat": -12.977,
       "lon": -38.501,
@@ -4376,8 +4376,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 23.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 945,
-      "estimated_hours": 236.25,
+      "total_snapshots": 946,
+      "estimated_hours": 236.5,
       "active": true,
       "storage": "supabase"
     },
@@ -5571,35 +5571,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "73859d6d72e7883d6ba54edb",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-18T19:02:24+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-06-18T19:02:24+00:00",
-      "updated_at": "2026-06-18T19:02:25.377148+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 23.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 994,
-      "estimated_hours": 248.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "c56cab3f7a0e28a25e8b2a73",
       "stable_event_id": "c56cab3f7a0e28a25e8b2a73",
       "observation_hash": "022136cad519b62411a2bfdf",
@@ -6557,6 +6528,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "f7e4fc816ca090cc6214f750",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-18T19:16:53+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-06-18T19:16:53+00:00",
+      "updated_at": "2026-06-18T19:16:55.047911+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 23.1 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 995,
+      "estimated_hours": 248.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "59eaaaf64284cf966e1053c3",
       "stable_event_id": "59eaaaf64284cf966e1053c3",
       "observation_hash": "7084c5c3942fd540639a33df",
@@ -7489,10 +7489,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "2b27d28ffeb39c72e3b066ff",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-18T19:02:24+00:00",
+      "snapshot_at": "2026-06-18T19:16:53+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-06-18T19:02:24+00:00",
-      "updated_at": "2026-06-18T19:02:25.377148+00:00",
+      "last_seen_at": "2026-06-18T19:16:53+00:00",
+      "updated_at": "2026-06-18T19:16:55.047911+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -7508,8 +7508,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 22.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 373,
-      "estimated_hours": 93.25,
+      "total_snapshots": 374,
+      "estimated_hours": 93.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8098,7 +8098,7 @@
         },
         {
           "date": "2026-06-18",
-          "avgRisk": 37,
+          "avgRisk": 36,
           "events": 51,
           "maxRisk": 69
         }
@@ -8274,7 +8274,7 @@
         },
         {
           "date": "2026-06-18",
-          "avgRisk": 37,
+          "avgRisk": 36,
           "events": 51,
           "maxRisk": 69
         }
@@ -8450,7 +8450,7 @@
         },
         {
           "date": "2026-06-18",
-          "avgRisk": 37,
+          "avgRisk": 36,
           "events": 51,
           "maxRisk": 69
         }
