@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 7.9 h.",
+    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T16:12:13Z",
     "last_seen_at": "2026-06-18T00:03:47Z",
-    "active_duration_hours": 7.86,
+    "active_duration_hours": 7.87,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T00:03:47Z",
+    "news_signature": "9b3bfc85782f34d8072aec81",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.6 h.",
+    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +90,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T13:25:47Z",
     "last_seen_at": "2026-06-18T00:03:47Z",
-    "active_duration_hours": 10.63,
+    "active_duration_hours": 10.64,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T00:03:47Z",
+    "news_signature": "6894954ef3cddc3d1861a212",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
