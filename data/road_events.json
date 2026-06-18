@@ -40,8 +40,11 @@
     "active_duration_hours": 0.8,
     "active_duration_label": "48 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T16:17:06Z",
+    "news_signature": "ed80e121c2c23c3c4384390f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "VÍDEO: Carreta pega fogo e deixa parte da BR-116 interditada. Fontes consolidadas: Notícias públicas - portalsalvadorfm.com.br; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-18T13:00:35Z; ativo há 3.3 h.",
+    "description": "VÍDEO: Carreta pega fogo e deixa parte da BR-116 interditada. Fontes consolidadas: Notícias públicas - portalsalvadorfm.com.br; Notícias públicas - instagram.com. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-18T13:00:35Z; ativo há 3.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +93,10 @@
     "active_duration_hours": 3.28,
     "active_duration_label": "3.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T16:17:06Z",
+    "news_signature": "07b92ee54fcce44f80578ccf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
