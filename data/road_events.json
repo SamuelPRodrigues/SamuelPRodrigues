@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 8.2 h.",
+    "description": "Trecho da BR-324 é interditado após tombamento de veículo - Metro 1. Fontes consolidadas: Notícias públicas - Metro 1; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-17T16:12:13Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 8.15,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T00:21:05Z",
+    "news_signature": "9b3bfc85782f34d8072aec81",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.9 h.",
+    "description": "Acidente gravíssimo deixa ao menos um morto, seis feridos, três veículos incendiados e BR-470 interditada em Indaial - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-17T13:25:47Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +90,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-17T13:25:47Z",
     "last_seen_at": "2026-06-18T00:21:05Z",
-    "active_duration_hours": 10.92,
+    "active_duration_hours": 10.93,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-18T00:21:05Z",
+    "news_signature": "6894954ef3cddc3d1861a212",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
