@@ -9,7 +9,7 @@
     "lat": -22.905,
     "lon": -47.06,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Campinas (SP): Pedestre morre atropelado na Rodovia SP-342, acostamento está interditado - Diário do Estado. Fontes consolidadas: Notícias públicas - Diário do Estado. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-19T12:11:22Z; ativo há 4.3 h.",
+    "description": "Campinas (SP): Pedestre morre atropelado na Rodovia SP-342, acostamento está interditado - Diário do Estado. Fontes consolidadas: Notícias públicas - Diário do Estado. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-19T12:11:22Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 4.35,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-19T16:32:15Z",
+    "news_signature": "58ce1b2df631b964dfab99c7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -88,9 +91,11 @@
     "newsFreshnessHours": 0.23,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-19T16:18:35Z",
-    "last_seen_at": "2026-06-19T16:32:15Z",
+    "last_seen_at": "2026-06-19T16:32:31Z",
     "active_duration_hours": 0.23,
     "active_duration_label": "14 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "62e5b432bf3eddff40c244da",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
