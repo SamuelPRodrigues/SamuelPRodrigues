@@ -14,7 +14,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 8.8 h.",
+    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -56,9 +56,11 @@
     "newsFreshnessHours": 8.81,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-19T15:28:30Z",
-    "last_seen_at": "2026-06-20T00:16:58Z",
+    "last_seen_at": "2026-06-20T00:17:14Z",
     "active_duration_hours": 8.81,
     "active_duration_label": "8.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a4dd3a12b61ad4700dfd8d51",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
