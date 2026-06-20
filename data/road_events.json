@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 2.1 h.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-20T03:30:58Z",
     "sources": [
       {
@@ -47,6 +47,9 @@
     "last_seen_at": "2026-06-20T03:32:12Z",
     "active_duration_hours": 2.07,
     "active_duration_label": "2.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-20T03:32:12Z",
+    "news_signature": "fcdea02b511b4d1b40bbd03f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
