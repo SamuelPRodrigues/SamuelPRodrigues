@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-459 em MG é interditado para obras; veja desvios - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-19T21:38:54Z; ativo há 9.4 h.",
+    "description": "Trecho da BR-459 em MG é interditado para obras; veja desvios - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-19T21:38:54Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-19T21:38:54Z",
     "last_seen_at": "2026-06-20T07:02:32Z",
-    "active_duration_hours": 9.39,
+    "active_duration_hours": 9.4,
     "active_duration_label": "9.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-20T07:02:32Z",
+    "news_signature": "972226741e3fd494972b2658",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 5.6 h.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-20T07:01:18Z",
     "sources": [
       {
@@ -91,6 +94,9 @@
     "last_seen_at": "2026-06-20T07:02:32Z",
     "active_duration_hours": 5.58,
     "active_duration_label": "5.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-20T07:02:32Z",
+    "news_signature": "fcdea02b511b4d1b40bbd03f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
