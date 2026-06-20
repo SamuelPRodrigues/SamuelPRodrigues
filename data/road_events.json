@@ -14,7 +14,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 9.1 h.",
+    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -59,14 +59,12 @@
     "sourceCount": 4,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.06,
+    "newsFreshnessHours": 9.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-19T15:28:30Z",
-    "last_seen_at": "2026-06-20T00:32:23Z",
-    "active_duration_hours": 9.06,
-    "active_duration_label": "9.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "84391e6f17206a1dd95abe31",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-20T00:47:48Z",
+    "active_duration_hours": 9.32,
+    "active_duration_label": "9.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
