@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 49 min.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-06-20T02:15:33Z",
+    "updatedAt": "2026-06-20T02:30:52Z",
     "sources": [
       {
         "source": "Notícias públicas - Estado de Minas",
@@ -41,15 +41,13 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.81,
+    "newsFreshnessHours": 1.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-20T01:28:00Z",
-    "last_seen_at": "2026-06-20T02:16:58Z",
-    "active_duration_hours": 0.82,
-    "active_duration_label": "49 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "fcdea02b511b4d1b40bbd03f",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-20T02:32:08Z",
+    "active_duration_hours": 1.07,
+    "active_duration_label": "1.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -66,7 +64,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 10.8 h.",
+    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -79,7 +77,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-06-19T22:16:54Z",
     "sources": [
       {
@@ -111,15 +109,12 @@
     "sourceCount": 4,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 10.8,
+    "newsFreshnessHours": 11.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-19T15:28:30Z",
-    "last_seen_at": "2026-06-20T02:16:45Z",
-    "active_duration_hours": 10.81,
-    "active_duration_label": "10.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-20T02:16:45Z",
-    "news_signature": "84391e6f17206a1dd95abe31",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-20T02:32:08Z",
+    "active_duration_hours": 11.06,
+    "active_duration_label": "11.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
