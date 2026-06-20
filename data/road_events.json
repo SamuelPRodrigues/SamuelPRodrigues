@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 1.6 h.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-20T03:00:40Z",
     "sources": [
       {
@@ -45,9 +45,12 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-20T01:28:00Z",
     "last_seen_at": "2026-06-20T03:01:50Z",
-    "active_duration_hours": 1.56,
+    "active_duration_hours": 1.57,
     "active_duration_label": "1.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-20T03:01:50Z",
+    "news_signature": "fcdea02b511b4d1b40bbd03f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +67,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 11.6 h.",
+    "description": "Caminhões pegam fogo após acidente e BR-153 fica totalmente interditada no TO. Período informado: 2026-06-19T15:28:30Z até fim não identificado. Fontes consolidadas: G1; afnoticias.com.br; Notícias públicas - Agência Tocantins. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-19T15:28:30Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-19T22:16:54Z",
     "sources": [
       {
@@ -115,6 +118,9 @@
     "last_seen_at": "2026-06-20T03:01:50Z",
     "active_duration_hours": 11.56,
     "active_duration_label": "11.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-20T03:01:50Z",
+    "news_signature": "84391e6f17206a1dd95abe31",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
