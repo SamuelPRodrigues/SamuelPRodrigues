@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 8.8 h.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-20T10:15:57Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-20T10:30:52Z",
     "sources": [
       {
         "source": "Notícias públicas - Estado de Minas",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.82,
+    "newsFreshnessHours": 9.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-20T01:28:00Z",
-    "last_seen_at": "2026-06-20T10:17:10Z",
-    "active_duration_hours": 8.82,
-    "active_duration_label": "8.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-20T10:17:10Z",
-    "news_signature": "fcdea02b511b4d1b40bbd03f",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-20T10:32:04Z",
+    "active_duration_hours": 9.07,
+    "active_duration_label": "9.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
