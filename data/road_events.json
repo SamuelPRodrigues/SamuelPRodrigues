@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-050",
+    "road": "BR-050",
+    "corridor": "Uberlândia • BR-050 / BR-365 / BR-452",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -18.918,
+    "lon": -48.277,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-050 é interditada para destombamento de carreta no trecho entre Araguari e Catalão - Gazeta do Triângulo. Fontes consolidadas: Notícias públicas - Gazeta do Triângulo. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-20T11:00:00Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Gazeta do Triângulo",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmNqY19rTlh5UHcwbHZTa09mWE1XZnZDS3RXT0Q1SWtacW5aS3d0ZTFndDdPSDJDVEdFcWNLNkNDMlZuc1FycWhDaDlQaEI0aEZ6WXNCbFlOVXFPWDBJZ082THE2aUp6a1hKVFFaemY0dG1MZHhCUDltNGFfSXBzVHdJMml2QndnRlZQQ2x1dUExcG4xT3VLSTN0LU93WjdMWUhUdEFDbUlDMFNZYWZhaHdlaG9EWlFNRWxB",
+    "headline": "BR-050 é interditada para destombamento de carreta no trecho entre Araguari e Catalão - Gazeta do Triângulo",
+    "newsDate": "Sat, 20 Jun 2026 11:00:00 GMT",
+    "updatedAt": "2026-06-20T11:15:37Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmNqY19rTlh5UHcwbHZTa09mWE1XZnZDS3RXT0Q1SWtacW5aS3d0ZTFndDdPSDJDVEdFcWNLNkNDMlZuc1FycWhDaDlQaEI0aEZ6WXNCbFlOVXFPWDBJZ082THE2aUp6a1hKVFFaemY0dG1MZHhCUDltNGFfSXBzVHdJMml2QndnRlZQQ2x1dUExcG4xT3VLSTN0LU93WjdMWUhUdEFDbUlDMFNZYWZhaHdlaG9EWlFNRWxB",
+    "sources": [
+      {
+        "source": "Notícias públicas - Gazeta do Triângulo",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmNqY19rTlh5UHcwbHZTa09mWE1XZnZDS3RXT0Q1SWtacW5aS3d0ZTFndDdPSDJDVEdFcWNLNkNDMlZuc1FycWhDaDlQaEI0aEZ6WXNCbFlOVXFPWDBJZ082THE2aUp6a1hKVFFaemY0dG1MZHhCUDltNGFfSXBzVHdJMml2QndnRlZQQ2x1dUExcG4xT3VLSTN0LU93WjdMWUhUdEFDbUlDMFNZYWZhaHdlaG9EWlFNRWxB",
+        "headline": "BR-050 é interditada para destombamento de carreta no trecho entre Araguari e Catalão - Gazeta do Triângulo",
+        "date": "Sat, 20 Jun 2026 11:00:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "07a94342ca54cbef186124b2",
+    "event_id": "07a94342ca54cbef186124b2",
+    "newsFreshnessHours": 0.28,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-20T11:00:00Z",
+    "last_seen_at": "2026-06-20T11:16:53Z",
+    "active_duration_hours": 0.28,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "2147aa5103d0d39cceea4a0b",
     "stable_event_id": "2147aa5103d0d39cceea4a0b",
     "name": "Interdição planejada por notícia pública • BR-381",
@@ -14,7 +58,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 9.6 h.",
+    "description": "Caminhões pegam fogo em acidente e BR-381 é totalmente interditada em Minas - Estado de Minas. Período informado: 2026-06-20T01:28:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-20T01:28:00Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +71,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-20T11:01:17Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-20T11:15:40Z",
     "sources": [
       {
         "source": "Notícias públicas - Estado de Minas",
@@ -41,15 +85,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.58,
+    "newsFreshnessHours": 9.81,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-20T01:28:00Z",
-    "last_seen_at": "2026-06-20T11:02:30Z",
-    "active_duration_hours": 9.58,
-    "active_duration_label": "9.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-20T11:02:30Z",
-    "news_signature": "fcdea02b511b4d1b40bbd03f",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-20T11:16:53Z",
+    "active_duration_hours": 9.81,
+    "active_duration_label": "9.8 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
