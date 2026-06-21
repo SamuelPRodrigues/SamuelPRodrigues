@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 12.7 h.",
+    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 12.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 12.73,
     "active_duration_label": "12.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-21T22:02:25Z",
+    "news_signature": "a9d31d00eff1e7e25e256448",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
