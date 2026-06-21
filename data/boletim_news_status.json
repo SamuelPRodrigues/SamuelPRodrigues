@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-06-21T16:32:57Z",
+  "updatedAt": "2026-06-21T16:47:18Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
+  "newItemsBeforeMerge": 65,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 44,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Trecho da Victor Ferreira do Amaral terá bloqueio de 3 dias para obras de drenagem - Prefeitura de Curitiba",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Governo Federal regulamenta bloqueio de recursos de bets ilegais e reforça combate a operações irregulares - www.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ônibus sai da pista, tomba na BR-232 em Caruaru e 16 pessoas ficam feridas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Pais e filho que morreram em acidente na BR-386 estavam a caminho de festival de dança - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caminhão sai da pista e provoca interdição parcial da BR-324, no interior da Bahia - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: Motociclista inabilitado é arremessado por carro ao tentar atravessar BR-040 de forma irregular em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Adolescente morre em batida entre carro e moto na BR-040 em João Pinheiro - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ciclista morre após ser atropelado por carro e micro-ônibus na BR-101 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ônibus que transportava 22 passageiros tomba na BR-277, em Cascavel; ao menos 14 pessoas ficaram feridas - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Chuva causa transtornos em vários bairros do Rio, e barranco desliza na Rocinha - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva na Rocinha superou em mais que duas vezes a média de junho - Agência Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Desmoronamento durante chuva forte na Rocinha assusta moradores da região - VEJA RIO",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal derruba 23 árvores e registra até 64 mm de chuva em Goiânia - Jornal Opção",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Muro desaba após forte chuva na comunidade da Rocinha, no Rio - R7",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Prefeitura do Rio aciona sirenes de emergência após chuva forte na Rocinha - band.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte abre cratera gigante na véspera do aniversário da cidade, em Três Lagoas; veja VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte interrompe show da dupla Brenno & Matheus em rodeio no interior de SP; vídeo - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ruas ficam alagadas após chuvas em Natal - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Região de Ribeirão fica em alerta para chuva forte e trovoadas nesta segunda-feira (15) - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "RioSP realiza operações especiais na Serra das Araras neste fim de semana - Motiva Rodovias",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "CIOT 2026: Regras atualizadas e principais riscos jurídicos - Migalhas",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Câmara aprova MP do piso do frete e inclui anistia a multas para caminhoneiros que fizeram mobilizações pró-golpe - Brasil 247",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Obra na Avenida Juracy Magalhães provoca mudanças temporárias no trânsito e no transporte público - Alô Alô Bahia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Bolívia: Manifestantes bloqueiam estradas há 40 dias por renúncia do presidente - UOL Notícias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Operação de lançamento de vigas terá bloqueios de trânsito e desvios no Capão da Imbuia e Bairro Alto - Prefeitura de Curitiba",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
