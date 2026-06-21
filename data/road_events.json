@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-459",
+    "road": "BR-459",
+    "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -19.916,
+    "lon": -43.934,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 58 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Minas Informa",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
+    "headline": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa",
+    "newsDate": "Sun, 21 Jun 2026 09:18:48 GMT",
+    "updatedAt": "2026-06-21T10:15:53Z",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
+    "sources": [
+      {
+        "source": "Notícias públicas - Minas Informa",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
+        "headline": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa",
+        "date": "Sun, 21 Jun 2026 09:18:48 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "8f8e43c9307ce8e241e4409e",
+    "event_id": "8f8e43c9307ce8e241e4409e",
+    "newsFreshnessHours": 0.97,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-21T09:18:48Z",
+    "last_seen_at": "2026-06-21T10:17:10Z",
+    "active_duration_hours": 0.97,
+    "active_duration_label": "58 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
