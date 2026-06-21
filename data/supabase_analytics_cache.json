@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T12:02:07Z",
+  "updatedAt": "2026-06-21T12:17:10Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -122,12 +122,12 @@
     {
       "event_id": "8f8e43c9307ce8e241e4409e",
       "stable_event_id": "8f8e43c9307ce8e241e4409e",
-      "observation_hash": "2e9ec51539b8f02b682795f6",
+      "observation_hash": "6a89f04928891e05cc21c8f4",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T12:02:04+00:00",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
       "first_seen_at": "2026-06-21T09:31:54+00:00",
-      "last_seen_at": "2026-06-21T12:02:04+00:00",
-      "updated_at": "2026-06-21T12:02:05.328126+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa.. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Minas Informa",
       "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
-      "total_snapshots": 11,
-      "estimated_hours": 2.75,
+      "total_snapshots": 12,
+      "estimated_hours": 3.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - Minas Informa",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
           "headline": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa.",
-          "date": "2026-06-21T12:02:05.328126+00:00"
+          "date": "2026-06-21T12:17:06.742017+00:00"
         }
       ],
       "sourceCount": 1,
@@ -4885,35 +4885,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "a55da2883acd143278548819",
-      "stable_event_id": "a55da2883acd143278548819",
-      "observation_hash": "f3a7691832d7cdbdd31196db",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T01:01:53+00:00",
-      "first_seen_at": "2026-05-27T20:16:47+00:00",
-      "last_seen_at": "2026-06-21T01:01:53+00:00",
-      "updated_at": "2026-06-21T01:01:54.099147+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Altamira",
-      "risk": 65,
-      "severity": "Alto",
-      "lat": -3.203,
-      "lon": -52.206,
-      "city": "Altamira",
-      "state": "PA",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 24.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 576,
-      "estimated_hours": 144.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -5838,6 +5809,35 @@
       "source_url": "",
       "total_snapshots": 5,
       "estimated_hours": 1.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "a55da2883acd143278548819",
+      "stable_event_id": "a55da2883acd143278548819",
+      "observation_hash": "dd7ed4c8d48065b3e2e27025",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
+      "first_seen_at": "2026-05-27T20:16:47+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Altamira",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": -3.203,
+      "lon": -52.206,
+      "city": "Altamira",
+      "state": "PA",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 24.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 577,
+      "estimated_hours": 144.25,
       "active": true,
       "storage": "supabase"
     },
@@ -6828,6 +6828,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "2a591ba3d2b00bb09a289bc8",
+      "stable_event_id": "2a591ba3d2b00bb09a289bc8",
+      "observation_hash": "5a0b5469811d6cd118c71682",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Coari",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -4.085,
+      "lon": -63.141,
+      "city": "Coari",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 26.5 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 929,
+      "estimated_hours": 232.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1392e852ec635648d4a26a0e",
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "c88b9a6f480818522f474047",
@@ -7520,35 +7549,6 @@
       "source_url": "",
       "total_snapshots": 355,
       "estimated_hours": 88.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "2a591ba3d2b00bb09a289bc8",
-      "stable_event_id": "2a591ba3d2b00bb09a289bc8",
-      "observation_hash": "642dba411deedae527e19d38",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-20T19:16:52+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-20T19:16:52+00:00",
-      "updated_at": "2026-06-20T19:16:53.328852+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Coari",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -4.085,
-      "lon": -63.141,
-      "city": "Coari",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 25.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 928,
-      "estimated_hours": 232.0,
       "active": true,
       "storage": "supabase"
     },
@@ -8367,17 +8367,17 @@
     {
       "event_id": "833c194f23ed10ea96e00b30",
       "stable_event_id": "833c194f23ed10ea96e00b30",
-      "observation_hash": "c79b39a604bb4feb5322f9ba",
+      "observation_hash": "95c4161646ae77c1c669eb4e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T12:02:04+00:00",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-21T12:02:04+00:00",
-      "updated_at": "2026-06-21T12:02:05.328126+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Rio Grande",
-      "risk": 7,
+      "risk": 6,
       "severity": "Baixo",
       "lat": -32.034,
       "lon": -52.098,
@@ -8385,11 +8385,11 @@
       "state": "RS",
       "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 26.4 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 26.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 475,
-      "estimated_hours": 118.75,
+      "total_snapshots": 476,
+      "estimated_hours": 119.0,
       "active": true,
       "storage": "supabase"
     },
@@ -8398,10 +8398,10 @@
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "6bf9940d748d1c995d915bd1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T12:02:04+00:00",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-21T12:02:04+00:00",
-      "updated_at": "2026-06-21T12:02:05.328126+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8417,8 +8417,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 26.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 409,
-      "estimated_hours": 102.25,
+      "total_snapshots": 410,
+      "estimated_hours": 102.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8427,10 +8427,10 @@
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "bdb474b4b71f57a4e99f1e4a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T12:02:04+00:00",
+      "snapshot_at": "2026-06-21T12:17:05+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-21T12:02:04+00:00",
-      "updated_at": "2026-06-21T12:02:05.328126+00:00",
+      "last_seen_at": "2026-06-21T12:17:05+00:00",
+      "updated_at": "2026-06-21T12:17:06.742017+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8446,8 +8446,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 26.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 533,
-      "estimated_hours": 133.25,
+      "total_snapshots": 534,
+      "estimated_hours": 133.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8645,8 +8645,8 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 75,
-        "Alto": 36,
+        "Moderado": 76,
+        "Alto": 35,
         "Baixo": 14,
         "Crítico": 1
       },
@@ -8690,13 +8690,13 @@
         {
           "date": "2026-06-20",
           "avgRisk": 48,
-          "events": 41,
+          "events": 40,
           "maxRisk": 70
         },
         {
           "date": "2026-06-21",
           "avgRisk": 34,
-          "events": 34,
+          "events": 35,
           "maxRisk": 89
         }
       ]
@@ -8720,8 +8720,8 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Moderado": 113,
-        "Alto": 112,
+        "Moderado": 114,
+        "Alto": 111,
         "Baixo": 14,
         "Crítico": 1
       },
@@ -8885,13 +8885,13 @@
         {
           "date": "2026-06-20",
           "avgRisk": 48,
-          "events": 41,
+          "events": 40,
           "maxRisk": 70
         },
         {
           "date": "2026-06-21",
           "avgRisk": 34,
-          "events": 34,
+          "events": 35,
           "maxRisk": 89
         }
       ]
@@ -8915,8 +8915,8 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Moderado": 113,
-        "Alto": 112,
+        "Moderado": 114,
+        "Alto": 111,
         "Baixo": 14,
         "Crítico": 1
       },
@@ -9080,13 +9080,13 @@
         {
           "date": "2026-06-20",
           "avgRisk": 48,
-          "events": 41,
+          "events": 40,
           "maxRisk": 70
         },
         {
           "date": "2026-06-21",
           "avgRisk": 34,
-          "events": 34,
+          "events": 35,
           "maxRisk": 89
         }
       ]
