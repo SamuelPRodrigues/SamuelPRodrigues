@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 13.0 h.",
+    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 13.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
     "headline": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa",
     "newsDate": "Sun, 21 Jun 2026 13:03:48 GMT",
-    "updatedAt": "2026-06-21T22:15:54Z",
+    "updatedAt": "2026-06-21T22:31:00Z",
     "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "8f8e43c9307ce8e241e4409e",
     "event_id": "8f8e43c9307ce8e241e4409e",
-    "newsFreshnessHours": 9.22,
+    "newsFreshnessHours": 9.48,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-21T09:18:48Z",
-    "last_seen_at": "2026-06-21T22:17:11Z",
-    "active_duration_hours": 12.98,
-    "active_duration_label": "13.0 h",
+    "last_seen_at": "2026-06-21T22:32:18Z",
+    "active_duration_hours": 13.22,
+    "active_duration_label": "13.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-21T22:17:11Z",
-    "news_signature": "a9d31d00eff1e7e25e256448",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
