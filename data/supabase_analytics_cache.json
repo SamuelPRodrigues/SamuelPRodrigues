@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T01:02:14Z",
+  "updatedAt": "2026-06-22T01:16:47Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -29,6 +29,35 @@
       "source_url": "",
       "total_snapshots": 140,
       "estimated_hours": 35.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "cccfff4bc2c909d44ee82c74",
+      "stable_event_id": "cccfff4bc2c909d44ee82c74",
+      "observation_hash": "be62bc119be03a1512209eb7",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santarém",
+      "risk": 83,
+      "severity": "Crítico",
+      "lat": -2.443,
+      "lon": -54.708,
+      "city": "Santarém",
+      "state": "PA",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 27.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1070,
+      "estimated_hours": 267.5,
       "active": true,
       "storage": "supabase"
     },
@@ -4872,12 +4901,12 @@
     {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "89424150c9ee72cad8fd785c",
+      "observation_hash": "76aa4e42a0a167c65b4ade4a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-22T01:02:10+00:00",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-22T01:02:10+00:00",
-      "updated_at": "2026-06-22T01:02:11.411142+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -4893,8 +4922,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 27.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1103,
-      "estimated_hours": 275.75,
+      "total_snapshots": 1104,
+      "estimated_hours": 276.0,
       "active": true,
       "storage": "supabase"
     },
@@ -5330,35 +5359,6 @@
       "source_url": "",
       "total_snapshots": 670,
       "estimated_hours": 167.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "cccfff4bc2c909d44ee82c74",
-      "stable_event_id": "cccfff4bc2c909d44ee82c74",
-      "observation_hash": "cdce000c62bbd5b97ef2e3e4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T14:02:03+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-21T14:02:03+00:00",
-      "updated_at": "2026-06-21T14:02:04.332255+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santarém",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -2.443,
-      "lon": -54.708,
-      "city": "Santarém",
-      "state": "PA",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 26.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1069,
-      "estimated_hours": 267.25,
       "active": true,
       "storage": "supabase"
     },
@@ -6523,35 +6523,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "d988af0ef7b95a9b5f251e76",
-      "stable_event_id": "d988af0ef7b95a9b5f251e76",
-      "observation_hash": "62e969f4f864bbdfde5fa2c3",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-21T23:02:16+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-21T23:02:16+00:00",
-      "updated_at": "2026-06-21T23:02:17.768626+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Recife",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -8.047,
-      "lon": -34.877,
-      "city": "Recife",
-      "state": "PE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 26.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1446,
-      "estimated_hours": 361.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "a55da2883acd143278548819",
       "stable_event_id": "a55da2883acd143278548819",
       "observation_hash": "1685d64fd057c65c5f64e186",
@@ -6933,10 +6904,10 @@
       "stable_event_id": "57a64278cbd624610c5498e1",
       "observation_hash": "f13aafd60c0f0c9c2577f1ec",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-22T01:02:10+00:00",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-06-22T01:02:10+00:00",
-      "updated_at": "2026-06-22T01:02:11.411142+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -6952,8 +6923,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 27.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1143,
-      "estimated_hours": 285.75,
+      "total_snapshots": 1144,
+      "estimated_hours": 286.0,
       "active": true,
       "storage": "supabase"
     },
@@ -7422,31 +7393,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "b54845b680f0bee8a9d63929",
+      "event_id": "d988af0ef7b95a9b5f251e76",
+      "stable_event_id": "d988af0ef7b95a9b5f251e76",
+      "observation_hash": "ff1df1e6a95df7dad0af9388",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-22T00:31:47+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-06-22T00:31:47+00:00",
-      "updated_at": "2026-06-22T00:31:48.610355+00:00",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Maceió",
+      "name": "Recife",
       "risk": 39,
       "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
+      "lat": -8.047,
+      "lon": -34.877,
+      "city": "Recife",
+      "state": "PE",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 26.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 27.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1148,
-      "estimated_hours": 287.0,
+      "total_snapshots": 1447,
+      "estimated_hours": 361.75,
       "active": true,
       "storage": "supabase"
     },
@@ -7853,6 +7824,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "e23cf6134e9de8ac9ad4e243",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 27.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1149,
+      "estimated_hours": 287.25,
       "active": true,
       "storage": "supabase"
     },
@@ -8412,10 +8412,10 @@
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "84755f81a8cec1b7ed44133b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-06-22T01:02:10+00:00",
+      "snapshot_at": "2026-06-22T01:16:42+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-06-22T01:02:10+00:00",
-      "updated_at": "2026-06-22T01:02:11.411142+00:00",
+      "last_seen_at": "2026-06-22T01:16:42+00:00",
+      "updated_at": "2026-06-22T01:16:44.143215+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8431,8 +8431,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 27.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 844,
-      "estimated_hours": 211.0,
+      "total_snapshots": 845,
+      "estimated_hours": 211.25,
       "active": true,
       "storage": "supabase"
     },
@@ -8688,10 +8688,10 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 76,
+        "Moderado": 75,
         "Alto": 35,
         "Baixo": 14,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -8732,15 +8732,15 @@
         },
         {
           "date": "2026-06-21",
-          "avgRisk": 35,
-          "events": 40,
+          "avgRisk": 34,
+          "events": 38,
           "maxRisk": 89
         },
         {
           "date": "2026-06-22",
-          "avgRisk": 47,
-          "events": 7,
-          "maxRisk": 69
+          "avgRisk": 50,
+          "events": 9,
+          "maxRisk": 83
         }
       ]
     },
@@ -8763,10 +8763,10 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Moderado": 114,
+        "Moderado": 113,
         "Alto": 112,
         "Baixo": 14,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -8933,15 +8933,15 @@
         },
         {
           "date": "2026-06-21",
-          "avgRisk": 35,
-          "events": 40,
+          "avgRisk": 34,
+          "events": 38,
           "maxRisk": 89
         },
         {
           "date": "2026-06-22",
-          "avgRisk": 47,
-          "events": 7,
-          "maxRisk": 69
+          "avgRisk": 50,
+          "events": 9,
+          "maxRisk": 83
         }
       ]
     },
@@ -8964,10 +8964,10 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Moderado": 114,
+        "Moderado": 113,
         "Alto": 112,
         "Baixo": 14,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -9134,15 +9134,15 @@
         },
         {
           "date": "2026-06-21",
-          "avgRisk": 35,
-          "events": 40,
+          "avgRisk": 34,
+          "events": 38,
           "maxRisk": 89
         },
         {
           "date": "2026-06-22",
-          "avgRisk": 47,
-          "events": 7,
-          "maxRisk": 69
+          "avgRisk": 50,
+          "events": 9,
+          "maxRisk": 83
         }
       ]
     }
