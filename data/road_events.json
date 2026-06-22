@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 3.5 h.",
+    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-22T13:16:40Z",
     "last_seen_at": "2026-06-22T16:47:22Z",
-    "active_duration_hours": 3.51,
+    "active_duration_hours": 3.52,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T16:47:22Z",
+    "news_signature": "5ff4cdffd27d678cb41d264d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 4.2 h.",
+    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,7 +111,10 @@
     "active_duration_hours": 4.16,
     "active_duration_label": "4.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T16:47:22Z",
+    "news_signature": "b16b96c5aa90c1fce07e1ea7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
