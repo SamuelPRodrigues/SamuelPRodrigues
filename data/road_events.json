@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação. Fontes consolidadas: Notícias públicas - portalmt.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-22T22:17:00Z; ativo há 1.2 h.",
+    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação. Fontes consolidadas: Notícias públicas - portalmt.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-22T22:17:00Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 1.25,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-22T22:17:00Z",
-    "last_seen_at": "2026-06-22T23:32:03Z",
+    "last_seen_at": "2026-06-22T23:32:16Z",
     "active_duration_hours": 1.25,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "75591e3a180cf64726e4b0ec",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 10.3 h.",
+    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 10.26,
     "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T23:32:03Z",
+    "news_signature": "5ff4cdffd27d678cb41d264d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +108,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - gazetaweb.com; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 10.9 h.",
+    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - gazetaweb.com; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,8 +157,11 @@
     "active_duration_hours": 10.9,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T23:32:03Z",
+    "news_signature": "7ef1d10dae3e0897a3d6176e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -170,7 +178,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 6.3 h.",
+    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -183,7 +191,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-22T23:30:52Z",
     "sources": [
       {
@@ -203,6 +211,9 @@
     "last_seen_at": "2026-06-22T23:32:03Z",
     "active_duration_hours": 6.35,
     "active_duration_label": "6.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T23:32:03Z",
+    "news_signature": "321c6e66bb5216a7438e2a18",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
