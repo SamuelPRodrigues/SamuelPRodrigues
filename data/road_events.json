@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 8.3 h.",
+    "description": "BR-459/MG está interditada na região de Itajubá, no Sul de Minas Gerais - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-22T13:16:40Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-22T13:16:40Z",
     "last_seen_at": "2026-06-22T21:32:20Z",
-    "active_duration_hours": 8.26,
+    "active_duration_hours": 8.27,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T21:32:20Z",
+    "news_signature": "5ff4cdffd27d678cb41d264d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 8.9 h.",
+    "description": "Caminhão tomba e explode em trecho da BR-101, em AL; rodovia é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-22T12:38:00Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,8 +111,11 @@
     "active_duration_hours": 8.91,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T21:32:20Z",
+    "news_signature": "b16b96c5aa90c1fce07e1ea7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -126,7 +132,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 4.4 h.",
+    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -139,7 +145,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-22T21:31:06Z",
     "sources": [
       {
@@ -159,6 +165,9 @@
     "last_seen_at": "2026-06-22T21:32:20Z",
     "active_duration_hours": 4.36,
     "active_duration_label": "4.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-22T21:32:20Z",
+    "news_signature": "321c6e66bb5216a7438e2a18",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
