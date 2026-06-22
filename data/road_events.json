@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-262",
+    "road": "BR-262",
+    "corridor": "Vitória / Serra • BR-101 / BR-262",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -20.315,
+    "lon": -40.312,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Betim (MG): Acidente com 15 veículos deixa um morto e sete feridos; trânsito interditado na BR-262 - Diário do Estado. Fontes consolidadas: Notícias públicas - Diário do Estado. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-21T14:29:22Z; ativo há 9.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Diário do Estado",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUVRQm1oUGdsNnBiVUdMYlZ3S2NZRWhaaTc4R1VoLTFkVmpkdF80aTJVQ3FjQ2dMNXp1Z1k5cUN4Y1dvOVVUVXFBb2VDWTV6clQyRWdmYmlQZ1BjcWFYVmtnSkxuR2ZDZzVSSTNnSktxRE5Rck5POWN3ZHhORXpnWnRsbGdwV1hIRUNTU2RGb2RKekVEUTQ1TUt4WFNnRHVtMEsxaXI4UlV5anJGclVKUUp1X1JoWnQxREF6SXZkb2tYVDQ3cnc",
+    "headline": "Betim (MG): Acidente com 15 veículos deixa um morto e sete feridos; trânsito interditado na BR-262 - Diário do Estado",
+    "newsDate": "Sun, 21 Jun 2026 14:29:22 GMT",
+    "updatedAt": "2026-06-22T00:00:58Z",
+    "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUVRQm1oUGdsNnBiVUdMYlZ3S2NZRWhaaTc4R1VoLTFkVmpkdF80aTJVQ3FjQ2dMNXp1Z1k5cUN4Y1dvOVVUVXFBb2VDWTV6clQyRWdmYmlQZ1BjcWFYVmtnSkxuR2ZDZzVSSTNnSktxRE5Rck5POWN3ZHhORXpnWnRsbGdwV1hIRUNTU2RGb2RKekVEUTQ1TUt4WFNnRHVtMEsxaXI4UlV5anJGclVKUUp1X1JoWnQxREF6SXZkb2tYVDQ3cnc",
+    "sources": [
+      {
+        "source": "Notícias públicas - Diário do Estado",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUVRQm1oUGdsNnBiVUdMYlZ3S2NZRWhaaTc4R1VoLTFkVmpkdF80aTJVQ3FjQ2dMNXp1Z1k5cUN4Y1dvOVVUVXFBb2VDWTV6clQyRWdmYmlQZ1BjcWFYVmtnSkxuR2ZDZzVSSTNnSktxRE5Rck5POWN3ZHhORXpnWnRsbGdwV1hIRUNTU2RGb2RKekVEUTQ1TUt4WFNnRHVtMEsxaXI4UlV5anJGclVKUUp1X1JoWnQxREF6SXZkb2tYVDQ3cnc",
+        "headline": "Betim (MG): Acidente com 15 veículos deixa um morto e sete feridos; trânsito interditado na BR-262 - Diário do Estado",
+        "date": "Sun, 21 Jun 2026 14:29:22 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "63e8d30b163378b39b8d3ad8",
+    "event_id": "63e8d30b163378b39b8d3ad8",
+    "newsFreshnessHours": 9.55,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-21T14:29:22Z",
+    "last_seen_at": "2026-06-22T00:02:12Z",
+    "active_duration_hours": 9.55,
+    "active_duration_label": "9.6 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-459",
     "road": "BR-459",
     "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
@@ -9,7 +53,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 14.7 h.",
+    "description": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa. Fontes consolidadas: Notícias públicas - Minas Informa. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-21T09:18:48Z; ativo há 14.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
     "headline": "BR-459 interditada em Itajubá para obras do DER-MG - Minas Informa",
     "newsDate": "Sun, 21 Jun 2026 13:03:48 GMT",
-    "updatedAt": "2026-06-21T23:58:17Z",
+    "updatedAt": "2026-06-22T00:00:58Z",
     "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0T0hNdXFKTXp5RThkRUZncnBHSjNHdVRGNW9xTFNhMFdnVV9yaEJWMHR2RVYycDE3Zmt0SUdqaXlNVGx0b2ZUX0F0RVhfeXY4dHpqMk5qQzlXeGlqUkt5ZmZxMzlfckppT1lEMFJYdV8zNkE",
     "sources": [
       {
@@ -33,17 +77,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "8f8e43c9307ce8e241e4409e",
     "event_id": "8f8e43c9307ce8e241e4409e",
-    "newsFreshnessHours": 10.93,
+    "newsFreshnessHours": 10.97,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-21T09:18:48Z",
-    "last_seen_at": "2026-06-21T23:59:32Z",
-    "active_duration_hours": 14.68,
+    "last_seen_at": "2026-06-22T00:02:12Z",
+    "active_duration_hours": 14.72,
     "active_duration_label": "14.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-21T23:59:32Z",
-    "news_signature": "a9d31d00eff1e7e25e256448",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
