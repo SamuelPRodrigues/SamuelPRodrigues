@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 3.6 h.",
+    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 3.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,10 +43,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T10:26:00Z",
     "last_seen_at": "2026-06-23T14:02:05Z",
-    "active_duration_hours": 3.6,
+    "active_duration_hours": 3.61,
     "active_duration_label": "3.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T14:02:05Z",
+    "news_signature": "06a0350f1d2779bfb1e32c96",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
