@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-364",
+    "road": "BR-364",
+    "corridor": "Rio Branco • BR-364 / BR-317",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.975,
+    "lon": -67.824,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-23T01:42:46Z; ativo há 2.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Primeira Hora",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJsY0UxN2lTMTRJbjRhMi1fRUJJZXNoOE9rQXZlQTRmYXpzbTVoOUI1R1NvQVJkZ3REcFNWaWhVZEgtczRqcllWc2ViWWVpZjhfNkZUc0R6cDhYRElMRml0Z0E0Y1M0Y3lfYjVjbDFZRmw4SEgzZ0hCQThvRGt0ek5TRDJJajM1Sm1EcEgxdEhsTC1VY19hMGppSUU3VEgtd0FKRER3M0dPMFc3elNDT2lPckZmQnM",
+    "headline": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora",
+    "newsDate": "Tue, 23 Jun 2026 01:42:46 GMT",
+    "updatedAt": "2026-06-23T04:15:57Z",
+    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJsY0UxN2lTMTRJbjRhMi1fRUJJZXNoOE9rQXZlQTRmYXpzbTVoOUI1R1NvQVJkZ3REcFNWaWhVZEgtczRqcllWc2ViWWVpZjhfNkZUc0R6cDhYRElMRml0Z0E0Y1M0Y3lfYjVjbDFZRmw4SEgzZ0hCQThvRGt0ek5TRDJJajM1Sm1EcEgxdEhsTC1VY19hMGppSUU3VEgtd0FKRER3M0dPMFc3elNDT2lPckZmQnM",
+    "sources": [
+      {
+        "source": "Notícias públicas - Primeira Hora",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJsY0UxN2lTMTRJbjRhMi1fRUJJZXNoOE9rQXZlQTRmYXpzbTVoOUI1R1NvQVJkZ3REcFNWaWhVZEgtczRqcllWc2ViWWVpZjhfNkZUc0R6cDhYRElMRml0Z0E0Y1M0Y3lfYjVjbDFZRmw4SEgzZ0hCQThvRGt0ek5TRDJJajM1Sm1EcEgxdEhsTC1VY19hMGppSUU3VEgtd0FKRER3M0dPMFc3elNDT2lPckZmQnM",
+        "headline": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora",
+        "date": "Tue, 23 Jun 2026 01:42:46 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "fc01512ffea8cb2c2ae24969",
+    "event_id": "fc01512ffea8cb2c2ae24969",
+    "newsFreshnessHours": 2.57,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-23T01:42:46Z",
+    "last_seen_at": "2026-06-23T04:17:13Z",
+    "active_duration_hours": 2.57,
+    "active_duration_label": "2.6 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "217e0669429680e5ede77456",
     "stable_event_id": "217e0669429680e5ede77456",
     "name": "Interdição planejada por notícia pública • BR-070",
@@ -14,11 +58,11 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 10.8 h.",
+    "description": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado. Período informado: 2026-06-22T17:11:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-22T17:11:00Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "HiperNotícias - Você bem informado",
+    "source": "Notícias públicas - HiperNotícias - Você bem informado",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdkNsRlNHbmV6eC1GQmx3cm9CQzlhakNZclR5VHNiWmdONGVlRmF5YWFIUjNzRTdMTlFybUtlUllQZ2tQcUtqRjV1RkoyeURfMWpMR2hmNU5vMmVVbGhVMUZsSEI2SU9jUXhSTGRvbkxBS0h2aTFWMHdtTnZ1SjR6NWphYkNFckJwTWVhc2tJWXBkLVNSYTBPMVB2OTFXY3o1MEY4b2ExRlJ0VHBYZlFhckQ1elNOTVJIVnc",
     "headline": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado",
@@ -27,29 +71,26 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-23T04:00:43Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-23T04:16:01Z",
     "sources": [
       {
-        "source": "HiperNotícias - Você bem informado",
+        "source": "Notícias públicas - HiperNotícias - Você bem informado",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdkNsRlNHbmV6eC1GQmx3cm9CQzlhakNZclR5VHNiWmdONGVlRmF5YWFIUjNzRTdMTlFybUtlUllQZ2tQcUtqRjV1RkoyeURfMWpMR2hmNU5vMmVVbGhVMUZsSEI2SU9jUXhSTGRvbkxBS0h2aTFWMHdtTnZ1SjR6NWphYkNFckJwTWVhc2tJWXBkLVNSYTBPMVB2OTFXY3o1MEY4b2ExRlJ0VHBYZlFhckQ1elNOTVJIVnc",
         "headline": "VÍDEOS: Caminhão-tanque explode após colisão e BR-070 fica totalmente interditada - HiperNotícias - Você bem informado",
-        "date": "2026-06-22T17:11:00Z"
+        "date": "Mon, 22 Jun 2026 17:11:00 GMT"
       }
     ],
     "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdkNsRlNHbmV6eC1GQmx3cm9CQzlhakNZclR5VHNiWmdONGVlRmF5YWFIUjNzRTdMTlFybUtlUllQZ2tQcUtqRjV1RkoyeURfMWpMR2hmNU5vMmVVbGhVMUZsSEI2SU9jUXhSTGRvbkxBS0h2aTFWMHdtTnZ1SjR6NWphYkNFckJwTWVhc2tJWXBkLVNSYTBPMVB2OTFXY3o1MEY4b2ExRlJ0VHBYZlFhckQ1elNOTVJIVnc",
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 10.85,
+    "newsFreshnessHours": 11.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-22T17:11:00Z",
-    "last_seen_at": "2026-06-23T04:01:54Z",
-    "active_duration_hours": 10.85,
-    "active_duration_label": "10.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-23T04:01:54Z",
-    "news_signature": "7221bbf451f3c2b8d6c67f44",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-23T04:17:13Z",
+    "active_duration_hours": 11.1,
+    "active_duration_label": "11.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
