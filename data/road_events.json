@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-23T01:42:46Z; ativo há 4.6 h.",
+    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-23T01:42:46Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJsY0UxN2lTMTRJbjRhMi1fRUJJZXNoOE9rQXZlQTRmYXpzbTVoOUI1R1NvQVJkZ3REcFNWaWhVZEgtczRqcllWc2ViWWVpZjhfNkZUc0R6cDhYRElMRml0Z0E0Y1M0Y3lfYjVjbDFZRmw4SEgzZ0hCQThvRGt0ek5TRDJJajM1Sm1EcEgxdEhsTC1VY19hMGppSUU3VEgtd0FKRER3M0dPMFc3elNDT2lPckZmQnM",
     "headline": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora",
     "newsDate": "Tue, 23 Jun 2026 01:42:46 GMT",
-    "updatedAt": "2026-06-23T06:15:53Z",
+    "updatedAt": "2026-06-23T06:31:05Z",
     "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJsY0UxN2lTMTRJbjRhMi1fRUJJZXNoOE9rQXZlQTRmYXpzbTVoOUI1R1NvQVJkZ3REcFNWaWhVZEgtczRqcllWc2ViWWVpZjhfNkZUc0R6cDhYRElMRml0Z0E0Y1M0Y3lfYjVjbDFZRmw4SEgzZ0hCQThvRGt0ek5TRDJJajM1Sm1EcEgxdEhsTC1VY19hMGppSUU3VEgtd0FKRER3M0dPMFc3elNDT2lPckZmQnM",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "fc01512ffea8cb2c2ae24969",
     "event_id": "fc01512ffea8cb2c2ae24969",
-    "newsFreshnessHours": 4.57,
+    "newsFreshnessHours": 4.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T01:42:46Z",
-    "last_seen_at": "2026-06-23T06:17:09Z",
-    "active_duration_hours": 4.58,
-    "active_duration_label": "4.6 h",
+    "last_seen_at": "2026-06-23T06:32:23Z",
+    "active_duration_hours": 4.83,
+    "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-23T06:17:09Z",
-    "news_signature": "81cce331f43a29121f688771",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
