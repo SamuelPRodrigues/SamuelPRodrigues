@@ -1,15 +1,20 @@
 {
-  "updatedAt": "2026-06-23T19:02:49Z",
+  "updatedAt": "2026-06-23T19:17:11Z",
   "queries": 6,
-  "newItemsBeforeMerge": 70,
-  "savedRoadNewsReused": 3,
+  "newItemsBeforeMerge": 66,
+  "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 41,
+  "rejectedAsIrrelevant": 43,
   "removedPreviouslyStoredIrrelevant": 0,
   "rejectedSample": [
     {
       "category": "road",
       "title": "Caminhão que transportava carne pega fogo na BR-101, em São José - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Acidente na BR-116 impede chegada de Tarcísio do Acordeon e cancela show em São João na Bahia - G1",
       "reason": "not_operationally_relevant"
     },
     {
@@ -64,6 +69,11 @@
     },
     {
       "category": "weather_news",
+      "title": "Cidade do Piauí é atingida por microexplosão atmosférica; veja vídeos - Estadão",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
       "title": "Mais chuva para o Sudeste e para o Centro-Oeste do Brasil - Climatempo",
       "reason": "not_operationally_relevant"
     },
@@ -79,12 +89,12 @@
     },
     {
       "category": "weather_news",
-      "title": "Vem aí o dia mais frio do ano: Rio, SP e MG terão temperaturas 'congelantes' e mínimas de até 4°C neste fim de semana; Geadas e chuva forte no Sul - O Globo",
+      "title": "Último dia do outono terá frio no Sul e no Sudeste e chuva forte em parte do Centro-Sul - G1",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "title": "Último dia do outono terá frio no Sul e no Sudeste e chuva forte em parte do Centro-Sul - G1",
+      "title": "Vem aí o dia mais frio do ano: Rio, SP e MG terão temperaturas 'congelantes' e mínimas de até 4°C neste fim de semana; Geadas e chuva forte no Sul - O Globo",
       "reason": "not_operationally_relevant"
     },
     {
@@ -109,27 +119,17 @@
     },
     {
       "category": "mobilization",
+      "title": "Caminhoneiros ameaçam nova greve de parar o Brasil em 2026 - Diário do Comércio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
       "title": "Câmara aprova MP do piso do frete e inclui anistia a multas para caminhoneiros que fizeram mobilizações pró-golpe - Brasil 247",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "title": "Obra na Avenida Juracy Magalhães provoca mudanças temporárias no trânsito e no transporte público - Alô Alô Bahia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
       "title": "Bolívia: Manifestantes bloqueiam estradas há 40 dias por renúncia do presidente - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Operação de lançamento de vigas terá bloqueios de trânsito e desvios no Capão da Imbuia e Bairro Alto - Prefeitura de Curitiba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Caminhão com carga de manta asfáltica pega fogo e interdita Rodovia Castello Branco no interior de SP - G1",
       "reason": "not_operationally_relevant"
     }
   ],
