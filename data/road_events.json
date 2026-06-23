@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 4.3 h.",
+    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 4.35,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T14:47:01Z",
+    "news_signature": "06a0350f1d2779bfb1e32c96",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-23T14:45:50Z",
     "sources": [
       {
@@ -97,6 +100,9 @@
     "last_seen_at": "2026-06-23T14:47:01Z",
     "active_duration_hours": 0.47,
     "active_duration_label": "28 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T14:47:01Z",
+    "news_signature": "6bb509488c44f2bb7d406e94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
