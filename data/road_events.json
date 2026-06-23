@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 4.6 h.",
+    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 4.61,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T15:02:18Z",
+    "news_signature": "06a0350f1d2779bfb1e32c96",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +67,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 43 min.",
+    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 44 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-23T15:01:06Z",
     "sources": [
       {
@@ -95,8 +98,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T14:19:00Z",
     "last_seen_at": "2026-06-23T15:02:18Z",
-    "active_duration_hours": 0.72,
-    "active_duration_label": "43 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 0.73,
+    "active_duration_label": "44 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T15:02:18Z",
+    "news_signature": "6bb509488c44f2bb7d406e94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
