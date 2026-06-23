@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATENÇÃO: Km 366,030 da BR-101, em Anchieta, será totalmente interditado para desmonte de rochas nesta terça (23) - Jornal Espírito Santo Notícias. Fontes consolidadas: Notícias públicas - Jornal Espírito Santo Notícias; Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-23T11:35:59Z; ativo há 1.2 h.",
+    "description": "ATENÇÃO: Km 366,030 da BR-101, em Anchieta, será totalmente interditado para desmonte de rochas nesta terça (23) - Jornal Espírito Santo Notícias. Fontes consolidadas: Notícias públicas - Jornal Espírito Santo Notícias; Notícias públicas - G1; Notícias públicas - GazetaWeb; Notícias públicas - Francês News; Notícias públicas - nn1.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-23T11:35:59Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -64,8 +64,11 @@
     "active_duration_hours": 1.19,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T12:47:11Z",
+    "news_signature": "276203628212f9d2273903a9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +80,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 2.4 h.",
+    "description": "Trecho da BR-116 na Bahia segue totalmente interditado após grave acidente - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-23T10:26:00Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -111,11 +114,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T10:26:00Z",
     "last_seen_at": "2026-06-23T12:47:11Z",
-    "active_duration_hours": 2.35,
+    "active_duration_hours": 2.36,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T12:47:11Z",
+    "news_signature": "06a0350f1d2779bfb1e32c96",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +133,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-23T01:42:46Z; ativo há 11.1 h.",
+    "description": "BR-364: Serra de São Vicente será interditada parcialmente para instalação de iluminação - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-23T01:42:46Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -155,10 +161,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T01:42:46Z",
     "last_seen_at": "2026-06-23T12:47:11Z",
-    "active_duration_hours": 11.07,
+    "active_duration_hours": 11.08,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T12:47:11Z",
+    "news_signature": "81cce331f43a29121f688771",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
