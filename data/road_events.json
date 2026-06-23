@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "O tráfego na BR-277, entre os quilômetros 308 e 316, entre Guarapuava e Prudentópolis, será temporariamente interditado no sentido Curitiba - nossagente.info. Fontes consolidadas: Notícias públicas - nossagente.info. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-23T15:07:46Z; ativo há 7.4 h.",
+    "description": "O tráfego na BR-277, entre os quilômetros 308 e 316, entre Guarapuava e Prudentópolis, será temporariamente interditado no sentido Curitiba - nossagente.info. Fontes consolidadas: Notícias públicas - nossagente.info. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-23T15:07:46Z; ativo há 7.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T15:07:46Z",
     "last_seen_at": "2026-06-23T22:32:29Z",
-    "active_duration_hours": 7.41,
+    "active_duration_hours": 7.42,
     "active_duration_label": "7.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T22:32:29Z",
+    "news_signature": "100b5a77fe70218233271a85",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 é interditada para implantação de balança de carga; veja trecho - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - Diário de Petrópolis. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-23T13:49:47Z; ativo há 8.7 h.",
+    "description": "BR-040 é interditada para implantação de balança de carga; veja trecho - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - Diário de Petrópolis. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-23T13:49:47Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T13:49:47Z",
     "last_seen_at": "2026-06-23T22:32:29Z",
-    "active_duration_hours": 8.71,
+    "active_duration_hours": 8.72,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T22:32:29Z",
+    "news_signature": "8f046859a421ead234b52eb2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 8.2 h.",
+    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -121,7 +127,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-23T22:31:15Z",
     "sources": [
       {
@@ -139,8 +145,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T14:19:00Z",
     "last_seen_at": "2026-06-23T22:32:29Z",
-    "active_duration_hours": 8.22,
+    "active_duration_hours": 8.23,
     "active_duration_label": "8.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-23T22:32:29Z",
+    "news_signature": "6bb509488c44f2bb7d406e94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
