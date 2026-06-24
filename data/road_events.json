@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 9.9 h.",
+    "description": "BR-381 é totalmente interditada no trevo de Caeté para obras na rodovia - BHAZ. Período informado: 2026-06-23T14:19:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-23T14:19:00Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-06-24T00:12:48Z",
+    "updatedAt": "2026-06-24T00:15:34Z",
     "sources": [
       {
         "source": "Notícias públicas - BHAZ",
@@ -41,14 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.92,
+    "newsFreshnessHours": 9.96,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T14:19:00Z",
-    "last_seen_at": "2026-06-24T00:14:14Z",
-    "active_duration_hours": 9.92,
-    "active_duration_label": "9.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "b8dd73131abe4e5af754aea6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-24T00:16:45Z",
+    "active_duration_hours": 9.96,
+    "active_duration_label": "10.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
