@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 1.9 h.",
+    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T19:10:00Z",
     "last_seen_at": "2026-06-24T21:02:24Z",
-    "active_duration_hours": 1.87,
+    "active_duration_hours": 1.88,
     "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T21:02:24Z",
+    "news_signature": "0ae88824dbeae21cfdc2559b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 2.0 h.",
+    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -123,11 +126,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T18:59:11Z",
     "last_seen_at": "2026-06-24T21:02:24Z",
-    "active_duration_hours": 2.05,
-    "active_duration_label": "2.0 h",
+    "active_duration_hours": 2.06,
+    "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T21:02:24Z",
+    "news_signature": "95886f201318aef1d81253da",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -139,7 +145,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 É BLOQUEADA EM PROTESTO CONTRA SITUAÇÃO PRECÁRIA DO TRECHO ENTRE SANTARÉM E RURÓPOLIS - Jornal O Impacto. Fontes consolidadas: Notícias públicas - Jornal O Impacto. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-24T18:13:30Z; ativo há 2.8 h.",
+    "description": "BR-163 É BLOQUEADA EM PROTESTO CONTRA SITUAÇÃO PRECÁRIA DO TRECHO ENTRE SANTARÉM E RURÓPOLIS - Jornal O Impacto. Fontes consolidadas: Notícias públicas - Jornal O Impacto. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-24T18:13:30Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -167,11 +173,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T18:13:30Z",
     "last_seen_at": "2026-06-24T21:02:24Z",
-    "active_duration_hours": 2.81,
+    "active_duration_hours": 2.82,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T21:02:24Z",
+    "news_signature": "e7ed7aa86080f30244e72850",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -188,7 +197,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 10.4 h.",
+    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -201,7 +210,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-24T21:01:11Z",
     "sources": [
       {
@@ -221,6 +230,9 @@
     "last_seen_at": "2026-06-24T21:02:24Z",
     "active_duration_hours": 10.37,
     "active_duration_label": "10.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T21:02:24Z",
+    "news_signature": "7368a370ca3ba1df0a72dc33",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
