@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; +1 fonte(s). Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-24T14:02:27Z; ativo há 1.7 h.",
+    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; +1 fonte(s). Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-24T14:02:27Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -73,11 +73,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T14:02:27Z",
     "last_seen_at": "2026-06-24T15:47:02Z",
-    "active_duration_hours": 1.74,
-    "active_duration_label": "1.7 h",
+    "active_duration_hours": 1.75,
+    "active_duration_label": "1.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T15:47:02Z",
+    "news_signature": "1a82b1cb1e9eb85cd54ccedc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -94,7 +97,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 5.1 h.",
+    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -107,7 +110,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-24T15:45:51Z",
     "sources": [
       {
@@ -127,6 +130,9 @@
     "last_seen_at": "2026-06-24T15:47:02Z",
     "active_duration_hours": 5.11,
     "active_duration_label": "5.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T15:47:02Z",
+    "news_signature": "7368a370ca3ba1df0a72dc33",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
