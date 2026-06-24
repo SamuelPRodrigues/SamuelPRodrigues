@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 segue interditada mais de 24 horas após explosão de caminhão-tanque em São Miguel dos Campos - Cadaminuto. Fontes consolidadas: Notícias públicas - Cadaminuto; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - 7 Segundos; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; +1 fonte(s). Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-23T23:04:59Z; ativo há 6.2 h.",
+    "description": "BR-101 segue interditada mais de 24 horas após explosão de caminhão-tanque em São Miguel dos Campos - Cadaminuto. Fontes consolidadas: Notícias públicas - Cadaminuto; Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - 7 Segundos; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; +1 fonte(s). Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-23T23:04:59Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -72,11 +72,13 @@
     "newsFreshnessHours": 6.22,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-23T23:04:59Z",
-    "last_seen_at": "2026-06-24T05:17:58Z",
+    "last_seen_at": "2026-06-24T05:18:14Z",
     "active_duration_hours": 6.22,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "55d60af79f38d12602e868ee",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
