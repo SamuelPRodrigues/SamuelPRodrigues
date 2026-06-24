@@ -14,7 +14,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 1.9 h.",
+    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-24T12:30:50Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-24T12:45:58Z",
     "sources": [
       {
         "source": "Notícias públicas - SCC10",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 1.86,
+    "newsFreshnessHours": 2.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T10:40:28Z",
-    "last_seen_at": "2026-06-24T12:32:01Z",
-    "active_duration_hours": 1.86,
-    "active_duration_label": "1.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-24T12:32:01Z",
-    "news_signature": "7368a370ca3ba1df0a72dc33",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-24T12:47:12Z",
+    "active_duration_hours": 2.11,
+    "active_duration_label": "2.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
