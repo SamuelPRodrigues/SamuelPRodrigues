@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Óleo diesel mantém BR-101 interditada após retirada de carreta envolvida em explosão - Tribuna Hoje. Fontes consolidadas: Notícias públicas - Tribuna Hoje. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-24T14:39:00Z; ativo há 5.9 h.",
+    "description": "Óleo diesel mantém BR-101 interditada após retirada de carreta envolvida em explosão - Tribuna Hoje. Fontes consolidadas: Notícias públicas - Tribuna Hoje. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-24T14:39:00Z; ativo há 5.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T14:39:00Z",
     "last_seen_at": "2026-06-24T20:32:05Z",
-    "active_duration_hours": 5.88,
+    "active_duration_hours": 5.89,
     "active_duration_label": "5.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T20:32:05Z",
+    "news_signature": "67e80336d7bc1ccdd9021095",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 9.9 h.",
+    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -88,9 +91,11 @@
     "newsFreshnessHours": 9.86,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T10:40:28Z",
-    "last_seen_at": "2026-06-24T20:32:05Z",
-    "active_duration_hours": 9.86,
+    "last_seen_at": "2026-06-24T20:32:21Z",
+    "active_duration_hours": 9.87,
     "active_duration_label": "9.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9f8239629c76f81683aef2a0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
