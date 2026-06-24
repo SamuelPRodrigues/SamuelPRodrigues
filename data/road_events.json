@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 4.4 h.",
+    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T19:10:00Z",
     "last_seen_at": "2026-06-24T23:32:17Z",
-    "active_duration_hours": 4.37,
+    "active_duration_hours": 4.38,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T23:32:17Z",
+    "news_signature": "768c52e31b6770be6f0a80d8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 4.5 h.",
+    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -111,10 +114,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-24T18:59:11Z",
     "last_seen_at": "2026-06-24T23:32:17Z",
-    "active_duration_hours": 4.55,
-    "active_duration_label": "4.5 h",
+    "active_duration_hours": 4.56,
+    "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T23:32:17Z",
+    "news_signature": "5820d2a7fbf6420dfaa4973e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
