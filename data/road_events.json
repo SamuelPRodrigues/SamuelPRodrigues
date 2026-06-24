@@ -14,7 +14,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 3.1 h.",
+    "description": "BR-116 é totalmente interditada após tombamento de caminhão carregado com tabaco em SC - SCC10. Período informado: 2026-06-24T10:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-24T10:40:28Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-24T13:45:47Z",
     "sources": [
       {
@@ -47,6 +47,9 @@
     "last_seen_at": "2026-06-24T13:46:59Z",
     "active_duration_hours": 3.11,
     "active_duration_label": "3.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T13:46:59Z",
+    "news_signature": "7368a370ca3ba1df0a72dc33",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
