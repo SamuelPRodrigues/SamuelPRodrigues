@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Explosão de caminhão-tanque mantém trecho da BR-101 interditado há mais de 24 horas em Alagoas - Francês News. Fontes consolidadas: Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-23T23:20:00Z; ativo há 10.2 h.",
+    "description": "Explosão de caminhão-tanque mantém trecho da BR-101 interditado há mais de 24 horas em Alagoas - Francês News. Fontes consolidadas: Notícias públicas - Francês News; Notícias públicas - Jornal Extra de Alagoas; Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-23T23:20:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -58,7 +58,10 @@
     "active_duration_hours": 10.21,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-24T09:32:23Z",
+    "news_signature": "885497152a138e794a67b324",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
