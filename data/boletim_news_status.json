@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-06-25T08:02:25Z",
+  "updatedAt": "2026-06-25T08:18:34Z",
   "queries": 6,
-  "newItemsBeforeMerge": 72,
+  "newItemsBeforeMerge": 0,
   "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 36,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Colisão entre caminhões deixa motorista ferido em rodovia próximo a Brodowski, SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Acidente entre três caminhões interdita Castelinho em Itu - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: Motociclista inabilitado é arremessado por carro ao tentar atravessar BR-040 de forma irregular em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Homem morre após ser atropelado na BR-381, em Governador Valadares - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Casal morre após ser atropelado por caminhão na BR-364 em RO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: Empresário morre após caminhonete capotar em ultrapassagem na BR-364 em RO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Nuvem de carvão encobre BR-040 após tombamento de carreta; VÍDEO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após bater de frente com outra moto na BR-116, em Governador Valadares - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Chuva faz SP entrar em atenção e deixa mais de 30 mil imóveis sem luz - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Mexicanos lotam ruas da Cidade do México mesmo sob forte chuva após vitória na Copa; veja imagens - ge",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ventania e chuva causam estragos em parque aquático e barracão de marcenaria em Andradina - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte atinge Sul de Minas e acumula quase 30 mm entre Extrema e Itajubá - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Homem morre após cair em enxurrada durante temporal no interior de SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "RioSP realiza operações especiais na Serra das Araras neste fim de semana - Motiva Rodovias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Obra na ponte interrompe trânsito na Z3 de quarta a sexta-feira - Prefeitura de Pelotas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Bloqueio total de trecho da Victor Ferreira do Amaral para trasnporte de vigas começa na terça - Prefeitura de Curitiba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Caminhoneiros ameaçam nova greve de parar o Brasil em 2026 - Diário do Comércio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Moradores de Ponta Grossa protestam sobre condições ruins de estrada e transporte público - J3News",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Novacap não paga, caminhoneiros anunciam greve! - egnews.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Bolívia: Manifestantes bloqueiam estradas há 40 dias por renúncia do presidente - UOL Notícias",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "security",
-      "title": "Quem é o policial preso em operação contra milícia suspeita de movimentar R$ 25 milhões - VEJA",
-      "reason": "not_operationally_relevant"
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "security",
-      "title": "Homem é baleado em ônibus durante operação policial no Rio - CartaCapital",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação contra CV no Morro Dona Marta provoca tiroteio na zona Sul do Rio - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial prende 46 pessoas em 10 horas no Sul do ES - A Gazeta",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Tiroteio no Santa Marta deixa cerca de 60 turistas retidos no Mirante Dona Marta durante operação policial - Mercado e Eventos",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
