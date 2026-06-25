@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-06-25T06:32:23Z",
+  "updatedAt": "2026-06-25T06:48:10Z",
   "queries": 6,
-  "newItemsBeforeMerge": 62,
+  "newItemsBeforeMerge": 2,
   "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 31,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Colisão entre caminhões deixa motorista ferido em rodovia próximo a Brodowski, SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Acidente entre três caminhões interdita Castelinho em Itu - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: Motociclista inabilitado é arremessado por carro ao tentar atravessar BR-040 de forma irregular em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: Empresário morre após caminhonete capotar em ultrapassagem na BR-364 em RO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Homem morre após ser atropelado na BR-381, em Governador Valadares - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após caminhão tombar na BR-163, em Itaituba, no PA - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Revista de Imprensa: Caso de agressão a menor e sinal amarelo de chuva forte - 澳門廣播電視股份有限公司",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "RioSP realiza operações especiais na Serra das Araras neste fim de semana - Motiva Rodovias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Obra na ponte interrompe trânsito na Z3 de quarta a sexta-feira - Prefeitura de Pelotas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "CIOT 2026: Regras atualizadas e principais riscos jurídicos - Migalhas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Bloqueio total de trecho da Victor Ferreira do Amaral para trasnporte de vigas começa na terça - Prefeitura de Curitiba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Caminhoneiros ameaçam nova greve de parar o Brasil em 2026 - Diário do Comércio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Moradores de Ponta Grossa protestam sobre condições ruins de estrada e transporte público - J3News",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Novacap não paga, caminhoneiros anunciam greve! - egnews.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Bolívia: Manifestantes bloqueiam estradas há 40 dias por renúncia do presidente - UOL Notícias",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "security",
-      "title": "Quem é o policial preso em operação contra milícia suspeita de movimentar R$ 25 milhões - VEJA",
-      "reason": "not_operationally_relevant"
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "security",
-      "title": "Homem é baleado em ônibus durante operação policial no Rio - CartaCapital",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação contra CV no Morro Dona Marta provoca tiroteio na zona Sul do Rio - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial prende 46 pessoas em 10 horas no Sul do ES - A Gazeta",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Tiroteio no Santa Marta deixa cerca de 60 turistas retidos no Mirante Dona Marta durante operação policial - Mercado e Eventos",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Policial militar suspeito de facilitar entrada de contrabando no Brasil é preso pela PF no Paraná - Banda B",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Tráfico interestadual, com base no Paraná, é alvo de operação policial em 17 cidades de 4 estados - Bem Paraná",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial deflagrada em Goiás e outros Estados apura exploração sexual de crianças e adolescentes - A Redação",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Turistas ficam presos no Mirante Dona Marta em operação policial - iG Turismo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial no Morro Santa Marta termina em confronto e deixa ferido na Zona Sul do Rio - Diário da Guanabara",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
