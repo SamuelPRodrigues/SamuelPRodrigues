@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 11.6 h.",
+    "description": "Tráfego da BR-364 para São Pedro da Cipa será interditado nesta quinta-feira - Gazeta Digital. Fontes consolidadas: Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-24T19:10:00Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 11.62,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-25T06:47:09Z",
+    "news_signature": "768c52e31b6770be6f0a80d8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Jornal Extra de Alagoas. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 11.8 h.",
+    "description": "Trecho da BR-101 segue interditado após explosão de caminhão-tanque, em São Miguel dos Campos - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - Tribuna Hoje; Notícias públicas - Jornal Extra de Alagoas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-24T18:59:11Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,7 +105,10 @@
     "active_duration_hours": 11.8,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-25T06:47:09Z",
+    "news_signature": "5352f40828b18fb6ac649810",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
