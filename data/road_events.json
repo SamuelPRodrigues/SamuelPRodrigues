@@ -40,8 +40,11 @@
     "active_duration_hours": 0.83,
     "active_duration_label": "50 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-26T15:46:55Z",
+    "news_signature": "2bb9db9c4c74ec7de762bce9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -31.765,
     "lon": -52.337,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tombado causa bloqueio na BR-392 entre Pelotas e Rio Grande na manhã desta sexta-feira - GZH. Fontes consolidadas: Notícias públicas - GZH. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-26T14:44:08Z; ativo há 1.1 h.",
+    "description": "Caminhão tombado causa bloqueio na BR-392 entre Pelotas e Rio Grande na manhã desta sexta-feira - GZH. Fontes consolidadas: Notícias públicas - GZH. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-26T14:44:08Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +83,14 @@
     "newsFreshnessHours": 1.05,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-26T14:44:08Z",
-    "last_seen_at": "2026-06-26T15:46:55Z",
+    "last_seen_at": "2026-06-26T15:47:08Z",
     "active_duration_hours": 1.05,
     "active_duration_label": "1.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "bc39ae68bc9a69928cb10199",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 interditada: Manifestantes cobram recuperação da rodovia entre Santarém e Rurópolis. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-26T13:25:06Z; ativo há 2.4 h.",
+    "description": "BR-163 interditada: Manifestantes cobram recuperação da rodovia entre Santarém e Rurópolis. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-26T13:25:06Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,11 +130,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-26T13:25:06Z",
     "last_seen_at": "2026-06-26T15:46:55Z",
-    "active_duration_hours": 2.36,
+    "active_duration_hours": 2.37,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-26T15:46:55Z",
+    "news_signature": "316e72ae82c588ec36ecb6a2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +149,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá bloqueio total em Anchieta nesta sexta; veja horário e duração da interdição - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-06-26T12:21:51Z; ativo há 3.4 h.",
+    "description": "BR-101 terá bloqueio total em Anchieta nesta sexta; veja horário e duração da interdição - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-06-26T12:21:51Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -172,7 +180,10 @@
     "active_duration_hours": 3.42,
     "active_duration_label": "3.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-26T15:46:55Z",
+    "news_signature": "5aba5a30072506c4a8766430",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
