@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhonete bate na traseira de ônibus na BR-101 em Pescaria Brava; pista chegou a ser interditada por óleo derramado - Hora Hiper. Fontes consolidadas: Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-26T21:30:00Z; ativo há 8.3 h.",
+    "description": "Caminhonete bate na traseira de ônibus na BR-101 em Pescaria Brava; pista chegou a ser interditada por óleo derramado - Hora Hiper. Fontes consolidadas: Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-26T21:30:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-26T21:30:00Z",
     "last_seen_at": "2026-06-27T05:46:52Z",
-    "active_duration_hours": 8.28,
+    "active_duration_hours": 8.29,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-27T05:46:52Z",
+    "news_signature": "209a7f2654f816990c01dcd5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
