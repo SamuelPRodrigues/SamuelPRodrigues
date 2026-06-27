@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 4 min.",
+    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 20 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-06-27T16:45:47Z",
+    "updatedAt": "2026-06-27T17:01:03Z",
     "sources": [
       {
         "source": "ONDA SUL",
@@ -41,12 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.07,
+    "newsFreshnessHours": 0.33,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-27T16:42:44Z",
-    "last_seen_at": "2026-06-27T16:47:00Z",
-    "active_duration_hours": 0.07,
-    "active_duration_label": "4 min",
+    "last_seen_at": "2026-06-27T17:02:14Z",
+    "active_duration_hours": 0.33,
+    "active_duration_label": "20 min",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
