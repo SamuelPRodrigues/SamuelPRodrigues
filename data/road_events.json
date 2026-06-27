@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 1.6 h.",
+    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-27T18:16:00Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-27T16:42:44Z",
     "last_seen_at": "2026-06-27T18:17:12Z",
-    "active_duration_hours": 1.57,
+    "active_duration_hours": 1.58,
     "active_duration_label": "1.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-27T18:17:12Z",
+    "news_signature": "78075e0615a93e751a66a9d4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
