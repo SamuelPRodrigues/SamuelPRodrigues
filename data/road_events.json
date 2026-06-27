@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "c0d4ac8de6ad1d8678112afc",
+    "stable_event_id": "c0d4ac8de6ad1d8678112afc",
+    "name": "Interdição planejada por notícia pública • BR-265",
+    "road": "BR-265",
+    "corridor": "Sul de Minas • BR-265",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -21.25,
+    "lon": -44.9,
+    "city": "Sul de Minas",
+    "state": "MG",
+    "region": "Sudeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 4 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "ONDA SUL",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQlo5SDhzRUxMbGJiQ181WE52U25TWS1nak42VUhRQ0UxYzdISW1vMXNQdlp5WEwyX3JramRjUW41czUyVWl5RWJKQzdnYWExeGFXbnJqeU8zWlNYeXpDamRjdnlFa00yUkRPRFdKSnpHb0lTVzVMcWN3aGN4bk9yNnI2Y1Y2aXhqOTlJWjBBSU14a21OaGM4WHJ1VU5kTGxuYy1nalJta21ETlRmckpkNWdjSXNJOGZ4LXFpTG1qTmpGMXVMNmQ3WFNRaVdQOEU",
+    "headline": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL",
+    "newsDate": "2026-06-27T16:42:44Z",
+    "plannedStartAt": "2026-06-27T16:42:44Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-27T16:45:47Z",
+    "sources": [
+      {
+        "source": "ONDA SUL",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQlo5SDhzRUxMbGJiQ181WE52U25TWS1nak42VUhRQ0UxYzdISW1vMXNQdlp5WEwyX3JramRjUW41czUyVWl5RWJKQzdnYWExeGFXbnJqeU8zWlNYeXpDamRjdnlFa00yUkRPRFdKSnpHb0lTVzVMcWN3aGN4bk9yNnI2Y1Y2aXhqOTlJWjBBSU14a21OaGM4WHJ1VU5kTGxuYy1nalJta21ETlRmckpkNWdjSXNJOGZ4LXFpTG1qTmpGMXVMNmQ3WFNRaVdQOEU",
+        "headline": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL",
+        "date": "2026-06-27T16:42:44Z"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQlo5SDhzRUxMbGJiQ181WE52U25TWS1nak42VUhRQ0UxYzdISW1vMXNQdlp5WEwyX3JramRjUW41czUyVWl5RWJKQzdnYWExeGFXbnJqeU8zWlNYeXpDamRjdnlFa00yUkRPRFdKSnpHb0lTVzVMcWN3aGN4bk9yNnI2Y1Y2aXhqOTlJWjBBSU14a21OaGM4WHJ1VU5kTGxuYy1nalJta21ETlRmckpkNWdjSXNJOGZ4LXFpTG1qTmpGMXVMNmQ3WFNRaVdQOEU",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 0.07,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-27T16:42:44Z",
+    "last_seen_at": "2026-06-27T16:47:00Z",
+    "active_duration_hours": 0.07,
+    "active_duration_label": "4 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
