@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motorista fica ferido e trecho da BR-324 é parcialmente interditado após acidente com carreta na Bahia - Folha do Estado da Bahia. Fontes consolidadas: Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-27T11:26:09Z; ativo há 5.1 h.",
+    "description": "Motorista fica ferido e trecho da BR-324 é parcialmente interditado após acidente com carreta na Bahia - Folha do Estado da Bahia. Fontes consolidadas: Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-06-27T11:26:09Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,10 +43,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-27T11:26:09Z",
     "last_seen_at": "2026-06-27T16:32:20Z",
-    "active_duration_hours": 5.1,
+    "active_duration_hours": 5.11,
     "active_duration_label": "5.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-27T16:32:20Z",
+    "news_signature": "62280d002e751058d42ac7d5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
