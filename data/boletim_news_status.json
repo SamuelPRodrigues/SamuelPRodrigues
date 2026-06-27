@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-06-27T21:32:31Z",
+  "updatedAt": "2026-06-27T21:48:03Z",
   "queries": 6,
-  "newItemsBeforeMerge": 73,
-  "savedRoadNewsReused": 1,
+  "newItemsBeforeMerge": 2,
+  "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 36,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Colisão entre caminhões deixa motorista ferido em rodovia próximo a Brodowski, SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Passageira de moto morre atropelada por carreta após batida na Rodovia Campinas-Mogi - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Tráfego na BR-116/RS ficará restrito, a partir deste sábado (27), em Canoas - Estradas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Ciclista em bicicleta elétrica morre após ser atropelado por carreta na BR-116, em Alpercata - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após colisão com caminhonete na BR-101 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Dois caminhoneiros morrem após batida na BR-163, no Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Corpo de caminhoneiro morto em grave acidente no Pará é enterrado no interior de SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após bater de frente com outra moto na BR-116, em Governador Valadares - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Nuvem de carvão encobre BR-040 após tombamento de carreta; VÍDEO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: Empresário morre após caminhonete capotar em ultrapassagem na BR-364 em RO - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "São Paulo terá chuva forte e frio nesta quinta, 25: veja o que diz o Climatempo - VEJA",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva faz SP entrar em atenção e deixa mais de 30 mil imóveis sem luz - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Campinas registra volume de chuva esperado para o mês todo em apenas um dia - ACidade ON",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuvas fazem rios transbordar na Mata Norte, deixam cidades sem água e causam transtornos no Grande Recife - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Obra na ponte interrompe trânsito na Z3 de quarta a sexta-feira - Prefeitura de Pelotas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Caminhoneiros ameaçam nova greve de parar o Brasil em 2026 - Diário do Comércio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Moradores de Ponta Grossa protestam sobre condições ruins de estrada e transporte público - J3News",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Moradores bloqueiam BR-163 entre Rurópolis e Santarém para cobrar recuperação da rodovia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Rodovia dos Tamoios realiza operação especial para transporte de megatransformador de 845 toneladas - Nova Imprensa",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Câmara aprova MP do piso do frete e inclui anistia a multas para caminhoneiros que fizeram mobilizações pró-golpe - Brasil 247",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "security",
-      "title": "PM é preso por matar homem baleado em briga de trânsito na zona Norte de SP - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "security",
-      "title": "Homem é baleado em ônibus durante operação policial no Rio - CartaCapital",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Família contesta prisão de morador durante operação policial no Rio - A Tribuna RJ",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Tiroteio no Santa Marta deixa cerca de 60 turistas retidos no Mirante Dona Marta durante operação policial - Mercado e Eventos",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Maconha: operação policial intercepta 4,3 toneladas de drogas no oeste paulista - Fato Paulista",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
