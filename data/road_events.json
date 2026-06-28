@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 8.8 h.",
+    "description": "Ponte Torta em Carmo recebe manilhas de concreto fixas para bloquear passagem de caminhões na BR-265 - ONDA SUL. Período informado: 2026-06-27T16:42:44Z até fim não identificado. Fontes consolidadas: ONDA SUL. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-06-27T16:42:44Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-28T01:16:40Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-28T01:45:30Z",
     "sources": [
       {
         "source": "ONDA SUL",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.82,
+    "newsFreshnessHours": 9.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-27T16:42:44Z",
-    "last_seen_at": "2026-06-28T01:32:11Z",
-    "active_duration_hours": 8.83,
-    "active_duration_label": "8.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-28T01:32:11Z",
-    "news_signature": "78075e0615a93e751a66a9d4",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-28T01:46:42Z",
+    "active_duration_hours": 9.07,
+    "active_duration_label": "9.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
