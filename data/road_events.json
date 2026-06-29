@@ -14,7 +14,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Equipes atendem acidente e interditam faixa da BR-040 em Barbacena - Barbacena Online. Período informado: 2026-06-28T17:00:44Z até fim não identificado. Fontes consolidadas: Barbacena Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-06-28T17:00:44Z; ativo há 10.0 h.",
+    "description": "Equipes atendem acidente e interditam faixa da BR-040 em Barbacena - Barbacena Online. Período informado: 2026-06-28T17:00:44Z até fim não identificado. Fontes consolidadas: Barbacena Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-06-28T17:00:44Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-29T03:00:57Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-28T17:00:44Z",
     "last_seen_at": "2026-06-29T03:02:11Z",
-    "active_duration_hours": 10.02,
+    "active_duration_hours": 10.03,
     "active_duration_label": "10.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-29T03:02:11Z",
+    "news_signature": "12cee05c952b53c4275a4716",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
