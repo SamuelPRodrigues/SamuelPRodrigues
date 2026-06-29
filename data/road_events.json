@@ -40,8 +40,11 @@
     "active_duration_hours": 0.95,
     "active_duration_label": "57 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PE-089"
+    "detectedRoad": "PE-089",
+    "last_confirmed_at": "2026-06-29T19:01:46Z",
+    "news_signature": "55080d435b80aea1fe46c2a3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
