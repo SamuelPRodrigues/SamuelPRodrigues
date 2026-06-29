@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T11:56:44Z",
+  "updatedAt": "2026-06-29T18:00:59Z",
   "provider": "GDELT DOC 2.0 + Google News RSS + filtros anti-falso-positivo + aliases amplos",
   "trustedSources": [
     "CNN Brasil",
@@ -16,28 +16,30 @@
     "Terra"
   ],
   "datePolicy": "same-day Brazil time; older articles only for major-event context",
-  "sameDayWindowStartUtc": "20260627030000",
-  "sameDayWindowEndUtc": "20260627115644",
-  "gdeltRequestsSucceeded": 1,
-  "gdeltRequestFailures": 2,
+  "sameDayWindowStartUtc": "20260629030000",
+  "sameDayWindowEndUtc": "20260629180059",
+  "gdeltRequestsSucceeded": 0,
+  "gdeltRequestFailures": 3,
   "googleNewsQueriesPlanned": 14,
   "googleNewsRequestsSucceeded": 14,
   "trustedSourceRequestsSucceeded": 12,
   "googleNewsRequestFailures": 0,
   "retryRecoveries": 0,
-  "rawArticles": 1000,
+  "rawArticles": 1017,
   "eventsWritten": 0,
-  "skippedByDate": 193,
-  "skippedNoCity": 750,
-  "skippedNoRule": 2,
-  "skippedIrrelevant": 55,
-  "locationAliasMatches": 114,
+  "skippedByDate": 170,
+  "skippedNoCity": 793,
+  "skippedNoRule": 15,
+  "skippedIrrelevant": 39,
+  "locationAliasMatches": 116,
   "majorContextExceptions": 0,
   "keptPreviousOnFailure": false,
   "errors": [
-    "same-day-window tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-window tentativa 3: HTTP Error 429: Too Many Requests",
-    "same-day-timespan-fallback tentativa 2: HTTP Error 429: Too Many Requests",
-    "same-day-timespan-fallback tentativa 3: HTTP Error 429: Too Many Requests"
+    "same-day-window tentativa 2: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "same-day-window tentativa 3: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "same-day-timespan-fallback tentativa 2: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "same-day-timespan-fallback tentativa 3: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "major-context tentativa 2: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "major-context tentativa 3: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
   ]
 }
