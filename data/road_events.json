@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-381",
+    "road": "BR-381",
+    "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -19.916,
+    "lon": -43.934,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Manifestação interdita BR-381 em Governador Valadares nos dois sentidos - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-28T20:20:52Z; ativo há 8.2 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Itatiaia",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3djWWtNT0I4SmVjZmpFLUoyUzVwdXNCQVFwSDNmOXRLMlVobnp3QXZuYXN5SEVjV1FuaExIVENUaTgya1ZuOG1jR01mUFJQeUZGVXMyaEl4c05KdFY2M04zQlFyUGotMEt5RFYtZmo5S3BPeEx0ZjlvblNVMHdlQ1lNRHFtYWRSRUdTVHlIRFhmUFdMQkdmeVh1NXl5dmQ3emU4TG5FaTUzSG9DbUJOaTNFSmRRSXlpOUE",
+    "headline": "Manifestação interdita BR-381 em Governador Valadares nos dois sentidos - Rádio Itatiaia",
+    "newsDate": "Sun, 28 Jun 2026 20:20:52 GMT",
+    "updatedAt": "2026-06-29T04:30:47Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3djWWtNT0I4SmVjZmpFLUoyUzVwdXNCQVFwSDNmOXRLMlVobnp3QXZuYXN5SEVjV1FuaExIVENUaTgya1ZuOG1jR01mUFJQeUZGVXMyaEl4c05KdFY2M04zQlFyUGotMEt5RFYtZmo5S3BPeEx0ZjlvblNVMHdlQ1lNRHFtYWRSRUdTVHlIRFhmUFdMQkdmeVh1NXl5dmQ3emU4TG5FaTUzSG9DbUJOaTNFSmRRSXlpOUE",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Itatiaia",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3djWWtNT0I4SmVjZmpFLUoyUzVwdXNCQVFwSDNmOXRLMlVobnp3QXZuYXN5SEVjV1FuaExIVENUaTgya1ZuOG1jR01mUFJQeUZGVXMyaEl4c05KdFY2M04zQlFyUGotMEt5RFYtZmo5S3BPeEx0ZjlvblNVMHdlQ1lNRHFtYWRSRUdTVHlIRFhmUFdMQkdmeVh1NXl5dmQ3emU4TG5FaTUzSG9DbUJOaTNFSmRRSXlpOUE",
+        "headline": "Manifestação interdita BR-381 em Governador Valadares nos dois sentidos - Rádio Itatiaia",
+        "date": "Sun, 28 Jun 2026 20:20:52 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "fd7dce8ad39aa2174eab478f",
+    "event_id": "fd7dce8ad39aa2174eab478f",
+    "newsFreshnessHours": 8.19,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-28T20:20:52Z",
+    "last_seen_at": "2026-06-29T04:32:01Z",
+    "active_duration_hours": 8.19,
+    "active_duration_label": "8.2 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "9ad5d22255dfb384d94afeb9",
     "stable_event_id": "9ad5d22255dfb384d94afeb9",
     "name": "Interdição planejada por notícia pública • BR-040",
@@ -14,7 +58,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Equipes atendem acidente e interditam faixa da BR-040 em Barbacena - Barbacena Online. Período informado: 2026-06-28T17:00:44Z até fim não identificado. Fontes consolidadas: Barbacena Online. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-28T17:00:44Z; ativo há 11.3 h.",
+    "description": "Equipes atendem acidente e interditam faixa da BR-040 em Barbacena - Barbacena Online. Período informado: 2026-06-28T17:00:44Z até fim não identificado. Fontes consolidadas: Barbacena Online. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-06-28T17:00:44Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +71,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-29T04:15:46Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-29T04:30:50Z",
     "sources": [
       {
         "source": "Barbacena Online",
@@ -41,15 +85,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 11.27,
+    "newsFreshnessHours": 11.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-28T17:00:44Z",
-    "last_seen_at": "2026-06-29T04:16:59Z",
-    "active_duration_hours": 11.27,
-    "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-29T04:16:59Z",
-    "news_signature": "12cee05c952b53c4275a4716",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-29T04:32:01Z",
+    "active_duration_hours": 11.52,
+    "active_duration_label": "11.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
