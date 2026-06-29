@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101 / PE-089",
+    "road": "BR-101 / PE-089",
+    "corridor": "Recife • BR-101 / BR-232",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -8.047,
+    "lon": -34.877,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte é interditada após risco de desabamento na PE-089 por fortes chuvas - Terra. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-29T18:05:00Z; ativo há 1.7 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Terra",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNzJ1ZkFJM3JGNE54bnlfTVpoZnJXd0pmSmFrMVZnRXljVjlvNTV4QkNsaDdiV21UMzVTNURHYm8xcnZEUTF5OU5SUmNyNjBpamVyOTFuUzAwYWRIYURuQTFNbUFvRVRiaWZLTy1Fd09CRFl5MTI0RVJXdHN1dzVIMFFHRGpWWGlBZDBJNlo1RjFBOE80SHMwcE1kSVJlejloTVZwVUlLaWRzT2VGcThQbENKRC05dGstUGU2UGl0WDkwOFhZdXlIQXVqdzJJbUxwSTFrMXhYMlNjeXVtTTlxbGJ5Z2VsZktr",
+    "headline": "Ponte é interditada após risco de desabamento na PE-089 por fortes chuvas - Terra",
+    "newsDate": "Mon, 29 Jun 2026 18:05:00 GMT",
+    "updatedAt": "2026-06-29T19:45:29Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNzJ1ZkFJM3JGNE54bnlfTVpoZnJXd0pmSmFrMVZnRXljVjlvNTV4QkNsaDdiV21UMzVTNURHYm8xcnZEUTF5OU5SUmNyNjBpamVyOTFuUzAwYWRIYURuQTFNbUFvRVRiaWZLTy1Fd09CRFl5MTI0RVJXdHN1dzVIMFFHRGpWWGlBZDBJNlo1RjFBOE80SHMwcE1kSVJlejloTVZwVUlLaWRzT2VGcThQbENKRC05dGstUGU2UGl0WDkwOFhZdXlIQXVqdzJJbUxwSTFrMXhYMlNjeXVtTTlxbGJ5Z2VsZktr",
+    "sources": [
+      {
+        "source": "Notícias públicas - Terra",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNzJ1ZkFJM3JGNE54bnlfTVpoZnJXd0pmSmFrMVZnRXljVjlvNTV4QkNsaDdiV21UMzVTNURHYm8xcnZEUTF5OU5SUmNyNjBpamVyOTFuUzAwYWRIYURuQTFNbUFvRVRiaWZLTy1Fd09CRFl5MTI0RVJXdHN1dzVIMFFHRGpWWGlBZDBJNlo1RjFBOE80SHMwcE1kSVJlejloTVZwVUlLaWRzT2VGcThQbENKRC05dGstUGU2UGl0WDkwOFhZdXlIQXVqdzJJbUxwSTFrMXhYMlNjeXVtTTlxbGJ5Z2VsZktr",
+        "headline": "Ponte é interditada após risco de desabamento na PE-089 por fortes chuvas - Terra",
+        "date": "Mon, 29 Jun 2026 18:05:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "719b854f234afec9eee49cda",
+    "event_id": "719b854f234afec9eee49cda",
+    "newsFreshnessHours": 1.69,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-29T18:05:00Z",
+    "last_seen_at": "2026-06-29T19:46:25Z",
+    "active_duration_hours": 1.69,
+    "active_duration_label": "1.7 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "PE-089"
+  }
+]
