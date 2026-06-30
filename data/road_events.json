@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 262 é interditada após caminhão tombar e derramar óleo em Ibatiba - Aqui Notícias. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-30T13:38:13Z; ativo há 4.7 h.",
+    "description": "BR 262 é interditada após caminhão tombar e derramar óleo em Ibatiba - Aqui Notícias. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-30T13:38:13Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 4.65,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T18:17:07Z",
+    "news_signature": "1b6e876933b06a9b6c768666",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente Com Morte Provoca Interdição Parcial Na BR-324, Em Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-06-30T13:06:16Z; ativo há 5.2 h.",
+    "description": "Acidente Com Morte Provoca Interdição Parcial Na BR-324, Em Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-06-30T13:06:16Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 5.18,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T18:17:07Z",
+    "news_signature": "7bf7b5b25cd873199b15fab6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - diaadiaes.com.br; Notícias públicas - ES Hoje. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 10.7 h.",
+    "description": "BR 262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - diaadiaes.com.br; Notícias públicas - ES Hoje. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -121,7 +127,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-30T18:15:54Z",
     "sources": [
       {
@@ -153,6 +159,9 @@
     "last_seen_at": "2026-06-30T18:17:07Z",
     "active_duration_hours": 10.67,
     "active_duration_label": "10.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T18:17:07Z",
+    "news_signature": "ac39d22a8f3236c8b09e54d5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
