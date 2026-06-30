@@ -14,7 +14,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 55 min.",
+    "description": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 56 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-30T08:31:13Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-30T07:37:00Z",
     "last_seen_at": "2026-06-30T08:32:28Z",
-    "active_duration_hours": 0.92,
-    "active_duration_label": "55 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 0.93,
+    "active_duration_label": "56 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T08:32:28Z",
+    "news_signature": "ea4b71dcf2b01bd0ac8dba29",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
