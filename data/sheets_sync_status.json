@@ -1,20 +1,15 @@
 {
-  "updatedAt": "2026-06-30T03:02:14Z",
+  "updatedAt": "2026-06-30T03:17:13Z",
   "configured": true,
-  "eventsPrepared": 14,
+  "eventsPrepared": 15,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-06-30T03:00Z",
+  "snapshotBucket": "2026-06-30T03:15Z",
   "eventLifecycleFields": true,
-  "ok": true,
-  "response": {
-    "ok": true,
-    "received": 14,
-    "inserted": 0,
-    "updated": 14,
-    "total_rows": 346
-  },
+  "ok": false,
+  "response": null,
   "analyticsCache": true,
-  "error": null,
-  "analyticsRows": 346
+  "error": "HTTP 404: <!DOCTYPE html><html lang=\"en\"><head><meta name=\"description\" content=\"Web word processing, presentations and spreadsheets\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0\"><link rel=\"shortcut icon\" href=\"//docs.google.com/favicon.ico\"><title>Page Not Found</title><meta name=\"referrer\" content=\"origin\"><link href=\"//fonts.googleapis.com/css?family=Product+Sans\" rel=\"stylesheet\" type=\"text/css\" nonce=\"my9Nd0e44O1_fbUOCRoO",
+  "analyticsRows": 15,
+  "analyticsCacheWarning": "HTTP Error 404: Not Found"
 }
