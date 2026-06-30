@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "TRECHO DA BR-324 É PARCIALMENTE INTERDITADO APÓS ACIDENTE COM MORTE EM SALVADOR - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-06-30T10:00:00Z; ativo há 5.3 h.",
+    "description": "TRECHO DA BR-324 É PARCIALMENTE INTERDITADO APÓS ACIDENTE COM MORTE EM SALVADOR - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-06-30T10:00:00Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 5.29,
     "active_duration_label": "5.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T15:17:17Z",
+    "news_signature": "2898d8c2ac74579bb74efd48",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - diaadiaes.com.br; Notícias públicas - ES Hoje. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 7.7 h.",
+    "description": "BR 262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - diaadiaes.com.br; Notícias públicas - ES Hoje. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-06-30T15:16:03Z",
     "sources": [
       {
@@ -101,8 +104,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-30T07:37:00Z",
     "last_seen_at": "2026-06-30T15:17:17Z",
-    "active_duration_hours": 7.67,
+    "active_duration_hours": 7.68,
     "active_duration_label": "7.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-06-30T15:17:17Z",
+    "news_signature": "ac39d22a8f3236c8b09e54d5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
