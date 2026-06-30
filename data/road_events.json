@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-262",
+    "road": "BR-262",
+    "corridor": "Vitória / Serra • BR-101 / BR-262",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -20.315,
+    "lon": -40.312,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 10 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - A Gazeta",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHluWWhBS1NaRHZjOG1vQTVubDNqSEVOb0d5X2czVWE4amRMUGxYWUZmQ29TRFVGR0lPby1HNkVmMXlKRVdhMl9iNVZJcTBNbmpLZjJxRGtTX2t5d2FHTVdKN1JQWVRDTVg3OUZtMTFyR2ZmbnQ2ZmM1TFdxclJDZEZzMXpldVZ5dUxZeGJZOXQxS0hjTEJaQTJ6bFlRRFNIZ0JNa21YMWR0M28",
+    "headline": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta",
+    "newsDate": "Tue, 30 Jun 2026 07:37:00 GMT",
+    "updatedAt": "2026-06-30T07:45:36Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHluWWhBS1NaRHZjOG1vQTVubDNqSEVOb0d5X2czVWE4amRMUGxYWUZmQ29TRFVGR0lPby1HNkVmMXlKRVdhMl9iNVZJcTBNbmpLZjJxRGtTX2t5d2FHTVdKN1JQWVRDTVg3OUZtMTFyR2ZmbnQ2ZmM1TFdxclJDZEZzMXpldVZ5dUxZeGJZOXQxS0hjTEJaQTJ6bFlRRFNIZ0JNa21YMWR0M28",
+    "sources": [
+      {
+        "source": "Notícias públicas - A Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHluWWhBS1NaRHZjOG1vQTVubDNqSEVOb0d5X2czVWE4amRMUGxYWUZmQ29TRFVGR0lPby1HNkVmMXlKRVdhMl9iNVZJcTBNbmpLZjJxRGtTX2t5d2FHTVdKN1JQWVRDTVg3OUZtMTFyR2ZmbnQ2ZmM1TFdxclJDZEZzMXpldVZ5dUxZeGJZOXQxS0hjTEJaQTJ6bFlRRFNIZ0JNa21YMWR0M28",
+        "headline": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta",
+        "date": "Tue, 30 Jun 2026 07:37:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "8c0a449d819966cc0c32af46",
+    "event_id": "8c0a449d819966cc0c32af46",
+    "newsFreshnessHours": 0.16,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-30T07:37:00Z",
+    "last_seen_at": "2026-06-30T07:46:50Z",
+    "active_duration_hours": 0.16,
+    "active_duration_label": "10 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
