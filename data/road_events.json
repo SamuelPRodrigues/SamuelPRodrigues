@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-324",
+    "road": "BR-324",
+    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.977,
+    "lon": -38.501,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho da BR-324 é parcialmente interditado após acidente com morte em Salvador - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-06-30T09:20:43Z; ativo há 11 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Jornal Correio",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcTI3WURNR2NWSVpfWWxsYW55MTk0Q0NXb3ZoNXNfcnQxS3I4UWtaUVc2eDNwaUJ3RndmZ215ZVI1OXNqSEVBVkM1WnRqc2FsZjBURWw1bVp0NkZfR0RiYVVqMFIxWHRZQnB2OFVPRDRMd0lJaEpmRF9ySUl4ZXg0T0d2ejNkLWlGRUFsdm0zWGRxcFk0bEFJZXdERTRxTzZwQmxwaE1ueko1aVY2NWFOT3VBVEFhS1AwSXJVZnBHWGRQOUo0V1E",
+    "headline": "Trecho da BR-324 é parcialmente interditado após acidente com morte em Salvador - Jornal Correio",
+    "newsDate": "Tue, 30 Jun 2026 09:20:43 GMT",
+    "updatedAt": "2026-06-30T09:30:58Z",
+    "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcTI3WURNR2NWSVpfWWxsYW55MTk0Q0NXb3ZoNXNfcnQxS3I4UWtaUVc2eDNwaUJ3RndmZ215ZVI1OXNqSEVBVkM1WnRqc2FsZjBURWw1bVp0NkZfR0RiYVVqMFIxWHRZQnB2OFVPRDRMd0lJaEpmRF9ySUl4ZXg0T0d2ejNkLWlGRUFsdm0zWGRxcFk0bEFJZXdERTRxTzZwQmxwaE1ueko1aVY2NWFOT3VBVEFhS1AwSXJVZnBHWGRQOUo0V1E",
+    "sources": [
+      {
+        "source": "Notícias públicas - Jornal Correio",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcTI3WURNR2NWSVpfWWxsYW55MTk0Q0NXb3ZoNXNfcnQxS3I4UWtaUVc2eDNwaUJ3RndmZ215ZVI1OXNqSEVBVkM1WnRqc2FsZjBURWw1bVp0NkZfR0RiYVVqMFIxWHRZQnB2OFVPRDRMd0lJaEpmRF9ySUl4ZXg0T0d2ejNkLWlGRUFsdm0zWGRxcFk0bEFJZXdERTRxTzZwQmxwaE1ueko1aVY2NWFOT3VBVEFhS1AwSXJVZnBHWGRQOUo0V1E",
+        "headline": "Trecho da BR-324 é parcialmente interditado após acidente com morte em Salvador - Jornal Correio",
+        "date": "Tue, 30 Jun 2026 09:20:43 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "0148a228199aa674fd53ddab",
+    "event_id": "0148a228199aa674fd53ddab",
+    "newsFreshnessHours": 0.19,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-06-30T09:20:43Z",
+    "last_seen_at": "2026-06-30T09:32:12Z",
+    "active_duration_hours": 0.19,
+    "active_duration_label": "11 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "06761b40599c3353aa93faf4",
     "stable_event_id": "06761b40599c3353aa93faf4",
     "name": "Interdição planejada por notícia pública • BR-262",
@@ -14,7 +58,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 1.7 h.",
+    "description": "BR-262 é totalmente interditada após tombamento de carreta em Ibatiba - A Gazeta. Período informado: 2026-06-30T07:37:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-06-30T07:37:00Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +71,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-06-30T09:15:57Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-06-30T09:31:01Z",
     "sources": [
       {
         "source": "Notícias públicas - A Gazeta",
@@ -41,15 +85,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 1.67,
+    "newsFreshnessHours": 1.92,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-06-30T07:37:00Z",
-    "last_seen_at": "2026-06-30T09:17:09Z",
-    "active_duration_hours": 1.67,
-    "active_duration_label": "1.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-06-30T09:17:09Z",
-    "news_signature": "ea4b71dcf2b01bd0ac8dba29",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-06-30T09:32:12Z",
+    "active_duration_hours": 1.92,
+    "active_duration_label": "1.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
