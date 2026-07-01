@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 interditada para detonação de rochas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-01T18:48:57Z; ativo há 2.7 h.",
+    "description": "BR-101 interditada para detonação de rochas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-01T18:48:57Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,10 +43,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-01T18:48:57Z",
     "last_seen_at": "2026-07-01T21:32:20Z",
-    "active_duration_hours": 2.72,
+    "active_duration_hours": 2.73,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-01T21:32:20Z",
+    "news_signature": "fd79797c7ec376137759fa04",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
