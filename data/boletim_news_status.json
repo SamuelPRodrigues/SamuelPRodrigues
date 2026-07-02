@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-07-02T00:03:34Z",
+  "updatedAt": "2026-07-02T00:18:07Z",
   "queries": 6,
-  "newItemsBeforeMerge": 2,
+  "newItemsBeforeMerge": 63,
   "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 47,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Cinco pessoas morrem e carro fica partido ao meio após batida com caminhão na BR-470 em SC - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Passageira de moto morre atropelada por carreta após batida na Rodovia Campinas-Mogi - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: caminhão carregado de galinhas tomba e mata motorista na BR-262 em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: caminhão perde controle e se arrasta em guard rail em rodovia no Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: caminhão perde controle e se arrasta em guard rail em rodovia no Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "BR 262 é liberada em Ibatiba após 14 horas de interdição total - A Gazeta",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Batida entre carros oficiais na BR-262 deixa motorista ferido entre Campo Grande e Ribas do Rio Pardo - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Dois caminhoneiros morrem após batida na BR-163, no Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: caminhão carregado de galinhas tomba e mata motorista na BR-262 em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após colisão com caminhonete na BR-101 - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Chuva de quase 200mm cancela aulas, eleva nível de rios e deixa estragos no RS - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte provoca altos acumulados em Natal e cidade segue em alerta - BNews RN",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Forte chuva de granizo atinge Planalto Norte de SC; temporal surpreende moradores - ND Mais",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Impressionante: Cascavel é atingida por forte chuva de granizo - CGN",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Acumulado de chuva da madrugada e do início da manhã supera o esperado para segunda (29) em Curitiba - CBN Curitiba",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Granizo atinge Cascavel, cobre ruas de gelo e meteorologista alerta para novas tempestades - Gazeta do Paraná",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuvas fazem rios transbordar na Mata Norte, deixam cidades sem água e causam transtornos no Grande Recife - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "\"Apavorante\": Forte chuva de granizo quebra carros em SC e avança rumo ao RS; veja vídeo - abcmais.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rebanho fica ilhado em meio à inundação em Goiana após chuvas; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Goiana tem bairros submersos e 500 desabrigados; Defesa Civil avalia prejuízo em outros municípios da Mata Norte - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Paraná tem chuvas de granizo com pedras do tamanho de ovos e camadas de gelo de 30 cm de altura - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Desabrigados e desalojados da chuva em Goiana são levados para escola com infestação de carrapatos - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motoristas de ônibus do Rio suspendem greve até segunda (6) após assembleia - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Prefeitura realiza reparo em conjunto semafórico da Tancredo Neves e orienta condutores sobre bloqueio temporário e rotas alternativas - Prefeitura de Aracaju",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "STF suspende exigência de seguro adicional para transporte por moto via aplicativo em São Paulo - stf noticias",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
