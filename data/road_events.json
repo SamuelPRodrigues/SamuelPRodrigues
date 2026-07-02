@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 9.0 h.",
+    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 9.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T13:43:00Z",
     "last_seen_at": "2026-07-02T22:43:14Z",
-    "active_duration_hours": 9.0,
+    "active_duration_hours": 9.01,
     "active_duration_label": "9.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-465"
+    "detectedRoad": "SC-465",
+    "last_confirmed_at": "2026-07-02T22:43:14Z",
+    "news_signature": "6c9a9855fa1baa03bc239c9f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-158 fica totalmente bloqueada entre Pato Branco e Vitorino após acidente - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-02T11:03:53Z; ativo há 11.7 h.",
+    "description": "PR-158 fica totalmente bloqueada entre Pato Branco e Vitorino após acidente - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-02T11:03:53Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,8 +88,11 @@
     "active_duration_hours": 11.66,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-158"
+    "detectedRoad": "PR-158",
+    "last_confirmed_at": "2026-07-02T22:43:14Z",
+    "news_signature": "7af9d158a0042e468909630c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
