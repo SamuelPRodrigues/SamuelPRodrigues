@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-02T20:33:30Z",
+  "updatedAt": "2026-07-02T20:48:20Z",
   "configured": true,
   "eventsPrepared": 13,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-07-02T20:30Z",
+  "snapshotBucket": "2026-07-02T20:45Z",
   "eventLifecycleFields": true,
-  "ok": false,
-  "response": null,
+  "ok": true,
+  "response": {
+    "ok": true,
+    "received": 13,
+    "inserted": 0,
+    "updated": 13,
+    "total_rows": 360
+  },
   "analyticsCache": true,
-  "error": "HTTP 302: <HTML>\n<HEAD>\n<TITLE>Moved Temporarily</TITLE>\n</HEAD>\n<BODY BGCOLOR=\"#FFFFFF\" TEXT=\"#000000\">\n<!-- GSE Default Error -->\n<H1>Moved Temporarily</H1>\nThe document has moved <A HREF=\"https://script.google.com/macros/s/AKfycbyXnrwrXL_hDv5QgNxbOOet_7nj17dbQvDd4CbvteHpXrmUK--g3m5OTamFlwN3Sa44nQ/exec\">here</A>.\n</BODY>\n</HTML>\n",
-  "analyticsRows": 360
+  "error": null,
+  "analyticsRows": 13,
+  "analyticsCacheWarning": "HTTP Error 404: Not Found"
 }
