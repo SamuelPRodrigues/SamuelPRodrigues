@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-02T06:32:26Z",
+  "updatedAt": "2026-07-02T07:02:45Z",
   "configured": true,
-  "eventsPrepared": 8,
+  "eventsPrepared": 6,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-07-02T06:30Z",
+  "snapshotBucket": "2026-07-02T07:00Z",
   "eventLifecycleFields": true,
-  "ok": false,
-  "response": null,
+  "ok": true,
+  "response": {
+    "ok": true,
+    "received": 6,
+    "inserted": 0,
+    "updated": 6,
+    "total_rows": 357
+  },
   "analyticsCache": true,
-  "error": "The read operation timed out",
+  "error": null,
   "analyticsRows": 357
 }
