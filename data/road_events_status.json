@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T17:31:38Z",
+  "updatedAt": "2026-07-02T17:45:26Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -7,17 +7,17 @@
   "maxRoadBlockingRisk": 69,
   "monitoredPoints": 130,
   "bboxRequestsPlanned": 130,
-  "bboxRequestsSucceeded": 0,
-  "rawIncidents": 0,
-  "eventsWritten": 6,
-  "skippedFinishedOrInvalid": 0,
-  "skippedNonBlocking": 0,
+  "bboxRequestsSucceeded": 1,
+  "rawIncidents": 29,
+  "eventsWritten": 0,
+  "skippedFinishedOrInvalid": 22,
+  "skippedNonBlocking": 7,
   "skippedLocalStreet": 0,
-  "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 3,
+  "publicFallbackUsed": false,
+  "publicFallbackRequestsSucceeded": 0,
   "publicFallbackRequestFailures": 0,
-  "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 6,
+  "publicFallbackRawArticles": 0,
+  "publicFallbackEventsWritten": 0,
   "publicFallbackSkippedNoCorridor": 0,
   "publicFallbackSkippedReleased": 0,
   "keptPreviousOnApiFailure": false,
@@ -1178,16 +1178,6 @@
         -24.05,
         -46.243,
         -23.87
-      ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    {
-      "bbox": [
-        -47.9,
-        -21.267,
-        -47.72,
-        -21.087
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
