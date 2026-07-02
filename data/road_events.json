@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 10.1 h.",
+    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T13:43:00Z",
     "last_seen_at": "2026-07-02T23:48:34Z",
-    "active_duration_hours": 10.09,
+    "active_duration_hours": 10.1,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-465"
+    "detectedRoad": "SC-465",
+    "last_confirmed_at": "2026-07-02T23:48:34Z",
+    "news_signature": "6c9a9855fa1baa03bc239c9f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
