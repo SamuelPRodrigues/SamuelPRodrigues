@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 interditada para detonação de rochas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-01T18:48:57Z; ativo há 7.0 h.",
+    "description": "BR-101 interditada para detonação de rochas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-01T18:48:57Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-01T18:48:57Z",
     "last_seen_at": "2026-07-02T01:47:51Z",
-    "active_duration_hours": 6.98,
+    "active_duration_hours": 6.99,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-02T01:47:51Z",
+    "news_signature": "fd79797c7ec376137759fa04",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +67,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhão e carreta colidem e BR-116 fica totalmente interditada em Cândido Sales - Sudoeste Bahia. Período informado: 2026-07-01T18:38:14Z até fim não identificado. Fontes consolidadas: Notícias públicas - Sudoeste Bahia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-01T18:38:14Z; ativo há 7.2 h.",
+    "description": "Caminhão e carreta colidem e BR-116 fica totalmente interditada em Cândido Sales - Sudoeste Bahia. Período informado: 2026-07-01T18:38:14Z até fim não identificado. Fontes consolidadas: Notícias públicas - Sudoeste Bahia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-01T18:38:14Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-01T22:03:11Z",
     "sources": [
       {
@@ -97,6 +100,9 @@
     "last_seen_at": "2026-07-02T01:47:51Z",
     "active_duration_hours": 7.16,
     "active_duration_label": "7.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-02T01:47:51Z",
+    "news_signature": "8bd0890500d6203182e15be8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
