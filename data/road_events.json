@@ -9,7 +9,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-316 segue bloqueada sem previsão após acidente com três veículos no Piauí - gazeta hora1. Fontes consolidadas: Notícias públicas - gazeta hora1; Notícias públicas - OitoMeia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:34Z; ativo há 8.1 h.",
+    "description": "BR-316 segue bloqueada sem previsão após acidente com três veículos no Piauí - gazeta hora1. Fontes consolidadas: Notícias públicas - gazeta hora1; Notícias públicas - OitoMeia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:34Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 8.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T13:43:34Z",
-    "last_seen_at": "2026-07-02T21:47:09Z",
+    "last_seen_at": "2026-07-02T21:47:25Z",
     "active_duration_hours": 8.06,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "73e4cd30c057749744ff3fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 8.1 h.",
+    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,9 +92,12 @@
     "active_duration_hours": 8.07,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-465"
+    "detectedRoad": "SC-465",
+    "last_confirmed_at": "2026-07-02T21:47:09Z",
+    "news_signature": "6c9a9855fa1baa03bc239c9f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +109,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita totalmente a BR-470 entre Santa Catarina e Rio Grande do Sul. Fontes consolidadas: Notícias públicas - PortalRBV; Notícias públicas - Tua Rádio; Notícias públicas - nativacapinzal.net. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-02T11:39:59Z; ativo há 10.1 h.",
+    "description": "Queda de barreira interdita totalmente a BR-470 entre Santa Catarina e Rio Grande do Sul. Fontes consolidadas: Notícias públicas - PortalRBV; Notícias públicas - Tua Rádio; Notícias públicas - nativacapinzal.net. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-02T11:39:59Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,12 +148,14 @@
     "newsFreshnessHours": 10.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T11:39:59Z",
-    "last_seen_at": "2026-07-02T21:47:09Z",
+    "last_seen_at": "2026-07-02T21:47:25Z",
     "active_duration_hours": 10.12,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a8e1f12a509a3cc28e738aa8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -160,7 +167,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-158 fica totalmente bloqueada entre Pato Branco e Vitorino após acidente - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-02T11:03:53Z; ativo há 10.7 h.",
+    "description": "PR-158 fica totalmente bloqueada entre Pato Branco e Vitorino após acidente - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-02T11:03:53Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -188,11 +195,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T11:03:53Z",
     "last_seen_at": "2026-07-02T21:47:09Z",
-    "active_duration_hours": 10.72,
+    "active_duration_hours": 10.73,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-158"
+    "detectedRoad": "PR-158",
+    "last_confirmed_at": "2026-07-02T21:47:09Z",
+    "news_signature": "7af9d158a0042e468909630c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
