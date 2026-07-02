@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T06:02:39Z",
+  "updatedAt": "2026-07-02T06:18:17Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -178,35 +178,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "2129b5093e79c5d9a40fd5cb",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 83,
-      "severity": "Crítico",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 36.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1412,
-      "estimated_hours": 353.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
       "observation_hash": "318dc5b6d00f1acada23a7f1",
@@ -267,12 +238,12 @@
     {
       "event_id": "4ece8cdfdfbd6d90b03940e6",
       "stable_event_id": "4ece8cdfdfbd6d90b03940e6",
-      "observation_hash": "237043618de781991c543e3e",
+      "observation_hash": "030a960e7d1894772f0322f1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
       "first_seen_at": "2026-07-01T20:17:41+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -288,8 +259,8 @@
       "description": "BR-101 interditada para detonação de rochas.. Fontes consolidadas: Notícias públicas - G1 + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1 + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbW1NUFM4d2pHSmk2ZnBTSWxKYl9DOGZRQ0VqNEhZRHlfWmxVemtMYVZQdVdYWXVQS1cweHYtRjNEVHN4cktRbk5xa1ZSZm92THdBMzk3UXQ3Tk1OQXJpbWhwZXZBTW5ZdEx1YmtBWXdiZzhJWVB4SFJTNUg2Z3FIUXk5RTJNN0hyTkFCbmhJNlpoTWsyZm1kWTFrbXdHS0tOeTE4ZVRaNnI5ZjZIRHU3ZWwtRG5GbnV6RkRJUTRpRFVwQdIB0AFBVV95cUxORnR0UkVZdjBhdkJMZHBtdHJsUGttaTZFYUFKUW1tMll5UUZURUJpOE84MWJNNUM5MVFpc3hTX1l1cmdBdkFmX3BsQ1QzX0xaYy1yQUthR2hQSXhhTExrRXJSWHdpZGMzYWVBRmtyMWUwYkFoekJ4bUxvSUxJRHJhWlRfaEh2NWlBRm1DdndjakUzQnMyV2hKMW00WVItQXlIdENpYmt2a0hLMmFmT0M5R29NSGVqSjhsc3dVQ3lFUXZ0eElHdVpLUFcxV1VpTGNf",
-      "total_snapshots": 45,
-      "estimated_hours": 11.25,
+      "total_snapshots": 46,
+      "estimated_hours": 11.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -300,7 +271,7 @@
           "source": "Notícias públicas - G1 + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbW1NUFM4d2pHSmk2ZnBTSWxKYl9DOGZRQ0VqNEhZRHlfWmxVemtMYVZQdVdYWXVQS1cweHYtRjNEVHN4cktRbk5xa1ZSZm92THdBMzk3UXQ3Tk1OQXJpbWhwZXZBTW5ZdEx1YmtBWXdiZzhJWVB4SFJTNUg2Z3FIUXk5RTJNN0hyTkFCbmhJNlpoTWsyZm1kWTFrbXdHS0tOeTE4ZVRaNnI5ZjZIRHU3ZWwtRG5GbnV6RkRJUTRpRFVwQdIB0AFBVV95cUxORnR0UkVZdjBhdkJMZHBtdHJsUGttaTZFYUFKUW1tMll5UUZURUJpOE84MWJNNUM5MVFpc3hTX1l1cmdBdkFmX3BsQ1QzX0xaYy1yQUthR2hQSXhhTExrRXJSWHdpZGMzYWVBRmtyMWUwYkFoekJ4bUxvSUxJRHJhWlRfaEh2NWlBRm1DdndjakUzQnMyV2hKMW00WVItQXlIdENpYmt2a0hLMmFmT0M5R29NSGVqSjhsc3dVQ3lFUXZ0eElHdVpLUFcxV1VpTGNf",
           "headline": "BR-101 interditada para detonação de rochas.",
-          "date": "2026-07-02T06:02:36.53373+00:00"
+          "date": "2026-07-02T06:18:13.079201+00:00"
         }
       ],
       "sourceCount": 1,
@@ -310,12 +281,12 @@
     {
       "event_id": "e9bd32b6ed5884ba578744d1",
       "stable_event_id": "e9bd32b6ed5884ba578744d1",
-      "observation_hash": "4b76d657d01ba7fe0593aa58",
+      "observation_hash": "2a4619f1648e7786e8bc7f4a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
       "first_seen_at": "2026-07-01T22:03:03+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -331,8 +302,8 @@
       "description": "Caminhão e carreta colidem e BR-116 fica totalmente interditada em Cândido Sales - Sudoeste Bahia.. Fontes consolidadas: Notícias públicas - Sudoeste Bahia. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Sudoeste Bahia",
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlpkZmFtNmRTRFA1Uk9oZXJvcEhfdU8weWVlMjdpYUtpRER3MmZsVjB6dko2dkJNb0VYU2dVeUNXZWRxeWxENGt2Nk55bGJXUUFTVkRYRkNoa3pNNHlpTDVEOHVLeE1uUEVvdUhZdll5ajV4MlQ0dnZXRWc3NVl6X2pjY3hNY3Q2RmJabWlIMG5GelkwY3FvbkI0MnVLZW0xZ3ZsdURZd3llR3pxeDExenEyX3BOOUk3eVpNWUFMZEd5a1Mx",
-      "total_snapshots": 37,
-      "estimated_hours": 9.25,
+      "total_snapshots": 38,
+      "estimated_hours": 9.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -343,7 +314,7 @@
           "source": "Notícias públicas - Sudoeste Bahia",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlpkZmFtNmRTRFA1Uk9oZXJvcEhfdU8weWVlMjdpYUtpRER3MmZsVjB6dko2dkJNb0VYU2dVeUNXZWRxeWxENGt2Nk55bGJXUUFTVkRYRkNoa3pNNHlpTDVEOHVLeE1uUEVvdUhZdll5ajV4MlQ0dnZXRWc3NVl6X2pjY3hNY3Q2RmJabWlIMG5GelkwY3FvbkI0MnVLZW0xZ3ZsdURZd3llR3pxeDExenEyX3BOOUk3eVpNWUFMZEd5a1Mx",
           "headline": "Caminhão e carreta colidem e BR-116 fica totalmente interditada em Cândido Sales - Sudoeste Bahia.",
-          "date": "2026-07-02T06:02:36.53373+00:00"
+          "date": "2026-07-02T06:18:13.079201+00:00"
         }
       ],
       "sourceCount": 1,
@@ -6535,6 +6506,64 @@
       "storage": "supabase"
     },
     {
+      "event_id": "81996c61139cfa5997723f54",
+      "stable_event_id": "81996c61139cfa5997723f54",
+      "observation_hash": "8c46156ba1c42350aa8ee47a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Criciúma",
+      "risk": 66,
+      "severity": "Alto",
+      "lat": -28.672,
+      "lon": -49.373,
+      "city": "Criciúma",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 37.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 796,
+      "estimated_hours": 199.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "f20de46d0d9e5a4caaa0bbe2",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 65,
+      "severity": "Alto",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 36.6 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1413,
+      "estimated_hours": 353.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -7349,12 +7378,12 @@
     {
       "event_id": "554021f5434490a857b89c43",
       "stable_event_id": "554021f5434490a857b89c43",
-      "observation_hash": "4806876281822849606af896",
+      "observation_hash": "74d8e23a7031cfaadbe51cd9",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -7370,8 +7399,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 37.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1402,
-      "estimated_hours": 350.5,
+      "total_snapshots": 1403,
+      "estimated_hours": 350.75,
       "active": true,
       "storage": "supabase"
     },
@@ -7610,12 +7639,12 @@
     {
       "event_id": "110a249f5451e1a2edad8274",
       "stable_event_id": "110a249f5451e1a2edad8274",
-      "observation_hash": "a81ed9379fec0c844b05fdf5",
+      "observation_hash": "dc760baac0cb7f78908535f6",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -7631,37 +7660,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 37.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1237,
-      "estimated_hours": 309.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "81996c61139cfa5997723f54",
-      "stable_event_id": "81996c61139cfa5997723f54",
-      "observation_hash": "935fb2788f7962cdb755a247",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Criciúma",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -28.672,
-      "lon": -49.373,
-      "city": "Criciúma",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 37.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 795,
-      "estimated_hours": 198.75,
+      "total_snapshots": 1238,
+      "estimated_hours": 309.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8018,10 +8018,10 @@
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "9d5f98e00919cee12e2afe25",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T06:02:35+00:00",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-02T06:02:35+00:00",
-      "updated_at": "2026-07-02T06:02:36.53373+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8037,8 +8037,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 37.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1331,
-      "estimated_hours": 332.75,
+      "total_snapshots": 1332,
+      "estimated_hours": 333.0,
       "active": true,
       "storage": "supabase"
     },
@@ -9232,6 +9232,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "07816ebe0d21148d66395a6f",
+      "stable_event_id": "07816ebe0d21148d66395a6f",
+      "observation_hash": "2add4640e3c9c50bacd3937d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-02T06:18:12+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-02T06:18:12+00:00",
+      "updated_at": "2026-07-02T06:18:13.079201+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caxias do Sul",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -29.168,
+      "lon": -51.179,
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 37.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1466,
+      "estimated_hours": 366.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "f67ce4a4c79feb1528fa479f",
@@ -9257,35 +9286,6 @@
       "source_url": "",
       "total_snapshots": 1428,
       "estimated_hours": 357.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "07816ebe0d21148d66395a6f",
-      "stable_event_id": "07816ebe0d21148d66395a6f",
-      "observation_hash": "24546f7c68341e3c80f43550",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-02T04:04:20+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-02T04:04:20+00:00",
-      "updated_at": "2026-07-02T04:04:21.185736+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caxias do Sul",
-      "risk": 38,
-      "severity": "Moderado",
-      "lat": -29.168,
-      "lon": -51.179,
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 37.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1465,
-      "estimated_hours": 366.25,
       "active": true,
       "storage": "supabase"
     },
@@ -10179,10 +10179,10 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 65,
-        "Alto": 21,
+        "Moderado": 64,
+        "Alto": 23,
         "Baixo": 9,
-        "Crítico": 7
+        "Crítico": 6
       },
       "dailyRisk": [
         {
@@ -10231,7 +10231,7 @@
           "date": "2026-07-02",
           "avgRisk": 45,
           "events": 23,
-          "maxRisk": 83
+          "maxRisk": 69
         }
       ]
     },
@@ -10254,10 +10254,10 @@
         "Sem região": 11
       },
       "bySeverity": {
-        "Alto": 113,
-        "Moderado": 75,
+        "Alto": 115,
+        "Moderado": 74,
         "Baixo": 12,
-        "Crítico": 7
+        "Crítico": 6
       },
       "dailyRisk": [
         {
@@ -10444,13 +10444,13 @@
           "date": "2026-07-02",
           "avgRisk": 45,
           "events": 23,
-          "maxRisk": 83
+          "maxRisk": 69
         }
       ]
     },
     "90": {
       "events": 274,
-      "avgRisk": 55,
+      "avgRisk": 56,
       "maxRisk": 89,
       "rainChance": 25,
       "byType": {
@@ -10467,10 +10467,10 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 143,
-        "Moderado": 112,
+        "Alto": 145,
+        "Moderado": 111,
         "Baixo": 12,
-        "Crítico": 7
+        "Crítico": 6
       },
       "dailyRisk": [
         {
@@ -10705,7 +10705,7 @@
           "date": "2026-07-02",
           "avgRisk": 45,
           "events": 23,
-          "maxRisk": 83
+          "maxRisk": 69
         }
       ]
     }
