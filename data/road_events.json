@@ -52,8 +52,11 @@
     "active_duration_hours": 0.42,
     "active_duration_label": "25 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-03T22:16:56Z",
+    "news_signature": "e84fa9fdecc4dc4fe2ba1cd8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Duas pessoas morrem em grave acidente na SC-418; rodovia está totalmente interditada - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-03T18:24:50Z; ativo há 3.9 h.",
+    "description": "Duas pessoas morrem em grave acidente na SC-418; rodovia está totalmente interditada - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-03T18:24:50Z; ativo há 3.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,8 +99,11 @@
     "active_duration_hours": 3.87,
     "active_duration_label": "3.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-07-03T22:16:56Z",
+    "news_signature": "550ba98446b2abdeabf6f5e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
