@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 10.1 h.",
+    "description": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1. Fontes consolidadas: Notícias públicas - Rádio Tropical FM 99.1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-02T13:43:00Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUJSWDhXdnI1X3l4NVZDOTdVaTNfUWdtekYyb2FLYTh2LXFLNlZFc2sxamppNGhCbV9Yc01ReGJ4cnBJS2J5dXpKNGpiMVE0b0ZSMGx2SF81UnVCUjVHa1Q4dmRROU1aNlZabWhtMDdwT2hwejVMNktLeGctbG1HZUpIRGZuS01CS2pYbS1fYmdRTTFRLVZqbFViSGp0bjBvR09sV280bXpCWE44TUtBWS1zVEpWd3JMdWN3ckZ4MA",
     "headline": "Queda de barreira interdita meia pista na SC-465, trecho entre Macieira e Arroio Trinta - Rádio Tropical FM 99.1",
     "newsDate": "Thu, 02 Jul 2026 13:43:00 GMT",
-    "updatedAt": "2026-07-02T23:46:37Z",
+    "updatedAt": "2026-07-03T00:01:14Z",
     "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUJSWDhXdnI1X3l4NVZDOTdVaTNfUWdtekYyb2FLYTh2LXFLNlZFc2sxamppNGhCbV9Yc01ReGJ4cnBJS2J5dXpKNGpiMVE0b0ZSMGx2SF81UnVCUjVHa1Q4dmRROU1aNlZabWhtMDdwT2hwejVMNktLeGctbG1HZUpIRGZuS01CS2pYbS1fYmdRTTFRLVZqbFViSGp0bjBvR09sV280bXpCWE44TUtBWS1zVEpWd3JMdWN3ckZ4MA",
     "sources": [
       {
@@ -33,18 +33,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "ee75f8f92ecdebaa6abbc1dd",
     "event_id": "ee75f8f92ecdebaa6abbc1dd",
-    "newsFreshnessHours": 10.09,
+    "newsFreshnessHours": 10.33,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-02T13:43:00Z",
-    "last_seen_at": "2026-07-02T23:48:34Z",
-    "active_duration_hours": 10.1,
-    "active_duration_label": "10.1 h",
+    "last_seen_at": "2026-07-03T00:02:35Z",
+    "active_duration_hours": 10.33,
+    "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-465",
-    "last_confirmed_at": "2026-07-02T23:48:34Z",
-    "news_signature": "6c9a9855fa1baa03bc239c9f",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "SC-465"
   }
 ]
