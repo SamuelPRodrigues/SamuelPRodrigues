@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 é totalmente bloqueada em Tubarão após caminhão quebrar e carro pegar fogo - Hora Hiper. Fontes consolidadas: Notícias públicas - Hora Hiper; Notícias públicas - TubaNews; Notícias públicas - Jornal Espírito Santo Notícias. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-03T21:52:00Z; ativo há 2.7 h.",
+    "description": "BR-101 é totalmente bloqueada em Tubarão após caminhão quebrar e carro pegar fogo - Hora Hiper. Fontes consolidadas: Notícias públicas - Hora Hiper; Notícias públicas - TubaNews; Notícias públicas - Jornal Espírito Santo Notícias. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-03T21:52:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -52,8 +52,11 @@
     "active_duration_hours": 2.72,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-04T00:34:55Z",
+    "news_signature": "e84fa9fdecc4dc4fe2ba1cd8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Duas pessoas morrem em grave acidente na SC-418; rodovia está totalmente interditada - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-03T18:24:50Z; ativo há 6.2 h.",
+    "description": "Duas pessoas morrem em grave acidente na SC-418; rodovia está totalmente interditada - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-03T18:24:50Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,8 +99,11 @@
     "active_duration_hours": 6.17,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-07-04T00:34:55Z",
+    "news_signature": "550ba98446b2abdeabf6f5e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
