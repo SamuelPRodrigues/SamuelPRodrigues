@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-277",
+    "road": "BR-277",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-277 é interditada em Morretes após tombamento de caminhão - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-04T11:54:20Z; ativo há 1.1 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - CBN Curitiba",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlNyZFp5VDBqUDBPRG9QbVFfZXBaQmxlNl9JU3dVVEtrQTRNUnFyS2hmN1dZR3JRU3JUazNGRGdua2FLSVFyY2VJa3hFOURxSWpYSkxlZ2ZEM0NFSGlaOWRxeWJ4LUNXUEhQUWpQWFZKeGtSNFg3d3lmbXV4LS0tUmtVRUJ5QlVjYVl2eUxPbXl2eTVuaENqSTZRd2czUQ",
+    "headline": "BR-277 é interditada em Morretes após tombamento de caminhão - CBN Curitiba",
+    "newsDate": "Sat, 04 Jul 2026 11:54:20 GMT",
+    "updatedAt": "2026-07-04T13:01:21Z",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlNyZFp5VDBqUDBPRG9QbVFfZXBaQmxlNl9JU3dVVEtrQTRNUnFyS2hmN1dZR3JRU3JUazNGRGdua2FLSVFyY2VJa3hFOURxSWpYSkxlZ2ZEM0NFSGlaOWRxeWJ4LUNXUEhQUWpQWFZKeGtSNFg3d3lmbXV4LS0tUmtVRUJ5QlVjYVl2eUxPbXl2eTVuaENqSTZRd2czUQ",
+    "sources": [
+      {
+        "source": "Notícias públicas - CBN Curitiba",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlNyZFp5VDBqUDBPRG9QbVFfZXBaQmxlNl9JU3dVVEtrQTRNUnFyS2hmN1dZR3JRU3JUazNGRGdua2FLSVFyY2VJa3hFOURxSWpYSkxlZ2ZEM0NFSGlaOWRxeWJ4LUNXUEhQUWpQWFZKeGtSNFg3d3lmbXV4LS0tUmtVRUJ5QlVjYVl2eUxPbXl2eTVuaENqSTZRd2czUQ",
+        "headline": "BR-277 é interditada em Morretes após tombamento de caminhão - CBN Curitiba",
+        "date": "Sat, 04 Jul 2026 11:54:20 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "eee27f77b73d32183efc7c85",
+    "event_id": "eee27f77b73d32183efc7c85",
+    "newsFreshnessHours": 1.14,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-04T11:54:20Z",
+    "last_seen_at": "2026-07-04T13:02:41Z",
+    "active_duration_hours": 1.14,
+    "active_duration_label": "1.1 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-365",
     "road": "BR-365",
     "corridor": "Uberlândia • BR-050 / BR-365 / BR-452",
@@ -9,7 +53,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-365 é parcialmente interditada em MG; veja o motivo - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-04T01:31:18Z; ativo há 11.3 h.",
+    "description": "BR-365 é parcialmente interditada em MG; veja o motivo - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-04T01:31:18Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnlxNU83XzVKT0ZvUVoxdzNFWHVITFNfZ2h6b1BNVDFXVmxMa0NsVDZHNzFJZnJBT1JnZ2pOU1pKd2wxUllhU2lsQWlHWFNVa1BhLXFUMTVPNkJadklSUmhkUW4ydW05WlRqSlZmZkdiNEtQdmRUZ3BmUXp0Z0hCU1RxWlNhVk5XUHczcFBGZjN4T2lDc0hwczl6cG1LZFZOZTQ1Q2NUcWVETWxReUU4RVByZVTSAboBQVVfeXFMTUVhYnIwSEstbU9CUmtvS016WG9ndGUxTjhJdnROV2FlckwtRzViZ3FtOHBKNE8tYWRPR2MyaGNFdDlURjlyRW5NSkl2c0oxVzNnb08zWUd2NTVib1hydXJjanJKRkVRVjRfZTZUZ3FRazJuWVRZSmxabHNMWDg4Y0txOHIzMEQ1SENaVWd3RVQ4b1owQk9WRFZ4eWw3ZFd2TkZOZU9vOTIzSDhia1RJVFp1OS13NGdIS3hn",
     "headline": "BR-365 é parcialmente interditada em MG; veja o motivo - O TEMPO",
     "newsDate": "Sat, 04 Jul 2026 01:31:18 GMT",
-    "updatedAt": "2026-07-04T12:48:54Z",
+    "updatedAt": "2026-07-04T13:01:21Z",
     "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnlxNU83XzVKT0ZvUVoxdzNFWHVITFNfZ2h6b1BNVDFXVmxMa0NsVDZHNzFJZnJBT1JnZ2pOU1pKd2wxUllhU2lsQWlHWFNVa1BhLXFUMTVPNkJadklSUmhkUW4ydW05WlRqSlZmZkdiNEtQdmRUZ3BmUXp0Z0hCU1RxWlNhVk5XUHczcFBGZjN4T2lDc0hwczl6cG1LZFZOZTQ1Q2NUcWVETWxReUU4RVByZVTSAboBQVVfeXFMTUVhYnIwSEstbU9CUmtvS016WG9ndGUxTjhJdnROV2FlckwtRzViZ3FtOHBKNE8tYWRPR2MyaGNFdDlURjlyRW5NSkl2c0oxVzNnb08zWUd2NTVib1hydXJjanJKRkVRVjRfZTZUZ3FRazJuWVRZSmxabHNMWDg4Y0txOHIzMEQ1SENaVWd3RVQ4b1owQk9WRFZ4eWw3ZFd2TkZOZU9vOTIzSDhia1RJVFp1OS13NGdIS3hn",
     "sources": [
       {
@@ -33,17 +77,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "d3d5c56aac581b466869e92e",
     "event_id": "d3d5c56aac581b466869e92e",
-    "newsFreshnessHours": 11.31,
+    "newsFreshnessHours": 11.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-04T01:31:18Z",
-    "last_seen_at": "2026-07-04T12:50:09Z",
-    "active_duration_hours": 11.32,
-    "active_duration_label": "11.3 h",
+    "last_seen_at": "2026-07-04T13:02:41Z",
+    "active_duration_hours": 11.52,
+    "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-04T12:50:09Z",
-    "news_signature": "b221b99c4e2e46d02873e453",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
