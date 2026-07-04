@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada após caminhão tombar na pista para Curitiba - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - CBN Curitiba; Notícias públicas - TVCI. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-04T13:43:00Z; ativo há 2.1 h.",
+    "description": "BR-277 é interditada após caminhão tombar na pista para Curitiba - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - CBN Curitiba; Notícias públicas - TVCI. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-04T13:43:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,11 +60,13 @@
     "newsFreshnessHours": 2.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-04T13:43:00Z",
-    "last_seen_at": "2026-07-04T15:47:10Z",
+    "last_seen_at": "2026-07-04T15:47:23Z",
     "active_duration_hours": 2.07,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a20b5472f4c94a4473980613",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
