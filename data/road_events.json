@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de caminhão bloqueia totalmente a BR-277 e provoca interdição nos dois sentidos em Morretes - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - TVCI. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-04T13:43:00Z; ativo há 20 min.",
+    "description": "Tombamento de caminhão bloqueia totalmente a BR-277 e provoca interdição nos dois sentidos em Morretes - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - TVCI. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-04T13:43:00Z; ativo há 21 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 0.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-04T13:43:00Z",
-    "last_seen_at": "2026-07-04T14:03:26Z",
-    "active_duration_hours": 0.34,
-    "active_duration_label": "20 min",
+    "last_seen_at": "2026-07-04T14:03:43Z",
+    "active_duration_hours": 0.35,
+    "active_duration_label": "21 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c5c6a02e1a773d79b47e7be0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
