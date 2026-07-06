@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-285",
+    "road": "BR-285",
+    "corridor": "Passo Fundo • BR-285 / BR-153",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -28.262,
+    "lon": -52.408,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-285 será interditada na Serra da Rocinha neste fim de semana - sctododia. Fontes consolidadas: Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-06T13:02:47Z; ativo há 14 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - sctododia",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzJKZEFqT01VWmFFeWpKX2ZCaGtLUTg5aTVxekttM1JTTlVxYkNma1FHeVhIaURZNHE4QnZseGduNG5Zb09ZLTNUYmJONm85clN1STNZM3llOFQwclRVRTFVaUpsc2VqeTJYbWhUUHlaLXhGWXJTVFRlaHhMdlYzYkVvTHZLUmF2dkhLNjJydElQWGtl",
+    "headline": "BR-285 será interditada na Serra da Rocinha neste fim de semana - sctododia",
+    "newsDate": "Mon, 06 Jul 2026 13:02:47 GMT",
+    "updatedAt": "2026-07-06T13:15:50Z",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzJKZEFqT01VWmFFeWpKX2ZCaGtLUTg5aTVxekttM1JTTlVxYkNma1FHeVhIaURZNHE4QnZseGduNG5Zb09ZLTNUYmJONm85clN1STNZM3llOFQwclRVRTFVaUpsc2VqeTJYbWhUUHlaLXhGWXJTVFRlaHhMdlYzYkVvTHZLUmF2dkhLNjJydElQWGtl",
+    "sources": [
+      {
+        "source": "Notícias públicas - sctododia",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzJKZEFqT01VWmFFeWpKX2ZCaGtLUTg5aTVxekttM1JTTlVxYkNma1FHeVhIaURZNHE4QnZseGduNG5Zb09ZLTNUYmJONm85clN1STNZM3llOFQwclRVRTFVaUpsc2VqeTJYbWhUUHlaLXhGWXJTVFRlaHhMdlYzYkVvTHZLUmF2dkhLNjJydElQWGtl",
+        "headline": "BR-285 será interditada na Serra da Rocinha neste fim de semana - sctododia",
+        "date": "Mon, 06 Jul 2026 13:02:47 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "3890e8dde7777c26dae0d1ba",
+    "event_id": "3890e8dde7777c26dae0d1ba",
+    "newsFreshnessHours": 0.24,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-06T13:02:47Z",
+    "last_seen_at": "2026-07-06T13:17:04Z",
+    "active_duration_hours": 0.24,
+    "active_duration_label": "14 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
