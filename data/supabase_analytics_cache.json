@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T08:02:43Z",
+  "updatedAt": "2026-07-06T08:17:28Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -6982,35 +6982,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "175f98924a2c739dfcd6eac5",
-      "stable_event_id": "175f98924a2c739dfcd6eac5",
-      "observation_hash": "70d713fd9c7c297477ebfaa9",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-06T08:02:38+00:00",
-      "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-07-06T08:02:38+00:00",
-      "updated_at": "2026-07-06T08:02:39.745879+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Parintins",
-      "risk": 65,
-      "severity": "Alto",
-      "lat": -2.628,
-      "lon": -56.735,
-      "city": "Parintins",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:18Z; ativo há 40.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1231,
-      "estimated_hours": 307.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -7939,35 +7910,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "07816ebe0d21148d66395a6f",
-      "stable_event_id": "07816ebe0d21148d66395a6f",
-      "observation_hash": "d53afa62e47b66860b7c65e3",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-06T07:03:10+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-06T07:03:10+00:00",
-      "updated_at": "2026-07-06T07:03:11.904627+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caxias do Sul",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -29.168,
-      "lon": -51.179,
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 41.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1809,
-      "estimated_hours": 452.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "bd4769b91543baf1f47de54a",
       "stable_event_id": "bd4769b91543baf1f47de54a",
       "observation_hash": "7b08c20b61ddb5571783bb75",
@@ -8225,6 +8167,35 @@
       "source_url": "",
       "total_snapshots": 20,
       "estimated_hours": 5.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "07816ebe0d21148d66395a6f",
+      "stable_event_id": "07816ebe0d21148d66395a6f",
+      "observation_hash": "dcf2835ca43c2c6140b84960",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-06T08:17:24+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-06T08:17:24+00:00",
+      "updated_at": "2026-07-06T08:17:25.319519+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caxias do Sul",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -29.168,
+      "lon": -51.179,
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 41.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1810,
+      "estimated_hours": 452.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8602,6 +8573,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "175f98924a2c739dfcd6eac5",
+      "stable_event_id": "175f98924a2c739dfcd6eac5",
+      "observation_hash": "f3349a5aba46b67ea0916614",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-06T08:17:24+00:00",
+      "first_seen_at": "2026-05-26T10:18:22+00:00",
+      "last_seen_at": "2026-07-06T08:17:24+00:00",
+      "updated_at": "2026-07-06T08:17:25.319519+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Parintins",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -2.628,
+      "lon": -56.735,
+      "city": "Parintins",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:18Z; ativo há 40.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1232,
+      "estimated_hours": 308.0,
       "active": true,
       "storage": "supabase"
     },
@@ -9797,12 +9797,12 @@
     {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "0d307883679226d32fab4ebe",
+      "observation_hash": "14478fa38a802ac302330639",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-06T02:02:33+00:00",
+      "snapshot_at": "2026-07-06T08:17:24+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-06T02:02:33+00:00",
-      "updated_at": "2026-07-06T02:02:34.323964+00:00",
+      "last_seen_at": "2026-07-06T08:17:24+00:00",
+      "updated_at": "2026-07-06T08:17:25.319519+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -9815,11 +9815,11 @@
       "state": "RR",
       "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 41.0 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 41.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1678,
-      "estimated_hours": 419.5,
+      "total_snapshots": 1679,
+      "estimated_hours": 419.75,
       "active": true,
       "storage": "supabase"
     },
@@ -10437,10 +10437,10 @@
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "5af25b61af1786ff4ec51590",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-06T08:02:38+00:00",
+      "snapshot_at": "2026-07-06T08:17:24+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-06T08:02:38+00:00",
-      "updated_at": "2026-07-06T08:02:39.745879+00:00",
+      "last_seen_at": "2026-07-06T08:17:24+00:00",
+      "updated_at": "2026-07-06T08:17:25.319519+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10456,8 +10456,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 41.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 923,
-      "estimated_hours": 230.75,
+      "total_snapshots": 924,
+      "estimated_hours": 231.0,
       "active": true,
       "storage": "supabase"
     },
@@ -10696,32 +10696,32 @@
   ],
   "windows": {
     "7": {
-      "events": 86,
+      "events": 85,
       "avgRisk": 46,
       "maxRisk": 89,
       "rainChance": 0,
       "byType": {
         "climate": 65,
-        "road": 21
+        "road": 20
       },
       "byRegion": {
         "Nordeste": 27,
         "Sul": 26,
-        "Sudeste": 16,
         "Norte": 16,
+        "Sudeste": 15,
         "Centro-Oeste": 1
       },
       "bySeverity": {
-        "Moderado": 52,
-        "Alto": 23,
+        "Moderado": 53,
+        "Alto": 21,
         "Baixo": 9,
         "Crítico": 2
       },
       "dailyRisk": [
         {
           "date": "2026-06-29",
-          "avgRisk": 59,
-          "events": 4,
+          "avgRisk": 56,
+          "events": 3,
           "maxRisk": 89
         },
         {
@@ -10762,7 +10762,7 @@
         },
         {
           "date": "2026-07-06",
-          "avgRisk": 42,
+          "avgRisk": 40,
           "events": 21,
           "maxRisk": 67
         }
@@ -10786,8 +10786,8 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Alto": 104,
-        "Moderado": 76,
+        "Alto": 103,
+        "Moderado": 77,
         "Baixo": 13,
         "Crítico": 3
       },
@@ -10974,7 +10974,7 @@
         },
         {
           "date": "2026-07-06",
-          "avgRisk": 42,
+          "avgRisk": 40,
           "events": 21,
           "maxRisk": 67
         }
@@ -10999,8 +10999,8 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 157,
-        "Moderado": 113,
+        "Alto": 156,
+        "Moderado": 114,
         "Baixo": 13,
         "Crítico": 3
       },
@@ -11259,7 +11259,7 @@
         },
         {
           "date": "2026-07-06",
-          "avgRisk": 42,
+          "avgRisk": 40,
           "events": 21,
           "maxRisk": 67
         }
