@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à BR-324 Será Interditado Por Cinco Dias Na Região Metropolitana De Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; Notícias públicas - Rádio Metrópole; Notícias públicas - A TARDE. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-07T11:01:22Z; ativo há 2.0 h.",
+    "description": "Acesso à BR-324 Será Interditado Por Cinco Dias Na Região Metropolitana De Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; Notícias públicas - Rádio Metrópole; Notícias públicas - A TARDE. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-07T11:01:22Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -64,7 +64,10 @@
     "active_duration_hours": 2.03,
     "active_duration_label": "2.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-07T13:03:06Z",
+    "news_signature": "fe0fbee97d72d206029d4391",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
