@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-324",
+    "road": "BR-324",
+    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.977,
+    "lon": -38.501,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho de acesso à BR-324 será bloqueado por cinco dias na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-07T10:07:47Z; ativo há 9 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Jornal Correio",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVJXeVdMd1N6Tk5LZmVpd0djVTF4UFNsLUVNcTk1OWRQeXc5YjdwSzNCVnY5NzB3aUJ1VjAzaHBNbE05SlBxUi1UYV9XWkhUbU9ndTg1OXJvY2htSDdSQjlkMHg4RHRwU0Z1b0dvQk9kckhuWThXYTBXWXh0NTVCcWlaWEJubTVZWkprVWZFdGVLUjh1ZW00amVVemRJclJ0SFlLTzQ4bHBlWTd1eTNobjB3",
+    "headline": "Trecho de acesso à BR-324 será bloqueado por cinco dias na Bahia - Jornal Correio",
+    "newsDate": "Tue, 07 Jul 2026 10:07:47 GMT",
+    "updatedAt": "2026-07-07T10:15:39Z",
+    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVJXeVdMd1N6Tk5LZmVpd0djVTF4UFNsLUVNcTk1OWRQeXc5YjdwSzNCVnY5NzB3aUJ1VjAzaHBNbE05SlBxUi1UYV9XWkhUbU9ndTg1OXJvY2htSDdSQjlkMHg4RHRwU0Z1b0dvQk9kckhuWThXYTBXWXh0NTVCcWlaWEJubTVZWkprVWZFdGVLUjh1ZW00amVVemRJclJ0SFlLTzQ4bHBlWTd1eTNobjB3",
+    "sources": [
+      {
+        "source": "Notícias públicas - Jornal Correio",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVJXeVdMd1N6Tk5LZmVpd0djVTF4UFNsLUVNcTk1OWRQeXc5YjdwSzNCVnY5NzB3aUJ1VjAzaHBNbE05SlBxUi1UYV9XWkhUbU9ndTg1OXJvY2htSDdSQjlkMHg4RHRwU0Z1b0dvQk9kckhuWThXYTBXWXh0NTVCcWlaWEJubTVZWkprVWZFdGVLUjh1ZW00amVVemRJclJ0SFlLTzQ4bHBlWTd1eTNobjB3",
+        "headline": "Trecho de acesso à BR-324 será bloqueado por cinco dias na Bahia - Jornal Correio",
+        "date": "Tue, 07 Jul 2026 10:07:47 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "7ef93a4cd61a6412c709b65c",
+    "event_id": "7ef93a4cd61a6412c709b65c",
+    "newsFreshnessHours": 0.15,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-07T10:07:47Z",
+    "last_seen_at": "2026-07-07T10:16:52Z",
+    "active_duration_hours": 0.15,
+    "active_duration_label": "9 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
