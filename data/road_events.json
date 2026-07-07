@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado após acidente com carreta na BA. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Rádio Metrópole; Notícias públicas - Acorda Cidade; Notícias públicas - Aratu On; Notícias públicas - Taktá No AR; +11 fonte(s). Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-07T17:59:45Z; ativo há 2.6 h.",
+    "description": "Trecho da BR-324 é interditado após acidente com carreta na BA. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Rádio Metrópole; Notícias públicas - Acorda Cidade; Notícias públicas - Aratu On; Notícias públicas - Taktá No AR; +11 fonte(s). Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-07T17:59:45Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -174,12 +174,14 @@
     "newsFreshnessHours": 2.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T17:59:45Z",
-    "last_seen_at": "2026-07-07T20:33:21Z",
+    "last_seen_at": "2026-07-07T20:33:34Z",
     "active_duration_hours": 2.56,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2dd9fd693190fcbeea79f5b9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -191,7 +193,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATUALIZADA - VÍDEO: Carreta pega fogo na BR-262, em Ibiá/MG; rodovia ficou interditada - TV KZ. Fontes consolidadas: Notícias públicas - TV KZ. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-07T13:42:00Z; ativo há 6.9 h.",
+    "description": "ATUALIZADA - VÍDEO: Carreta pega fogo na BR-262, em Ibiá/MG; rodovia ficou interditada - TV KZ. Fontes consolidadas: Notícias públicas - TV KZ. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-07T13:42:00Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -224,12 +226,14 @@
     "newsFreshnessHours": 6.86,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T13:42:00Z",
-    "last_seen_at": "2026-07-07T20:33:21Z",
+    "last_seen_at": "2026-07-07T20:33:34Z",
     "active_duration_hours": 6.86,
     "active_duration_label": "6.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c8b32ce58a9a164928ed549e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -241,7 +245,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Incêndio em caminhão-cegonha deixa BR-277 bloqueada em Céu Azul - aRede - aRede. Fontes consolidadas: Notícias públicas - aRede. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-07T13:17:17Z; ativo há 7.3 h.",
+    "description": "Incêndio em caminhão-cegonha deixa BR-277 bloqueada em Céu Azul - aRede - aRede. Fontes consolidadas: Notícias públicas - aRede. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-07T13:17:17Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -268,12 +272,14 @@
     "newsFreshnessHours": 7.27,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T13:17:17Z",
-    "last_seen_at": "2026-07-07T20:33:21Z",
+    "last_seen_at": "2026-07-07T20:33:34Z",
     "active_duration_hours": 7.27,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fde5983d8d2083c597170355",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -285,7 +291,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será totalmente interditada em Fundão nesta terça-feira para detonação de rochas - Colatina em Ação. Fontes consolidadas: Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-07T12:22:49Z; ativo há 8.2 h.",
+    "description": "BR-101 será totalmente interditada em Fundão nesta terça-feira para detonação de rochas - Colatina em Ação. Fontes consolidadas: Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-07T12:22:49Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -312,12 +318,14 @@
     "newsFreshnessHours": 8.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T12:22:49Z",
-    "last_seen_at": "2026-07-07T20:33:21Z",
+    "last_seen_at": "2026-07-07T20:33:34Z",
     "active_duration_hours": 8.18,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "16ba70173dbb71e8f9acde14",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -334,7 +342,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 3.3 h.",
+    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 3.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -347,7 +355,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-07T20:32:09Z",
     "sources": [
       {
@@ -365,8 +373,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T17:17:41Z",
     "last_seen_at": "2026-07-07T20:33:21Z",
-    "active_duration_hours": 3.26,
+    "active_duration_hours": 3.27,
     "active_duration_label": "3.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-07T20:33:21Z",
+    "news_signature": "eb5b28e49d26e26683090384",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
