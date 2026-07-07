@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à BR-324 Será Interditado Por Cinco Dias Na Região Metropolitana De Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - A TARDE. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-07T11:01:22Z; ativo há 3.8 h.",
+    "description": "Acesso à BR-324 Será Interditado Por Cinco Dias Na Região Metropolitana De Salvador - Taktá No AR. Fontes consolidadas: Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - A TARDE. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-07T11:01:22Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGp0ZG1ZV1BGaWQ0UUFoamNOVFNHeUlPeC1WcDlvcmE4Tl90a1hfREpwc0JVM1dOeU05R1o5bzdvWnRKTlJDSVh0TTd1VFRkcUplWU1FQ21lRS1qN3AweWlDU2p1aDg4SEFORVBaUnZoQktNMkRmTkdCTHJuNHZVbkNIMHUxUzktREJoclNtVUptc1pQb0NwamFndkdrakZUTEkwenllNENXSE0yTnFSWUhRWXdmZ0lWQTdhREU3NA",
     "headline": "Acesso à BR-324 Será Interditado Por Cinco Dias Na Região Metropolitana De Salvador - Taktá No AR",
     "newsDate": "Tue, 07 Jul 2026 11:01:22 GMT",
-    "updatedAt": "2026-07-07T14:45:47Z",
+    "updatedAt": "2026-07-07T15:02:09Z",
     "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGp0ZG1ZV1BGaWQ0UUFoamNOVFNHeUlPeC1WcDlvcmE4Tl90a1hfREpwc0JVM1dOeU05R1o5bzdvWnRKTlJDSVh0TTd1VFRkcUplWU1FQ21lRS1qN3AweWlDU2p1aDg4SEFORVBaUnZoQktNMkRmTkdCTHJuNHZVbkNIMHUxUzktREJoclNtVUptc1pQb0NwamFndkdrakZUTEkwenllNENXSE0yTnFSWUhRWXdmZ0lWQTdhREU3NA",
     "sources": [
       {
@@ -63,17 +63,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "2cbf92cc46357b058f51975f",
     "event_id": "2cbf92cc46357b058f51975f",
-    "newsFreshnessHours": 3.76,
+    "newsFreshnessHours": 4.03,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T11:01:22Z",
-    "last_seen_at": "2026-07-07T14:47:02Z",
-    "active_duration_hours": 3.77,
-    "active_duration_label": "3.8 h",
+    "last_seen_at": "2026-07-07T15:03:26Z",
+    "active_duration_hours": 4.03,
+    "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-07T14:47:02Z",
-    "news_signature": "2adfb8a86a0a12a7fbf530b2",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
