@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T14:06:03Z",
+  "updatedAt": "2026-07-08T14:17:43Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -62,115 +62,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "16af4132e97e98b46886d5b2",
-      "stable_event_id": "16af4132e97e98b46886d5b2",
-      "observation_hash": "06e17f047252e4498bd94595",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T14:05:33+00:00",
-      "first_seen_at": "2026-05-26T23:16:39+00:00",
-      "last_seen_at": "2026-07-08T14:05:33+00:00",
-      "updated_at": "2026-07-08T14:05:48.521871+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Natal",
-      "risk": 70,
-      "severity": "Alto",
-      "lat": -5.795,
-      "lon": -35.209,
-      "city": "Natal",
-      "state": "RN",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 42.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1290,
-      "estimated_hours": 322.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "18fc5b8a91beba6bdfa69760",
-      "stable_event_id": "18fc5b8a91beba6bdfa69760",
-      "observation_hash": "469ca178a318f67c488646d3",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T14:05:33+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-08T14:05:33+00:00",
-      "updated_at": "2026-07-08T14:05:48.521871+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "São Luís",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -2.53,
-      "lon": -44.306,
-      "city": "São Luís",
-      "state": "MA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 42.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 915,
-      "estimated_hours": 228.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "8cd2aa11d16b912cb6f51a1d",
-      "stable_event_id": "8cd2aa11d16b912cb6f51a1d",
-      "observation_hash": "0b54a9cd1bcd0303691346d2",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T14:05:33+00:00",
-      "first_seen_at": "2026-07-08T13:32:25+00:00",
-      "last_seen_at": "2026-07-08T14:05:33+00:00",
-      "updated_at": "2026-07-08T14:05:48.521871+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-262",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -20.315,
-      "lon": -40.312,
-      "city": "Vitória / Serra",
-      "state": "ES",
-      "region": "Sudeste",
-      "road": "BR-262",
-      "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.. Fontes consolidadas: Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - JM Online",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
-      "total_snapshots": 3,
-      "estimated_hours": 0.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
-      "headline": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.",
-      "sources": [
-        {
-          "source": "Notícias públicas - JM Online",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
-          "headline": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.",
-          "date": "2026-07-08T14:05:48.521871+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "d43b50000072ba03714da6b6",
       "stable_event_id": "d43b50000072ba03714da6b6",
-      "observation_hash": "857e0795828a3c5f7d750af7",
+      "observation_hash": "000939acb44463a7c2461d50",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T13:48:09+00:00",
+      "snapshot_at": "2026-07-08T14:17:39+00:00",
       "first_seen_at": "2026-07-08T11:17:39+00:00",
-      "last_seen_at": "2026-07-08T13:48:09+00:00",
-      "updated_at": "2026-07-08T13:48:10.907399+00:00",
+      "last_seen_at": "2026-07-08T14:17:39+00:00",
+      "updated_at": "2026-07-08T14:17:40.613824+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -186,8 +85,8 @@
       "description": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis.. Fontes consolidadas: Notícias públicas - Diário do Município Anápolis. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Diário do Município Anápolis",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
-      "total_snapshots": 12,
-      "estimated_hours": 3.0,
+      "total_snapshots": 13,
+      "estimated_hours": 3.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -198,7 +97,50 @@
           "source": "Notícias públicas - Diário do Município Anápolis",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
           "headline": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis.",
-          "date": "2026-07-08T13:48:10.907399+00:00"
+          "date": "2026-07-08T14:17:40.613824+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "8cd2aa11d16b912cb6f51a1d",
+      "stable_event_id": "8cd2aa11d16b912cb6f51a1d",
+      "observation_hash": "612ad2307a43c118faee4e16",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-08T14:17:39+00:00",
+      "first_seen_at": "2026-07-08T13:32:25+00:00",
+      "last_seen_at": "2026-07-08T14:17:39+00:00",
+      "updated_at": "2026-07-08T14:17:40.613824+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-262",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -20.315,
+      "lon": -40.312,
+      "city": "Vitória / Serra",
+      "state": "ES",
+      "region": "Sudeste",
+      "road": "BR-262",
+      "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.. Fontes consolidadas: Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - JM Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
+      "total_snapshots": 4,
+      "estimated_hours": 1.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
+      "headline": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.",
+      "sources": [
+        {
+          "source": "Notícias públicas - JM Online",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR0gHKAUFVX3lxTE1GM2ZwMkpackh6VnBJTFpoRFM2VGdOay00Y2RWT0QxWkZmUFVSZF92QUI4UEpfcHk4clgzaWlVbEFYQWU0eDhPb3o2c2VVcVkzMjVZRGd3QlFjeXRxdENQcHB3eTdfM3c5Y0NMOW10dHF1V29JVDVZcEhoNlVySVB4SmhtSU1DS0VjYW9ycGJfeWlxenN6QVI1NFBhVjB0YUp4UkhLMEVIaU05NHQ5ZjgtVGowaFNfZG4tdmJlVEVjc3hFbjRUdklVdlE",
+          "headline": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.",
+          "date": "2026-07-08T14:17:40.613824+00:00"
         }
       ],
       "sourceCount": 1,
@@ -7534,6 +7476,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "16af4132e97e98b46886d5b2",
+      "stable_event_id": "16af4132e97e98b46886d5b2",
+      "observation_hash": "03fb5560bc6ed6352fdb60d6",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-08T14:17:39+00:00",
+      "first_seen_at": "2026-05-26T23:16:39+00:00",
+      "last_seen_at": "2026-07-08T14:17:39+00:00",
+      "updated_at": "2026-07-08T14:17:40.613824+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Natal",
+      "risk": 62,
+      "severity": "Alto",
+      "lat": -5.795,
+      "lon": -35.209,
+      "city": "Natal",
+      "state": "RN",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 42.6 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1291,
+      "estimated_hours": 322.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -7965,6 +7936,35 @@
       "source_url": "",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "18fc5b8a91beba6bdfa69760",
+      "stable_event_id": "18fc5b8a91beba6bdfa69760",
+      "observation_hash": "9aafba30ec5f71ca565f7d05",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-08T14:17:39+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-07-08T14:17:39+00:00",
+      "updated_at": "2026-07-08T14:17:40.613824+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "São Luís",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -2.53,
+      "lon": -44.306,
+      "city": "São Luís",
+      "state": "MA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 42.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 916,
+      "estimated_hours": 229.0,
       "active": true,
       "storage": "supabase"
     },
@@ -8843,10 +8843,10 @@
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
       "observation_hash": "f8e43771819ce1924720f6a8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T14:05:33+00:00",
+      "snapshot_at": "2026-07-08T14:17:39+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-08T14:05:33+00:00",
-      "updated_at": "2026-07-08T14:05:48.521871+00:00",
+      "last_seen_at": "2026-07-08T14:17:39+00:00",
+      "updated_at": "2026-07-08T14:17:40.613824+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8862,8 +8862,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 43.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1063,
-      "estimated_hours": 265.75,
+      "total_snapshots": 1064,
+      "estimated_hours": 266.0,
       "active": true,
       "storage": "supabase"
     },
@@ -11250,7 +11250,7 @@
     "7": {
       "events": 96,
       "avgRisk": 43,
-      "maxRisk": 70,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 69,
@@ -11264,8 +11264,8 @@
         "Centro-Oeste": 2
       },
       "bySeverity": {
-        "Moderado": 45,
-        "Alto": 31,
+        "Moderado": 46,
+        "Alto": 30,
         "Baixo": 20
       },
       "dailyRisk": [
@@ -11315,14 +11315,14 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 42,
-          "maxRisk": 70
+          "maxRisk": 69
         }
       ]
     },
     "30": {
       "events": 203,
       "avgRisk": 53,
-      "maxRisk": 70,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "road": 108,
@@ -11337,8 +11337,8 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Alto": 113,
-        "Moderado": 66,
+        "Alto": 112,
+        "Moderado": 67,
         "Baixo": 24
       },
       "dailyRisk": [
@@ -11526,7 +11526,7 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 42,
-          "maxRisk": 70
+          "maxRisk": 69
         }
       ]
     },
@@ -11549,8 +11549,8 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 171,
-        "Moderado": 103,
+        "Alto": 170,
+        "Moderado": 104,
         "Baixo": 24
       },
       "dailyRisk": [
@@ -11822,7 +11822,7 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 42,
-          "maxRisk": 70
+          "maxRisk": 69
         }
       ]
     }
