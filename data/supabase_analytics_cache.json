@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-07-08T23:03:09Z",
+  "updatedAt": "2026-07-08T23:16:54Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "dbf91db815d3abd8bcb6283a",
+      "stable_event_id": "dbf91db815d3abd8bcb6283a",
+      "observation_hash": "6e535a1191cdbccf33cb36d1",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-08T23:16:49+00:00",
+      "first_seen_at": "2026-05-27T14:17:23+00:00",
+      "last_seen_at": "2026-07-08T23:16:49+00:00",
+      "updated_at": "2026-07-08T23:16:51.390595+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Mossoró",
+      "risk": 85,
+      "severity": "Crítico",
+      "lat": -5.187,
+      "lon": -37.344,
+      "city": "Mossoró",
+      "state": "RN",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 42.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 633,
+      "estimated_hours": 158.25,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -62,57 +91,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "708edda2e21bf7b47d92df8c",
-      "stable_event_id": "708edda2e21bf7b47d92df8c",
-      "observation_hash": "1bb7b41b00d62413ebe3ba70",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T23:03:03+00:00",
-      "first_seen_at": "2026-07-08T23:03:04+00:00",
-      "last_seen_at": "2026-07-08T23:03:03+00:00",
-      "updated_at": "2026-07-08T23:03:05.229046+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-116",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -12.266,
-      "lon": -38.966,
-      "city": "Interdição ou bloqueio por notícia pública • BR-116",
-      "state": "",
-      "region": "Nordeste",
-      "road": "BR-116",
-      "description": "Retorno da Dutra será interditado em Piraí - O Dia.. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - O Dia",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
-      "headline": "Retorno da Dutra será interditado em Piraí - O Dia.",
-      "sources": [
-        {
-          "source": "Notícias públicas - O Dia",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
-          "headline": "Retorno da Dutra será interditado em Piraí - O Dia.",
-          "date": "2026-07-08T23:03:05.229046+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "8cd2aa11d16b912cb6f51a1d",
       "stable_event_id": "8cd2aa11d16b912cb6f51a1d",
-      "observation_hash": "6a9fa2815b5e7579ab348bdd",
+      "observation_hash": "ff83e440565b351e00a5ecc7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T23:03:03+00:00",
+      "snapshot_at": "2026-07-08T23:16:49+00:00",
       "first_seen_at": "2026-07-08T13:32:25+00:00",
-      "last_seen_at": "2026-07-08T23:03:03+00:00",
-      "updated_at": "2026-07-08T23:03:05.229046+00:00",
+      "last_seen_at": "2026-07-08T23:16:49+00:00",
+      "updated_at": "2026-07-08T23:16:51.390595+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -128,8 +114,8 @@
       "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.. Fontes consolidadas: JM Online + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "JM Online + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU09wZTJ5VWVIbmRjUlV3dG1qR2dtaDcyd2dnMmFEVUFEXzFNSEsxN3pjREtnRkc4TWd1VldicktPWk4yV3Y1S1ZIVFpEX2JuRVhFSEF3Z24tX2ZCVlJTQnhTRkhLLU41OWZ2d1FkQlk0RVl5UEtsazhYNXcwWVc5M3VXYjdka0xmNjVTMWlFOTdhbGNBR3YxUnR2NzFfLTdGT1Y2OVVlYVR3cEpfSGkzZnFHR3BBSF9UX1p5MENEN203Z9IBygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR",
-      "total_snapshots": 45,
-      "estimated_hours": 11.25,
+      "total_snapshots": 46,
+      "estimated_hours": 11.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -140,7 +126,50 @@
           "source": "JM Online + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU09wZTJ5VWVIbmRjUlV3dG1qR2dtaDcyd2dnMmFEVUFEXzFNSEsxN3pjREtnRkc4TWd1VldicktPWk4yV3Y1S1ZIVFpEX2JuRVhFSEF3Z24tX2ZCVlJTQnhTRkhLLU41OWZ2d1FkQlk0RVl5UEtsazhYNXcwWVc5M3VXYjdka0xmNjVTMWlFOTdhbGNBR3YxUnR2NzFfLTdGT1Y2OVVlYVR3cEpfSGkzZnFHR3BBSF9UX1p5MENEN203Z9IBygFBVV95cUxNRjNmcDJKWnJIelZwSUxaaERTNlRnTmstNGNkVk9EMVpGZlBVUmRfdkFCOFBKX3B5OHJYM2lpVWxBWEFlNHg4T296NnNlVXFZMzI1WURnd0JRY3l0cXRDUHBwd3k3XzN3OWNDTDltdHRxdVdvSVQ1WXBIaDZVcklQeEpobUlNQ0tFY2FvcnBiX3lpcXpzekFSNTRQYVYwdGFKeFJISzBFSGlNOTR0OWY4LVRqMGhTX2RuLXZiZVRFY3N4RW40VHZJVXZR",
           "headline": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online.",
-          "date": "2026-07-08T23:03:05.229046+00:00"
+          "date": "2026-07-08T23:16:51.390595+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "708edda2e21bf7b47d92df8c",
+      "stable_event_id": "708edda2e21bf7b47d92df8c",
+      "observation_hash": "9bba36d436e5f9bf974789f1",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-08T23:16:49+00:00",
+      "first_seen_at": "2026-07-08T23:03:04+00:00",
+      "last_seen_at": "2026-07-08T23:16:49+00:00",
+      "updated_at": "2026-07-08T23:16:51.390595+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-116",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Interdição ou bloqueio por notícia pública • BR-116",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-116",
+      "description": "Retorno da Dutra será interditado em Piraí - O Dia.. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - O Dia",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
+      "headline": "Retorno da Dutra será interditado em Piraí - O Dia.",
+      "sources": [
+        {
+          "source": "Notícias públicas - O Dia",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
+          "headline": "Retorno da Dutra será interditado em Piraí - O Dia.",
+          "date": "2026-07-08T23:16:51.390595+00:00"
         }
       ],
       "sourceCount": 1,
@@ -226,7 +255,7 @@
           "source": "Notícias públicas - G1 + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ3pDWXFtYmNEZjBJd0JIYW05OG9TTUlzRjV2My0tNXpFd1lnY01QVk5pRHl6Ukc0MXVBbXhVNVlNbFI4SWNZTTg2eEtUcm1SckJpakxTM3N2SnJveUFGT2l6ZlNISHdwRExRU05ieW1RQ3dZaUFTbnVJOTJXM3ZrQi1WS0dMMW11VDZRaHlwZEFrZnFJczRoOWkySlljUktKZ2t4WFp4VVRsbXR4NzJEWklJWVBUQ3FXLWp6d1FnQ2lDSFV0Uk9TTV84WdIB2gFBVV95cUxOMk1TUkoxTW81ajA5VlNpVDVpVDNROFIyaHdsaklzT1VTcTV3UjZ2R3hJUExPS3dlYmt6V05za0JCc0t3YjcxN0ktMWowVW1HZ3JTTFVXcExRMmhvLVpBcXprbTJ5bnlZeG1nNnppUUpkNkw1N09uMGxSRTR2c1lIR285SUxYWFEzY29jbGhlbERFQ3JvWVRpT3YtUGM1TVVIYmRlcHMyaDlHc2M1ekFxWmYxZWF4QXJIVEpURjY3R2JDYlVDcE9GaUhCYjhiTy1wNy1QMTVHb28yZw",
           "headline": "Trecho da BR-364 em Cacoal segue bloqueada.",
-          "date": "2026-07-08T23:03:05.229046+00:00"
+          "date": "2026-07-08T23:16:51.390595+00:00"
         },
         {
           "source": "Notícias públicas - oobservador.com",
@@ -326,8 +355,8 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "28a3e973e19d84f9e6a68fc6",
-      "stable_event_id": "28a3e973e19d84f9e6a68fc6",
+      "event_id": "5f3a868c188c07d416d8ef28",
+      "stable_event_id": "5f3a868c188c07d416d8ef28",
       "observation_hash": "8f991bd20d1349a0b4cd4c54",
       "snapshot_bucket": "",
       "snapshot_at": "2026-07-08T05:47:45+00:00",
@@ -346,17 +375,23 @@
       "state": "",
       "region": "Nordeste",
       "road": "BR-324",
-      "description": "Trechos da BR-324 são interditados após afundamento de pista e acidente com carreta na BA.. Fontes consolidadas: Notícias públicas - G1 + 20 fonte(s); Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - G1 + 20 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXl3bUs5WEE2bkxxNDNmR1lfYTRhTmxUREl0em5PclZjeFIydzdqMEFwME1qNHhHejhkNXRPZ3BSbHFERlgzQVJZZ3Voc19Fcl9rS3NVSng3U2dsVXJNZE5PWWVWOTB1X1pvR3RVc0ZMYmpydHUxZi1fYzNDVWM2dWVqUEJOTlhjWmI5UlZfWnQ1RlNMSW1YVEQxOFVWWjBIZy1MaDdWeWNkTnhTOE9yay03elFYeWFqR2s5ONIBywFBVV95cUxQWUk4UGl4VDFocnZVVFFXY1RJUk41LUtzcENmZFlmYlFMS28zanZFeFFPYVlxWTdUb3puN3NqbUtCTWpod2pPNU83V2NZUGVZSk5Dc05LVnpEX1hCSEpTeXNTMU9fWEw0SjNmTmFEN19WVjRLZjBWUmtDWFB2aTNNa2k0OHFXYnN0anBBZ2hMVkVMTVRuQ2hFZW1oOWxLR2lWSUY0eUQ1azBHOUJrUHpQa012ZllwSVE0VzZfNVVoS0VUZV9iY3dWN0VTNA",
+      "description": "Trechos da BR-324 são interditados após afundamento de pista e acidente com carreta na BA.. Fontes consolidadas: Notícias públicas - band.com.br; Notícias públicas - G1 + 20 fonte(s); Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - band.com.br + 2 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0l3b2lJZGpLM3UtZkZUNkZLclJSRDRuM1M0UmdhY094M3RwTjhjRDlwUEROX01ZdmxqbFFac09oZUhBaDZPRG5aZTFxbWE3U2J2M3J0RE1CeFF5T0xRejBhZW85SDdTd1Fubm5hV004aFg3ano1NHZvcF9oS1pYRGEwRFd6Ykt6bzFpMGIyUHRTd1NyNTh2M0p6RlhkaU1sQ0RCTnJ1OXZITzA0QmV6eWpNbzZ1bEw5S2RuNFlLbG1YUlU",
       "total_snapshots": 27,
       "estimated_hours": 6.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXl3bUs5WEE2bkxxNDNmR1lfYTRhTmxUREl0em5PclZjeFIydzdqMEFwME1qNHhHejhkNXRPZ3BSbHFERlgzQVJZZ3Voc19Fcl9rS3NVSng3U2dsVXJNZE5PWWVWOTB1X1pvR3RVc0ZMYmpydHUxZi1fYzNDVWM2dWVqUEJOTlhjWmI5UlZfWnQ1RlNMSW1YVEQxOFVWWjBIZy1MaDdWeWNkTnhTOE9yay03elFYeWFqR2s5ONIBywFBVV95cUxQWUk4UGl4VDFocnZVVFFXY1RJUk41LUtzcENmZFlmYlFMS28zanZFeFFPYVlxWTdUb3puN3NqbUtCTWpod2pPNU83V2NZUGVZSk5Dc05LVnpEX1hCSEpTeXNTMU9fWEw0SjNmTmFEN19WVjRLZjBWUmtDWFB2aTNNa2k0OHFXYnN0anBBZ2hMVkVMTVRuQ2hFZW1oOWxLR2lWSUY0eUQ1azBHOUJrUHpQa012ZllwSVE0VzZfNVVoS0VUZV9iY3dWN0VTNA",
-      "headline": "Trechos da BR-324 são interditados após afundamento de pista e acidente com carreta na BA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0l3b2lJZGpLM3UtZkZUNkZLclJSRDRuM1M0UmdhY094M3RwTjhjRDlwUEROX01ZdmxqbFFac09oZUhBaDZPRG5aZTFxbWE3U2J2M3J0RE1CeFF5T0xRejBhZW85SDdTd1Fubm5hV004aFg3ano1NHZvcF9oS1pYRGEwRFd6Ykt6bzFpMGIyUHRTd1NyNTh2M0p6RlhkaU1sQ0RCTnJ1OXZITzA0QmV6eWpNbzZ1bEw5S2RuNFlLbG1YUlU",
+      "headline": "Ponte BR-324 interditada após asfalto afundar no Nordeste - band.com.br.",
       "sources": [
+        {
+          "source": "Notícias públicas - band.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0l3b2lJZGpLM3UtZkZUNkZLclJSRDRuM1M0UmdhY094M3RwTjhjRDlwUEROX01ZdmxqbFFac09oZUhBaDZPRG5aZTFxbWE3U2J2M3J0RE1CeFF5T0xRejBhZW85SDdTd1Fubm5hV004aFg3ano1NHZvcF9oS1pYRGEwRFd6Ykt6bzFpMGIyUHRTd1NyNTh2M0p6RlhkaU1sQ0RCTnJ1OXZITzA0QmV6eWpNbzZ1bEw5S2RuNFlLbG1YUlU",
+          "headline": "Ponte BR-324 interditada após asfalto afundar no Nordeste - band.com.br.",
+          "date": "2026-07-08T23:16:51.390595+00:00"
+        },
         {
           "source": "Notícias públicas - G1 + 20 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXl3bUs5WEE2bkxxNDNmR1lfYTRhTmxUREl0em5PclZjeFIydzdqMEFwME1qNHhHejhkNXRPZ3BSbHFERlgzQVJZZ3Voc19Fcl9rS3NVSng3U2dsVXJNZE5PWWVWOTB1X1pvR3RVc0ZMYmpydHUxZi1fYzNDVWM2dWVqUEJOTlhjWmI5UlZfWnQ1RlNMSW1YVEQxOFVWWjBIZy1MaDdWeWNkTnhTOE9yay03elFYeWFqR2s5ONIBywFBVV95cUxQWUk4UGl4VDFocnZVVFFXY1RJUk41LUtzcENmZFlmYlFMS28zanZFeFFPYVlxWTdUb3puN3NqbUtCTWpod2pPNU83V2NZUGVZSk5Dc05LVnpEX1hCSEpTeXNTMU9fWEw0SjNmTmFEN19WVjRLZjBWUmtDWFB2aTNNa2k0OHFXYnN0anBBZ2hMVkVMTVRuQ2hFZW1oOWxLR2lWSUY0eUQ1azBHOUJrUHpQa012ZllwSVE0VzZfNVVoS0VUZV9iY3dWN0VTNA",
@@ -370,8 +405,8 @@
           "date": "2026-07-08T17:17:56.132236+00:00"
         }
       ],
-      "sourceCount": 2,
-      "dedupedFrom": 2,
+      "sourceCount": 3,
+      "dedupedFrom": 3,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -7487,35 +7522,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "dbf91db815d3abd8bcb6283a",
-      "stable_event_id": "dbf91db815d3abd8bcb6283a",
-      "observation_hash": "5ff427db34a93dabb1a0a74e",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T23:03:03+00:00",
-      "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-07-08T23:03:03+00:00",
-      "updated_at": "2026-07-08T23:03:05.229046+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Mossoró",
-      "risk": 67,
-      "severity": "Alto",
-      "lat": -5.187,
-      "lon": -37.344,
-      "city": "Mossoró",
-      "state": "RN",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 42.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 632,
-      "estimated_hours": 158.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "fbc57c5b8e8c84d644c41311",
       "stable_event_id": "fbc57c5b8e8c84d644c41311",
       "observation_hash": "a4825b5be5f763e09f1428a7",
@@ -9780,12 +9786,12 @@
     {
       "event_id": "fb3844f2e5494d4927df88b7",
       "stable_event_id": "fb3844f2e5494d4927df88b7",
-      "observation_hash": "546b5655f901bd4db6ed8f63",
+      "observation_hash": "a756f93333f1ec3b196b3fe0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T23:03:03+00:00",
+      "snapshot_at": "2026-07-08T23:16:49+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-08T23:03:03+00:00",
-      "updated_at": "2026-07-08T23:03:05.229046+00:00",
+      "last_seen_at": "2026-07-08T23:16:49+00:00",
+      "updated_at": "2026-07-08T23:16:51.390595+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -9801,8 +9807,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:19Z; ativo há 43.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 765,
-      "estimated_hours": 191.25,
+      "total_snapshots": 766,
+      "estimated_hours": 191.5,
       "active": true,
       "storage": "supabase"
     },
@@ -11348,7 +11354,7 @@
     "7": {
       "events": 98,
       "avgRisk": 43,
-      "maxRisk": 69,
+      "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "climate": 70,
@@ -11363,8 +11369,9 @@
       },
       "bySeverity": {
         "Moderado": 47,
-        "Alto": 30,
-        "Baixo": 21
+        "Alto": 29,
+        "Baixo": 21,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -11407,14 +11414,14 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 52,
-          "maxRisk": 69
+          "maxRisk": 85
         }
       ]
     },
     "30": {
       "events": 205,
-      "avgRisk": 52,
-      "maxRisk": 69,
+      "avgRisk": 53,
+      "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "road": 110,
@@ -11429,9 +11436,10 @@
         "Sem região": 10
       },
       "bySeverity": {
-        "Alto": 113,
+        "Alto": 112,
         "Moderado": 67,
-        "Baixo": 25
+        "Baixo": 25,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -11618,14 +11626,14 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 52,
-          "maxRisk": 69
+          "maxRisk": 85
         }
       ]
     },
     "90": {
       "events": 300,
       "avgRisk": 54,
-      "maxRisk": 78,
+      "maxRisk": 85,
       "rainChance": 25,
       "byType": {
         "road": 165,
@@ -11641,9 +11649,10 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 171,
+        "Alto": 170,
         "Moderado": 104,
-        "Baixo": 25
+        "Baixo": 25,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -11914,7 +11923,7 @@
           "date": "2026-07-08",
           "avgRisk": 33,
           "events": 52,
-          "maxRisk": 69
+          "maxRisk": 85
         }
       ]
     }
