@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 será interditado para manutenção de viadutos; saiba mais - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-07T21:36:00Z; ativo há 6.5 h.",
+    "description": "Trecho da BR-101 será interditado para manutenção de viadutos; saiba mais - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-07T21:36:00Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 6.45,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T04:02:43Z",
+    "news_signature": "7b271989994b42c92240aa71",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trechos da BR-324 são interditados após afundamento de pista e acidente com carreta na BA. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Rádio Metrópole; Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; +9 fonte(s). Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-07T17:59:45Z; ativo há 10.1 h.",
+    "description": "Trechos da BR-324 são interditados após afundamento de pista e acidente com carreta na BA. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do Estado da Bahia; Notícias públicas - Rádio Metrópole; Notícias públicas - Taktá No AR; Notícias públicas - MundoBA; Notícias públicas - Jornal Correio; +9 fonte(s). Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-07T17:59:45Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -200,12 +203,14 @@
     "newsFreshnessHours": 10.05,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T17:59:45Z",
-    "last_seen_at": "2026-07-08T04:02:43Z",
+    "last_seen_at": "2026-07-08T04:02:58Z",
     "active_duration_hours": 10.05,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "af3adb682d15af59a96621bf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -222,7 +227,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 10.8 h.",
+    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 10.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -235,7 +240,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-08T04:01:29Z",
     "sources": [
       {
@@ -253,8 +258,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T17:17:41Z",
     "last_seen_at": "2026-07-08T04:02:43Z",
-    "active_duration_hours": 10.75,
+    "active_duration_hours": 10.76,
     "active_duration_label": "10.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T04:02:43Z",
+    "news_signature": "eb5b28e49d26e26683090384",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
