@@ -14,7 +14,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 2.0 h.",
+    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-08T13:48:13Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T12:08:00Z",
     "last_seen_at": "2026-07-08T14:06:03Z",
-    "active_duration_hours": 1.97,
+    "active_duration_hours": 1.98,
     "active_duration_label": "2.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T14:06:03Z",
+    "news_signature": "bb8ca990c57d03eb1fc4ab74",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
