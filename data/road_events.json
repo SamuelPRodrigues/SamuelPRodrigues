@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.43,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T22:51:09Z",
-    "last_seen_at": "2026-07-08T23:16:54Z",
+    "last_seen_at": "2026-07-08T23:17:09Z",
     "active_duration_hours": 0.43,
     "active_duration_label": "26 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "eec91530cac10dba9a5545b8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno da Dutra será interditado em Piraí - O Dia. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-08T22:01:03Z; ativo há 1.3 h.",
+    "description": "Retorno da Dutra será interditado em Piraí - O Dia. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-08T22:01:03Z; ativo há 1.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T22:01:03Z",
     "last_seen_at": "2026-07-08T23:16:54Z",
-    "active_duration_hours": 1.26,
+    "active_duration_hours": 1.27,
     "active_duration_label": "1.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T23:16:54Z",
+    "news_signature": "138a96620565ecca2ffacdc7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-364 em Cacoal segue bloqueada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-08T15:01:00Z; ativo há 8.3 h.",
+    "description": "Trecho da BR-364 em Cacoal segue bloqueada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-08T15:01:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,8 +139,11 @@
     "active_duration_hours": 8.27,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T23:16:54Z",
+    "news_signature": "b56eef7bdfd07cf2abcd3f4b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -152,7 +160,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: JM Online; Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 11.2 h.",
+    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: JM Online; Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -165,7 +173,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-08T15:38:39Z",
     "sources": [
       {
@@ -191,6 +199,9 @@
     "last_seen_at": "2026-07-08T23:16:54Z",
     "active_duration_hours": 11.15,
     "active_duration_label": "11.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T23:16:54Z",
+    "news_signature": "e581d61ab19972540eaa4cba",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
