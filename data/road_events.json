@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-153",
+    "road": "BR-153",
+    "corridor": "Goiânia • BR-060 / BR-153 / GO-060",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -16.686,
+    "lon": -49.264,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis. Fontes consolidadas: Notícias públicas - Diário do Município Anápolis. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-08T11:00:00Z; ativo há 1.3 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Diário do Município Anápolis",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+    "headline": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis",
+    "newsDate": "Wed, 08 Jul 2026 11:00:00 GMT",
+    "updatedAt": "2026-07-08T12:16:29Z",
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+    "sources": [
+      {
+        "source": "Notícias públicas - Diário do Município Anápolis",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+        "headline": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis",
+        "date": "Wed, 08 Jul 2026 11:00:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "d43b50000072ba03714da6b6",
+    "event_id": "d43b50000072ba03714da6b6",
+    "newsFreshnessHours": 1.3,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-08T11:00:00Z",
+    "last_seen_at": "2026-07-08T12:17:44Z",
+    "active_duration_hours": 1.3,
+    "active_duration_label": "1.3 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
