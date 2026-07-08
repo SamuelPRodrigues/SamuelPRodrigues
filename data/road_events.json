@@ -14,7 +14,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 8.2 h.",
+    "description": "BR-324 é totalmente interditada após afundamento na pista - Jornal Correio. Período informado: 2026-07-07T17:17:41Z até fim não identificado. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-07T17:17:41Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-08T01:31:12Z",
     "sources": [
       {
@@ -47,6 +47,9 @@
     "last_seen_at": "2026-07-08T01:32:26Z",
     "active_duration_hours": 8.25,
     "active_duration_label": "8.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T01:32:26Z",
+    "news_signature": "9d77f4090cceb81fe4d315bd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
