@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Manifestação indígena interdita totalmente a BR-364 em Cacoal; trânsito está bloqueado nos dois sentidos - oobservador.com. Fontes consolidadas: Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-08T15:01:00Z; ativo há 1.0 h.",
+    "description": "Manifestação indígena interdita totalmente a BR-364 em Cacoal; trânsito está bloqueado nos dois sentidos - oobservador.com. Fontes consolidadas: Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-08T15:01:00Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T15:01:00Z",
     "last_seen_at": "2026-07-08T16:02:52Z",
-    "active_duration_hours": 1.03,
+    "active_duration_hours": 1.04,
     "active_duration_label": "1.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T16:02:52Z",
+    "news_signature": "f75e1c850897c64b88b96b46",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis. Fontes consolidadas: Notícias públicas - Diário do Município Anápolis. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-08T11:00:00Z; ativo há 5.0 h.",
+    "description": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis. Fontes consolidadas: Notícias públicas - Diário do Município Anápolis. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-08T11:00:00Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 5.05,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T16:02:52Z",
+    "news_signature": "224a3182df478c125d383f4b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +108,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: JM Online; Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 3.9 h.",
+    "description": "BR-262 fica totalmente interditada após acidentes e congestionamento passa de 20 km - JM Online. Período informado: 2026-07-08T12:08:00Z até fim não identificado. Fontes consolidadas: JM Online; Notícias públicas - JM Online. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-08T12:08:00Z; ativo há 3.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +121,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-08T15:38:39Z",
     "sources": [
       {
@@ -139,8 +145,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T12:08:00Z",
     "last_seen_at": "2026-07-08T16:02:52Z",
-    "active_duration_hours": 3.91,
+    "active_duration_hours": 3.92,
     "active_duration_label": "3.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T16:02:52Z",
+    "news_signature": "e581d61ab19972540eaa4cba",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
