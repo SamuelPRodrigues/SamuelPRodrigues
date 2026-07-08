@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é interditada após carreta fazer \"L\" e atingir radar em Nova Era - O Popular JM. Fontes consolidadas: Notícias públicas - O Popular JM. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-07T23:46:52Z; ativo há 11.0 h.",
+    "description": "BR-381 é interditada após carreta fazer \"L\" e atingir radar em Nova Era - O Popular JM. Fontes consolidadas: Notícias públicas - O Popular JM. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-07T23:46:52Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 11.02,
     "active_duration_label": "11.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-08T10:47:57Z",
+    "news_signature": "650a9bd516479102ce0a7346",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
