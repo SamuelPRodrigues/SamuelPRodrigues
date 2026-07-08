@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-153",
+    "road": "BR-153",
+    "corridor": "Goiânia • BR-060 / BR-153 / GO-060",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -16.686,
+    "lon": -49.264,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis. Fontes consolidadas: Notícias públicas - Diário do Município Anápolis. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-08T11:00:00Z; ativo há 18 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Diário do Município Anápolis",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+    "headline": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis",
+    "newsDate": "Wed, 08 Jul 2026 11:00:00 GMT",
+    "updatedAt": "2026-07-08T11:16:27Z",
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+    "sources": [
+      {
+        "source": "Notícias públicas - Diário do Município Anápolis",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUswdklsMVhodG5zNEZfSEdwM19IWHltcVZObFZIeTN5YTZKdzNsY1VoU2h1d3VWYTlzZk45WG1RMXI0d0xyWTVTc0VSOG8zeTlwbjRPbHh4N01sSU9wbXNuVmk2SWpYZ09XaXVGZENBRDlBTVZ4a19Ed3V5d2I3TWF4R2JmYThrYkpfUnZVeVVzWjRiZHlibFNHaExhUTh4NVZMRGNucmk2V00zazBWRmJfRDl0dEVSYnQ5YTZB",
+        "headline": "Acesso ao Parque da Jaiara pela BR-153 será interditado para obra; veja desvio - Diário do Município Anápolis",
+        "date": "Wed, 08 Jul 2026 11:00:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "d43b50000072ba03714da6b6",
+    "event_id": "d43b50000072ba03714da6b6",
+    "newsFreshnessHours": 0.3,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-08T11:00:00Z",
+    "last_seen_at": "2026-07-08T11:17:43Z",
+    "active_duration_hours": 0.3,
+    "active_duration_label": "18 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-381",
     "road": "BR-381",
     "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
@@ -9,7 +53,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é interditada após carreta fazer \"L\" e atingir radar em Nova Era - O Popular JM. Fontes consolidadas: Notícias públicas - O Popular JM. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-07T23:46:52Z; ativo há 11.3 h.",
+    "description": "BR-381 é interditada após carreta fazer \"L\" e atingir radar em Nova Era - O Popular JM. Fontes consolidadas: Notícias públicas - O Popular JM. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-07T23:46:52Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmlkSXBJQlM3bzNZdWFTajBpUk1ZazBWcW5SRUtuUHdPSm1TQTJpTjlSMm5HZ2ZmWllCWkdBeWpYTVh1ZS1uNFhtYzhVbUpSNEJXcFlrN2FzcWN6Sk5UcTdMemNRdmxRNjNEOHBQeGFOdExnMENDOE5lNS1qQWZUU3VNODBOSWhoN3ZfbGs1bC1QdzFTT3JnSTRoQlI",
     "headline": "BR-381 é interditada após carreta fazer \"L\" e atingir radar em Nova Era - O Popular JM",
     "newsDate": "Tue, 07 Jul 2026 23:46:52 GMT",
-    "updatedAt": "2026-07-08T11:01:25Z",
+    "updatedAt": "2026-07-08T11:16:27Z",
     "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmlkSXBJQlM3bzNZdWFTajBpUk1ZazBWcW5SRUtuUHdPSm1TQTJpTjlSMm5HZ2ZmWllCWkdBeWpYTVh1ZS1uNFhtYzhVbUpSNEJXcFlrN2FzcWN6Sk5UcTdMemNRdmxRNjNEOHBQeGFOdExnMENDOE5lNS1qQWZUU3VNODBOSWhoN3ZfbGs1bC1QdzFTT3JnSTRoQlI",
     "sources": [
       {
@@ -33,17 +77,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "92493f5ba6a37c9e00be2726",
     "event_id": "92493f5ba6a37c9e00be2726",
-    "newsFreshnessHours": 11.26,
+    "newsFreshnessHours": 11.51,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-07T23:46:52Z",
-    "last_seen_at": "2026-07-08T11:02:40Z",
-    "active_duration_hours": 11.27,
-    "active_duration_label": "11.3 h",
+    "last_seen_at": "2026-07-08T11:17:43Z",
+    "active_duration_hours": 11.51,
+    "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-08T11:02:40Z",
-    "news_signature": "650a9bd516479102ce0a7346",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
