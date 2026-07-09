@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-07-09T08:07:30Z",
+  "updatedAt": "2026-07-09T08:23:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
-    {
-      "event_id": "dbf91db815d3abd8bcb6283a",
-      "stable_event_id": "dbf91db815d3abd8bcb6283a",
-      "observation_hash": "6e535a1191cdbccf33cb36d1",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T00:18:36+00:00",
-      "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-07-09T00:18:36+00:00",
-      "updated_at": "2026-07-09T00:18:37.754416+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Mossoró",
-      "risk": 85,
-      "severity": "Crítico",
-      "lat": -5.187,
-      "lon": -37.344,
-      "city": "Mossoró",
-      "state": "RN",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 42.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 638,
-      "estimated_hours": 159.5,
-      "active": true,
-      "storage": "supabase"
-    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -93,12 +64,12 @@
     {
       "event_id": "708edda2e21bf7b47d92df8c",
       "stable_event_id": "708edda2e21bf7b47d92df8c",
-      "observation_hash": "bd5338f2db7c860b880382de",
+      "observation_hash": "73221e59784c9e1356e54267",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T07:51:54+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-07-08T23:03:04+00:00",
-      "last_seen_at": "2026-07-09T07:51:54+00:00",
-      "updated_at": "2026-07-09T07:51:55.771446+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -114,8 +85,8 @@
       "description": "Retorno da Dutra será interditado em Piraí - O Dia.. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - O Dia",
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
-      "total_snapshots": 37,
-      "estimated_hours": 9.25,
+      "total_snapshots": 38,
+      "estimated_hours": 9.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,7 +97,7 @@
           "source": "Notícias públicas - O Dia",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmdBaTV2ZzJPcXppVy1PT3NCSV9aZTFkZVVTYWNyMkpaeGRyTV9tR3JvOXVXWlUzVERwRkNTbFI1YW41UkxPMmxBOG5EanN2Z2oyX1ZoV3ZKbHpwZV9xcS1OYVdJZjd2NkhxMUtLaDRCcHBtUTQyaGVTSklDaGFDaC1XRWg3S3NXQWtUTjhmYnpPdE81SnNCcS1pU0ZuTnhBQkhJ0gGoAUFVX3lxTE5mTF82YW1hempROEFJQWJzMU5KV0xaTnkxMWZ0N3lRd1JoWFhPS0doYUV5WllSbjBDdU5XV2xtVlN3YW52ZmU1dU90QTliWTdZam9hWm1EaWZaS2I1V1NoUjU5Qld5SzZRS2Q0Mzkwbk52Tk9CeDhYMDRIODBIT05hUV80NzdmeHhwMHFaMFRoQUtzcUtpd3hCaDRwREJjdXA5S09WcVViXw",
           "headline": "Retorno da Dutra será interditado em Piraí - O Dia.",
-          "date": "2026-07-09T07:51:55.771446+00:00"
+          "date": "2026-07-09T08:23:03.213855+00:00"
         }
       ],
       "sourceCount": 1,
@@ -9827,35 +9798,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1e7b30ba66890a70624ba3de",
-      "stable_event_id": "1e7b30ba66890a70624ba3de",
-      "observation_hash": "9de78ead426be7c04eb9157c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T05:08:48+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T05:08:48+00:00",
-      "updated_at": "2026-07-09T05:08:49.406927+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tefé",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -3.354,
-      "lon": -64.711,
-      "city": "Tefé",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 44.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1297,
-      "estimated_hours": 324.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "77610d19988aafd6875550dd",
       "stable_event_id": "77610d19988aafd6875550dd",
       "observation_hash": "4aa9e173a124f144bfaf4246",
@@ -10233,6 +10175,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "dbf91db815d3abd8bcb6283a",
+      "stable_event_id": "dbf91db815d3abd8bcb6283a",
+      "observation_hash": "d51e4faceedc1e5b6ba9ae5a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
+      "first_seen_at": "2026-05-27T14:17:23+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Mossoró",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -5.187,
+      "lon": -37.344,
+      "city": "Mossoró",
+      "state": "RN",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:24Z; ativo há 42.8 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 639,
+      "estimated_hours": 159.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "fb3844f2e5494d4927df88b7",
       "stable_event_id": "fb3844f2e5494d4927df88b7",
       "observation_hash": "7fe124fae73d0007d19ee53a",
@@ -10519,6 +10490,35 @@
       "source_url": "",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "1e7b30ba66890a70624ba3de",
+      "stable_event_id": "1e7b30ba66890a70624ba3de",
+      "observation_hash": "fe64bc5e5a9b260d57ac7d9e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tefé",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -3.354,
+      "lon": -64.711,
+      "city": "Tefé",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 44.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1298,
+      "estimated_hours": 324.5,
       "active": true,
       "storage": "supabase"
     },
@@ -10875,10 +10875,10 @@
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "35b5b5464d864002ce54b668",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10894,8 +10894,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 44.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1758,
-      "estimated_hours": 439.5,
+      "total_snapshots": 1759,
+      "estimated_hours": 439.75,
       "active": true,
       "storage": "supabase"
     },
@@ -10991,10 +10991,10 @@
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "32bfb0efa6f3d155f1800d78",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11010,8 +11010,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 44.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1151,
-      "estimated_hours": 287.75,
+      "total_snapshots": 1152,
+      "estimated_hours": 288.0,
       "active": true,
       "storage": "supabase"
     },
@@ -11163,12 +11163,12 @@
     {
       "event_id": "1f8dac92cf9f4864db7b23f1",
       "stable_event_id": "1f8dac92cf9f4864db7b23f1",
-      "observation_hash": "c9fea82fa715490087597f3f",
+      "observation_hash": "6a6ee9ac82987abbc8de8e7b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11181,11 +11181,11 @@
       "state": "SP",
       "region": "Sudeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:28Z; ativo há 42.7 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:28Z; ativo há 42.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 325,
-      "estimated_hours": 81.25,
+      "total_snapshots": 326,
+      "estimated_hours": 81.5,
       "active": true,
       "storage": "supabase"
     },
@@ -11194,10 +11194,10 @@
       "stable_event_id": "81996c61139cfa5997723f54",
       "observation_hash": "61695dd2bb0dd2054a4a846c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11213,8 +11213,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 44.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1040,
-      "estimated_hours": 260.0,
+      "total_snapshots": 1041,
+      "estimated_hours": 260.25,
       "active": true,
       "storage": "supabase"
     },
@@ -11223,10 +11223,10 @@
       "stable_event_id": "1fcf7a0c7179a187e29c34ce",
       "observation_hash": "f8d517962a75f907ac04ded1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11242,8 +11242,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:22Z; ativo há 43.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 714,
-      "estimated_hours": 178.5,
+      "total_snapshots": 715,
+      "estimated_hours": 178.75,
       "active": true,
       "storage": "supabase"
     },
@@ -11339,10 +11339,10 @@
       "stable_event_id": "5cca55e4ca30532da426bf44",
       "observation_hash": "2837df9876046b898dae0a50",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11358,8 +11358,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 44.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 970,
-      "estimated_hours": 242.5,
+      "total_snapshots": 971,
+      "estimated_hours": 242.75,
       "active": true,
       "storage": "supabase"
     },
@@ -11368,10 +11368,10 @@
       "stable_event_id": "94eba1bea36aeec0d426f14d",
       "observation_hash": "5bbec86d2cd24b1c4a004dee",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T08:07:26+00:00",
+      "snapshot_at": "2026-07-09T08:23:01+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-07-09T08:07:26+00:00",
-      "updated_at": "2026-07-09T08:07:27.127453+00:00",
+      "last_seen_at": "2026-07-09T08:23:01+00:00",
+      "updated_at": "2026-07-09T08:23:03.213855+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11387,8 +11387,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 44.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1307,
-      "estimated_hours": 326.75,
+      "total_snapshots": 1308,
+      "estimated_hours": 327.0,
       "active": true,
       "storage": "supabase"
     }
@@ -11396,8 +11396,8 @@
   "windows": {
     "7": {
       "events": 96,
-      "avgRisk": 42,
-      "maxRisk": 85,
+      "avgRisk": 41,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 69,
@@ -11411,10 +11411,9 @@
         "Centro-Oeste": 2
       },
       "bySeverity": {
-        "Moderado": 46,
+        "Moderado": 47,
         "Alto": 27,
-        "Baixo": 22,
-        "Crítico": 1
+        "Baixo": 22
       },
       "dailyRisk": [
         {
@@ -11461,16 +11460,16 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 34,
+          "avgRisk": 32,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     },
     "30": {
       "events": 203,
       "avgRisk": 52,
-      "maxRisk": 85,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "road": 108,
@@ -11486,9 +11485,8 @@
       },
       "bySeverity": {
         "Alto": 109,
-        "Moderado": 67,
-        "Baixo": 26,
-        "Crítico": 1
+        "Moderado": 68,
+        "Baixo": 26
       },
       "dailyRisk": [
         {
@@ -11673,16 +11671,16 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 34,
+          "avgRisk": 32,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     },
     "90": {
       "events": 301,
       "avgRisk": 54,
-      "maxRisk": 85,
+      "maxRisk": 78,
       "rainChance": 25,
       "byType": {
         "road": 166,
@@ -11699,9 +11697,8 @@
       },
       "bySeverity": {
         "Alto": 170,
-        "Moderado": 104,
-        "Baixo": 26,
-        "Crítico": 1
+        "Moderado": 105,
+        "Baixo": 26
       },
       "dailyRisk": [
         {
@@ -11976,9 +11973,9 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 34,
+          "avgRisk": 32,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     }
