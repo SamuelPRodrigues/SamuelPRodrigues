@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T19:02:34Z",
+  "updatedAt": "2026-07-09T19:17:44Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -62,14 +62,63 @@
       "storage": "supabase"
     },
     {
+      "event_id": "6dda8c56e0efafa459a52986",
+      "stable_event_id": "6dda8c56e0efafa459a52986",
+      "observation_hash": "9ac4cbb28140d1330e519d3a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
+      "first_seen_at": "2026-05-26T19:16:50+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-265",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -21.25,
+      "lon": -44.9,
+      "city": "Sul de Minas",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "BR-265",
+      "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.. Fontes consolidadas: G1 + 2 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
+      "source": "G1 + 2 fonte(s) + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+      "total_snapshots": 52,
+      "estimated_hours": 13.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+      "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
+      "sources": [
+        {
+          "source": "G1 + 2 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
+          "date": "2026-07-09T19:17:41.399122+00:00"
+        },
+        {
+          "source": "Notícias públicas - G1",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVi1LamZNanh4S2g4al9KbEVSSXFveC14Y2tGQWRIbkQ5VXhlQUJLSWdrRFlxQVFqN0htc3BCamdDeTA5NHBSc1NDT29aYXJVVXlYUS00dGl2QkRqdUdGSzlwd0N2dWk3TGF3WHJnd3NUekRiN1V5U1h1bE9JZWd5bVlRaTdZT2VCaVRYTVdpSnRoTW5BVWdJcTg3T0tyRWxUcnVhR1lVejBuTkZxVGJfdXJFOXpLZHE2em9UdU5oZXItOG1ocjlZck41RnpIRVdVSjJ1Rzl2YjFkQ3ZFU0RQam5LQXJvLXI5cmfSAfgBQVVfeXFMTjhuTTVROFFWTllZXzQ2bmw1MEtIdm1Ob2xMbV9zWE90X25FSjZCUm1DUHZILWJSbDhzbkZHLXVVVEtxZXYzOXhFNEt1dFAtUGwwbG93Q3V0d3BLNlMxWmhEYWtRUVZ6Uk9YcVJXWTlaLVA2ekMwUGxuNzkyV3U5OFVrVWxvRWdVOWRHV2ZqNVJWZzc3NHJPTk8zNzZ5cXlVR3FHQ18yQ0pkSWJBcnBiWmRRT0pva2hZTVJ0dGEtN3ZHNmtWRnQxVmR1SnprNV81R2p3czRPN3Fqd0RCeVlrX0NvekkySzFiMWdocDV6ZGdwT2Z3M3JwT3E",
+          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.",
+          "date": "2026-05-26T19:46:41.669885+00:00"
+        }
+      ],
+      "sourceCount": 2,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "4ba46673f653a24f68449227",
       "stable_event_id": "4ba46673f653a24f68449227",
-      "observation_hash": "26b365dc57faf4fe4c5d9660",
+      "observation_hash": "3f1838e9d116265df80049db",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T19:02:28+00:00",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
       "first_seen_at": "2026-07-09T18:47:45+00:00",
-      "last_seen_at": "2026-07-09T19:02:28+00:00",
-      "updated_at": "2026-07-09T19:02:29.989108+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -85,8 +134,8 @@
       "description": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba.. Fontes consolidadas: Notícias públicas - Band News FM Curitiba + 1 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NoN2ZmaXkwcFdPYUJLVmxodXVVSW5vSVRWZUFHdDJVQ0FrWVNwM1llZVJvU2NrVmFldk50ZHY2TlItZTJkbERhcUNqS0FCWERtcnJ4RTA0VUx5VE1LakVUYmlSY0RmemMwUTk4ZHQwODZTX25fdU5IZHdTSG1uUlFkbllnc3A0QWstWngwQmt6LV8zQ1dhSGp2VnNRdw",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +146,7 @@
           "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NoN2ZmaXkwcFdPYUJLVmxodXVVSW5vSVRWZUFHdDJVQ0FrWVNwM1llZVJvU2NrVmFldk50ZHY2TlItZTJkbERhcUNqS0FCWERtcnJ4RTA0VUx5VE1LakVUYmlSY0RmemMwUTk4ZHQwODZTX25fdU5IZHdTSG1uUlFkbllnc3A0QWstWngwQmt6LV8zQ1dhSGp2VnNRdw",
           "headline": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba.",
-          "date": "2026-07-09T19:02:29.989108+00:00"
+          "date": "2026-07-09T19:17:41.399122+00:00"
         },
         {
           "source": "Notícias públicas - G1",
@@ -113,12 +162,12 @@
     {
       "event_id": "11d6aef6c8514e6dff333da0",
       "stable_event_id": "11d6aef6c8514e6dff333da0",
-      "observation_hash": "1f341e6fd0ced35b46e70130",
+      "observation_hash": "247b1c0e9f6d0d9d88036a70",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T19:02:28+00:00",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
       "first_seen_at": "2026-07-09T13:04:01+00:00",
-      "last_seen_at": "2026-07-09T19:02:28+00:00",
-      "updated_at": "2026-07-09T19:02:29.989108+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -134,8 +183,8 @@
       "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE.. Fontes consolidadas: Notícias públicas - A TARDE + 7 fonte(s); Notícias públicas - Jornal Correio + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - A TARDE + 7 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0VxUTd4RXMzQkNQYll3WmVNMEVDUnlreWJkSEZ0Zi1MdFVYaXoyVGpWbGd2ZkNhNkd6WUxGVUVzcDhfQWEzdWplZUFqNkxIZ3JmRW0yeGJwY0JwUjFsTTZXV01WSS02R2RfdlFBYllXMjFpRFBEOXB4ZXM1OWZVTDF3Nl9GRjlaOVVRNEVfLTRoSTB4eGJLT0ppWjYxc2REOTAwMkFybG00UdIBsgFBVV95cUxOdGk2TjVZNmsxenJHZWxnVTlhdVZGcVpwbVhWN3F3NzU4TUpsZk50RVczSm5DWmFIWDJVOFhROHE4SmgzZ2JfUVQtM2p6SGl5Q283dXJ5eW91Ni1mZ010SmlvTHRPMmxuUmRHLTJBdHhPYktIY1FwR3A4ekFoWWdUakJMRUdTQm1seEZHX2VwRy1ZTmNaX2pVenRZejdCb0g5MkpLTW9pMk9yV2JSSUkyLWN3",
-      "total_snapshots": 28,
-      "estimated_hours": 7.0,
+      "total_snapshots": 29,
+      "estimated_hours": 7.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -146,7 +195,7 @@
           "source": "Notícias públicas - A TARDE + 7 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0VxUTd4RXMzQkNQYll3WmVNMEVDUnlreWJkSEZ0Zi1MdFVYaXoyVGpWbGd2ZkNhNkd6WUxGVUVzcDhfQWEzdWplZUFqNkxIZ3JmRW0yeGJwY0JwUjFsTTZXV01WSS02R2RfdlFBYllXMjFpRFBEOXB4ZXM1OWZVTDF3Nl9GRjlaOVVRNEVfLTRoSTB4eGJLT0ppWjYxc2REOTAwMkFybG00UdIBsgFBVV95cUxOdGk2TjVZNmsxenJHZWxnVTlhdVZGcVpwbVhWN3F3NzU4TUpsZk50RVczSm5DWmFIWDJVOFhROHE4SmgzZ2JfUVQtM2p6SGl5Q283dXJ5eW91Ni1mZ010SmlvTHRPMmxuUmRHLTJBdHhPYktIY1FwR3A4ekFoWWdUakJMRUdTQm1seEZHX2VwRy1ZTmNaX2pVenRZejdCb0g5MkpLTW9pMk9yV2JSSUkyLWN3",
           "headline": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE.",
-          "date": "2026-07-09T19:02:29.989108+00:00"
+          "date": "2026-07-09T19:17:41.399122+00:00"
         },
         {
           "source": "Notícias públicas - Jornal Correio + 1 fonte(s)",
@@ -162,12 +211,12 @@
     {
       "event_id": "15d01522e6be1d1f35649571",
       "stable_event_id": "15d01522e6be1d1f35649571",
-      "observation_hash": "c6d9f0ce873109ea7af2a656",
+      "observation_hash": "4c053c2a680daa154606365f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T19:02:28+00:00",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
       "first_seen_at": "2026-07-09T13:04:01+00:00",
-      "last_seen_at": "2026-07-09T19:02:28+00:00",
-      "updated_at": "2026-07-09T19:02:29.989108+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -183,8 +232,8 @@
       "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online.. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Tribuna Online",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNWI2YkNTb1RIN1FxRW5Bb3ctS05HNW5fWGFSX1dXRngyMnh2Z1BfWVVuMzU1dlhNbU5jMDVvRVZOVFNwaXVTeVY4NHNIeUVEaTFQNllOTGl0LVg3OWFiTHRFUU9EY0JzS1hsa0JVMHdJSklXMGpZQmZpUGktd3hydTVHUXpxTWxNMXdIUkhVeU1pd3lsUEJuVEFWTkFOQUNHcmNiY3lZb0d4d1QwT3JTYkVHN05YYXRBdV93YTViUWPSAcgBQVVfeXFMUGxUN0FxUGdoRkM2Ylc0VXZJZ3I1QmM4THg5cUtZa0dSUWFzTENETEdsUmQ4QmxSdkN3N1lEVDkzX3U0Sk9DekxkUGZvY1dSMUM4M1hXZmF5Q3oxNGJYbzQyeXpDZE1hTXplZmE4azB4Y2I3LXFuWTRFdl9VNFdpQVpLRkZneTQyXzF1QjRNNDBqQ1dXZ0otU3FLV1dBcU5GQTZSN0JMTU5zY2JneWNkMmwtQThvUGxJczk0Sy04NzJWai12eHNoX2g",
-      "total_snapshots": 29,
-      "estimated_hours": 7.25,
+      "total_snapshots": 30,
+      "estimated_hours": 7.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -195,7 +244,7 @@
           "source": "Notícias públicas - Tribuna Online",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNWI2YkNTb1RIN1FxRW5Bb3ctS05HNW5fWGFSX1dXRngyMnh2Z1BfWVVuMzU1dlhNbU5jMDVvRVZOVFNwaXVTeVY4NHNIeUVEaTFQNllOTGl0LVg3OWFiTHRFUU9EY0JzS1hsa0JVMHdJSklXMGpZQmZpUGktd3hydTVHUXpxTWxNMXdIUkhVeU1pd3lsUEJuVEFWTkFOQUNHcmNiY3lZb0d4d1QwT3JTYkVHN05YYXRBdV93YTViUWPSAcgBQVVfeXFMUGxUN0FxUGdoRkM2Ylc0VXZJZ3I1QmM4THg5cUtZa0dSUWFzTENETEdsUmQ4QmxSdkN3N1lEVDkzX3U0Sk9DekxkUGZvY1dSMUM4M1hXZmF5Q3oxNGJYbzQyeXpDZE1hTXplZmE4azB4Y2I3LXFuWTRFdl9VNFdpQVpLRkZneTQyXzF1QjRNNDBqQ1dXZ0otU3FLV1dBcU5GQTZSN0JMTU5zY2JneWNkMmwtQThvUGxJczk0Sy04NzJWai12eHNoX2g",
           "headline": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online.",
-          "date": "2026-07-09T19:02:29.989108+00:00"
+          "date": "2026-07-09T19:17:41.399122+00:00"
         }
       ],
       "sourceCount": 1,
@@ -6272,55 +6321,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "6dda8c56e0efafa459a52986",
-      "stable_event_id": "6dda8c56e0efafa459a52986",
-      "observation_hash": "3de938d8d68d399c623e427a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-06-03T00:17:32+00:00",
-      "first_seen_at": "2026-05-26T19:16:50+00:00",
-      "last_seen_at": "2026-06-03T00:17:32+00:00",
-      "updated_at": "2026-06-03T00:17:33.199748+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -21.25,
-      "lon": -44.9,
-      "city": "Sul de Minas",
-      "state": "MG",
-      "region": "Sudeste",
-      "road": "BR-265",
-      "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.. Fontes consolidadas: G1 + 2 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
-      "source": "G1 + 2 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-      "total_snapshots": 51,
-      "estimated_hours": 12.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-      "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
-      "sources": [
-        {
-          "source": "G1 + 2 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
-          "date": "2026-06-03T00:17:33.199748+00:00"
-        },
-        {
-          "source": "Notícias públicas - G1",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVi1LamZNanh4S2g4al9KbEVSSXFveC14Y2tGQWRIbkQ5VXhlQUJLSWdrRFlxQVFqN0htc3BCamdDeTA5NHBSc1NDT29aYXJVVXlYUS00dGl2QkRqdUdGSzlwd0N2dWk3TGF3WHJnd3NUekRiN1V5U1h1bE9JZWd5bVlRaTdZT2VCaVRYTVdpSnRoTW5BVWdJcTg3T0tyRWxUcnVhR1lVejBuTkZxVGJfdXJFOXpLZHE2em9UdU5oZXItOG1ocjlZck41RnpIRVdVSjJ1Rzl2YjFkQ3ZFU0RQam5LQXJvLXI5cmfSAfgBQVVfeXFMTjhuTTVROFFWTllZXzQ2bmw1MEtIdm1Ob2xMbV9zWE90X25FSjZCUm1DUHZILWJSbDhzbkZHLXVVVEtxZXYzOXhFNEt1dFAtUGwwbG93Q3V0d3BLNlMxWmhEYWtRUVZ6Uk9YcVJXWTlaLVA2ekMwUGxuNzkyV3U5OFVrVWxvRWdVOWRHV2ZqNVJWZzc3NHJPTk8zNzZ5cXlVR3FHQ18yQ0pkSWJBcnBiWmRRT0pva2hZTVJ0dGEtN3ZHNmtWRnQxVmR1SnprNV81R2p3czRPN3Fqd0RCeVlrX0NvekkySzFiMWdocDV6ZGdwT2Z3M3JwT3E",
-          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.",
-          "date": "2026-05-26T19:46:41.669885+00:00"
-        }
-      ],
-      "sourceCount": 2,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "4b5c86b7af903cbbcf81ecce",
       "stable_event_id": "4b5c86b7af903cbbcf81ecce",
       "observation_hash": "28300e63f93b4f94ca3170c3",
@@ -8502,12 +8502,12 @@
     {
       "event_id": "af769bd0f5b9b44054da5403",
       "stable_event_id": "af769bd0f5b9b44054da5403",
-      "observation_hash": "6ec90fc2b58728c212398e6e",
+      "observation_hash": "5534e1f82351a273a431299b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T19:02:28+00:00",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T19:02:28+00:00",
-      "updated_at": "2026-07-09T19:02:29.989108+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8523,8 +8523,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 44.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 947,
-      "estimated_hours": 236.75,
+      "total_snapshots": 948,
+      "estimated_hours": 237.0,
       "active": true,
       "storage": "supabase"
     },
@@ -8960,35 +8960,6 @@
       "source_url": "",
       "total_snapshots": 1690,
       "estimated_hours": 422.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "c667c6cb78226f3a85a8d5ab",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-08T18:47:23+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-08T18:47:23+00:00",
-      "updated_at": "2026-07-08T18:47:24.94272+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 43.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1509,
-      "estimated_hours": 377.25,
       "active": true,
       "storage": "supabase"
     },
@@ -9627,6 +9598,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "16efe9af0c5e90ca73fd6d31",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T19:17:40+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-07-09T19:17:40+00:00",
+      "updated_at": "2026-07-09T19:17:41.399122+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 44.1 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1510,
+      "estimated_hours": 377.5,
       "active": true,
       "storage": "supabase"
     },
@@ -11634,24 +11634,24 @@
   ],
   "windows": {
     "7": {
-      "events": 101,
-      "avgRisk": 43,
+      "events": 102,
+      "avgRisk": 44,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 69,
-        "road": 32
+        "road": 33
       },
       "byRegion": {
         "Nordeste": 32,
         "Sul": 30,
-        "Sudeste": 20,
+        "Sudeste": 21,
         "Norte": 18,
         "Centro-Oeste": 1
       },
       "bySeverity": {
         "Moderado": 49,
-        "Alto": 32,
+        "Alto": 33,
         "Baixo": 20
       },
       "dailyRisk": [
@@ -11693,37 +11693,37 @@
         },
         {
           "date": "2026-07-08",
-          "avgRisk": 33,
-          "events": 23,
+          "avgRisk": 32,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 39,
-          "events": 47,
+          "avgRisk": 40,
+          "events": 49,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 207,
+      "events": 208,
       "avgRisk": 52,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "road": 112,
+        "road": 113,
         "climate": 95
       },
       "byRegion": {
         "Nordeste": 63,
-        "Sudeste": 56,
+        "Sudeste": 57,
         "Sul": 36,
         "Norte": 27,
         "Centro-Oeste": 16,
         "Sem região": 9
       },
       "bySeverity": {
-        "Alto": 113,
+        "Alto": 114,
         "Moderado": 68,
         "Baixo": 26
       },
@@ -11904,14 +11904,14 @@
         },
         {
           "date": "2026-07-08",
-          "avgRisk": 33,
-          "events": 23,
+          "avgRisk": 32,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 39,
-          "events": 47,
+          "avgRisk": 40,
+          "events": 49,
           "maxRisk": 69
         }
       ]
@@ -11997,7 +11997,7 @@
         {
           "date": "2026-06-03",
           "avgRisk": 69,
-          "events": 6,
+          "events": 5,
           "maxRisk": 69
         },
         {
@@ -12206,14 +12206,14 @@
         },
         {
           "date": "2026-07-08",
-          "avgRisk": 33,
-          "events": 23,
+          "avgRisk": 32,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 39,
-          "events": 47,
+          "avgRisk": 40,
+          "events": 49,
           "maxRisk": 69
         }
       ]
