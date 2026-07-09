@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T16:52:48Z",
-    "last_seen_at": "2026-07-09T17:17:06Z",
+    "last_seen_at": "2026-07-09T17:17:23Z",
     "active_duration_hours": 0.41,
     "active_duration_label": "25 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f2ea737a5c385b14349b5e37",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 4.8 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -116,12 +118,14 @@
     "newsFreshnessHours": 4.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T12:27:18Z",
-    "last_seen_at": "2026-07-09T17:17:06Z",
+    "last_seen_at": "2026-07-09T17:17:23Z",
     "active_duration_hours": 4.83,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0b88270eb568fb13ed55ee7d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -133,7 +137,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 em Fundão será totalmente interditado nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-09T12:23:28Z; ativo há 4.9 h.",
+    "description": "Trecho da BR-101 em Fundão será totalmente interditado nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - diaadiaes.com.br; Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-09T12:23:28Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -173,11 +177,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T12:23:28Z",
     "last_seen_at": "2026-07-09T17:17:06Z",
-    "active_duration_hours": 4.89,
+    "active_duration_hours": 4.9,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T17:17:06Z",
+    "news_signature": "08157343e9e1e0a9c974c06b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -194,7 +201,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 5.7 h.",
+    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -207,7 +214,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-09T17:15:55Z",
     "sources": [
       {
@@ -227,6 +234,9 @@
     "last_seen_at": "2026-07-09T17:17:06Z",
     "active_duration_hours": 5.74,
     "active_duration_label": "5.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T17:17:06Z",
+    "news_signature": "0f717b1a819e9d06f38b7172",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
