@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 3.2 h.",
+    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 3.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 3.23,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T11:32:49Z",
-    "last_seen_at": "2026-07-09T14:46:45Z",
-    "active_duration_hours": 3.23,
+    "last_seen_at": "2026-07-09T14:47:01Z",
+    "active_duration_hours": 3.24,
     "active_duration_label": "3.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "605036cd4933e23cbd32e2f6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
