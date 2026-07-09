@@ -46,8 +46,11 @@
     "active_duration_hours": 0.68,
     "active_duration_label": "41 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T19:17:44Z",
+    "news_signature": "2c5fbf9676fd2d682a74dce0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - G1; Notícias públicas - Jornal Correio; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 6.8 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - G1; Notícias públicas - Jornal Correio; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,8 +135,11 @@
     "active_duration_hours": 6.84,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T19:17:44Z",
+    "news_signature": "9db24094278cdde37b8e74e8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -150,7 +156,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 7.8 h.",
+    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -163,7 +169,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-09T19:16:31Z",
     "sources": [
       {
@@ -183,7 +189,10 @@
     "last_seen_at": "2026-07-09T19:17:44Z",
     "active_duration_hours": 7.75,
     "active_duration_label": "7.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T19:17:44Z",
+    "news_signature": "605036cd4933e23cbd32e2f6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -200,7 +209,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-04T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.7 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 45.7 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-04T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.7 dias.7 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 45.7 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -244,6 +253,9 @@
     "last_seen_at": "2026-07-09T19:17:44Z",
     "active_duration_hours": 1096.3,
     "active_duration_label": "45.7 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T19:17:44Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
