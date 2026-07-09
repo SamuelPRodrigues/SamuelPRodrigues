@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno da Dutra será interditado em Piraí - O Dia. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-08T22:01:03Z; ativo há 3.5 h.",
+    "description": "Retorno da Dutra será interditado em Piraí - O Dia. Fontes consolidadas: Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-08T22:01:03Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-08T22:01:03Z",
     "last_seen_at": "2026-07-09T01:33:44Z",
-    "active_duration_hours": 3.54,
+    "active_duration_hours": 3.55,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T01:33:44Z",
+    "news_signature": "138a96620565ecca2ffacdc7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Após bloquear BR 364 em Rondônia, indígenas também interditam trecho de rodovia que liga Vilhena a cidades de Mato Grosso - .: FOLHA DO SUL ONLINE :.. Fontes consolidadas: Notícias públicas - .: FOLHA DO SUL ONLINE :.; Notícias públicas - G1; Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-08T19:56:00Z; ativo há 5.6 h.",
+    "description": "Após bloquear BR 364 em Rondônia, indígenas também interditam trecho de rodovia que liga Vilhena a cidades de Mato Grosso - .: FOLHA DO SUL ONLINE :.. Fontes consolidadas: Notícias públicas - .: FOLHA DO SUL ONLINE :.; Notícias públicas - G1; Notícias públicas - oobservador.com. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-08T19:56:00Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,7 +99,10 @@
     "active_duration_hours": 5.63,
     "active_duration_label": "5.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T01:33:44Z",
+    "news_signature": "0e25fbae00b9cce801d2d2b2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
