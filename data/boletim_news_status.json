@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-07-09T19:18:02Z",
+  "updatedAt": "2026-07-09T19:33:38Z",
   "queries": 6,
-  "newItemsBeforeMerge": 59,
+  "newItemsBeforeMerge": 4,
   "savedRoadNewsReused": 4,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 53,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "DNIT alerta para interdição parcial no km 604 da BR-324/BA, em Simões Filho - www.gov.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre em acidente entre duas carretas e MGC-497 é totalmente interditada em Uberlândia - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Trecho da BR-324 é liberado, no sentido Feira de Santana, após mais de 24 horas de interdição - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Colisão entre dois veículos deixa dois mortos e quatro feridos na BR-116, em Cabrobó - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Duas carretas caem de viaduto após batida na BR-364 em Cuiabá - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Batida entre carro, carreta e caminhão deixa uma pessoa ferida na BR-163 em MT - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Caminhonete capota na BR-381 após bater de frente com carro no Vale do Aço - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Batida entre carro, carreta e caminhão deixa uma pessoa ferida na BR-163 em MT - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Dois motoristas morrem em batida de frente entre caminhonete e carro na BR-116 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Colisão entre dois veículos deixa dois mortos e quatro feridos na BR-116, em Cabrobó - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Ônibus do transporte público tomba na Grande BH e deixa feridos - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro com excesso de passageiros capota na BR-163 e deixa seis pessoas feridas em MS - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Temporal atinge municípios de SP e causa transtornos em diversas regiões - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "NÃO MUDAR - Acompanhe em tempo real os transtornos causados pela chuva forte no ES - A Gazeta",
-      "reason": "not_operationally_relevant"
+      "category": "mobilization",
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Vídeos mostram momento em que tornado devasta cidade na China em meio à passagem de supertufão - O GLOBO",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Primeiro fim de semana de julho tem frio, geada e chuva forte no País - band.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuvas intensas: Inmet emite alerta para João Pessoa e outras 133 cidades - Jornal da Paraíba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Com rios no limite e chuva forte, cidade de SC corre contra o tempo para salvar produção rural - ND Mais",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte adia Som&Sol na cidade de São João Batista; nova data já foi confirmada - TopElegance",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Frente fria no Sul: alerta de temporais e chuva forte - Clima ao vivo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Forte chuva muda horário de México e Inglaterra no Azteca - O Dia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ondas de Leste: o que causa a chuva forte e repentina em Salvador e Lauro de Freitas? - A TARDE",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "JP1: Chuva forte e calor de 35°C podem atingir Piracicaba; VEJA - sampi.net.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Tempestade provoca atraso em México x Inglaterra pela Copa - LANCE!",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal atinge o estádio Azteca horas antes de México x Inglaterra - GE",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
