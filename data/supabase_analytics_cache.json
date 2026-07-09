@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T11:32:35Z",
+  "updatedAt": "2026-07-09T11:39:59Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -62,14 +62,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "fd87f101405e0c8f6ca39098",
+      "stable_event_id": "fd87f101405e0c8f6ca39098",
+      "observation_hash": "e189b3a92acba2b67e973ceb",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
+      "first_seen_at": "2026-07-09T11:39:55+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-324",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Interdição ou bloqueio por notícia pública • BR-324",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-324",
+      "description": "Trecho da BR-324 volta a ceder e rodovia é interditada outra vez na Bahia - Jornal Correio.. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Correio",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV00yTmlWVEpIUklhZHBMellGMVV4VDlpNUFQYXRLMlAtd2pKeWhpdjNtMnhJMGlVbGZIS1Z3SHFuUXBrYjg2X2NYeFJVd2ptTU9RQzdrWUlxQ05icjNSc1VpTlZIaWNTS2g5S3FzLS1uNk1BUDg4dVp5dGJfRTBfVUkwMG12ekJ6NzNTaTRFNXJlSE9BTTNyRkQ0ZFNibTBOVXdEcHd4aWluZWVGRVp4Xzd6dGpBVGY5NUtrOVVqS1hNdw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV00yTmlWVEpIUklhZHBMellGMVV4VDlpNUFQYXRLMlAtd2pKeWhpdjNtMnhJMGlVbGZIS1Z3SHFuUXBrYjg2X2NYeFJVd2ptTU9RQzdrWUlxQ05icjNSc1VpTlZIaWNTS2g5S3FzLS1uNk1BUDg4dVp5dGJfRTBfVUkwMG12ekJ6NzNTaTRFNXJlSE9BTTNyRkQ0ZFNibTBOVXdEcHd4aWluZWVGRVp4Xzd6dGpBVGY5NUtrOVVqS1hNdw",
+      "headline": "Trecho da BR-324 volta a ceder e rodovia é interditada outra vez na Bahia - Jornal Correio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV00yTmlWVEpIUklhZHBMellGMVV4VDlpNUFQYXRLMlAtd2pKeWhpdjNtMnhJMGlVbGZIS1Z3SHFuUXBrYjg2X2NYeFJVd2ptTU9RQzdrWUlxQ05icjNSc1VpTlZIaWNTS2g5S3FzLS1uNk1BUDg4dVp5dGJfRTBfVUkwMG12ekJ6NzNTaTRFNXJlSE9BTTNyRkQ0ZFNibTBOVXdEcHd4aWluZWVGRVp4Xzd6dGpBVGY5NUtrOVVqS1hNdw",
+          "headline": "Trecho da BR-324 volta a ceder e rodovia é interditada outra vez na Bahia - Jornal Correio.",
+          "date": "2026-07-09T11:39:56.513107+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "51029115093cfd56c6561340",
       "stable_event_id": "51029115093cfd56c6561340",
-      "observation_hash": "1ae18e7615fa823f7a9139f7",
+      "observation_hash": "f8b49c6d0282979729b33856",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-07-09T10:33:11+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -85,8 +128,8 @@
       "description": "BR-101 é interditada após carreta pegar fogo em Anchieta - Sim Notícias.. Fontes consolidadas: Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Sim Notícias",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbndJQ2R6OGl1SzBWeVlWWHhBR1RON3dSbzdPc0VBUTNCRkhWUV9Hd0hvNU9kTURiUy1TYjVscUJsWFNfUlNwZ0puYWswWjhMZEp1QnFGbTNHdzVicC1UeGtuRmNvMlpGcHUtY29rR0I2OGRaV0ZzbmNtdUsxTngyQ3hLZExfNUUwVHpjUDRXOU1uZzhldzNV",
-      "total_snapshots": 5,
-      "estimated_hours": 1.25,
+      "total_snapshots": 6,
+      "estimated_hours": 1.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +140,7 @@
           "source": "Notícias públicas - Sim Notícias",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbndJQ2R6OGl1SzBWeVlWWHhBR1RON3dSbzdPc0VBUTNCRkhWUV9Hd0hvNU9kTURiUy1TYjVscUJsWFNfUlNwZ0puYWswWjhMZEp1QnFGbTNHdzVicC1UeGtuRmNvMlpGcHUtY29rR0I2OGRaV0ZzbmNtdUsxTngyQ3hLZExfNUUwVHpjUDRXOU1uZzhldzNV",
           "headline": "BR-101 é interditada após carreta pegar fogo em Anchieta - Sim Notícias.",
-          "date": "2026-07-09T11:32:32.544446+00:00"
+          "date": "2026-07-09T11:39:56.513107+00:00"
         }
       ],
       "sourceCount": 1,
@@ -7786,10 +7829,10 @@
       "stable_event_id": "66e1791f8dbba3841f3d59de",
       "observation_hash": "d8a19c2af421054e6bb57ed4",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -7805,8 +7848,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 43.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1095,
-      "estimated_hours": 273.75,
+      "total_snapshots": 1096,
+      "estimated_hours": 274.0,
       "active": true,
       "storage": "supabase"
     },
@@ -7989,10 +8032,10 @@
       "stable_event_id": "16af4132e97e98b46886d5b2",
       "observation_hash": "dbad55fdedb7df62efbf699c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-05-26T23:16:39+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8008,8 +8051,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 43.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1337,
-      "estimated_hours": 334.25,
+      "total_snapshots": 1338,
+      "estimated_hours": 334.5,
       "active": true,
       "storage": "supabase"
     },
@@ -8221,10 +8264,10 @@
       "stable_event_id": "57a64278cbd624610c5498e1",
       "observation_hash": "85c4193b1e0389a60ef33d19",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8240,8 +8283,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 44.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1923,
-      "estimated_hours": 480.75,
+      "total_snapshots": 1924,
+      "estimated_hours": 481.0,
       "active": true,
       "storage": "supabase"
     },
@@ -8569,10 +8612,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "807050d4e780a9dc19f517ba",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8588,8 +8631,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 44.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1653,
-      "estimated_hours": 413.25,
+      "total_snapshots": 1654,
+      "estimated_hours": 413.5,
       "active": true,
       "storage": "supabase"
     },
@@ -9845,10 +9888,10 @@
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "bac2fb669b82bcaa92d0613f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T11:32:31+00:00",
+      "snapshot_at": "2026-07-09T11:39:55+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T11:32:31+00:00",
-      "updated_at": "2026-07-09T11:32:32.544446+00:00",
+      "last_seen_at": "2026-07-09T11:39:55+00:00",
+      "updated_at": "2026-07-09T11:39:56.513107+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -9864,8 +9907,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 44.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1312,
-      "estimated_hours": 328.0,
+      "total_snapshots": 1313,
+      "estimated_hours": 328.25,
       "active": true,
       "storage": "supabase"
     },
@@ -11438,16 +11481,16 @@
   ],
   "windows": {
     "7": {
-      "events": 97,
+      "events": 98,
       "avgRisk": 42,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 69,
-        "road": 28
+        "road": 29
       },
       "byRegion": {
-        "Nordeste": 32,
+        "Nordeste": 33,
         "Sul": 28,
         "Sudeste": 19,
         "Norte": 16,
@@ -11455,7 +11498,7 @@
       },
       "bySeverity": {
         "Moderado": 47,
-        "Alto": 28,
+        "Alto": 29,
         "Baixo": 22
       },
       "dailyRisk": [
@@ -11503,23 +11546,23 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 32,
-          "events": 25,
+          "avgRisk": 34,
+          "events": 26,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 204,
+      "events": 205,
       "avgRisk": 52,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "road": 109,
+        "road": 110,
         "climate": 95
       },
       "byRegion": {
-        "Nordeste": 61,
+        "Nordeste": 62,
         "Sudeste": 57,
         "Sul": 34,
         "Norte": 27,
@@ -11527,7 +11570,7 @@
         "Sem região": 9
       },
       "bySeverity": {
-        "Alto": 110,
+        "Alto": 111,
         "Moderado": 68,
         "Baixo": 26
       },
@@ -11714,24 +11757,24 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 32,
-          "events": 25,
+          "avgRisk": 34,
+          "events": 26,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 302,
+      "events": 303,
       "avgRisk": 54,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 167,
+        "road": 168,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 83,
+        "Nordeste": 84,
         "Sudeste": 79,
         "Sul": 60,
         "Norte": 50,
@@ -11739,7 +11782,7 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 171,
+        "Alto": 172,
         "Moderado": 105,
         "Baixo": 26
       },
@@ -12016,8 +12059,8 @@
         },
         {
           "date": "2026-07-09",
-          "avgRisk": 32,
-          "events": 25,
+          "avgRisk": 34,
+          "events": 26,
           "maxRisk": 69
         }
       ]
