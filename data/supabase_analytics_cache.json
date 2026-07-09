@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-07-09T23:33:31Z",
+  "updatedAt": "2026-07-09T23:46:58Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
-    {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "17aeee8dfc44ecacb853a3a5",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 82,
-      "severity": "Crítico",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 44.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1515,
-      "estimated_hours": 378.75,
-      "active": true,
-      "storage": "supabase"
-    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -91,63 +62,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "34b80ff18962e2f4892a568f",
-      "stable_event_id": "34b80ff18962e2f4892a568f",
-      "observation_hash": "3b3f7eca858a7e34b62135f6",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
-      "first_seen_at": "2026-07-09T23:33:26+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-101",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "BR-101",
-      "description": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.. Fontes consolidadas: Notícias públicas - agorasul.com.br + 1 fonte(s); Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - agorasul.com.br + 1 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
-      "headline": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.",
-      "sources": [
-        {
-          "source": "Notícias públicas - agorasul.com.br + 1 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
-          "headline": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
-        },
-        {
-          "source": "Notícias públicas - Tribuna Online",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNWI2YkNTb1RIN1FxRW5Bb3ctS05HNW5fWGFSX1dXRngyMnh2Z1BfWVVuMzU1dlhNbU5jMDVvRVZOVFNwaXVTeVY4NHNIeUVEaTFQNllOTGl0LVg3OWFiTHRFUU9EY0JzS1hsa0JVMHdJSklXMGpZQmZpUGktd3hydTVHUXpxTWxNMXdIUkhVeU1pd3lsUEJuVEFWTkFOQUNHcmNiY3lZb0d4d1QwT3JTYkVHN05YYXRBdV93YTViUWPSAcgBQVVfeXFMUGxUN0FxUGdoRkM2Ylc0VXZJZ3I1QmM4THg5cUtZa0dSUWFzTENETEdsUmQ4QmxSdkN3N1lEVDkzX3U0Sk9DekxkUGZvY1dSMUM4M1hXZmF5Q3oxNGJYbzQyeXpDZE1hTXplZmE4azB4Y2I3LXFuWTRFdl9VNFdpQVpLRkZneTQyXzF1QjRNNDBqQ1dXZ0otU3FLV1dBcU5GQTZSN0JMTU5zY2JneWNkMmwtQThvUGxJczk0Sy04NzJWai12eHNoX2g",
-          "headline": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online.",
-          "date": "2026-07-09T23:16:52.268077+00:00"
-        }
-      ],
-      "sourceCount": 2,
-      "dedupedFrom": 2,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "19243915e28957b8db6a145b",
       "stable_event_id": "19243915e28957b8db6a145b",
-      "observation_hash": "0ed8bc8ae9d411fb22c10a87",
+      "observation_hash": "f62b0fab883d5d837db7232e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
       "first_seen_at": "2026-07-09T19:47:38+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -163,8 +85,8 @@
       "description": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul.. Fontes consolidadas: Notícias públicas - Ligado no Sul + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Ligado no Sul + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbHh3Y0pRQ2I1OXRXZW1qSVUwcjRsYm13NWhPTTFMY0dWeUNUWm5tMDFqT1RZWXdRekNrMkRwdUpGX3VockRQTXZOV1hWc09nM2JQVWt4emxoczdPSVF2MlFBempUWXNKQVFJYzlqSDF4VUpDYVc3Tjd5WmdrREV2ZlFORHV4b0ZCeVl0VEpvZC1JaDhqdDRDTkxQcnVBVjVGWnJMTm5EMnV2Z0pfVjR4X1lwUW01UGZyMzczbWlfRjE5dm5HbUItTUJfc2l3UHZHMi1iUGQwa1Z3bkxXRE1hTms4TQ",
-      "total_snapshots": 19,
-      "estimated_hours": 4.75,
+      "total_snapshots": 20,
+      "estimated_hours": 5.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -175,7 +97,7 @@
           "source": "Notícias públicas - Ligado no Sul + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbHh3Y0pRQ2I1OXRXZW1qSVUwcjRsYm13NWhPTTFMY0dWeUNUWm5tMDFqT1RZWXdRekNrMkRwdUpGX3VockRQTXZOV1hWc09nM2JQVWt4emxoczdPSVF2MlFBempUWXNKQVFJYzlqSDF4VUpDYVc3Tjd5WmdrREV2ZlFORHV4b0ZCeVl0VEpvZC1JaDhqdDRDTkxQcnVBVjVGWnJMTm5EMnV2Z0pfVjR4X1lwUW01UGZyMzczbWlfRjE5dm5HbUItTUJfc2l3UHZHMi1iUGQwa1Z3bkxXRE1hTms4TQ",
           "headline": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
+          "date": "2026-07-09T23:46:55.196605+00:00"
         }
       ],
       "sourceCount": 1,
@@ -183,14 +105,63 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "34b80ff18962e2f4892a568f",
+      "stable_event_id": "34b80ff18962e2f4892a568f",
+      "observation_hash": "cbb5a40db87fac1b1638ee87",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
+      "first_seen_at": "2026-07-09T23:33:26+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "BR-101",
+      "description": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.. Fontes consolidadas: Notícias públicas - agorasul.com.br + 1 fonte(s); Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - agorasul.com.br + 1 fonte(s) + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
+      "headline": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.",
+      "sources": [
+        {
+          "source": "Notícias públicas - agorasul.com.br + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHp5LXRYcDB4WGtsSVhFWENsXzMyZE9jWUQxUmtwWDhtRXloVTNuUnNDNEpLdWM3NVREb2dwQW5LbXBvMFV6Si16QU4wYmhzaFNoUkxhUThIa1ZvRHpHRVY2Mmc5S1c2RjR6MDE1STRmOUJpUUJSSWxRRW5SYzRFVmNnOHRXRDJuQ2RMQ084eTRqaTRWZGlkTzRTZmVzSDZsSG5rVncyZXhockJoal91eHh2N3ZSZDh1eE9VNk5UR2o1dFNFN1ZsaDZVbTJhbzhWT3c",
+          "headline": "Ponte Anita Garibaldi será totalmente interditada a partir desta quinta-feira para reparo emergencial na BR-101 - agorasul.com.br.",
+          "date": "2026-07-09T23:46:55.196605+00:00"
+        },
+        {
+          "source": "Notícias públicas - Tribuna Online",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNWI2YkNTb1RIN1FxRW5Bb3ctS05HNW5fWGFSX1dXRngyMnh2Z1BfWVVuMzU1dlhNbU5jMDVvRVZOVFNwaXVTeVY4NHNIeUVEaTFQNllOTGl0LVg3OWFiTHRFUU9EY0JzS1hsa0JVMHdJSklXMGpZQmZpUGktd3hydTVHUXpxTWxNMXdIUkhVeU1pd3lsUEJuVEFWTkFOQUNHcmNiY3lZb0d4d1QwT3JTYkVHN05YYXRBdV93YTViUWPSAcgBQVVfeXFMUGxUN0FxUGdoRkM2Ylc0VXZJZ3I1QmM4THg5cUtZa0dSUWFzTENETEdsUmQ4QmxSdkN3N1lEVDkzX3U0Sk9DekxkUGZvY1dSMUM4M1hXZmF5Q3oxNGJYbzQyeXpDZE1hTXplZmE4azB4Y2I3LXFuWTRFdl9VNFdpQVpLRkZneTQyXzF1QjRNNDBqQ1dXZ0otU3FLV1dBcU5GQTZSN0JMTU5zY2JneWNkMmwtQThvUGxJczk0Sy04NzJWai12eHNoX2g",
+          "headline": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online.",
+          "date": "2026-07-09T23:16:52.268077+00:00"
+        }
+      ],
+      "sourceCount": 2,
+      "dedupedFrom": 2,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "11d6aef6c8514e6dff333da0",
       "stable_event_id": "11d6aef6c8514e6dff333da0",
-      "observation_hash": "0ee1a68e5b3e73ede641220b",
+      "observation_hash": "28debf81678c7a448e2945d5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
       "first_seen_at": "2026-07-09T13:04:01+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -206,8 +177,8 @@
       "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE.. Fontes consolidadas: Notícias públicas - A TARDE + 7 fonte(s); Notícias públicas - Jornal Correio + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - A TARDE + 7 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0VxUTd4RXMzQkNQYll3WmVNMEVDUnlreWJkSEZ0Zi1MdFVYaXoyVGpWbGd2ZkNhNkd6WUxGVUVzcDhfQWEzdWplZUFqNkxIZ3JmRW0yeGJwY0JwUjFsTTZXV01WSS02R2RfdlFBYllXMjFpRFBEOXB4ZXM1OWZVTDF3Nl9GRjlaOVVRNEVfLTRoSTB4eGJLT0ppWjYxc2REOTAwMkFybG00UdIBsgFBVV95cUxOdGk2TjVZNmsxenJHZWxnVTlhdVZGcVpwbVhWN3F3NzU4TUpsZk50RVczSm5DWmFIWDJVOFhROHE4SmgzZ2JfUVQtM2p6SGl5Q283dXJ5eW91Ni1mZ010SmlvTHRPMmxuUmRHLTJBdHhPYktIY1FwR3A4ekFoWWdUakJMRUdTQm1seEZHX2VwRy1ZTmNaX2pVenRZejdCb0g5MkpLTW9pMk9yV2JSSUkyLWN3",
-      "total_snapshots": 49,
-      "estimated_hours": 12.25,
+      "total_snapshots": 50,
+      "estimated_hours": 12.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -218,7 +189,7 @@
           "source": "Notícias públicas - A TARDE + 7 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0VxUTd4RXMzQkNQYll3WmVNMEVDUnlreWJkSEZ0Zi1MdFVYaXoyVGpWbGd2ZkNhNkd6WUxGVUVzcDhfQWEzdWplZUFqNkxIZ3JmRW0yeGJwY0JwUjFsTTZXV01WSS02R2RfdlFBYllXMjFpRFBEOXB4ZXM1OWZVTDF3Nl9GRjlaOVVRNEVfLTRoSTB4eGJLT0ppWjYxc2REOTAwMkFybG00UdIBsgFBVV95cUxOdGk2TjVZNmsxenJHZWxnVTlhdVZGcVpwbVhWN3F3NzU4TUpsZk50RVczSm5DWmFIWDJVOFhROHE4SmgzZ2JfUVQtM2p6SGl5Q283dXJ5eW91Ni1mZ010SmlvTHRPMmxuUmRHLTJBdHhPYktIY1FwR3A4ekFoWWdUakJMRUdTQm1seEZHX2VwRy1ZTmNaX2pVenRZejdCb0g5MkpLTW9pMk9yV2JSSUkyLWN3",
           "headline": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
+          "date": "2026-07-09T23:46:55.196605+00:00"
         },
         {
           "source": "Notícias públicas - Jornal Correio + 1 fonte(s)",
@@ -234,12 +205,12 @@
     {
       "event_id": "4ba46673f653a24f68449227",
       "stable_event_id": "4ba46673f653a24f68449227",
-      "observation_hash": "327184d71bef9e631d54d3d1",
+      "observation_hash": "6be5e3f32026c07c46169950",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
       "first_seen_at": "2026-07-09T18:47:45+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -255,8 +226,8 @@
       "description": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba.. Fontes consolidadas: Notícias públicas - Band News FM Curitiba + 1 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NoN2ZmaXkwcFdPYUJLVmxodXVVSW5vSVRWZUFHdDJVQ0FrWVNwM1llZVJvU2NrVmFldk50ZHY2TlItZTJkbERhcUNqS0FCWERtcnJ4RTA0VUx5VE1LakVUYmlSY0RmemMwUTk4ZHQwODZTX25fdU5IZHdTSG1uUlFkbllnc3A0QWstWngwQmt6LV8zQ1dhSGp2VnNRdw",
-      "total_snapshots": 23,
-      "estimated_hours": 5.75,
+      "total_snapshots": 24,
+      "estimated_hours": 6.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -267,7 +238,7 @@
           "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NoN2ZmaXkwcFdPYUJLVmxodXVVSW5vSVRWZUFHdDJVQ0FrWVNwM1llZVJvU2NrVmFldk50ZHY2TlItZTJkbERhcUNqS0FCWERtcnJ4RTA0VUx5VE1LakVUYmlSY0RmemMwUTk4ZHQwODZTX25fdU5IZHdTSG1uUlFkbllnc3A0QWstWngwQmt6LV8zQ1dhSGp2VnNRdw",
           "headline": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
+          "date": "2026-07-09T23:46:55.196605+00:00"
         },
         {
           "source": "Notícias públicas - G1",
@@ -283,12 +254,12 @@
     {
       "event_id": "fd52919d6902c426b4469e7c",
       "stable_event_id": "fd52919d6902c426b4469e7c",
-      "observation_hash": "52a3ebbe6b7dc497b443f1eb",
+      "observation_hash": "3541accc6e2d1b0fe2357b58",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:20+00:00",
+      "snapshot_at": "2026-07-09T23:46:50+00:00",
       "first_seen_at": "2026-07-09T19:47:38+00:00",
-      "last_seen_at": "2026-07-09T23:33:20+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
+      "last_seen_at": "2026-07-09T23:46:50+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -304,8 +275,8 @@
       "description": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul.. Fontes consolidadas: Notícias públicas - Ligado no Sul + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Ligado no Sul + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbHh3Y0pRQ2I1OXRXZW1qSVUwcjRsYm13NWhPTTFMY0dWeUNUWm5tMDFqT1RZWXdRekNrMkRwdUpGX3VockRQTXZOV1hWc09nM2JQVWt4emxoczdPSVF2MlFBempUWXNKQVFJYzlqSDF4VUpDYVc3Tjd5WmdrREV2ZlFORHV4b0ZCeVl0VEpvZC1JaDhqdDRDTkxQcnVBVjVGWnJMTm5EMnV2Z0pfVjR4X1lwUW01UGZyMzczbWlfRjE5dm5HbUItTUJfc2l3UHZHMi1iUGQwa1Z3bkxXRE1hTms4TQ",
-      "total_snapshots": 19,
-      "estimated_hours": 4.75,
+      "total_snapshots": 20,
+      "estimated_hours": 5.0,
       "active": false,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -316,7 +287,7 @@
           "source": "Notícias públicas - Ligado no Sul + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbHh3Y0pRQ2I1OXRXZW1qSVUwcjRsYm13NWhPTTFMY0dWeUNUWm5tMDFqT1RZWXdRekNrMkRwdUpGX3VockRQTXZOV1hWc09nM2JQVWt4emxoczdPSVF2MlFBempUWXNKQVFJYzlqSDF4VUpDYVc3Tjd5WmdrREV2ZlFORHV4b0ZCeVl0VEpvZC1JaDhqdDRDTkxQcnVBVjVGWnJMTm5EMnV2Z0pfVjR4X1lwUW01UGZyMzczbWlfRjE5dm5HbUItTUJfc2l3UHZHMi1iUGQwa1Z3bkxXRE1hTms4TQ",
           "headline": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
+          "date": "2026-07-09T23:46:55.196605+00:00"
         }
       ],
       "sourceCount": 1,
@@ -457,7 +428,7 @@
           "source": "Notícias públicas - NSC Total + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNllEMFFlbkh6dVNFMzRXVGROSGhZMmlzZGpIQnFjTVBqNVVQeFlwam0yVzdjU2FjNVhESDhpNjZfS1FQS3lVVHpxSUZPM202RnpJeXI5OC1SWnpSck1FcXpjTlYxTjdRVG1fTWFqTzEzU0lRRDFnSzIxZzZDdTJOVFJRcFhHbkREb1ptdGp4ZzBrZi1sQjBCNUEzNzhkMC1RVV9hdkY1VUpkSkRnaXAyem5KQ0FYaVFMc3JNVG1Wcm40TkduQmlfTDIxbw",
           "headline": "Principal travessia da BR-101 no Sul de SC é interditada para reparo emergencial; veja detalhes - NSC Total.",
-          "date": "2026-07-09T23:33:27.316532+00:00"
+          "date": "2026-07-09T23:46:55.196605+00:00"
         },
         {
           "source": "Notícias públicas - Tribuna Online + 2 fonte(s)",
@@ -7937,6 +7908,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "c25dc15fb2efad34a7eeee51",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 64,
+      "severity": "Alto",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 44.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1516,
+      "estimated_hours": 379.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -8927,10 +8927,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "845cf930a0c18ce382f48e6e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-09T23:33:25+00:00",
+      "snapshot_at": "2026-07-09T23:46:53+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-09T23:33:25+00:00",
-      "updated_at": "2026-07-09T23:33:27.316532+00:00",
+      "last_seen_at": "2026-07-09T23:46:53+00:00",
+      "updated_at": "2026-07-09T23:46:55.196605+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -8946,8 +8946,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 45.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2169,
-      "estimated_hours": 542.25,
+      "total_snapshots": 2170,
+      "estimated_hours": 542.5,
       "active": true,
       "storage": "supabase"
     },
@@ -11740,7 +11740,7 @@
     "7": {
       "events": 101,
       "avgRisk": 44,
-      "maxRisk": 82,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 69,
@@ -11755,9 +11755,8 @@
       },
       "bySeverity": {
         "Moderado": 48,
-        "Alto": 32,
-        "Baixo": 20,
-        "Crítico": 1
+        "Alto": 33,
+        "Baixo": 20
       },
       "dailyRisk": [
         {
@@ -11800,14 +11799,14 @@
           "date": "2026-07-09",
           "avgRisk": 41,
           "events": 51,
-          "maxRisk": 82
+          "maxRisk": 69
         }
       ]
     },
     "30": {
       "events": 206,
       "avgRisk": 52,
-      "maxRisk": 82,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "road": 111,
@@ -11822,10 +11821,9 @@
         "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 112,
+        "Alto": 113,
         "Moderado": 67,
-        "Baixo": 26,
-        "Crítico": 1
+        "Baixo": 26
       },
       "dailyRisk": [
         {
@@ -12006,14 +12004,14 @@
           "date": "2026-07-09",
           "avgRisk": 41,
           "events": 51,
-          "maxRisk": 82
+          "maxRisk": 69
         }
       ]
     },
     "90": {
       "events": 308,
       "avgRisk": 54,
-      "maxRisk": 82,
+      "maxRisk": 78,
       "rainChance": 25,
       "byType": {
         "road": 173,
@@ -12029,10 +12027,9 @@
         "Sem região": 13
       },
       "bySeverity": {
-        "Alto": 177,
+        "Alto": 178,
         "Moderado": 104,
-        "Baixo": 26,
-        "Crítico": 1
+        "Baixo": 26
       },
       "dailyRisk": [
         {
@@ -12309,7 +12306,7 @@
           "date": "2026-07-09",
           "avgRisk": 41,
           "events": 51,
-          "maxRisk": 82
+          "maxRisk": 69
         }
       ]
     }
