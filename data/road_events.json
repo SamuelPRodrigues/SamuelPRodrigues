@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 é interditada após carreta pegar fogo em Anchieta - Sim Notícias. Fontes consolidadas: Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-09T10:17:00Z; ativo há 49 min.",
+    "description": "BR-101 é interditada após carreta pegar fogo em Anchieta - Sim Notícias. Fontes consolidadas: Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-09T10:17:00Z; ativo há 50 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbndJQ2R6OGl1SzBWeVlWWHhBR1RON3dSbzdPc0VBUTNCRkhWUV9Hd0hvNU9kTURiUy1TYjVscUJsWFNfUlNwZ0puYWswWjhMZEp1QnFGbTNHdzVicC1UeGtuRmNvMlpGcHUtY29rR0I2OGRaV0ZzbmNtdUsxTngyQ3hLZExfNUUwVHpjUDRXOU1uZzhldzNV",
     "headline": "BR-101 é interditada após carreta pegar fogo em Anchieta - Sim Notícias",
     "newsDate": "Thu, 09 Jul 2026 10:17:00 GMT",
-    "updatedAt": "2026-07-09T10:55:56Z",
+    "updatedAt": "2026-07-09T11:06:20Z",
     "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbndJQ2R6OGl1SzBWeVlWWHhBR1RON3dSbzdPc0VBUTNCRkhWUV9Hd0hvNU9kTURiUy1TYjVscUJsWFNfUlNwZ0puYWswWjhMZEp1QnFGbTNHdzVicC1UeGtuRmNvMlpGcHUtY29rR0I2OGRaV0ZzbmNtdUsxTngyQ3hLZExfNUUwVHpjUDRXOU1uZzhldzNV",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "51029115093cfd56c6561340",
     "event_id": "51029115093cfd56c6561340",
-    "newsFreshnessHours": 0.67,
+    "newsFreshnessHours": 0.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T10:17:00Z",
-    "last_seen_at": "2026-07-09T10:57:12Z",
-    "active_duration_hours": 0.82,
-    "active_duration_label": "49 min",
+    "last_seen_at": "2026-07-09T11:07:34Z",
+    "active_duration_hours": 0.84,
+    "active_duration_label": "50 min",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-09T10:57:12Z",
-    "news_signature": "65e6519918dfd77c1fd571a0",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
