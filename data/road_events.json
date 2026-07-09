@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-09T18:36:58Z; ativo há 3.2 h.",
+    "description": "Faixa da BR-277, em Morretes, é interditada após acidente com morte - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-09T18:36:58Z; ativo há 3.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T18:36:58Z",
     "last_seen_at": "2026-07-09T21:47:57Z",
-    "active_duration_hours": 3.18,
+    "active_duration_hours": 3.19,
     "active_duration_label": "3.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T21:47:57Z",
+    "news_signature": "2c5fbf9676fd2d682a74dce0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-09T13:30:00Z; ativo há 8.3 h.",
+    "description": "Trecho da SC-108 entre Cocal do Sul e Urussanga será interditado nesta quinta-feira para detonação de rochas - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-09T13:30:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,9 +99,12 @@
     "active_duration_hours": 8.3,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-108"
+    "detectedRoad": "SC-108",
+    "last_confirmed_at": "2026-07-09T21:47:57Z",
+    "news_signature": "0a11c1f2aaacdfea6312d367",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -110,7 +116,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - G1; Notícias públicas - Jornal Correio; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 9.3 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após formação de nova cratera - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - G1; Notícias públicas - Jornal Correio; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; Notícias públicas - - Bahia Economica; +1 fonte(s). Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-09T12:27:18Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -180,11 +186,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T12:27:18Z",
     "last_seen_at": "2026-07-09T21:47:57Z",
-    "active_duration_hours": 9.34,
+    "active_duration_hours": 9.35,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T21:47:57Z",
+    "news_signature": "9db24094278cdde37b8e74e8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -201,7 +210,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 10.2 h.",
+    "description": "BR-101 fica totalmente interditada após carreta pegar fogo em Anchieta - Tribuna Online. Período informado: 2026-07-09T11:32:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-09T11:32:49Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -214,7 +223,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-09T21:46:43Z",
     "sources": [
       {
@@ -232,9 +241,12 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T11:32:49Z",
     "last_seen_at": "2026-07-09T21:47:57Z",
-    "active_duration_hours": 10.25,
-    "active_duration_label": "10.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 10.26,
+    "active_duration_label": "10.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T21:47:57Z",
+    "news_signature": "605036cd4933e23cbd32e2f6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -251,7 +263,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-04T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.8 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 45.8 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-04T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.8 dias.8 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 45.8 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -295,6 +307,9 @@
     "last_seen_at": "2026-07-09T21:47:57Z",
     "active_duration_hours": 1098.8,
     "active_duration_label": "45.8 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-09T21:47:57Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
