@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T08:20:29Z",
+  "updatedAt": "2026-07-09T08:34:05Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -19,7 +19,7 @@
   "publicFallbackRawArticles": 200,
   "publicFallbackEventsWritten": 6,
   "publicFallbackSkippedNoCorridor": 0,
-  "publicFallbackSkippedReleased": 11,
+  "publicFallbackSkippedReleased": 10,
   "keptPreviousOnApiFailure": false,
   "errors": [
     {
@@ -1322,6 +1322,6 @@
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
-    "gdelt-fallback: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    "gdelt-fallback: HTTP Error 429: Too Many Requests"
   ]
 }
