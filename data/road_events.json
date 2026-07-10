@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - lerunica.com.br; Notícias públicas - Hora Certa Notícias. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 8.8 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - lerunica.com.br; Notícias públicas - Hora Certa Notícias. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -49,11 +49,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:01:16Z",
     "last_seen_at": "2026-07-10T07:46:56Z",
-    "active_duration_hours": 8.76,
+    "active_duration_hours": 8.77,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T07:46:56Z",
+    "news_signature": "1d0a85b6a8b0edcd67e0e615",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -70,7 +73,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 7.2 h.",
+    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -83,7 +86,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-10T04:16:57Z",
     "sources": [
       {
@@ -103,7 +106,10 @@
     "last_seen_at": "2026-07-10T07:46:56Z",
     "active_duration_hours": 7.24,
     "active_duration_label": "7.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T07:46:56Z",
+    "news_signature": "1d760ced99389464f504d075",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -120,7 +126,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Anita Garibaldi é totalmente interditada na BR-101 para reparo emergencial - Notisul. Período informado: 2026-07-09T23:13:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notisul; Notícias públicas - agorasul.com.br; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-09T23:13:27Z; ativo há 8.6 h.",
+    "description": "Ponte Anita Garibaldi é totalmente interditada na BR-101 para reparo emergencial - Notisul. Período informado: 2026-07-09T23:13:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notisul; Notícias públicas - agorasul.com.br; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-09T23:13:27Z; ativo há 8.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -133,7 +139,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-10T07:45:43Z",
     "sources": [
       {
@@ -165,6 +171,9 @@
     "last_seen_at": "2026-07-10T07:46:56Z",
     "active_duration_hours": 8.56,
     "active_duration_label": "8.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T07:46:56Z",
+    "news_signature": "f7c5d13353d870210632e500",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
