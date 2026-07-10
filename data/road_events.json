@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; Notícias públicas - meromidia.com.br; Notícias públicas - abcmais.com; +2 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 13.0 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; Notícias públicas - meromidia.com.br; Notícias públicas - abcmais.com; +2 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 13.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -78,12 +78,14 @@
     "newsFreshnessHours": 0.45,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:01:16Z",
-    "last_seen_at": "2026-07-10T12:02:45Z",
-    "active_duration_hours": 13.02,
+    "last_seen_at": "2026-07-10T12:03:02Z",
+    "active_duration_hours": 13.03,
     "active_duration_label": "13.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "34c49167ce257ca21b3c0bbb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -100,7 +102,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 11.5 h.",
+    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -113,7 +115,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-10T04:16:57Z",
     "sources": [
       {
@@ -133,6 +135,9 @@
     "last_seen_at": "2026-07-10T12:02:45Z",
     "active_duration_hours": 11.5,
     "active_duration_label": "11.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T12:02:45Z",
+    "news_signature": "1d760ced99389464f504d075",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
