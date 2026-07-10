@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T15:36:06Z",
-    "last_seen_at": "2026-07-10T15:42:31Z",
+    "last_seen_at": "2026-07-10T15:42:46Z",
     "active_duration_hours": 0.11,
     "active_duration_label": "7 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0d353c58ea5d3c6094205a8a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; +2 fonte(s). Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 1.8 h.",
+    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; Notícias públicas - Taktá No AR; Notícias públicas - Se Ligue Bahia; +2 fonte(s). Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,8 +134,11 @@
     "active_duration_hours": 1.8,
     "active_duration_label": "1.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T15:42:31Z",
+    "news_signature": "6e6b53f7a99238e1cb336435",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -145,7 +150,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; +9 fonte(s). Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 16.7 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; +9 fonte(s). Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 16.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -260,7 +265,10 @@
     "active_duration_hours": 16.69,
     "active_duration_label": "16.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T15:42:31Z",
+    "news_signature": "e26a515fc16578bd1c3cba45",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
