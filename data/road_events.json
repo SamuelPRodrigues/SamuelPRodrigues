@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - Independente; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +11 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 20.0 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - Independente; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +11 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 20.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -136,8 +136,11 @@
     "active_duration_hours": 20.04,
     "active_duration_label": "20.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:03:34Z",
+    "news_signature": "4205a67e4384e5278f6618ad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -149,7 +152,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 3.5 h.",
+    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -180,8 +183,11 @@
     "active_duration_hours": 3.46,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:03:34Z",
+    "news_signature": "0d353c58ea5d3c6094205a8a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -193,7 +199,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Após acidente com caminhão, BR-040 é interditada temporariamente em Ewbank da Câmara para limpeza da pista. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-10T14:13:00Z; ativo há 4.8 h.",
+    "description": "Após acidente com caminhão, BR-040 é interditada temporariamente em Ewbank da Câmara para limpeza da pista. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-10T14:13:00Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -220,12 +226,14 @@
     "newsFreshnessHours": 4.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T14:13:00Z",
-    "last_seen_at": "2026-07-10T19:03:34Z",
-    "active_duration_hours": 4.84,
+    "last_seen_at": "2026-07-10T19:03:48Z",
+    "active_duration_hours": 4.85,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "de70802fb50f574ecb3260a7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -237,7 +245,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; +3 fonte(s). Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 5.2 h.",
+    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; +3 fonte(s). Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -328,8 +336,11 @@
     "active_duration_hours": 5.15,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:03:34Z",
+    "news_signature": "40c9d5e1cf45ab6a27f0d7a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -346,7 +357,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 20 min.",
+    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 21 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -376,9 +387,11 @@
     "newsFreshnessHours": 0.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T18:43:00Z",
-    "last_seen_at": "2026-07-10T19:03:34Z",
-    "active_duration_hours": 0.34,
-    "active_duration_label": "20 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-07-10T19:03:48Z",
+    "active_duration_hours": 0.35,
+    "active_duration_label": "21 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "20e4cd57908774d6e7b32f07",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
