@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T18:47:12Z",
+  "updatedAt": "2026-07-10T19:03:33Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -1824,13 +1824,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-07-10T18:33:16Z",
+      "updatedAt": "2026-07-10T19:03:33Z",
       "sources": [
         {
           "source": "sctododia",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmdqOFR1ekNFQ3pPZHZzVmtwU0N3T3hsbjZOYW9TLVRrdkJoX180ZS1nQm1VMndQSVRFc1BiTC1iUkdpYXBOTVZEWm1lRkxSTGtfWU1CLURiTEhUa1ZOZ0NaVDJQaXJoRDNIZFdpWUF1aXh4cTlxdnFtRWlFTTBKQjBnR0JnUFI1TGZoQXY0bTk1TDlsY1JZcEdiVjAxNVg2SHlMeWhOckk3MGRjR2kw?oc=5",
           "headline": "Ponte Anita Garibaldi é totalmente interditada na BR-101; veja como ficam os desvios - sctododia",
           "date": "2026-07-10T12:27:34Z"
+        }
+      ]
+    },
+    "e0d64bce1211dbb9d679490b": {
+      "active": true,
+      "event_id": "e0d64bce1211dbb9d679490b",
+      "stable_event_id": "e0d64bce1211dbb9d679490b",
+      "name": "Interdição planejada por notícia pública • BR-163",
+      "road": "BR-163",
+      "corridor": "Cascavel • BR-277 / BR-163 / BR-369",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -24.955,
+      "lon": -53.455,
+      "city": "Cascavel",
+      "state": "PR",
+      "region": "Sul",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN.  Período informado: 2026-07-10T18:43:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - CGN",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2hTdkpiYU1zcXYzOHlMbHJfRXdVa25PeTVBNlM1LWJFNl8tZ2wyeUYxMUo3YzZQU2lHeFRqcnFXeE5UWWV4RnAySXNqSmM1ZExKTlo5U0NSSDRWajU1UEVxenhXeHo2WkxacnFLb1MyZ0FaVmpYLVRkek5XVE0yNXJ4UW9wVXlTSFJaODNRV1Juc1Mta2stQWFBOTV5Qk1MamRvdHdXeHZHY2dJRUtRMNIBtgFBVV95cUxNWWp6UnlDS2Z4b21peEkwV3lvZ0pVenYzV240eGRFcmx2MFNXTk9NTjl0ZW5JNDZPQmtWUWN4T09ub3lyUlRtVldUZ3hkZHhTZUd6b044cHRqNl9qNzlkUlRUcnlFNWd1ZzQ1NndpdVd6UExRRDJJTnZJZnk5OENIZnBDZUllWUROaHFTSl9BajBUM0hBWEZ6aElkcWtpRGRMZE9SQlNmekFhaTRtUnA3NEdyWmRUUQ?oc=5",
+      "headline": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN",
+      "newsDate": "2026-07-10T18:43:00Z",
+      "plannedStartAt": "2026-07-10T18:43:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-07-10T19:03:33Z",
+      "sources": [
+        {
+          "source": "CGN",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2hTdkpiYU1zcXYzOHlMbHJfRXdVa25PeTVBNlM1LWJFNl8tZ2wyeUYxMUo3YzZQU2lHeFRqcnFXeE5UWWV4RnAySXNqSmM1ZExKTlo5U0NSSDRWajU1UEVxenhXeHo2WkxacnFLb1MyZ0FaVmpYLVRkek5XVE0yNXJ4UW9wVXlTSFJaODNRV1Juc1Mta2stQWFBOTV5Qk1MamRvdHdXeHZHY2dJRUtRMNIBtgFBVV95cUxNWWp6UnlDS2Z4b21peEkwV3lvZ0pVenYzV240eGRFcmx2MFNXTk9NTjl0ZW5JNDZPQmtWUWN4T09ub3lyUlRtVldUZ3hkZHhTZUd6b044cHRqNl9qNzlkUlRUcnlFNWd1ZzQ1NndpdVd6UExRRDJJTnZJZnk5OENIZnBDZUllWUROaHFTSl9BajBUM0hBWEZ6aElkcWtpRGRMZE9SQlNmekFhaTRtUnA3NEdyWmRUUQ?oc=5",
+          "headline": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN",
+          "date": "2026-07-10T18:43:00Z"
         }
       ]
     }
