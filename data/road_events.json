@@ -14,7 +14,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 4.1 h.",
+    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 4.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T18:43:00Z",
-    "last_seen_at": "2026-07-10T22:47:12Z",
-    "active_duration_hours": 4.07,
+    "last_seen_at": "2026-07-10T22:47:28Z",
+    "active_duration_hours": 4.08,
     "active_duration_label": "4.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2985edbc67b78e6de035c243",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
