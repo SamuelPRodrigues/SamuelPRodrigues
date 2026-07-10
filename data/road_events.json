@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 2.7 h.",
+    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T15:36:06Z",
     "last_seen_at": "2026-07-10T18:17:07Z",
-    "active_duration_hours": 2.68,
+    "active_duration_hours": 2.69,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T18:17:07Z",
+    "news_signature": "0d353c58ea5d3c6094205a8a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; +3 fonte(s). Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 4.4 h.",
+    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Taktá No AR; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; +3 fonte(s). Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -141,10 +144,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T13:54:46Z",
     "last_seen_at": "2026-07-10T18:17:07Z",
-    "active_duration_hours": 4.37,
+    "active_duration_hours": 4.38,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T18:17:07Z",
+    "news_signature": "40c9d5e1cf45ab6a27f0d7a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
