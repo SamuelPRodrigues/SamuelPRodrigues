@@ -85,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T13:54:46Z",
     "last_seen_at": "2026-07-10T14:32:44Z",
-    "active_duration_hours": 0.63,
+    "active_duration_hours": 0.64,
     "active_duration_label": "38 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T14:32:44Z",
+    "news_signature": "6e6b53f7a99238e1cb336435",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -101,7 +104,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; Notícias públicas - meromidia.com.br; +8 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 15.5 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - Visor Notícias; Notícias públicas - lerunica.com.br; Notícias públicas - meromidia.com.br; +8 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 15.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -207,10 +210,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:01:16Z",
     "last_seen_at": "2026-07-10T14:32:44Z",
-    "active_duration_hours": 15.52,
+    "active_duration_hours": 15.53,
     "active_duration_label": "15.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T14:32:44Z",
+    "news_signature": "8560989cbf78ea12a03ee145",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
