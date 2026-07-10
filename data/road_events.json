@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - lerunica.com.br; Notícias públicas - Hora Certa Notícias. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 8.3 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - lerunica.com.br; Notícias públicas - Hora Certa Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 8.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUk1fcVN3WjF6eGJCQkhPYUdnVjhFNVowUGpfakIzSDNmQVBTYmVBWng1T2ZmT1ZHeU9iQjVjanZ3Q3E3ZFR6bnFMWWVlVGtTeXdNZlFNY3ZZZnVYVmNrSktxZk02Zi1DYjBUbHR2cGlRWWtsTHpXZm5pTTR6WE5BWU9ZOHhFdmc5RDVXdQ",
     "headline": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania",
     "newsDate": "Thu, 09 Jul 2026 23:47:08 GMT",
-    "updatedAt": "2026-07-10T07:16:01Z",
+    "updatedAt": "2026-07-10T07:31:20Z",
     "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUk1fcVN3WjF6eGJCQkhPYUdnVjhFNVowUGpfakIzSDNmQVBTYmVBWng1T2ZmT1ZHeU9iQjVjanZ3Q3E3ZFR6bnFMWWVlVGtTeXdNZlFNY3ZZZnVYVmNrSktxZk02Zi1DYjBUbHR2cGlRWWtsTHpXZm5pTTR6WE5BWU9ZOHhFdmc5RDVXdQ",
     "sources": [
       {
@@ -45,17 +45,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "06686088e7d2915e752b354a",
     "event_id": "06686088e7d2915e752b354a",
-    "newsFreshnessHours": 7.5,
+    "newsFreshnessHours": 7.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:01:16Z",
-    "last_seen_at": "2026-07-10T07:17:36Z",
-    "active_duration_hours": 8.27,
-    "active_duration_label": "8.3 h",
+    "last_seen_at": "2026-07-10T07:32:37Z",
+    "active_duration_hours": 8.52,
+    "active_duration_label": "8.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "1d0a85b6a8b0edcd67e0e615",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -72,7 +70,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 6.8 h.",
+    "description": "Ponte na BR-101 é totalmente interditada para obras emergenciais após vistoria apontar risco estrutural - ND Mais. Período informado: 2026-07-10T00:32:46Z até fim não identificado. Fontes consolidadas: ND Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-10T00:32:46Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +83,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-07-10T04:16:57Z",
     "sources": [
       {
@@ -99,16 +97,13 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 6.74,
+    "newsFreshnessHours": 7.0,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T00:32:46Z",
-    "last_seen_at": "2026-07-10T07:17:21Z",
-    "active_duration_hours": 6.75,
-    "active_duration_label": "6.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-10T07:17:21Z",
-    "news_signature": "1d760ced99389464f504d075",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-07-10T07:32:37Z",
+    "active_duration_hours": 7.0,
+    "active_duration_label": "7.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -125,7 +120,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Anita Garibaldi é totalmente interditada na BR-101 para reparo emergencial - Notisul. Período informado: 2026-07-09T23:13:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notisul; Notícias públicas - agorasul.com.br; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-09T23:13:27Z; ativo há 8.1 h.",
+    "description": "Ponte Anita Garibaldi é totalmente interditada na BR-101 para reparo emergencial - Notisul. Período informado: 2026-07-09T23:13:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notisul; Notícias públicas - agorasul.com.br; Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-09T23:13:27Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -138,8 +133,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-07-10T07:16:06Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-07-10T07:31:24Z",
     "sources": [
       {
         "source": "Notícias públicas - Notisul",
@@ -164,15 +159,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.07,
+    "newsFreshnessHours": 8.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:13:27Z",
-    "last_seen_at": "2026-07-10T07:17:21Z",
-    "active_duration_hours": 8.07,
-    "active_duration_label": "8.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-10T07:17:21Z",
-    "news_signature": "f7c5d13353d870210632e500",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-07-10T07:32:37Z",
+    "active_duration_hours": 8.32,
+    "active_duration_label": "8.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
