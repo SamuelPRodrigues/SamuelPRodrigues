@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 21 min.",
+    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 22 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.35,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T19:12:16Z",
-    "last_seen_at": "2026-07-10T19:33:22Z",
-    "active_duration_hours": 0.35,
-    "active_duration_label": "21 min",
+    "last_seen_at": "2026-07-10T19:33:38Z",
+    "active_duration_hours": 0.36,
+    "active_duration_label": "22 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2dc51017491b663ebfb1c060",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; +10 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 20.5 h.",
+    "description": "Travessia na BR-101 é totalmente bloqueada e muda rota de quem segue entre RS e SC - Litoralmania. Fontes consolidadas: Notícias públicas - Litoralmania; Notícias públicas - Tribuna Online; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; +10 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-09T23:01:16Z; ativo há 20.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,12 +178,14 @@
     "newsFreshnessHours": 1.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-09T23:01:16Z",
-    "last_seen_at": "2026-07-10T19:33:22Z",
+    "last_seen_at": "2026-07-10T19:33:38Z",
     "active_duration_hours": 20.54,
     "active_duration_label": "20.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5c02a7ede4509808849a2f9f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -193,7 +197,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 4.0 h.",
+    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -221,11 +225,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T15:36:06Z",
     "last_seen_at": "2026-07-10T19:33:22Z",
-    "active_duration_hours": 3.95,
+    "active_duration_hours": 3.96,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:33:22Z",
+    "news_signature": "0d353c58ea5d3c6094205a8a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -237,7 +244,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Após acidente com caminhão, BR-040 é interditada temporariamente em Ewbank da Câmara para limpeza da pista. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-10T14:13:00Z; ativo há 5.3 h.",
+    "description": "Após acidente com caminhão, BR-040 é interditada temporariamente em Ewbank da Câmara para limpeza da pista. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-10T14:13:00Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -268,8 +275,11 @@
     "active_duration_hours": 5.34,
     "active_duration_label": "5.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:33:22Z",
+    "news_signature": "de70802fb50f574ecb3260a7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -281,7 +291,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; Notícias públicas - Taktá No AR; +3 fonte(s). Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 5.6 h.",
+    "description": "Obras mantêm trecho da BR-324 interditado e causam congestionamento de 4 km. Fontes consolidadas: Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Muita Informação; Notícias públicas - Panorama da Bahia; Notícias públicas - Blog do Valente; Notícias públicas - Taktá No AR; +3 fonte(s). Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-10T13:54:46Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -362,12 +372,14 @@
     "newsFreshnessHours": 5.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T13:54:46Z",
-    "last_seen_at": "2026-07-10T19:33:22Z",
-    "active_duration_hours": 5.64,
-    "active_duration_label": "5.6 h",
+    "last_seen_at": "2026-07-10T19:33:38Z",
+    "active_duration_hours": 5.65,
+    "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "290828a8605ace9b1ca6ad43",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -397,7 +409,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-10T19:32:08Z",
     "sources": [
       {
@@ -417,6 +429,9 @@
     "last_seen_at": "2026-07-10T19:33:22Z",
     "active_duration_hours": 0.84,
     "active_duration_label": "50 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-10T19:33:22Z",
+    "news_signature": "20e4cd57908774d6e7b32f07",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
