@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Viaduto na BR-163 em Rondonópolis será interditado neste domingo (12) | HiperNotícias - Você bem informado - HiperNotícias - Você bem informado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado; Notícias públicas - Veja Bem MT; Notícias públicas - G1; Notícias públicas - Primeira Hora; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-11T15:11:00Z; ativo há 1.6 h.",
+    "description": "Viaduto na BR-163 em Rondonópolis será interditado neste domingo (12) | HiperNotícias - Você bem informado - HiperNotícias - Você bem informado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado; Notícias públicas - Veja Bem MT; Notícias públicas - G1; Notícias públicas - Primeira Hora; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-11T15:11:00Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -64,8 +64,11 @@
     "active_duration_hours": 1.6,
     "active_duration_label": "1.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T16:46:50Z",
+    "news_signature": "2212d458ffb409413a7d3ad0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +80,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada em Morretes para remoção de caminhão acidentado - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-11T14:08:39Z; ativo há 2.6 h.",
+    "description": "BR-277 é interditada em Morretes para remoção de caminhão acidentado - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-11T14:08:39Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -114,8 +117,11 @@
     "active_duration_hours": 2.64,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T16:46:50Z",
+    "news_signature": "807826b23c5b9f3d6cadfcf6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +133,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 3.5 h.",
+    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -155,10 +161,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T13:15:57Z",
     "last_seen_at": "2026-07-11T16:46:50Z",
-    "active_duration_hours": 3.51,
+    "active_duration_hours": 3.52,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T16:46:50Z",
+    "news_signature": "e80185c0dfaa8c41d27b30b5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
