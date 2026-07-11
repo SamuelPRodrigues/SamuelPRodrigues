@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +6 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 4.0 h.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +6 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -112,8 +112,11 @@
     "active_duration_hours": 3.98,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T07:46:52Z",
+    "news_signature": "43f65c04f4e9de3fd569dcf7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -125,7 +128,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 11.9 h.",
+    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -156,8 +159,11 @@
     "active_duration_hours": 11.91,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-406"
+    "detectedRoad": "SC-406",
+    "last_confirmed_at": "2026-07-11T07:46:52Z",
+    "news_signature": "19359eb452268dd93a772394",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
