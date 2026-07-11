@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +6 fonte(s). Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 6.7 h.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +6 fonte(s). Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,11 +108,13 @@
     "newsFreshnessHours": 5.91,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T03:48:04Z",
-    "last_seen_at": "2026-07-11T10:32:30Z",
+    "last_seen_at": "2026-07-11T10:32:43Z",
     "active_duration_hours": 6.74,
     "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "18f8093e96ddab38a58f11c2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
