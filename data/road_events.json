@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-282",
+    "road": "BR-282",
+    "corridor": "Florianópolis / São José • BR-101 / BR-282",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -27.595,
+    "lon": -48.548,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - NSC Total",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeF9yQWRkMDNqVnV5THY2ZkZmTFVXQTBvMHhISmZtUEM1cjl5Q2lVVlJwYzVNOFNsdTBMWmdwQkxLTDNWcE5Bb3hNa1ZLb3p0a2hfRlRxWXp6enI0RkpLdnFkbnRMZXpYTVlEZldINVBfeGNYVHlQZ05tTEhVSkRDazhCOEhSTEUtWnpIT3VOWDJMYmJZNC1hc29ianlEMVdxV21aWUo1M093Q3UtY1BNNUJDcm5PNUZ6LWlCSGJrNjUxZUZ0Qy1tME5fRUdSeVZ2cUNRSw",
+    "headline": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total",
+    "newsDate": "Sat, 11 Jul 2026 13:15:57 GMT",
+    "updatedAt": "2026-07-11T13:31:17Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeF9yQWRkMDNqVnV5THY2ZkZmTFVXQTBvMHhISmZtUEM1cjl5Q2lVVlJwYzVNOFNsdTBMWmdwQkxLTDNWcE5Bb3hNa1ZLb3p0a2hfRlRxWXp6enI0RkpLdnFkbnRMZXpYTVlEZldINVBfeGNYVHlQZ05tTEhVSkRDazhCOEhSTEUtWnpIT3VOWDJMYmJZNC1hc29ianlEMVdxV21aWUo1M093Q3UtY1BNNUJDcm5PNUZ6LWlCSGJrNjUxZUZ0Qy1tME5fRUdSeVZ2cUNRSw",
+    "sources": [
+      {
+        "source": "Notícias públicas - NSC Total",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeF9yQWRkMDNqVnV5THY2ZkZmTFVXQTBvMHhISmZtUEM1cjl5Q2lVVlJwYzVNOFNsdTBMWmdwQkxLTDNWcE5Bb3hNa1ZLb3p0a2hfRlRxWXp6enI0RkpLdnFkbnRMZXpYTVlEZldINVBfeGNYVHlQZ05tTEhVSkRDazhCOEhSTEUtWnpIT3VOWDJMYmJZNC1hc29ianlEMVdxV21aWUo1M093Q3UtY1BNNUJDcm5PNUZ6LWlCSGJrNjUxZUZ0Qy1tME5fRUdSeVZ2cUNRSw",
+        "headline": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total",
+        "date": "Sat, 11 Jul 2026 13:15:57 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "13d3610517dcf439f6a1d85b",
+    "event_id": "13d3610517dcf439f6a1d85b",
+    "newsFreshnessHours": 0.28,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-11T13:15:57Z",
+    "last_seen_at": "2026-07-11T13:32:33Z",
+    "active_duration_hours": 0.28,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-324",
     "road": "BR-324",
     "corridor": "Salvador • BR-324 / BR-101 / BA-099",
@@ -9,7 +53,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +4 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 9.5 h.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +4 fonte(s). Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUFaY2JOV0hfaWpRejJMVWduWnZlR2Y5UUxyd1dJMlU1NFdIaXFDWk9UTXVKVGJNX0llSHYyY2dkcmZjWjBXa285a0JfX3pDWmVvYVZITjR1WkZLdHNNSGI3MG1TV0Q4dVFPNGk2V2ZlS00teDVhaWhDcHo4NS1VQXVPbncwaWE0VV9GN0VHVU5TcjJleXZjQ09B",
     "headline": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo",
     "newsDate": "Sat, 11 Jul 2026 04:38:07 GMT",
-    "updatedAt": "2026-07-11T13:15:51Z",
+    "updatedAt": "2026-07-11T13:31:17Z",
     "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUFaY2JOV0hfaWpRejJMVWduWnZlR2Y5UUxyd1dJMlU1NFdIaXFDWk9UTXVKVGJNX0llSHYyY2dkcmZjWjBXa285a0JfX3pDWmVvYVZITjR1WkZLdHNNSGI3MG1TV0Q4dVFPNGk2V2ZlS00teDVhaWhDcHo4NS1VQXVPbncwaWE0VV9GN0VHVU5TcjJleXZjQ09B",
     "sources": [
       {
@@ -93,17 +137,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "93b4d4f513dbb8af8e4f530b",
     "event_id": "93b4d4f513dbb8af8e4f530b",
-    "newsFreshnessHours": 8.65,
+    "newsFreshnessHours": 8.91,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T03:48:04Z",
-    "last_seen_at": "2026-07-11T13:17:12Z",
-    "active_duration_hours": 9.49,
-    "active_duration_label": "9.5 h",
+    "last_seen_at": "2026-07-11T13:32:33Z",
+    "active_duration_hours": 9.74,
+    "active_duration_label": "9.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-11T13:17:12Z",
-    "news_signature": "4347848a3aae29481047b554",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
