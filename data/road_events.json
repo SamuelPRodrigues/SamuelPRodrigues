@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +5 fonte(s). Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 14 min.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +5 fonte(s). Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 15 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,12 +102,14 @@
     "newsFreshnessHours": 0.24,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T03:48:04Z",
-    "last_seen_at": "2026-07-11T04:02:38Z",
-    "active_duration_hours": 0.24,
-    "active_duration_label": "14 min",
+    "last_seen_at": "2026-07-11T04:02:53Z",
+    "active_duration_hours": 0.25,
+    "active_duration_label": "15 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3e6690687ef520eca77424df",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -119,7 +121,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 8.2 h.",
+    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -147,12 +149,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T19:52:20Z",
     "last_seen_at": "2026-07-11T04:02:38Z",
-    "active_duration_hours": 8.17,
+    "active_duration_hours": 8.18,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-406"
+    "detectedRoad": "SC-406",
+    "last_confirmed_at": "2026-07-11T04:02:38Z",
+    "news_signature": "19359eb452268dd93a772394",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -164,7 +169,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 8.8 h.",
+    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -195,8 +200,11 @@
     "active_duration_hours": 8.84,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T04:02:38Z",
+    "news_signature": "2dc51017491b663ebfb1c060",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -208,7 +216,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte Anita Garibaldi na BR 101 em Laguna é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +11 fonte(s). Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-10T17:59:32Z; ativo há 10.1 h.",
+    "description": "Ponte Anita Garibaldi na BR 101 em Laguna é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +11 fonte(s). Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-10T17:59:32Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -338,11 +346,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T17:59:32Z",
     "last_seen_at": "2026-07-11T04:02:38Z",
-    "active_duration_hours": 10.05,
+    "active_duration_hours": 10.06,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T04:02:38Z",
+    "news_signature": "ae5405ad0c2767ca7d1f42fa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -359,7 +370,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 9.3 h.",
+    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -372,7 +383,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-11T04:01:25Z",
     "sources": [
       {
@@ -392,6 +403,9 @@
     "last_seen_at": "2026-07-11T04:02:38Z",
     "active_duration_hours": 9.33,
     "active_duration_label": "9.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T04:02:38Z",
+    "news_signature": "20e4cd57908774d6e7b32f07",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
