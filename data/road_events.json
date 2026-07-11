@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +5 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 6.0 h.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Portal do Casé; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; +5 fonte(s). Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -17,15 +17,15 @@
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUFaY2JOV0hfaWpRejJMVWduWnZlR2Y5UUxyd1dJMlU1NFdIaXFDWk9UTXVKVGJNX0llSHYyY2dkcmZjWjBXa285a0JfX3pDWmVvYVZITjR1WkZLdHNNSGI3MG1TV0Q4dVFPNGk2V2ZlS00teDVhaWhDcHo4NS1VQXVPbncwaWE0VV9GN0VHVU5TcjJleXZjQ09B",
     "headline": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo",
-    "newsDate": "Sat, 11 Jul 2026 03:48:04 GMT",
-    "updatedAt": "2026-07-11T09:46:39Z",
+    "newsDate": "Sat, 11 Jul 2026 04:38:07 GMT",
+    "updatedAt": "2026-07-11T10:01:10Z",
     "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUFaY2JOV0hfaWpRejJMVWduWnZlR2Y5UUxyd1dJMlU1NFdIaXFDWk9UTXVKVGJNX0llSHYyY2dkcmZjWjBXa285a0JfX3pDWmVvYVZITjR1WkZLdHNNSGI3MG1TV0Q4dVFPNGk2V2ZlS00teDVhaWhDcHo4NS1VQXVPbncwaWE0VV9GN0VHVU5TcjJleXZjQ09B",
     "sources": [
       {
         "source": "Notícias públicas - Tribuna do Recôncavo",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUFaY2JOV0hfaWpRejJMVWduWnZlR2Y5UUxyd1dJMlU1NFdIaXFDWk9UTXVKVGJNX0llSHYyY2dkcmZjWjBXa285a0JfX3pDWmVvYVZITjR1WkZLdHNNSGI3MG1TV0Q4dVFPNGk2V2ZlS00teDVhaWhDcHo4NS1VQXVPbncwaWE0VV9GN0VHVU5TcjJleXZjQ09B",
         "headline": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo",
-        "date": "Sat, 11 Jul 2026 03:48:04 GMT"
+        "date": "Sat, 11 Jul 2026 04:38:07 GMT"
       },
       {
         "source": "Notícias públicas - Portal do Casé",
@@ -99,17 +99,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "93b4d4f513dbb8af8e4f530b",
     "event_id": "93b4d4f513dbb8af8e4f530b",
-    "newsFreshnessHours": 6.0,
+    "newsFreshnessHours": 5.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T03:48:04Z",
-    "last_seen_at": "2026-07-11T09:47:57Z",
-    "active_duration_hours": 6.0,
-    "active_duration_label": "6.0 h",
+    "last_seen_at": "2026-07-11T10:02:24Z",
+    "active_duration_hours": 6.24,
+    "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-11T09:47:57Z",
-    "news_signature": "b09b9bc0f617444bd7183a6a",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
