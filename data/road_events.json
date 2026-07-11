@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 33 min.",
+    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 34 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T13:15:57Z",
     "last_seen_at": "2026-07-11T13:49:13Z",
-    "active_duration_hours": 0.55,
-    "active_duration_label": "33 min",
+    "active_duration_hours": 0.56,
+    "active_duration_label": "34 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T13:49:13Z",
+    "news_signature": "3541585e0c84620f30827036",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; Notícias públicas - Panorama da Bahia; +3 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 10.0 h.",
+    "description": "Nova cratera mantém BR-324 interditada e provoca congestionamento nos dois sentidos - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - G1; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - Portal Salvador FM; Notícias públicas - Panorama da Bahia; +3 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-11T03:48:04Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,11 +137,13 @@
     "newsFreshnessHours": 9.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T03:48:04Z",
-    "last_seen_at": "2026-07-11T13:49:13Z",
+    "last_seen_at": "2026-07-11T13:49:24Z",
     "active_duration_hours": 10.02,
     "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cf880d61e3898f083941e2a1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
