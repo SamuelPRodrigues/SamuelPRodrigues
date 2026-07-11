@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-07-11T08:48:52Z",
+  "updatedAt": "2026-07-11T09:03:03Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
+  "newItemsBeforeMerge": 54,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 55,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motorista morre em acidente entre duas carretas e MGC-497 é totalmente interditada em Uberlândia - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Trecho da BR-324 é liberado, no sentido Feira de Santana, após mais de 24 horas de interdição - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre dois veículos deixa dois mortos e quatro feridos na BR-116, em Cabrobó - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após ser atingido por carro na Rodovia Marechal Rondon em Promissão - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Mãe e filha de 3 anos morrem atropeladas por carreta na BR-101, em Rosário do Catete - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Dois motoristas morrem em batida de frente entre caminhonete e carro na BR-116 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre dois veículos deixa dois mortos e quatro feridos na BR-116, em Cabrobó - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caminhoneiro morre após veículo capotar na BR-101, na PB - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro com excesso de passageiros capota na BR-163 e deixa seis pessoas feridas em MS - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Confusão com motorista, relatos divergentes: o que se sabe sobre ônibus que tombou na BR-040 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Duas carretas caem de viaduto após batida na BR-364 em Cuiabá - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Vídeos mostram momento em que tornado devasta cidade na China em meio à passagem de supertufão - O GLOBO",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "weather_news",
+      "title": "NÃO MUDAR - Acompanhe em tempo real os transtornos causados pela chuva forte no ES - A Gazeta",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "weather_news",
+      "title": "Fim de semana terá chuva forte no Sul e calor no Sudeste - Agrolink",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "weather_news",
+      "title": "Com rios no limite e chuva forte, cidade de SC corre contra o tempo para salvar produção rural - ND Mais",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria no Sul: alerta de temporais e chuva forte - Clima ao vivo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte chuva muda horário de México e Inglaterra no Azteca - O Dia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "JP1: Chuva forte e calor de 35°C podem atingir Piracicaba; VEJA - sampi.net.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ondas de Leste: o que causa a chuva forte e repentina em Salvador e Lauro de Freitas? - A TARDE",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Temporais que rumam para o RS já causam destruição em cidade da fronteira e até tornado na Argentina - abcmais.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria avança sobre SP nesta quarta-feira e pode provocar temporais - Climatempo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Fim de semana começa com alerta para chuva forte e temporais em SC - TubaNews",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Tempestade provoca atraso em México x Inglaterra pela Copa - LANCE!",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal atinge o estádio Azteca horas antes de México x Inglaterra - GE",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva intensa provoca queda de muro em cemitério e causa transtornos em Igarapava - Diário de São Paulo",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
