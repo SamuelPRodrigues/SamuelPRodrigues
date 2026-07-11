@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 6.4 h.",
+    "description": "SC-406 é interditada no Morro da Praia Mole após óleo ser derramado na pista - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-10T19:52:20Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 6.42,
     "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-406"
+    "detectedRoad": "SC-406",
+    "last_confirmed_at": "2026-07-11T02:17:13Z",
+    "news_signature": "19359eb452268dd93a772394",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 7.1 h.",
+    "description": "Viaduto da BR-163 em Rondonópolis será interditado neste domingo para obras no pavimento - Primeira Hora. Fontes consolidadas: Notícias públicas - Primeira Hora. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-10T19:12:16Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T19:12:16Z",
     "last_seen_at": "2026-07-11T02:17:13Z",
-    "active_duration_hours": 7.08,
+    "active_duration_hours": 7.09,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T02:17:13Z",
+    "news_signature": "2dc51017491b663ebfb1c060",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte Anita Garibaldi na BR 101 em Laguna é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +10 fonte(s). Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-10T17:59:32Z; ativo há 8.3 h.",
+    "description": "Ponte Anita Garibaldi na BR 101 em Laguna é interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Independente; Notícias públicas - ND Mais; Notícias públicas - NSC Total; Notícias públicas - CBN Total; Notícias públicas - lerunica.com.br; +10 fonte(s). Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-10T17:59:32Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -221,12 +227,14 @@
     "newsFreshnessHours": 8.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-10T17:59:32Z",
-    "last_seen_at": "2026-07-11T02:17:13Z",
-    "active_duration_hours": 8.29,
+    "last_seen_at": "2026-07-11T02:17:27Z",
+    "active_duration_hours": 8.3,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "def756aaca003898ae17d7c5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -238,7 +246,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 10.7 h.",
+    "description": "Ponte sobre o Rio Jacuí, na BR-116/RS, será bloqueada a partir desta terça-feira (14) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-10T15:36:06Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -269,8 +277,11 @@
     "active_duration_hours": 10.69,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T02:17:13Z",
+    "news_signature": "0d353c58ea5d3c6094205a8a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -287,7 +298,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 7.6 h.",
+    "description": "BR-163 fica totalmente interditada para destombamento de carreta em Cascavel - CGN. Período informado: 2026-07-10T18:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-10T18:43:00Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -300,7 +311,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-11T02:15:59Z",
     "sources": [
       {
@@ -320,6 +331,9 @@
     "last_seen_at": "2026-07-11T02:17:13Z",
     "active_duration_hours": 7.57,
     "active_duration_label": "7.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-11T02:17:13Z",
+    "news_signature": "20e4cd57908774d6e7b32f07",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
