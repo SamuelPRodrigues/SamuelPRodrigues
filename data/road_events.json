@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - nsctotal.com.br. Fontes consolidadas: Notícias públicas - nsctotal.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-11T17:13:00Z; ativo há 6.8 h.",
+    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - nsctotal.com.br. Fontes consolidadas: Notícias públicas - nsctotal.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-11T17:13:00Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T17:13:00Z",
     "last_seen_at": "2026-07-12T00:02:59Z",
-    "active_duration_hours": 6.83,
+    "active_duration_hours": 6.84,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T00:02:59Z",
+    "news_signature": "cc79e371d35807d98d985f48",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Viaduto na BR-163 em Rondonópolis será interditado neste domingo (12) | HiperNotícias - Você bem informado - HiperNotícias - Você bem informado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado; Notícias públicas - G1; Notícias públicas - Primeira Hora; Notícias públicas - Olhar Direto; Notícias públicas - Estradas; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-11T15:11:00Z; ativo há 8.9 h.",
+    "description": "Viaduto na BR-163 em Rondonópolis será interditado neste domingo (12) | HiperNotícias - Você bem informado - HiperNotícias - Você bem informado. Fontes consolidadas: Notícias públicas - HiperNotícias - Você bem informado; Notícias públicas - G1; Notícias públicas - Primeira Hora; Notícias públicas - Olhar Direto; Notícias públicas - Estradas; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-11T15:11:00Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -114,8 +117,11 @@
     "active_duration_hours": 8.87,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T00:02:59Z",
+    "news_signature": "81bedde3abdb977e6de43513",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +133,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada em Morretes para remoção de caminhão acidentado - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-11T14:08:39Z; ativo há 9.9 h.",
+    "description": "BR-277 é interditada em Morretes para remoção de caminhão acidentado - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-11T14:08:39Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -164,8 +170,11 @@
     "active_duration_hours": 9.91,
     "active_duration_label": "9.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T00:02:59Z",
+    "news_signature": "807826b23c5b9f3d6cadfcf6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -182,7 +191,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 2.9 h.",
+    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -195,7 +204,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-12T00:01:45Z",
     "sources": [
       {
@@ -215,6 +224,9 @@
     "last_seen_at": "2026-07-12T00:02:59Z",
     "active_duration_hours": 2.92,
     "active_duration_label": "2.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T00:02:59Z",
+    "news_signature": "9711f73efd5682f51e34238d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
