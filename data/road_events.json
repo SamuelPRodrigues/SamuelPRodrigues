@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais; Portal AHora. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 9.4 h.",
+    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais; Portal AHora. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-07-12T06:31:12Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-07-12T06:46:50Z",
     "sources": [
       {
         "source": "Notícias públicas - ND Mais",
@@ -47,15 +47,12 @@
     "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.41,
+    "newsFreshnessHours": 9.67,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T21:07:47Z",
-    "last_seen_at": "2026-07-12T06:32:24Z",
-    "active_duration_hours": 9.41,
-    "active_duration_label": "9.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-12T06:32:24Z",
-    "news_signature": "6d1a9c344aa105e63ca912ec",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-07-12T06:48:04Z",
+    "active_duration_hours": 9.67,
+    "active_duration_label": "9.7 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
