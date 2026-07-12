@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 14.0 h.",
+    "description": "\"Extrema cautela\": PRF faz alerta após deslizamento atingir a BR-282 durante temporais em Santa Catarina - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-11T13:15:57Z; ativo há 14.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 14.04,
     "active_duration_label": "14.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T03:18:07Z",
+    "news_signature": "2929e932d7fe12977c67b168",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais; Portal AHora. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 6.2 h.",
+    "description": "Ponte Anita Garibaldi segue totalmente interditada e causa até 7 km de filas na BR-101 em Laguna - ND Mais. Período informado: 2026-07-11T21:07:47Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais; Portal AHora. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-11T21:07:47Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-12T03:16:51Z",
     "sources": [
       {
@@ -95,8 +98,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-11T21:07:47Z",
     "last_seen_at": "2026-07-12T03:18:07Z",
-    "active_duration_hours": 6.17,
+    "active_duration_hours": 6.18,
     "active_duration_label": "6.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-12T03:18:07Z",
+    "news_signature": "6d1a9c344aa105e63ca912ec",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
