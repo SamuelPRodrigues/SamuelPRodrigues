@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-07-13T05:48:57Z",
+  "updatedAt": "2026-07-13T06:03:07Z",
   "queries": 6,
-  "newItemsBeforeMerge": 0,
+  "newItemsBeforeMerge": 58,
   "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 50,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motorista morre em acidente entre duas carretas e MGC-497 é totalmente interditada em Uberlândia - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Batida entre dois carros deixa um morto e quatro feridos na BR-267 em Juiz de Fora - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro cai em ribanceira e deixa 4 feridos em rodovia de Tatuí - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ponte Anita Garibaldi segue com interdição para manutenção e fluxo na BR-101 é desviado - Motiva Rodovias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Dois motoristas morrem em batida de frente entre caminhonete e carro na BR-116 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Duas carretas caem de viaduto após batida na BR-364 em Cuiabá - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Três homens ficam feridos após caminhão carregado de cerveja bater em mureta na BR-101 em Capela - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Temporal atinge Porto Alegre com chuva forte e rajadas de vento de mais de 70 km/h - Correio do Povo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "NÃO MUDAR - Acompanhe em tempo real os transtornos causados pela chuva forte no ES - A Gazeta",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Fim de semana terá chuva forte no Sul e calor no Sudeste - Agrolink",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal atinge Porto Alegre com chuva forte e vento - MetSul Meteorologia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Com rios no limite e chuva forte, cidade de SC corre contra o tempo para salvar produção rural - ND Mais",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Domingo terá risco de temporais e chuva forte em grande parte de Mato Grosso do Sul - A Crítica de Campo Grande",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Microexplosão atmosférica pode ter causado forte temporal que atingiu o RS - Rádio Itatiaia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Do excesso de chuva às queimadas: Sul do Piauí vive extremos climáticos - CidadeVerde.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria no Sul: alerta de temporais e chuva forte - Clima ao vivo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal com vento e granizo causa estragos e atinge centenas de moradores no RS: 'Tudo destruído', diz comerciante - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal com granizo deixa mais de 400 desalojados na Grande Porto Alegre - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Granizo e vento destelham mais de 100 casas e deixam 400 desalojados no RS - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Tufão Bavi atinge o leste da China e ameaça dias de chuvas intensas - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte tempestade de granizo causa prejuízos na região metropolitana de Porto Alegre - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Greve dos caminhoneiros? Categoria ameaça parar se MP do frete não for votada - VEJA",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Caminhoneiros de Santos decidem paralisar atividades para pressionar por MP do Frete - JOTA Info",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Interdições alteram trânsito durante eventos na quinta-feira (9) - Prefeitura de São José dos Campos",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Caminhoneiro bloqueado: entenda seus direitos e os impactos na profissão - Portal O Carreteiro",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
