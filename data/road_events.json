@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324: obras avançam, mas trecho com cratera na Bahia segue interditado nesta segunda (13) - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-13T13:43:35Z; ativo há 19 min.",
+    "description": "BR-324: obras avançam, mas trecho com cratera na Bahia segue interditado nesta segunda (13) - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-13T13:43:35Z; ativo há 20 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,11 +48,13 @@
     "newsFreshnessHours": 0.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-13T13:43:35Z",
-    "last_seen_at": "2026-07-13T14:03:01Z",
-    "active_duration_hours": 0.32,
-    "active_duration_label": "19 min",
+    "last_seen_at": "2026-07-13T14:03:17Z",
+    "active_duration_hours": 0.33,
+    "active_duration_label": "20 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0ec2c083bc4ddeedbd34e6ac",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
