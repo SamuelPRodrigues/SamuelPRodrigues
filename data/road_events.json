@@ -9,7 +9,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 2.9 h.",
+    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.9,
     "active_duration_label": "2.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T14:02:30Z",
+    "news_signature": "54673396f2fd17f994045858",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - O Dia; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 4.0 h.",
+    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - O Dia; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,8 +99,11 @@
     "active_duration_hours": 4.01,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T14:02:30Z",
+    "news_signature": "4bc0d45a8eeb67879e5392f0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tráfego na BR-277 será interditado temporariamente nesta quinta-feira - Alerta Paraná. Fontes consolidadas: Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 5.0 h.",
+    "description": "Tráfego na BR-277 será interditado temporariamente nesta quinta-feira - Alerta Paraná. Fontes consolidadas: Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -137,10 +143,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T09:03:00Z",
     "last_seen_at": "2026-07-14T14:02:30Z",
-    "active_duration_hours": 4.99,
+    "active_duration_hours": 5.0,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T14:02:30Z",
+    "news_signature": "465603a3c3e956e9d05a44f2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
