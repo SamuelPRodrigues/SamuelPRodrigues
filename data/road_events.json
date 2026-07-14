@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Presidente Dutra será totalmente interditada; entenda - Enfoco. Fontes consolidadas: Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-13T18:23:54Z; ativo há 6.9 h.",
+    "description": "Rodovia Presidente Dutra será totalmente interditada; entenda - Enfoco. Fontes consolidadas: Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-13T18:23:54Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 6.89,
     "active_duration_label": "6.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T01:17:13Z",
+    "news_signature": "c90e5a276ffd8c18968ad38b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte Anita Garibaldi segue interditada e trânsito tem 2 km de congestionamento na BR-101 nesta segunda - Notisul. Fontes consolidadas: Notícias públicas - Notisul. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-13T13:58:08Z; ativo há 11.3 h.",
+    "description": "Ponte Anita Garibaldi segue interditada e trânsito tem 2 km de congestionamento na BR-101 nesta segunda - Notisul. Fontes consolidadas: Notícias públicas - Notisul. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-13T13:58:08Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 11.32,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T01:17:13Z",
+    "news_signature": "58cf7e71aa958f9c371f011d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 segue interditada em Simões Filho quase uma semana após abertura de cratera - Muita Informação. Fontes consolidadas: Notícias públicas - Muita Informação; Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-13T13:43:35Z; ativo há 11.6 h.",
+    "description": "BR-324 segue interditada em Simões Filho quase uma semana após abertura de cratera - Muita Informação. Fontes consolidadas: Notícias públicas - Muita Informação; Notícias públicas - Jornal Correio; Notícias públicas - G1; Notícias públicas - Taktá No AR. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-13T13:43:35Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,7 +152,10 @@
     "active_duration_hours": 11.56,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T01:17:13Z",
+    "news_signature": "6db159fbb301b86e47b3953b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
