@@ -9,7 +9,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Portal Mário Adolfo. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 5.2 h.",
+    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Portal Mário Adolfo. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T11:08:47Z",
     "last_seen_at": "2026-07-14T16:21:38Z",
-    "active_duration_hours": 5.21,
+    "active_duration_hours": 5.22,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T16:21:38Z",
+    "news_signature": "c0af73eef52a25bbec7fba70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - O Dia; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 6.3 h.",
+    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - O Dia; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,8 +105,11 @@
     "active_duration_hours": 6.33,
     "active_duration_label": "6.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T16:21:38Z",
+    "news_signature": "4bc0d45a8eeb67879e5392f0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +121,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia da BR-277 tem pista interditada após queda de poste. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 7.3 h.",
+    "description": "Rodovia da BR-277 tem pista interditada após queda de poste. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -148,11 +154,13 @@
     "newsFreshnessHours": 7.31,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T09:03:00Z",
-    "last_seen_at": "2026-07-14T16:21:38Z",
-    "active_duration_hours": 7.31,
+    "last_seen_at": "2026-07-14T16:21:53Z",
+    "active_duration_hours": 7.32,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "66cd08c6139a2328041707ae",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
