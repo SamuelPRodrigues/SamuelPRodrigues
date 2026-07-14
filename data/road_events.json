@@ -9,7 +9,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 8 min.",
+    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 9 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.14,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T11:08:47Z",
-    "last_seen_at": "2026-07-14T11:17:20Z",
-    "active_duration_hours": 0.14,
-    "active_duration_label": "8 min",
+    "last_seen_at": "2026-07-14T11:17:36Z",
+    "active_duration_hours": 0.15,
+    "active_duration_label": "9 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "54673396f2fd17f994045858",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 1.3 h.",
+    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 1.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +92,10 @@
     "active_duration_hours": 1.26,
     "active_duration_label": "1.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T11:17:20Z",
+    "news_signature": "5bea8493d8ccfb5e1a94d81a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
