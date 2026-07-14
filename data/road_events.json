@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Área de Escape da BR-376 será interditada para manutenção - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-14T19:41:32Z; ativo há 3.1 h.",
+    "description": "Área de Escape da BR-376 será interditada para manutenção - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-14T19:41:32Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T19:41:32Z",
     "last_seen_at": "2026-07-14T22:47:08Z",
-    "active_duration_hours": 3.09,
+    "active_duration_hours": 3.1,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T22:47:08Z",
+    "news_signature": "dc2c762ec4095c2168841dc7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-153 com BR-060 sentido Goiânia é interditado, em Anápolis. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-14T19:31:38Z; ativo há 3.3 h.",
+    "description": "Trecho da BR-153 com BR-060 sentido Goiânia é interditado, em Anápolis. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-14T19:31:38Z; ativo há 3.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 3.26,
     "active_duration_label": "3.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T22:47:08Z",
+    "news_signature": "0e4360afc7e8eda25f0472ad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 11.6 h.",
+    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,8 +140,11 @@
     "active_duration_hours": 11.64,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T22:47:08Z",
+    "news_signature": "54673396f2fd17f994045858",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -152,7 +161,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B. Período informado: 2026-07-14T16:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Banda B. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-14T16:43:00Z; ativo há 6.1 h.",
+    "description": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B. Período informado: 2026-07-14T16:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Banda B. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-14T16:43:00Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -165,7 +174,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-14T19:17:17Z",
     "sources": [
       {
@@ -197,6 +206,9 @@
     "last_seen_at": "2026-07-14T22:47:08Z",
     "active_duration_hours": 6.07,
     "active_duration_label": "6.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T22:47:08Z",
+    "news_signature": "bf6f0323aab6dfeb5f080a01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
