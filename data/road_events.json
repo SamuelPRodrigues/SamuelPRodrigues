@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116",
+    "road": "BR-116",
+    "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.266,
+    "lon": -38.966,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 15 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Manchete Rio + 1 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX1BiTVdXMHA3aGx5ZWctUnA3QkZpbUFnc3V4NHVJaXNOaWJmYkh2V0p2QmNhMDFJWXUyN3djekNDWGJqbS0zY1RQbTloSm5FQ0I1QjhoRVJqc1k0S3pJOHhIcU1nSS1QQmhMU3FSSjhpR1VLOGg3eV9BUkxZcl81eVB6RQ",
+    "headline": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio",
+    "newsDate": "Tue, 14 Jul 2026 10:02:00 GMT",
+    "updatedAt": "2026-07-14T10:15:51Z",
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX1BiTVdXMHA3aGx5ZWctUnA3QkZpbUFnc3V4NHVJaXNOaWJmYkh2V0p2QmNhMDFJWXUyN3djekNDWGJqbS0zY1RQbTloSm5FQ0I1QjhoRVJqc1k0S3pJOHhIcU1nSS1QQmhMU3FSSjhpR1VLOGg3eV9BUkxZcl81eVB6RQ",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Manchete Rio",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX1BiTVdXMHA3aGx5ZWctUnA3QkZpbUFnc3V4NHVJaXNOaWJmYkh2V0p2QmNhMDFJWXUyN3djekNDWGJqbS0zY1RQbTloSm5FQ0I1QjhoRVJqc1k0S3pJOHhIcU1nSS1QQmhMU3FSSjhpR1VLOGg3eV9BUkxZcl81eVB6RQ",
+        "headline": "Trecho da Via Dutra será interditado em Queimados - Rádio Manchete Rio",
+        "date": "Tue, 14 Jul 2026 10:02:00 GMT"
+      },
+      {
+        "source": "Notícias públicas - Enfoco",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0o4UzA5NHRVLTRxQkI5S0c2cEwxVDUxQWJ2ajRIVlBMNVY2Wk9VTi1oZzhIa1o2WnduUTRUYXA3cVFpWkdjSFhUY1Y4QkVtc1AyVUxrUDZBdGhYb1hlUFEyamRTckZlM2VCU3VNb09wQUFWYklwZFQ0M29VNGwxSjlVX1U0aVcwRjNUWU4tUXctTE50TjlYdHNhbmZQRnhG",
+        "headline": "Rodovia Presidente Dutra será totalmente interditada; entenda - Enfoco",
+        "date": "Mon, 13 Jul 2026 18:23:54 GMT"
+      }
+    ],
+    "sourceCount": 2,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "d270339ea86995f7d181c75b",
+    "event_id": "d270339ea86995f7d181c75b",
+    "newsFreshnessHours": 0.25,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-14T10:02:00Z",
+    "last_seen_at": "2026-07-14T10:17:06Z",
+    "active_duration_hours": 0.25,
+    "active_duration_label": "15 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
