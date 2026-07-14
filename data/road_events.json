@@ -46,8 +46,11 @@
     "active_duration_hours": 0.59,
     "active_duration_label": "35 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T20:17:00Z",
+    "news_signature": "dc2c762ec4095c2168841dc7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 9.1 h.",
+    "description": "Ponte sobre Igarapé Rio Novo, na BR-319/AM, é interditada para manutenção da estrutura - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-14T11:08:47Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 9.14,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T20:17:00Z",
+    "news_signature": "54673396f2fd17f994045858",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Presidente Dutra interditada em Queimados - O Dia. Fontes consolidadas: Notícias públicas - O Dia; Notícias públicas - Rádio Manchete Rio; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 10.2 h.",
+    "description": "Rodovia Presidente Dutra interditada em Queimados - O Dia. Fontes consolidadas: Notícias públicas - O Dia; Notícias públicas - Rádio Manchete Rio; Notícias públicas - Enfoco. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-14T10:02:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,8 +158,11 @@
     "active_duration_hours": 10.25,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T20:17:00Z",
+    "news_signature": "4e401dbb0f6890da5b6eebe3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -165,7 +174,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia da BR-277 tem pista interditada após queda de poste. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 11.2 h.",
+    "description": "Rodovia da BR-277 tem pista interditada após queda de poste. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alerta Paraná. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-14T09:03:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -199,11 +208,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-14T09:03:00Z",
     "last_seen_at": "2026-07-14T20:17:00Z",
-    "active_duration_hours": 11.23,
+    "active_duration_hours": 11.24,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T20:17:00Z",
+    "news_signature": "66cd08c6139a2328041707ae",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -220,7 +232,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B. Período informado: 2026-07-14T16:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Banda B. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-14T16:43:00Z; ativo há 3.6 h.",
+    "description": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B. Período informado: 2026-07-14T16:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Banda B. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-14T16:43:00Z; ativo há 3.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -233,7 +245,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-14T19:17:17Z",
     "sources": [
       {
@@ -259,6 +271,9 @@
     "last_seen_at": "2026-07-14T20:17:00Z",
     "active_duration_hours": 3.57,
     "active_duration_label": "3.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-14T20:17:00Z",
+    "news_signature": "9250d4b7f96e5541fbde1655",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
