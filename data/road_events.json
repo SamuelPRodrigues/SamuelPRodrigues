@@ -9,7 +9,7 @@
     "lat": -22.905,
     "lon": -47.06,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 1.2 h.",
+    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T21:02:11Z",
     "last_seen_at": "2026-07-15T22:12:37Z",
-    "active_duration_hours": 1.17,
+    "active_duration_hours": 1.18,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T22:12:37Z",
+    "news_signature": "65784fb77765e06fc5fdb7cf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 2.2 h.",
+    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +95,14 @@
     "newsFreshnessHours": 1.9,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T19:58:26Z",
-    "last_seen_at": "2026-07-15T22:12:37Z",
+    "last_seen_at": "2026-07-15T22:12:54Z",
     "active_duration_hours": 2.24,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d2dff69d8f1f473020ae95a3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +114,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-060 será totalmente interditado após tombamento de carreta em Rio Verde - Jornal Somos. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-15T18:15:23Z; ativo há 4.0 h.",
+    "description": "Trecho da BR-060 será totalmente interditado após tombamento de carreta em Rio Verde - Jornal Somos. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-15T18:15:23Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -137,11 +142,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T18:15:23Z",
     "last_seen_at": "2026-07-15T22:12:37Z",
-    "active_duration_hours": 3.95,
+    "active_duration_hours": 3.96,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T22:12:37Z",
+    "news_signature": "bc917c8b76fe6d232783b25f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +161,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Muita Informação. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 17.3 h.",
+    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo; Notícias públicas - Muita Informação. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 17.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -190,7 +198,10 @@
     "active_duration_hours": 17.33,
     "active_duration_label": "17.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T22:12:37Z",
+    "news_signature": "c6489227d124a1b55651cc85",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
