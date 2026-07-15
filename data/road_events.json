@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 2.6 h.",
+    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -52,8 +52,11 @@
     "active_duration_hours": 2.65,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T12:02:30Z",
+    "news_signature": "28ba84b396b191d8c40e484d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 7.2 h.",
+    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,11 +95,13 @@
     "newsFreshnessHours": 7.16,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T04:53:03Z",
-    "last_seen_at": "2026-07-15T12:02:30Z",
+    "last_seen_at": "2026-07-15T12:02:49Z",
     "active_duration_hours": 7.16,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0f94ee2fc1f31888e1ef97df",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
