@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-07-15T00:02:30Z",
+  "updatedAt": "2026-07-15T00:17:17Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "a4bb356e4d690486e39fe31e",
+      "stable_event_id": "a4bb356e4d690486e39fe31e",
+      "observation_hash": "d366e204a15814fd69411939",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
+      "first_seen_at": "2026-05-29T13:17:03+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Imperatriz",
+      "risk": 83,
+      "severity": "Crítico",
+      "lat": -5.526,
+      "lon": -47.477,
+      "city": "Imperatriz",
+      "state": "MA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-29T13:15:17Z; ativo há 46.5 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 250,
+      "estimated_hours": 62.5,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -62,14 +91,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "770292d906636e18edaa18dc",
+      "stable_event_id": "770292d906636e18edaa18dc",
+      "observation_hash": "e5d0c5be2556b28c7f15747a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
+      "first_seen_at": "2026-05-26T15:17:02+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Salvador",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Salvador",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 49.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1766,
+      "estimated_hours": 441.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "10edcfddbd519c0f93e86f7b",
       "stable_event_id": "10edcfddbd519c0f93e86f7b",
-      "observation_hash": "0c65c5d61b5115e804c5602f",
+      "observation_hash": "f3145c735887b08d7993f3f8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
       "first_seen_at": "2026-07-14T19:46:55+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -85,8 +143,8 @@
       "description": "Área de Escape da BR-376 será interditada para manutenção - Band News FM Curitiba.. Fontes consolidadas: Notícias públicas - Band News FM Curitiba + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTzJkTWowV1c5UU5wVEFzVFd2R21aenZLMklmRUFoczZrNW9GVG9EcV9qMXpSaERubEVvbEN3LW01ZXc3NXRqTlp5RFJSMjZ4MEdnLWpnNlJYWlJiZFN5UjhCQjVISWpaWmFjYld2MWhDZURmaFFjeU5rczBOY2RtMFJpejU4ck82Y1ZIRUtGUG1KR2s",
-      "total_snapshots": 22,
-      "estimated_hours": 5.5,
+      "total_snapshots": 24,
+      "estimated_hours": 6.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +155,7 @@
           "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTzJkTWowV1c5UU5wVEFzVFd2R21aenZLMklmRUFoczZrNW9GVG9EcV9qMXpSaERubEVvbEN3LW01ZXc3NXRqTlp5RFJSMjZ4MEdnLWpnNlJYWlJiZFN5UjhCQjVISWpaWmFjYld2MWhDZURmaFFjeU5rczBOY2RtMFJpejU4ck82Y1ZIRUtGUG1KR2s",
           "headline": "Área de Escape da BR-376 será interditada para manutenção - Band News FM Curitiba.",
-          "date": "2026-07-15T00:02:28.177604+00:00"
+          "date": "2026-07-15T00:17:13.821832+00:00"
         }
       ],
       "sourceCount": 1,
@@ -107,12 +165,12 @@
     {
       "event_id": "56135c4e1f3afa7adbbf9f40",
       "stable_event_id": "56135c4e1f3afa7adbbf9f40",
-      "observation_hash": "30d7ba37002a2e1df432f067",
+      "observation_hash": "9b71e4ed5340a52df7a25b71",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
       "first_seen_at": "2026-07-14T23:32:37+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -128,8 +186,8 @@
       "description": "Trecho da BR-324, na Bahia, está interditado há uma semana após afundamento na pista.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV0VpQnIzd3hvMWlNQnVrQ25MbENPUVdLTGY3VkdSMzZNUG13Uzl5al9qbktfWE9LOEpNX2FoVlh0T3J5ZlpMamh4RG9SNUFjamJkTDVSYlUyOVBXd2RQZEhReVFmN1JFaldjNDZtN1RBOXdEZ3R4ZjNaek5HZnF5bUNyS2hsZkhBMG45RE5MbEZvckxybnM5cV9CT3NLZ1prbUdJRUc1Rno3NU5OVl9yY3Rmb0loT1drRHpPZkhzRGRCd09FQjRvQV9xMmdFTkpLbFhCSEpCUE1aSTJza0HSAewBQVVfeXFMUDQ2ZDdGRGpDN1dLQjFiNVRyanMybnJJMzBUdFhWMkVmTy1XRWY2SERSbVhSNGlheEZzR2E4cFdUU1g0TjhCX1B3RU9GQjgyMGk4NjRSY3EwZW54MklHbkRFaGdWMk5NelUwQU9IY0xLeGJIOGVVNE5DdXktLTJUdUVUNmxZN2FsNkFWTEJ3TUtMTnB2WXFLMEUyb2RGZDVHSHk0dUN0STM0aGNXTGRhNTNJZjAyeTl0cEpkOUJ1Zll2YVpnakc0NnhjWDZGUUh5RlIzd01KOFhBSXRHWUc1d182RnJyOW1GWXZGRGc",
-      "total_snapshots": 3,
-      "estimated_hours": 0.75,
+      "total_snapshots": 5,
+      "estimated_hours": 1.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -140,7 +198,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV0VpQnIzd3hvMWlNQnVrQ25MbENPUVdLTGY3VkdSMzZNUG13Uzl5al9qbktfWE9LOEpNX2FoVlh0T3J5ZlpMamh4RG9SNUFjamJkTDVSYlUyOVBXd2RQZEhReVFmN1JFaldjNDZtN1RBOXdEZ3R4ZjNaek5HZnF5bUNyS2hsZkhBMG45RE5MbEZvckxybnM5cV9CT3NLZ1prbUdJRUc1Rno3NU5OVl9yY3Rmb0loT1drRHpPZkhzRGRCd09FQjRvQV9xMmdFTkpLbFhCSEpCUE1aSTJza0HSAewBQVVfeXFMUDQ2ZDdGRGpDN1dLQjFiNVRyanMybnJJMzBUdFhWMkVmTy1XRWY2SERSbVhSNGlheEZzR2E4cFdUU1g0TjhCX1B3RU9GQjgyMGk4NjRSY3EwZW54MklHbkRFaGdWMk5NelUwQU9IY0xLeGJIOGVVNE5DdXktLTJUdUVUNmxZN2FsNkFWTEJ3TUtMTnB2WXFLMEUyb2RGZDVHSHk0dUN0STM0aGNXTGRhNTNJZjAyeTl0cEpkOUJ1Zll2YVpnakc0NnhjWDZGUUh5RlIzd01KOFhBSXRHWUc1d182RnJyOW1GWXZGRGc",
           "headline": "Trecho da BR-324, na Bahia, está interditado há uma semana após afundamento na pista.",
-          "date": "2026-07-15T00:02:28.177604+00:00"
+          "date": "2026-07-15T00:17:13.821832+00:00"
         }
       ],
       "sourceCount": 1,
@@ -150,12 +208,12 @@
     {
       "event_id": "0dabce0005781e22204a6e5b",
       "stable_event_id": "0dabce0005781e22204a6e5b",
-      "observation_hash": "69224224549201c0495ff8f5",
+      "observation_hash": "37e71b4c919a2f8f4f3d9921",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
       "first_seen_at": "2026-07-14T17:02:40+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -171,8 +229,8 @@
       "description": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B.. Fontes consolidadas: Notícias públicas - Banda B + 3 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Banda B + 3 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY2VqQVVEM1JsSmc3MDM0ZFE0V053VUJoV3RVbGFyRG52bXpLWGFfUDVCQmFucGVGb1U4VEZEMDR1QTNyN0xOT25LZFppQlo4T0REdldUQTZubEdGOUZSMGFxSlMzak82Tk05VjVwQTBsYUdYWTZQMXdScEh1bHQ4bDB6TUJkR0NadFJqMVhOSDNIOWFia1Q1enhyNERGUdIBowFBVV95cUxQV3RnRlh5UHlMVmtUdnBlNGE1RnFNa2VSOGpXeHZINkFDU0R5NmV5UUp6WHdJQzhsQVU3TVZ6M3hwSk1QRVBzZ0tSTkZGSUpWOFhfdFkyMHgxbmc4X283ek14ckRQRkZnMXZHTHd1QW5nUDYtbnZJRlFRRGF3T1plT25wMmN2LUZ5MFFrN2FndVBHaWJzYjNmeDR4SGdnbk9uWnNz",
-      "total_snapshots": 35,
-      "estimated_hours": 8.75,
+      "total_snapshots": 37,
+      "estimated_hours": 9.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -183,7 +241,7 @@
           "source": "Notícias públicas - Banda B + 3 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY2VqQVVEM1JsSmc3MDM0ZFE0V053VUJoV3RVbGFyRG52bXpLWGFfUDVCQmFucGVGb1U4VEZEMDR1QTNyN0xOT25LZFppQlo4T0REdldUQTZubEdGOUZSMGFxSlMzak82Tk05VjVwQTBsYUdYWTZQMXdScEh1bHQ4bDB6TUJkR0NadFJqMVhOSDNIOWFia1Q1enhyNERGUdIBowFBVV95cUxQV3RnRlh5UHlMVmtUdnBlNGE1RnFNa2VSOGpXeHZINkFDU0R5NmV5UUp6WHdJQzhsQVU3TVZ6M3hwSk1QRVBzZ0tSTkZGSUpWOFhfdFkyMHgxbmc4X283ek14ckRQRkZnMXZHTHd1QW5nUDYtbnZJRlFRRGF3T1plT25wMmN2LUZ5MFFrN2FndVBHaWJzYjNmeDR4SGdnbk9uWnNz",
           "headline": "BR-277 é totalmente interditada após cabo de alta tensão se romper durante obra - Banda B.",
-          "date": "2026-07-15T00:02:28.177604+00:00"
+          "date": "2026-07-15T00:17:13.821832+00:00"
         }
       ],
       "sourceCount": 1,
@@ -193,12 +251,12 @@
     {
       "event_id": "cebd773239df155a7425da53",
       "stable_event_id": "cebd773239df155a7425da53",
-      "observation_hash": "b6f14195ae18109777481eff",
+      "observation_hash": "3b7c13356d08a6fdb934b264",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
       "first_seen_at": "2026-07-14T21:32:50+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -214,8 +272,8 @@
       "description": "Trecho da BR-153 com BR-060 sentido Goiânia é interditado, em Anápolis.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSDdoTzVOWE96RTN3WTBZaUduODlWcDlhd1lpRUtEbE45d1gxRElPamdBcXM3SGlKc1BYRnZQclJLa0tfb0dkajN1YnJiMEZKV0t4dmR1RnZDanFieUpJa21uNzEyYkE2QjJ4UDZ6akpzaWhYM1ZRcTVwbV83Rm9sdGdKWG1HTDlYUHB5cGNGcHBxenpfWEtDNDU3VjNENy1EdWxJVmRBZThrR0c3OGp6dmtlMXB6Q2JBV1JfZU11RG1Lb2lPcWdXSWlhMi1ZX3ZLMkVBeWNB0gHkAUFVX3lxTE1CdUs1ajFKNFZYM3hTcFlGVGZJY3F0YUdOMTlUdEgtZ0taTVJGS0k5dXhORzdfa0twZlJRMmNoZ0VNTnk3NHZibGR2ZVVMNGNxMUdkaUlxalNIXzVBamRTaS0zTEpfUjZrd2FQM013a3kyZVVGVEpjZ3M1ZHZNVUE2UGQ3N0N1RU9HRXFOWnhZMEg4aUl4TUJrNHdIaW0zLTZuZXk4Tk92d0NILXlLQldpaWxSQkZ2Qk9BV3lRU1gxMkp2d1NrZXhpSlhRNHV2cC1zdWpiS3lHaWRHY20xVWh3cWk2Rw",
-      "total_snapshots": 13,
-      "estimated_hours": 3.25,
+      "total_snapshots": 15,
+      "estimated_hours": 3.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -226,7 +284,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSDdoTzVOWE96RTN3WTBZaUduODlWcDlhd1lpRUtEbE45d1gxRElPamdBcXM3SGlKc1BYRnZQclJLa0tfb0dkajN1YnJiMEZKV0t4dmR1RnZDanFieUpJa21uNzEyYkE2QjJ4UDZ6akpzaWhYM1ZRcTVwbV83Rm9sdGdKWG1HTDlYUHB5cGNGcHBxenpfWEtDNDU3VjNENy1EdWxJVmRBZThrR0c3OGp6dmtlMXB6Q2JBV1JfZU11RG1Lb2lPcWdXSWlhMi1ZX3ZLMkVBeWNB0gHkAUFVX3lxTE1CdUs1ajFKNFZYM3hTcFlGVGZJY3F0YUdOMTlUdEgtZ0taTVJGS0k5dXhORzdfa0twZlJRMmNoZ0VNTnk3NHZibGR2ZVVMNGNxMUdkaUlxalNIXzVBamRTaS0zTEpfUjZrd2FQM013a3kyZVVGVEpjZ3M1ZHZNVUE2UGQ3N0N1RU9HRXFOWnhZMEg4aUl4TUJrNHdIaW0zLTZuZXk4Tk92d0NILXlLQldpaWxSQkZ2Qk9BV3lRU1gxMkp2d1NrZXhpSlhRNHV2cC1zdWpiS3lHaWRHY20xVWh3cWk2Rw",
           "headline": "Trecho da BR-153 com BR-060 sentido Goiânia é interditado, em Anápolis.",
-          "date": "2026-07-15T00:02:28.177604+00:00"
+          "date": "2026-07-15T00:17:13.821832+00:00"
         }
       ],
       "sourceCount": 1,
@@ -9378,35 +9436,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "770292d906636e18edaa18dc",
-      "stable_event_id": "770292d906636e18edaa18dc",
-      "observation_hash": "56edaaa8f142ec28d45e9312",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
-      "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Salvador",
-      "risk": 46,
-      "severity": "Moderado",
-      "lat": -12.977,
-      "lon": -38.501,
-      "city": "Salvador",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 49.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1764,
-      "estimated_hours": 441.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "e8ecad1317ef60eb6b75eedf",
       "stable_event_id": "e8ecad1317ef60eb6b75eedf",
       "observation_hash": "d87c49df65fe96f2a558b270",
@@ -9461,35 +9490,6 @@
       "source_url": "",
       "total_snapshots": 88,
       "estimated_hours": 22.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "0a857d6fdf83b0b819f9a1eb",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-10T16:03:13+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-10T16:03:13+00:00",
-      "updated_at": "2026-07-10T16:03:14.92321+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 46,
-      "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 45.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1868,
-      "estimated_hours": 467.0,
       "active": true,
       "storage": "supabase"
     },
@@ -10799,6 +10799,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "a3aaa5e1a139a683766fdab3",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 49.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1869,
+      "estimated_hours": 467.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "f966ccf79d3518a0066eb8da",
@@ -11180,10 +11209,10 @@
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "47a6ddb6341b6c227d375a74",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:04:14+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:04:14+00:00",
+      "updated_at": "2026-07-15T00:04:15.638924+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11199,37 +11228,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 50.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1477,
-      "estimated_hours": 369.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "a4bb356e4d690486e39fe31e",
-      "stable_event_id": "a4bb356e4d690486e39fe31e",
-      "observation_hash": "c893542416e851f8e5bc416f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
-      "first_seen_at": "2026-05-29T13:17:03+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Imperatriz",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -5.526,
-      "lon": -47.477,
-      "city": "Imperatriz",
-      "state": "MA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T13:15:17Z; ativo há 46.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 248,
-      "estimated_hours": 62.0,
+      "total_snapshots": 1478,
+      "estimated_hours": 369.5,
       "active": true,
       "storage": "supabase"
     },
@@ -12456,10 +12456,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "49aee1c35bd36dc7d5e7a03f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
+      "snapshot_at": "2026-07-15T00:04:14+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
+      "last_seen_at": "2026-07-15T00:04:14+00:00",
+      "updated_at": "2026-07-15T00:04:15.638924+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12475,8 +12475,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 48.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1026,
-      "estimated_hours": 256.5,
+      "total_snapshots": 1027,
+      "estimated_hours": 256.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12684,35 +12684,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "ffbb3295c9c63b9d83aa4b68",
-      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
-      "observation_hash": "5abd056575bb5ee333a3899c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T00:02:27+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-15T00:02:27+00:00",
-      "updated_at": "2026-07-15T00:02:28.177604+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Lages",
-      "risk": 7,
-      "severity": "Baixo",
-      "lat": -27.817,
-      "lon": -50.326,
-      "city": "Lages",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 50.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2035,
-      "estimated_hours": 508.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "706a039baf9413262340d06d",
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "edc934d55eef64096907db09",
@@ -12738,6 +12709,35 @@
       "source_url": "",
       "total_snapshots": 1092,
       "estimated_hours": 273.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "ffbb3295c9c63b9d83aa4b68",
+      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
+      "observation_hash": "20c0d8e8f478f08a2647609f",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T00:17:12+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-15T00:17:12+00:00",
+      "updated_at": "2026-07-15T00:17:13.821832+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Lages",
+      "risk": 6,
+      "severity": "Baixo",
+      "lat": -27.817,
+      "lon": -50.326,
+      "city": "Lages",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 50.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2037,
+      "estimated_hours": 509.25,
       "active": true,
       "storage": "supabase"
     },
@@ -12948,8 +12948,8 @@
   "windows": {
     "7": {
       "events": 135,
-      "avgRisk": 47,
-      "maxRisk": 69,
+      "avgRisk": 48,
+      "maxRisk": 83,
       "rainChance": 0,
       "byType": {
         "climate": 91,
@@ -12964,9 +12964,10 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 73,
-        "Alto": 46,
-        "Baixo": 16
+        "Moderado": 71,
+        "Alto": 47,
+        "Baixo": 16,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -12983,8 +12984,8 @@
         },
         {
           "date": "2026-07-10",
-          "avgRisk": 63,
-          "events": 8,
+          "avgRisk": 65,
+          "events": 7,
           "maxRisk": 69
         },
         {
@@ -13013,16 +13014,16 @@
         },
         {
           "date": "2026-07-15",
-          "avgRisk": 47,
-          "events": 9,
-          "maxRisk": 69
+          "avgRisk": 53,
+          "events": 10,
+          "maxRisk": 83
         }
       ]
     },
     "30": {
       "events": 222,
       "avgRisk": 55,
-      "maxRisk": 69,
+      "maxRisk": 83,
       "rainChance": 0,
       "byType": {
         "road": 127,
@@ -13037,9 +13038,10 @@
         "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 129,
-        "Moderado": 76,
-        "Baixo": 17
+        "Alto": 130,
+        "Moderado": 74,
+        "Baixo": 17,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -13188,8 +13190,8 @@
         },
         {
           "date": "2026-07-10",
-          "avgRisk": 63,
-          "events": 8,
+          "avgRisk": 65,
+          "events": 7,
           "maxRisk": 69
         },
         {
@@ -13218,16 +13220,16 @@
         },
         {
           "date": "2026-07-15",
-          "avgRisk": 47,
-          "events": 9,
-          "maxRisk": 69
+          "avgRisk": 53,
+          "events": 10,
+          "maxRisk": 83
         }
       ]
     },
     "90": {
       "events": 335,
       "avgRisk": 57,
-      "maxRisk": 78,
+      "maxRisk": 83,
       "rainChance": 25,
       "byType": {
         "road": 200,
@@ -13243,9 +13245,10 @@
         "Sem região": 15
       },
       "bySeverity": {
-        "Alto": 205,
-        "Moderado": 113,
-        "Baixo": 17
+        "Alto": 206,
+        "Moderado": 111,
+        "Baixo": 17,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -13520,8 +13523,8 @@
         },
         {
           "date": "2026-07-10",
-          "avgRisk": 63,
-          "events": 8,
+          "avgRisk": 65,
+          "events": 7,
           "maxRisk": 69
         },
         {
@@ -13550,9 +13553,9 @@
         },
         {
           "date": "2026-07-15",
-          "avgRisk": 47,
-          "events": 9,
-          "maxRisk": 69
+          "avgRisk": 53,
+          "events": 10,
+          "maxRisk": 83
         }
       ]
     }
