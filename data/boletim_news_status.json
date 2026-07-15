@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-07-15T08:47:34Z",
+  "updatedAt": "2026-07-15T09:03:31Z",
   "queries": 6,
-  "newItemsBeforeMerge": 54,
+  "newItemsBeforeMerge": 2,
   "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 56,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Motorista morre em acidente entre duas carretas e MGC-497 é totalmente interditada em Uberlândia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro cai em ribanceira e deixa 4 feridos em rodovia de Tatuí - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Carro capota em ribanceira e para sobre trilhos de ferrovia após saída de pista na BR-262 em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após colisão frontal entre dois carros na BR-230, na PB - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Batida entre dois carros deixa um morto e quatro feridos na BR-267 em Juiz de Fora - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Trânsito na BR-277 terá operação especial e interdição parcial durante a madrugada - CBN Curitiba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro capota em ribanceira e para sobre trilhos de ferrovia após saída de pista na BR-262 em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Vítima que morreu em capotamento na BR-153 é identificada - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Duas carretas caem de viaduto após batida na BR-364 em Cuiabá - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Dois motoristas morrem em batida de frente entre caminhonete e carro na BR-116 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Justiça aceita denúncia contra caminhoneiro por morte de irmãos na BR-116 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Caminhoneiro morre após veículo capotar na BR-101, na PB - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Chuva forte impõe emergência e deixa rastro de destruição em cidade do RS - Estadão",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Forte tempestade de granizo causa prejuízos na região metropolitana de Porto Alegre - G1",
-      "reason": "not_operationally_relevant"
+      "category": "mobilization",
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Tempestade severa atinge Eunápolis durante a noite e a madrugada deixando rastro de destruição pela cidade - aGazeta Bahia",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Temporal deixa 720 desabrigados em Eldorado do Sul - Jornal do Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal atinge Porto Alegre com chuva forte e rajadas de vento de mais de 70 km/h - Correio do Povo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte impõe emergência e deixa rastro de destruição em cidade do RS - Notícias ao Minuto Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal atinge Porto Alegre com chuva forte e vento - MetSul Meteorologia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Microexplosão atmosférica pode ter causado forte temporal que atingiu o RS - Rádio Itatiaia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Com rios no limite e chuva forte, cidade de SC corre contra o tempo para salvar produção rural - ND Mais",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte impõe emergência e deixa rastro de destruição em cidade do RS - redeutv.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com vento e granizo causa estragos e atinge centenas de moradores no RS: 'Tudo destruído', diz comerciante - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com granizo deixa mais de 400 desalojados na Grande Porto Alegre - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com granizo destelha casas e deixa 400 desalojados em cidade do RS - Estadão",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
