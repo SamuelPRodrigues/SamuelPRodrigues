@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T22:12:37Z",
+  "updatedAt": "2026-07-15T22:16:55Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -62,14 +62,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "b0e9a1c7b7a0feb6fdca4282",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 71,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 50.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1930,
+      "estimated_hours": 482.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f3d1d6a366be125998cb7401",
       "stable_event_id": "f3d1d6a366be125998cb7401",
       "observation_hash": "b663f75ef8905cc36ea56f61",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-07-15T21:07:16+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -85,8 +114,8 @@
       "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas.. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Estradas",
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTnVFYWMtSC1ndVJkYVl1blotclBrRk5BeHpSUkVaQlJjY2hPSUFFQ0hONmFOUHdDZGsweXc2LWlCR1VDZW1feDJfTVVVanJzX1pUMVZNaDBTd05wZ1RrNVZCUHFwX29mWkNnNHBzQjdVNVh4cjhFemFETV8wbEEyNG1mNGxiWEtTT1pPWUp0emhmeGdzdGdhQ3FHdzNSMGRETXZ6QkI1YUtZUFU",
-      "total_snapshots": 6,
-      "estimated_hours": 1.5,
+      "total_snapshots": 7,
+      "estimated_hours": 1.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -97,7 +126,7 @@
           "source": "Notícias públicas - Estradas",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTnVFYWMtSC1ndVJkYVl1blotclBrRk5BeHpSUkVaQlJjY2hPSUFFQ0hONmFOUHdDZGsweXc2LWlCR1VDZW1feDJfTVVVanJzX1pUMVZNaDBTd05wZ1RrNVZCUHFwX29mWkNnNHBzQjdVNVh4cjhFemFETV8wbEEyNG1mNGxiWEtTT1pPWUp0emhmeGdzdGdhQ3FHdzNSMGRETXZ6QkI1YUtZUFU",
           "headline": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas.",
-          "date": "2026-07-15T22:12:34.466835+00:00"
+          "date": "2026-07-15T22:16:52.428596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -109,10 +138,10 @@
       "stable_event_id": "0fa7c0c0e5b0ef1c7b23e74d",
       "observation_hash": "881c03a7b2218bc891ebd378",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-07-15T18:32:37+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -128,8 +157,8 @@
       "description": "Trecho da BR-060 será totalmente interditado após tombamento de carreta em Rio Verde - Jornal Somos.. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Jornal Somos",
       "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOczZyQW4zM0hrNUlQOEF4S2VHdUdiVGF1MElUd3JDSnl4SDVfbXdTX1FtT0dueFJZckk0eHZ4M3lyNFJNYUt1RDEzbzJRVGRYYTR5ZjZxNEtXZFJfcnJ2Vk9wOHIxNEtSTE5tMzRJelM0YXlQRXhGclJFd0lNZjR1WGZvZkgyaUY2d0J2RUdRcWsxUG0wSTFRSEJldXBFc1pRVnBjbzNLSGhESTdUVHRUUGNfQm9iUE83Qm9MMTZqX0dUNEtBcG96a1dmUGlFQjNxN0dldg",
-      "total_snapshots": 19,
-      "estimated_hours": 4.75,
+      "total_snapshots": 20,
+      "estimated_hours": 5.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -140,7 +169,7 @@
           "source": "Notícias públicas - Jornal Somos",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOczZyQW4zM0hrNUlQOEF4S2VHdUdiVGF1MElUd3JDSnl4SDVfbXdTX1FtT0dueFJZckk0eHZ4M3lyNFJNYUt1RDEzbzJRVGRYYTR5ZjZxNEtXZFJfcnJ2Vk9wOHIxNEtSTE5tMzRJelM0YXlQRXhGclJFd0lNZjR1WGZvZkgyaUY2d0J2RUdRcWsxUG0wSTFRSEJldXBFc1pRVnBjbzNLSGhESTdUVHRUUGNfQm9iUE83Qm9MMTZqX0dUNEtBcG96a1dmUGlFQjNxN0dldg",
           "headline": "Trecho da BR-060 será totalmente interditado após tombamento de carreta em Rio Verde - Jornal Somos.",
-          "date": "2026-07-15T22:12:34.466835+00:00"
+          "date": "2026-07-15T22:16:52.428596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -232,7 +261,7 @@
           "source": "Notícias públicas - Banda B + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXlMWi1YNjVIVmNqMC1VdGlFQTZfaHRyZ05nVlVNTGFMUkJRdnotNWd2VHI5cHlwUXV5ZzROVzhFaEV6X1hsejZuZ1hNc1FNamtHeEZMOWpfei1vT1RzZ3Y2NVlNVHBWaWFiWnpaMmh6YnIzT3FNOUxrRWpJVEY1RlFNaE1MWGo5b0I4QXRfQjJKQdIBlwFBVV95cUxNZ2ROVEFkM3RBbmpCOU1xbWFhWFdZVnI4QmwwTmRkdWFvSXR2RUhyMXhxejRQb2RXZ1hhM3FaQ3RQejQ1X1d2MjAtbHFzMG9ZUmdyVnlrZkVOeEZrU3dNXzJXVUxRMVA5SFpRN1hTTnFTVDhMaTZ5NUcxMnNrU1QyZl8zNmktTkQ0X0E5elA2akNNbHBwVDBJ",
           "headline": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B.",
-          "date": "2026-07-15T22:12:34.466835+00:00"
+          "date": "2026-07-15T22:16:52.428596+00:00"
         },
         {
           "source": "Notícias públicas - Band News FM Curitiba + 3 fonte(s)",
@@ -373,7 +402,7 @@
           "source": "Notícias públicas - Tribuna do Recôncavo + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdEVPM3N2SlBjZ1NiQ3dSbE15UWFJYmxiWTJUMmRjYWNEUTJScEk1UC12T2RwNGJDdGlaR1djSVFuYUVCS0Z5aDdlaXNYWUx3b3lEZ3Riak1HVlc2QjFFdjJ1RkhzV0lxNHdreG82d1BpVXoxbDkxMkNzaXhtRzI5aG5kSHBrMjQ",
           "headline": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo.",
-          "date": "2026-07-15T22:12:34.466835+00:00"
+          "date": "2026-07-15T22:16:52.428596+00:00"
         }
       ],
       "sourceCount": 2,
@@ -9466,35 +9495,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "6c9f1264e318a9413c216c42",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 47,
-      "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 50.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1929,
-      "estimated_hours": 482.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "bb6d3798fb4823bed1c6ba1d",
       "stable_event_id": "bb6d3798fb4823bed1c6ba1d",
       "observation_hash": "213d5c5a977d792c4cbafda7",
@@ -9874,12 +9874,12 @@
     {
       "event_id": "32351db9c1a47893713d6d70",
       "stable_event_id": "32351db9c1a47893713d6d70",
-      "observation_hash": "ada114d37bbfd23457826cd8",
+      "observation_hash": "b278680886cd0597eed6489e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -9895,8 +9895,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 50.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1030,
-      "estimated_hours": 257.5,
+      "total_snapshots": 1031,
+      "estimated_hours": 257.75,
       "active": true,
       "storage": "supabase"
     },
@@ -10106,12 +10106,12 @@
     {
       "event_id": "a4bb356e4d690486e39fe31e",
       "stable_event_id": "a4bb356e4d690486e39fe31e",
-      "observation_hash": "a302f03625259fed46caddec",
+      "observation_hash": "1b21148502c59cb798326455",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-29T13:17:03+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10127,8 +10127,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-29T13:15:17Z; ativo há 47.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 319,
-      "estimated_hours": 79.75,
+      "total_snapshots": 320,
+      "estimated_hours": 80.0,
       "active": true,
       "storage": "supabase"
     },
@@ -10630,10 +10630,10 @@
       "stable_event_id": "c53f6d819d9795963684db42",
       "observation_hash": "55ad053248a95f6e7beeadad",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-29T14:16:57+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10649,8 +10649,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-29T14:15:16Z; ativo há 47.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 422,
-      "estimated_hours": 105.5,
+      "total_snapshots": 423,
+      "estimated_hours": 105.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12571,17 +12571,17 @@
     {
       "event_id": "6512fdf6ba55387e863e061e",
       "stable_event_id": "6512fdf6ba55387e863e061e",
-      "observation_hash": "53742c51bb1b2fcd7053b823",
+      "observation_hash": "52ecdf91a82ea0add0809782",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-30T23:47:02+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Juazeiro",
-      "risk": 17,
+      "risk": 16,
       "severity": "Baixo",
       "lat": -9.411,
       "lon": -40.503,
@@ -12592,37 +12592,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-30T23:45:17Z; ativo há 45.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 362,
-      "estimated_hours": 90.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "a36528b008486de51ff207fb",
-      "stable_event_id": "a36528b008486de51ff207fb",
-      "observation_hash": "5f3e92cd17d0c09a8ccaf2e4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
-      "first_seen_at": "2026-05-30T23:47:02+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Petrolina",
-      "risk": 17,
-      "severity": "Baixo",
-      "lat": -9.389,
-      "lon": -40.503,
-      "city": "Petrolina",
-      "state": "PE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-30T23:45:17Z; ativo há 45.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 362,
-      "estimated_hours": 90.5,
+      "total_snapshots": 363,
+      "estimated_hours": 90.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12631,10 +12602,10 @@
       "stable_event_id": "770292d906636e18edaa18dc",
       "observation_hash": "9263a0161332649835a5728a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12650,8 +12621,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 50.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1866,
-      "estimated_hours": 466.5,
+      "total_snapshots": 1867,
+      "estimated_hours": 466.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "a36528b008486de51ff207fb",
+      "stable_event_id": "a36528b008486de51ff207fb",
+      "observation_hash": "620de0473cf1bb72ae4c6eb9",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
+      "first_seen_at": "2026-05-30T23:47:02+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Petrolina",
+      "risk": 16,
+      "severity": "Baixo",
+      "lat": -9.389,
+      "lon": -40.503,
+      "city": "Petrolina",
+      "state": "PE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-30T23:45:17Z; ativo há 45.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 363,
+      "estimated_hours": 90.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12689,10 +12689,10 @@
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "5cd4eb8cde81b3e805a7b19f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-15T22:12:33+00:00",
+      "snapshot_at": "2026-07-15T22:16:51+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-15T22:12:33+00:00",
-      "updated_at": "2026-07-15T22:12:34.466835+00:00",
+      "last_seen_at": "2026-07-15T22:16:51+00:00",
+      "updated_at": "2026-07-15T22:16:52.428596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12708,8 +12708,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 50.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1242,
-      "estimated_hours": 310.5,
+      "total_snapshots": 1243,
+      "estimated_hours": 310.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13182,7 +13182,7 @@
     "7": {
       "events": 135,
       "avgRisk": 47,
-      "maxRisk": 69,
+      "maxRisk": 71,
       "rainChance": 0,
       "byType": {
         "climate": 91,
@@ -13197,8 +13197,8 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 70,
-        "Alto": 45,
+        "Moderado": 69,
+        "Alto": 46,
         "Baixo": 20
       },
       "dailyRisk": [
@@ -13248,14 +13248,14 @@
           "date": "2026-07-15",
           "avgRisk": 40,
           "events": 56,
-          "maxRisk": 69
+          "maxRisk": 71
         }
       ]
     },
     "30": {
       "events": 225,
       "avgRisk": 55,
-      "maxRisk": 69,
+      "maxRisk": 71,
       "rainChance": 0,
       "byType": {
         "road": 130,
@@ -13270,8 +13270,8 @@
         "Sem região": 7
       },
       "bySeverity": {
-        "Alto": 131,
-        "Moderado": 73,
+        "Alto": 132,
+        "Moderado": 72,
         "Baixo": 21
       },
       "dailyRisk": [
@@ -13453,7 +13453,7 @@
           "date": "2026-07-15",
           "avgRisk": 40,
           "events": 56,
-          "maxRisk": 69
+          "maxRisk": 71
         }
       ]
     },
@@ -13476,8 +13476,8 @@
         "Sem região": 15
       },
       "bySeverity": {
-        "Alto": 209,
-        "Moderado": 110,
+        "Alto": 210,
+        "Moderado": 109,
         "Baixo": 21
       },
       "dailyRisk": [
@@ -13785,7 +13785,7 @@
           "date": "2026-07-15",
           "avgRisk": 40,
           "events": 56,
-          "maxRisk": 69
+          "maxRisk": 71
         }
       ]
     }
