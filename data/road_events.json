@@ -40,8 +40,11 @@
     "active_duration_hours": 0.53,
     "active_duration_label": "32 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T18:47:03Z",
+    "news_signature": "bc917c8b76fe6d232783b25f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 13.9 h.",
+    "description": "Dnit confirma emergência em trecho da BR-324 com cratera em Simões Filho; rodovia segue parcialmente interditada - Tribuna do Recôncavo. Fontes consolidadas: Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-15T04:53:03Z; ativo há 13.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 13.9,
     "active_duration_label": "13.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T18:47:03Z",
+    "news_signature": "2df12537ed93203e54706fc5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 9.4 h.",
+    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,8 +146,11 @@
     "active_duration_hours": 9.39,
     "active_duration_label": "9.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T18:47:03Z",
+    "news_signature": "28ba84b396b191d8c40e484d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +162,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 registra engavetamento com oito veículos; trânsito ficou parcialmente interditado - Sete Lagoas .com.br. Fontes consolidadas: Notícias públicas - Sete Lagoas .com.br. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-15T08:26:00Z; ativo há 10.3 h.",
+    "description": "BR-040 registra engavetamento com oito veículos; trânsito ficou parcialmente interditado - Sete Lagoas .com.br. Fontes consolidadas: Notícias públicas - Sete Lagoas .com.br. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-15T08:26:00Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -181,10 +190,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T08:26:00Z",
     "last_seen_at": "2026-07-15T18:47:03Z",
-    "active_duration_hours": 10.35,
-    "active_duration_label": "10.3 h",
+    "active_duration_hours": 10.36,
+    "active_duration_label": "10.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T18:47:03Z",
+    "news_signature": "87c077de82415e8b9425c1bf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
