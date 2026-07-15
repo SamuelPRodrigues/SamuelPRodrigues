@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 23 min.",
+    "description": "Área de Escape da BR-376 será interditada para manutenção Litoral do Paraná - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-15T09:23:38Z; ativo há 24 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -49,11 +49,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T09:23:38Z",
     "last_seen_at": "2026-07-15T09:47:14Z",
-    "active_duration_hours": 0.39,
-    "active_duration_label": "23 min",
+    "active_duration_hours": 0.4,
+    "active_duration_label": "24 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T09:47:14Z",
+    "news_signature": "28ba84b396b191d8c40e484d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada em Ibiraçu para detonação de rochas nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-14T23:07:17Z; ativo há 10.7 h.",
+    "description": "BR-101 será interditada em Ibiraçu para detonação de rochas nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-14T23:07:17Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,8 +105,11 @@
     "active_duration_hours": 10.67,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T09:47:14Z",
+    "news_signature": "50b66d3525e5d28849f7ea3d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +121,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324, na Bahia, está interditado há uma semana após afundamento na pista. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-14T22:29:27Z; ativo há 11.3 h.",
+    "description": "Trecho da BR-324, na Bahia, está interditado há uma semana após afundamento na pista. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Recôncavo. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-14T22:29:27Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,7 +158,10 @@
     "active_duration_hours": 11.3,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-15T09:47:14Z",
+    "news_signature": "2911fc7192c39cde5da14d78",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
