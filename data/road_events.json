@@ -9,7 +9,7 @@
     "lat": -22.905,
     "lon": -47.06,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 8.0 h.",
+    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 8.01,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T05:02:47Z",
+    "news_signature": "65784fb77765e06fc5fdb7cf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - Diário do Rio; Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 9.1 h.",
+    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - Diário do Rio; Notícias públicas - O Dia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,10 +102,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T19:58:26Z",
     "last_seen_at": "2026-07-16T05:02:47Z",
-    "active_duration_hours": 9.07,
+    "active_duration_hours": 9.08,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T05:02:47Z",
+    "news_signature": "dfec922a14ee4aa8649216df",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
