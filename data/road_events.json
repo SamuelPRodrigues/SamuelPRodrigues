@@ -9,7 +9,7 @@
     "lat": -22.905,
     "lon": -47.06,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 11.0 h.",
+    "description": "Saída da avenida Santa Isabel à SP-332, em Campinas, será interditada, nesta sexta (17) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-15T21:02:11Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-15T21:02:11Z",
     "last_seen_at": "2026-07-16T08:02:26Z",
-    "active_duration_hours": 11.0,
+    "active_duration_hours": 11.01,
     "active_duration_label": "11.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T08:02:26Z",
+    "news_signature": "65784fb77765e06fc5fdb7cf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - Diário do Rio. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 12.1 h.",
+    "description": "Bloqueios na BR-116: interdições para aferição de radares podem impactar o trânsito na Grande Curitiba - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Band News FM Curitiba; Notícias públicas - Diário do Rio. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-15T19:58:26Z; ativo há 12.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,8 +99,11 @@
     "active_duration_hours": 12.07,
     "active_duration_label": "12.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T08:02:26Z",
+    "news_signature": "d3861e8a10b23998770fdff6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saída da Av. Santa Isabel para a SP-332, sentido Paulínia, será interditada a partir de sexta-feira - noticiasdepaulinia.com.br. Fontes consolidadas: Notícias públicas - noticiasdepaulinia.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-16T00:12:47Z; ativo há 7.8 h.",
+    "description": "Saída da Av. Santa Isabel para a SP-332, sentido Paulínia, será interditada a partir de sexta-feira - noticiasdepaulinia.com.br. Fontes consolidadas: Notícias públicas - noticiasdepaulinia.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-16T00:12:47Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,8 +146,11 @@
     "active_duration_hours": 7.83,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-332"
+    "detectedRoad": "SP-332",
+    "last_confirmed_at": "2026-07-16T08:02:26Z",
+    "news_signature": "d650dca64895d9f104d3f70c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
