@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 4.3 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-16T17:31:01Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T13:10:55Z",
     "last_seen_at": "2026-07-16T17:32:12Z",
-    "active_duration_hours": 4.35,
-    "active_duration_label": "4.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 4.36,
+    "active_duration_label": "4.4 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T17:32:12Z",
+    "news_signature": "0580223c1528d9c183d6cfe1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
