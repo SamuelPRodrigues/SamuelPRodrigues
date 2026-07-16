@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada na serra do mar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 22 min.",
+    "description": "BR-277 é interditada na serra do mar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 23 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,12 +48,14 @@
     "newsFreshnessHours": 0.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T21:39:53Z",
-    "last_seen_at": "2026-07-16T22:02:09Z",
-    "active_duration_hours": 0.37,
-    "active_duration_label": "22 min",
+    "last_seen_at": "2026-07-16T22:02:23Z",
+    "active_duration_hours": 0.38,
+    "active_duration_label": "23 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6fba79006c05bafdc575b342",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +67,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 será interditado para detonação de rochas - folha do es. Fontes consolidadas: Notícias públicas - folha do es; Notícias públicas - G1; Notícias públicas - TVBV ONLINE; Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 1.1 h.",
+    "description": "Trecho da BR-101 será interditado para detonação de rochas - folha do es. Fontes consolidadas: Notícias públicas - folha do es; Notícias públicas - G1; Notícias públicas - TVBV ONLINE; Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -110,12 +112,14 @@
     "newsFreshnessHours": 1.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T20:55:06Z",
-    "last_seen_at": "2026-07-16T22:02:09Z",
+    "last_seen_at": "2026-07-16T22:02:23Z",
     "active_duration_hours": 1.12,
     "active_duration_label": "1.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "23a380af4a3a077f3b830edc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -132,7 +136,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 8.8 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -145,7 +149,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-16T22:00:58Z",
     "sources": [
       {
@@ -163,8 +167,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T13:10:55Z",
     "last_seen_at": "2026-07-16T22:02:09Z",
-    "active_duration_hours": 8.85,
-    "active_duration_label": "8.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 8.86,
+    "active_duration_label": "8.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-16T22:02:09Z",
+    "news_signature": "0580223c1528d9c183d6cfe1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
