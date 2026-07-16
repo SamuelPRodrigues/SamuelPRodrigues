@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "60dfaa489ef8f316df64618c",
+    "stable_event_id": "60dfaa489ef8f316df64618c",
+    "name": "Interdição planejada por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "city": "Maceió",
+    "state": "AL",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 2.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Aqui Notícias",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQzhsd1pxRjZBMHBIUVFRY29ZZUpmTG9IQWk2V2ROWjM5Y3otZjczcDNkMXFNWGZuSkJKMU44NjJzdFlmcU1ObUFwN2FYeTU0UDlod1ZJN1U3d183c0ZES3ozUXVJQW9BcTVhckd2Y2UzbDRRU25UXzJ2MUNRM0VmdlVnVDBsMWJiREFHbVpXUVplVzVOOXdCOFB2VGhwZWFVOXZjbGVoTHA",
+    "headline": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias",
+    "newsDate": "2026-07-16T13:10:55Z",
+    "plannedStartAt": "2026-07-16T13:10:55Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-07-16T15:48:57Z",
+    "sources": [
+      {
+        "source": "Aqui Notícias",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQzhsd1pxRjZBMHBIUVFRY29ZZUpmTG9IQWk2V2ROWjM5Y3otZjczcDNkMXFNWGZuSkJKMU44NjJzdFlmcU1ObUFwN2FYeTU0UDlod1ZJN1U3d183c0ZES3ozUXVJQW9BcTVhckd2Y2UzbDRRU25UXzJ2MUNRM0VmdlVnVDBsMWJiREFHbVpXUVplVzVOOXdCOFB2VGhwZWFVOXZjbGVoTHA",
+        "headline": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias",
+        "date": "2026-07-16T13:10:55Z"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQzhsd1pxRjZBMHBIUVFRY29ZZUpmTG9IQWk2V2ROWjM5Y3otZjczcDNkMXFNWGZuSkJKMU44NjJzdFlmcU1ObUFwN2FYeTU0UDlod1ZJN1U3d183c0ZES3ozUXVJQW9BcTVhckd2Y2UzbDRRU25UXzJ2MUNRM0VmdlVnVDBsMWJiREFHbVpXUVplVzVOOXdCOFB2VGhwZWFVOXZjbGVoTHA",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 2.65,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-16T13:10:55Z",
+    "last_seen_at": "2026-07-16T15:50:10Z",
+    "active_duration_hours": 2.65,
+    "active_duration_label": "2.6 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
