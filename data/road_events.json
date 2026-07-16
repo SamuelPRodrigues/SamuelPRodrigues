@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 5.0 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-07-16T18:11:07Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-07-16T18:15:55Z",
     "sources": [
       {
         "source": "Aqui Notícias",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 5.02,
+    "newsFreshnessHours": 5.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T13:10:55Z",
-    "last_seen_at": "2026-07-16T18:12:19Z",
-    "active_duration_hours": 5.03,
-    "active_duration_label": "5.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-16T18:12:19Z",
-    "news_signature": "0580223c1528d9c183d6cfe1",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-07-16T18:17:07Z",
+    "active_duration_hours": 5.1,
+    "active_duration_label": "5.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
