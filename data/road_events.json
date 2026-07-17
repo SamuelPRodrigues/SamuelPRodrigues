@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-17T18:43:17Z; ativo há 4.6 h.",
+    "description": "Trecho da BR-324 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-17T18:43:17Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUpheE54QkdQZWZGVnBaX3pKWVhwME1BSWkzanhPNWppWmFkNVluQ0p6ajBGQ0JtTTZOWF95V3pwOWF6NFlkcXRmcUtJWEMxY2RUTWNsZklsQThRZEozWmRYdGlnWTk1dFUtdW16QjJvTEg1TEhPY3MxN01LV2YzX2lHMXZnelVsbU1PejRNTHNXZWlUaTg1dHdNNWkyeGpXRGlsWFNKWGphaVXSAboBQVVfeXFMT285aUFHN1RZckFCQ1RibzFRZ3RlWElLT2xxZk4tQnZha3ctYkhLRzJHcjMwQjNTQWFYYmUxUE5iWWQwQk95X1BqOXFxQzg2cy1zMUZ4RUJkTC1QSkNoREVTalFlOThKeXgyLV9FUE5NTk1ucXNqSUhuLU5tSFJUNGJ1dk4tWGl0ZmJaX3U4TnB5Q3hjaUJKME5hd2Z1LVJ0YjNjOUo4cWJMcFJNY245R3VWZE42ODJKd2Nn",
     "headline": "Trecho da BR-324 segue interditado",
     "newsDate": "Fri, 17 Jul 2026 18:43:17 GMT",
-    "updatedAt": "2026-07-17T23:15:45Z",
+    "updatedAt": "2026-07-17T23:26:52Z",
     "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUpheE54QkdQZWZGVnBaX3pKWVhwME1BSWkzanhPNWppWmFkNVluQ0p6ajBGQ0JtTTZOWF95V3pwOWF6NFlkcXRmcUtJWEMxY2RUTWNsZklsQThRZEozWmRYdGlnWTk1dFUtdW16QjJvTEg1TEhPY3MxN01LV2YzX2lHMXZnelVsbU1PejRNTHNXZWlUaTg1dHdNNWkyeGpXRGlsWFNKWGphaVXSAboBQVVfeXFMT285aUFHN1RZckFCQ1RibzFRZ3RlWElLT2xxZk4tQnZha3ctYkhLRzJHcjMwQjNTQWFYYmUxUE5iWWQwQk95X1BqOXFxQzg2cy1zMUZ4RUJkTC1QSkNoREVTalFlOThKeXgyLV9FUE5NTk1ucXNqSUhuLU5tSFJUNGJ1dk4tWGl0ZmJaX3U4TnB5Q3hjaUJKME5hd2Z1LVJ0YjNjOUo4cWJMcFJNY245R3VWZE42ODJKd2Nn",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "0b8c46e157c027c661cb43b3",
     "event_id": "0b8c46e157c027c661cb43b3",
-    "newsFreshnessHours": 4.56,
+    "newsFreshnessHours": 4.75,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-17T18:43:17Z",
-    "last_seen_at": "2026-07-17T23:17:03Z",
-    "active_duration_hours": 4.57,
-    "active_duration_label": "4.6 h",
+    "last_seen_at": "2026-07-17T23:28:08Z",
+    "active_duration_hours": 4.75,
+    "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-17T23:17:03Z",
-    "news_signature": "6760e3a457dc23342a58af8d",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
