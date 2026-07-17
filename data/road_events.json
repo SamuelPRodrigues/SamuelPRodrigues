@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção, motoristas: BR-277 está totalmente bloqueada no Litoral do Paraná - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 8.1 h.",
+    "description": "Atenção, motoristas: BR-277 está totalmente bloqueada no Litoral do Paraná - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 8.12,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T05:46:59Z",
+    "news_signature": "ac9b816685254a705b3941f6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "VÍDEO: Colisão entre 3 caminhões deixa túnel na BR-101 totalmente bloqueado - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 8.9 h.",
+    "description": "VÍDEO: Colisão entre 3 caminhões deixa túnel na BR-101 totalmente bloqueado - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,10 +96,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T20:55:06Z",
     "last_seen_at": "2026-07-17T05:46:59Z",
-    "active_duration_hours": 8.86,
+    "active_duration_hours": 8.87,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T05:46:59Z",
+    "news_signature": "7fd9cef830a4d288e525709f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
