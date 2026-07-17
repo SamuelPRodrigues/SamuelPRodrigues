@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada na serra do mar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 2.4 h.",
+    "description": "BR-277 é interditada na serra do mar. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Curitiba; Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-16T21:39:53Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -49,11 +49,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T21:39:53Z",
     "last_seen_at": "2026-07-17T00:04:01Z",
-    "active_duration_hours": 2.4,
+    "active_duration_hours": 2.41,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T00:04:01Z",
+    "news_signature": "6fba79006c05bafdc575b342",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 será interditado para detonação de rochas - folha do es. Fontes consolidadas: Notícias públicas - folha do es; Notícias públicas - TVBV ONLINE; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 3.1 h.",
+    "description": "Trecho da BR-101 será interditado para detonação de rochas - folha do es. Fontes consolidadas: Notícias públicas - folha do es; Notícias públicas - TVBV ONLINE; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +107,14 @@
     "newsFreshnessHours": 3.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T20:55:06Z",
-    "last_seen_at": "2026-07-17T00:04:01Z",
+    "last_seen_at": "2026-07-17T00:04:18Z",
     "active_duration_hours": 3.15,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8caf792fd94a88758e3d8c03",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +126,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Empresa responsável pela carreta envolvida no acidente de Jorge Buissa tem acesso interditado à BR-262, em Água Clara. Fontes consolidadas: Notícias públicas - Portal Água Clara MS. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-16T13:29:29Z; ativo há 10.6 h.",
+    "description": "Empresa responsável pela carreta envolvida no acidente de Jorge Buissa tem acesso interditado à BR-262, em Água Clara. Fontes consolidadas: Notícias públicas - Portal Água Clara MS. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-16T13:29:29Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,8 +157,11 @@
     "active_duration_hours": 10.58,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T00:04:01Z",
+    "news_signature": "ed0e22b6d7dab1bef67e9f8b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -170,7 +178,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 10.9 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Anchieta - Aqui Notícias. Período informado: 2026-07-16T13:10:55Z até fim não identificado. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-16T13:10:55Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -183,7 +191,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-17T00:02:47Z",
     "sources": [
       {
@@ -201,8 +209,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T13:10:55Z",
     "last_seen_at": "2026-07-17T00:04:01Z",
-    "active_duration_hours": 10.88,
+    "active_duration_hours": 10.89,
     "active_duration_label": "10.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T00:04:01Z",
+    "news_signature": "0580223c1528d9c183d6cfe1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
