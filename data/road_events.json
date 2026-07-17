@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-17T18:43:17Z; ativo há 2.8 h.",
+    "description": "Trecho da BR-324 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-17T18:43:17Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.75,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T21:28:17Z",
+    "news_signature": "6760e3a457dc23342a58af8d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "VÍDEO: Colisão entre 3 caminhões deixa túnel na BR-101 totalmente bloqueado - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE; Notícias públicas - Fan F1; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 24.6 h.",
+    "description": "VÍDEO: Colisão entre 3 caminhões deixa túnel na BR-101 totalmente bloqueado - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE; Notícias públicas - Fan F1; Notícias públicas - OCP News. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-16T20:55:06Z; ativo há 24.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,11 +96,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-16T20:55:06Z",
     "last_seen_at": "2026-07-17T21:28:17Z",
-    "active_duration_hours": 24.55,
+    "active_duration_hours": 24.56,
     "active_duration_label": "24.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T21:28:17Z",
+    "news_signature": "1a30832e627d87bd6a2ffd9f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -7.024,
     "lon": -37.28,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-354 é totalmente interditada entre Lagoa Formosa e Carmo do Paranaíba após colisão entre carretas e incêndio - Patos 1. Fontes consolidadas: Notícias públicas - Patos 1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-17T09:49:14Z; ativo há 11.7 h.",
+    "description": "BR-354 é totalmente interditada entre Lagoa Formosa e Carmo do Paranaíba após colisão entre carretas e incêndio - Patos 1. Fontes consolidadas: Notícias públicas - Patos 1. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-17T09:49:14Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,7 +146,10 @@
     "active_duration_hours": 11.65,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-17T21:28:17Z",
+    "news_signature": "d31d2e0429c483d737e263e2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
