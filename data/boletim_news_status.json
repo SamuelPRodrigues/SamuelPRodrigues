@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-07-18T12:47:37Z",
+  "updatedAt": "2026-07-18T13:03:18Z",
   "queries": 6,
-  "newItemsBeforeMerge": 51,
+  "newItemsBeforeMerge": 1,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 58,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Motorista agradece a Deus após escapar ileso de acidente entre seis veículos na Dom Pedro I: 'Livramento' - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Duas pessoas morrem em acidente com carro de polícia, caminhão de lixo e outros dois veículos em MT - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Quatro feridos recebem alta de hospital após acidente que matou três pessoas no Cariri da Paraíba - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Acidente entre caminhão desgovernado e outros cinco veículos mata motorista e interdita a rodovia Dom Pedro I, em Atibaia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após colidir caminhão em carreta rebocada de ré na BR-101, na Grande João Pessoa - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro cai em ribanceira e deixa 4 feridos em rodovia de Tatuí - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento envolvendo cinco veículos deixa um ferido na BR-381, na Grande BH - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro capota em ribanceira e para sobre trilhos de ferrovia após saída de pista na BR-262 em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após colidir caminhão em carreta rebocada de ré na BR-101, na Grande João Pessoa - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Idoso morre após batida frontal entre carro e caminhão na BR-116, no interior da Bahia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista de 72 anos morre após caminhão carregado de sal tombar na BR-163 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento entre dois carros e três caminhões deixa motorista ferido em trecho de pistas simples da BR-153, no Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Ônibus de Juiz de Fora cai em ribanceira na BR-040, na Serra de Petrópolis - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Vítima que morreu em capotamento na BR-153 é identificada - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Garupa de moto morre após ser arremessada e atropelada por carro na BR-040 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Homem morre atropelado na BR-153 em Rio Preto - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Granizo e chuva forte atingem cidade no Sul do RS; estado tem previsão de temporal - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Temporal deixa 720 desabrigados em Eldorado do Sul - Jornal do Brasil",
-      "reason": "not_operationally_relevant"
+      "category": "mobilization",
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Temporal com granizo deixa mais de 400 desalojados na Grande Porto Alegre - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Temporal atinge Porto Alegre com chuva forte e rajadas de vento de mais de 70 km/h - Correio do Povo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte impõe emergência e deixa rastro de destruição em cidade do RS - Notícias ao Minuto Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Tempestade severa atinge Eunápolis durante a noite e a madrugada deixando rastro de destruição pela cidade - aGazeta Bahia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "\"Nunca vi isso na vida\": morador fala sobre estragos de temporal em Eldorado do Sul - GZH",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Forte tempestade de granizo causa prejuízos na região metropolitana de Porto Alegre - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Forte tempestade deixa três mortos no Chile - G1",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
