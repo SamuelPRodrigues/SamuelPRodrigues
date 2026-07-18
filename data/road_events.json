@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Passarela da BR-376 é interditada em Paranavaí. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-18T18:01:55Z; ativo há 1.5 h.",
+    "description": "Passarela da BR-376 é interditada em Paranavaí. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-18T18:01:55Z; ativo há 1.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-18T18:01:55Z",
     "last_seen_at": "2026-07-18T19:32:01Z",
-    "active_duration_hours": 1.5,
+    "active_duration_hours": 1.51,
     "active_duration_label": "1.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-18T19:32:01Z",
+    "news_signature": "f5cd365a397fcbcd13d05af9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta pega fogo após bater em outro veículo na BR-116, no interior da Bahia; pista foi interditada - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net; Notícias públicas - G1; Notícias públicas - Bahia Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-18T13:04:58Z; ativo há 6.5 h.",
+    "description": "Carreta pega fogo após bater em outro veículo na BR-116, no interior da Bahia; pista foi interditada - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net; Notícias públicas - G1; Notícias públicas - Bahia Notícias. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-18T13:04:58Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,7 +99,10 @@
     "active_duration_hours": 6.45,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-18T19:32:01Z",
+    "news_signature": "93d60a743fa6a1cc448e74f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
