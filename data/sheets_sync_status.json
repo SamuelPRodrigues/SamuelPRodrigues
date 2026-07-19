@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-07-19T10:48:00Z",
+  "updatedAt": "2026-07-19T11:02:37Z",
   "configured": true,
-  "eventsPrepared": 11,
+  "eventsPrepared": 10,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-07-19T10:45Z",
+  "snapshotBucket": "2026-07-19T11:00Z",
   "eventLifecycleFields": true,
   "ok": true,
   "response": {
     "ok": true,
-    "received": 11,
+    "received": 10,
     "inserted": 0,
-    "updated": 11,
+    "updated": 10,
     "total_rows": 464
   },
   "analyticsCache": true,
   "error": null,
-  "analyticsRows": 464
+  "analyticsRows": 10,
+  "analyticsCacheWarning": "IncompleteRead(61450 bytes read)"
 }
