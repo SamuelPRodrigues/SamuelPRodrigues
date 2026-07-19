@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta carregada com leite tomba, e BR-381 é interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-19T12:39:54Z; ativo há 7.1 h.",
+    "description": "Carreta carregada com leite tomba, e BR-381 é interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-19T12:39:54Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 7.12,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-19T19:46:57Z",
+    "news_signature": "126b3a10a8e6fbbc7c630c69",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
