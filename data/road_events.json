@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Passarela é interditada na BR-376 em Paranavaí após rachaduras. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-20T17:03:39Z; ativo há 1.2 h.",
+    "description": "Passarela é interditada na BR-376 em Paranavaí após rachaduras. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-20T17:03:39Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 1.23,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-20T18:17:10Z",
+    "news_signature": "49c95190270211fc18543c7a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista parcialmente interditada na BR-277, km 661, em Medianeira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-20T16:52:58Z; ativo há 1.4 h.",
+    "description": "Pista parcialmente interditada na BR-277, km 661, em Medianeira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-20T16:52:58Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +90,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-20T16:52:58Z",
     "last_seen_at": "2026-07-20T18:17:10Z",
-    "active_duration_hours": 1.4,
+    "active_duration_hours": 1.41,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-20T18:17:10Z",
+    "news_signature": "cdc72b7e276e4cf9f24a1282",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
