@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T01:08:02Z",
+  "updatedAt": "2026-07-20T01:16:59Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -58,6 +58,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOdzZHQ2J4dk9BSDhEbWVqemc2SlNQM0JpeDZ2THpvWTN2QmdKLWtkMmdKY1V4VEIwLUtaZGZxa0ZKOU9Wa3lpZHkzbnFRdXR1MEJ3VDJjSzZ1cTl1cVY5OGZucWtDM1lOWUZKcm5FQ0stM3RaNkhKelczaHJCc1gwandHR0xyakRVdHkxM2RQNFpXR2MybXRhNTNrQ3Y3TGRrWlo2VE5qbVVsRm5rd0xhWVBsSWNQNndEcDlWWjYyOUhUTGZMZWI0YjBNa1VpZFJ5aUd2ZkVGaUoxWmRxRV9sN2xZSElKR0p5VlNDV3hKdXlpSnhCdXpZcG5ISm1tR0hQcjlKWktiRkFJTVg4RDdJWTJfMzBuWmZsV19iNHAzWQ?oc=5",
       "total_snapshots": 148,
       "estimated_hours": 37.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "5fa2d3b705b27721ba81a565",
+      "stable_event_id": "5fa2d3b705b27721ba81a565",
+      "observation_hash": "f8c92d1c020fd97c37d78d4d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Aracaju",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -10.947,
+      "lon": -37.073,
+      "city": "Aracaju",
+      "state": "SE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 55.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1494,
+      "estimated_hours": 373.5,
       "active": true,
       "storage": "supabase"
     },
@@ -10169,35 +10198,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "7162d88fbd3ade34a9dad596",
-      "stable_event_id": "7162d88fbd3ade34a9dad596",
-      "observation_hash": "d40b1e04188189315947d11a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-19T18:47:03+00:00",
-      "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-07-19T18:47:03+00:00",
-      "updated_at": "2026-07-19T18:47:04.544078+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Ilhéus",
-      "risk": 47,
-      "severity": "Moderado",
-      "lat": -14.793,
-      "lon": -39.046,
-      "city": "Ilhéus",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 53.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1245,
-      "estimated_hours": 311.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "c45a5abe50f5b4a8ec30f014",
       "stable_event_id": "c45a5abe50f5b4a8ec30f014",
       "observation_hash": "293092ff93d692dfae72f37a",
@@ -10633,43 +10633,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "5fa2d3b705b27721ba81a565",
-      "stable_event_id": "5fa2d3b705b27721ba81a565",
-      "observation_hash": "c79c786e736d1806aaef5ce4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Aracaju",
-      "risk": 44,
-      "severity": "Moderado",
-      "lat": -10.947,
-      "lon": -37.073,
-      "city": "Aracaju",
-      "state": "SE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 55.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1493,
-      "estimated_hours": 373.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f13e2269fc4592f622f09fc2",
       "stable_event_id": "f13e2269fc4592f622f09fc2",
-      "observation_hash": "3714448ab592d6b7f0d6e144",
+      "observation_hash": "2c6f273679b002b5182248a2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10685,8 +10656,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 55.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2096,
-      "estimated_hours": 524.0,
+      "total_snapshots": 2097,
+      "estimated_hours": 524.25,
       "active": true,
       "storage": "supabase"
     },
@@ -10867,12 +10838,12 @@
     {
       "event_id": "5cca55e4ca30532da426bf44",
       "stable_event_id": "5cca55e4ca30532da426bf44",
-      "observation_hash": "63f6a3b10ae6776fed5596da",
+      "observation_hash": "8c239065e0a1d08c9d7a6b70",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -10888,8 +10859,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 55.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1088,
-      "estimated_hours": 272.0,
+      "total_snapshots": 1089,
+      "estimated_hours": 272.25,
       "active": true,
       "storage": "supabase"
     },
@@ -11186,12 +11157,12 @@
     {
       "event_id": "554021f5434490a857b89c43",
       "stable_event_id": "554021f5434490a857b89c43",
-      "observation_hash": "d59183d8cfc652a98447f240",
+      "observation_hash": "9fda2d2674cd41a8dbeac9de",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11207,8 +11178,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 55.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1956,
-      "estimated_hours": 489.0,
+      "total_snapshots": 1957,
+      "estimated_hours": 489.25,
       "active": true,
       "storage": "supabase"
     },
@@ -11217,10 +11188,10 @@
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "3f56cc1fc97b38e190c36312",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11236,8 +11207,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 55.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2168,
-      "estimated_hours": 542.0,
+      "total_snapshots": 2169,
+      "estimated_hours": 542.25,
       "active": true,
       "storage": "supabase"
     },
@@ -12257,6 +12228,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "7162d88fbd3ade34a9dad596",
+      "stable_event_id": "7162d88fbd3ade34a9dad596",
+      "observation_hash": "578bf4e1653bcc0a27cdaf03",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
+      "first_seen_at": "2026-05-27T07:16:38+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Ilhéus",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -14.793,
+      "lon": -39.046,
+      "city": "Ilhéus",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 53.8 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1246,
+      "estimated_hours": 311.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "e51c4cc1626dd5b66e5a1dde",
       "stable_event_id": "e51c4cc1626dd5b66e5a1dde",
       "observation_hash": "656e50d2dde0a470aae43752",
@@ -12696,10 +12696,10 @@
       "stable_event_id": "94eba1bea36aeec0d426f14d",
       "observation_hash": "868323867dbd548fbdd43971",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12715,8 +12715,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 54.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1692,
-      "estimated_hours": 423.0,
+      "total_snapshots": 1693,
+      "estimated_hours": 423.25,
       "active": true,
       "storage": "supabase"
     },
@@ -12870,10 +12870,10 @@
       "stable_event_id": "c47e79a93bfb550cf3264f3b",
       "observation_hash": "bc1fdb165c0cc1e0012271cf",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-20T01:07:57+00:00",
+      "snapshot_at": "2026-07-20T01:16:55+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-20T01:07:57+00:00",
-      "updated_at": "2026-07-20T01:07:58.393517+00:00",
+      "last_seen_at": "2026-07-20T01:16:55+00:00",
+      "updated_at": "2026-07-20T01:16:56.417943+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12889,8 +12889,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:16Z; ativo há 55.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1497,
-      "estimated_hours": 374.25,
+      "total_snapshots": 1498,
+      "estimated_hours": 374.5,
       "active": true,
       "storage": "supabase"
     },
@@ -13825,31 +13825,31 @@
   ],
   "windows": {
     "7": {
-      "events": 114,
+      "events": 113,
       "avgRisk": 41,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "climate": 83,
+        "climate": 82,
         "road": 31
       },
       "byRegion": {
         "Nordeste": 39,
-        "Sudeste": 26,
+        "Sudeste": 25,
         "Sul": 24,
         "Norte": 17,
         "Centro-Oeste": 8
       },
       "bySeverity": {
-        "Moderado": 50,
+        "Moderado": 48,
         "Baixo": 33,
-        "Alto": 31
+        "Alto": 32
       },
       "dailyRisk": [
         {
           "date": "2026-07-13",
           "avgRisk": 46,
-          "events": 9,
+          "events": 8,
           "maxRisk": 69
         },
         {
@@ -13885,13 +13885,13 @@
         {
           "date": "2026-07-19",
           "avgRisk": 30,
-          "events": 38,
+          "events": 37,
           "maxRisk": 69
         },
         {
           "date": "2026-07-20",
-          "avgRisk": 40,
-          "events": 10,
+          "avgRisk": 42,
+          "events": 11,
           "maxRisk": 69
         }
       ]
@@ -13914,8 +13914,8 @@
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 125,
-        "Moderado": 62,
+        "Alto": 126,
+        "Moderado": 61,
         "Baixo": 33
       },
       "dailyRisk": [
@@ -14090,13 +14090,13 @@
         {
           "date": "2026-07-19",
           "avgRisk": 30,
-          "events": 38,
+          "events": 37,
           "maxRisk": 69
         },
         {
           "date": "2026-07-20",
-          "avgRisk": 40,
-          "events": 10,
+          "avgRisk": 42,
+          "events": 11,
           "maxRisk": 69
         }
       ]
@@ -14120,8 +14120,8 @@
         "Sem região": 15
       },
       "bySeverity": {
-        "Alto": 223,
-        "Moderado": 99,
+        "Alto": 224,
+        "Moderado": 98,
         "Baixo": 33
       },
       "dailyRisk": [
@@ -14452,13 +14452,13 @@
         {
           "date": "2026-07-19",
           "avgRisk": 30,
-          "events": 38,
+          "events": 37,
           "maxRisk": 69
         },
         {
           "date": "2026-07-20",
-          "avgRisk": 40,
-          "events": 10,
+          "avgRisk": 42,
+          "events": 11,
           "maxRisk": 69
         }
       ]
