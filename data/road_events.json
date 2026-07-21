@@ -9,7 +9,7 @@
     "lat": -28.262,
     "lon": -52.408,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 2.8 h.",
+    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-21T17:59:20Z",
     "last_seen_at": "2026-07-21T20:46:58Z",
-    "active_duration_hours": 2.79,
+    "active_duration_hours": 2.8,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RS-135"
+    "detectedRoad": "RS-135",
+    "last_confirmed_at": "2026-07-21T20:46:58Z",
+    "news_signature": "ec556f817d5b8f99b888c488",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Estradas do Paraná hoje: BR-376 tem área de escape interditada e obras na BR-277 - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-21T12:51:00Z; ativo há 7.9 h.",
+    "description": "Estradas do Paraná hoje: BR-376 tem área de escape interditada e obras na BR-277 - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-21T12:51:00Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -106,11 +109,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-21T12:51:00Z",
     "last_seen_at": "2026-07-21T20:46:58Z",
-    "active_duration_hours": 7.93,
+    "active_duration_hours": 7.94,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-21T20:46:58Z",
+    "news_signature": "07e11ced64345939e2401ca0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -122,7 +128,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Grave acidente deixa pista parcialmente interditada na BR-470, em Rio do Sul - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-21T11:24:43Z; ativo há 9.4 h.",
+    "description": "Grave acidente deixa pista parcialmente interditada na BR-470, em Rio do Sul - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-21T11:24:43Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -153,8 +159,11 @@
     "active_duration_hours": 9.37,
     "active_duration_label": "9.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-21T20:46:58Z",
+    "news_signature": "57266e110eade83e019faa55",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -166,7 +175,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-101 durante a madrugada e deixa faixa interditada - A Tribuna RJ. Fontes consolidadas: Notícias públicas - A Tribuna RJ. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-21T11:15:00Z; ativo há 9.5 h.",
+    "description": "Carreta tomba na BR-101 durante a madrugada e deixa faixa interditada - A Tribuna RJ. Fontes consolidadas: Notícias públicas - A Tribuna RJ. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-21T11:15:00Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -194,10 +203,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-21T11:15:00Z",
     "last_seen_at": "2026-07-21T20:46:58Z",
-    "active_duration_hours": 9.53,
+    "active_duration_hours": 9.54,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-21T20:46:58Z",
+    "news_signature": "996bf7eede5cc7401ed70f85",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
