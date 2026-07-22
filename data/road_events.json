@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 em Ibiraçu será interditado por duas horas nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T11:40:52Z; ativo há 36 min.",
+    "description": "Trecho da BR-101 em Ibiraçu será interditado por duas horas nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T11:40:52Z; ativo há 37 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.6,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T11:40:52Z",
-    "last_seen_at": "2026-07-22T12:17:09Z",
-    "active_duration_hours": 0.6,
-    "active_duration_label": "36 min",
+    "last_seen_at": "2026-07-22T12:17:25Z",
+    "active_duration_hours": 0.61,
+    "active_duration_label": "37 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0bceb0c5ef29f129656b5d6d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira mantém sistema Pare e Siga na BR-282 em Nova Erechim - Rede Peperi. Fontes consolidadas: Notícias públicas - Rede Peperi; Notícias públicas - WH3; Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T11:34:54Z; ativo há 42 min.",
+    "description": "Queda de barreira mantém sistema Pare e Siga na BR-282 em Nova Erechim - Rede Peperi. Fontes consolidadas: Notícias públicas - Rede Peperi; Notícias públicas - WH3; Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T11:34:54Z; ativo há 43 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,11 +94,13 @@
     "newsFreshnessHours": 0.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T11:34:54Z",
-    "last_seen_at": "2026-07-22T12:17:09Z",
-    "active_duration_hours": 0.7,
-    "active_duration_label": "42 min",
+    "last_seen_at": "2026-07-22T12:17:25Z",
+    "active_duration_hours": 0.71,
+    "active_duration_label": "43 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "dcd17899dc66a5f17e1bc590",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
