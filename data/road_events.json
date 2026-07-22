@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-282 é parcialmente interditado após queda de barreira - Folha do Oeste. Fontes consolidadas: Notícias públicas - Folha do Oeste; Notícias públicas - Rede Peperi; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T13:16:00Z; ativo há 31 min.",
+    "description": "Trecho da BR-282 é parcialmente interditado após queda de barreira - Folha do Oeste. Fontes consolidadas: Notícias públicas - Folha do Oeste; Notícias públicas - Rede Peperi; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T13:16:00Z; ativo há 32 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,12 +60,14 @@
     "newsFreshnessHours": 0.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T13:16:00Z",
-    "last_seen_at": "2026-07-22T13:47:16Z",
-    "active_duration_hours": 0.52,
-    "active_duration_label": "31 min",
+    "last_seen_at": "2026-07-22T13:47:35Z",
+    "active_duration_hours": 0.53,
+    "active_duration_label": "32 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5cd7af93ae9796d95ce8e3e5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,8 +116,11 @@
     "active_duration_hours": 0.67,
     "active_duration_label": "40 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T13:47:16Z",
+    "news_signature": "9a7fb61371e153caf94830a1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +132,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-151 SERÁ TOTALMENTE INTERDITADA NA QUINTA-FEIRA (23) PARA DESMONTE DE ROCHAS - fmcruzeiro.com.br. Fontes consolidadas: Notícias públicas - fmcruzeiro.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-22T09:25:35Z; ativo há 4.4 h.",
+    "description": "PR-151 SERÁ TOTALMENTE INTERDITADA NA QUINTA-FEIRA (23) PARA DESMONTE DE ROCHAS - fmcruzeiro.com.br. Fontes consolidadas: Notícias públicas - fmcruzeiro.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-22T09:25:35Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -155,11 +160,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T09:25:35Z",
     "last_seen_at": "2026-07-22T13:47:16Z",
-    "active_duration_hours": 4.36,
+    "active_duration_hours": 4.37,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-151"
+    "detectedRoad": "PR-151",
+    "last_confirmed_at": "2026-07-22T13:47:16Z",
+    "news_signature": "1c3d1d3cbb01c44d629c99d0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
