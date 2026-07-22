@@ -40,8 +40,11 @@
     "active_duration_hours": 0.86,
     "active_duration_label": "52 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T12:32:30Z",
+    "news_signature": "0bceb0c5ef29f129656b5d6d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -96,8 +99,11 @@
     "active_duration_hours": 0.96,
     "active_duration_label": "58 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T12:32:30Z",
+    "news_signature": "dcd17899dc66a5f17e1bc590",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-151 SERÁ TOTALMENTE INTERDITADA NA QUINTA-FEIRA (23) PARA DESMONTE DE ROCHAS - fmcruzeiro.com.br. Fontes consolidadas: Notícias públicas - fmcruzeiro.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-22T09:25:35Z; ativo há 3.1 h.",
+    "description": "PR-151 SERÁ TOTALMENTE INTERDITADA NA QUINTA-FEIRA (23) PARA DESMONTE DE ROCHAS - fmcruzeiro.com.br. Fontes consolidadas: Notícias públicas - fmcruzeiro.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-22T09:25:35Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -136,12 +142,14 @@
     "newsFreshnessHours": 3.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T09:25:35Z",
-    "last_seen_at": "2026-07-22T12:32:30Z",
+    "last_seen_at": "2026-07-22T12:32:45Z",
     "active_duration_hours": 3.12,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-151"
+    "detectedRoad": "PR-151",
+    "news_signature": "1c3d1d3cbb01c44d629c99d0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
