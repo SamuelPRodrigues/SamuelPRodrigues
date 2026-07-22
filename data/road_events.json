@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-282",
+    "road": "BR-282",
+    "corridor": "Florianópolis / São José • BR-101 / BR-282",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -27.595,
+    "lon": -48.548,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Queda de barreira mantém trânsito em sistema Pare e Siga na BR-282, em Nova Erechim - WH3. Fontes consolidadas: Notícias públicas - WH3. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-22T11:15:00Z; ativo há 7 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - WH3",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjladWVhenRJSlFLU1hTZ0g4MjZGNUwwTUJOVjRPaGZ5TFpHMERyZmNZTG12LVczSFFJMEJmMGdOYXRmbDJkRnA1VmdIaFpBRllhdnNOamwwcHp2TXFBSkhrcDladC1nVTNScDlqN3ptc0ZsZERkdXc3Z3MxS3AyZUtYckNLV1M0SnFaejFrZlg1Y0dBNER5bEVxN0djS09hMEZHMzJtc1FGdjF4S285eHlHLU5xOXhmTEllcWlnT2Y",
+    "headline": "Queda de barreira mantém trânsito em sistema Pare e Siga na BR-282, em Nova Erechim - WH3",
+    "newsDate": "Wed, 22 Jul 2026 11:15:00 GMT",
+    "updatedAt": "2026-07-22T11:20:58Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjladWVhenRJSlFLU1hTZ0g4MjZGNUwwTUJOVjRPaGZ5TFpHMERyZmNZTG12LVczSFFJMEJmMGdOYXRmbDJkRnA1VmdIaFpBRllhdnNOamwwcHp2TXFBSkhrcDladC1nVTNScDlqN3ptc0ZsZERkdXc3Z3MxS3AyZUtYckNLV1M0SnFaejFrZlg1Y0dBNER5bEVxN0djS09hMEZHMzJtc1FGdjF4S285eHlHLU5xOXhmTEllcWlnT2Y",
+    "sources": [
+      {
+        "source": "Notícias públicas - WH3",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjladWVhenRJSlFLU1hTZ0g4MjZGNUwwTUJOVjRPaGZ5TFpHMERyZmNZTG12LVczSFFJMEJmMGdOYXRmbDJkRnA1VmdIaFpBRllhdnNOamwwcHp2TXFBSkhrcDladC1nVTNScDlqN3ptc0ZsZERkdXc3Z3MxS3AyZUtYckNLV1M0SnFaejFrZlg1Y0dBNER5bEVxN0djS09hMEZHMzJtc1FGdjF4S285eHlHLU5xOXhmTEllcWlnT2Y",
+        "headline": "Queda de barreira mantém trânsito em sistema Pare e Siga na BR-282, em Nova Erechim - WH3",
+        "date": "Wed, 22 Jul 2026 11:15:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "950c807c84999bba35f72c09",
+    "event_id": "950c807c84999bba35f72c09",
+    "newsFreshnessHours": 0.12,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-22T11:15:00Z",
+    "last_seen_at": "2026-07-22T11:22:12Z",
+    "active_duration_hours": 0.12,
+    "active_duration_label": "7 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
