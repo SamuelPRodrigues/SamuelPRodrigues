@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-470",
+    "road": "BR-470",
+    "corridor": "Blumenau • BR-470",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -26.919,
+    "lon": -49.066,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-470 é bloqueada no trecho entre Barretos, interior de Lagoa Vermelha, e André da Rocha - Rádio Solaris. Fontes consolidadas: Notícias públicas - Rádio Solaris; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-21T22:36:42Z; ativo há 7.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Solaris + 1 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVJ3UGQ4XzdwSlZOMFNiV0xrT2JXWEh2OXIzb1gtX2Uwc0I0c0hjUDdWZkMtX0pIejJCcmVJTGwzTGVfTU4xQ1llTjRKaUphZHZPT3Vrbk5xcVUzaWt3VENvUmwxUG1LVHMtc0J5eHQ3Ym41SkdJOVFGYTc4b216ZVItQmN2UHVSNnhJUGtXdUxVQkxnZ2huNUZxUm56N3YxZ25seEhYRlloUFlsWXpVYUFKM192VGpMQXJXMFdUdzEwa25iNUlDTmtB",
+    "headline": "BR-470 é bloqueada no trecho entre Barretos, interior de Lagoa Vermelha, e André da Rocha - Rádio Solaris",
+    "newsDate": "Tue, 21 Jul 2026 22:36:42 GMT",
+    "updatedAt": "2026-07-22T06:30:58Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVJ3UGQ4XzdwSlZOMFNiV0xrT2JXWEh2OXIzb1gtX2Uwc0I0c0hjUDdWZkMtX0pIejJCcmVJTGwzTGVfTU4xQ1llTjRKaUphZHZPT3Vrbk5xcVUzaWt3VENvUmwxUG1LVHMtc0J5eHQ3Ym41SkdJOVFGYTc4b216ZVItQmN2UHVSNnhJUGtXdUxVQkxnZ2huNUZxUm56N3YxZ25seEhYRlloUFlsWXpVYUFKM192VGpMQXJXMFdUdzEwa25iNUlDTmtB",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Solaris",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVJ3UGQ4XzdwSlZOMFNiV0xrT2JXWEh2OXIzb1gtX2Uwc0I0c0hjUDdWZkMtX0pIejJCcmVJTGwzTGVfTU4xQ1llTjRKaUphZHZPT3Vrbk5xcVUzaWt3VENvUmwxUG1LVHMtc0J5eHQ3Ym41SkdJOVFGYTc4b216ZVItQmN2UHVSNnhJUGtXdUxVQkxnZ2huNUZxUm56N3YxZ25seEhYRlloUFlsWXpVYUFKM192VGpMQXJXMFdUdzEwa25iNUlDTmtB",
+        "headline": "BR-470 é bloqueada no trecho entre Barretos, interior de Lagoa Vermelha, e André da Rocha - Rádio Solaris",
+        "date": "Tue, 21 Jul 2026 22:36:42 GMT"
+      },
+      {
+        "source": "Notícias públicas - ND Mais",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWVVMlNBb2QzclNEOG5FMGFpdThER0pESlY2V3RLWXd3WGxNcGdQejdPcVRrTDNRc3MtRE84dDFfOWdscUZsQzk4NHBDNm9VekxVRmdkNl95UHhUZlJZdHgwclc0dmR3VDd6Vm42RzN5QkFGZ3BqbklDbmtyc1hRVjJ2UmNoZ1JxZUc4VWdoek51QTY2eFVrNkJ5QXBTRW5zV1hlN1hvcmZBZEts",
+        "headline": "Grave acidente deixa pista parcialmente interditada na BR-470, em Rio do Sul - ND Mais",
+        "date": "Tue, 21 Jul 2026 11:24:43 GMT"
+      }
+    ],
+    "sourceCount": 2,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "b0b34fd8534dfba895b523a4",
+    "event_id": "b0b34fd8534dfba895b523a4",
+    "newsFreshnessHours": 7.93,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-21T22:36:42Z",
+    "last_seen_at": "2026-07-22T06:32:16Z",
+    "active_duration_hours": 7.93,
+    "active_duration_label": "7.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
