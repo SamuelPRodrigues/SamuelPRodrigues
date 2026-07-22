@@ -9,7 +9,7 @@
     "lat": -28.262,
     "lon": -52.408,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 6.5 h.",
+    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 6.55,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RS-135"
+    "detectedRoad": "RS-135",
+    "last_confirmed_at": "2026-07-22T00:32:17Z",
+    "news_signature": "ec556f817d5b8f99b888c488",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Estradas do Paraná hoje: BR-376 tem área de escape interditada e obras na BR-277 - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-21T12:51:00Z; ativo há 11.7 h.",
+    "description": "Estradas do Paraná hoje: BR-376 tem área de escape interditada e obras na BR-277 - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - G1; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-21T12:51:00Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -103,7 +106,10 @@
     "active_duration_hours": 11.69,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T00:32:17Z",
+    "news_signature": "c60d0f4dcebb49fe277282b3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
