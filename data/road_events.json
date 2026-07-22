@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-370 é interditada após Rio Canoas transbordar e cobrir ponte na Serra catarinense - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-22T20:33:16Z; ativo há 2.2 h.",
+    "description": "SC-370 é interditada após Rio Canoas transbordar e cobrir ponte na Serra catarinense - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-22T20:33:16Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T20:33:16Z",
     "last_seen_at": "2026-07-22T22:47:15Z",
-    "active_duration_hours": 2.23,
+    "active_duration_hours": 2.24,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-370"
+    "detectedRoad": "SC-370",
+    "last_confirmed_at": "2026-07-22T22:47:15Z",
+    "news_signature": "55c53d95a2e5d12d7a890d71",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente na BR-277 e bloqueio provoca mais de 20 km de congestionamento em Campo Largo - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-22T18:58:00Z; ativo há 3.8 h.",
+    "description": "Motociclista morre em acidente na BR-277 e bloqueio provoca mais de 20 km de congestionamento em Campo Largo - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-22T18:58:00Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T18:58:00Z",
     "last_seen_at": "2026-07-22T22:47:15Z",
-    "active_duration_hours": 3.82,
+    "active_duration_hours": 3.83,
     "active_duration_label": "3.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T22:47:15Z",
+    "news_signature": "6da590293cae8c314c2af59e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira provoca sistema \"Pare\" e \"Siga\" na BR-282 em Nova Erechim - jrregional.com.br. Fontes consolidadas: Notícias públicas - jrregional.com.br; Notícias públicas - Folha do Oeste; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-22T15:33:41Z; ativo há 7.2 h.",
+    "description": "Queda de barreira provoca sistema \"Pare\" e \"Siga\" na BR-282 em Nova Erechim - jrregional.com.br. Fontes consolidadas: Notícias públicas - jrregional.com.br; Notícias públicas - Folha do Oeste; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-22T15:33:41Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -153,8 +159,11 @@
     "active_duration_hours": 7.23,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T22:47:15Z",
+    "news_signature": "a051cf8976a1329d770ecf5c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -166,7 +175,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 é interditada nos dois sentidos em Ibiraçu para explosão de rochas nesta quarta (22) - Jornal Espírito Santo Notícias. Fontes consolidadas: Notícias públicas - Jornal Espírito Santo Notícias; Notícias públicas - jornaldodiase.com.br; Notícias públicas - Tribuna Online; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-22T13:07:20Z; ativo há 9.7 h.",
+    "description": "BR-101 é interditada nos dois sentidos em Ibiraçu para explosão de rochas nesta quarta (22) - Jornal Espírito Santo Notícias. Fontes consolidadas: Notícias públicas - Jornal Espírito Santo Notícias; Notícias públicas - jornaldodiase.com.br; Notícias públicas - Tribuna Online; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-22T13:07:20Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -215,8 +224,11 @@
     "active_duration_hours": 9.67,
     "active_duration_label": "9.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T22:47:15Z",
+    "news_signature": "a92d824107fa256be9aee507",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -228,7 +240,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo: Motorista é socorrido após caminhão tombar na BR-262; pista ficou parcialmente interditada - tapiraimgtv.com.br. Fontes consolidadas: Notícias públicas - tapiraimgtv.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-22T11:51:46Z; ativo há 10.9 h.",
+    "description": "Vídeo: Motorista é socorrido após caminhão tombar na BR-262; pista ficou parcialmente interditada - tapiraimgtv.com.br. Fontes consolidadas: Notícias públicas - tapiraimgtv.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-22T11:51:46Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -256,10 +268,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T11:51:46Z",
     "last_seen_at": "2026-07-22T22:47:15Z",
-    "active_duration_hours": 10.92,
+    "active_duration_hours": 10.93,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-22T22:47:15Z",
+    "news_signature": "ce2bc86245da97b865970247",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
