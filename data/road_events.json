@@ -9,7 +9,7 @@
     "lat": -28.262,
     "lon": -52.408,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 7.8 h.",
+    "description": "Queda de barreira bloqueia parcialmente a RS-135 em Passo Fundo após fortes chuvas - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-21T17:59:20Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 7.8,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RS-135"
+    "detectedRoad": "RS-135",
+    "last_confirmed_at": "2026-07-22T01:47:15Z",
+    "news_signature": "ec556f817d5b8f99b888c488",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
