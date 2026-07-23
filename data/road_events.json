@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 1.4 h.",
+    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 1.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:48:00Z",
     "last_seen_at": "2026-07-23T21:15:10Z",
-    "active_duration_hours": 1.45,
-    "active_duration_label": "1.4 h",
+    "active_duration_hours": 1.46,
+    "active_duration_label": "1.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-284"
+    "detectedRoad": "SP-284",
+    "last_confirmed_at": "2026-07-23T21:15:10Z",
+    "news_signature": "c694d7e870503ec03b041f60",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 2.4 h.",
+    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,12 +85,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T18:50:11Z",
     "last_seen_at": "2026-07-23T21:15:10Z",
-    "active_duration_hours": 2.42,
+    "active_duration_hours": 2.43,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-446"
+    "detectedRoad": "SC-446",
+    "last_confirmed_at": "2026-07-23T21:15:10Z",
+    "news_signature": "01950f27c3884b52f65235e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Motorista é preso após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 2.2 h.",
+    "description": "Motorista é preso após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,9 +152,11 @@
     "newsFreshnessHours": 2.23,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:01:20Z",
-    "last_seen_at": "2026-07-23T21:15:10Z",
-    "active_duration_hours": 2.23,
+    "last_seen_at": "2026-07-23T21:15:26Z",
+    "active_duration_hours": 2.24,
     "active_duration_label": "2.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e05015f17fd5780701a019c1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
