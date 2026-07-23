@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 42 min.",
+    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 57 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUgyeW50YjFBVGRTTk9yOUNQWXlDbW5LSDBMTVBWN2UtdEZKOWpFU3V2am1DYkxOcm5aeWdkZXB3QVpkS2tWbDZ1ZnNKMTVFcVJ3ZWUzaGFHWTd1N0poaWY0YmZvZGZKNHhfOU1RZ2t1ODIzcXB1bmhmNE1rRDN5b2plYXhISVhBRk9jZmVYeHh1UElsWUVCMXZqWkFsMVloWTVmaHJFYzU0OGVMWlNNbjBPbUFiblBWc002UmVLVkQ",
     "headline": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via",
     "newsDate": "Thu, 23 Jul 2026 18:50:11 GMT",
-    "updatedAt": "2026-07-23T19:30:55Z",
+    "updatedAt": "2026-07-23T19:45:53Z",
     "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUgyeW50YjFBVGRTTk9yOUNQWXlDbW5LSDBMTVBWN2UtdEZKOWpFU3V2am1DYkxOcm5aeWdkZXB3QVpkS2tWbDZ1ZnNKMTVFcVJ3ZWUzaGFHWTd1N0poaWY0YmZvZGZKNHhfOU1RZ2t1ODIzcXB1bmhmNE1rRDN5b2plYXhISVhBRk9jZmVYeHh1UElsWUVCMXZqWkFsMVloWTVmaHJFYzU0OGVMWlNNbjBPbUFiblBWc002UmVLVkQ",
     "sources": [
       {
@@ -33,19 +33,16 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "797a5abdf111a4e2fb56884d",
     "event_id": "797a5abdf111a4e2fb56884d",
-    "newsFreshnessHours": 0.7,
+    "newsFreshnessHours": 0.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T18:50:11Z",
-    "last_seen_at": "2026-07-23T19:32:10Z",
-    "active_duration_hours": 0.7,
-    "active_duration_label": "42 min",
+    "last_seen_at": "2026-07-23T19:47:12Z",
+    "active_duration_hours": 0.95,
+    "active_duration_label": "57 min",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-446",
-    "last_confirmed_at": "2026-07-23T19:32:10Z",
-    "news_signature": "01950f27c3884b52f65235e9",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "SC-446"
   },
   {
     "active": true,
@@ -62,7 +59,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Motorista é preso em flagrante após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 31 min.",
+    "description": "Motorista é preso em flagrante após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 46 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -75,8 +72,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-07-23T19:30:58Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-07-23T19:45:59Z",
     "sources": [
       {
         "source": "Notícias públicas - G1",
@@ -89,15 +86,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.51,
+    "newsFreshnessHours": 0.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:01:20Z",
-    "last_seen_at": "2026-07-23T19:32:10Z",
-    "active_duration_hours": 0.52,
-    "active_duration_label": "31 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-23T19:32:10Z",
-    "news_signature": "37e5962a3718a33750577c03",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-07-23T19:47:12Z",
+    "active_duration_hours": 0.76,
+    "active_duration_label": "46 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
