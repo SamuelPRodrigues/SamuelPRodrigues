@@ -40,9 +40,12 @@
     "active_duration_hours": 0.45,
     "active_duration_label": "27 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-446"
+    "detectedRoad": "SC-446",
+    "last_confirmed_at": "2026-07-23T19:16:56Z",
+    "news_signature": "01950f27c3884b52f65235e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -89,9 +92,11 @@
     "newsFreshnessHours": 0.26,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:01:20Z",
-    "last_seen_at": "2026-07-23T19:16:56Z",
+    "last_seen_at": "2026-07-23T19:17:11Z",
     "active_duration_hours": 0.26,
     "active_duration_label": "16 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "37e5962a3718a33750577c03",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
