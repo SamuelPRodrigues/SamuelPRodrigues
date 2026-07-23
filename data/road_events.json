@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-370 é interditada após Rio Canoas transbordar e cobrir ponte na Serra catarinense - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-22T20:33:16Z; ativo há 9.0 h.",
+    "description": "SC-370 é interditada após Rio Canoas transbordar e cobrir ponte na Serra catarinense - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-22T20:33:16Z; ativo há 9.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 9.0,
     "active_duration_label": "9.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-370"
+    "detectedRoad": "SC-370",
+    "last_confirmed_at": "2026-07-23T05:33:05Z",
+    "news_signature": "55c53d95a2e5d12d7a890d71",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente na BR-277 e bloqueio provoca mais de 20 km de congestionamento em Campo Largo - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-22T18:58:00Z; ativo há 10.6 h.",
+    "description": "Motociclista morre em acidente na BR-277 e bloqueio provoca mais de 20 km de congestionamento em Campo Largo - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-22T18:58:00Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T18:58:00Z",
     "last_seen_at": "2026-07-23T05:33:05Z",
-    "active_duration_hours": 10.58,
+    "active_duration_hours": 10.59,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-23T05:33:05Z",
+    "news_signature": "6da590293cae8c314c2af59e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira provoca sistema \"Pare\" e \"Siga\" na BR-282 em Nova Erechim - jrregional.com.br. Fontes consolidadas: Notícias públicas - jrregional.com.br; Notícias públicas - Folha do Oeste; Notícias públicas - ND Mais; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-22T15:33:41Z; ativo há 14.0 h.",
+    "description": "Queda de barreira provoca sistema \"Pare\" e \"Siga\" na BR-282 em Nova Erechim - jrregional.com.br. Fontes consolidadas: Notícias públicas - jrregional.com.br; Notícias públicas - Folha do Oeste; Notícias públicas - ND Mais; Notícias públicas - WH3; Notícias públicas - G1; Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-22T15:33:41Z; ativo há 14.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -156,10 +162,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-22T15:33:41Z",
     "last_seen_at": "2026-07-23T05:33:05Z",
-    "active_duration_hours": 13.99,
+    "active_duration_hours": 14.0,
     "active_duration_label": "14.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-23T05:33:05Z",
+    "news_signature": "8b0d250a95961003db0f617f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
