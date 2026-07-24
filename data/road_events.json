@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 10.2 h.",
+    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:48:00Z",
     "last_seen_at": "2026-07-24T06:03:14Z",
-    "active_duration_hours": 10.25,
-    "active_duration_label": "10.2 h",
+    "active_duration_hours": 10.26,
+    "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-284"
+    "detectedRoad": "SP-284",
+    "last_confirmed_at": "2026-07-24T06:03:14Z",
+    "news_signature": "c694d7e870503ec03b041f60",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 11.2 h.",
+    "description": "SC-446 é parcialmente interditada após caminhão derrubar carvão sobre a via. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-23T18:50:11Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,9 +88,12 @@
     "active_duration_hours": 11.22,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-446"
+    "detectedRoad": "SC-446",
+    "last_confirmed_at": "2026-07-24T06:03:14Z",
+    "news_signature": "01950f27c3884b52f65235e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Motorista é preso após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; Notícias públicas - Varginha Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 11.0 h.",
+    "description": "Motorista é preso após tentar atravessar ponte interditada com carreta na BR-265, em MG. Período informado: 2026-07-23T19:01:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; Notícias públicas - Varginha Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-23T19:01:20Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -117,7 +123,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-24T06:02:00Z",
     "sources": [
       {
@@ -153,8 +159,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:01:20Z",
     "last_seen_at": "2026-07-24T06:03:14Z",
-    "active_duration_hours": 11.03,
+    "active_duration_hours": 11.04,
     "active_duration_label": "11.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T06:03:14Z",
+    "news_signature": "179301ad50e653f1333e37cf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
