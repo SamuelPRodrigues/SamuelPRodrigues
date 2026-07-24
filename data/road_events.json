@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 onde cratera se abriu volta a ser interditado - MundoBA. Fontes consolidadas: Notícias públicas - MundoBA. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-24T16:10:00Z; ativo há 2.1 h.",
+    "description": "Trecho da BR-324 onde cratera se abriu volta a ser interditado - MundoBA. Fontes consolidadas: Notícias públicas - MundoBA. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-24T16:10:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.12,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T18:17:11Z",
+    "news_signature": "0b06a613b29b638bd57f50ed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Presos nas ferragens e pista bloqueada: o resgate de 3 pessoas que parou a BR-282 em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-24T14:44:38Z; ativo há 3.5 h.",
+    "description": "Presos nas ferragens e pista bloqueada: o resgate de 3 pessoas que parou a BR-282 em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-24T14:44:38Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T14:44:38Z",
     "last_seen_at": "2026-07-24T18:17:11Z",
-    "active_duration_hours": 3.54,
+    "active_duration_hours": 3.55,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T18:17:11Z",
+    "news_signature": "30f59f4d7c7dee2ca07c9da1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 4.6 h.",
+    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,11 +131,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T13:41:00Z",
     "last_seen_at": "2026-07-24T18:17:11Z",
-    "active_duration_hours": 4.6,
+    "active_duration_hours": 4.61,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T18:17:11Z",
+    "news_signature": "ab329f3269d566a127ee3ef1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +150,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 8.6 h.",
+    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 8.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -172,7 +181,10 @@
     "active_duration_hours": 8.64,
     "active_duration_label": "8.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T18:17:11Z",
+    "news_signature": "0333a9549e29c1aff2a894b1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
