@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-365",
+    "road": "BR-365",
+    "corridor": "Uberlândia • BR-050 / BR-365 / BR-452",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -18.918,
+    "lon": -48.277,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 2.1 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Patos Notícias",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZGd1Z2ViTEwyZm80T0JSaUhQMmo2cXhmRm44SXVsaFpZbXlMQ2tYcHRZdmwxRkNNZjVnN2U1VHVNbV9wMDN0V2M1NHhWcnFSamVLblZYUndTZ3E3NzlrSlkyZ3M4Sll4dXNZcWliX0Y1R3ZjdlRrZVo4ZnNKWldKLVh2cGdBUGh5Z0dzdktn",
+    "headline": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias",
+    "newsDate": "Fri, 24 Jul 2026 09:39:00 GMT",
+    "updatedAt": "2026-07-24T11:45:49Z",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZGd1Z2ViTEwyZm80T0JSaUhQMmo2cXhmRm44SXVsaFpZbXlMQ2tYcHRZdmwxRkNNZjVnN2U1VHVNbV9wMDN0V2M1NHhWcnFSamVLblZYUndTZ3E3NzlrSlkyZ3M4Sll4dXNZcWliX0Y1R3ZjdlRrZVo4ZnNKWldKLVh2cGdBUGh5Z0dzdktn",
+    "sources": [
+      {
+        "source": "Notícias públicas - Patos Notícias",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZGd1Z2ViTEwyZm80T0JSaUhQMmo2cXhmRm44SXVsaFpZbXlMQ2tYcHRZdmwxRkNNZjVnN2U1VHVNbV9wMDN0V2M1NHhWcnFSamVLblZYUndTZ3E3NzlrSlkyZ3M4Sll4dXNZcWliX0Y1R3ZjdlRrZVo4ZnNKWldKLVh2cGdBUGh5Z0dzdktn",
+        "headline": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias",
+        "date": "Fri, 24 Jul 2026 09:39:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "85064fe144976887be6b5802",
+    "event_id": "85064fe144976887be6b5802",
+    "newsFreshnessHours": 2.13,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-24T09:39:00Z",
+    "last_seen_at": "2026-07-24T11:47:05Z",
+    "active_duration_hours": 2.13,
+    "active_duration_label": "2.1 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
