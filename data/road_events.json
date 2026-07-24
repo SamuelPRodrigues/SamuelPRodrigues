@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T12:07:59Z",
-    "last_seen_at": "2026-07-24T12:16:57Z",
+    "last_seen_at": "2026-07-24T12:17:13Z",
     "active_duration_hours": 0.15,
     "active_duration_label": "9 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9f0df4e0585cbcfb8ca9c9b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 2.6 h.",
+    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,10 +83,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T09:39:00Z",
     "last_seen_at": "2026-07-24T12:16:57Z",
-    "active_duration_hours": 2.63,
+    "active_duration_hours": 2.64,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T12:16:57Z",
+    "news_signature": "a0405d151dd4dd2db809ecd6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
