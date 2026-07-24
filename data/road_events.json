@@ -9,7 +9,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 21 min.",
+    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 22 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T13:41:00Z",
     "last_seen_at": "2026-07-24T14:02:14Z",
-    "active_duration_hours": 0.35,
-    "active_duration_label": "21 min",
+    "active_duration_hours": 0.36,
+    "active_duration_label": "22 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T14:02:14Z",
+    "news_signature": "ab329f3269d566a127ee3ef1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 4.4 h.",
+    "description": "Grave acidente interdita a BR-365 no trevo com a BR-146 - Patos Notícias. Fontes consolidadas: Notícias públicas - Patos Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-24T09:39:00Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,7 +87,10 @@
     "active_duration_hours": 4.39,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-24T14:02:14Z",
+    "news_signature": "0333a9549e29c1aff2a894b1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
