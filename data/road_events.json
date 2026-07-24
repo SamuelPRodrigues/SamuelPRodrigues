@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 11.5 h.",
+    "description": "Acesso na SP-284 é interditado para construção de nova pista em Martinópolis - Blog do Toninho. Fontes consolidadas: Notícias públicas - Blog do Toninho. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-23T19:48:00Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-23T19:48:00Z",
     "last_seen_at": "2026-07-24T07:17:29Z",
-    "active_duration_hours": 11.49,
+    "active_duration_hours": 11.5,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-284"
+    "detectedRoad": "SP-284",
+    "last_confirmed_at": "2026-07-24T07:17:29Z",
+    "news_signature": "c694d7e870503ec03b041f60",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
