@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-25T12:40:00Z; ativo há 9.6 h.",
+    "description": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-25T12:40:00Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 9.61,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-25T12:40:00Z",
-    "last_seen_at": "2026-07-25T22:16:53Z",
-    "active_duration_hours": 9.61,
+    "last_seen_at": "2026-07-25T22:17:08Z",
+    "active_duration_hours": 9.62,
     "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "12e44c5d1212219cd1ece7fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
