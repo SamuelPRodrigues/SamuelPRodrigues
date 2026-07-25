@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324, na BA, volta a ser interditado. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alô Alô Bahia. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-24T22:49:11Z; ativo há 2.5 h.",
+    "description": "Trecho da BR-324, na BA, volta a ser interditado. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Alô Alô Bahia. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-24T22:49:11Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 2.49,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-25T01:18:29Z",
+    "news_signature": "b31aaed2ca601de850ac4423",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da RN-160, na altura da Lagoa de Extremoz, é interditado após transbordamento - Blog do BG. Fontes consolidadas: Notícias públicas - Blog do BG. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-24T20:41:35Z; ativo há 4.6 h.",
+    "description": "Trecho da RN-160, na altura da Lagoa de Extremoz, é interditado após transbordamento - Blog do BG. Fontes consolidadas: Notícias públicas - Blog do BG. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-24T20:41:35Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,9 +93,12 @@
     "active_duration_hours": 4.62,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RN-160"
+    "detectedRoad": "RN-160",
+    "last_confirmed_at": "2026-07-25T01:18:29Z",
+    "news_signature": "9bb103caed44c9e5c2bff8f7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Asfalto cede e parte da rodovia SP-294 é interditada em Marília. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Marília Notícia. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-24T14:17:04Z; ativo há 11.0 h.",
+    "description": "Asfalto cede e parte da rodovia SP-294 é interditada em Marília. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Marília Notícia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-24T14:17:04Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -138,12 +144,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T14:17:04Z",
     "last_seen_at": "2026-07-25T01:18:29Z",
-    "active_duration_hours": 11.02,
+    "active_duration_hours": 11.03,
     "active_duration_label": "11.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-294"
+    "detectedRoad": "SP-294",
+    "last_confirmed_at": "2026-07-25T01:18:29Z",
+    "news_signature": "d6944de32a6a6418e07067ae",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -155,7 +164,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 11.6 h.",
+    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -183,10 +192,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T13:41:00Z",
     "last_seen_at": "2026-07-25T01:18:29Z",
-    "active_duration_hours": 11.62,
+    "active_duration_hours": 11.63,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-25T01:18:29Z",
+    "news_signature": "ce259bce3895f908fc8b18f6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
