@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T22:02:23Z",
+  "updatedAt": "2026-07-25T22:16:53Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -118,6 +118,49 @@
       "estimated_hours": 92.75,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "f5ce0177b8725602485e01fe",
+      "stable_event_id": "f5ce0177b8725602485e01fe",
+      "observation_hash": "43e5edb8c64e497058f21b27",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-25T22:16:48+00:00",
+      "first_seen_at": "2026-07-25T22:16:49+00:00",
+      "last_seen_at": "2026-07-25T22:16:48+00:00",
+      "updated_at": "2026-07-25T22:16:50.108247+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-376",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Interdição ou bloqueio por notícia pública • BR-376",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-376",
+      "description": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B.. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Banda B",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWdJTHhEZ2R4ZHZCdFRSNkF2OFFZWi1ZRlN3azRHRVRnemd5VmtjVUttRXB2TmdERXZKa3E4ZXplZHZuZTI1R1VPSExFMVVRYm5VQ3ppZnpDVkRpVnRRYUdubWo3Vk0wUm9wM0QxR0pHNHI5WGdkMkMxTGlub1h0UFZ1WGZ5YVc50gGOAUFVX3lxTFBQZzFiVnJqTUVZZUQ2eUk1SDdwb1UyZ3FLRFd2d0Jpay1iclQzVThrYW54UzJJMWsxclJHT1VzWllETlgtM2E1RkpVSnVXWFIwUDB2NVNmODBRci1GbS1IeHpXSE9NS21ROFN6TkNhOTBubDdkVFV2T3Y5UWVXcGRwTEp5X05FMTJyS0VQSGc",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWdJTHhEZ2R4ZHZCdFRSNkF2OFFZWi1ZRlN3azRHRVRnemd5VmtjVUttRXB2TmdERXZKa3E4ZXplZHZuZTI1R1VPSExFMVVRYm5VQ3ppZnpDVkRpVnRRYUdubWo3Vk0wUm9wM0QxR0pHNHI5WGdkMkMxTGlub1h0UFZ1WGZ5YVc50gGOAUFVX3lxTFBQZzFiVnJqTUVZZUQ2eUk1SDdwb1UyZ3FLRFd2d0Jpay1iclQzVThrYW54UzJJMWsxclJHT1VzWllETlgtM2E1RkpVSnVXWFIwUDB2NVNmODBRci1GbS1IeHpXSE9NS21ROFN6TkNhOTBubDdkVFV2T3Y5UWVXcGRwTEp5X05FMTJyS0VQSGc",
+      "headline": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Banda B",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWdJTHhEZ2R4ZHZCdFRSNkF2OFFZWi1ZRlN3azRHRVRnemd5VmtjVUttRXB2TmdERXZKa3E4ZXplZHZuZTI1R1VPSExFMVVRYm5VQ3ppZnpDVkRpVnRRYUdubWo3Vk0wUm9wM0QxR0pHNHI5WGdkMkMxTGlub1h0UFZ1WGZ5YVc50gGOAUFVX3lxTFBQZzFiVnJqTUVZZUQ2eUk1SDdwb1UyZ3FLRFd2d0Jpay1iclQzVThrYW54UzJJMWsxclJHT1VzWllETlgtM2E1RkpVSnVXWFIwUDB2NVNmODBRci1GbS1IeHpXSE9NS21ROFN6TkNhOTBubDdkVFV2T3Y5UWVXcGRwTEp5X05FMTJyS0VQSGc",
+          "headline": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B.",
+          "date": "2026-07-25T22:16:50.108247+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "aaa2884a6fc17a15360b7e2e",
@@ -12963,35 +13006,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "8aa8dc50a333b47c6ac0b19b",
-      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
-      "observation_hash": "ddfba4a68a86cc22e1f26c62",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T20:02:24+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-25T20:02:24+00:00",
-      "updated_at": "2026-07-25T20:02:25.199691+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Petrópolis",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -22.511,
-      "lon": -43.177,
-      "city": "Petrópolis",
-      "state": "RJ",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 60.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1356,
-      "estimated_hours": 339.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "efc62ea27cf7cdded93be10f",
       "stable_event_id": "efc62ea27cf7cdded93be10f",
       "observation_hash": "456be470b1ddfed19f199772",
@@ -14268,6 +14282,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "8aa8dc50a333b47c6ac0b19b",
+      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
+      "observation_hash": "084d1157ccb1cbc4a45e4202",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-25T22:16:48+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-25T22:16:48+00:00",
+      "updated_at": "2026-07-25T22:16:50.108247+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Petrópolis",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -22.511,
+      "lon": -43.177,
+      "city": "Petrópolis",
+      "state": "RJ",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 60.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1357,
+      "estimated_hours": 339.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1e7b30ba66890a70624ba3de",
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "e4bb8ae4eced2dcbec02dfc8",
@@ -14649,10 +14692,10 @@
       "stable_event_id": "77610d19988aafd6875550dd",
       "observation_hash": "27cb07838bfcec9730344b69",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T22:02:17+00:00",
+      "snapshot_at": "2026-07-25T22:16:48+00:00",
       "first_seen_at": "2026-06-01T21:17:04+00:00",
-      "last_seen_at": "2026-07-25T22:02:17+00:00",
-      "updated_at": "2026-07-25T22:02:19.250833+00:00",
+      "last_seen_at": "2026-07-25T22:16:48+00:00",
+      "updated_at": "2026-07-25T22:16:50.108247+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14668,8 +14711,8 @@
       "description": "Rastreio: primeiro registro em 2026-06-01T21:15:20Z; ativo há 54.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 278,
-      "estimated_hours": 69.5,
+      "total_snapshots": 279,
+      "estimated_hours": 69.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15053,16 +15096,16 @@
   ],
   "windows": {
     "7": {
-      "events": 120,
+      "events": 121,
       "avgRisk": 48,
       "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "climate": 88,
-        "road": 32
+        "road": 33
       },
       "byRegion": {
-        "Sul": 35,
+        "Sul": 36,
         "Sudeste": 32,
         "Nordeste": 30,
         "Norte": 16,
@@ -15070,7 +15113,7 @@
       },
       "bySeverity": {
         "Moderado": 79,
-        "Alto": 34,
+        "Alto": 35,
         "Baixo": 6,
         "Crítico": 1
       },
@@ -15113,31 +15156,31 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 42,
-          "events": 69,
+          "avgRisk": 43,
+          "events": 70,
           "maxRisk": 85
         }
       ]
     },
     "30": {
-      "events": 223,
+      "events": 224,
       "avgRisk": 57,
       "maxRisk": 85,
       "rainChance": 0,
       "byType": {
-        "road": 129,
+        "road": 130,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 76,
-        "Sul": 59,
+        "Sul": 60,
         "Sudeste": 51,
         "Norte": 21,
         "Centro-Oeste": 12,
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 131,
+        "Alto": 132,
         "Moderado": 85,
         "Baixo": 6,
         "Crítico": 1
@@ -15313,32 +15356,32 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 42,
-          "events": 69,
+          "avgRisk": 43,
+          "events": 70,
           "maxRisk": 85
         }
       ]
     },
     "90": {
-      "events": 383,
+      "events": 384,
       "avgRisk": 59,
       "maxRisk": 85,
       "rainChance": 25,
       "byType": {
-        "road": 248,
+        "road": 249,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 115,
         "Sudeste": 95,
-        "Sul": 90,
+        "Sul": 91,
         "Norte": 51,
         "Centro-Oeste": 17,
         "Sem região": 15
       },
       "bySeverity": {
-        "Alto": 253,
+        "Alto": 254,
         "Moderado": 123,
         "Baixo": 6,
         "Crítico": 1
@@ -15706,8 +15749,8 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 42,
-          "events": 69,
+          "avgRisk": 43,
+          "events": 70,
           "maxRisk": 85
         }
       ]
