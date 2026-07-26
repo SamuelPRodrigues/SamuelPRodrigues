@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T00:33:42Z",
+  "updatedAt": "2026-07-26T00:46:53Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -12455,35 +12455,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "bc1140c117d7158b3aede7f9",
-      "stable_event_id": "bc1140c117d7158b3aede7f9",
-      "observation_hash": "50a65f8acf7d2ee07763fbe5",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T21:02:20+00:00",
-      "first_seen_at": "2026-06-01T16:17:02+00:00",
-      "last_seen_at": "2026-07-25T21:02:20+00:00",
-      "updated_at": "2026-07-25T21:02:21.747151+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Linhares",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -19.391,
-      "lon": -40.072,
-      "city": "Linhares",
-      "state": "ES",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-01T16:15:24Z; ativo há 54.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 347,
-      "estimated_hours": 86.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "59eaaaf64284cf966e1053c3",
       "stable_event_id": "59eaaaf64284cf966e1053c3",
       "observation_hash": "86b903fae0fca79bdfe4fcaf",
@@ -13876,14 +13847,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "bc1140c117d7158b3aede7f9",
+      "stable_event_id": "bc1140c117d7158b3aede7f9",
+      "observation_hash": "cf551e665f4d0190f187bc8d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-26T00:46:48+00:00",
+      "first_seen_at": "2026-06-01T16:17:02+00:00",
+      "last_seen_at": "2026-07-26T00:46:48+00:00",
+      "updated_at": "2026-07-26T00:46:50.168235+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Linhares",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -19.391,
+      "lon": -40.072,
+      "city": "Linhares",
+      "state": "ES",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-01T16:15:24Z; ativo há 54.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 348,
+      "estimated_hours": 87.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "8aa8dc50a333b47c6ac0b19b",
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
       "observation_hash": "2e1e7f05ef8874610a7751c3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-26T00:33:37+00:00",
+      "snapshot_at": "2026-07-26T00:46:48+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-26T00:33:37+00:00",
-      "updated_at": "2026-07-26T00:33:39.030358+00:00",
+      "last_seen_at": "2026-07-26T00:46:48+00:00",
+      "updated_at": "2026-07-26T00:46:50.168235+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13899,8 +13899,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 61.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1368,
-      "estimated_hours": 342.0,
+      "total_snapshots": 1369,
+      "estimated_hours": 342.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15157,13 +15157,13 @@
         {
           "date": "2026-07-25",
           "avgRisk": 42,
-          "events": 68,
+          "events": 67,
           "maxRisk": 85
         },
         {
           "date": "2026-07-26",
-          "avgRisk": 54,
-          "events": 2,
+          "avgRisk": 49,
+          "events": 3,
           "maxRisk": 69
         }
       ]
@@ -15363,13 +15363,13 @@
         {
           "date": "2026-07-25",
           "avgRisk": 42,
-          "events": 68,
+          "events": 67,
           "maxRisk": 85
         },
         {
           "date": "2026-07-26",
-          "avgRisk": 54,
-          "events": 2,
+          "avgRisk": 49,
+          "events": 3,
           "maxRisk": 69
         }
       ]
@@ -15762,13 +15762,13 @@
         {
           "date": "2026-07-25",
           "avgRisk": 42,
-          "events": 68,
+          "events": 67,
           "maxRisk": 85
         },
         {
           "date": "2026-07-26",
-          "avgRisk": 54,
-          "events": 2,
+          "avgRisk": 49,
+          "events": 3,
           "maxRisk": 69
         }
       ]
