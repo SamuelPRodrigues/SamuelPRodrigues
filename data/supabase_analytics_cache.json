@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T23:46:52Z",
+  "updatedAt": "2026-07-26T00:03:46Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -122,12 +122,12 @@
     {
       "event_id": "f5ce0177b8725602485e01fe",
       "stable_event_id": "f5ce0177b8725602485e01fe",
-      "observation_hash": "a35e0c52e367025849b357ee",
+      "observation_hash": "558d44fb215c8cc1775ed15c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T23:46:48+00:00",
+      "snapshot_at": "2026-07-26T00:03:42+00:00",
       "first_seen_at": "2026-07-25T22:16:49+00:00",
-      "last_seen_at": "2026-07-25T23:46:48+00:00",
-      "updated_at": "2026-07-25T23:46:49.900963+00:00",
+      "last_seen_at": "2026-07-26T00:03:42+00:00",
+      "updated_at": "2026-07-26T00:03:43.665156+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B.. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Banda B",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWdJTHhEZ2R4ZHZCdFRSNkF2OFFZWi1ZRlN3azRHRVRnemd5VmtjVUttRXB2TmdERXZKa3E4ZXplZHZuZTI1R1VPSExFMVVRYm5VQ3ppZnpDVkRpVnRRYUdubWo3Vk0wUm9wM0QxR0pHNHI5WGdkMkMxTGlub1h0UFZ1WGZ5YVc50gGOAUFVX3lxTFBQZzFiVnJqTUVZZUQ2eUk1SDdwb1UyZ3FLRFd2d0Jpay1iclQzVThrYW54UzJJMWsxclJHT1VzWllETlgtM2E1RkpVSnVXWFIwUDB2NVNmODBRci1GbS1IeHpXSE9NS21ROFN6TkNhOTBubDdkVFV2T3Y5UWVXcGRwTEp5X05FMTJyS0VQSGc",
-      "total_snapshots": 9,
-      "estimated_hours": 2.25,
+      "total_snapshots": 10,
+      "estimated_hours": 2.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - Banda B",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWdJTHhEZ2R4ZHZCdFRSNkF2OFFZWi1ZRlN3azRHRVRnemd5VmtjVUttRXB2TmdERXZKa3E4ZXplZHZuZTI1R1VPSExFMVVRYm5VQ3ppZnpDVkRpVnRRYUdubWo3Vk0wUm9wM0QxR0pHNHI5WGdkMkMxTGlub1h0UFZ1WGZ5YVc50gGOAUFVX3lxTFBQZzFiVnJqTUVZZUQ2eUk1SDdwb1UyZ3FLRFd2d0Jpay1iclQzVThrYW54UzJJMWsxclJHT1VzWllETlgtM2E1RkpVSnVXWFIwUDB2NVNmODBRci1GbS1IeHpXSE9NS21ROFN6TkNhOTBubDdkVFV2T3Y5UWVXcGRwTEp5X05FMTJyS0VQSGc",
           "headline": "BR-376 é bloqueada após tombamento de caminhão em Guaratuba; duas pessoas ficam feridas - Banda B.",
-          "date": "2026-07-25T23:46:49.900963+00:00"
+          "date": "2026-07-26T00:03:43.665156+00:00"
         }
       ],
       "sourceCount": 1,
@@ -13880,10 +13880,10 @@
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
       "observation_hash": "2e1e7f05ef8874610a7751c3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T23:46:48+00:00",
+      "snapshot_at": "2026-07-26T00:03:42+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-25T23:46:48+00:00",
-      "updated_at": "2026-07-25T23:46:49.900963+00:00",
+      "last_seen_at": "2026-07-26T00:03:42+00:00",
+      "updated_at": "2026-07-26T00:03:43.665156+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13899,8 +13899,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 61.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1365,
-      "estimated_hours": 341.25,
+      "total_snapshots": 1366,
+      "estimated_hours": 341.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15156,9 +15156,15 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 43,
-          "events": 70,
+          "avgRisk": 42,
+          "events": 68,
           "maxRisk": 85
+        },
+        {
+          "date": "2026-07-26",
+          "avgRisk": 54,
+          "events": 2,
+          "maxRisk": 69
         }
       ]
     },
@@ -15356,9 +15362,15 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 43,
-          "events": 70,
+          "avgRisk": 42,
+          "events": 68,
           "maxRisk": 85
+        },
+        {
+          "date": "2026-07-26",
+          "avgRisk": 54,
+          "events": 2,
+          "maxRisk": 69
         }
       ]
     },
@@ -15749,9 +15761,15 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 43,
-          "events": 70,
+          "avgRisk": 42,
+          "events": 68,
           "maxRisk": 85
+        },
+        {
+          "date": "2026-07-26",
+          "avgRisk": 54,
+          "events": 2,
+          "maxRisk": 69
         }
       ]
     }
