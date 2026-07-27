@@ -60,12 +60,14 @@
     "newsFreshnessHours": 0.78,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T12:30:08Z",
-    "last_seen_at": "2026-07-27T13:17:08Z",
-    "active_duration_hours": 0.78,
+    "last_seen_at": "2026-07-27T13:17:27Z",
+    "active_duration_hours": 0.79,
     "active_duration_label": "47 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "dfd48efe6f9c204cb8078f4e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +79,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.0 dias. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 3.0 dias.",
+    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.0 dias.0 dias. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 3.0 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -105,10 +107,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-24T13:41:00Z",
     "last_seen_at": "2026-07-27T13:17:08Z",
-    "active_duration_hours": 71.6,
+    "active_duration_hours": 71.61,
     "active_duration_label": "3.0 dias",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-27T13:17:08Z",
+    "news_signature": "2705ebeb94ea491aae971b5b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
