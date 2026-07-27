@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T05:17:09Z",
+  "updatedAt": "2026-07-27T05:32:11Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -11730,35 +11730,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "66e1791f8dbba3841f3d59de",
-      "stable_event_id": "66e1791f8dbba3841f3d59de",
-      "observation_hash": "1d4209dec3c18ef2629975b1",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T05:17:04+00:00",
-      "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-27T05:17:04+00:00",
-      "updated_at": "2026-07-27T05:17:06.065591+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Fortaleza",
-      "risk": 44,
-      "severity": "Moderado",
-      "lat": -3.731,
-      "lon": -38.526,
-      "city": "Fortaleza",
-      "state": "CE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 61.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1593,
-      "estimated_hours": 398.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "110a249f5451e1a2edad8274",
       "stable_event_id": "110a249f5451e1a2edad8274",
       "observation_hash": "d0872fa2b3c79e97ee350863",
@@ -11958,6 +11929,35 @@
       "source_url": "",
       "total_snapshots": 5,
       "estimated_hours": 1.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "66e1791f8dbba3841f3d59de",
+      "stable_event_id": "66e1791f8dbba3841f3d59de",
+      "observation_hash": "7e6331531bd84eac24765962",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T05:32:07+00:00",
+      "first_seen_at": "2026-05-27T06:16:53+00:00",
+      "last_seen_at": "2026-07-27T05:32:07+00:00",
+      "updated_at": "2026-07-27T05:32:08.822453+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Fortaleza",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": -3.731,
+      "lon": -38.526,
+      "city": "Fortaleza",
+      "state": "CE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 61.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1594,
+      "estimated_hours": 398.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14226,12 +14226,12 @@
     {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "57746f5115eff6c7dd266bf9",
+      "observation_hash": "f7c02f8928ce102827c38da5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T05:17:04+00:00",
+      "snapshot_at": "2026-07-27T05:32:07+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-27T05:17:04+00:00",
-      "updated_at": "2026-07-27T05:17:06.065591+00:00",
+      "last_seen_at": "2026-07-27T05:32:07+00:00",
+      "updated_at": "2026-07-27T05:32:08.822453+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14244,11 +14244,11 @@
       "state": "RR",
       "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.1 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2033,
-      "estimated_hours": 508.25,
+      "total_snapshots": 2034,
+      "estimated_hours": 508.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15162,9 +15162,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 41,
+          "avgRisk": 40,
           "events": 11,
-          "maxRisk": 44
+          "maxRisk": 43
         }
       ]
     },
@@ -15368,9 +15368,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 41,
+          "avgRisk": 40,
           "events": 11,
-          "maxRisk": 44
+          "maxRisk": 43
         }
       ]
     },
@@ -15773,9 +15773,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 41,
+          "avgRisk": 40,
           "events": 11,
-          "maxRisk": 44
+          "maxRisk": 43
         }
       ]
     }
