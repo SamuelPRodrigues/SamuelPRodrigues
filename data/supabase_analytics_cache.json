@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T03:17:03Z",
+  "updatedAt": "2026-07-27T03:32:14Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -11440,35 +11440,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "9055ebd0a3e53b37297d0cf2",
-      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "382916969e545a05f6c24fff",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T03:16:58+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-27T03:16:58+00:00",
-      "updated_at": "2026-07-27T03:16:59.421186+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Boa Vista",
-      "risk": 46,
-      "severity": "Moderado",
-      "lat": 2.824,
-      "lon": -60.675,
-      "city": "Boa Vista",
-      "state": "RR",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2024,
-      "estimated_hours": 506.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "aa2fd6dbd7cd05b3aa4af13d",
@@ -11958,6 +11929,35 @@
       "source_url": "",
       "total_snapshots": 5,
       "estimated_hours": 1.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "9055ebd0a3e53b37297d0cf2",
+      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
+      "observation_hash": "d7341341d7c5238710e721f7",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T03:32:10+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-27T03:32:10+00:00",
+      "updated_at": "2026-07-27T03:32:11.477497+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Boa Vista",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": 2.824,
+      "lon": -60.675,
+      "city": "Boa Vista",
+      "state": "RR",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.1 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2025,
+      "estimated_hours": 506.25,
       "active": true,
       "storage": "supabase"
     },
@@ -12662,10 +12662,10 @@
       "stable_event_id": "a55da2883acd143278548819",
       "observation_hash": "d79ab25d73f1a9ff14b60d45",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T03:16:58+00:00",
+      "snapshot_at": "2026-07-27T03:32:10+00:00",
       "first_seen_at": "2026-05-27T20:16:47+00:00",
-      "last_seen_at": "2026-07-27T03:16:58+00:00",
-      "updated_at": "2026-07-27T03:16:59.421186+00:00",
+      "last_seen_at": "2026-07-27T03:32:10+00:00",
+      "updated_at": "2026-07-27T03:32:11.477497+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12681,8 +12681,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T20:15:15Z; ativo há 60.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1037,
-      "estimated_hours": 259.25,
+      "total_snapshots": 1038,
+      "estimated_hours": 259.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15164,7 +15164,7 @@
           "date": "2026-07-27",
           "avgRisk": 41,
           "events": 11,
-          "maxRisk": 46
+          "maxRisk": 43
         }
       ]
     },
@@ -15370,7 +15370,7 @@
           "date": "2026-07-27",
           "avgRisk": 41,
           "events": 11,
-          "maxRisk": 46
+          "maxRisk": 43
         }
       ]
     },
@@ -15775,7 +15775,7 @@
           "date": "2026-07-27",
           "avgRisk": 41,
           "events": 11,
-          "maxRisk": 46
+          "maxRisk": 43
         }
       ]
     }
