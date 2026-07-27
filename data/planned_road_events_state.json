@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T22:03:39Z",
+  "updatedAt": "2026-07-27T22:16:53Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -2331,13 +2331,52 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-07-27T22:03:39Z",
+      "updatedAt": "2026-07-27T22:16:52Z",
       "sources": [
         {
           "source": "g1.globo.com",
           "url": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/05/26/trecho-da-br-265-e-totalmente-interditado-para-obras-no-sul-de-minas-veja-rotas-alternativas.ghtml",
           "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas | G1",
           "date": "2026-05-26T03:00:00Z"
+        }
+      ]
+    },
+    "027b713b177952ad9b6520cd": {
+      "active": true,
+      "event_id": "027b713b177952ad9b6520cd",
+      "stable_event_id": "027b713b177952ad9b6520cd",
+      "name": "Interdição planejada por notícia pública • BR-116",
+      "road": "BR-116",
+      "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Feira de Santana",
+      "state": "BA",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV.  Período informado: 2026-07-27T22:02:27Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - RBA TV",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRTVKLVFJVGJ2eDlzSERvSV9Sb05pbmw5VGxNcWJvSm50VkJpaE9pY2Raa3lnOWxJYkYxSVZwelVaNUg5WEFMVjBidTBXMWFiYWw1cmphQUlNbXhvdEZZYk9QUUwzbDE1eTFJck05TmVoYWtqakpPZWdSSng4cVVESW5mMlBDZ0lqbGJzQmhid0JlMDhzZHlZc05hQmxDd3Z1WC1pdlBRZXpabnBWaEdMdEUyc2EtSGplbmgtOUZMU3c3Y2c3NjNRMA?oc=5",
+      "headline": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV",
+      "newsDate": "2026-07-27T22:02:27Z",
+      "plannedStartAt": "2026-07-27T22:02:27Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-07-27T22:16:52Z",
+      "sources": [
+        {
+          "source": "RBA TV",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRTVKLVFJVGJ2eDlzSERvSV9Sb05pbmw5VGxNcWJvSm50VkJpaE9pY2Raa3lnOWxJYkYxSVZwelVaNUg5WEFMVjBidTBXMWFiYWw1cmphQUlNbXhvdEZZYk9QUUwzbDE1eTFJck05TmVoYWtqakpPZWdSSng4cVVESW5mMlBDZ0lqbGJzQmhid0JlMDhzZHlZc05hQmxDd3Z1WC1pdlBRZXpabnBWaEdMdEUyc2EtSGplbmgtOUZMU3c3Y2c3NjNRMA?oc=5",
+          "headline": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV",
+          "date": "2026-07-27T22:02:27Z"
         }
       ]
     }
