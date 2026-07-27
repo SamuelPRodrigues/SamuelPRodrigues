@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T05:46:57Z",
+  "updatedAt": "2026-07-27T06:03:05Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -11933,35 +11933,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "66e1791f8dbba3841f3d59de",
-      "stable_event_id": "66e1791f8dbba3841f3d59de",
-      "observation_hash": "7e6331531bd84eac24765962",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T05:46:52+00:00",
-      "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-27T05:46:52+00:00",
-      "updated_at": "2026-07-27T05:46:54.186271+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Fortaleza",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -3.731,
-      "lon": -38.526,
-      "city": "Fortaleza",
-      "state": "CE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 61.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1595,
-      "estimated_hours": 398.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "a4bb356e4d690486e39fe31e",
       "stable_event_id": "a4bb356e4d690486e39fe31e",
       "observation_hash": "b87b7818b75f338e4cf01b3a",
@@ -12654,6 +12625,35 @@
       "source_url": "",
       "total_snapshots": 20,
       "estimated_hours": 5.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "66e1791f8dbba3841f3d59de",
+      "stable_event_id": "66e1791f8dbba3841f3d59de",
+      "observation_hash": "4a3024365c19b1fbcff0718a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T06:03:01+00:00",
+      "first_seen_at": "2026-05-27T06:16:53+00:00",
+      "last_seen_at": "2026-07-27T06:03:01+00:00",
+      "updated_at": "2026-07-27T06:03:03.006215+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Fortaleza",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -3.731,
+      "lon": -38.526,
+      "city": "Fortaleza",
+      "state": "CE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 61.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1596,
+      "estimated_hours": 399.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14228,10 +14228,10 @@
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "f7c02f8928ce102827c38da5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T05:46:52+00:00",
+      "snapshot_at": "2026-07-27T06:03:01+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-27T05:46:52+00:00",
-      "updated_at": "2026-07-27T05:46:54.186271+00:00",
+      "last_seen_at": "2026-07-27T06:03:01+00:00",
+      "updated_at": "2026-07-27T06:03:03.006215+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14247,8 +14247,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2035,
-      "estimated_hours": 508.75,
+      "total_snapshots": 2036,
+      "estimated_hours": 509.0,
       "active": true,
       "storage": "supabase"
     },
@@ -15164,7 +15164,7 @@
           "date": "2026-07-27",
           "avgRisk": 40,
           "events": 11,
-          "maxRisk": 43
+          "maxRisk": 42
         }
       ]
     },
@@ -15370,7 +15370,7 @@
           "date": "2026-07-27",
           "avgRisk": 40,
           "events": 11,
-          "maxRisk": 43
+          "maxRisk": 42
         }
       ]
     },
@@ -15775,7 +15775,7 @@
           "date": "2026-07-27",
           "avgRisk": 40,
           "events": 11,
-          "maxRisk": 43
+          "maxRisk": 42
         }
       ]
     }
