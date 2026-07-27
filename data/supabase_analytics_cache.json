@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T06:03:06Z",
+  "updatedAt": "2026-07-27T06:17:04Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -13151,6 +13151,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "7162d88fbd3ade34a9dad596",
+      "stable_event_id": "7162d88fbd3ade34a9dad596",
+      "observation_hash": "566ae27e6039bd4e9fb14486",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T06:16:59+00:00",
+      "first_seen_at": "2026-05-27T07:16:38+00:00",
+      "last_seen_at": "2026-07-27T06:16:59+00:00",
+      "updated_at": "2026-07-27T06:17:00.471664+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Ilhéus",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -14.793,
+      "lon": -39.046,
+      "city": "Ilhéus",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 61.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1408,
+      "estimated_hours": 352.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f13e2269fc4592f622f09fc2",
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "5f5fc40d9acc3e3a5bba249f",
@@ -14369,35 +14398,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "7162d88fbd3ade34a9dad596",
-      "stable_event_id": "7162d88fbd3ade34a9dad596",
-      "observation_hash": "2a2ff1a68694c01d4b449311",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T00:16:59+00:00",
-      "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-07-25T00:16:59+00:00",
-      "updated_at": "2026-07-25T00:17:00.723801+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Ilhéus",
-      "risk": 38,
-      "severity": "Moderado",
-      "lat": -14.793,
-      "lon": -39.046,
-      "city": "Ilhéus",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 58.7 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1407,
-      "estimated_hours": 351.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "883c7d29bda4c183c19a460b",
       "stable_event_id": "883c7d29bda4c183c19a460b",
       "observation_hash": "dc4469756664c32073fc117d",
@@ -15151,7 +15151,7 @@
         {
           "date": "2026-07-25",
           "avgRisk": 45,
-          "events": 36,
+          "events": 35,
           "maxRisk": 85
         },
         {
@@ -15163,7 +15163,7 @@
         {
           "date": "2026-07-27",
           "avgRisk": 40,
-          "events": 11,
+          "events": 12,
           "maxRisk": 42
         }
       ]
@@ -15357,7 +15357,7 @@
         {
           "date": "2026-07-25",
           "avgRisk": 45,
-          "events": 36,
+          "events": 35,
           "maxRisk": 85
         },
         {
@@ -15369,7 +15369,7 @@
         {
           "date": "2026-07-27",
           "avgRisk": 40,
-          "events": 11,
+          "events": 12,
           "maxRisk": 42
         }
       ]
@@ -15762,7 +15762,7 @@
         {
           "date": "2026-07-25",
           "avgRisk": 45,
-          "events": 36,
+          "events": 35,
           "maxRisk": 85
         },
         {
@@ -15774,7 +15774,7 @@
         {
           "date": "2026-07-27",
           "avgRisk": 40,
-          "events": 11,
+          "events": 12,
           "maxRisk": 42
         }
       ]
