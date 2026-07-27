@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T01:17:08Z",
+  "updatedAt": "2026-07-27T01:32:14Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -11266,6 +11266,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "9055ebd0a3e53b37297d0cf2",
+      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
+      "observation_hash": "78ea1a77db89bacba57ffdd4",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T01:32:09+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-27T01:32:09+00:00",
+      "updated_at": "2026-07-27T01:32:10.773409+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Boa Vista",
+      "risk": 68,
+      "severity": "Alto",
+      "lat": 2.824,
+      "lon": -60.675,
+      "city": "Boa Vista",
+      "state": "RR",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2017,
+      "estimated_hours": 504.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1f8dac92cf9f4864db7b23f1",
       "stable_event_id": "1f8dac92cf9f4864db7b23f1",
       "observation_hash": "bc049526caeb5ead6d65da03",
@@ -11295,43 +11324,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "9055ebd0a3e53b37297d0cf2",
-      "stable_event_id": "9055ebd0a3e53b37297d0cf2",
-      "observation_hash": "33588f03918c2e009b979084",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T01:17:03+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-27T01:17:03+00:00",
-      "updated_at": "2026-07-27T01:17:04.802114+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Boa Vista",
-      "risk": 64,
-      "severity": "Alto",
-      "lat": 2.824,
-      "lon": -60.675,
-      "city": "Boa Vista",
-      "state": "RR",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2016,
-      "estimated_hours": 504.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "ffbb3295c9c63b9d83aa4b68",
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "f6bf2ef9fe13b1a98a6c5bd6",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T01:17:03+00:00",
+      "snapshot_at": "2026-07-27T01:32:09+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-27T01:17:03+00:00",
-      "updated_at": "2026-07-27T01:17:04.802114+00:00",
+      "last_seen_at": "2026-07-27T01:32:09+00:00",
+      "updated_at": "2026-07-27T01:32:10.773409+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11347,8 +11347,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 62.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2254,
-      "estimated_hours": 563.5,
+      "total_snapshots": 2255,
+      "estimated_hours": 563.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12227,10 +12227,10 @@
       "stable_event_id": "da05029ce4265c3efca03507",
       "observation_hash": "3361d504f096a4b0a1da07ba",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T01:17:03+00:00",
+      "snapshot_at": "2026-07-27T01:32:09+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-07-27T01:17:03+00:00",
-      "updated_at": "2026-07-27T01:17:04.802114+00:00",
+      "last_seen_at": "2026-07-27T01:32:09+00:00",
+      "updated_at": "2026-07-27T01:32:10.773409+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12246,8 +12246,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 61.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 792,
-      "estimated_hours": 198.0,
+      "total_snapshots": 793,
+      "estimated_hours": 198.25,
       "active": true,
       "storage": "supabase"
     },
@@ -13880,10 +13880,10 @@
       "stable_event_id": "18fc5b8a91beba6bdfa69760",
       "observation_hash": "9ec00e37cdd95bbbff3d56f7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T01:17:03+00:00",
+      "snapshot_at": "2026-07-27T01:32:09+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-07-27T01:17:03+00:00",
-      "updated_at": "2026-07-27T01:17:04.802114+00:00",
+      "last_seen_at": "2026-07-27T01:32:09+00:00",
+      "updated_at": "2026-07-27T01:32:10.773409+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13899,8 +13899,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 61.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1262,
-      "estimated_hours": 315.5,
+      "total_snapshots": 1263,
+      "estimated_hours": 315.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15164,7 +15164,7 @@
           "date": "2026-07-27",
           "avgRisk": 46,
           "events": 9,
-          "maxRisk": 64
+          "maxRisk": 68
         }
       ]
     },
@@ -15370,7 +15370,7 @@
           "date": "2026-07-27",
           "avgRisk": 46,
           "events": 9,
-          "maxRisk": 64
+          "maxRisk": 68
         }
       ]
     },
@@ -15775,7 +15775,7 @@
           "date": "2026-07-27",
           "avgRisk": 46,
           "events": 9,
-          "maxRisk": 64
+          "maxRisk": 68
         }
       ]
     }
