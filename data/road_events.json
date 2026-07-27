@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; Notícias públicas - Portal Salvador FM; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 3.5 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; Notícias públicas - Portal Salvador FM; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -73,10 +73,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T12:30:08Z",
     "last_seen_at": "2026-07-27T16:02:25Z",
-    "active_duration_hours": 3.54,
+    "active_duration_hours": 3.55,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-27T16:02:25Z",
+    "news_signature": "42c1623933c9682ea2b4a082",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
