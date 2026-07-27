@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; +2 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 4.0 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; +2 fonte(s). Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -78,12 +78,14 @@
     "newsFreshnessHours": 4.04,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T12:30:08Z",
-    "last_seen_at": "2026-07-27T16:32:17Z",
+    "last_seen_at": "2026-07-27T16:32:33Z",
     "active_duration_hours": 4.04,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3237d6d9d9557ee3e49d5285",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -95,7 +97,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra da Esperança recebe bloqueio parcial para obras após deslizamento de terra na BR-277, no Paraná. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-27T11:42:16Z; ativo há 4.8 h.",
+    "description": "Serra da Esperança recebe bloqueio parcial para obras após deslizamento de terra na BR-277, no Paraná. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-27T11:42:16Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,11 +124,13 @@
     "newsFreshnessHours": 4.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T11:42:16Z",
-    "last_seen_at": "2026-07-27T16:32:17Z",
-    "active_duration_hours": 4.83,
+    "last_seen_at": "2026-07-27T16:32:33Z",
+    "active_duration_hours": 4.84,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c8ea0c69c6166692b5d3e166",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
