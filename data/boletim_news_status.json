@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-07-27T12:03:57Z",
+  "updatedAt": "2026-07-27T12:17:54Z",
   "queries": 6,
-  "newItemsBeforeMerge": 56,
+  "newItemsBeforeMerge": 2,
   "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 54,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Cristiano Machado será interditada à noite para obras da Gasmig, necessárias para a construção da trincheira no cruzamento com a Vilarinho - Prefeitura de Belo Horizonte",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre e passageira fica gravemente ferida em batida frontal entre carro e ônibus na BR-365 em MG - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Caminhoneiro morre após caminhão bater com bitrem na BR-354 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Câmera flagra batida entre caminhonete e carreta na BR-356; helicóptero resgatou vítima - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após carro capotar e ele ser arremessado em rodovia de Mogi Guaçu - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre em colisão frontal com carreta na Rodovia Raposo Tavares em Itapetininga - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro capota na BR 277 entre Paranaguá e Morretes, segundo PRF - CBN Curitiba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após atropelar policial rodoviário federal na BR-116, em Inhapim - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Quatro pessoas morrem e bebê fica em estado gravíssimo após carros baterem de frente, no PR - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carreta carregada com bebidas tomba na BR-116 e deixa trânsito em sistema de pare e siga em Guapimirim - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Temporal com ventos de 70 km/h causa morte, estragos e deixa Ribeirão Preto, SP, parcialmente sem energia, telefonia e internet - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com ventos de até 70 km/h causa estragos no interior de São Paulo; confira vídeo - Midiamax",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Veja imagens de Ribeirão Preto (SP) após temporal - 24/07/2026 - Chuva - UOL",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva na Serra: saiba como está a situação de cidades atingidas e os danos causados - GZH",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal no interior de SP tem ventos de 121 km/h e deixa ao menos um morto - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Microexplosão ou tornado: o que provocou temporal com estragos e morte na região de Ribeirão Preto - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Vendaval causa uma morte, afeta hospitais, suspende aulas e gera caos em Ribeirão Preto (SP) - Folha de S.Paulo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Veja fotos dos estragos provocados por temporal com ventos de 70 km/h em Ribeirão Preto, SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva no RS: 73 cidades reportam danos, 25 pessoas são desalojadas e rio atinge cota de inundação - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ventos de 100 km/h derrubam torre de alta tensão em Taquaritinga, SP, e deixam 69% da cidade sem energia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Radar meteorológico registrou vento a 122 km/h durante tempestade em Pradópolis, SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Torres de energia caídas, pórtico torcido, empresas devastadas: veja fotos da destruição causada por temporal na região de Ribeirão - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal em Ribeirão Preto: veja o balanço dos prejuízos - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "MP do Frete: caminhoneiros iniciam paralisação em Santos; Bahia também registra protestos - Canal Rural",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "PMs e caminhoneiros entram em confronto durante greve no litoral de SP - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
