@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:47:16Z",
+  "updatedAt": "2026-07-27T00:03:42Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -11937,10 +11937,10 @@
       "stable_event_id": "66e1791f8dbba3841f3d59de",
       "observation_hash": "f4d51aa50d5bbdd2d54d583a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-26T23:47:11+00:00",
+      "snapshot_at": "2026-07-27T00:03:37+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-26T23:47:11+00:00",
-      "updated_at": "2026-07-26T23:47:12.717266+00:00",
+      "last_seen_at": "2026-07-27T00:03:37+00:00",
+      "updated_at": "2026-07-27T00:03:38.770693+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11956,8 +11956,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 60.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1590,
-      "estimated_hours": 397.5,
+      "total_snapshots": 1591,
+      "estimated_hours": 397.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12169,10 +12169,10 @@
       "stable_event_id": "7963d269036ec70c9439589e",
       "observation_hash": "4693ee823ac72e2c911c054a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-26T23:47:11+00:00",
+      "snapshot_at": "2026-07-27T00:03:37+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-26T23:47:11+00:00",
-      "updated_at": "2026-07-26T23:47:12.717266+00:00",
+      "last_seen_at": "2026-07-27T00:03:37+00:00",
+      "updated_at": "2026-07-27T00:03:38.770693+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12188,8 +12188,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:23Z; ativo há 61.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1070,
-      "estimated_hours": 267.5,
+      "total_snapshots": 1071,
+      "estimated_hours": 267.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14228,10 +14228,10 @@
       "stable_event_id": "4aeff1b5cdfa54777fe8051f",
       "observation_hash": "443552fbf900314fea7f74e5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-26T23:47:11+00:00",
+      "snapshot_at": "2026-07-27T00:03:37+00:00",
       "first_seen_at": "2026-05-26T06:17:45+00:00",
-      "last_seen_at": "2026-07-26T23:47:11+00:00",
-      "updated_at": "2026-07-26T23:47:12.717266+00:00",
+      "last_seen_at": "2026-07-27T00:03:37+00:00",
+      "updated_at": "2026-07-27T00:03:38.770693+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14247,8 +14247,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 61.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1309,
-      "estimated_hours": 327.25,
+      "total_snapshots": 1310,
+      "estimated_hours": 327.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15157,30 +15157,36 @@
         {
           "date": "2026-07-26",
           "avgRisk": 37,
-          "events": 49,
+          "events": 46,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-07-27",
+          "avgRisk": 41,
+          "events": 3,
+          "maxRisk": 43
         }
       ]
     },
     "30": {
-      "events": 222,
+      "events": 221,
       "avgRisk": 56,
       "maxRisk": 85,
       "rainChance": 0,
       "byType": {
-        "road": 128,
+        "road": 127,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 75,
-        "Sul": 60,
+        "Sul": 59,
         "Sudeste": 51,
         "Norte": 21,
         "Centro-Oeste": 12,
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 129,
+        "Alto": 128,
         "Moderado": 82,
         "Baixo": 10,
         "Crítico": 1
@@ -15189,7 +15195,7 @@
         {
           "date": "2026-06-27",
           "avgRisk": 69,
-          "events": 4,
+          "events": 3,
           "maxRisk": 69
         },
         {
@@ -15357,8 +15363,14 @@
         {
           "date": "2026-07-26",
           "avgRisk": 37,
-          "events": 49,
+          "events": 46,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-07-27",
+          "avgRisk": 41,
+          "events": 3,
+          "maxRisk": 43
         }
       ]
     },
@@ -15756,8 +15768,14 @@
         {
           "date": "2026-07-26",
           "avgRisk": 37,
-          "events": 49,
+          "events": 46,
           "maxRisk": 69
+        },
+        {
+          "date": "2026-07-27",
+          "avgRisk": 41,
+          "events": 3,
+          "maxRisk": 43
         }
       ]
     }
