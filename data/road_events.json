@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 volta a ter faixa interditada após novo afundamento de pista em Simões Filho - MundoBA. Fontes consolidadas: Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; Notícias públicas - Portal Salvador FM; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-27T11:22:30Z; ativo há 1.4 h.",
+    "description": "BR-324 volta a ter faixa interditada após novo afundamento de pista em Simões Filho - MundoBA. Fontes consolidadas: Notícias públicas - MundoBA; Notícias públicas - Bahia.Ba; Notícias públicas - Portal Salvador FM; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-27T11:22:30Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 1.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T11:22:30Z",
-    "last_seen_at": "2026-07-27T12:46:55Z",
+    "last_seen_at": "2026-07-27T12:47:11Z",
     "active_duration_hours": 1.41,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1414e53bb05103af8c4ab6ae",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.0 dias. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 3.0 dias.",
+    "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.0 dias.0 dias. Rastreio: primeiro registro em 2026-07-24T13:41:00Z; ativo há 3.0 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,7 +104,10 @@
     "active_duration_hours": 71.1,
     "active_duration_label": "3.0 dias",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-27T12:46:55Z",
+    "news_signature": "2705ebeb94ea491aae971b5b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
