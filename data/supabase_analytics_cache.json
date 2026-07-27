@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T08:32:04Z",
+  "updatedAt": "2026-07-27T08:38:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -89,6 +89,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "759d596da4710f0d820aebc0",
+      "stable_event_id": "759d596da4710f0d820aebc0",
+      "observation_hash": "51a5566994172c036bdf4774",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
+      "first_seen_at": "2026-07-24T13:47:05+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-304",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -5.795,
+      "lon": -35.209,
+      "city": "Interdição ou bloqueio por notícia pública • BR-304",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-304",
+      "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - difusoramossoro.com.br",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
+      "total_snapshots": 56,
+      "estimated_hours": 14.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
+      "headline": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.",
+      "sources": [
+        {
+          "source": "Notícias públicas - difusoramossoro.com.br",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
+          "headline": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.",
+          "date": "2026-07-27T08:38:04.199376+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "f5ce0177b8725602485e01fe",
@@ -256,49 +299,6 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV09MUzJnUTlnMXM2SXQ4Q2FpSmtGSDBfMHpfVnRvMGVTN2tnSmEzUmE2WVdxM2tJNzFBZkJGQ1NvYUU2cU9pWm1KSEpmaVZDeFZnUVQ0ZmxpUlhfb05tNUpRR3VaV2xKMERFYURRYkdTR3RGNlRkX1lFc1Yzbkl6VmFGVUxpVDVvSHNLcUVFbk9ZSnJUdlg2elJMR3pFRnV5c0FaRHlTc0x0MHctRHVXSnhvaHlwLXpBM2N2ZWhJM045ZGZF0gHTAUFVX3lxTE9zekF2T3VhaVFvWjg2aUU1LU8zYlFaaVVXb29tUG4xbUw4VTdnMTBCTll5bGh0dmFrSnYxNXhTdkhLVWNVdldsNXVncXFRbHJGMGttZklLX09zbGRGUXUzVEstY1I1QUhKYnJCbDRFeGx0UjVOeHl1akh3RHotcmQwUzYyQ1MzSUVvTnNFendhNUNpOVg3dVhtdWRjRE5jRXFWSlpLVGItdF90blNMV2NiWkNlT2ZaU21vVUMtMkppZmI2NVJQZV9SNlRzNVZxck5xSG8",
           "headline": "Asfalto cede e parte da rodovia SP-294 é interditada em Marília.",
           "date": "2026-07-25T02:02:25.861364+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "759d596da4710f0d820aebc0",
-      "stable_event_id": "759d596da4710f0d820aebc0",
-      "observation_hash": "9f337085c7b730531b380d2c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T01:32:20+00:00",
-      "first_seen_at": "2026-07-24T13:47:05+00:00",
-      "last_seen_at": "2026-07-25T01:32:20+00:00",
-      "updated_at": "2026-07-25T01:32:22.858327+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-304",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -5.795,
-      "lon": -35.209,
-      "city": "Interdição ou bloqueio por notícia pública • BR-304",
-      "state": "",
-      "region": "Nordeste",
-      "road": "BR-304",
-      "description": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.. Fontes consolidadas: Notícias públicas - difusoramossoro.com.br. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - difusoramossoro.com.br",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
-      "total_snapshots": 55,
-      "estimated_hours": 13.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
-      "headline": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.",
-      "sources": [
-        {
-          "source": "Notícias públicas - difusoramossoro.com.br",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3lmQ3NzWlBjeTFFSm1RdjlTd0tPX0t1amxyc0piVGswNTJZRGM0Y2phRXBCVkhTMUJIMnktanI3T0plYjN1ZEZudzJhTjNiNU53dWFleFJENXBCM1BBWlY4WmhoXzFSczVhLU9BMHl4MWMtcGU0OHVGWnlSNkdaNDR3SE10SEt1YjQ5djkwc0RQVGJwaU9Ccnp6RUliMmlhWlQwTW0yenQtTUZwcVMzNUZ5ZHhVcUxfb2RuVTlVYXlvTW93Xzg0YURnbXZNQQ",
-          "headline": "BR-304 será interditada nesta sexta-feira (24) para detonação de rochas em trecho de duplicação em Assú - difusoramossoro.com.br.",
-          "date": "2026-07-25T01:32:22.858327+00:00"
         }
       ],
       "sourceCount": 1,
@@ -11270,10 +11270,10 @@
       "stable_event_id": "cccfff4bc2c909d44ee82c74",
       "observation_hash": "aaaf955f97f3f9c47424ce6b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T08:31:59+00:00",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-27T08:31:59+00:00",
-      "updated_at": "2026-07-27T08:32:01.175542+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11289,8 +11289,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 62.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1918,
-      "estimated_hours": 479.5,
+      "total_snapshots": 1919,
+      "estimated_hours": 479.75,
       "active": true,
       "storage": "supabase"
     },
@@ -11734,10 +11734,10 @@
       "stable_event_id": "66e1791f8dbba3841f3d59de",
       "observation_hash": "59c29422064cc480f17ee269",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T08:31:59+00:00",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-27T08:31:59+00:00",
-      "updated_at": "2026-07-27T08:32:01.175542+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11753,8 +11753,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 61.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1598,
-      "estimated_hours": 399.5,
+      "total_snapshots": 1599,
+      "estimated_hours": 399.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13822,10 +13822,10 @@
       "stable_event_id": "4aeff1b5cdfa54777fe8051f",
       "observation_hash": "43db30f81b4d43c0d7959fe2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T08:31:59+00:00",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
       "first_seen_at": "2026-05-26T06:17:45+00:00",
-      "last_seen_at": "2026-07-27T08:31:59+00:00",
-      "updated_at": "2026-07-27T08:32:01.175542+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13841,8 +13841,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 62.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1317,
-      "estimated_hours": 329.25,
+      "total_snapshots": 1318,
+      "estimated_hours": 329.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14518,10 +14518,10 @@
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "a1c986bccb8e305e66a78e9c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T08:31:59+00:00",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-27T08:31:59+00:00",
-      "updated_at": "2026-07-27T08:32:01.175542+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14537,8 +14537,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 62.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2042,
-      "estimated_hours": 510.5,
+      "total_snapshots": 2043,
+      "estimated_hours": 510.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14547,10 +14547,10 @@
       "stable_event_id": "fb3844f2e5494d4927df88b7",
       "observation_hash": "35da089ed45f4482ef141f5e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-27T08:31:59+00:00",
+      "snapshot_at": "2026-07-27T08:38:03+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-27T08:31:59+00:00",
-      "updated_at": "2026-07-27T08:32:01.175542+00:00",
+      "last_seen_at": "2026-07-27T08:38:03+00:00",
+      "updated_at": "2026-07-27T08:38:04.199376+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14566,8 +14566,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:19Z; ativo há 61.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 999,
-      "estimated_hours": 249.75,
+      "total_snapshots": 1000,
+      "estimated_hours": 250.0,
       "active": true,
       "storage": "supabase"
     },
@@ -15150,8 +15150,8 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 45,
-          "events": 34,
+          "avgRisk": 44,
+          "events": 33,
           "maxRisk": 85
         },
         {
@@ -15162,9 +15162,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 42,
-          "events": 14,
-          "maxRisk": 66
+          "avgRisk": 44,
+          "events": 15,
+          "maxRisk": 69
         }
       ]
     },
@@ -15356,8 +15356,8 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 45,
-          "events": 34,
+          "avgRisk": 44,
+          "events": 33,
           "maxRisk": 85
         },
         {
@@ -15368,9 +15368,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 42,
-          "events": 14,
-          "maxRisk": 66
+          "avgRisk": 44,
+          "events": 15,
+          "maxRisk": 69
         }
       ]
     },
@@ -15761,8 +15761,8 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 45,
-          "events": 34,
+          "avgRisk": 44,
+          "events": 33,
           "maxRisk": 85
         },
         {
@@ -15773,9 +15773,9 @@
         },
         {
           "date": "2026-07-27",
-          "avgRisk": 42,
-          "events": 14,
-          "maxRisk": 66
+          "avgRisk": 44,
+          "events": 15,
+          "maxRisk": 69
         }
       ]
     }
