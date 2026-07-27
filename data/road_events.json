@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; +4 fonte(s). Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 5.6 h.",
+    "description": "Trecho da BR-324 volta a ser interditado após novo afundamento na pista - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica; Notícias públicas - Blog do Valente; Notícias públicas - Rádio Metrópole; Notícias públicas - Muita Informação; Notícias públicas - MundoBA; +4 fonte(s). Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-27T12:30:08Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,11 +90,13 @@
     "newsFreshnessHours": 5.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T12:30:08Z",
-    "last_seen_at": "2026-07-27T18:03:50Z",
-    "active_duration_hours": 5.56,
+    "last_seen_at": "2026-07-27T18:04:17Z",
+    "active_duration_hours": 5.57,
     "active_duration_label": "5.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "bfc13c2bde2de5bfc1656d6a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
