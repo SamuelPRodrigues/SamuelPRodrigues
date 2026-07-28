@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-470",
+    "road": "BR-470",
+    "corridor": "Blumenau • BR-470",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -26.919,
+    "lon": -49.066,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-27T23:04:14Z; ativo há 11.5 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Leouve",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTRwc29OWDlraEYtMUpTZEhLOFB4WWI4bGZNcGRuajJuTDJKWVNIckdoelhaczhMNHFZd0dUNmliM2V2LWFvVzF6TGlHQWswX0lJMldBTVZVVHBwTWU0LV9PS2RYaUhndzNsWVNzSGo3eUU0UnVNaURYMEp3V0U1b3I5Qk03cmJLbWUwYWN3",
+    "headline": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve",
+    "newsDate": "Mon, 27 Jul 2026 23:04:14 GMT",
+    "updatedAt": "2026-07-28T10:31:09Z",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTRwc29OWDlraEYtMUpTZEhLOFB4WWI4bGZNcGRuajJuTDJKWVNIckdoelhaczhMNHFZd0dUNmliM2V2LWFvVzF6TGlHQWswX0lJMldBTVZVVHBwTWU0LV9PS2RYaUhndzNsWVNzSGo3eUU0UnVNaURYMEp3V0U1b3I5Qk03cmJLbWUwYWN3",
+    "sources": [
+      {
+        "source": "Notícias públicas - Leouve",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTRwc29OWDlraEYtMUpTZEhLOFB4WWI4bGZNcGRuajJuTDJKWVNIckdoelhaczhMNHFZd0dUNmliM2V2LWFvVzF6TGlHQWswX0lJMldBTVZVVHBwTWU0LV9PS2RYaUhndzNsWVNzSGo3eUU0UnVNaURYMEp3V0U1b3I5Qk03cmJLbWUwYWN3",
+        "headline": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve",
+        "date": "Mon, 27 Jul 2026 23:04:14 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "99cf50dab7bc609ecbb82aa2",
+    "event_id": "99cf50dab7bc609ecbb82aa2",
+    "newsFreshnessHours": 11.47,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-27T23:04:14Z",
+    "last_seen_at": "2026-07-28T10:32:26Z",
+    "active_duration_hours": 11.47,
+    "active_duration_label": "11.5 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
