@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-27T23:04:14Z; ativo há 1.9 h.",
+    "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-27T23:04:14Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 1.91,
     "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T00:58:38Z",
+    "news_signature": "90fd9a8fc750afdf5fbc63b5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-27T20:19:00Z; ativo há 4.7 h.",
+    "description": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-27T20:19:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 4.66,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T00:58:38Z",
+    "news_signature": "4b0d57de81e4572fde2883b8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado nesta segunda após pista voltar afundar - Folha do Estado da Bahia. Fontes consolidadas: Notícias públicas - Folha do Estado da Bahia; Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica; Notícias públicas - Blog do Valente; Notícias públicas - Grupo Lomes de Comunicação; Notícias públicas - Portal do Casé; +6 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-27T13:27:14Z; ativo há 11.5 h.",
+    "description": "Trecho da BR-324 é interditado nesta segunda após pista voltar afundar - Folha do Estado da Bahia. Fontes consolidadas: Notícias públicas - Folha do Estado da Bahia; Notícias públicas - A TARDE; Notícias públicas - - Bahia Economica; Notícias públicas - Blog do Valente; Notícias públicas - Grupo Lomes de Comunicação; Notícias públicas - Portal do Casé; +6 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-27T13:27:14Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -190,12 +196,14 @@
     "newsFreshnessHours": 11.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T13:27:14Z",
-    "last_seen_at": "2026-07-28T00:58:38Z",
-    "active_duration_hours": 11.52,
+    "last_seen_at": "2026-07-28T00:58:52Z",
+    "active_duration_hours": 11.53,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "dec3e20ca3bbbf975f316b9b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -212,7 +220,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV. Período informado: 2026-07-27T22:02:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-27T22:02:27Z; ativo há 2.9 h.",
+    "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV. Período informado: 2026-07-27T22:02:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-27T22:02:27Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -225,7 +233,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-28T00:57:25Z",
     "sources": [
       {
@@ -245,7 +253,10 @@
     "last_seen_at": "2026-07-28T00:58:38Z",
     "active_duration_hours": 2.94,
     "active_duration_label": "2.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T00:58:38Z",
+    "news_signature": "894294774cae91a53fcacbcc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -262,7 +273,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-11T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 63.9 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-08-11T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias.9 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 63.9 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -306,6 +317,9 @@
     "last_seen_at": "2026-07-28T00:58:38Z",
     "active_duration_hours": 1533.98,
     "active_duration_label": "63.9 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T00:58:38Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
