@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-27T23:04:14Z; ativo há 8.7 h.",
+    "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-27T23:04:14Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 8.72,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T07:47:19Z",
+    "news_signature": "90fd9a8fc750afdf5fbc63b5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-27T20:19:00Z; ativo há 11.5 h.",
+    "description": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-27T20:19:00Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-27T20:19:00Z",
     "last_seen_at": "2026-07-28T07:47:19Z",
-    "active_duration_hours": 11.47,
+    "active_duration_hours": 11.48,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T07:47:19Z",
+    "news_signature": "4b0d57de81e4572fde2883b8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +108,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV. Período informado: 2026-07-27T22:02:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-27T22:02:27Z; ativo há 9.8 h.",
+    "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV. Período informado: 2026-07-27T22:02:27Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-27T22:02:27Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +121,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-28T07:46:04Z",
     "sources": [
       {
@@ -135,6 +141,9 @@
     "last_seen_at": "2026-07-28T07:47:19Z",
     "active_duration_hours": 9.75,
     "active_duration_label": "9.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T07:47:19Z",
+    "news_signature": "894294774cae91a53fcacbcc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
