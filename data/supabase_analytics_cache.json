@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-07-28T00:32:09Z",
+  "updatedAt": "2026-07-28T00:47:11Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "94eba1bea36aeec0d426f14d",
+      "stable_event_id": "94eba1bea36aeec0d426f14d",
+      "observation_hash": "14b3f76b1b0327fc97af1704",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
+      "first_seen_at": "2026-05-26T03:18:15+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santa Maria",
+      "risk": 87,
+      "severity": "Crítico",
+      "lat": -29.686,
+      "lon": -53.806,
+      "city": "Santa Maria",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 62.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2025,
+      "estimated_hours": 506.25,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "c45a5abe50f5b4a8ec30f014",
       "stable_event_id": "c45a5abe50f5b4a8ec30f014",
@@ -95,10 +124,10 @@
       "stable_event_id": "6dda8c56e0efafa459a52986",
       "observation_hash": "1b9ab5787e394cc812798ff7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-05-26T19:16:50+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -114,8 +143,8 @@
       "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.. Fontes consolidadas: G1 + 2 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "G1 + 2 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-      "total_snapshots": 97,
-      "estimated_hours": 24.25,
+      "total_snapshots": 98,
+      "estimated_hours": 24.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,7 +155,7 @@
           "source": "G1 + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
           "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
-          "date": "2026-07-28T00:32:06.337138+00:00"
+          "date": "2026-07-28T00:47:07.504042+00:00"
         },
         {
           "source": "Notícias públicas - G1",
@@ -142,12 +171,12 @@
     {
       "event_id": "c3c591a18884cda40936b9ef",
       "stable_event_id": "c3c591a18884cda40936b9ef",
-      "observation_hash": "a32fcdd3749c52e046646d98",
+      "observation_hash": "d4ab3aa84d332234403f10bb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-07-27T22:16:48+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -163,8 +192,8 @@
       "description": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV.. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - RBA TV",
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRTVKLVFJVGJ2eDlzSERvSV9Sb05pbmw5VGxNcWJvSm50VkJpaE9pY2Raa3lnOWxJYkYxSVZwelVaNUg5WEFMVjBidTBXMWFiYWw1cmphQUlNbXhvdEZZYk9QUUwzbDE1eTFJck05TmVoYWtqakpPZWdSSng4cVVESW5mMlBDZ0lqbGJzQmhid0JlMDhzZHlZc05hQmxDd3Z1WC1pdlBRZXpabnBWaEdMdEUyc2EtSGplbmgtOUZMU3c3Y2c3NjNRMA",
-      "total_snapshots": 12,
-      "estimated_hours": 3.0,
+      "total_snapshots": 13,
+      "estimated_hours": 3.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -175,7 +204,7 @@
           "source": "Notícias públicas - RBA TV",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRTVKLVFJVGJ2eDlzSERvSV9Sb05pbmw5VGxNcWJvSm50VkJpaE9pY2Raa3lnOWxJYkYxSVZwelVaNUg5WEFMVjBidTBXMWFiYWw1cmphQUlNbXhvdEZZYk9QUUwzbDE1eTFJck05TmVoYWtqakpPZWdSSng4cVVESW5mMlBDZ0lqbGJzQmhid0JlMDhzZHlZc05hQmxDd3Z1WC1pdlBRZXpabnBWaEdMdEUyc2EtSGplbmgtOUZMU3c3Y2c3NjNRMA",
           "headline": "BR-116 ficou totalmente interditada em Capão Alto durante operação de destombamento de veículo - RBA TV.",
-          "date": "2026-07-28T00:32:06.337138+00:00"
+          "date": "2026-07-28T00:47:07.504042+00:00"
         }
       ],
       "sourceCount": 1,
@@ -185,12 +214,12 @@
     {
       "event_id": "99cf50dab7bc609ecbb82aa2",
       "stable_event_id": "99cf50dab7bc609ecbb82aa2",
-      "observation_hash": "0981bfc4be11679aedba81ef",
+      "observation_hash": "95104b52c8670f7cd9e1e295",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-07-27T23:17:00+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -206,8 +235,8 @@
       "description": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve.. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Leouve",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTRwc29OWDlraEYtMUpTZEhLOFB4WWI4bGZNcGRuajJuTDJKWVNIckdoelhaczhMNHFZd0dUNmliM2V2LWFvVzF6TGlHQWswX0lJMldBTVZVVHBwTWU0LV9PS2RYaUhndzNsWVNzSGo3eUU0UnVNaURYMEp3V0U1b3I5Qk03cmJLbWUwYWN3",
-      "total_snapshots": 7,
-      "estimated_hours": 1.75,
+      "total_snapshots": 8,
+      "estimated_hours": 2.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -218,7 +247,7 @@
           "source": "Notícias públicas - Leouve",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTRwc29OWDlraEYtMUpTZEhLOFB4WWI4bGZNcGRuajJuTDJKWVNIckdoelhaczhMNHFZd0dUNmliM2V2LWFvVzF6TGlHQWswX0lJMldBTVZVVHBwTWU0LV9PS2RYaUhndzNsWVNzSGo3eUU0UnVNaURYMEp3V0U1b3I5Qk03cmJLbWUwYWN3",
           "headline": "BR-470 está bloqueada na Serra das Antas após queda de poste e fios sobre a pista - Leouve.",
-          "date": "2026-07-28T00:32:06.337138+00:00"
+          "date": "2026-07-28T00:47:07.504042+00:00"
         }
       ],
       "sourceCount": 1,
@@ -228,12 +257,12 @@
     {
       "event_id": "76eccd9087ae36ce16fcbe14",
       "stable_event_id": "76eccd9087ae36ce16fcbe14",
-      "observation_hash": "554922ddb3c9c04a862ce52c",
+      "observation_hash": "51098048ad237e7251cd2655",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-07-27T22:03:35+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -249,8 +278,8 @@
       "description": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP.. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Portal Rodonews GVR",
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUxqWXEybW5heDRIN0dlejdFLXQ3ajhxLW1BNG9qdjBhMVdfNEtIVE9hRm5YX0JBMl94OE1iM1dBMzRrVlQyVnI5d1N6dV9OdnRmbXRrNDcxQ3M4enB0OXdHTkE2MW42ZXdYeklvZmZQalNMQmJnamUwYWkwdEQteDRrRlVZSDVTRWJmSl9ZU0VqMzN5WU9vcW9RQlBuNFQtTUtSOWRCOWhWZFg0V0Z0V2FTeW9ZT3R5",
-      "total_snapshots": 13,
-      "estimated_hours": 3.25,
+      "total_snapshots": 14,
+      "estimated_hours": 3.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -261,7 +290,7 @@
           "source": "Notícias públicas - Portal Rodonews GVR",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUxqWXEybW5heDRIN0dlejdFLXQ3ajhxLW1BNG9qdjBhMVdfNEtIVE9hRm5YX0JBMl94OE1iM1dBMzRrVlQyVnI5d1N6dV9OdnRmbXRrNDcxQ3M4enB0OXdHTkE2MW42ZXdYeklvZmZQalNMQmJnamUwYWkwdEQteDRrRlVZSDVTRWJmSl9ZU0VqMzN5WU9vcW9RQlBuNFQtTUtSOWRCOWhWZFg0V0Z0V2FTeW9ZT3R5",
           "headline": "Caminhão tomba, pega fogo e interdita pista da Régis Bittencourt, em Miracatu/SP.",
-          "date": "2026-07-28T00:32:06.337138+00:00"
+          "date": "2026-07-28T00:47:07.504042+00:00"
         }
       ],
       "sourceCount": 1,
@@ -12012,35 +12041,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "94eba1bea36aeec0d426f14d",
-      "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "cab9dde278c7c9462a39c48d",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
-      "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santa Maria",
-      "risk": 44,
-      "severity": "Moderado",
-      "lat": -29.686,
-      "lon": -53.806,
-      "city": "Santa Maria",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 62.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2024,
-      "estimated_hours": 506.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "484e2113a14711d1e23f0ffa",
       "stable_event_id": "484e2113a14711d1e23f0ffa",
       "observation_hash": "78c86ec238cc573e31105143",
@@ -12306,10 +12306,10 @@
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "8a76b48328577c6250c74cd3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12325,8 +12325,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 63.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1626,
-      "estimated_hours": 406.5,
+      "total_snapshots": 1627,
+      "estimated_hours": 406.75,
       "active": true,
       "storage": "supabase"
     },
@@ -12534,43 +12534,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "5cca55e4ca30532da426bf44",
-      "stable_event_id": "5cca55e4ca30532da426bf44",
-      "observation_hash": "623880b1f4036b3f9df1bde5",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Porto Alegre",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -30.034,
-      "lon": -51.217,
-      "city": "Porto Alegre",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 63.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1495,
-      "estimated_hours": 373.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "57a64278cbd624610c5498e1",
       "stable_event_id": "57a64278cbd624610c5498e1",
       "observation_hash": "5ff20578c01e6731a42cabb1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12586,8 +12557,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 63.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2707,
-      "estimated_hours": 676.75,
+      "total_snapshots": 2708,
+      "estimated_hours": 677.0,
       "active": true,
       "storage": "supabase"
     },
@@ -13143,14 +13114,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "5cca55e4ca30532da426bf44",
+      "stable_event_id": "5cca55e4ca30532da426bf44",
+      "observation_hash": "37b316d190a2f3a526f58741",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Porto Alegre",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -30.034,
+      "lon": -51.217,
+      "city": "Porto Alegre",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 63.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1496,
+      "estimated_hours": 374.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1392e852ec635648d4a26a0e",
       "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "2bd6cbebea19618f9a6c5088",
+      "observation_hash": "e8094a7f95c3e157194a5b7f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13163,11 +13163,11 @@
       "state": "AL",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 62.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 63.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2413,
-      "estimated_hours": 603.25,
+      "total_snapshots": 2414,
+      "estimated_hours": 603.5,
       "active": true,
       "storage": "supabase"
     },
@@ -13176,10 +13176,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "4c4320c1be2c6f35edde812d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T00:32:04+00:00",
+      "snapshot_at": "2026-07-28T00:47:06+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T00:32:04+00:00",
-      "updated_at": "2026-07-28T00:32:06.337138+00:00",
+      "last_seen_at": "2026-07-28T00:47:06+00:00",
+      "updated_at": "2026-07-28T00:47:07.504042+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13195,8 +13195,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 63.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2928,
-      "estimated_hours": 732.0,
+      "total_snapshots": 2929,
+      "estimated_hours": 732.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15380,7 +15380,7 @@
     "7": {
       "events": 123,
       "avgRisk": 48,
-      "maxRisk": 85,
+      "maxRisk": 87,
       "rainChance": 0,
       "byType": {
         "climate": 88,
@@ -15394,10 +15394,10 @@
         "Centro-Oeste": 9
       },
       "bySeverity": {
-        "Moderado": 74,
+        "Moderado": 73,
         "Alto": 38,
         "Baixo": 10,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -15444,16 +15444,16 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 52,
+          "avgRisk": 55,
           "events": 16,
-          "maxRisk": 69
+          "maxRisk": 87
         }
       ]
     },
     "30": {
       "events": 224,
-      "avgRisk": 56,
-      "maxRisk": 85,
+      "avgRisk": 57,
+      "maxRisk": 87,
       "rainChance": 0,
       "byType": {
         "road": 130,
@@ -15469,9 +15469,9 @@
       },
       "bySeverity": {
         "Alto": 133,
-        "Moderado": 78,
+        "Moderado": 77,
         "Baixo": 12,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -15650,16 +15650,16 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 52,
+          "avgRisk": 55,
           "events": 16,
-          "maxRisk": 69
+          "maxRisk": 87
         }
       ]
     },
     "90": {
       "events": 390,
       "avgRisk": 59,
-      "maxRisk": 85,
+      "maxRisk": 87,
       "rainChance": 25,
       "byType": {
         "road": 255,
@@ -15676,9 +15676,9 @@
       },
       "bySeverity": {
         "Alto": 261,
-        "Moderado": 116,
+        "Moderado": 115,
         "Baixo": 12,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -16061,9 +16061,9 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 52,
+          "avgRisk": 55,
           "events": 16,
-          "maxRisk": 69
+          "maxRisk": 87
         }
       ]
     }
