@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista da BR-381 é interditada após acidente com caminhão em Igarapé; motorista fica preso às ferragens - BHAZ. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-28T12:33:00Z; ativo há 7.0 h.",
+    "description": "Pista da BR-381 é interditada após acidente com caminhão em Igarapé; motorista fica preso às ferragens - BHAZ. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-28T12:33:00Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-28T12:33:00Z",
     "last_seen_at": "2026-07-28T19:32:33Z",
-    "active_duration_hours": 6.99,
+    "active_duration_hours": 7.0,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T19:32:33Z",
+    "news_signature": "8b42e4c9ca9ea794251db641",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Nova Rota do Oeste divulga obras na BR-163 e BR-364 nesta terça-feira; veja onde será interditado - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-28T11:30:55Z; ativo há 8.0 h.",
+    "description": "Nova Rota do Oeste divulga obras na BR-163 e BR-364 nesta terça-feira; veja onde será interditado - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-28T11:30:55Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 8.03,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T19:32:33Z",
+    "news_signature": "9fbedc788b34c5b4eebdc164",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre duas carretas interdita parte da BR-101 em Caaporã, na PB. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - clickpb.com.br; Notícias públicas - Política JP. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-28T09:29:04Z; ativo há 10.1 h.",
+    "description": "Acidente entre duas carretas interdita parte da BR-101 em Caaporã, na PB. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - clickpb.com.br; Notícias públicas - Política JP. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-28T09:29:04Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,7 +146,10 @@
     "active_duration_hours": 10.06,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-28T19:32:33Z",
+    "news_signature": "8b930d5cbbf1cd696981decd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
