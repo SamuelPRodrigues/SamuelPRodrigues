@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-470",
+    "road": "BR-470",
+    "corridor": "Blumenau • BR-470",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -26.919,
+    "lon": -49.066,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-29T14:05:22Z; ativo há 11 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - ND Mais",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+    "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais",
+    "newsDate": "Wed, 29 Jul 2026 14:05:22 GMT",
+    "updatedAt": "2026-07-29T14:15:45Z",
+    "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+    "sources": [
+      {
+        "source": "Notícias públicas - ND Mais",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+        "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais",
+        "date": "Wed, 29 Jul 2026 14:05:22 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "b706602f46b856f7e0c71abc",
+    "event_id": "b706602f46b856f7e0c71abc",
+    "newsFreshnessHours": 0.19,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-29T14:05:22Z",
+    "last_seen_at": "2026-07-29T14:17:00Z",
+    "active_duration_hours": 0.19,
+    "active_duration_label": "11 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-222",
     "road": "BR-222",
     "corridor": "Fortaleza • BR-116 / BR-222 / CE-040",
@@ -9,7 +53,7 @@
     "lat": -3.731,
     "lon": -38.526,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-222 vai ser interditada nesta quarta-feira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-29T13:53:13Z; ativo há 10 min.",
+    "description": "BR-222 vai ser interditada nesta quarta-feira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-29T13:53:13Z; ativo há 24 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGVNVENpdGsteDRfNXlnN0JTTk92X3ZWRFlndHhpa0VVNlhrdDhlLThYRlduRDZzVTNRdXhiaUlMaklzeG9peW16RDE4dm81S1pjOTAwc3ZTNlFvWlVzLU1pNGJDaEt4YmZjOUZKeEFYNGJmdTV1WVllS1dQdjFPV21aRGNlMk1aQUFiOUtuaFZXTXFOanp6ZnBNcHU2S0ExTndsMTZZRzZ3Z2U0cm5aMDY1V0xpWUVH0gHHAUFVX3lxTE5ycmxuRGJDWFZzbkRRb0RnMUt5UUZlOFhUOEtNbzhybGRERk1oOElVTTk3S21lX19XWjEyeFJ0OE1nRi14YVYzUk1UaThvUUpNS0ExWnctOW8xbU9VVE5ZNE1oOVJqU3htVDlBZVp4TFNiQ1BmQ1lVQTc1ajd2Zmd2WGxXM2ZrRkdSVDhiUzNvQnZtM0Z3TVh5dC01cjBDV1ZjdXlOazJIaFNOeldlUG56VFM4eVRELTl4aWo4aXY2NjJHS1ppVVE",
     "headline": "BR-222 vai ser interditada nesta quarta-feira",
     "newsDate": "Wed, 29 Jul 2026 13:53:13 GMT",
-    "updatedAt": "2026-07-29T14:01:15Z",
+    "updatedAt": "2026-07-29T14:15:45Z",
     "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGVNVENpdGsteDRfNXlnN0JTTk92X3ZWRFlndHhpa0VVNlhrdDhlLThYRlduRDZzVTNRdXhiaUlMaklzeG9peW16RDE4dm81S1pjOTAwc3ZTNlFvWlVzLU1pNGJDaEt4YmZjOUZKeEFYNGJmdTV1WVllS1dQdjFPV21aRGNlMk1aQUFiOUtuaFZXTXFOanp6ZnBNcHU2S0ExTndsMTZZRzZ3Z2U0cm5aMDY1V0xpWUVH0gHHAUFVX3lxTE5ycmxuRGJDWFZzbkRRb0RnMUt5UUZlOFhUOEtNbzhybGRERk1oOElVTTk3S21lX19XWjEyeFJ0OE1nRi14YVYzUk1UaThvUUpNS0ExWnctOW8xbU9VVE5ZNE1oOVJqU3htVDlBZVp4TFNiQ1BmQ1lVQTc1ajd2Zmd2WGxXM2ZrRkdSVDhiUzNvQnZtM0Z3TVh5dC01cjBDV1ZjdXlOazJIaFNOeldlUG56VFM4eVRELTl4aWo4aXY2NjJHS1ppVVE",
     "sources": [
       {
@@ -33,17 +77,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "8bcec6ef0fc7f5f4f471d122",
     "event_id": "8bcec6ef0fc7f5f4f471d122",
-    "newsFreshnessHours": 0.16,
+    "newsFreshnessHours": 0.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T13:53:13Z",
-    "last_seen_at": "2026-07-29T14:02:54Z",
-    "active_duration_hours": 0.16,
-    "active_duration_label": "10 min",
+    "last_seen_at": "2026-07-29T14:17:00Z",
+    "active_duration_hours": 0.4,
+    "active_duration_label": "24 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "49291ca59096121e4383c978",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -55,7 +97,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 1.7 h.",
+    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -64,7 +106,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
     "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais",
     "newsDate": "Wed, 29 Jul 2026 12:21:21 GMT",
-    "updatedAt": "2026-07-29T14:01:15Z",
+    "updatedAt": "2026-07-29T14:15:45Z",
     "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
     "sources": [
       {
@@ -79,17 +121,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "c74f32327614fccfbc556ecd",
     "event_id": "c74f32327614fccfbc556ecd",
-    "newsFreshnessHours": 1.69,
+    "newsFreshnessHours": 1.93,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T12:21:21Z",
-    "last_seen_at": "2026-07-29T14:02:34Z",
-    "active_duration_hours": 1.69,
-    "active_duration_label": "1.7 h",
+    "last_seen_at": "2026-07-29T14:17:00Z",
+    "active_duration_hours": 1.93,
+    "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-29T14:02:34Z",
-    "news_signature": "05eceecc6924862b38f84be7",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
