@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-07-29T17:17:45Z",
+  "updatedAt": "2026-07-29T17:33:15Z",
   "queries": 6,
-  "newItemsBeforeMerge": 67,
+  "newItemsBeforeMerge": 5,
   "savedRoadNewsReused": 5,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 46,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Motorista morre e passageira fica gravemente ferida em batida frontal entre carro e ônibus na BR-365 em MG - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Implantação de passarela exige interdição temporária de via marginal na BR-101 em Paulo Lopes - Motiva Rodovias",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Motociclista morre após atropelar policial rodoviário federal na BR-116, em Inhapim - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Temporal com ventos de até 70 km/h causa estragos no interior de São Paulo; confira vídeo - Midiamax",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Veja imagens de Ribeirão Preto (SP) após temporal - 24/07/2026 - Chuva - UOL",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal no interior de SP tem ventos de 121 km/h e deixa ao menos um morto - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Microexplosão ou tornado: o que provocou temporal com estragos e morte na região de Ribeirão Preto - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Vendaval causa uma morte, afeta hospitais, suspende aulas e gera caos em Ribeirão Preto (SP) - Folha de S.Paulo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com ventos de 70 km/h causa morte, estragos e deixa Ribeirão Preto, SP, parcialmente sem energia, telefonia e internet - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva com granizo e vento de mais de 85 km/h destelha mil casas, derruba árvores e postes no RS - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Veja fotos dos estragos provocados por temporal com ventos de 70 km/h em Ribeirão Preto, SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal no interior de SP deixa 80 mil pessoas sem luz após ventos de 120 km/h - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "VÍDEO: Bauru registra mais de 2,7 mil raios durante temporal - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Torres de energia caídas, pórtico torcido, empresas devastadas: veja fotos da destruição causada por temporal na região de Ribeirão - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva de granizo dura menos de 5 minutos e danifica 500 casas no RS - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ventos de 100 km/h derrubam torre de alta tensão em Taquaritinga, SP, e deixam 69% da cidade sem energia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal com granizo destelha casas em Guariba, SP, e forma placas no chão: 'Sensação que a casa ia cair na cabeça' - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Paralisação interrompe circulação de ônibus e afeta passageiros em Manaus nesta segunda-feira - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Motoristas param ônibus e milhares ficam sem transporte em Manaus - amazonas atual",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Greve dos caminhoneiros chega ao fim após aprovação da MP do Frete - Gazeta de São Paulo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Caminhoneiros encerram paralisação em Santos - Jornal A Estância de Guarujá",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Estreito de Bab al-Mandab: novas ameaças dos houthis podem gerar crise de transporte no Mar Vermelho? - bbc.com",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Troca de acusações sobre greve dos ônibus ganha novo capítulo entre Estado e Prefeitura - A Crítica",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "STF: é compatível que táxis usem plataformas digitais como o Uber - Consultor Jurídico",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Passageiros são comunicados sobre paralisação dos ônibus após decisão dos motoristas - Diário do Comércio",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
