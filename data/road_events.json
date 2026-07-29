@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T14:05:22Z",
     "last_seen_at": "2026-07-29T14:33:14Z",
-    "active_duration_hours": 0.46,
+    "active_duration_hours": 0.47,
     "active_duration_label": "28 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T14:33:14Z",
+    "news_signature": "65f7389387b46bc7f2ef5df4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -84,8 +87,11 @@
     "active_duration_hours": 0.67,
     "active_duration_label": "40 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T14:33:14Z",
+    "news_signature": "49291ca59096121e4383c978",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 2.2 h.",
+    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,7 +134,10 @@
     "active_duration_hours": 2.2,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T14:33:14Z",
+    "news_signature": "05eceecc6924862b38f84be7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
