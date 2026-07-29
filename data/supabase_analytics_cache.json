@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-07-29T21:47:14Z",
+  "updatedAt": "2026-07-29T22:02:31Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
-    {
-      "event_id": "c45a5abe50f5b4a8ec30f014",
-      "stable_event_id": "c45a5abe50f5b4a8ec30f014",
-      "observation_hash": "7db1f773e1c1f5f9c4ef791f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-25T13:02:57+00:00",
-      "first_seen_at": "2026-06-11T03:16:53+00:00",
-      "last_seen_at": "2026-07-25T13:02:57+00:00",
-      "updated_at": "2026-07-25T13:02:58.467411+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "São José do Rio Preto",
-      "risk": 85,
-      "severity": "Crítico",
-      "lat": -20.811,
-      "lon": -49.376,
-      "city": "São José do Rio Preto",
-      "state": "SP",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-11T03:15:20Z; ativo há 44.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 541,
-      "estimated_hours": 135.25,
-      "active": true,
-      "storage": "supabase"
-    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -180,12 +151,12 @@
     {
       "event_id": "8e0e5ef5ef866fa91d24a276",
       "stable_event_id": "8e0e5ef5ef866fa91d24a276",
-      "observation_hash": "10760ebe0e95d0976c2ef4ca",
+      "observation_hash": "c94efa2437ba50b2ffa4e840",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-07-29T19:47:10+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -201,8 +172,8 @@
       "description": "BR-222 vai ser interditada nesta quarta-feira - g1.globo.com.. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - g1.globo.com",
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGVNVENpdGsteDRfNXlnN0JTTk92X3ZWRFlndHhpa0VVNlhrdDhlLThYRlduRDZzVTNRdXhiaUlMaklzeG9peW16RDE4dm81S1pjOTAwc3ZTNlFvWlVzLU1pNGJDaEt4YmZjOUZKeEFYNGJmdTV1WVllS1dQdjFPV21aRGNlMk1aQUFiOUtuaFZXTXFOanp6ZnBNcHU2S0ExTndsMTZZRzZ3Z2U0cm5aMDY1V0xpWUVH0gHHAUFVX3lxTE5ycmxuRGJDWFZzbkRRb0RnMUt5UUZlOFhUOEtNbzhybGRERk1oOElVTTk3S21lX19XWjEyeFJ0OE1nRi14YVYzUk1UaThvUUpNS0ExWnctOW8xbU9VVE5ZNE1oOVJqU3htVDlBZVp4TFNiQ1BmQ1lVQTc1ajd2Zmd2WGxXM2ZrRkdSVDhiUzNvQnZtM0Z3TVh5dC01cjBDV1ZjdXlOazJIaFNOeldlUG56VFM4eVRELTl4aWo4aXY2NjJHS1ppVVE",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -213,7 +184,7 @@
           "source": "Notícias públicas - g1.globo.com",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGVNVENpdGsteDRfNXlnN0JTTk92X3ZWRFlndHhpa0VVNlhrdDhlLThYRlduRDZzVTNRdXhiaUlMaklzeG9peW16RDE4dm81S1pjOTAwc3ZTNlFvWlVzLU1pNGJDaEt4YmZjOUZKeEFYNGJmdTV1WVllS1dQdjFPV21aRGNlMk1aQUFiOUtuaFZXTXFOanp6ZnBNcHU2S0ExTndsMTZZRzZ3Z2U0cm5aMDY1V0xpWUVH0gHHAUFVX3lxTE5ycmxuRGJDWFZzbkRRb0RnMUt5UUZlOFhUOEtNbzhybGRERk1oOElVTTk3S21lX19XWjEyeFJ0OE1nRi14YVYzUk1UaThvUUpNS0ExWnctOW8xbU9VVE5ZNE1oOVJqU3htVDlBZVp4TFNiQ1BmQ1lVQTc1ajd2Zmd2WGxXM2ZrRkdSVDhiUzNvQnZtM0Z3TVh5dC01cjBDV1ZjdXlOazJIaFNOeldlUG56VFM4eVRELTl4aWo4aXY2NjJHS1ppVVE",
           "headline": "BR-222 vai ser interditada nesta quarta-feira - g1.globo.com.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -223,12 +194,12 @@
     {
       "event_id": "58e60af3a6e2a3a4425fa088",
       "stable_event_id": "58e60af3a6e2a3a4425fa088",
-      "observation_hash": "fde0e8ee7b1f1f20a702146f",
+      "observation_hash": "1b31fc1de0e35210e9d1f487",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-07-29T21:47:09+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -244,8 +215,8 @@
       "description": "Acidente entre duas carretas deixa BR-324 interditada e causa congestionamento.. Fontes consolidadas: Notícias públicas - Portal Salvador FM. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Portal Salvador FM",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeS1Sbzl3YkIyTWE2QjlVMDhyZERBQkRMdlNGemF2SW8yVEtweGR1VjQ1OW01Zm1PcXZ0WjdzVmRmT1NoRzRDc0Y5a0NleTVBVFNiTVo0cFQtYlJOTnoyWnJETS1MSWNNUWoteXdlREctUkxBcGdRNUwtU2VRWnFuSk9QcXhBQ0E0Q1lfUk1keHB4Z2RJQV9JZ1NWallmcEI4c3VaejJZcklKUGs5RkcxZHBPTVduTmdqZjltcHB3",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -256,7 +227,7 @@
           "source": "Notícias públicas - Portal Salvador FM",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeS1Sbzl3YkIyTWE2QjlVMDhyZERBQkRMdlNGemF2SW8yVEtweGR1VjQ1OW01Zm1PcXZ0WjdzVmRmT1NoRzRDc0Y5a0NleTVBVFNiTVo0cFQtYlJOTnoyWnJETS1MSWNNUWoteXdlREctUkxBcGdRNUwtU2VRWnFuSk9QcXhBQ0E0Q1lfUk1keHB4Z2RJQV9JZ1NWallmcEI4c3VaejJZcklKUGs5RkcxZHBPTVduTmdqZjltcHB3",
           "headline": "Acidente entre duas carretas deixa BR-324 interditada e causa congestionamento.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -266,12 +237,12 @@
     {
       "event_id": "941717c044bc754782b1b40e",
       "stable_event_id": "941717c044bc754782b1b40e",
-      "observation_hash": "0a23c846c49465784879f971",
+      "observation_hash": "868c8439be80bba71b1610e6",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-07-29T18:47:13+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -287,8 +258,8 @@
       "description": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás.. Fontes consolidadas: Notícias públicas - Mais Goiás. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Mais Goiás",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
-      "total_snapshots": 16,
-      "estimated_hours": 4.0,
+      "total_snapshots": 17,
+      "estimated_hours": 4.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -299,7 +270,7 @@
           "source": "Notícias públicas - Mais Goiás",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
           "headline": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -309,12 +280,12 @@
     {
       "event_id": "26aa38af95280680ac4c7571",
       "stable_event_id": "26aa38af95280680ac4c7571",
-      "observation_hash": "fc351586bc6e865f014c34d6",
+      "observation_hash": "9e6e4c66e7a0a0acf55855e7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-07-29T16:41:18+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -330,8 +301,8 @@
       "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News.. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Campo Grande News",
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVcwRmFiQm9NQ2kySE52QzR4N3k1RVphcUJ6MTd3VEVjR2JvczRZMlY4bHB2eVhSS21VVFdaNXd0enJwcGxQak5uSGxwanVndC1FWnB2TjdjRUpVb0ZxZ1dxYUE0djloSmtTWkVwZHlkRk9Vd3p4MnRfRFptb2t2TnF1cGE4V1BEMTFxRUtxSzA1UzA0RENRcFJ6cDRNLXhOYXJCb1NKaTdzcHItWmNzVTNfLUR4SC1WUlBJNmtlWlhKcUE",
-      "total_snapshots": 26,
-      "estimated_hours": 6.5,
+      "total_snapshots": 27,
+      "estimated_hours": 6.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -342,7 +313,7 @@
           "source": "Notícias públicas - Campo Grande News",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVcwRmFiQm9NQ2kySE52QzR4N3k1RVphcUJ6MTd3VEVjR2JvczRZMlY4bHB2eVhSS21VVFdaNXd0enJwcGxQak5uSGxwanVndC1FWnB2TjdjRUpVb0ZxZ1dxYUE0djloSmtTWkVwZHlkRk9Vd3p4MnRfRFptb2t2TnF1cGE4V1BEMTFxRUtxSzA1UzA0RENRcFJ6cDRNLXhOYXJCb1NKaTdzcHItWmNzVTNfLUR4SC1WUlBJNmtlWlhKcUE",
           "headline": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -352,12 +323,12 @@
     {
       "event_id": "c74f32327614fccfbc556ecd",
       "stable_event_id": "c74f32327614fccfbc556ecd",
-      "observation_hash": "8a016608d769142dd194ff36",
+      "observation_hash": "26a32fefcd653f68d21d235b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-07-29T13:02:28+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -373,8 +344,8 @@
       "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Paranaíba Mais",
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
-      "total_snapshots": 42,
-      "estimated_hours": 10.5,
+      "total_snapshots": 43,
+      "estimated_hours": 10.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -385,7 +356,7 @@
           "source": "Notícias públicas - Paranaíba Mais",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
           "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -395,12 +366,12 @@
     {
       "event_id": "b18a4638f9d14b67ea65662b",
       "stable_event_id": "b18a4638f9d14b67ea65662b",
-      "observation_hash": "27e68e6a5b3804ef26769d23",
+      "observation_hash": "50603ac303fcb991cd84361d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:04+00:00",
+      "snapshot_at": "2026-07-29T22:02:22+00:00",
       "first_seen_at": "2026-07-29T18:47:13+00:00",
-      "last_seen_at": "2026-07-29T21:47:04+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:22+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -416,8 +387,8 @@
       "description": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CGN",
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
-      "total_snapshots": 16,
-      "estimated_hours": 4.0,
+      "total_snapshots": 17,
+      "estimated_hours": 4.25,
       "active": false,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -428,7 +399,7 @@
           "source": "Notícias públicas - CGN",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
           "headline": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -483,7 +454,7 @@
           "source": "Notícias públicas - defatoonline.com.br + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
           "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - defatoonline.com.br.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         },
         {
           "source": "Notícias públicas - Tribuna Norte Leste + 1 fonte(s)",
@@ -532,7 +503,7 @@
           "source": "Notícias públicas - ND Mais",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
           "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -604,7 +575,7 @@
           "source": "Notícias públicas - CGN",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
           "headline": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.",
-          "date": "2026-07-29T21:47:10.518619+00:00"
+          "date": "2026-07-29T22:02:28.18485+00:00"
         }
       ],
       "sourceCount": 1,
@@ -12280,10 +12251,10 @@
       "stable_event_id": "3cc83bf5faf75d60042954f8",
       "observation_hash": "26f1dc7b7d9d03b8592eeb8a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-05-27T13:16:51+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -12299,8 +12270,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T13:15:20Z; ativo há 63.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 536,
-      "estimated_hours": 134.0,
+      "total_snapshots": 537,
+      "estimated_hours": 134.25,
       "active": true,
       "storage": "supabase"
     },
@@ -12363,6 +12334,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "8aa8dc50a333b47c6ac0b19b",
+      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
+      "observation_hash": "dab620428bc01dce87c46fd4",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Petrópolis",
+      "risk": 56,
+      "severity": "Moderado",
+      "lat": -22.511,
+      "lon": -43.177,
+      "city": "Petrópolis",
+      "state": "RJ",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 64.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1384,
+      "estimated_hours": 346.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "60b523f2d72780308cda2ed5",
       "stable_event_id": "60b523f2d72780308cda2ed5",
       "observation_hash": "86a3d0582548d5b975d0aeba",
@@ -12388,64 +12388,6 @@
       "source_url": "",
       "total_snapshots": 7,
       "estimated_hours": 1.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "8aa8dc50a333b47c6ac0b19b",
-      "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
-      "observation_hash": "0768ed1ac9a96b0aa31987ff",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Petrópolis",
-      "risk": 55,
-      "severity": "Moderado",
-      "lat": -22.511,
-      "lon": -43.177,
-      "city": "Petrópolis",
-      "state": "RJ",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 64.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1383,
-      "estimated_hours": 345.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "a6c8456715bc7e439c8c52ef",
-      "stable_event_id": "a6c8456715bc7e439c8c52ef",
-      "observation_hash": "2c91ea0ff0441e006aaa39f0",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
-      "first_seen_at": "2026-06-11T02:16:36+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Três Lagoas",
-      "risk": 48,
-      "severity": "Moderado",
-      "lat": -20.784,
-      "lon": -51.7,
-      "city": "Três Lagoas",
-      "state": "MS",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-11T02:15:18Z; ativo há 48.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 390,
-      "estimated_hours": 97.5,
       "active": true,
       "storage": "supabase"
     },
@@ -12765,6 +12707,35 @@
       "source_url": "",
       "total_snapshots": 6,
       "estimated_hours": 1.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "a6c8456715bc7e439c8c52ef",
+      "stable_event_id": "a6c8456715bc7e439c8c52ef",
+      "observation_hash": "d8df6082b8387a68e9544b90",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
+      "first_seen_at": "2026-06-11T02:16:36+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Três Lagoas",
+      "risk": 45,
+      "severity": "Moderado",
+      "lat": -20.784,
+      "lon": -51.7,
+      "city": "Três Lagoas",
+      "state": "MS",
+      "region": "Centro-Oeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-11T02:15:18Z; ativo há 48.8 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 391,
+      "estimated_hours": 97.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13291,35 +13262,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "7cf55655cceecd24734fee4b",
-      "stable_event_id": "7cf55655cceecd24734fee4b",
-      "observation_hash": "5a3706a6626fa93944b035d5",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
-      "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Campinas",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -22.907,
-      "lon": -47.063,
-      "city": "Campinas",
-      "state": "SP",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:27Z; ativo há 63.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 468,
-      "estimated_hours": 117.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "1f8dac92cf9f4864db7b23f1",
       "stable_event_id": "1f8dac92cf9f4864db7b23f1",
       "observation_hash": "354153d211ceda9170ffba30",
@@ -13751,6 +13693,35 @@
       "source_url": "",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "7cf55655cceecd24734fee4b",
+      "stable_event_id": "7cf55655cceecd24734fee4b",
+      "observation_hash": "d98fb170de743fbb0491d152",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
+      "first_seen_at": "2026-05-27T14:17:23+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Campinas",
+      "risk": 42,
+      "severity": "Moderado",
+      "lat": -22.907,
+      "lon": -47.063,
+      "city": "Campinas",
+      "state": "SP",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:27Z; ativo há 63.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 469,
+      "estimated_hours": 117.25,
       "active": true,
       "storage": "supabase"
     },
@@ -14542,10 +14513,10 @@
       "stable_event_id": "484e2113a14711d1e23f0ffa",
       "observation_hash": "1736fa05d542ac890179de7f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-06-05T19:03:08+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14561,8 +14532,8 @@
       "description": "Rastreio: primeiro registro em 2026-06-05T19:00:41Z; ativo há 54.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 429,
-      "estimated_hours": 107.25,
+      "total_snapshots": 430,
+      "estimated_hours": 107.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15553,43 +15524,14 @@
       "storage": "supabase"
     },
     {
-      "event_id": "d2b4afa337141178062e487c",
-      "stable_event_id": "d2b4afa337141178062e487c",
-      "observation_hash": "dea74b83acff21487bd424e2",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
-      "first_seen_at": "2026-05-27T15:16:56+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rio de Janeiro",
-      "risk": 23,
-      "severity": "Baixo",
-      "lat": -22.906,
-      "lon": -43.173,
-      "city": "Rio de Janeiro",
-      "state": "RJ",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T15:15:29Z; ativo há 63.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 955,
-      "estimated_hours": 238.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "aaf5e379367a15a27969b229",
       "stable_event_id": "aaf5e379367a15a27969b229",
       "observation_hash": "14667f6e50283483d682e2e6",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T21:47:09+00:00",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
       "first_seen_at": "2026-05-27T16:17:24+00:00",
-      "last_seen_at": "2026-07-29T21:47:09+00:00",
-      "updated_at": "2026-07-29T21:47:10.518619+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15605,8 +15547,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T16:15:24Z; ativo há 63.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 853,
-      "estimated_hours": 213.25,
+      "total_snapshots": 854,
+      "estimated_hours": 213.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "d2b4afa337141178062e487c",
+      "stable_event_id": "d2b4afa337141178062e487c",
+      "observation_hash": "3053d78de3bac6a60da6a7b7",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
+      "first_seen_at": "2026-05-27T15:16:56+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rio de Janeiro",
+      "risk": 22,
+      "severity": "Baixo",
+      "lat": -22.906,
+      "lon": -43.173,
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T15:15:29Z; ativo há 63.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 956,
+      "estimated_hours": 239.0,
       "active": true,
       "storage": "supabase"
     },
@@ -15636,6 +15607,35 @@
       "source_url": "",
       "total_snapshots": 1506,
       "estimated_hours": 376.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "c45a5abe50f5b4a8ec30f014",
+      "stable_event_id": "c45a5abe50f5b4a8ec30f014",
+      "observation_hash": "409a4da9b7504e9bbb4cb52d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T22:02:26+00:00",
+      "first_seen_at": "2026-06-11T03:16:53+00:00",
+      "last_seen_at": "2026-07-29T22:02:26+00:00",
+      "updated_at": "2026-07-29T22:02:28.18485+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "São José do Rio Preto",
+      "risk": 15,
+      "severity": "Baixo",
+      "lat": -20.811,
+      "lon": -49.376,
+      "city": "São José do Rio Preto",
+      "state": "SP",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-11T03:15:20Z; ativo há 48.8 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 542,
+      "estimated_hours": 135.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15962,8 +15962,8 @@
   "windows": {
     "7": {
       "events": 126,
-      "avgRisk": 50,
-      "maxRisk": 85,
+      "avgRisk": 49,
+      "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "climate": 88,
@@ -15980,8 +15980,7 @@
       "bySeverity": {
         "Moderado": 69,
         "Alto": 44,
-        "Baixo": 12,
-        "Crítico": 1
+        "Baixo": 13
       },
       "dailyRisk": [
         {
@@ -16004,9 +16003,9 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 50,
-          "events": 14,
-          "maxRisk": 85
+          "avgRisk": 48,
+          "events": 13,
+          "maxRisk": 69
         },
         {
           "date": "2026-07-26",
@@ -16028,16 +16027,16 @@
         },
         {
           "date": "2026-07-29",
-          "avgRisk": 45,
-          "events": 77,
+          "avgRisk": 44,
+          "events": 78,
           "maxRisk": 72
         }
       ]
     },
     "30": {
       "events": 232,
-      "avgRisk": 58,
-      "maxRisk": 85,
+      "avgRisk": 57,
+      "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "road": 138,
@@ -16054,8 +16053,7 @@
       "bySeverity": {
         "Alto": 144,
         "Moderado": 73,
-        "Baixo": 14,
-        "Crítico": 1
+        "Baixo": 15
       },
       "dailyRisk": [
         {
@@ -16204,9 +16202,9 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 50,
-          "events": 14,
-          "maxRisk": 85
+          "avgRisk": 48,
+          "events": 13,
+          "maxRisk": 69
         },
         {
           "date": "2026-07-26",
@@ -16228,8 +16226,8 @@
         },
         {
           "date": "2026-07-29",
-          "avgRisk": 45,
-          "events": 77,
+          "avgRisk": 44,
+          "events": 78,
           "maxRisk": 72
         }
       ]
@@ -16237,7 +16235,7 @@
     "90": {
       "events": 403,
       "avgRisk": 60,
-      "maxRisk": 85,
+      "maxRisk": 78,
       "rainChance": 25,
       "byType": {
         "road": 268,
@@ -16255,8 +16253,7 @@
       "bySeverity": {
         "Alto": 277,
         "Moderado": 111,
-        "Baixo": 14,
-        "Crítico": 1
+        "Baixo": 15
       },
       "dailyRisk": [
         {
@@ -16621,9 +16618,9 @@
         },
         {
           "date": "2026-07-25",
-          "avgRisk": 50,
-          "events": 14,
-          "maxRisk": 85
+          "avgRisk": 48,
+          "events": 13,
+          "maxRisk": 69
         },
         {
           "date": "2026-07-26",
@@ -16645,8 +16642,8 @@
         },
         {
           "date": "2026-07-29",
-          "avgRisk": 45,
-          "events": 77,
+          "avgRisk": 44,
+          "events": 78,
           "maxRisk": 72
         }
       ]
