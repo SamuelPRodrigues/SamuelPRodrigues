@@ -1,58 +1,6 @@
 [
   {
     "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-381",
-    "road": "BR-381",
-    "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -19.916,
-    "lon": -43.934,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - SiteBarra. Fontes consolidadas: Notícias públicas - SiteBarra; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-29T01:03:41Z; ativo há 5.7 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - SiteBarra + 1 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ3QxNzdtaFhnMGdxSlZLak5WYlhKdkY4VlBNZVB6UjYtT0c5Q2tkU1Zlb001RldzQ2h0V1J3eWdXdWZ5eXJUa2NMUEwyRUFvejVoZnJpSkRTM01GRExBa3Q4LWEyNUlPTFAwNGthblVLYW1zelRYTWdPMnQ0SExBZVNTTENEcnNZZERnS1c2SzNkZ3pIcTcwaldobWhhMW9f",
-    "headline": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - SiteBarra",
-    "newsDate": "Wed, 29 Jul 2026 01:03:41 GMT",
-    "updatedAt": "2026-07-29T06:46:01Z",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ3QxNzdtaFhnMGdxSlZLak5WYlhKdkY4VlBNZVB6UjYtT0c5Q2tkU1Zlb001RldzQ2h0V1J3eWdXdWZ5eXJUa2NMUEwyRUFvejVoZnJpSkRTM01GRExBa3Q4LWEyNUlPTFAwNGthblVLYW1zelRYTWdPMnQ0SExBZVNTTENEcnNZZERnS1c2SzNkZ3pIcTcwaldobWhhMW9f",
-    "sources": [
-      {
-        "source": "Notícias públicas - SiteBarra",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ3QxNzdtaFhnMGdxSlZLak5WYlhKdkY4VlBNZVB6UjYtT0c5Q2tkU1Zlb001RldzQ2h0V1J3eWdXdWZ5eXJUa2NMUEwyRUFvejVoZnJpSkRTM01GRExBa3Q4LWEyNUlPTFAwNGthblVLYW1zelRYTWdPMnQ0SExBZVNTTENEcnNZZERnS1c2SzNkZ3pIcTcwaldobWhhMW9f",
-        "headline": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - SiteBarra",
-        "date": "Wed, 29 Jul 2026 01:03:41 GMT"
-      },
-      {
-        "source": "Notícias públicas - BHAZ",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFJLaWRNYjBCN3hLMDV4WDFYQzhGLTBJRmlpMGpFMVJfRWxWVGpLRFlVZWRrMGhkYXZqVFRSS1VGX2NwaXRHaTNIVVdYLVNKbGFYOU51cmlqWlllVHN4ZkdvQjhUV0R5bDRSSzBYaUNqcHlJUi1GeFFPSHV2OUhDbzdXbw",
-        "headline": "Pista da BR-381 é interditada após acidente com caminhão em Igarapé; motorista fica preso às ferragens - BHAZ",
-        "date": "Tue, 28 Jul 2026 12:33:00 GMT"
-      }
-    ],
-    "sourceCount": 2,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "ffeb2473ec344595477d789c",
-    "event_id": "ffeb2473ec344595477d789c",
-    "newsFreshnessHours": 5.73,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-07-29T01:03:41Z",
-    "last_seen_at": "2026-07-29T06:47:37Z",
-    "active_duration_hours": 5.73,
-    "active_duration_label": "5.7 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "1935a6d5777774a2cc4e331e",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-364",
     "road": "BR-364",
     "corridor": "Rio Branco • BR-364 / BR-317",
@@ -61,16 +9,16 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 fica interditada após acidente envolvendo carro e caminhão. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Diário da Amazônia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-28T23:44:16Z; ativo há 7.1 h.",
+    "description": "BR-364 fica interditada após acidente envolvendo carro e caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-28T23:44:16Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - G1 + 1 fonte(s)",
+    "source": "Notícias públicas - G1",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcGJHdF9xT2NxMW5KdHdiUWtWRmZCYW04QkZnck1sNzNNaV9zblk3RkkzZVFPaUFkcG10THRqNFU5d3ZZZHd3RUlRb2xzeDJsSmR3STM0aDlJbXNuenZBSV8zaC1KVWtVVHotZENoOVMxYnd2SWNtNm1VVjU5SThJdmc2c0dXR0t3WkpBYjJxVjJFYTFfNGVFQjdEcWZRV0JSN1U0ZTlzd0ttWXNPNnJjR0E2Y3M2LUFrczVXMWpBSGd1endqeU1ENGVmVUEwR0xMeURRd2RnTWtNRXVzeFUwYUJLMEx5SXpDTEHSAfgBQVVfeXFMTWx1RlNvMHJYRGp3Vjd5dnEwTVRyY3M5eWFyNUVHdmxKdkRDTHk0bHlaaFFwMmJpVDYtY2RxZ2pGRXAyT1dZTF9GLWE2SHVoQ2VTQzBJeFFMTm5lUFV2Ry0xYjl3T2VYTnZsalN4NGlaNGYzTmczenVRTV9ud296QzRnUTNra3hwR1lUUFM2Z21kTUFiWmV2VDIxOEFDV0FkZ1JraFdlRkFvMDgwYklFYkdPQnNHeXZnaFhVT1V6S1JiTjRnbFE4WWkzS19LamozWldRUFJCb21ySXpBUTVVcnNqbWdrLVNCQ29VQ1BpV1dBR0hBZEh0b0I",
     "headline": "BR-364 fica interditada após acidente envolvendo carro e caminhão",
     "newsDate": "Tue, 28 Jul 2026 23:44:16 GMT",
-    "updatedAt": "2026-07-29T06:46:01Z",
+    "updatedAt": "2026-07-29T07:01:09Z",
     "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcGJHdF9xT2NxMW5KdHdiUWtWRmZCYW04QkZnck1sNzNNaV9zblk3RkkzZVFPaUFkcG10THRqNFU5d3ZZZHd3RUlRb2xzeDJsSmR3STM0aDlJbXNuenZBSV8zaC1KVWtVVHotZENoOVMxYnd2SWNtNm1VVjU5SThJdmc2c0dXR0t3WkpBYjJxVjJFYTFfNGVFQjdEcWZRV0JSN1U0ZTlzd0ttWXNPNnJjR0E2Y3M2LUFrczVXMWpBSGd1endqeU1ENGVmVUEwR0xMeURRd2RnTWtNRXVzeFUwYUJLMEx5SXpDTEHSAfgBQVVfeXFMTWx1RlNvMHJYRGp3Vjd5dnEwTVRyY3M5eWFyNUVHdmxKdkRDTHk0bHlaaFFwMmJpVDYtY2RxZ2pGRXAyT1dZTF9GLWE2SHVoQ2VTQzBJeFFMTm5lUFV2Ry0xYjl3T2VYTnZsalN4NGlaNGYzTmczenVRTV9ud296QzRnUTNra3hwR1lUUFM2Z21kTUFiWmV2VDIxOEFDV0FkZ1JraFdlRkFvMDgwYklFYkdPQnNHeXZnaFhVT1V6S1JiTjRnbFE4WWkzS19LamozWldRUFJCb21ySXpBUTVVcnNqbWdrLVNCQ29VQ1BpV1dBR0hBZEh0b0I",
     "sources": [
       {
@@ -78,30 +26,21 @@
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcGJHdF9xT2NxMW5KdHdiUWtWRmZCYW04QkZnck1sNzNNaV9zblk3RkkzZVFPaUFkcG10THRqNFU5d3ZZZHd3RUlRb2xzeDJsSmR3STM0aDlJbXNuenZBSV8zaC1KVWtVVHotZENoOVMxYnd2SWNtNm1VVjU5SThJdmc2c0dXR0t3WkpBYjJxVjJFYTFfNGVFQjdEcWZRV0JSN1U0ZTlzd0ttWXNPNnJjR0E2Y3M2LUFrczVXMWpBSGd1endqeU1ENGVmVUEwR0xMeURRd2RnTWtNRXVzeFUwYUJLMEx5SXpDTEHSAfgBQVVfeXFMTWx1RlNvMHJYRGp3Vjd5dnEwTVRyY3M5eWFyNUVHdmxKdkRDTHk0bHlaaFFwMmJpVDYtY2RxZ2pGRXAyT1dZTF9GLWE2SHVoQ2VTQzBJeFFMTm5lUFV2Ry0xYjl3T2VYTnZsalN4NGlaNGYzTmczenVRTV9ud296QzRnUTNra3hwR1lUUFM2Z21kTUFiWmV2VDIxOEFDV0FkZ1JraFdlRkFvMDgwYklFYkdPQnNHeXZnaFhVT1V6S1JiTjRnbFE4WWkzS19LamozWldRUFJCb21ySXpBUTVVcnNqbWdrLVNCQ29VQ1BpV1dBR0hBZEh0b0I",
         "headline": "BR-364 fica interditada após acidente envolvendo carro e caminhão",
         "date": "Tue, 28 Jul 2026 23:44:16 GMT"
-      },
-      {
-        "source": "Notícias públicas - Diário da Amazônia",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR0JRWENKSm9xRktwZzQ1ZkVqMGpDdW80SDhKSzVmc2k0UnQxVVU2RHBIRkR5ZDVkZmhyaEF2OHJkQktKSDNhbTRLY2M1WmNGV1c5S29pVWt0ejUzN0lwTWpIS0pHdG9WaTZrV2x1UE00VXZoZUhiNHR5QlBGcDRhbEViTTh4MGMxLW13WURTMXlueVFXVWNNalFNNDdzYmxVUXRWRllZLXdTOXZhQWk2QkZ6bExFa2p0UU1mcnRFY0lKWFhVWTR5N2szX3NFcFN0QUJxVWZfR1lRVmt4b1psZA",
-        "headline": "Acidente grave na BR-364 deixa um morto e três feridos graves; rodovia segue totalmente interditada - Diário da Amazônia",
-        "date": "Tue, 28 Jul 2026 11:59:10 GMT"
       }
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "712c70961be31b7622e28a12",
     "event_id": "712c70961be31b7622e28a12",
-    "newsFreshnessHours": 7.05,
+    "newsFreshnessHours": 7.3,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-28T23:44:16Z",
-    "last_seen_at": "2026-07-29T06:47:16Z",
-    "active_duration_hours": 7.06,
-    "active_duration_label": "7.1 h",
+    "last_seen_at": "2026-07-29T07:02:27Z",
+    "active_duration_hours": 7.3,
+    "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-29T06:47:16Z",
-    "news_signature": "0c489a40ebe2ce51389c8513",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
