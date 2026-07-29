@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T23:47:16Z",
+  "updatedAt": "2026-07-29T00:03:44Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -124,10 +124,10 @@
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "92f4df3192612e78878a5e73",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -143,10 +143,102 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 64.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2558,
-      "estimated_hours": 639.5,
+      "total_snapshots": 2559,
+      "estimated_hours": 639.75,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "d7b24819b6ffd78719cc9275",
+      "stable_event_id": "d7b24819b6ffd78719cc9275",
+      "observation_hash": "30f22cf1f27f5b44e597d17f",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
+      "first_seen_at": "2026-07-29T00:03:40+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-381",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Interdição ou bloqueio por notícia pública • BR-381",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-381",
+      "description": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - Tribuna Norte Leste.. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Tribuna Norte Leste + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTE9hOFhpZGx0bWV0UzhKV1B2RHdOVjdDS2Z1dWUtb3JHaS16Z1RPTjRfMmdTZjdMZ2V0STRIVkFIVmJtdGtFQVNFU3Nldl8yT19KelctT2hhSElicVQtTmQ5aGFrNGhvdWRGRU9LcERtMXh4WXdNZG9HQi1XYUVtcFlsdVF1dzJzWGo2b3ZZRGRGR0d2aGx0azdXa18wWHpfbDUzT1Zxdw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTE9hOFhpZGx0bWV0UzhKV1B2RHdOVjdDS2Z1dWUtb3JHaS16Z1RPTjRfMmdTZjdMZ2V0STRIVkFIVmJtdGtFQVNFU3Nldl8yT19KelctT2hhSElicVQtTmQ5aGFrNGhvdWRGRU9LcERtMXh4WXdNZG9HQi1XYUVtcFlsdVF1dzJzWGo2b3ZZRGRGR0d2aGx0azdXa18wWHpfbDUzT1Zxdw",
+      "headline": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - Tribuna Norte Leste.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Tribuna Norte Leste + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTE9hOFhpZGx0bWV0UzhKV1B2RHdOVjdDS2Z1dWUtb3JHaS16Z1RPTjRfMmdTZjdMZ2V0STRIVkFIVmJtdGtFQVNFU3Nldl8yT19KelctT2hhSElicVQtTmQ5aGFrNGhvdWRGRU9LcERtMXh4WXdNZG9HQi1XYUVtcFlsdVF1dzJzWGo2b3ZZRGRGR0d2aGx0azdXa18wWHpfbDUzT1Zxdw",
+          "headline": "BR 381 será interditada parcial a partir do dia 30 até final de agosto - Tribuna Norte Leste.",
+          "date": "2026-07-29T00:03:40.805707+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "6dda8c56e0efafa459a52986",
+      "stable_event_id": "6dda8c56e0efafa459a52986",
+      "observation_hash": "07c5e81c4a91c31f106344eb",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
+      "first_seen_at": "2026-05-26T19:16:50+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-265",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -21.25,
+      "lon": -44.9,
+      "city": "Sul de Minas",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "BR-265",
+      "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.. Fontes consolidadas: G1 + 2 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
+      "source": "G1 + 2 fonte(s) + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+      "total_snapshots": 135,
+      "estimated_hours": 33.75,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+      "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
+      "sources": [
+        {
+          "source": "G1 + 2 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
+          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
+          "date": "2026-07-29T00:03:40.805707+00:00"
+        },
+        {
+          "source": "Notícias públicas - G1",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVi1LamZNanh4S2g4al9KbEVSSXFveC14Y2tGQWRIbkQ5VXhlQUJLSWdrRFlxQVFqN0htc3BCamdDeTA5NHBSc1NDT29aYXJVVXlYUS00dGl2QkRqdUdGSzlwd0N2dWk3TGF3WHJnd3NUekRiN1V5U1h1bE9JZWd5bVlRaTdZT2VCaVRYTVdpSnRoTW5BVWdJcTg3T0tyRWxUcnVhR1lVejBuTkZxVGJfdXJFOXpLZHE2em9UdU5oZXItOG1ocjlZck41RnpIRVdVSjJ1Rzl2YjFkQ3ZFU0RQam5LQXJvLXI5cmfSAfgBQVVfeXFMTjhuTTVROFFWTllZXzQ2bmw1MEtIdm1Ob2xMbV9zWE90X25FSjZCUm1DUHZILWJSbDhzbkZHLXVVVEtxZXYzOXhFNEt1dFAtUGwwbG93Q3V0d3BLNlMxWmhEYWtRUVZ6Uk9YcVJXWTlaLVA2ekMwUGxuNzkyV3U5OFVrVWxvRWdVOWRHV2ZqNVJWZzc3NHJPTk8zNzZ5cXlVR3FHQ18yQ0pkSWJBcnBiWmRRT0pva2hZTVJ0dGEtN3ZHNmtWRnQxVmR1SnprNV81R2p3czRPN3Fqd0RCeVlrX0NvekkySzFiMWdocDV6ZGdwT2Z3M3JwT3E",
+          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.",
+          "date": "2026-05-26T19:46:41.669885+00:00"
+        }
+      ],
+      "sourceCount": 2,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "7a93ee73ffe1ff983db36594",
@@ -188,55 +280,6 @@
         }
       ],
       "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "6dda8c56e0efafa459a52986",
-      "stable_event_id": "6dda8c56e0efafa459a52986",
-      "observation_hash": "07c5e81c4a91c31f106344eb",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
-      "first_seen_at": "2026-05-26T19:16:50+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -21.25,
-      "lon": -44.9,
-      "city": "Sul de Minas",
-      "state": "MG",
-      "region": "Sudeste",
-      "road": "BR-265",
-      "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.. Fontes consolidadas: G1 + 2 fonte(s); Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
-      "source": "G1 + 2 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-      "total_snapshots": 134,
-      "estimated_hours": 33.5,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-      "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
-      "sources": [
-        {
-          "source": "G1 + 2 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTEF4OHlQRkRaX0lCRml5b1hlZnZKVDJhR3JSRXZPcUJrQl9ieGVVc1pEdnVyVzNtNC1XMnJuVDI2bUJ6UFdjMXJUcDNrcUJoNmRXVFlKM3hiYldXRkVKTjBEeWhidWxRX3ZSREZSU000b1RTQ0daUDQ1VjBUa0Y4Y2MyVXpYRWoybC1sUFpheGNsWE5pLUg1c1BsV1QxRlN3b3c5b3VmRXNPbFd6ajNpd2l1b2k3QVVQWkhBYlJTZVF4Q0VnRjF3MmRSLV96bUhVZlZWb2xVVEZwdmQyTlhZd0FOdG44b0NBZjZIZlFEMnViVmE4WkpmZlVRYjHSAYsCQVVfeXFMTjVrTTJqclZwREd3bFRDeDVidy1qY0o1UUNjLU15UDA5ME1qb3MtMlZzSTNBSFNORERhQllkYV9iLWFRMFoyeGxtZ0dwQzdlWlRVZjBDR29LX3RTRk9JbU91dzBQeUxCTWR2WFNaVi02ZlVGRjYteTdQcFBMMlhtUm9ST1B4cU1QWHItdGpHUEJ2bmw2MGRIV091Z2JJaHRMSjVHcW1sTWg1bVpvdXJic3JRYmdRdURCUEZlbDNIS3BBSHJuZ0ZoNVM5TmZNeG5jRTFMQ0xzVWh6LWVKX3dVZVd3OWlwazZIQ3pMREc4Z082cS1WT0JwaHFIa2xSTHl6N3lkODIyNG5kN1pn",
-          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas.",
-          "date": "2026-07-28T23:47:12.687027+00:00"
-        },
-        {
-          "source": "Notícias públicas - G1",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVi1LamZNanh4S2g4al9KbEVSSXFveC14Y2tGQWRIbkQ5VXhlQUJLSWdrRFlxQVFqN0htc3BCamdDeTA5NHBSc1NDT29aYXJVVXlYUS00dGl2QkRqdUdGSzlwd0N2dWk3TGF3WHJnd3NUekRiN1V5U1h1bE9JZWd5bVlRaTdZT2VCaVRYTVdpSnRoTW5BVWdJcTg3T0tyRWxUcnVhR1lVejBuTkZxVGJfdXJFOXpLZHE2em9UdU5oZXItOG1ocjlZck41RnpIRVdVSjJ1Rzl2YjFkQ3ZFU0RQam5LQXJvLXI5cmfSAfgBQVVfeXFMTjhuTTVROFFWTllZXzQ2bmw1MEtIdm1Ob2xMbV9zWE90X25FSjZCUm1DUHZILWJSbDhzbkZHLXVVVEtxZXYzOXhFNEt1dFAtUGwwbG93Q3V0d3BLNlMxWmhEYWtRUVZ6Uk9YcVJXWTlaLVA2ekMwUGxuNzkyV3U5OFVrVWxvRWdVOWRHV2ZqNVJWZzc3NHJPTk8zNzZ5cXlVR3FHQ18yQ0pkSWJBcnBiWmRRT0pva2hZTVJ0dGEtN3ZHNmtWRnQxVmR1SnprNV81R2p3czRPN3Fqd0RCeVlrX0NvekkySzFiMWdocDV6ZGdwT2Z3M3JwT3E",
-          "headline": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas - G1.",
-          "date": "2026-05-26T19:46:41.669885+00:00"
-        }
-      ],
-      "sourceCount": 2,
       "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
@@ -11745,10 +11788,10 @@
       "stable_event_id": "81996c61139cfa5997723f54",
       "observation_hash": "bc9095a78343b88edab7cc57",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11764,8 +11807,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 63.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1344,
-      "estimated_hours": 336.0,
+      "total_snapshots": 1345,
+      "estimated_hours": 336.25,
       "active": true,
       "storage": "supabase"
     },
@@ -11774,10 +11817,10 @@
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "11bf872e00defcd25ed275d9",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11793,8 +11836,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 64.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3014,
-      "estimated_hours": 753.5,
+      "total_snapshots": 3015,
+      "estimated_hours": 753.75,
       "active": true,
       "storage": "supabase"
     },
@@ -11832,10 +11875,10 @@
       "stable_event_id": "94eba1bea36aeec0d426f14d",
       "observation_hash": "53248aebd152ab7dc04984b5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11851,8 +11894,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 63.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2121,
-      "estimated_hours": 530.25,
+      "total_snapshots": 2122,
+      "estimated_hours": 530.5,
       "active": true,
       "storage": "supabase"
     },
@@ -11948,10 +11991,10 @@
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "cf2547750ef26b95b93172a1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -11967,8 +12010,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 64.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1502,
-      "estimated_hours": 375.5,
+      "total_snapshots": 1503,
+      "estimated_hours": 375.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13282,10 +13325,10 @@
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "0cd69cd73c3fd016c928fab2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13301,8 +13344,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 64.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2306,
-      "estimated_hours": 576.5,
+      "total_snapshots": 2307,
+      "estimated_hours": 576.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14355,10 +14398,10 @@
       "stable_event_id": "339bdee139384833cdff05f7",
       "observation_hash": "b7808612524e09531d59ad75",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T09:18:44+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14374,8 +14417,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T09:15:28Z; ativo há 63.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 996,
-      "estimated_hours": 249.0,
+      "total_snapshots": 997,
+      "estimated_hours": 249.25,
       "active": true,
       "storage": "supabase"
     },
@@ -14384,10 +14427,10 @@
       "stable_event_id": "da05029ce4265c3efca03507",
       "observation_hash": "1f9bac4c73d7b97b3b5fbd44",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-28T23:47:11+00:00",
+      "snapshot_at": "2026-07-29T00:03:39+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-07-28T23:47:11+00:00",
-      "updated_at": "2026-07-28T23:47:12.687027+00:00",
+      "last_seen_at": "2026-07-29T00:03:39+00:00",
+      "updated_at": "2026-07-29T00:03:40.805707+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14403,8 +14446,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 63.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 811,
-      "estimated_hours": 202.75,
+      "total_snapshots": 812,
+      "estimated_hours": 203.0,
       "active": true,
       "storage": "supabase"
     },
@@ -15513,16 +15556,16 @@
   ],
   "windows": {
     "7": {
-      "events": 122,
+      "events": 123,
       "avgRisk": 48,
       "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "climate": 88,
-        "road": 34
+        "road": 35
       },
       "byRegion": {
-        "Sudeste": 33,
+        "Sudeste": 34,
         "Sul": 32,
         "Nordeste": 31,
         "Norte": 16,
@@ -15531,7 +15574,7 @@
       },
       "bySeverity": {
         "Moderado": 70,
-        "Alto": 39,
+        "Alto": 40,
         "Baixo": 11,
         "Crítico": 2
       },
@@ -15574,9 +15617,15 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 44,
-          "events": 56,
+          "avgRisk": 42,
+          "events": 47,
           "maxRisk": 84
+        },
+        {
+          "date": "2026-07-29",
+          "avgRisk": 57,
+          "events": 10,
+          "maxRisk": 69
         }
       ]
     },
@@ -15590,9 +15639,9 @@
         "climate": 94
       },
       "byRegion": {
-        "Nordeste": 77,
+        "Nordeste": 76,
         "Sul": 61,
-        "Sudeste": 51,
+        "Sudeste": 52,
         "Norte": 21,
         "Centro-Oeste": 12,
         "Sem região": 3
@@ -15607,7 +15656,7 @@
         {
           "date": "2026-06-29",
           "avgRisk": 69,
-          "events": 3,
+          "events": 2,
           "maxRisk": 69
         },
         {
@@ -15774,32 +15823,38 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 44,
-          "events": 56,
+          "avgRisk": 42,
+          "events": 47,
           "maxRisk": 84
+        },
+        {
+          "date": "2026-07-29",
+          "avgRisk": 57,
+          "events": 10,
+          "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 393,
+      "events": 394,
       "avgRisk": 59,
       "maxRisk": 85,
       "rainChance": 25,
       "byType": {
-        "road": 258,
+        "road": 259,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 120,
-        "Sudeste": 96,
+        "Sudeste": 97,
         "Sul": 93,
         "Norte": 51,
         "Centro-Oeste": 17,
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 266,
+        "Alto": 267,
         "Moderado": 112,
         "Baixo": 13,
         "Crítico": 2
@@ -16185,9 +16240,15 @@
         },
         {
           "date": "2026-07-28",
-          "avgRisk": 44,
-          "events": 56,
+          "avgRisk": 42,
+          "events": 47,
           "maxRisk": 84
+        },
+        {
+          "date": "2026-07-29",
+          "avgRisk": 57,
+          "events": 10,
+          "maxRisk": 69
         }
       ]
     }
