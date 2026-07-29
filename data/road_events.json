@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 fica interditada após acidente envolvendo carro e caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-07-28T23:44:16Z; ativo há 9.5 h.",
+    "description": "BR-364 fica interditada após acidente envolvendo carro e caminhão. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-07-28T23:44:16Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 9.52,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T09:15:10Z",
+    "news_signature": "1660bcef5717f9671749fe0a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
