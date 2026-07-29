@@ -9,7 +9,7 @@
     "lat": -24.955,
     "lon": -53.455,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-29T14:39:00Z; ativo há 1.4 h.",
+    "description": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-29T14:39:00Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 1.39,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-180"
+    "detectedRoad": "PR-180",
+    "last_confirmed_at": "2026-07-29T16:02:09Z",
+    "news_signature": "1b76a773caf390903ee939e3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ndmais.com.br. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-29T14:05:22Z; ativo há 1.9 h.",
+    "description": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ndmais.com.br. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-29T14:05:22Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,12 +84,14 @@
     "newsFreshnessHours": 1.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T14:05:22Z",
-    "last_seen_at": "2026-07-29T16:02:09Z",
+    "last_seen_at": "2026-07-29T16:02:27Z",
     "active_duration_hours": 1.95,
     "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5ed1618fbbb0b1cd2de56f94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -3.731,
     "lon": -38.526,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-222 vai ser interditada nesta quarta-feira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-29T13:53:13Z; ativo há 2.1 h.",
+    "description": "BR-222 vai ser interditada nesta quarta-feira. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-07-29T13:53:13Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -129,8 +134,11 @@
     "active_duration_hours": 2.15,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T16:02:09Z",
+    "news_signature": "49291ca59096121e4383c978",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -142,7 +150,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 3.7 h.",
+    "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-07-29T12:21:21Z; ativo há 3.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -170,10 +178,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T12:21:21Z",
     "last_seen_at": "2026-07-29T16:02:09Z",
-    "active_duration_hours": 3.68,
+    "active_duration_hours": 3.69,
     "active_duration_label": "3.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-29T16:02:09Z",
+    "news_signature": "05eceecc6924862b38f84be7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
