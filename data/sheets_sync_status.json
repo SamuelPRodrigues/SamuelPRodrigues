@@ -1,17 +1,14 @@
 {
-  "updatedAt": "2026-07-29T11:17:40Z",
+  "updatedAt": "2026-07-29T11:32:22Z",
   "configured": true,
   "eventsPrepared": 15,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-07-29T11:15Z",
+  "snapshotBucket": "2026-07-29T11:30Z",
   "eventLifecycleFields": true,
   "ok": false,
-  "response": {
-    "ok": false,
-    "error": "You do not have permission to access the requested document."
-  },
+  "response": null,
   "analyticsCache": true,
-  "error": null,
+  "error": "The read operation timed out",
   "analyticsRows": 515
 }
