@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T19:17:23Z",
+  "updatedAt": "2026-07-29T19:27:34Z",
   "configured": true,
   "eventsPrepared": 24,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
@@ -7,8 +7,11 @@
   "snapshotBucket": "2026-07-29T19:15Z",
   "eventLifecycleFields": true,
   "ok": false,
-  "response": null,
+  "response": {
+    "ok": false,
+    "error": "You do not have permission to access the requested document."
+  },
   "analyticsCache": true,
-  "error": "HTTP 404: <!DOCTYPE html><html lang=\"en\"><head><meta name=\"description\" content=\"Web word processing, presentations and spreadsheets\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0\"><link rel=\"shortcut icon\" href=\"//docs.google.com/favicon.ico\"><title>Page Not Found</title><meta name=\"referrer\" content=\"origin\"><link href=\"//fonts.googleapis.com/css?family=Product+Sans\" rel=\"stylesheet\" type=\"text/css\" nonce=\"9K7hC9YZY0Ca2PuDmyUx",
+  "error": null,
   "analyticsRows": 515
 }
