@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:32:30Z",
+  "updatedAt": "2026-07-29T23:47:15Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -149,14 +149,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "3f8a93082a31fe05628154ae",
+      "stable_event_id": "3f8a93082a31fe05628154ae",
+      "observation_hash": "acc17de1adbe863c767ec64a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T23:47:10+00:00",
+      "first_seen_at": "2026-07-29T23:47:11+00:00",
+      "last_seen_at": "2026-07-29T23:47:10+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-101",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Interdição ou bloqueio por notícia pública • BR-101",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-101",
+      "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste.. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste + 2 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Tribuna Norte Leste + 2 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1lWdW1FcHN5QWctaTljd0t2ZE5udDhhX2VCVS1EUDRQSWlwaHpzdVNwSmFyMnBjb05iRG9wRWc1VHNfckg5TzFwMnAzcTRJdVVVQi0yeWx3Smpnak80TDBGcTd5MGpzalBnMC1FZUx3UlBZUVlkNW1rZ3VrNWs3SjVGT0xpc2xnbVg5NVFJM3Q4R2VoaTAxTXo0MzNJZG5fU1JrdjE0U2hRQXVfajJuMm1R",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1lWdW1FcHN5QWctaTljd0t2ZE5udDhhX2VCVS1EUDRQSWlwaHpzdVNwSmFyMnBjb05iRG9wRWc1VHNfckg5TzFwMnAzcTRJdVVVQi0yeWx3Smpnak80TDBGcTd5MGpzalBnMC1FZUx3UlBZUVlkNW1rZ3VrNWs3SjVGT0xpc2xnbVg5NVFJM3Q4R2VoaTAxTXo0MzNJZG5fU1JrdjE0U2hRQXVfajJuMm1R",
+      "headline": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Tribuna Norte Leste + 2 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1lWdW1FcHN5QWctaTljd0t2ZE5udDhhX2VCVS1EUDRQSWlwaHpzdVNwSmFyMnBjb05iRG9wRWc1VHNfckg5TzFwMnAzcTRJdVVVQi0yeWx3Smpnak80TDBGcTd5MGpzalBnMC1FZUx3UlBZUVlkNW1rZ3VrNWs3SjVGT0xpc2xnbVg5NVFJM3Q4R2VoaTAxTXo0MzNJZG5fU1JrdjE0U2hRQXVfajJuMm1R",
+          "headline": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste.",
+          "date": "2026-07-29T23:47:12.091289+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "26aa38af95280680ac4c7571",
       "stable_event_id": "26aa38af95280680ac4c7571",
-      "observation_hash": "55d53af972390324e85763b5",
+      "observation_hash": "d6eccad45029242e6293f178",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
+      "snapshot_at": "2026-07-29T23:47:10+00:00",
       "first_seen_at": "2026-07-29T16:41:18+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
+      "last_seen_at": "2026-07-29T23:47:10+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -172,8 +215,8 @@
       "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News.. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Campo Grande News",
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVcwRmFiQm9NQ2kySE52QzR4N3k1RVphcUJ6MTd3VEVjR2JvczRZMlY4bHB2eVhSS21VVFdaNXd0enJwcGxQak5uSGxwanVndC1FWnB2TjdjRUpVb0ZxZ1dxYUE0djloSmtTWkVwZHlkRk9Vd3p4MnRfRFptb2t2TnF1cGE4V1BEMTFxRUtxSzA1UzA0RENRcFJ6cDRNLXhOYXJCb1NKaTdzcHItWmNzVTNfLUR4SC1WUlBJNmtlWlhKcUE",
-      "total_snapshots": 34,
-      "estimated_hours": 8.5,
+      "total_snapshots": 36,
+      "estimated_hours": 9.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -184,7 +227,7 @@
           "source": "Notícias públicas - Campo Grande News",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVcwRmFiQm9NQ2kySE52QzR4N3k1RVphcUJ6MTd3VEVjR2JvczRZMlY4bHB2eVhSS21VVFdaNXd0enJwcGxQak5uSGxwanVndC1FWnB2TjdjRUpVb0ZxZ1dxYUE0djloSmtTWkVwZHlkRk9Vd3p4MnRfRFptb2t2TnF1cGE4V1BEMTFxRUtxSzA1UzA0RENRcFJ6cDRNLXhOYXJCb1NKaTdzcHItWmNzVTNfLUR4SC1WUlBJNmtlWlhKcUE",
           "headline": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         }
       ],
       "sourceCount": 1,
@@ -194,12 +237,12 @@
     {
       "event_id": "941717c044bc754782b1b40e",
       "stable_event_id": "941717c044bc754782b1b40e",
-      "observation_hash": "01bd111c548b6b5ba991b952",
+      "observation_hash": "83c8a3fb4288bb9467e40165",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
+      "snapshot_at": "2026-07-29T23:47:10+00:00",
       "first_seen_at": "2026-07-29T18:47:13+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
+      "last_seen_at": "2026-07-29T23:47:10+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -215,8 +258,8 @@
       "description": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás.. Fontes consolidadas: Notícias públicas - Mais Goiás. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Mais Goiás",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
-      "total_snapshots": 24,
-      "estimated_hours": 6.0,
+      "total_snapshots": 26,
+      "estimated_hours": 6.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -227,50 +270,7 @@
           "source": "Notícias públicas - Mais Goiás",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
           "headline": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "c74f32327614fccfbc556ecd",
-      "stable_event_id": "c74f32327614fccfbc556ecd",
-      "observation_hash": "f518fbb7a39ee92571ae30af",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
-      "first_seen_at": "2026-07-29T13:02:28+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-050",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -18.918,
-      "lon": -48.277,
-      "city": "Interdição ou bloqueio por notícia pública • BR-050",
-      "state": "",
-      "region": "Sudeste",
-      "road": "BR-050",
-      "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Paranaíba Mais",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
-      "total_snapshots": 50,
-      "estimated_hours": 12.5,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
-      "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.",
-      "sources": [
-        {
-          "source": "Notícias públicas - Paranaíba Mais",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
-          "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         }
       ],
       "sourceCount": 1,
@@ -280,12 +280,12 @@
     {
       "event_id": "b18a4638f9d14b67ea65662b",
       "stable_event_id": "b18a4638f9d14b67ea65662b",
-      "observation_hash": "9a508e25824e8ded332e407d",
+      "observation_hash": "be39919795bd18ab9219e15b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:19+00:00",
+      "snapshot_at": "2026-07-29T23:47:06+00:00",
       "first_seen_at": "2026-07-29T18:47:13+00:00",
-      "last_seen_at": "2026-07-29T23:32:19+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
+      "last_seen_at": "2026-07-29T23:47:06+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -301,8 +301,8 @@
       "description": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CGN",
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
-      "total_snapshots": 24,
-      "estimated_hours": 6.0,
+      "total_snapshots": 26,
+      "estimated_hours": 6.5,
       "active": false,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -313,11 +313,97 @@
           "source": "Notícias públicas - CGN",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
           "headline": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         }
       ],
       "sourceCount": 1,
       "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "b706602f46b856f7e0c71abc",
+      "stable_event_id": "b706602f46b856f7e0c71abc",
+      "observation_hash": "6b1035c21a50714e9e1a642d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T23:34:22+00:00",
+      "first_seen_at": "2026-07-29T16:02:05+00:00",
+      "last_seen_at": "2026-07-29T23:34:22+00:00",
+      "updated_at": "2026-07-29T23:34:23.573857+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-470",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -26.919,
+      "lon": -49.066,
+      "city": "Interdição ou bloqueio por notícia pública • BR-470",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-470",
+      "description": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ndmais.com.br.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - ND Mais",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+      "total_snapshots": 7,
+      "estimated_hours": 1.75,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+      "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais.",
+      "sources": [
+        {
+          "source": "Notícias públicas - ND Mais",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
+          "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais.",
+          "date": "2026-07-29T23:47:12.091289+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 2,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "c74f32327614fccfbc556ecd",
+      "stable_event_id": "c74f32327614fccfbc556ecd",
+      "observation_hash": "de239c4f1286b007c5672e24",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T23:34:22+00:00",
+      "first_seen_at": "2026-07-29T23:34:22+00:00",
+      "last_seen_at": "2026-07-29T23:34:22+00:00",
+      "updated_at": "2026-07-29T23:34:23.573857+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-050",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -18.918,
+      "lon": -48.277,
+      "city": "Interdição ou bloqueio por notícia pública • BR-050",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-050",
+      "description": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - paranaibamais.com.br.. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Paranaíba Mais",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
+      "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Paranaíba Mais",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3diaTVDMF9aREtMS19qVHM2YjYtbVk2NVdOX0Mwak5kcjBuX29OYXF6Z3pWRkk1YlBleVAwYjJtdjdvTDNHay01QnE4M09rVEpWTmdLWlNLM0N1LUN6T0t1dGltcjZNcUlXcm9xWXVIRnlvT09mOUxCaHBPb25VWXdxQjNmdm5hQUhSMXdfMzJITTdOVUlvNklMNDNYd0tDN3B4RC1NR3I0eFhQVFA0US1uMGVRdjBndmhRUU05QmtwQQ",
+          "headline": "Carreta tombada há mais de 15 horas na BR-050 deixa faixa interditada; veja o trânsito - Paranaíba Mais.",
+          "date": "2026-07-29T23:47:12.091289+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -364,49 +450,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "b706602f46b856f7e0c71abc",
-      "stable_event_id": "b706602f46b856f7e0c71abc",
-      "observation_hash": "d3822dea8a0b20315cd5e91e",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:02:53+00:00",
-      "first_seen_at": "2026-07-29T16:02:05+00:00",
-      "last_seen_at": "2026-07-29T23:02:53+00:00",
-      "updated_at": "2026-07-29T23:02:55.262424+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-470",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -26.919,
-      "lon": -49.066,
-      "city": "Interdição ou bloqueio por notícia pública • BR-470",
-      "state": "",
-      "region": "Sul",
-      "road": "BR-470",
-      "description": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ndmais.com.br.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - ND Mais",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
-      "total_snapshots": 6,
-      "estimated_hours": 1.5,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
-      "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais.",
-      "sources": [
-        {
-          "source": "Notícias públicas - ND Mais",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY3A5d0lVcFlTei1wSy1lN1NfUGZFUWJ5eU8ybnhMdHRmaldyWnFQeHJ3ZjdEMGpPZ18xNjFraXdDVDMwSy0xTDVTWmRmN3VNaGprdHN0b1VHb0c4QnN5QnA5N2gybHBuVElNM0c0eDJjY2ZtZ1RFblVXRzFIWXIxZTQ0UU5qYUZVeC1rMWNXVGhVMEk",
-          "headline": "Ponte que dá acesso à BR-470 é interditada por queda de árvore após temporal deixar rastro de destruição em SC - ND Mais.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 2,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "8bcec6ef0fc7f5f4f471d122",
       "stable_event_id": "8bcec6ef0fc7f5f4f471d122",
       "observation_hash": "c94efa2437ba50b2ffa4e840",
@@ -442,7 +485,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGVNVENpdGsteDRfNXlnN0JTTk92X3ZWRFlndHhpa0VVNlhrdDhlLThYRlduRDZzVTNRdXhiaUlMaklzeG9peW16RDE4dm81S1pjOTAwc3ZTNlFvWlVzLU1pNGJDaEt4YmZjOUZKeEFYNGJmdTV1WVllS1dQdjFPV21aRGNlMk1aQUFiOUtuaFZXTXFOanp6ZnBNcHU2S0ExTndsMTZZRzZ3Z2U0cm5aMDY1V0xpWUVH0gHHAUFVX3lxTE5ycmxuRGJDWFZzbkRRb0RnMUt5UUZlOFhUOEtNbzhybGRERk1oOElVTTk3S21lX19XWjEyeFJ0OE1nRi14YVYzUk1UaThvUUpNS0ExWnctOW8xbU9VVE5ZNE1oOVJqU3htVDlBZVp4TFNiQ1BmQ1lVQTc1ajd2Zmd2WGxXM2ZrRkdSVDhiUzNvQnZtM0Z3TVh5dC01cjBDV1ZjdXlOazJIaFNOeldlUG56VFM4eVRELTl4aWo4aXY2NjJHS1ppVVE",
           "headline": "BR-222 vai ser interditada nesta quarta-feira.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         }
       ],
       "sourceCount": 1,
@@ -514,7 +557,7 @@
           "source": "Notícias públicas - CGN",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTNLMVFIdkxXTWNqU2x6YmJPbzJYSG1HYzRJWHpRWU1aZUNmdVVLR3BjcmtSNWZfeWtocEJfOFB0WEtOOUFib0hlRHhwVGJwY1FZeWVoZ0RBRXJFRjNUcnlKcUdzeTdPUG9NSS1VbHlaNm1mMUF6S3RoX0xMcXNOdFgzT0NsSGxiOVRFREF1ODBYN3lJcFVrbnl0aXNqM3Zya0pJaGZrUUlQZkdVNExDX19yXzhGNUI2TXY5anJFM2kySzg50gHKAUFVX3lxTE0tMkdYWHdObExYRk0ybmJrY3VQV1p2d1UzRVczYVgwZnpMMzNkOHlZbGFFTEQ0dkZZbWhkaDUyVjVZYVVSbkREN3hhQXgwWjhha2VNakpyZzluQ3VyOEcxSGxzb05KTzZnXzZuVEp6Y2RCLTdGVlRXMm4xWjFWV3VHUlg0akZsTmI4M2NYOUE0Vlo3RXI4SU9lcEdnVkNfMzNfTVU4d1A3QlVXdGh2bmh6YWp1bnEwZGlHV2FVc2lRakdPeWplb0g4RFE",
           "headline": "PR-180 é bloqueada em Cascavel para retirada de postes após queda causada por ventos fortes - CGN.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         }
       ],
       "sourceCount": 1,
@@ -606,7 +649,7 @@
           "source": "Notícias públicas - defatoonline.com.br + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
           "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - defatoonline.com.br.",
-          "date": "2026-07-29T23:32:25.974236+00:00"
+          "date": "2026-07-29T23:47:12.091289+00:00"
         },
         {
           "source": "Notícias públicas - Tribuna Norte Leste + 1 fonte(s)",
@@ -13956,10 +13999,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "05057c08bff463d53036251e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
+      "snapshot_at": "2026-07-29T23:47:10+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
+      "last_seen_at": "2026-07-29T23:47:10+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13975,8 +14018,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 65.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2987,
-      "estimated_hours": 746.75,
+      "total_snapshots": 2989,
+      "estimated_hours": 747.25,
       "active": true,
       "storage": "supabase"
     },
@@ -14851,35 +14894,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "815f19dcfc0de3f0efea9ff3",
-      "stable_event_id": "815f19dcfc0de3f0efea9ff3",
-      "observation_hash": "eb617f8bb477acc3e11eaa59",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
-      "first_seen_at": "2026-05-27T18:17:22+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Volta Redonda",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -22.523,
-      "lon": -44.104,
-      "city": "Volta Redonda",
-      "state": "RJ",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T18:15:25Z; ativo há 63.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 453,
-      "estimated_hours": 113.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "073064b3207cd7abb498551e",
@@ -15195,6 +15209,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "815f19dcfc0de3f0efea9ff3",
+      "stable_event_id": "815f19dcfc0de3f0efea9ff3",
+      "observation_hash": "67dcff6a37c596793a841040",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-29T23:47:10+00:00",
+      "first_seen_at": "2026-05-27T18:17:22+00:00",
+      "last_seen_at": "2026-07-29T23:47:10+00:00",
+      "updated_at": "2026-07-29T23:47:12.091289+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Volta Redonda",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -22.523,
+      "lon": -44.104,
+      "city": "Volta Redonda",
+      "state": "RJ",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T18:15:25Z; ativo há 63.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 455,
+      "estimated_hours": 113.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15638,10 +15681,10 @@
       "stable_event_id": "1e76c5ff719f8f716b2d0c34",
       "observation_hash": "e6960ec486c00cfa1598fc79",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T23:32:24+00:00",
+      "snapshot_at": "2026-07-29T23:34:22+00:00",
       "first_seen_at": "2026-05-27T18:17:22+00:00",
-      "last_seen_at": "2026-07-29T23:32:24+00:00",
-      "updated_at": "2026-07-29T23:32:25.974236+00:00",
+      "last_seen_at": "2026-07-29T23:34:22+00:00",
+      "updated_at": "2026-07-29T23:34:23.573857+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15657,8 +15700,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T18:15:24Z; ativo há 63.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 194,
-      "estimated_hours": 48.5,
+      "total_snapshots": 195,
+      "estimated_hours": 48.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15964,8 +16007,8 @@
         "road": 37
       },
       "byRegion": {
-        "Sudeste": 35,
-        "Nordeste": 32,
+        "Sudeste": 34,
+        "Nordeste": 33,
         "Sul": 30,
         "Norte": 17,
         "Centro-Oeste": 10,
@@ -15977,12 +16020,6 @@
         "Baixo": 14
       },
       "dailyRisk": [
-        {
-          "date": "2026-07-22",
-          "avgRisk": 69,
-          "events": 1,
-          "maxRisk": 69
-        },
         {
           "date": "2026-07-23",
           "avgRisk": 69,
@@ -16022,22 +16059,22 @@
         {
           "date": "2026-07-29",
           "avgRisk": 44,
-          "events": 79,
+          "events": 80,
           "maxRisk": 72
         }
       ]
     },
     "30": {
-      "events": 232,
+      "events": 233,
       "avgRisk": 57,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
-        "road": 138,
+        "road": 139,
         "climate": 94
       },
       "byRegion": {
-        "Nordeste": 78,
+        "Nordeste": 79,
         "Sul": 64,
         "Sudeste": 53,
         "Norte": 22,
@@ -16045,7 +16082,7 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 144,
+        "Alto": 145,
         "Moderado": 72,
         "Baixo": 16
       },
@@ -16221,23 +16258,23 @@
         {
           "date": "2026-07-29",
           "avgRisk": 44,
-          "events": 79,
+          "events": 80,
           "maxRisk": 72
         }
       ]
     },
     "90": {
-      "events": 403,
+      "events": 404,
       "avgRisk": 59,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 268,
+        "road": 269,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 122,
+        "Nordeste": 123,
         "Sudeste": 99,
         "Sul": 96,
         "Norte": 52,
@@ -16245,7 +16282,7 @@
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 277,
+        "Alto": 278,
         "Moderado": 110,
         "Baixo": 16
       },
@@ -16637,7 +16674,7 @@
         {
           "date": "2026-07-29",
           "avgRisk": 44,
-          "events": 79,
+          "events": 80,
           "maxRisk": 72
         }
       ]
