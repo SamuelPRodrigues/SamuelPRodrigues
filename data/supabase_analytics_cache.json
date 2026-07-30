@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T04:11:41Z",
+  "updatedAt": "2026-07-30T04:16:56Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -122,12 +122,12 @@
     {
       "event_id": "a7b0d3ed81d3b9803cce2238",
       "stable_event_id": "a7b0d3ed81d3b9803cce2238",
-      "observation_hash": "4925848930a72914619fd77c",
+      "observation_hash": "7f0fae2ff413d177f4509839",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
       "first_seen_at": "2026-07-30T03:46:52+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - tribunanorteleste.com.br.. Fontes consolidadas: Notícias públicas - tribunanorteleste.com.br + 3 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - tribunanorteleste.com.br + 3 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1lWdW1FcHN5QWctaTljd0t2ZE5udDhhX2VCVS1EUDRQSWlwaHpzdVNwSmFyMnBjb05iRG9wRWc1VHNfckg5TzFwMnAzcTRJdVVVQi0yeWx3Smpnak80TDBGcTd5MGpzalBnMC1FZUx3UlBZUVlkNW1rZ3VrNWs3SjVGT0xpc2xnbVg5NVFJM3Q4R2VoaTAxTXo0MzNJZG5fU1JrdjE0U2hRQXVfajJuMm1R",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - tribunanorteleste.com.br + 3 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1lWdW1FcHN5QWctaTljd0t2ZE5udDhhX2VCVS1EUDRQSWlwaHpzdVNwSmFyMnBjb05iRG9wRWc1VHNfckg5TzFwMnAzcTRJdVVVQi0yeWx3Smpnak80TDBGcTd5MGpzalBnMC1FZUx3UlBZUVlkNW1rZ3VrNWs3SjVGT0xpc2xnbVg5NVFJM3Q4R2VoaTAxTXo0MzNJZG5fU1JrdjE0U2hRQXVfajJuMm1R",
           "headline": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - tribunanorteleste.com.br.",
-          "date": "2026-07-30T04:11:38.350509+00:00"
+          "date": "2026-07-30T04:16:53.628417+00:00"
         }
       ],
       "sourceCount": 1,
@@ -198,7 +198,7 @@
           "source": "Notícias públicas - Mais Goiás",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
           "headline": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás.",
-          "date": "2026-07-30T04:11:38.350509+00:00"
+          "date": "2026-07-30T04:16:53.628417+00:00"
         }
       ],
       "sourceCount": 1,
@@ -284,7 +284,7 @@
           "source": "Notícias públicas - DeFato Online",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
           "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online.",
-          "date": "2026-07-30T04:11:38.350509+00:00"
+          "date": "2026-07-30T04:16:53.628417+00:00"
         }
       ],
       "sourceCount": 1,
@@ -12363,31 +12363,31 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "ee4c59bab71d0db444330dbd",
-      "stable_event_id": "ee4c59bab71d0db444330dbd",
-      "observation_hash": "8534ced5a5042b46a2f1187e",
+      "event_id": "fbc57c5b8e8c84d644c41311",
+      "stable_event_id": "fbc57c5b8e8c84d644c41311",
+      "observation_hash": "03d38c1c9bf1ac8b56e940fb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Maringá",
+      "name": "Campo Grande",
       "risk": 68,
       "severity": "Alto",
-      "lat": -23.42,
-      "lon": -51.933,
-      "city": "Maringá",
-      "state": "PR",
-      "region": "Sul",
+      "lat": -20.469,
+      "lon": -54.62,
+      "city": "Campo Grande",
+      "state": "MS",
+      "region": "Centro-Oeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:22Z; ativo há 64.5 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 64.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 911,
-      "estimated_hours": 227.75,
+      "total_snapshots": 549,
+      "estimated_hours": 137.25,
       "active": true,
       "storage": "supabase"
     },
@@ -13349,6 +13349,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "ee4c59bab71d0db444330dbd",
+      "stable_event_id": "ee4c59bab71d0db444330dbd",
+      "observation_hash": "caeaafd09fcb03df1045a500",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
+      "first_seen_at": "2026-05-26T15:17:02+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maringá",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": -23.42,
+      "lon": -51.933,
+      "city": "Maringá",
+      "state": "PR",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:22Z; ativo há 64.5 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 912,
+      "estimated_hours": 228.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1f8dac92cf9f4864db7b23f1",
       "stable_event_id": "1f8dac92cf9f4864db7b23f1",
       "observation_hash": "354153d211ceda9170ffba30",
@@ -13490,35 +13519,6 @@
       "source_url": "",
       "total_snapshots": 536,
       "estimated_hours": 134.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "04a398ba39a537dbe3d9bf3b",
-      "stable_event_id": "04a398ba39a537dbe3d9bf3b",
-      "observation_hash": "6bee498d05e62c7085b31d9a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-29T19:02:29+00:00",
-      "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-29T19:02:29+00:00",
-      "updated_at": "2026-07-29T19:02:32.575014+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Londrina",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -23.304,
-      "lon": -51.169,
-      "city": "Londrina",
-      "state": "PR",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:22Z; ativo há 64.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 662,
-      "estimated_hours": 165.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14103,14 +14103,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1e7b30ba66890a70624ba3de",
+      "stable_event_id": "1e7b30ba66890a70624ba3de",
+      "observation_hash": "3e27dad2fdf0d85a8e89b571",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tefé",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -3.354,
+      "lon": -64.711,
+      "city": "Tefé",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 65.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1638,
+      "estimated_hours": 409.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "57a64278cbd624610c5498e1",
       "stable_event_id": "57a64278cbd624610c5498e1",
       "observation_hash": "de493070e964cf095847ef15",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14126,8 +14155,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 65.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2743,
-      "estimated_hours": 685.75,
+      "total_snapshots": 2744,
+      "estimated_hours": 686.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14567,31 +14596,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1e7b30ba66890a70624ba3de",
-      "stable_event_id": "1e7b30ba66890a70624ba3de",
-      "observation_hash": "4a0df2eefdbfc3cacc7eeb98",
+      "event_id": "04a398ba39a537dbe3d9bf3b",
+      "stable_event_id": "04a398ba39a537dbe3d9bf3b",
+      "observation_hash": "31b2afd489031054dd16dfbc",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
+      "first_seen_at": "2026-05-26T15:17:02+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Tefé",
+      "name": "Londrina",
       "risk": 40,
       "severity": "Moderado",
-      "lat": -3.354,
-      "lon": -64.711,
-      "city": "Tefé",
-      "state": "AM",
-      "region": "Norte",
+      "lat": -23.304,
+      "lon": -51.169,
+      "city": "Londrina",
+      "state": "PR",
+      "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 65.2 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:22Z; ativo há 64.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1637,
-      "estimated_hours": 409.25,
+      "total_snapshots": 663,
+      "estimated_hours": 165.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14975,12 +15004,12 @@
     {
       "event_id": "1392e852ec635648d4a26a0e",
       "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "d85dfdfefae21acfa270ee77",
+      "observation_hash": "4ed95313bdff0d8e7395107c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14996,20 +15025,20 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 65.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2479,
-      "estimated_hours": 619.75,
+      "total_snapshots": 2480,
+      "estimated_hours": 620.0,
       "active": true,
       "storage": "supabase"
     },
     {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
-      "observation_hash": "c4962be19d3fc097be7f2957",
+      "observation_hash": "6b93b2538e93564ea974bc93",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T04:11:37+00:00",
+      "snapshot_at": "2026-07-30T04:16:52+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-30T04:11:37+00:00",
-      "updated_at": "2026-07-30T04:11:38.350509+00:00",
+      "last_seen_at": "2026-07-30T04:16:52+00:00",
+      "updated_at": "2026-07-30T04:16:53.628417+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15025,8 +15054,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 65.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3008,
-      "estimated_hours": 752.0,
+      "total_snapshots": 3009,
+      "estimated_hours": 752.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15727,35 +15756,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "fbc57c5b8e8c84d644c41311",
-      "stable_event_id": "fbc57c5b8e8c84d644c41311",
-      "observation_hash": "e6ff7b9044271ed10162dd72",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T00:18:42+00:00",
-      "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-30T00:18:42+00:00",
-      "updated_at": "2026-07-30T00:18:44.172478+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Campo Grande",
-      "risk": 15,
-      "severity": "Baixo",
-      "lat": -20.469,
-      "lon": -54.62,
-      "city": "Campo Grande",
-      "state": "MS",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 64.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 548,
-      "estimated_hours": 137.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "aaf5e379367a15a27969b229",
       "stable_event_id": "aaf5e379367a15a27969b229",
       "observation_hash": "329f88fe1174961ec886f6ce",
@@ -16181,9 +16181,9 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 68,
+        "Moderado": 69,
         "Alto": 45,
-        "Baixo": 15
+        "Baixo": 14
       },
       "dailyRisk": [
         {
@@ -16225,13 +16225,13 @@
         {
           "date": "2026-07-29",
           "avgRisk": 42,
-          "events": 65,
+          "events": 64,
           "maxRisk": 72
         },
         {
           "date": "2026-07-30",
-          "avgRisk": 51,
-          "events": 20,
+          "avgRisk": 52,
+          "events": 21,
           "maxRisk": 69
         }
       ]
@@ -16255,8 +16255,8 @@
       },
       "bySeverity": {
         "Alto": 148,
-        "Moderado": 72,
-        "Baixo": 17
+        "Moderado": 73,
+        "Baixo": 16
       },
       "dailyRisk": [
         {
@@ -16430,13 +16430,13 @@
         {
           "date": "2026-07-29",
           "avgRisk": 42,
-          "events": 65,
+          "events": 64,
           "maxRisk": 72
         },
         {
           "date": "2026-07-30",
-          "avgRisk": 51,
-          "events": 20,
+          "avgRisk": 52,
+          "events": 21,
           "maxRisk": 69
         }
       ]
@@ -16461,8 +16461,8 @@
       },
       "bySeverity": {
         "Alto": 281,
-        "Moderado": 110,
-        "Baixo": 17
+        "Moderado": 111,
+        "Baixo": 16
       },
       "dailyRisk": [
         {
@@ -16852,13 +16852,13 @@
         {
           "date": "2026-07-29",
           "avgRisk": 42,
-          "events": 65,
+          "events": 64,
           "maxRisk": 72
         },
         {
           "date": "2026-07-30",
-          "avgRisk": 51,
-          "events": 20,
+          "avgRisk": 52,
+          "events": 21,
           "maxRisk": 69
         }
       ]
