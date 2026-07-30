@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-07-30T03:32:17Z",
+  "updatedAt": "2026-07-30T03:46:57Z",
   "lookbackHours": 12.0,
   "inputEvents": 33,
-  "keptEvents": 4,
-  "removedEvents": 29,
+  "keptEvents": 3,
+  "removedEvents": 30,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-163",
+      "road": "BR-163",
+      "source": "Notícias públicas - Campo Grande News",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-07-29T15:36:00Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-116",
       "road": "BR-116",
@@ -175,13 +182,6 @@
       "source": "G1 + 2 fonte(s)",
       "reason": "public_news_older_than_12h",
       "date": "2026-06-06T19:37:52Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-101",
-      "road": "BR-101",
-      "source": "Folha Vitória",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-06-05T14:11:20Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
