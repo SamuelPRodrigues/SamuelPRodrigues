@@ -1,6 +1,56 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-381",
+    "road": "BR-381",
+    "corridor": "Belo Horizonte / Contagem • BR-040 / BR-381 / MG-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -19.916,
+    "lon": -43.934,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia; Notícias públicas - DeFato Online. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-30T23:15:01Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+    "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia",
+    "newsDate": "Thu, 30 Jul 2026 23:15:01 GMT",
+    "updatedAt": "2026-07-30T23:30:59Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+    "sources": [
+      {
+        "source": "Notícias públicas - Jornal Estância de Atibaia",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+        "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia",
+        "date": "Thu, 30 Jul 2026 23:15:01 GMT"
+      },
+      {
+        "source": "Notícias públicas - DeFato Online",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
+        "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online",
+        "date": "Wed, 29 Jul 2026 17:31:00 GMT"
+      }
+    ],
+    "sourceCount": 2,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "b64252a537b72a61bbafa74f",
+    "event_id": "b64252a537b72a61bbafa74f",
+    "newsFreshnessHours": 0.29,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-30T23:15:01Z",
+    "last_seen_at": "2026-07-30T23:32:19Z",
+    "active_duration_hours": 0.29,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-060",
     "road": "BR-060",
     "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
@@ -9,7 +59,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 3.6 h.",
+    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +68,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
     "headline": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis",
     "newsDate": "Thu, 30 Jul 2026 19:42:40 GMT",
-    "updatedAt": "2026-07-30T23:15:53Z",
+    "updatedAt": "2026-07-30T23:30:59Z",
     "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
     "sources": [
       {
@@ -45,18 +95,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "7f07894d72c764ac833b9801",
     "event_id": "7f07894d72c764ac833b9801",
-    "newsFreshnessHours": 3.58,
+    "newsFreshnessHours": 3.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T19:42:40Z",
-    "last_seen_at": "2026-07-30T23:17:11Z",
-    "active_duration_hours": 3.58,
-    "active_duration_label": "3.6 h",
+    "last_seen_at": "2026-07-30T23:32:19Z",
+    "active_duration_hours": 3.83,
+    "active_duration_label": "3.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-30T23:17:11Z",
-    "news_signature": "c607e2d675f849701bfedd12",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -68,7 +115,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 6.9 h.",
+    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +124,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
     "headline": "BR-277 tem pista interditada após tombamento de carreta em Morretes",
     "newsDate": "Thu, 30 Jul 2026 16:26:01 GMT",
-    "updatedAt": "2026-07-30T23:15:53Z",
+    "updatedAt": "2026-07-30T23:30:59Z",
     "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
     "sources": [
       {
@@ -92,17 +139,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "8630a6a9ee5ad5776983e7f9",
     "event_id": "8630a6a9ee5ad5776983e7f9",
-    "newsFreshnessHours": 6.85,
+    "newsFreshnessHours": 7.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T16:26:01Z",
-    "last_seen_at": "2026-07-30T23:17:11Z",
-    "active_duration_hours": 6.86,
-    "active_duration_label": "6.9 h",
+    "last_seen_at": "2026-07-30T23:32:19Z",
+    "active_duration_hours": 7.11,
+    "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-30T23:17:11Z",
-    "news_signature": "3917c8852a04803878d7f09b",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
