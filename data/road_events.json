@@ -14,7 +14,7 @@
     "state": "MS",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News. Período informado: 2026-07-29T15:36:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-29T15:36:00Z; ativo há 9.8 h.",
+    "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News. Período informado: 2026-07-29T15:36:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-29T15:36:00Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-29T17:17:22Z",
     "sources": [
       {
@@ -45,8 +45,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T15:36:00Z",
     "last_seen_at": "2026-07-30T01:20:56Z",
-    "active_duration_hours": 9.76,
+    "active_duration_hours": 9.77,
     "active_duration_label": "9.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T01:20:56Z",
+    "news_signature": "726a45ed1dc2fe7aa2d6d0f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
