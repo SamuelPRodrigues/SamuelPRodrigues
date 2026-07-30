@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 2.6 h.",
+    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -49,11 +49,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T19:42:40Z",
     "last_seen_at": "2026-07-30T22:17:00Z",
-    "active_duration_hours": 2.57,
+    "active_duration_hours": 2.58,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T22:17:00Z",
+    "news_signature": "c607e2d675f849701bfedd12",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 5.8 h.",
+    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 5.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,11 +96,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T16:26:01Z",
     "last_seen_at": "2026-07-30T22:17:00Z",
-    "active_duration_hours": 5.85,
-    "active_duration_label": "5.8 h",
+    "active_duration_hours": 5.86,
+    "active_duration_label": "5.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T22:17:00Z",
+    "news_signature": "3917c8852a04803878d7f09b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada em Ibiraçu nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-30T10:43:03Z; ativo há 11.6 h.",
+    "description": "BR-101 será interditada em Ibiraçu nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-30T10:43:03Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -160,11 +166,13 @@
     "newsFreshnessHours": 11.57,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T10:43:03Z",
-    "last_seen_at": "2026-07-30T22:17:00Z",
+    "last_seen_at": "2026-07-30T22:17:20Z",
     "active_duration_hours": 11.57,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7c25995827b2f2c7a8bb0b0c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
