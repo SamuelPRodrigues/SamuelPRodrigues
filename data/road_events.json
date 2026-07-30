@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - Portal Menina; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-29T20:21:11Z; ativo há 6.4 h.",
+    "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - Portal Menina; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-29T20:21:11Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 6.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T20:21:11Z",
-    "last_seen_at": "2026-07-30T02:47:49Z",
-    "active_duration_hours": 6.44,
-    "active_duration_label": "6.4 h",
+    "last_seen_at": "2026-07-30T02:48:09Z",
+    "active_duration_hours": 6.45,
+    "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3f13c4a20ecaa664f54c1cd1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás. Fontes consolidadas: Notícias públicas - Mais Goiás. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-29T18:29:21Z; ativo há 8.3 h.",
+    "description": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás. Fontes consolidadas: Notícias públicas - Mais Goiás. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-29T18:29:21Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,8 +104,11 @@
     "active_duration_hours": 8.31,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T02:47:49Z",
+    "news_signature": "02a56ed4a946cbaadef882fb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +120,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online. Fontes consolidadas: Notícias públicas - DeFato Online. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-29T17:31:00Z; ativo há 9.3 h.",
+    "description": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online. Fontes consolidadas: Notícias públicas - DeFato Online. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-29T17:31:00Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,11 +148,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T17:31:00Z",
     "last_seen_at": "2026-07-30T02:47:49Z",
-    "active_duration_hours": 9.28,
+    "active_duration_hours": 9.29,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T02:47:49Z",
+    "news_signature": "13e311a419a87166e81a2662",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -164,7 +172,7 @@
     "state": "MS",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News. Período informado: 2026-07-29T15:36:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-29T15:36:00Z; ativo há 11.2 h.",
+    "description": "BR-163 é totalmente interditada para destombamento de carreta no macroanel - Campo Grande News. Período informado: 2026-07-29T15:36:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-29T15:36:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -177,7 +185,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-07-29T17:17:22Z",
     "sources": [
       {
@@ -197,6 +205,9 @@
     "last_seen_at": "2026-07-30T02:47:49Z",
     "active_duration_hours": 11.2,
     "active_duration_label": "11.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-30T02:47:49Z",
+    "news_signature": "726a45ed1dc2fe7aa2d6d0f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
