@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - agazeta.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-29T20:21:11Z; ativo há 10.9 h.",
+    "description": "BR 101 será interditada nesta quinta-feira (30.07), no inicio da tarde, em Ibiraçu - Tribuna Norte Leste. Fontes consolidadas: Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - agazeta.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-29T20:21:11Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,11 +48,13 @@
     "newsFreshnessHours": 10.93,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-29T20:21:11Z",
-    "last_seen_at": "2026-07-30T07:17:16Z",
-    "active_duration_hours": 10.93,
+    "last_seen_at": "2026-07-30T07:17:33Z",
+    "active_duration_hours": 10.94,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b068ee8fd67b690b45b84578",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
