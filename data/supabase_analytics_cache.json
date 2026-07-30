@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T09:20:12Z",
+  "updatedAt": "2026-07-30T09:32:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -64,17 +64,17 @@
     {
       "event_id": "fbc57c5b8e8c84d644c41311",
       "stable_event_id": "fbc57c5b8e8c84d644c41311",
-      "observation_hash": "11353862ae531f8fa77e3a12",
+      "observation_hash": "f2abf65fe68b41c6cd7fe3cd",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T09:20:07+00:00",
+      "snapshot_at": "2026-07-30T09:32:02+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-30T09:20:07+00:00",
-      "updated_at": "2026-07-30T09:20:09.030042+00:00",
+      "last_seen_at": "2026-07-30T09:32:02+00:00",
+      "updated_at": "2026-07-30T09:32:04.061617+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Campo Grande",
-      "risk": 73,
+      "risk": 72,
       "severity": "Alto",
       "lat": -20.469,
       "lon": -54.62,
@@ -85,8 +85,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 64.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 571,
-      "estimated_hours": 142.75,
+      "total_snapshots": 572,
+      "estimated_hours": 143.0,
       "active": true,
       "storage": "supabase"
     },
@@ -153,10 +153,10 @@
       "stable_event_id": "efc62ea27cf7cdded93be10f",
       "observation_hash": "165b79f0a485a59d90dcd9d1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T09:20:07+00:00",
+      "snapshot_at": "2026-07-30T09:32:02+00:00",
       "first_seen_at": "2026-05-26T17:16:41+00:00",
-      "last_seen_at": "2026-07-30T09:20:07+00:00",
-      "updated_at": "2026-07-30T09:20:09.030042+00:00",
+      "last_seen_at": "2026-07-30T09:32:02+00:00",
+      "updated_at": "2026-07-30T09:32:04.061617+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -172,8 +172,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T17:15:17Z; ativo há 64.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 666,
-      "estimated_hours": 166.5,
+      "total_snapshots": 667,
+      "estimated_hours": 166.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14567,14 +14567,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "116cc2df013bb413f560b4f5",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-30T09:32:02+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-07-30T09:32:02+00:00",
+      "updated_at": "2026-07-30T09:32:04.061617+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 65.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2503,
+      "estimated_hours": 625.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "f55caf24f7c6d85519d354d6",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T09:20:07+00:00",
+      "snapshot_at": "2026-07-30T09:32:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-30T09:20:07+00:00",
-      "updated_at": "2026-07-30T09:20:09.030042+00:00",
+      "last_seen_at": "2026-07-30T09:32:02+00:00",
+      "updated_at": "2026-07-30T09:32:04.061617+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14590,8 +14619,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 65.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3031,
-      "estimated_hours": 757.75,
+      "total_snapshots": 3032,
+      "estimated_hours": 758.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14973,35 +15002,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "6200dc9f62337f04b6de99ed",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T09:20:07+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-30T09:20:07+00:00",
-      "updated_at": "2026-07-30T09:20:09.030042+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 65.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2502,
-      "estimated_hours": 625.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "2569a381fe8a1abed1056a48",
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "98c895f1ef6b17bb09d0302a",
@@ -15354,10 +15354,10 @@
       "stable_event_id": "32351db9c1a47893713d6d70",
       "observation_hash": "f1557e4c8d08daf237f88838",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T09:20:07+00:00",
+      "snapshot_at": "2026-07-30T09:32:02+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-07-30T09:20:07+00:00",
-      "updated_at": "2026-07-30T09:20:09.030042+00:00",
+      "last_seen_at": "2026-07-30T09:32:02+00:00",
+      "updated_at": "2026-07-30T09:32:04.061617+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15373,8 +15373,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 64.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1281,
-      "estimated_hours": 320.25,
+      "total_snapshots": 1282,
+      "estimated_hours": 320.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16166,7 +16166,7 @@
     "7": {
       "events": 125,
       "avgRisk": 48,
-      "maxRisk": 73,
+      "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "climate": 88,
@@ -16232,14 +16232,14 @@
           "date": "2026-07-30",
           "avgRisk": 51,
           "events": 27,
-          "maxRisk": 73
+          "maxRisk": 72
         }
       ]
     },
     "30": {
       "events": 236,
       "avgRisk": 57,
-      "maxRisk": 73,
+      "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "road": 142,
@@ -16437,7 +16437,7 @@
           "date": "2026-07-30",
           "avgRisk": 51,
           "events": 27,
-          "maxRisk": 73
+          "maxRisk": 72
         }
       ]
     },
@@ -16859,7 +16859,7 @@
           "date": "2026-07-30",
           "avgRisk": 51,
           "events": 27,
-          "maxRisk": 73
+          "maxRisk": 72
         }
       ]
     }
