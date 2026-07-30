@@ -1,6 +1,56 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-060",
+    "road": "BR-060",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.78,
+    "lon": -47.929,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás. Fontes consolidadas: Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-29T18:29:21Z; ativo há 17.3 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Mais Goiás + 1 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
+    "headline": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás",
+    "newsDate": "Thu, 30 Jul 2026 11:33:00 GMT",
+    "updatedAt": "2026-07-30T11:45:47Z",
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
+    "sources": [
+      {
+        "source": "Notícias públicas - Mais Goiás",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk56SmJ1bWdZRE1lN2d5aF9md2JtQ1g0Q1JGeURTT1dmMzhyX3RPU25MNXBTenJPMlRmUUJhenVVMy1RMGszb0xLN2phQ3A2UHZJb3hRa3hhVTg3ejhzLVJKTlFLckM5V09rdGpVa0tsRVBKVVRvQWc0QTdTc1puZWJiOXJEZF9ua2xJdjVFaVBJbW9ldTl3WWd0T09qRVRjbjJuLVpuSi1IeXdEUUVtTkE0bWo",
+        "headline": "BR-060 é interditada entre Terezópolis e Goianápolis para remoção de veículo - Mais Goiás",
+        "date": "Wed, 29 Jul 2026 18:29:21 GMT"
+      },
+      {
+        "source": "Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaWo1cWZNcTBiSU5iOE5kOVZuRmxKaElTTUdwZ3hVUnN6Y09oRFczTUdSUzBpY2xNQ0VCcmE0WU42b2tpRGJncW85c0EwdHhnLXBLc0xfYUJDV0lBQl9COE9fVjRxU0ZieU5mb2lFd3huSUZRSzgwai1LUFJfdkNUOEx1eUtoN0hGdWdzejczZUtZTHB2T0ZpeVRpUGJrVVFvUHR4cFBYQ1V0RXR2TTZ2WDFBZmRSZXpWNVBj",
+        "headline": "BR-060 tem pista interditada entre Anápolis e Goiânia nesta quinta-feira (30); veja horários - Rádio São Francisco 97.7 FM - Anápolis",
+        "date": "Thu, 30 Jul 2026 11:33:00 GMT"
+      }
+    ],
+    "sourceCount": 2,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "941717c044bc754782b1b40e",
+    "event_id": "941717c044bc754782b1b40e",
+    "newsFreshnessHours": 0.23,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-07-29T18:29:21Z",
+    "last_seen_at": "2026-07-30T11:47:03Z",
+    "active_duration_hours": 17.3,
+    "active_duration_label": "17.3 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-101",
     "road": "BR-101",
     "corridor": "Maceió • BR-101 / BR-104 / AL-101",
@@ -9,7 +59,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada em Ibiraçu nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-07-30T10:43:03Z; ativo há 50 min.",
+    "description": "BR-101 será interditada em Ibiraçu nesta quinta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Tribuna Norte Leste; Notícias públicas - rede noticia es; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-07-30T10:43:03Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +68,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdOY2ZkcU5jaXpyN01WbWR5TWtSXzVRRk54RjBfdEdwc1RPRHJYRFlJazhtZlBpUzF3bGMzRE5RNDA5VzN1VkF3RFpLNEVDUU90T0ZxQU14dTVPZl9xbk9BLTJpMHRPRFJ0WHBKeVc5RzRCOEZtZ2NsdFBOSkdIWDBqeDZHTHpWUXlPLVNBR19MXzRTcHFFWEFzZ3dkdXPSAacBQVVfeXFMTWFwdVgyQWVYVlpjZFU1aUttUC1Cc21hZTFXVEVxWE8tXzJwMGhDR21FeGFTbUVZa0E0d1A3N1JqUE8tajRTc0JjVkxOSE9fTlYtRXZ3aER1Sm95bFMtcjN0dVR5Q1VrSzFnWURrV1ZSQ1lBMTdkVTU1a0RvNnFLTFVwTEg2V3A1X1lySTNzeUtQSnNYSmkzZWhsUDNKTjlmdV9sWXIzWGs",
     "headline": "BR-101 será interditada em Ibiraçu nesta quinta-feira - Tribuna Online",
     "newsDate": "Thu, 30 Jul 2026 10:43:03 GMT",
-    "updatedAt": "2026-07-30T11:31:11Z",
+    "updatedAt": "2026-07-30T11:45:47Z",
     "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdOY2ZkcU5jaXpyN01WbWR5TWtSXzVRRk54RjBfdEdwc1RPRHJYRFlJazhtZlBpUzF3bGMzRE5RNDA5VzN1VkF3RFpLNEVDUU90T0ZxQU14dTVPZl9xbk9BLTJpMHRPRFJ0WHBKeVc5RzRCOEZtZ2NsdFBOSkdIWDBqeDZHTHpWUXlPLVNBR19MXzRTcHFFWEFzZ3dkdXPSAacBQVVfeXFMTWFwdVgyQWVYVlpjZFU1aUttUC1Cc21hZTFXVEVxWE8tXzJwMGhDR21FeGFTbUVZa0E0d1A3N1JqUE8tajRTc0JjVkxOSE9fTlYtRXZ3aER1Sm95bFMtcjN0dVR5Q1VrSzFnWURrV1ZSQ1lBMTdkVTU1a0RvNnFLTFVwTEg2V3A1X1lySTNzeUtQSnNYSmkzZWhsUDNKTjlmdV9sWXIzWGs",
     "sources": [
       {
@@ -51,17 +101,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "67f451710b182f381947496e",
     "event_id": "67f451710b182f381947496e",
-    "newsFreshnessHours": 0.82,
+    "newsFreshnessHours": 1.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T10:43:03Z",
-    "last_seen_at": "2026-07-30T11:32:31Z",
-    "active_duration_hours": 0.83,
-    "active_duration_label": "50 min",
+    "last_seen_at": "2026-07-30T11:47:03Z",
+    "active_duration_hours": 1.07,
+    "active_duration_label": "1.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-07-30T11:32:31Z",
-    "news_signature": "dfec39fc215390d3bc9184c6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
