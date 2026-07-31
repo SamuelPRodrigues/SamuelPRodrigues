@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-31T01:17:47Z; ativo há 11.2 h.",
+    "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-31T01:17:47Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 11.24,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T12:32:12Z",
+    "news_signature": "c59a2dc7eb068ce17768814a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
