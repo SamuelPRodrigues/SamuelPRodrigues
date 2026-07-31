@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T21:02:12Z",
+  "updatedAt": "2026-07-31T21:17:13Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -120,14 +120,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "5fa2d3b705b27721ba81a565",
+      "stable_event_id": "5fa2d3b705b27721ba81a565",
+      "observation_hash": "f3b418821363b414d247ae4c",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T21:17:08+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-07-31T21:17:08+00:00",
+      "updated_at": "2026-07-31T21:17:09.644988+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Aracaju",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -10.947,
+      "lon": -37.073,
+      "city": "Aracaju",
+      "state": "SE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 66.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1688,
+      "estimated_hours": 422.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "290103f41d364be17e6d22e6",
       "stable_event_id": "290103f41d364be17e6d22e6",
-      "observation_hash": "d6746835611e71d127ce22f5",
+      "observation_hash": "249240c1cc15dab71fd96d81",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T21:02:08+00:00",
+      "snapshot_at": "2026-07-31T21:17:08+00:00",
       "first_seen_at": "2026-07-31T18:37:26+00:00",
-      "last_seen_at": "2026-07-31T21:02:08+00:00",
-      "updated_at": "2026-07-31T21:02:09.442136+00:00",
+      "last_seen_at": "2026-07-31T21:17:08+00:00",
+      "updated_at": "2026-07-31T21:17:09.644988+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -143,8 +172,8 @@
       "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba.. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CBN Curitiba",
       "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTGpQLUdrNmE4M3Q4a2RPdVJZQThrZlJfOTF3MFNiYWdKUV81cDM0U21LSExnNW9WaloyRWxiRnItWEtjMU9HQTlvdUxLd0lUYXVtakh6QmRHcVFpOXgtVDBIbHk4YkFIRTlYaE9kVVFTamk1blo1X293bFNMWm5yX2VoYW5RMF9lTE41MUwyR00yNG9xdTd6YVp4ZlpXdjNpaE96dDk1OEVrejZtdEJWOTQtUVc2R2QzTk8zazRqX3ZUcmhIRDdURHhfTE1BVnAxWEtOVEdDcmFIWFlmVUtJ",
-      "total_snapshots": 13,
-      "estimated_hours": 3.25,
+      "total_snapshots": 14,
+      "estimated_hours": 3.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +184,7 @@
           "source": "Notícias públicas - CBN Curitiba",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTGpQLUdrNmE4M3Q4a2RPdVJZQThrZlJfOTF3MFNiYWdKUV81cDM0U21LSExnNW9WaloyRWxiRnItWEtjMU9HQTlvdUxLd0lUYXVtakh6QmRHcVFpOXgtVDBIbHk4YkFIRTlYaE9kVVFTamk1blo1X293bFNMWm5yX2VoYW5RMF9lTE41MUwyR00yNG9xdTd6YVp4ZlpXdjNpaE96dDk1OEVrejZtdEJWOTQtUVc2R2QzTk8zazRqX3ZUcmhIRDdURHhfTE1BVnAxWEtOVEdDcmFIWFlmVUtJ",
           "headline": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba.",
-          "date": "2026-07-31T21:02:09.442136+00:00"
+          "date": "2026-07-31T21:17:09.644988+00:00"
         }
       ],
       "sourceCount": 1,
@@ -198,7 +227,7 @@
           "source": "Notícias públicas - Portal iG",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXVlRUNlcF9vemp5b1lFTEZ1ODBTdDJQdlA4OG01cm1LdDBRanB2N3lFY1RRZE0xcVRqRzhYRGp4U0VXUnBkdzREbmtfM24zTXJpYVRqLXdjRExKX29INVpScHZOUjNKUjlIY1phTWhQOEY3dWNURDVLUlZZOUxDVzZRbTEzQlo1YjRoTmRnWGhhOHFSS3ptQUpyWTZHQU5OMlc5US11T1o1RGR1WGhoTkV0N08wN0loU0HSAb8BQVVfeXFMTUtteE83NkVKYVFwZ1BXT1Etem1DcG5tZkZLVXFCSFhBc0VCalloWVVTMVZaV0lxSWQxemI3cmNxcGVjZ2J0aDVaY0hjZllTSEFkdDZySzg3RFBGTzAzczNETldGMW1QR1hBcE1jR0JDeWozelFuVjlmbzF4Q1k5NW9IZDhkT3pRLXZGZnBreWp0VmVqLU15QVplajJzQkxhbTRIcGEwV2xDOXRmLTBmek5mNGFDamItQlppZTNEa3c",
           "headline": "Retorno na Régis Bittencourt será interditado por quase 3 meses.",
-          "date": "2026-07-31T21:02:09.442136+00:00"
+          "date": "2026-07-31T21:17:09.644988+00:00"
         }
       ],
       "sourceCount": 1,
@@ -284,7 +313,7 @@
           "source": "Notícias públicas - G1 + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOE1CejFDREdfaEs4bUVVYnF5emJIYUltUktaeThueUIxRktpN2N3dEpSYlNpYjY5bDU5ZGVrX1k0MEwyQ3dYaG5jLWozQ2hiQVVjaDVobXYtRmE3ajZmYWlVTnhKTHNJNE5kOE81TGwtek5RNjI5Qk9UbktVTkdqOFFMYzQ5Qmo3Yk5NbEJoRDZQTE5tX1ZLRXMwaHdwRlhfM29nb3kxTURSR3ZSYmRTZm9CZVAxenlMeEdtaGFoelRObXh3U0xZdkZPZlQ5SGZGc3VFc1QtZTJVMWcwZEwyWFlNV1RZZGZoTzNncdIB-wFBVV95cUxNa2t5WUdhaUg1R0RVU3BUWEpENFI5YzFUazlIdjZTUHlwUUZfSjZEM3Z1aDVJYkVRVDd3dkUxdkJxSy1KVW44QTdURDFCUC1MTGh6STJzMU1XMWFXNGx6czhkVkk1TEsxdmRXMUdMemd2bjBTWEwxRlc3R015b3pNRnFkbUZnSm0wd2NlRHk4U3U0Wl9XOXNzNmx5S0JubENSQUlwZDFJYUJsQ1NUV2hzdS1HVDF6VktBMEc1bGFUYVJCVHAwQTFpaXFjLWxZRUZtdG01TVluQXJVVVdObWQ0dkRZTURWX2Y2UzVBdVBWaC1xLWs5Tk1rSkxyMA",
           "headline": "Motociclista morre em acidente e trânsito é parcialmente interditado na BR-262.",
-          "date": "2026-07-31T21:02:09.442136+00:00"
+          "date": "2026-07-31T21:17:09.644988+00:00"
         },
         {
           "source": "Notícias públicas - G1",
@@ -13333,35 +13362,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "5fa2d3b705b27721ba81a565",
-      "stable_event_id": "5fa2d3b705b27721ba81a565",
-      "observation_hash": "0d0fb834436db6b21e0d916c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T21:02:08+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-07-31T21:02:08+00:00",
-      "updated_at": "2026-07-31T21:02:09.442136+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Aracaju",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -10.947,
-      "lon": -37.073,
-      "city": "Aracaju",
-      "state": "SE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 66.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1687,
-      "estimated_hours": 421.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "484e2113a14711d1e23f0ffa",
       "stable_event_id": "484e2113a14711d1e23f0ffa",
       "observation_hash": "26aa2d91bca9fa350ffeebe9",
@@ -13944,12 +13944,12 @@
     {
       "event_id": "1392e852ec635648d4a26a0e",
       "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "5bedf7a06685d3da9362ec93",
+      "observation_hash": "bbecee1eca6c0a22cd81b12a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T21:02:08+00:00",
+      "snapshot_at": "2026-07-31T21:17:08+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-07-31T21:02:08+00:00",
-      "updated_at": "2026-07-31T21:02:09.442136+00:00",
+      "last_seen_at": "2026-07-31T21:17:08+00:00",
+      "updated_at": "2026-07-31T21:17:09.644988+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13965,8 +13965,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 66.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2519,
-      "estimated_hours": 629.75,
+      "total_snapshots": 2520,
+      "estimated_hours": 630.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16613,7 +16613,7 @@
   "windows": {
     "7": {
       "events": 131,
-      "avgRisk": 47,
+      "avgRisk": 48,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
@@ -16629,8 +16629,8 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 68,
-        "Alto": 44,
+        "Moderado": 67,
+        "Alto": 45,
         "Baixo": 19
       },
       "dailyRisk": [
@@ -16678,7 +16678,7 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
+          "avgRisk": 41,
           "events": 52,
           "maxRisk": 69
         }
@@ -16702,8 +16702,8 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 150,
-        "Moderado": 70,
+        "Alto": 151,
+        "Moderado": 69,
         "Baixo": 21
       },
       "dailyRisk": [
@@ -16877,7 +16877,7 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
+          "avgRisk": 41,
           "events": 52,
           "maxRisk": 69
         }
@@ -16902,8 +16902,8 @@
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 289,
-        "Moderado": 108,
+        "Alto": 290,
+        "Moderado": 107,
         "Baixo": 21
       },
       "dailyRisk": [
@@ -17305,7 +17305,7 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
+          "avgRisk": 41,
           "events": 52,
           "maxRisk": 69
         }
