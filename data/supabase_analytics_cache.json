@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:47:10Z",
+  "updatedAt": "2026-07-31T00:03:42Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -120,6 +120,178 @@
       "storage": "supabase"
     },
     {
+      "event_id": "50fbc2c1274551fe43728a95",
+      "stable_event_id": "50fbc2c1274551fe43728a95",
+      "observation_hash": "d5a587875d08a9aeee4bc190",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T00:03:37+00:00",
+      "first_seen_at": "2026-07-31T00:03:38+00:00",
+      "last_seen_at": "2026-07-31T00:03:37+00:00",
+      "updated_at": "2026-07-31T00:03:38.790509+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-324",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Interdição ou bloqueio por notícia pública • BR-324",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-324",
+      "description": "BR-324 está há 24 dias parcialmente interditada - g1.globo.com.. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - g1.globo.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSi1OUEdXXzhreU9sSzF6c3hXSzNfdEdTUEpOVVZZZVVMZTJuaVpBdFRQQm1zbWt2RjFBYU5rRkNKQlNXeFgyTUl4TUZQMDFCUHBkNlROYUtDck11R2htVHktc01CMnVhRWdwVERuQjVWZkxYR3I0OE1jVmZQbU9vNmpGOVNpY203bTJYZEpJcTIwQmwxUDF0QlhnZWRQdWl2U2ZGQ2RVNFVQYXBQTC1J0gG-AUFVX3lxTE5sQV83N2tvajFHSVJ6a1BCYnI2b0puMnREeTRxams3aThlRkpmZG1MNjYySWIzSk5Yd3RRXzVVN0VGVkJodVdITm9nQWc3bzJhdElVdGx1aW56WUpHYzl0TFhjai0yVVc5SExvVDFzRTF4MERDd2VDV05lU2VsNDZnVmtqLTZTdWxMdVZUY194SVY3QUpPR2hsdXJuVlI5ak0wQTBJQVFQUVF6X3FNZmdZc29yYzktYUNBT1NmQ0E",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSi1OUEdXXzhreU9sSzF6c3hXSzNfdEdTUEpOVVZZZVVMZTJuaVpBdFRQQm1zbWt2RjFBYU5rRkNKQlNXeFgyTUl4TUZQMDFCUHBkNlROYUtDck11R2htVHktc01CMnVhRWdwVERuQjVWZkxYR3I0OE1jVmZQbU9vNmpGOVNpY203bTJYZEpJcTIwQmwxUDF0QlhnZWRQdWl2U2ZGQ2RVNFVQYXBQTC1J0gG-AUFVX3lxTE5sQV83N2tvajFHSVJ6a1BCYnI2b0puMnREeTRxams3aThlRkpmZG1MNjYySWIzSk5Yd3RRXzVVN0VGVkJodVdITm9nQWc3bzJhdElVdGx1aW56WUpHYzl0TFhjai0yVVc5SExvVDFzRTF4MERDd2VDV05lU2VsNDZnVmtqLTZTdWxMdVZUY194SVY3QUpPR2hsdXJuVlI5ak0wQTBJQVFQUVF6X3FNZmdZc29yYzktYUNBT1NmQ0E",
+      "headline": "BR-324 está há 24 dias parcialmente interditada - g1.globo.com.",
+      "sources": [
+        {
+          "source": "Notícias públicas - g1.globo.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSi1OUEdXXzhreU9sSzF6c3hXSzNfdEdTUEpOVVZZZVVMZTJuaVpBdFRQQm1zbWt2RjFBYU5rRkNKQlNXeFgyTUl4TUZQMDFCUHBkNlROYUtDck11R2htVHktc01CMnVhRWdwVERuQjVWZkxYR3I0OE1jVmZQbU9vNmpGOVNpY203bTJYZEpJcTIwQmwxUDF0QlhnZWRQdWl2U2ZGQ2RVNFVQYXBQTC1J0gG-AUFVX3lxTE5sQV83N2tvajFHSVJ6a1BCYnI2b0puMnREeTRxams3aThlRkpmZG1MNjYySWIzSk5Yd3RRXzVVN0VGVkJodVdITm9nQWc3bzJhdElVdGx1aW56WUpHYzl0TFhjai0yVVc5SExvVDFzRTF4MERDd2VDV05lU2VsNDZnVmtqLTZTdWxMdVZUY194SVY3QUpPR2hsdXJuVlI5ak0wQTBJQVFQUVF6X3FNZmdZc29yYzktYUNBT1NmQ0E",
+          "headline": "BR-324 está há 24 dias parcialmente interditada - g1.globo.com.",
+          "date": "2026-07-31T00:03:38.790509+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "0fa1c5e505078ea64ee93de3",
+      "stable_event_id": "0fa1c5e505078ea64ee93de3",
+      "observation_hash": "5facf85229194c05e3eabc66",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T00:03:37+00:00",
+      "first_seen_at": "2026-07-31T00:03:38+00:00",
+      "last_seen_at": "2026-07-31T00:03:37+00:00",
+      "updated_at": "2026-07-31T00:03:38.790509+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-060",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -15.78,
+      "lon": -47.929,
+      "city": "Interdição ou bloqueio por notícia pública • BR-060",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-060",
+      "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis - g1.globo.com.. Fontes consolidadas: Notícias públicas - g1.globo.com + 2 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - g1.globo.com + 2 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
+      "headline": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis - g1.globo.com.",
+      "sources": [
+        {
+          "source": "Notícias públicas - g1.globo.com + 2 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
+          "headline": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis - g1.globo.com.",
+          "date": "2026-07-31T00:03:38.790509+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "aa2670b347130808d4ace717",
+      "stable_event_id": "aa2670b347130808d4ace717",
+      "observation_hash": "26dd31ac15ba0e7fb7860e64",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T00:03:37+00:00",
+      "first_seen_at": "2026-07-30T20:32:09+00:00",
+      "last_seen_at": "2026-07-31T00:03:37+00:00",
+      "updated_at": "2026-07-31T00:03:38.790509+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-277",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Interdição ou bloqueio por notícia pública • BR-277",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-277",
+      "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com.. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - g1.globo.com",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
+      "total_snapshots": 4,
+      "estimated_hours": 1.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
+      "headline": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com.",
+      "sources": [
+        {
+          "source": "Notícias públicas - g1.globo.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
+          "headline": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com.",
+          "date": "2026-07-31T00:03:38.790509+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "b64252a537b72a61bbafa74f",
+      "stable_event_id": "b64252a537b72a61bbafa74f",
+      "observation_hash": "96b68420cf497229f7231ec2",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T00:03:37+00:00",
+      "first_seen_at": "2026-07-30T23:32:14+00:00",
+      "last_seen_at": "2026-07-31T00:03:37+00:00",
+      "updated_at": "2026-07-31T00:03:38.790509+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-381",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Interdição ou bloqueio por notícia pública • BR-381",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-381",
+      "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+      "total_snapshots": 4,
+      "estimated_hours": 1.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+      "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
+          "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.",
+          "date": "2026-07-31T00:03:38.790509+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "01b980b123846d480e622d10",
       "stable_event_id": "01b980b123846d480e622d10",
       "observation_hash": "bf287067f1cff80349cde49c",
@@ -218,63 +390,14 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "b64252a537b72a61bbafa74f",
-      "stable_event_id": "b64252a537b72a61bbafa74f",
-      "observation_hash": "75478481a88dc22132046077",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T23:47:05+00:00",
-      "first_seen_at": "2026-07-30T23:32:14+00:00",
-      "last_seen_at": "2026-07-30T23:47:05+00:00",
-      "updated_at": "2026-07-30T23:47:06.246583+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-381",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -19.916,
-      "lon": -43.934,
-      "city": "Interdição ou bloqueio por notícia pública • BR-381",
-      "state": "",
-      "region": "Sudeste",
-      "road": "BR-381",
-      "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s); Notícias públicas - DeFato Online. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s) + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
-      "total_snapshots": 3,
-      "estimated_hours": 0.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
-      "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.",
-      "sources": [
-        {
-          "source": "Notícias públicas - Jornal Estância de Atibaia + 1 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
-          "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia.",
-          "date": "2026-07-30T23:47:06.246583+00:00"
-        },
-        {
-          "source": "Notícias públicas - DeFato Online",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
-          "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online.",
-          "date": "2026-07-30T05:16:52.198364+00:00"
-        }
-      ],
-      "sourceCount": 2,
-      "dedupedFrom": 3,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
       "event_id": "8630a6a9ee5ad5776983e7f9",
       "stable_event_id": "8630a6a9ee5ad5776983e7f9",
-      "observation_hash": "9fdbc76e217bb2f228b9e300",
+      "observation_hash": "41e489b479ccc6c33071b7ac",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T21:02:17+00:00",
-      "first_seen_at": "2026-07-30T20:32:09+00:00",
-      "last_seen_at": "2026-07-30T21:02:17+00:00",
-      "updated_at": "2026-07-30T21:02:18.440727+00:00",
+      "snapshot_at": "2026-07-30T23:47:05+00:00",
+      "first_seen_at": "2026-07-30T17:32:13+00:00",
+      "last_seen_at": "2026-07-30T23:47:05+00:00",
+      "updated_at": "2026-07-30T23:47:06.246583+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -287,11 +410,11 @@
       "state": "",
       "region": "Sul",
       "road": "BR-277",
-      "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - G1 + 1 fonte(s)",
+      "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
-      "total_snapshots": 3,
-      "estimated_hours": 0.75,
+      "total_snapshots": 29,
+      "estimated_hours": 7.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -303,16 +426,10 @@
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbWlUUnZzSkNfbUV2ckg5eGJfeXhNU1E2czB4aTJ1M2lWXy11cHVKYmZVdGp0bVNOVllBNDRqNXJkWlptZk14UTlKZGMzY2FLTkJabERvWE8xYjdCeE45SjhsLXc4UFQtQUVYb1NhdHJPRDlPZ3ppaW9nU2k2c3l2M2c1U3NieVp4UmVVd0dpRlUwSHlnZlNMM2RFek5lSjdWLXo3R3ZWTExBVUo0ODZtSlJaTlJfSHFCNU4wLVl4am9MWUlkWEU0U01VQ3lqTUwwVGZJVGxUVnprUdIB6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o1",
           "headline": "BR-277 tem pista interditada após tombamento de carreta em Morretes.",
           "date": "2026-07-30T23:47:06.246583+00:00"
-        },
-        {
-          "source": "Notícias públicas - g1.globo.com",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWDJORFRSWElHTG81NzhTN0pIYlhSVGxiQThUcXlxMW1JX3ltX0I5MWFwenpnTWdSakRiUnIzSDhvYmU5SkVucWZRRmZBc1dzQWpScUJQeVZiY1JpUzBRdmlrNEVZeDAtdURBelc5Zk1zZE5nYUhZc0VTQXhyVzVDS0dLamYzV1dSMUFOeFRka010Wlp5Q3FJQ1dmcGtJQkxNUWk0eWlVM1gtd3VCRW1CUjFwd1FsMm5LcFpYUU9zb01hbUVfbWFneEZfcVgyLUNEaGc5RkFyc3ZjdHhKTzl1ZWtRdzVqX1o10gHoAUFVX3lxTE9YMk5EVFJYSUdMbzU3OFM3SkhiWFJUbGJBOFRxeXExbUlfeW1fQjkxYXB6emdNZ1JqRGJScjNIOG9iZTlKRW5xZlFGZkFzV3NBalJxQlB5VmJjUmlTMFF2aWs0RVl4MC11REF6VzlmTXNkTmdhSFlzRVNBeHJXNUNLR0tqZjNXV1IxQU54VGRrTXRaWnlDcUlDV2Zwa0lCTE1RaTR5aVUzWC13dUJFbUJSMXB3UWwybktwWlhRT3NvTWFtRV9tYWd4Rl9xWDItQ0RoZzlGQXJzdmN0eEpPOXVla1F3NWpfWjU",
-          "headline": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com.",
-          "date": "2026-07-30T21:02:18.440727+00:00"
         }
       ],
-      "sourceCount": 2,
-      "dedupedFrom": 2,
+      "sourceCount": 1,
+      "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -405,6 +522,49 @@
       ],
       "sourceCount": 1,
       "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "c3569b677836b50be10e1325",
+      "stable_event_id": "c3569b677836b50be10e1325",
+      "observation_hash": "5e056073eca75c7d7b376283",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-30T03:17:05+00:00",
+      "first_seen_at": "2026-07-29T21:17:11+00:00",
+      "last_seen_at": "2026-07-30T03:17:05+00:00",
+      "updated_at": "2026-07-30T03:17:07.185241+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-381",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -19.916,
+      "lon": -43.934,
+      "city": "Interdição ou bloqueio por notícia pública • BR-381",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-381",
+      "description": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - defatoonline.com.br.. Fontes consolidadas: Notícias públicas - DeFato Online. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - DeFato Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
+      "total_snapshots": 13,
+      "estimated_hours": 3.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
+      "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online.",
+      "sources": [
+        {
+          "source": "Notícias públicas - DeFato Online",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42cjZUTmtldGdXYVlOeXp1QmRWYVNheVlCdEdEMFNtUk5kbU95azFmZjUxS3p3a0NaNjJZdDd4V2JfcXk5MjZteGVnTjNodw",
+          "headline": "Carreta tomba na BR-381 em São Gonçalo do Rio Abaixo; pista é interditada para destombamento - DeFato Online.",
+          "date": "2026-07-30T05:16:52.198364+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -15673,10 +15833,10 @@
       "stable_event_id": "83baaed9d8aede34697da9f3",
       "observation_hash": "61b3311521932c76b2f169bd",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-30T23:47:05+00:00",
+      "snapshot_at": "2026-07-31T00:03:37+00:00",
       "first_seen_at": "2026-05-27T09:16:49+00:00",
-      "last_seen_at": "2026-07-30T23:47:05+00:00",
-      "updated_at": "2026-07-30T23:47:06.246583+00:00",
+      "last_seen_at": "2026-07-31T00:03:37+00:00",
+      "updated_at": "2026-07-31T00:03:38.790509+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15692,8 +15852,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T09:15:19Z; ativo há 64.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1066,
-      "estimated_hours": 266.5,
+      "total_snapshots": 1067,
+      "estimated_hours": 266.75,
       "active": true,
       "storage": "supabase"
     },
@@ -16280,25 +16440,25 @@
   ],
   "windows": {
     "7": {
-      "events": 127,
-      "avgRisk": 47,
+      "events": 131,
+      "avgRisk": 48,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "climate": 89,
-        "road": 38
+        "road": 42
       },
       "byRegion": {
-        "Nordeste": 35,
-        "Sudeste": 35,
-        "Sul": 29,
+        "Sudeste": 37,
+        "Nordeste": 36,
+        "Sul": 30,
         "Norte": 17,
         "Centro-Oeste": 10,
         "Sem região": 1
       },
       "bySeverity": {
         "Moderado": 70,
-        "Alto": 41,
+        "Alto": 45,
         "Baixo": 16
       },
       "dailyRisk": [
@@ -16341,30 +16501,36 @@
         {
           "date": "2026-07-30",
           "avgRisk": 42,
-          "events": 54,
+          "events": 53,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-07-31",
+          "avgRisk": 62,
+          "events": 5,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 236,
-      "avgRisk": 56,
+      "events": 238,
+      "avgRisk": 57,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
-        "road": 142,
+        "road": 144,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 79,
-        "Sul": 66,
-        "Sudeste": 54,
+        "Sul": 67,
+        "Sudeste": 55,
         "Norte": 22,
         "Centro-Oeste": 12,
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 145,
+        "Alto": 147,
         "Moderado": 73,
         "Baixo": 18
       },
@@ -16372,7 +16538,7 @@
         {
           "date": "2026-07-01",
           "avgRisk": 69,
-          "events": 3,
+          "events": 1,
           "maxRisk": 69
         },
         {
@@ -16540,31 +16706,37 @@
         {
           "date": "2026-07-30",
           "avgRisk": 42,
-          "events": 54,
+          "events": 53,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-07-31",
+          "avgRisk": 62,
+          "events": 5,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 410,
+      "events": 414,
       "avgRisk": 59,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 275,
+        "road": 279,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 125,
-        "Sudeste": 101,
-        "Sul": 98,
+        "Nordeste": 126,
+        "Sudeste": 103,
+        "Sul": 99,
         "Norte": 52,
         "Centro-Oeste": 18,
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 281,
+        "Alto": 285,
         "Moderado": 111,
         "Baixo": 18
       },
@@ -16962,7 +17134,13 @@
         {
           "date": "2026-07-30",
           "avgRisk": 42,
-          "events": 54,
+          "events": 53,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-07-31",
+          "avgRisk": 62,
+          "events": 5,
           "maxRisk": 69
         }
       ]
