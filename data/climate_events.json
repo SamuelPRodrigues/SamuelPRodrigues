@@ -2,6 +2,43 @@
   {
     "active": true,
     "type": "climate",
+    "name": "Coari",
+    "region": "Norte",
+    "state": "AM",
+    "lat": -4.085,
+    "lon": -63.141,
+    "risk": 66,
+    "current": {
+      "time": "2026-07-31T05:15",
+      "interval": 900,
+      "temperature_2m": 24.3,
+      "precipitation": 1.4,
+      "rain": 0.2,
+      "showers": 1.2,
+      "wind_speed_10m": 6.8,
+      "wind_gusts_10m": 21.2,
+      "weather_code": 81
+    },
+    "reasons": [
+      "Pancadas de chuva detectadas",
+      "Chuva/precipitação detectada (2.8 mm)"
+    ],
+    "time": "2026-07-31T05:15",
+    "source": "Open-Meteo",
+    "createdAt": "2026-07-31T08:15:20Z",
+    "stable_event_id": "2a591ba3d2b00bb09a289bc8",
+    "event_id": "2a591ba3d2b00bb09a289bc8",
+    "first_seen_at": "2026-05-26T01:15:15Z",
+    "last_seen_at": "2026-07-31T08:17:10Z",
+    "active_duration_hours": 1591.03,
+    "active_duration_label": "66.3 dias",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 66.3 dias."
+  },
+  {
+    "active": true,
+    "type": "climate",
     "name": "Macapá",
     "region": "Norte",
     "state": "AP",
@@ -9,31 +46,31 @@
     "lon": -51.07,
     "risk": 43,
     "current": {
-      "time": "2026-07-31T05:00",
+      "time": "2026-07-31T05:15",
       "interval": 900,
-      "temperature_2m": 23.8,
+      "temperature_2m": 23.7,
       "precipitation": 0.2,
-      "rain": 0.0,
-      "showers": 0.2,
-      "wind_speed_10m": 15.5,
-      "wind_gusts_10m": 28.1,
+      "rain": 0.1,
+      "showers": 0.1,
+      "wind_speed_10m": 15.6,
+      "wind_gusts_10m": 28.4,
       "weather_code": 53
     },
     "reasons": [
       "Garoa detectada",
       "Chuva/precipitação detectada (0.4 mm)"
     ],
-    "time": "2026-07-31T05:00",
+    "time": "2026-07-31T05:15",
     "source": "Open-Meteo",
-    "createdAt": "2026-07-31T08:00:27Z",
+    "createdAt": "2026-07-31T08:15:19Z",
     "stable_event_id": "554021f5434490a857b89c43",
     "event_id": "554021f5434490a857b89c43",
     "first_seen_at": "2026-05-26T02:15:16Z",
-    "last_seen_at": "2026-07-31T08:02:23Z",
-    "active_duration_hours": 1589.79,
-    "active_duration_label": "66.2 dias",
+    "last_seen_at": "2026-07-31T08:17:10Z",
+    "active_duration_hours": 1590.03,
+    "active_duration_label": "66.3 dias",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 66.2 dias."
+    "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 66.3 dias."
   }
 ]
