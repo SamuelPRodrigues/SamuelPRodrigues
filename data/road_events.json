@@ -40,8 +40,11 @@
     "active_duration_hours": 0.84,
     "active_duration_label": "50 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T17:17:12Z",
+    "news_signature": "ca7c73e5537c4fe2ce264128",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motoristas reclamam de acesso bloqueado à Tamarana na PR-445 - Tarobá. Fontes consolidadas: Notícias públicas - Tarobá. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-07-31T14:31:00Z; ativo há 2.8 h.",
+    "description": "Motoristas reclamam de acesso bloqueado à Tamarana na PR-445 - Tarobá. Fontes consolidadas: Notícias públicas - Tarobá. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-07-31T14:31:00Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +87,12 @@
     "active_duration_hours": 2.77,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-445"
+    "detectedRoad": "PR-445",
+    "last_confirmed_at": "2026-07-31T17:17:12Z",
+    "news_signature": "cf12ff55de1845cdbd406af4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente e trânsito é parcialmente interditado na BR-262. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-31T11:14:03Z; ativo há 6.0 h.",
+    "description": "Motociclista morre em acidente e trânsito é parcialmente interditado na BR-262. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-31T11:14:03Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,10 +138,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-31T11:14:03Z",
     "last_seen_at": "2026-07-31T17:17:12Z",
-    "active_duration_hours": 6.05,
-    "active_duration_label": "6.0 h",
+    "active_duration_hours": 6.06,
+    "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T17:17:12Z",
+    "news_signature": "74f480ab892a60402b8ba128",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
