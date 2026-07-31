@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T23:15:01Z",
     "last_seen_at": "2026-07-31T00:03:42Z",
-    "active_duration_hours": 0.81,
+    "active_duration_hours": 0.82,
     "active_duration_label": "49 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T00:03:42Z",
+    "news_signature": "e052a093a60a6fc98ec9be9e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 está há 24 dias parcialmente interditada - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-30T22:41:23Z; ativo há 1.4 h.",
+    "description": "BR-324 está há 24 dias parcialmente interditada - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-07-30T22:41:23Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,12 +89,14 @@
     "newsFreshnessHours": 1.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T22:41:23Z",
-    "last_seen_at": "2026-07-31T00:03:42Z",
-    "active_duration_hours": 1.37,
+    "last_seen_at": "2026-07-31T00:04:01Z",
+    "active_duration_hours": 1.38,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "eaebf83fa54459c1a2490fe4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +108,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 4.3 h.",
+    "description": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - Mais Goiás; Notícias públicas - Rádio São Francisco 97.7 FM - Anápolis. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-30T19:42:40Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -142,12 +147,14 @@
     "newsFreshnessHours": 4.35,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T19:42:40Z",
-    "last_seen_at": "2026-07-31T00:03:42Z",
-    "active_duration_hours": 4.35,
-    "active_duration_label": "4.3 h",
+    "last_seen_at": "2026-07-31T00:04:01Z",
+    "active_duration_hours": 4.36,
+    "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b1837cb11f0683515071b5a3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -159,7 +166,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 7.6 h.",
+    "description": "BR-277 tem pista interditada após tombamento de carreta em Morretes - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-07-30T16:26:01Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -186,11 +193,13 @@
     "newsFreshnessHours": 7.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T16:26:01Z",
-    "last_seen_at": "2026-07-31T00:03:42Z",
+    "last_seen_at": "2026-07-31T00:04:01Z",
     "active_duration_hours": 7.63,
     "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1e67e5ba5e6cf6e9bf1abb49",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
