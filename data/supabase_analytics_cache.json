@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T04:32:04Z",
+  "updatedAt": "2026-07-31T04:45:21Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -122,12 +122,12 @@
     {
       "event_id": "f0f3d523b3384e093a787e27",
       "stable_event_id": "f0f3d523b3384e093a787e27",
-      "observation_hash": "9b618a2edb1e255846fdf0ab",
+      "observation_hash": "994b1c3ee6afda7489daad50",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T04:31:59+00:00",
+      "snapshot_at": "2026-07-31T04:45:15+00:00",
       "first_seen_at": "2026-07-31T04:32:00+00:00",
-      "last_seen_at": "2026-07-31T04:31:59+00:00",
-      "updated_at": "2026-07-31T04:32:00.918615+00:00",
+      "last_seen_at": "2026-07-31T04:45:15+00:00",
+      "updated_at": "2026-07-31T04:45:17.58596+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - jornalestanciadeatibaia.com.br.. Fontes consolidadas: Notícias públicas - jornalestanciadeatibaia.com.br + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - jornalestanciadeatibaia.com.br + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - jornalestanciadeatibaia.com.br + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkY4OUhfTkpmYWoyWGRTUlYtaVFJZkV6eGhMVjQ0cWRYOG1ISi12cEhZV0lCeWRDVDltalFCVjNlQm5uRE4yU0NqaVd2UUVzNDFscXhpNHFMM2tJRkxELXlaZDA0UEtuSGxyVFBJNS0zTzdMRXBBOURsd193Zmxaay02czhEaTQycGlPVHRJclZHblUzMnpEd1ZVVlhuOXd5eG9DdzAwUTBGNnZLLXptZWJhemp0RmsyYmhqSlM4UFY",
           "headline": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - jornalestanciadeatibaia.com.br.",
-          "date": "2026-07-31T04:32:00.918615+00:00"
+          "date": "2026-07-31T04:45:17.58596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -163,14 +163,57 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "9818fa55cca4c34735e717ba",
-      "stable_event_id": "9818fa55cca4c34735e717ba",
-      "observation_hash": "e45c73d7cf4198bef0abc988",
+      "event_id": "39c1283f7330ac380e89d46a",
+      "stable_event_id": "39c1283f7330ac380e89d46a",
+      "observation_hash": "8a71c3baace577058f033bba",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T04:02:29+00:00",
+      "snapshot_at": "2026-07-31T04:45:15+00:00",
+      "first_seen_at": "2026-07-31T04:45:16+00:00",
+      "last_seen_at": "2026-07-31T04:45:15+00:00",
+      "updated_at": "2026-07-31T04:45:17.58596+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-116 / PR-151",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Interdição ou bloqueio por notícia pública • BR-116 / PR-151",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-116 / PR-151",
+      "description": "PR-151 será interditada em Palmeira para desmonte de rocha - band.com.br.. Fontes consolidadas: Notícias públicas - band.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - band.com.br",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzBvU20tTXRqUFZwQlFWSXpZazM1UHhSTlVEMGRHa3BSc3pUclFMSk1rdDhQN0ZwSFE4TzdKZ2xiQjJEbnpRVjVVWVZGWmpPbDNkZ21fcWg4YTRMcXB6WFJJZXRYV1U2N25JRGZXcFdEUUlkY25UeEFiWkN3TG0zY0JHdDlENEpkcWJOTnNUV1paZHg1R2ZHbmVYczRzaEpQdDI5aUpFTkcyUkNGQ0tETFNPRmFLVUE",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzBvU20tTXRqUFZwQlFWSXpZazM1UHhSTlVEMGRHa3BSc3pUclFMSk1rdDhQN0ZwSFE4TzdKZ2xiQjJEbnpRVjVVWVZGWmpPbDNkZ21fcWg4YTRMcXB6WFJJZXRYV1U2N25JRGZXcFdEUUlkY25UeEFiWkN3TG0zY0JHdDlENEpkcWJOTnNUV1paZHg1R2ZHbmVYczRzaEpQdDI5aUpFTkcyUkNGQ0tETFNPRmFLVUE",
+      "headline": "PR-151 será interditada em Palmeira para desmonte de rocha - band.com.br.",
+      "sources": [
+        {
+          "source": "Notícias públicas - band.com.br",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzBvU20tTXRqUFZwQlFWSXpZazM1UHhSTlVEMGRHa3BSc3pUclFMSk1rdDhQN0ZwSFE4TzdKZ2xiQjJEbnpRVjVVWVZGWmpPbDNkZ21fcWg4YTRMcXB6WFJJZXRYV1U2N25JRGZXcFdEUUlkY25UeEFiWkN3TG0zY0JHdDlENEpkcWJOTnNUV1paZHg1R2ZHbmVYczRzaEpQdDI5aUpFTkcyUkNGQ0tETFNPRmFLVUE",
+          "headline": "PR-151 será interditada em Palmeira para desmonte de rocha - band.com.br.",
+          "date": "2026-07-31T04:45:17.58596+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "a70696156a5e5ec6d2d04507",
+      "stable_event_id": "a70696156a5e5ec6d2d04507",
+      "observation_hash": "9a42c4758dff28c862ccb956",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-07-31T04:45:15+00:00",
       "first_seen_at": "2026-07-31T03:32:08+00:00",
-      "last_seen_at": "2026-07-31T04:02:29+00:00",
-      "updated_at": "2026-07-31T04:02:30.856422+00:00",
+      "last_seen_at": "2026-07-31T04:45:15+00:00",
+      "updated_at": "2026-07-31T04:45:17.58596+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -183,22 +226,22 @@
       "state": "",
       "region": "Norte",
       "road": "BR-364",
-      "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - agoramt.com.br.. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Agora MT",
+      "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - agoramt.com.br.. Fontes consolidadas: Notícias públicas - agoramt.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - agoramt.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUmNKOHFXeVFHLXB1SGZoYmJCMjlLVDh0WGZWc2xsVnZJYktqOVZtenY1b3B6NmpfX1YyTHY1bWRYdTIyVFBrRFZWQ1V3TkNudkh2Um0weTBiQXoxNmlQd3AxNFZacFlVQnh5SGdySS1neHRnblNSZXJVNDI5N0hXcXlmaFVKSGt6T2VSaG9aWXp0d2lUbTJUVi1qS3lfbjRmSDRtYng2UFJ2bEt2bTRaUi1wekgtVjJFOGpuelNKdkxPYV91cFg0bWZfTXpWRnlyR1VXaUctT3ZCdE90clE",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUmNKOHFXeVFHLXB1SGZoYmJCMjlLVDh0WGZWc2xsVnZJYktqOVZtenY1b3B6NmpfX1YyTHY1bWRYdTIyVFBrRFZWQ1V3TkNudkh2Um0weTBiQXoxNmlQd3AxNFZacFlVQnh5SGdySS1neHRnblNSZXJVNDI5N0hXcXlmaFVKSGt6T2VSaG9aWXp0d2lUbTJUVi1qS3lfbjRmSDRtYng2UFJ2bEt2bTRaUi1wekgtVjJFOGpuelNKdkxPYV91cFg0bWZfTXpWRnlyR1VXaUctT3ZCdE90clE",
-      "headline": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT.",
+      "headline": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - agoramt.com.br.",
       "sources": [
         {
-          "source": "Notícias públicas - Agora MT",
+          "source": "Notícias públicas - agoramt.com.br",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUmNKOHFXeVFHLXB1SGZoYmJCMjlLVDh0WGZWc2xsVnZJYktqOVZtenY1b3B6NmpfX1YyTHY1bWRYdTIyVFBrRFZWQ1V3TkNudkh2Um0weTBiQXoxNmlQd3AxNFZacFlVQnh5SGdySS1neHRnblNSZXJVNDI5N0hXcXlmaFVKSGt6T2VSaG9aWXp0d2lUbTJUVi1qS3lfbjRmSDRtYng2UFJ2bEt2bTRaUi1wekgtVjJFOGpuelNKdkxPYV91cFg0bWZfTXpWRnlyR1VXaUctT3ZCdE90clE",
-          "headline": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT.",
-          "date": "2026-07-31T04:32:00.918615+00:00"
+          "headline": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - agoramt.com.br.",
+          "date": "2026-07-31T04:45:17.58596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -241,7 +284,7 @@
           "source": "Notícias públicas - G1 + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFo0ZFl6QlA1eDAxTTlvbFo5bXpqTEJUWGN3LVFVaGxTTUZ3ZkQ0UlJpWnQzb2wwa3BFTnNQY0pfRmZrbnVRN3lXc1ZpUmtUcTcwSk1veGtsdG9zeFNnY3RkZjJfTVRPeGg2YWZDZC1SWnlLaHozblNIcVEtZno2SHhiOTVoUm41b3Y4cS1TZ182d1ZjNDZRWFNpX0FtMFBXalZkVkRnQ2tFS2QzOEhUbVB3REJtc2xSYlE1TXpwdnBPOFVjN3ZBQlI0T2ItS0hESi1rYzN4QW5ncndyRE96NdIB7wFBVV95cUxPVDlUaXVSeFYxc1pDRHFOVkhEbGtJQ2x5X0ZiVlpUMHJMcWRTYldJcDluZzJUdm5ZWGlONWd1OVNRaEZfUE03THZyR21DNmtaeXNvemJycGhsNXhFeXY2cXVYNFJuM2ZxQnk0eEdDXzdpTHhuVFkzOFZWa2psSWQ3aWhTeFpPRnoySFFSa1BFb3BYTWZxZEswb004MUJrZW1UWFNVVmVYTkl4VkVDcWFXbV84YXpWdXJST2JTeW1jeExEVllvQTFjeC1TbUR0S001S2ZqSmtQWFpLcFJkNmpqLXg4NDdWUUw3Mm5jaFFaSQ",
           "headline": "Trecho da BR-060 é interditado para remoção de carreta tombada em Terezópolis.",
-          "date": "2026-07-31T04:32:00.918615+00:00"
+          "date": "2026-07-31T04:45:17.58596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -284,7 +327,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSi1OUEdXXzhreU9sSzF6c3hXSzNfdEdTUEpOVVZZZVVMZTJuaVpBdFRQQm1zbWt2RjFBYU5rRkNKQlNXeFgyTUl4TUZQMDFCUHBkNlROYUtDck11R2htVHktc01CMnVhRWdwVERuQjVWZkxYR3I0OE1jVmZQbU9vNmpGOVNpY203bTJYZEpJcTIwQmwxUDF0QlhnZWRQdWl2U2ZGQ2RVNFVQYXBQTC1J0gG-AUFVX3lxTE5sQV83N2tvajFHSVJ6a1BCYnI2b0puMnREeTRxams3aThlRkpmZG1MNjYySWIzSk5Yd3RRXzVVN0VGVkJodVdITm9nQWc3bzJhdElVdGx1aW56WUpHYzl0TFhjai0yVVc5SExvVDFzRTF4MERDd2VDV05lU2VsNDZnVmtqLTZTdWxMdVZUY194SVY3QUpPR2hsdXJuVlI5ak0wQTBJQVFQUVF6X3FNZmdZc29yYzktYUNBT1NmQ0E",
           "headline": "BR-324 está há 24 dias parcialmente interditada.",
-          "date": "2026-07-31T04:32:00.918615+00:00"
+          "date": "2026-07-31T04:45:17.58596+00:00"
         }
       ],
       "sourceCount": 1,
@@ -13290,10 +13333,10 @@
       "stable_event_id": "66e1791f8dbba3841f3d59de",
       "observation_hash": "c41d62fb2b6cac880e292ff5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T04:31:59+00:00",
+      "snapshot_at": "2026-07-31T04:45:15+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-07-31T04:31:59+00:00",
-      "updated_at": "2026-07-31T04:32:00.918615+00:00",
+      "last_seen_at": "2026-07-31T04:45:15+00:00",
+      "updated_at": "2026-07-31T04:45:17.58596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13309,8 +13352,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 64.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1647,
-      "estimated_hours": 411.75,
+      "total_snapshots": 1648,
+      "estimated_hours": 412.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14073,10 +14116,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "61697beb6711561f55ccd9b2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T04:31:59+00:00",
+      "snapshot_at": "2026-07-31T04:45:15+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-07-31T04:31:59+00:00",
-      "updated_at": "2026-07-31T04:32:00.918615+00:00",
+      "last_seen_at": "2026-07-31T04:45:15+00:00",
+      "updated_at": "2026-07-31T04:45:17.58596+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14092,8 +14135,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 66.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2213,
-      "estimated_hours": 553.25,
+      "total_snapshots": 2214,
+      "estimated_hours": 553.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16391,25 +16434,25 @@
   ],
   "windows": {
     "7": {
-      "events": 130,
+      "events": 131,
       "avgRisk": 48,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
         "climate": 89,
-        "road": 41
+        "road": 42
       },
       "byRegion": {
         "Sudeste": 37,
         "Nordeste": 35,
-        "Sul": 29,
+        "Sul": 30,
         "Norte": 18,
         "Centro-Oeste": 10,
         "Sem região": 1
       },
       "bySeverity": {
         "Moderado": 71,
-        "Alto": 44,
+        "Alto": 45,
         "Baixo": 15
       },
       "dailyRisk": [
@@ -16457,31 +16500,31 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 58,
-          "events": 8,
+          "avgRisk": 60,
+          "events": 9,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 237,
+      "events": 238,
       "avgRisk": 57,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
-        "road": 143,
+        "road": 144,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 78,
-        "Sul": 66,
+        "Sul": 67,
         "Sudeste": 55,
         "Norte": 23,
         "Centro-Oeste": 12,
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 146,
+        "Alto": 147,
         "Moderado": 74,
         "Baixo": 17
       },
@@ -16662,32 +16705,32 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 58,
-          "events": 8,
+          "avgRisk": 60,
+          "events": 9,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 413,
+      "events": 414,
       "avgRisk": 59,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 278,
+        "road": 279,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 125,
         "Sudeste": 103,
-        "Sul": 98,
+        "Sul": 99,
         "Norte": 53,
         "Centro-Oeste": 18,
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 284,
+        "Alto": 285,
         "Moderado": 112,
         "Baixo": 17
       },
@@ -17090,8 +17133,8 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 58,
-          "events": 8,
+          "avgRisk": 60,
+          "events": 9,
           "maxRisk": 69
         }
       ]
