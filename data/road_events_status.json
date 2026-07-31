@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:15:33Z",
+  "updatedAt": "2026-07-31T19:30:28Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -119,7 +119,8 @@
         -59.931,
         -3.029
       ],
-      "message": "<urlopen error [Errno 104] Connection reset by peer>"
+      "httpStatus": 403,
+      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
     {
       "bbox": [
@@ -618,7 +619,8 @@
         -49.027,
         -5.278
       ],
-      "message": "<urlopen error [Errno 111] Connection refused>"
+      "httpStatus": 403,
+      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
     {
       "bbox": [
