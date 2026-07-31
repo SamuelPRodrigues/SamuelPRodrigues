@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-07-30T23:15:01Z; ativo há 7.3 h.",
+    "description": "Fernão Dias tem pista interditada após carreta ser tomada pelas chamas em Mairiporã - Jornal Estância de Atibaia. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-07-30T23:15:01Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 7.3,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T06:32:58Z",
+    "news_signature": "8caf7c0d9d75497608f2657c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 está há 24 dias parcialmente interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-30T22:41:23Z; ativo há 7.9 h.",
+    "description": "BR-324 está há 24 dias parcialmente interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-07-30T22:41:23Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T22:41:23Z",
     "last_seen_at": "2026-07-31T06:32:58Z",
-    "active_duration_hours": 7.86,
+    "active_duration_hours": 7.87,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T06:32:58Z",
+    "news_signature": "c23c53d00a017d9d83e32d23",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-151 será interditada em Palmeira para desmonte de rocha - band.com.br. Fontes consolidadas: Notícias públicas - band.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-07-30T20:31:43Z; ativo há 10.0 h.",
+    "description": "PR-151 será interditada em Palmeira para desmonte de rocha - band.com.br. Fontes consolidadas: Notícias públicas - band.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-07-30T20:31:43Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,12 +131,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-30T20:31:43Z",
     "last_seen_at": "2026-07-31T06:32:58Z",
-    "active_duration_hours": 10.02,
+    "active_duration_hours": 10.03,
     "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-151"
+    "detectedRoad": "PR-151",
+    "last_confirmed_at": "2026-07-31T06:32:58Z",
+    "news_signature": "90248b66d1ede56ff1ba6cc5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -142,7 +151,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-07-31T01:17:47Z; ativo há 5.2 h.",
+    "description": "Carreta tomba após motorista perder o controle na BR-364; pista ficou parcialmente interditada em Rondonópolis - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-31T01:17:47Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -170,10 +179,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-31T01:17:47Z",
     "last_seen_at": "2026-07-31T06:32:58Z",
-    "active_duration_hours": 5.25,
-    "active_duration_label": "5.2 h",
+    "active_duration_hours": 5.26,
+    "active_duration_label": "5.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-07-31T06:32:58Z",
+    "news_signature": "c59a2dc7eb068ce17768814a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
