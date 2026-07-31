@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:00:35Z",
+  "updatedAt": "2026-07-31T19:15:33Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -14,9 +14,9 @@
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
   "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 2,
-  "publicFallbackRequestFailures": 1,
-  "publicFallbackRawArticles": 200,
+  "publicFallbackRequestsSucceeded": 3,
+  "publicFallbackRequestFailures": 0,
+  "publicFallbackRawArticles": 212,
   "publicFallbackEventsWritten": 16,
   "publicFallbackSkippedNoCorridor": 0,
   "publicFallbackSkippedReleased": 0,
@@ -119,8 +119,7 @@
         -59.931,
         -3.029
       ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
+      "message": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "bbox": [
@@ -619,8 +618,7 @@
         -49.027,
         -5.278
       ],
-      "httpStatus": 403,
-      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
+      "message": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "bbox": [
@@ -1321,7 +1319,6 @@
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    },
-    "gdelt-fallback: HTTP Error 429: Too Many Requests"
+    }
   ]
 }
