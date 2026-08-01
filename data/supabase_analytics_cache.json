@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-08-01T11:02:08Z",
+  "updatedAt": "2026-08-01T11:17:05Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "91f25bd66eda67407d02f69b",
+      "stable_event_id": "91f25bd66eda67407d02f69b",
+      "observation_hash": "ed8d50fe7b311660ecd32fe9",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rio Branco",
+      "risk": 84,
+      "severity": "Crítico",
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Rio Branco",
+      "state": "AC",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:17Z; ativo há 66.8 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 724,
+      "estimated_hours": 181.0,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -12796,6 +12825,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "706a039baf9413262340d06d",
+      "stable_event_id": "706a039baf9413262340d06d",
+      "observation_hash": "e2d4157c82a5032698276e85",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uruguaiana",
+      "risk": 68,
+      "severity": "Alto",
+      "lat": -29.754,
+      "lon": -57.088,
+      "city": "Uruguaiana",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 67.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1556,
+      "estimated_hours": 389.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "3cc83bf5faf75d60042954f8",
       "stable_event_id": "3cc83bf5faf75d60042954f8",
       "observation_hash": "26f1dc7b7d9d03b8592eeb8a",
@@ -12821,35 +12879,6 @@
       "source_url": "",
       "total_snapshots": 537,
       "estimated_hours": 134.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "91f25bd66eda67407d02f69b",
-      "stable_event_id": "91f25bd66eda67407d02f69b",
-      "observation_hash": "7c166d07f783bd5b36dd2a7a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T11:02:04+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-01T11:02:04+00:00",
-      "updated_at": "2026-08-01T11:02:05.809483+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rio Branco",
-      "risk": 65,
-      "severity": "Alto",
-      "lat": -9.975,
-      "lon": -67.824,
-      "city": "Rio Branco",
-      "state": "AC",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:17Z; ativo há 66.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 723,
-      "estimated_hours": 180.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13227,6 +13256,35 @@
       "source_url": "",
       "total_snapshots": 6,
       "estimated_hours": 1.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "b965f4682984e27879a81223",
+      "stable_event_id": "b965f4682984e27879a81223",
+      "observation_hash": "297865da61e88dcb747950f1",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Vitória da Conquista",
+      "risk": 45,
+      "severity": "Moderado",
+      "lat": -14.861,
+      "lon": -40.844,
+      "city": "Vitória da Conquista",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 67.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 528,
+      "estimated_hours": 132.0,
       "active": true,
       "storage": "supabase"
     },
@@ -13898,35 +13956,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "b965f4682984e27879a81223",
-      "stable_event_id": "b965f4682984e27879a81223",
-      "observation_hash": "4271b8236f2cfd6b057562e6",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T09:02:50+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-01T09:02:50+00:00",
-      "updated_at": "2026-08-01T09:02:51.938671+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Vitória da Conquista",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -14.861,
-      "lon": -40.844,
-      "city": "Vitória da Conquista",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 67.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 527,
-      "estimated_hours": 131.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "1e7b30ba66890a70624ba3de",
       "stable_event_id": "1e7b30ba66890a70624ba3de",
       "observation_hash": "df59c48e72f84b99709d12d7",
@@ -14271,35 +14300,6 @@
       "source_url": "",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "706a039baf9413262340d06d",
-      "stable_event_id": "706a039baf9413262340d06d",
-      "observation_hash": "0bf60b2fb80e82bd00702a99",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T11:02:04+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-01T11:02:04+00:00",
-      "updated_at": "2026-08-01T11:02:05.809483+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uruguaiana",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -29.754,
-      "lon": -57.088,
-      "city": "Uruguaiana",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 67.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1555,
-      "estimated_hours": 388.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15379,12 +15379,12 @@
     {
       "event_id": "40d48191ded0e05536c71277",
       "stable_event_id": "40d48191ded0e05536c71277",
-      "observation_hash": "78e2a67e69ab71e832080f55",
+      "observation_hash": "53aaba00eb3c82bd1c58e238",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T11:02:04+00:00",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
       "first_seen_at": "2026-05-29T17:17:11+00:00",
-      "last_seen_at": "2026-08-01T11:02:04+00:00",
-      "updated_at": "2026-08-01T11:02:05.809483+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15397,11 +15397,11 @@
       "state": "ES",
       "region": "Sudeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 63.7 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 63.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 405,
-      "estimated_hours": 101.25,
+      "total_snapshots": 406,
+      "estimated_hours": 101.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16048,10 +16048,10 @@
       "stable_event_id": "94eba1bea36aeec0d426f14d",
       "observation_hash": "233dc02558db3dbf36112bc3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T11:02:04+00:00",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-08-01T11:02:04+00:00",
-      "updated_at": "2026-08-01T11:02:05.809483+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16067,8 +16067,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 67.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2175,
-      "estimated_hours": 543.75,
+      "total_snapshots": 2176,
+      "estimated_hours": 544.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16164,10 +16164,10 @@
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "6d05d47e410e94b19adc7076",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T11:02:04+00:00",
+      "snapshot_at": "2026-08-01T11:17:01+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-01T11:02:04+00:00",
-      "updated_at": "2026-08-01T11:02:05.809483+00:00",
+      "last_seen_at": "2026-08-01T11:17:01+00:00",
+      "updated_at": "2026-08-01T11:17:02.300328+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16183,8 +16183,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 67.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3082,
-      "estimated_hours": 770.5,
+      "total_snapshots": 3083,
+      "estimated_hours": 770.75,
       "active": true,
       "storage": "supabase"
     },
@@ -16656,8 +16656,8 @@
   "windows": {
     "7": {
       "events": 127,
-      "avgRisk": 46,
-      "maxRisk": 69,
+      "avgRisk": 47,
+      "maxRisk": 84,
       "rainChance": 0,
       "byType": {
         "climate": 89,
@@ -16672,9 +16672,10 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 68,
+        "Moderado": 67,
         "Alto": 40,
-        "Baixo": 19
+        "Baixo": 19,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -16721,16 +16722,16 @@
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 22,
-          "maxRisk": 69
+          "maxRisk": 84
         }
       ]
     },
     "30": {
       "events": 240,
       "avgRisk": 56,
-      "maxRisk": 69,
+      "maxRisk": 84,
       "rainChance": 0,
       "byType": {
         "road": 146,
@@ -16746,8 +16747,9 @@
       },
       "bySeverity": {
         "Alto": 148,
-        "Moderado": 71,
-        "Baixo": 21
+        "Moderado": 70,
+        "Baixo": 21,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -16926,16 +16928,16 @@
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 22,
-          "maxRisk": 69
+          "maxRisk": 84
         }
       ]
     },
     "90": {
       "events": 419,
       "avgRisk": 59,
-      "maxRisk": 78,
+      "maxRisk": 84,
       "rainChance": 25,
       "byType": {
         "road": 284,
@@ -16952,8 +16954,9 @@
       },
       "bySeverity": {
         "Alto": 289,
-        "Moderado": 109,
-        "Baixo": 21
+        "Moderado": 108,
+        "Baixo": 21,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -17360,9 +17363,9 @@
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 22,
-          "maxRisk": 69
+          "maxRisk": 84
         }
       ]
     }
