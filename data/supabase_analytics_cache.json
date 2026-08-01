@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T00:03:43Z",
+  "updatedAt": "2026-08-01T00:17:03Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -122,12 +122,12 @@
     {
       "event_id": "290103f41d364be17e6d22e6",
       "stable_event_id": "290103f41d364be17e6d22e6",
-      "observation_hash": "8271485680f5d991b1a1ce4d",
+      "observation_hash": "f72df87e6c2c7e49a7f7d9c4",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T00:03:38+00:00",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
       "first_seen_at": "2026-07-31T18:37:26+00:00",
-      "last_seen_at": "2026-08-01T00:03:38+00:00",
-      "updated_at": "2026-08-01T00:03:39.632336+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -143,8 +143,8 @@
       "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba.. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CBN Curitiba",
       "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTGpQLUdrNmE4M3Q4a2RPdVJZQThrZlJfOTF3MFNiYWdKUV81cDM0U21LSExnNW9WaloyRWxiRnItWEtjMU9HQTlvdUxLd0lUYXVtakh6QmRHcVFpOXgtVDBIbHk4YkFIRTlYaE9kVVFTamk1blo1X293bFNMWm5yX2VoYW5RMF9lTE41MUwyR00yNG9xdTd6YVp4ZlpXdjNpaE96dDk1OEVrejZtdEJWOTQtUVc2R2QzTk8zazRqX3ZUcmhIRDdURHhfTE1BVnAxWEtOVEdDcmFIWFlmVUtJ",
-      "total_snapshots": 27,
-      "estimated_hours": 6.75,
+      "total_snapshots": 28,
+      "estimated_hours": 7.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - CBN Curitiba",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTGpQLUdrNmE4M3Q4a2RPdVJZQThrZlJfOTF3MFNiYWdKUV81cDM0U21LSExnNW9WaloyRWxiRnItWEtjMU9HQTlvdUxLd0lUYXVtakh6QmRHcVFpOXgtVDBIbHk4YkFIRTlYaE9kVVFTamk1blo1X293bFNMWm5yX2VoYW5RMF9lTE41MUwyR00yNG9xdTd6YVp4ZlpXdjNpaE96dDk1OEVrejZtdEJWOTQtUVc2R2QzTk8zazRqX3ZUcmhIRDdURHhfTE1BVnAxWEtOVEdDcmFIWFlmVUtJ",
           "headline": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba.",
-          "date": "2026-08-01T00:03:39.632336+00:00"
+          "date": "2026-08-01T00:17:00.815019+00:00"
         }
       ],
       "sourceCount": 1,
@@ -12811,6 +12811,64 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "5fa2d3b705b27721ba81a565",
+      "stable_event_id": "5fa2d3b705b27721ba81a565",
+      "observation_hash": "fca78c6ff026ec5dc74a91bf",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Aracaju",
+      "risk": 68,
+      "severity": "Alto",
+      "lat": -10.947,
+      "lon": -37.073,
+      "city": "Aracaju",
+      "state": "SE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 67.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1702,
+      "estimated_hours": 425.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "a5d070240d99ce8959ed5476",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 67,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 66.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2534,
+      "estimated_hours": 633.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "3cc83bf5faf75d60042954f8",
       "stable_event_id": "3cc83bf5faf75d60042954f8",
       "observation_hash": "26f1dc7b7d9d03b8592eeb8a",
@@ -13097,35 +13155,6 @@
       "source_url": "",
       "total_snapshots": 120,
       "estimated_hours": 30.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "554021f5434490a857b89c43",
-      "stable_event_id": "554021f5434490a857b89c43",
-      "observation_hash": "410183aa7b7231048ad4d491",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T18:47:12+00:00",
-      "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-07-31T18:47:12+00:00",
-      "updated_at": "2026-07-31T18:47:14.018699+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Macapá",
-      "risk": 46,
-      "severity": "Moderado",
-      "lat": 0.035,
-      "lon": -51.07,
-      "city": "Macapá",
-      "state": "AP",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 66.7 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2267,
-      "estimated_hours": 566.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13594,6 +13623,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "16af4132e97e98b46886d5b2",
+      "stable_event_id": "16af4132e97e98b46886d5b2",
+      "observation_hash": "f3de830ef083989d075a7dc6",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
+      "first_seen_at": "2026-05-26T23:16:39+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Natal",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -5.795,
+      "lon": -35.209,
+      "city": "Natal",
+      "state": "RN",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 66.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2202,
+      "estimated_hours": 550.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "b9ee95d52b7012057b754707",
@@ -13942,31 +14000,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "32351db9c1a47893713d6d70",
-      "stable_event_id": "32351db9c1a47893713d6d70",
-      "observation_hash": "019809fd50bc4ad3aa480c30",
+      "event_id": "554021f5434490a857b89c43",
+      "stable_event_id": "554021f5434490a857b89c43",
+      "observation_hash": "af1ffba4a0d4ad847963e9f0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T00:03:38+00:00",
-      "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-01T00:03:38+00:00",
-      "updated_at": "2026-08-01T00:03:39.632336+00:00",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
+      "first_seen_at": "2026-05-26T02:17:52+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Arapiraca",
+      "name": "Macapá",
       "risk": 43,
       "severity": "Moderado",
-      "lat": -9.752,
-      "lon": -36.661,
-      "city": "Arapiraca",
-      "state": "AL",
-      "region": "Nordeste",
+      "lat": 0.035,
+      "lon": -51.07,
+      "city": "Macapá",
+      "state": "AP",
+      "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 66.4 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 66.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1297,
-      "estimated_hours": 324.25,
+      "total_snapshots": 2268,
+      "estimated_hours": 567.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14319,35 +14377,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "5fa2d3b705b27721ba81a565",
-      "stable_event_id": "5fa2d3b705b27721ba81a565",
-      "observation_hash": "447113dda825751079589265",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T00:03:38+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-01T00:03:38+00:00",
-      "updated_at": "2026-08-01T00:03:39.632336+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Aracaju",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -10.947,
-      "lon": -37.073,
-      "city": "Aracaju",
-      "state": "SE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 67.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1701,
-      "estimated_hours": 425.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "af769bd0f5b9b44054da5403",
       "stable_event_id": "af769bd0f5b9b44054da5403",
       "observation_hash": "691d14bd0b10f5ac99cfa86b",
@@ -14638,31 +14667,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "82b1d81e95fae35ab9e982df",
+      "event_id": "32351db9c1a47893713d6d70",
+      "stable_event_id": "32351db9c1a47893713d6d70",
+      "observation_hash": "7181400429c90f41c7fafa58",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-01T00:03:38+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-01T00:03:38+00:00",
-      "updated_at": "2026-08-01T00:03:39.632336+00:00",
+      "snapshot_at": "2026-08-01T00:16:59+00:00",
+      "first_seen_at": "2026-05-26T15:17:02+00:00",
+      "last_seen_at": "2026-08-01T00:16:59+00:00",
+      "updated_at": "2026-08-01T00:17:00.815019+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Maceió",
+      "name": "Arapiraca",
       "risk": 41,
       "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
+      "lat": -9.752,
+      "lon": -36.661,
+      "city": "Arapiraca",
       "state": "AL",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 66.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 66.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2533,
-      "estimated_hours": 633.25,
+      "total_snapshots": 1298,
+      "estimated_hours": 324.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16146,35 +16175,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "16af4132e97e98b46886d5b2",
-      "stable_event_id": "16af4132e97e98b46886d5b2",
-      "observation_hash": "01dd5f0963352b04bb029a50",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-07-31T19:49:08+00:00",
-      "first_seen_at": "2026-05-26T23:16:39+00:00",
-      "last_seen_at": "2026-07-31T19:49:08+00:00",
-      "updated_at": "2026-07-31T19:49:09.192746+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Natal",
-      "risk": 14,
-      "severity": "Baixo",
-      "lat": -5.795,
-      "lon": -35.209,
-      "city": "Natal",
-      "state": "RN",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 65.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2201,
-      "estimated_hours": 550.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "706a039baf9413262340d06d",
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "f2cbc70985132c97c9afd5d0",
@@ -16613,7 +16613,7 @@
   "windows": {
     "7": {
       "events": 130,
-      "avgRisk": 47,
+      "avgRisk": 48,
       "maxRisk": 72,
       "rainChance": 0,
       "byType": {
@@ -16629,9 +16629,9 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 69,
-        "Alto": 43,
-        "Baixo": 18
+        "Moderado": 68,
+        "Alto": 45,
+        "Baixo": 17
       },
       "dailyRisk": [
         {
@@ -16672,14 +16672,14 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
-          "events": 48,
+          "avgRisk": 41,
+          "events": 46,
           "maxRisk": 69
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 48,
-          "events": 5,
+          "avgRisk": 54,
+          "events": 7,
           "maxRisk": 69
         }
       ]
@@ -16702,9 +16702,9 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 150,
-        "Moderado": 71,
-        "Baixo": 20
+        "Alto": 152,
+        "Moderado": 70,
+        "Baixo": 19
       },
       "dailyRisk": [
         {
@@ -16877,21 +16877,21 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
-          "events": 48,
+          "avgRisk": 41,
+          "events": 46,
           "maxRisk": 69
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 48,
-          "events": 5,
+          "avgRisk": 54,
+          "events": 7,
           "maxRisk": 69
         }
       ]
     },
     "90": {
       "events": 418,
-      "avgRisk": 59,
+      "avgRisk": 60,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
@@ -16908,9 +16908,9 @@
         "Sem região": 16
       },
       "bySeverity": {
-        "Alto": 289,
-        "Moderado": 109,
-        "Baixo": 20
+        "Alto": 291,
+        "Moderado": 108,
+        "Baixo": 19
       },
       "dailyRisk": [
         {
@@ -17311,14 +17311,14 @@
         },
         {
           "date": "2026-07-31",
-          "avgRisk": 40,
-          "events": 48,
+          "avgRisk": 41,
+          "events": 46,
           "maxRisk": 69
         },
         {
           "date": "2026-08-01",
-          "avgRisk": 48,
-          "events": 5,
+          "avgRisk": 54,
+          "events": 7,
           "maxRisk": 69
         }
       ]

@@ -14,7 +14,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba. Período informado: 2026-07-31T16:53:24Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-07-31T16:53:24Z; ativo há 7.2 h.",
+    "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba. Período informado: 2026-07-31T16:53:24Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-07-31T16:53:24Z; ativo há 7.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-07-31T20:47:01Z",
     "sources": [
       {
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 7.17,
+    "newsFreshnessHours": 7.39,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-31T16:53:24Z",
-    "last_seen_at": "2026-08-01T00:03:43Z",
-    "active_duration_hours": 7.18,
-    "active_duration_label": "7.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-01T00:03:43Z",
-    "news_signature": "6d517352bdb3e05000493e09",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-08-01T00:17:03Z",
+    "active_duration_hours": 7.39,
+    "active_duration_label": "7.4 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
