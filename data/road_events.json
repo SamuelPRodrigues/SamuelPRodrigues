@@ -14,7 +14,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba. Período informado: 2026-07-31T16:53:24Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-07-31T16:53:24Z; ativo há 8.6 h.",
+    "description": "Rodovia do Café está totalmente interditada sentido Ponta Grossa; essa é a segunda interdição do dia na BR 277 - CBN Curitiba. Período informado: 2026-07-31T16:53:24Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-07-31T16:53:24Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -41,12 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.64,
+    "newsFreshnessHours": 8.9,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-07-31T16:53:24Z",
-    "last_seen_at": "2026-08-01T01:32:02Z",
-    "active_duration_hours": 8.64,
-    "active_duration_label": "8.6 h",
+    "last_seen_at": "2026-08-01T01:47:06Z",
+    "active_duration_hours": 8.89,
+    "active_duration_label": "8.9 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
