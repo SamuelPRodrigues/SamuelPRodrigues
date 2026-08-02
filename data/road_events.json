@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-01T19:42:33Z; ativo há 6.1 h.",
+    "description": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-01T19:42:33Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 6.08,
     "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-02T01:47:09Z",
+    "news_signature": "aba2520617f9e853c16ac3e6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de carreta-tanque com etanol provoca bloqueio na BR-163 em Cuiabá - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT; Notícias públicas - sonoticias.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-01T17:23:00Z; ativo há 8.4 h.",
+    "description": "Tombamento de carreta-tanque com etanol provoca bloqueio na BR-163 em Cuiabá - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT; Notícias públicas - sonoticias.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-01T17:23:00Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +95,14 @@
     "newsFreshnessHours": 8.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-01T17:23:00Z",
-    "last_seen_at": "2026-08-02T01:47:09Z",
-    "active_duration_hours": 8.4,
+    "last_seen_at": "2026-08-02T01:47:24Z",
+    "active_duration_hours": 8.41,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "26204262a7016d9d63f36609",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +119,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Motociclista morre ao bater na traseira de carro e pista da BR-277, em Morretes, é totalmente interditada - Banda B. Período informado: 2026-08-01T19:38:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; aRede. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-01T19:38:00Z; ativo há 6.2 h.",
+    "description": "Motociclista morre ao bater na traseira de carro e pista da BR-277, em Morretes, é totalmente interditada - Banda B. Período informado: 2026-08-01T19:38:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; aRede. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-01T19:38:00Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -127,7 +132,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-02T01:45:55Z",
     "sources": [
       {
@@ -151,8 +156,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-01T19:38:00Z",
     "last_seen_at": "2026-08-02T01:47:09Z",
-    "active_duration_hours": 6.15,
+    "active_duration_hours": 6.16,
     "active_duration_label": "6.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-02T01:47:09Z",
+    "news_signature": "00b0bdddb8cfb60c17e07fb1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
