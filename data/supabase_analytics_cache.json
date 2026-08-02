@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-08-02T07:47:15Z",
+  "updatedAt": "2026-08-02T08:02:14Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
-    {
-      "event_id": "2569a381fe8a1abed1056a48",
-      "stable_event_id": "2569a381fe8a1abed1056a48",
-      "observation_hash": "366c5f6024ff13b680a36e4a",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tabatinga",
-      "risk": 85,
-      "severity": "Crítico",
-      "lat": -4.252,
-      "lon": -69.938,
-      "city": "Tabatinga",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 67.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2237,
-      "estimated_hours": 559.25,
-      "active": true,
-      "storage": "supabase"
-    },
     {
       "event_id": "5529e231c37f213b9dff65d6",
       "stable_event_id": "5529e231c37f213b9dff65d6",
@@ -93,12 +64,12 @@
     {
       "event_id": "49952d70355466c3033a9aba",
       "stable_event_id": "49952d70355466c3033a9aba",
-      "observation_hash": "1dd3da6fed93f1ddcfefe43d",
+      "observation_hash": "7d838cbaee8189d18727642f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-08-01T19:46:00+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -114,8 +85,8 @@
       "description": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CBN Curitiba",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
-      "total_snapshots": 53,
-      "estimated_hours": 13.25,
+      "total_snapshots": 54,
+      "estimated_hours": 13.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,7 +97,7 @@
           "source": "Notícias públicas - CBN Curitiba",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
           "headline": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.",
-          "date": "2026-08-02T07:47:11.843556+00:00"
+          "date": "2026-08-02T08:02:11.057513+00:00"
         }
       ],
       "sourceCount": 1,
@@ -12966,6 +12937,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "2569a381fe8a1abed1056a48",
+      "stable_event_id": "2569a381fe8a1abed1056a48",
+      "observation_hash": "9f16d585a8b931e79b62bafe",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tabatinga",
+      "risk": 68,
+      "severity": "Alto",
+      "lat": -4.252,
+      "lon": -69.938,
+      "city": "Tabatinga",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 67.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2238,
+      "estimated_hours": 559.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "3cc83bf5faf75d60042954f8",
       "stable_event_id": "3cc83bf5faf75d60042954f8",
       "observation_hash": "26f1dc7b7d9d03b8592eeb8a",
@@ -12999,10 +12999,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "678df3082a46d23aba1adffb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13018,8 +13018,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 67.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1556,
-      "estimated_hours": 389.0,
+      "total_snapshots": 1557,
+      "estimated_hours": 389.25,
       "active": true,
       "storage": "supabase"
     },
@@ -13840,10 +13840,10 @@
       "stable_event_id": "b965f4682984e27879a81223",
       "observation_hash": "7aa86cd8eb795485dea183c7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13859,8 +13859,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 68.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 596,
-      "estimated_hours": 149.0,
+      "total_snapshots": 597,
+      "estimated_hours": 149.25,
       "active": true,
       "storage": "supabase"
     },
@@ -14449,10 +14449,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "29ed40ea8c1401fcff2003b9",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14468,8 +14468,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 68.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3152,
-      "estimated_hours": 788.0,
+      "total_snapshots": 3153,
+      "estimated_hours": 788.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15725,10 +15725,10 @@
       "stable_event_id": "cc02bf3e90d52279a0836147",
       "observation_hash": "1ce70594f3f32397c703312b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-05-28T18:17:19+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15744,8 +15744,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-28T18:15:22Z; ativo há 65.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 461,
-      "estimated_hours": 115.25,
+      "total_snapshots": 462,
+      "estimated_hours": 115.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15986,10 +15986,10 @@
       "stable_event_id": "888620a50e07c99dc3588172",
       "observation_hash": "570d2719e6c36b50e37a18c1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T07:47:10+00:00",
+      "snapshot_at": "2026-08-02T08:02:09+00:00",
       "first_seen_at": "2026-05-27T01:16:49+00:00",
-      "last_seen_at": "2026-08-02T07:47:10+00:00",
-      "updated_at": "2026-08-02T07:47:11.843556+00:00",
+      "last_seen_at": "2026-08-02T08:02:09+00:00",
+      "updated_at": "2026-08-02T08:02:11.057513+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16005,8 +16005,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T01:15:17Z; ativo há 67.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1112,
-      "estimated_hours": 278.0,
+      "total_snapshots": 1113,
+      "estimated_hours": 278.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16796,35 +16796,28 @@
   ],
   "windows": {
     "7": {
-      "events": 127,
+      "events": 126,
       "avgRisk": 46,
-      "maxRisk": 85,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "climate": 87,
+        "climate": 86,
         "road": 40
       },
       "byRegion": {
         "Nordeste": 36,
-        "Sudeste": 31,
         "Sul": 30,
+        "Sudeste": 30,
         "Norte": 18,
         "Centro-Oeste": 10,
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 64,
-        "Alto": 42,
-        "Baixo": 20,
-        "Crítico": 1
+        "Moderado": 63,
+        "Alto": 43,
+        "Baixo": 20
       },
       "dailyRisk": [
-        {
-          "date": "2026-07-26",
-          "avgRisk": 39,
-          "events": 1,
-          "maxRisk": 39
-        },
         {
           "date": "2026-07-27",
           "avgRisk": 54,
@@ -16863,16 +16856,16 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 48,
+          "avgRisk": 47,
           "events": 29,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     },
     "30": {
       "events": 239,
       "avgRisk": 56,
-      "maxRisk": 85,
+      "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "road": 145,
@@ -16887,10 +16880,9 @@
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 147,
+        "Alto": 148,
         "Moderado": 71,
-        "Baixo": 20,
-        "Crítico": 1
+        "Baixo": 20
       },
       "dailyRisk": [
         {
@@ -17069,16 +17061,16 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 48,
+          "avgRisk": 47,
           "events": 29,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     },
     "90": {
       "events": 422,
       "avgRisk": 59,
-      "maxRisk": 85,
+      "maxRisk": 78,
       "rainChance": 25,
       "byType": {
         "road": 287,
@@ -17094,10 +17086,9 @@
         "Sem região": 17
       },
       "bySeverity": {
-        "Alto": 292,
+        "Alto": 293,
         "Moderado": 109,
-        "Baixo": 20,
-        "Crítico": 1
+        "Baixo": 20
       },
       "dailyRisk": [
         {
@@ -17510,9 +17501,9 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 48,
+          "avgRisk": 47,
           "events": 29,
-          "maxRisk": 85
+          "maxRisk": 69
         }
       ]
     }
