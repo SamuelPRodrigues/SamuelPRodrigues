@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T16:17:22Z",
+  "updatedAt": "2026-08-02T16:33:08Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -60,6 +60,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "823e20bd836474c0529933a4",
+      "stable_event_id": "823e20bd836474c0529933a4",
+      "observation_hash": "9b69adc8aef1f64bdd17b7f9",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
+      "first_seen_at": "2026-08-02T16:33:03+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-060 / GO-403",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -16.686,
+      "lon": -49.264,
+      "city": "Interdição ou bloqueio por notícia pública • BR-060 / GO-403",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-060 / GO-403",
+      "description": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - tribunadoplanalto.com.br.. Fontes consolidadas: Notícias públicas - tribunadoplanalto.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - tribunadoplanalto.com.br",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
+      "headline": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - tribunadoplanalto.com.br.",
+      "sources": [
+        {
+          "source": "Notícias públicas - tribunadoplanalto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
+          "headline": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - tribunadoplanalto.com.br.",
+          "date": "2026-08-02T16:33:03.832144+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "e010a30621a8763e0ca8efd3",
@@ -13129,10 +13172,10 @@
       "stable_event_id": "b965f4682984e27879a81223",
       "observation_hash": "239b73c1df89dc080de99031",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13148,8 +13191,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 68.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 626,
-      "estimated_hours": 156.5,
+      "total_snapshots": 627,
+      "estimated_hours": 156.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13243,12 +13286,12 @@
     {
       "event_id": "770292d906636e18edaa18dc",
       "stable_event_id": "770292d906636e18edaa18dc",
-      "observation_hash": "76d5d898482548dbf4a9c8f4",
+      "observation_hash": "4f729263dbcde79b25d68945",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13261,11 +13304,11 @@
       "state": "BA",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 68.0 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 68.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2347,
-      "estimated_hours": 586.75,
+      "total_snapshots": 2348,
+      "estimated_hours": 587.0,
       "active": true,
       "storage": "supabase"
     },
@@ -13506,10 +13549,10 @@
       "stable_event_id": "bd4769b91543baf1f47de54a",
       "observation_hash": "02a2560f30b2fbe2e015c74d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13525,8 +13568,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T10:15:19Z; ativo há 68.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2210,
-      "estimated_hours": 552.5,
+      "total_snapshots": 2211,
+      "estimated_hours": 552.75,
       "active": true,
       "storage": "supabase"
     },
@@ -13535,10 +13578,10 @@
       "stable_event_id": "888620a50e07c99dc3588172",
       "observation_hash": "adee3640803f694aa3abe706",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
       "first_seen_at": "2026-05-27T01:16:49+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13554,8 +13597,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T01:15:17Z; ativo há 67.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1129,
-      "estimated_hours": 282.25,
+      "total_snapshots": 1130,
+      "estimated_hours": 282.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14434,10 +14477,10 @@
       "stable_event_id": "af769bd0f5b9b44054da5403",
       "observation_hash": "b37cb4292cbffc9d7e18f036",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14453,8 +14496,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:30Z; ativo há 68.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1407,
-      "estimated_hours": 351.75,
+      "total_snapshots": 1408,
+      "estimated_hours": 352.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16692,6 +16735,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "d23eac48b0aafec224fdff66",
+      "stable_event_id": "d23eac48b0aafec224fdff66",
+      "observation_hash": "0e8e41d8024a822eeb951a24",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-02T16:33:02+00:00",
+      "first_seen_at": "2026-06-11T17:17:08+00:00",
+      "last_seen_at": "2026-08-02T16:33:02+00:00",
+      "updated_at": "2026-08-02T16:33:03.832144+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rondonópolis",
+      "risk": 9,
+      "severity": "Baixo",
+      "lat": -16.467,
+      "lon": -54.637,
+      "city": "Rondonópolis",
+      "state": "MT",
+      "region": "Centro-Oeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-11T17:15:27Z; ativo há 52.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 224,
+      "estimated_hours": 56.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "5bbae218e2c2ee7fdd5c168c",
       "stable_event_id": "5bbae218e2c2ee7fdd5c168c",
       "observation_hash": "0f79536213a37952cdd6e3b8",
@@ -16717,35 +16789,6 @@
       "source_url": "",
       "total_snapshots": 458,
       "estimated_hours": 114.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "d23eac48b0aafec224fdff66",
-      "stable_event_id": "d23eac48b0aafec224fdff66",
-      "observation_hash": "c0b7ea87fcb680929ddb1e5b",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:17:17+00:00",
-      "first_seen_at": "2026-06-11T17:17:08+00:00",
-      "last_seen_at": "2026-08-02T16:17:17+00:00",
-      "updated_at": "2026-08-02T16:17:18.424633+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rondonópolis",
-      "risk": 8,
-      "severity": "Baixo",
-      "lat": -16.467,
-      "lon": -54.637,
-      "city": "Rondonópolis",
-      "state": "MT",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-11T17:15:27Z; ativo há 52.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 223,
-      "estimated_hours": 55.75,
       "active": true,
       "storage": "supabase"
     },
@@ -16839,17 +16882,17 @@
   ],
   "windows": {
     "7": {
-      "events": 127,
+      "events": 128,
       "avgRisk": 47,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 86,
-        "road": 41
+        "road": 42
       },
       "byRegion": {
         "Nordeste": 36,
-        "Sudeste": 30,
+        "Sudeste": 31,
         "Sul": 30,
         "Norte": 19,
         "Centro-Oeste": 10,
@@ -16857,7 +16900,7 @@
       },
       "bySeverity": {
         "Moderado": 65,
-        "Alto": 43,
+        "Alto": 44,
         "Baixo": 19
       },
       "dailyRisk": [
@@ -16899,31 +16942,31 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 41,
+          "avgRisk": 46,
+          "events": 42,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 240,
+      "events": 241,
       "avgRisk": 56,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "road": 146,
+        "road": 147,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 76,
         "Sul": 67,
-        "Sudeste": 57,
+        "Sudeste": 58,
         "Norte": 24,
         "Centro-Oeste": 12,
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 148,
+        "Alto": 149,
         "Moderado": 73,
         "Baixo": 19
       },
@@ -17104,32 +17147,32 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 41,
+          "avgRisk": 46,
+          "events": 42,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 423,
+      "events": 424,
       "avgRisk": 59,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 288,
+        "road": 289,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 127,
-        "Sudeste": 105,
+        "Sudeste": 106,
         "Sul": 102,
         "Norte": 54,
         "Centro-Oeste": 18,
         "Sem região": 17
       },
       "bySeverity": {
-        "Alto": 293,
+        "Alto": 294,
         "Moderado": 111,
         "Baixo": 19
       },
@@ -17544,8 +17587,8 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 41,
+          "avgRisk": 46,
+          "events": 42,
           "maxRisk": 69
         }
       ]
