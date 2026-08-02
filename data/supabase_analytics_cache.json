@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T16:04:15Z",
+  "updatedAt": "2026-08-02T16:10:57Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -60,6 +60,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "e010a30621a8763e0ca8efd3",
+      "stable_event_id": "e010a30621a8763e0ca8efd3",
+      "observation_hash": "16ae4eedac8a6191fad40f5e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
+      "first_seen_at": "2026-08-02T16:10:53+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-174",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -3.119,
+      "lon": -60.021,
+      "city": "Interdição ou bloqueio por notícia pública • BR-174",
+      "state": "",
+      "region": "Norte",
+      "road": "BR-174",
+      "description": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico.. Fontes consolidadas: Notícias públicas - portaldoholanda.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - portaldoholanda.com.br",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+      "headline": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico.",
+      "sources": [
+        {
+          "source": "Notícias públicas - portaldoholanda.com.br",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+          "headline": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico.",
+          "date": "2026-08-02T16:10:54.421593+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "6dda8c56e0efafa459a52986",
@@ -13202,10 +13245,10 @@
       "stable_event_id": "770292d906636e18edaa18dc",
       "observation_hash": "76d5d898482548dbf4a9c8f4",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13221,8 +13264,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 68.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2345,
-      "estimated_hours": 586.25,
+      "total_snapshots": 2346,
+      "estimated_hours": 586.5,
       "active": true,
       "storage": "supabase"
     },
@@ -13492,10 +13535,10 @@
       "stable_event_id": "888620a50e07c99dc3588172",
       "observation_hash": "357393c9f033616e41d963c9",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-05-27T01:16:49+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -13511,8 +13554,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T01:15:17Z; ativo há 67.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1127,
-      "estimated_hours": 281.75,
+      "total_snapshots": 1128,
+      "estimated_hours": 282.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14971,10 +15014,10 @@
       "stable_event_id": "484e2113a14711d1e23f0ffa",
       "observation_hash": "7f3feca9d3e6e26b56aab35d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-06-05T19:03:08+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14990,8 +15033,8 @@
       "description": "Rastreio: primeiro registro em 2026-06-05T19:00:41Z; ativo há 57.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 500,
-      "estimated_hours": 125.0,
+      "total_snapshots": 501,
+      "estimated_hours": 125.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15000,10 +15043,10 @@
       "stable_event_id": "e51c4cc1626dd5b66e5a1dde",
       "observation_hash": "8732f8d418e9c11735de4998",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15019,8 +15062,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:18Z; ativo há 68.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 479,
-      "estimated_hours": 119.75,
+      "total_snapshots": 480,
+      "estimated_hours": 120.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16274,12 +16317,12 @@
     {
       "event_id": "c56cab3f7a0e28a25e8b2a73",
       "stable_event_id": "c56cab3f7a0e28a25e8b2a73",
-      "observation_hash": "50cc4afe6fdd242358b428db",
+      "observation_hash": "41f7e7ffeea0bb87639fab84",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-05-31T17:16:47+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16292,11 +16335,11 @@
       "state": "TO",
       "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:14Z; ativo há 62.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:14Z; ativo há 63.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 544,
-      "estimated_hours": 136.0,
+      "total_snapshots": 545,
+      "estimated_hours": 136.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16680,12 +16723,12 @@
     {
       "event_id": "d23eac48b0aafec224fdff66",
       "stable_event_id": "d23eac48b0aafec224fdff66",
-      "observation_hash": "d2e3932db5f882bd19911587",
+      "observation_hash": "c0b7ea87fcb680929ddb1e5b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:03:48+00:00",
+      "snapshot_at": "2026-08-02T16:10:53+00:00",
       "first_seen_at": "2026-06-11T17:17:08+00:00",
-      "last_seen_at": "2026-08-02T16:03:48+00:00",
-      "updated_at": "2026-08-02T16:03:58.406719+00:00",
+      "last_seen_at": "2026-08-02T16:10:53+00:00",
+      "updated_at": "2026-08-02T16:10:54.421593+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16698,11 +16741,11 @@
       "state": "MT",
       "region": "Centro-Oeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-11T17:15:27Z; ativo há 51.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-06-11T17:15:27Z; ativo há 52.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 221,
-      "estimated_hours": 55.25,
+      "total_snapshots": 222,
+      "estimated_hours": 55.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16796,25 +16839,25 @@
   ],
   "windows": {
     "7": {
-      "events": 126,
+      "events": 127,
       "avgRisk": 47,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 86,
-        "road": 40
+        "road": 41
       },
       "byRegion": {
         "Nordeste": 36,
         "Sudeste": 30,
         "Sul": 30,
-        "Norte": 18,
+        "Norte": 19,
         "Centro-Oeste": 10,
         "Sem região": 2
       },
       "bySeverity": {
         "Moderado": 65,
-        "Alto": 42,
+        "Alto": 43,
         "Baixo": 19
       },
       "dailyRisk": [
@@ -16857,30 +16900,30 @@
         {
           "date": "2026-08-02",
           "avgRisk": 45,
-          "events": 39,
+          "events": 40,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 239,
+      "events": 240,
       "avgRisk": 56,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
-        "road": 145,
+        "road": 146,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 76,
         "Sul": 67,
         "Sudeste": 57,
-        "Norte": 23,
+        "Norte": 24,
         "Centro-Oeste": 12,
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 147,
+        "Alto": 148,
         "Moderado": 73,
         "Baixo": 19
       },
@@ -17062,18 +17105,18 @@
         {
           "date": "2026-08-02",
           "avgRisk": 45,
-          "events": 39,
+          "events": 40,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 422,
+      "events": 423,
       "avgRisk": 59,
       "maxRisk": 78,
       "rainChance": 25,
       "byType": {
-        "road": 287,
+        "road": 288,
         "climate": 133,
         "operational": 2
       },
@@ -17081,12 +17124,12 @@
         "Nordeste": 127,
         "Sudeste": 105,
         "Sul": 102,
-        "Norte": 53,
+        "Norte": 54,
         "Centro-Oeste": 18,
         "Sem região": 17
       },
       "bySeverity": {
-        "Alto": 292,
+        "Alto": 293,
         "Moderado": 111,
         "Baixo": 19
       },
@@ -17502,7 +17545,7 @@
         {
           "date": "2026-08-02",
           "avgRisk": 45,
-          "events": 39,
+          "events": 40,
           "maxRisk": 69
         }
       ]

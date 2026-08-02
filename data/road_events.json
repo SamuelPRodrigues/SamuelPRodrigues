@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-174",
+    "road": "BR-174",
+    "corridor": "Manaus • BR-174 / BR-319 / AM-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -3.119,
+    "lon": -60.021,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico. Fontes consolidadas: Notícias públicas - portaldoholanda.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-02T09:33:00Z; ativo há 6.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - portaldoholanda.com.br",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+    "headline": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico",
+    "newsDate": "Sun, 02 Aug 2026 09:33:00 GMT",
+    "updatedAt": "2026-08-02T16:09:42Z",
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+    "sources": [
+      {
+        "source": "Notícias públicas - portaldoholanda.com.br",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxiTXVzWDRia0hUU1hiaWVBRHlNMExWLVh3MmFsaDlNVkV4d2ZrQVpGSWVhTzAxNTJKM3FxQWdkeTBhWmR1V19vcDdMbVhvNHlIV2NJR1hTNmNiblpKSklKSjhPVUxzb0xRVV94bklVY1l5WWctdGxKeFRZQzlpWXJia2lJdkkwR19DZE9wLWE3VGxoUnJ6cmQzTEZ0aGNONV9hUGxSWGRKQUdINDdsNWZYd0M",
+        "headline": "Acidente grave bloqueia a BR-174 e causa congestionamento quilométrico",
+        "date": "Sun, 02 Aug 2026 09:33:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "e010a30621a8763e0ca8efd3",
+    "event_id": "e010a30621a8763e0ca8efd3",
+    "newsFreshnessHours": 6.63,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-02T09:33:00Z",
+    "last_seen_at": "2026-08-02T16:10:57Z",
+    "active_duration_hours": 6.63,
+    "active_duration_label": "6.6 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
