@@ -14,7 +14,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Motociclista morre ao bater em carro e pista da BR-277, em Morretes, é totalmente interditada - aRede - aRede. Período informado: 2026-08-01T19:38:00Z até fim não identificado. Fontes consolidadas: aRede; Banda B. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-01T19:38:00Z; ativo há 7.9 h.",
+    "description": "Motociclista morre ao bater em carro e pista da BR-277, em Morretes, é totalmente interditada - aRede - aRede. Período informado: 2026-08-01T19:38:00Z até fim não identificado. Fontes consolidadas: aRede; Banda B. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-01T19:38:00Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-02T03:17:03Z",
     "sources": [
       {
@@ -51,8 +51,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-01T19:38:00Z",
     "last_seen_at": "2026-08-02T03:34:12Z",
-    "active_duration_hours": 7.94,
-    "active_duration_label": "7.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 7.95,
+    "active_duration_label": "8.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-02T03:34:12Z",
+    "news_signature": "aa98042297a0bffd9dba5bf8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
