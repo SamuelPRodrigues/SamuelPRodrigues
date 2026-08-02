@@ -1,21 +1,14 @@
 {
-  "updatedAt": "2026-08-02T16:04:36Z",
+  "updatedAt": "2026-08-02T16:11:12Z",
   "configured": true,
-  "eventsPrepared": 6,
+  "eventsPrepared": 7,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
   "snapshotBucket": "2026-08-02T16:00Z",
   "eventLifecycleFields": true,
-  "ok": true,
-  "response": {
-    "ok": true,
-    "received": 6,
-    "inserted": 0,
-    "updated": 6,
-    "total_rows": 528
-  },
+  "ok": false,
+  "response": null,
   "analyticsCache": true,
-  "error": null,
-  "analyticsRows": 6,
-  "analyticsCacheWarning": "HTTP Error 404: Not Found"
+  "error": "HTTP 404: <!DOCTYPE html><html lang=\"en\"><head><meta name=\"description\" content=\"Web word processing, presentations and spreadsheets\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0\"><link rel=\"shortcut icon\" href=\"//docs.google.com/favicon.ico\"><title>Page Not Found</title><meta name=\"referrer\" content=\"origin\"><link href=\"//fonts.googleapis.com/css?family=Product+Sans\" rel=\"stylesheet\" type=\"text/css\" nonce=\"FSPj7yT97oEJyALQ46-G",
+  "analyticsRows": 529
 }
