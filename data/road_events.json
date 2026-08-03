@@ -14,7 +14,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - O TEMPO; Notícias públicas - WebTerra. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 9.1 h.",
+    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - O TEMPO; Notícias públicas - WebTerra. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -26,8 +26,8 @@
     "plannedStartAt": "2026-08-03T14:01:29Z",
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
-    "lifecycle_status": "active_recent_public_news",
-    "tracker_reason": "recent_public_news_without_window",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-08-03T17:02:26Z",
     "sources": [
       {
@@ -68,9 +68,11 @@
     "newsFreshnessHours": 9.07,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T14:01:29Z",
-    "active_duration_hours": 9.08,
+    "active_duration_hours": 9.09,
     "active_duration_label": "9.1 h",
-    "last_seen_at": "2026-08-03T23:03:54Z",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-08-03T23:06:37Z",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0acef68f301084b086a9f54b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
