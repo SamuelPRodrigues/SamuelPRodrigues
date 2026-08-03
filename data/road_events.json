@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trânsito na Ponte Ayrton Senna será totalmente bloqueado para obras noturnas nos finais de semana na BR-163 - bandab.com.br. Fontes consolidadas: Notícias públicas - bandab.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-02T19:47:00Z; ativo há 10.0 h.",
+    "description": "Trânsito na Ponte Ayrton Senna será totalmente bloqueado para obras noturnas nos finais de semana na BR-163 - bandab.com.br. Fontes consolidadas: Notícias públicas - bandab.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-02T19:47:00Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 10.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-02T19:47:00Z",
-    "last_seen_at": "2026-08-03T05:47:19Z",
+    "last_seen_at": "2026-08-03T05:47:34Z",
     "active_duration_hours": 10.01,
     "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "04ab9de9bf2dd42c659767e2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
