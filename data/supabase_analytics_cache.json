@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T09:32:16Z",
+  "updatedAt": "2026-08-03T09:46:57Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -89,6 +89,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "cad8d98d76ec05de5f6b490d",
+      "stable_event_id": "cad8d98d76ec05de5f6b490d",
+      "observation_hash": "969b88750eab52d5f3b46b4e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
+      "first_seen_at": "2026-08-03T09:46:50+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-116",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Interdição ou bloqueio por notícia pública • BR-116",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-116",
+      "description": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio.. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Correio",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+      "headline": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+          "headline": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio.",
+          "date": "2026-08-03T09:46:51.248895+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "e9e1ed25a07c6c143551038f",
@@ -13097,17 +13140,17 @@
     {
       "event_id": "554021f5434490a857b89c43",
       "stable_event_id": "554021f5434490a857b89c43",
-      "observation_hash": "400859c5985eda0cdaebfe73",
+      "observation_hash": "4dd5f3f182ae8bb7673c3c44",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T09:32:11+00:00",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-08-03T09:32:11+00:00",
-      "updated_at": "2026-08-03T09:32:12.584056+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Macapá",
-      "risk": 67,
+      "risk": 68,
       "severity": "Alto",
       "lat": 0.035,
       "lon": -51.07,
@@ -13118,8 +13161,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 69.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2313,
-      "estimated_hours": 578.25,
+      "total_snapshots": 2314,
+      "estimated_hours": 578.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14027,10 +14070,10 @@
       "stable_event_id": "b965f4682984e27879a81223",
       "observation_hash": "ca38107724a52edc7fed0d00",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T09:32:11+00:00",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-03T09:32:11+00:00",
-      "updated_at": "2026-08-03T09:32:12.584056+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14046,8 +14089,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 69.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 635,
-      "estimated_hours": 158.75,
+      "total_snapshots": 636,
+      "estimated_hours": 159.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14719,6 +14762,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "d988af0ef7b95a9b5f251e76",
+      "stable_event_id": "d988af0ef7b95a9b5f251e76",
+      "observation_hash": "46b75c664656908b0be974f2",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Recife",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -8.047,
+      "lon": -34.877,
+      "city": "Recife",
+      "state": "PE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 69.4 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 3226,
+      "estimated_hours": 806.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "16af4132e97e98b46886d5b2",
       "stable_event_id": "16af4132e97e98b46886d5b2",
       "observation_hash": "fa9207b2daefeb39e0ce7217",
@@ -15121,35 +15193,6 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "d988af0ef7b95a9b5f251e76",
-      "stable_event_id": "d988af0ef7b95a9b5f251e76",
-      "observation_hash": "fea0bde85d9336ea4f0c14e4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T09:32:11+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-03T09:32:11+00:00",
-      "updated_at": "2026-08-03T09:32:12.584056+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Recife",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -8.047,
-      "lon": -34.877,
-      "city": "Recife",
-      "state": "PE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 69.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 3225,
-      "estimated_hours": 806.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15593,10 +15636,10 @@
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "abf8d3a0d4a01c7e3f425440",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T09:32:11+00:00",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-03T09:32:11+00:00",
-      "updated_at": "2026-08-03T09:32:12.584056+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15612,8 +15655,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 69.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2623,
-      "estimated_hours": 655.75,
+      "total_snapshots": 2624,
+      "estimated_hours": 656.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16318,10 +16361,10 @@
       "stable_event_id": "0f986b9712abda4875a2f612",
       "observation_hash": "55c526e59bf6d3a945bae679",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T09:32:11+00:00",
+      "snapshot_at": "2026-08-03T09:46:49+00:00",
       "first_seen_at": "2026-06-10T19:17:03+00:00",
-      "last_seen_at": "2026-08-03T09:32:11+00:00",
-      "updated_at": "2026-08-03T09:32:12.584056+00:00",
+      "last_seen_at": "2026-08-03T09:46:49+00:00",
+      "updated_at": "2026-08-03T09:46:51.248895+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16337,8 +16380,8 @@
       "description": "Rastreio: primeiro registro em 2026-06-10T19:15:22Z; ativo há 53.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 240,
-      "estimated_hours": 60.0,
+      "total_snapshots": 241,
+      "estimated_hours": 60.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16925,16 +16968,16 @@
   ],
   "windows": {
     "7": {
-      "events": 129,
+      "events": 130,
       "avgRisk": 48,
       "maxRisk": 86,
       "rainChance": 0,
       "byType": {
         "climate": 86,
-        "road": 43
+        "road": 44
       },
       "byRegion": {
-        "Nordeste": 36,
+        "Nordeste": 37,
         "Sudeste": 31,
         "Sul": 30,
         "Norte": 19,
@@ -16943,7 +16986,7 @@
       },
       "bySeverity": {
         "Moderado": 65,
-        "Alto": 45,
+        "Alto": 46,
         "Baixo": 18,
         "Crítico": 1
       },
@@ -16992,23 +17035,23 @@
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 48,
-          "events": 15,
+          "avgRisk": 50,
+          "events": 16,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 238,
-      "avgRisk": 56,
+      "events": 239,
+      "avgRisk": 57,
       "maxRisk": 86,
       "rainChance": 0,
       "byType": {
-        "road": 144,
+        "road": 145,
         "climate": 94
       },
       "byRegion": {
-        "Nordeste": 76,
+        "Nordeste": 77,
         "Sul": 65,
         "Sudeste": 58,
         "Norte": 22,
@@ -17016,7 +17059,7 @@
         "Sem região": 5
       },
       "bySeverity": {
-        "Alto": 146,
+        "Alto": 147,
         "Moderado": 73,
         "Baixo": 18,
         "Crítico": 1
@@ -17198,24 +17241,24 @@
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 48,
-          "events": 15,
+          "avgRisk": 50,
+          "events": 16,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 425,
+      "events": 426,
       "avgRisk": 60,
       "maxRisk": 86,
       "rainChance": 25,
       "byType": {
-        "road": 290,
+        "road": 291,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 127,
+        "Nordeste": 128,
         "Sudeste": 106,
         "Sul": 102,
         "Norte": 54,
@@ -17223,7 +17266,7 @@
         "Sem região": 18
       },
       "bySeverity": {
-        "Alto": 295,
+        "Alto": 296,
         "Moderado": 111,
         "Baixo": 18,
         "Crítico": 1
@@ -17645,8 +17688,8 @@
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 48,
-          "events": 15,
+          "avgRisk": 50,
+          "events": 16,
           "maxRisk": 69
         }
       ]

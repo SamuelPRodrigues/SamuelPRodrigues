@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116",
+    "road": "BR-116",
+    "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.266,
+    "lon": -38.966,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-03T09:30:00Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Jornal Correio",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+    "headline": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio",
+    "newsDate": "Mon, 03 Aug 2026 09:30:00 GMT",
+    "updatedAt": "2026-08-03T09:45:39Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+    "sources": [
+      {
+        "source": "Notícias públicas - Jornal Correio",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZxbVpQX2JwUEtKYkl6Vy1BRFdNMG5LWnc3Yk1ZNmpDQk1CMlZxWjlZVTREWjhYUzhZOFZtakFUTWpVQlJ6cE5BbEN5d0lVZC1pUF9NNjdSc3JPX0dGZmtuVHhsT2dyaGxwbGNTVEYyRUc5bEJkcFYtNnVNbkdGWjVOWmllTjJkaFdrRjh0ZkpFT3VVUWt1UjVTcGVBQzJ1UzBJdDR4ME9JVVlVWV9CVll1Rlk2Y3l1Wk1GblJTNmZoQQ",
+        "headline": "Trecho da BR-116 é interditado após acidente entre duas carretas na Bahia - Jornal Correio",
+        "date": "Mon, 03 Aug 2026 09:30:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "cad8d98d76ec05de5f6b490d",
+    "event_id": "cad8d98d76ec05de5f6b490d",
+    "newsFreshnessHours": 0.28,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-03T09:30:00Z",
+    "last_seen_at": "2026-08-03T09:46:57Z",
+    "active_duration_hours": 0.28,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
