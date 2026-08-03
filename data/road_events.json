@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 3.3 h.",
+    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T15:57:00Z",
     "last_seen_at": "2026-08-03T19:17:03Z",
-    "active_duration_hours": 3.33,
-    "active_duration_label": "3.3 h",
+    "active_duration_hours": 3.35,
+    "active_duration_label": "3.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-486"
+    "detectedRoad": "PR-486",
+    "last_confirmed_at": "2026-08-03T19:17:03Z",
+    "news_signature": "1e4a5896e6cb72976ed22c7c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre dois caminhões mata motorista e bloqueia a BR-282 na subida da Serra em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-03T10:38:45Z; ativo há 8.6 h.",
+    "description": "Acidente entre dois caminhões mata motorista e bloqueia a BR-282 na subida da Serra em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-03T10:38:45Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T10:38:45Z",
     "last_seen_at": "2026-08-03T19:17:03Z",
-    "active_duration_hours": 8.64,
-    "active_duration_label": "8.6 h",
+    "active_duration_hours": 8.65,
+    "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-03T19:17:03Z",
+    "news_signature": "e0495b373cd4ccff3ef62d94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 NA BAHIA TEM TRECHO INTERDITADO APÓS ACIDENTE COM CARRETAS - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-03T10:37:00Z; ativo há 8.7 h.",
+    "description": "BR-116 NA BAHIA TEM TRECHO INTERDITADO APÓS ACIDENTE COM CARRETAS - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-03T10:37:00Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,12 +137,14 @@
     "newsFreshnessHours": 8.67,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T10:37:00Z",
-    "last_seen_at": "2026-08-03T19:17:03Z",
-    "active_duration_hours": 8.67,
+    "last_seen_at": "2026-08-03T19:17:22Z",
+    "active_duration_hours": 8.68,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1a24294e8972da7fa03bd457",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +156,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-403 é interditada após tombamento de caminhão com combustível deixar pista escorregadia; veja desvios. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Planalto; Notícias públicas - Diário da Manhã; Notícias públicas - Daqui. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-03T09:45:33Z; ativo há 9.5 h.",
+    "description": "GO-403 é interditada após tombamento de caminhão com combustível deixar pista escorregadia; veja desvios. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Planalto; Notícias públicas - Diário da Manhã; Notícias públicas - Daqui. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-03T09:45:33Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -194,12 +202,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T09:45:33Z",
     "last_seen_at": "2026-08-03T19:17:03Z",
-    "active_duration_hours": 9.53,
+    "active_duration_hours": 9.54,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-403"
+    "detectedRoad": "GO-403",
+    "last_confirmed_at": "2026-08-03T19:17:03Z",
+    "news_signature": "4abad6f27abfbb2bdb9a7e9a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -216,7 +227,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - WebTerra; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 5.3 h.",
+    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - WebTerra; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -229,7 +240,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-03T17:02:26Z",
     "sources": [
       {
@@ -271,8 +282,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T14:01:29Z",
     "last_seen_at": "2026-08-03T19:17:03Z",
-    "active_duration_hours": 5.26,
+    "active_duration_hours": 5.28,
     "active_duration_label": "5.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-03T19:17:03Z",
+    "news_signature": "69f1728768ae2d7dcc6a4003",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
