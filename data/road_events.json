@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Trecho da BR-101 será totalmente interditado durante a madrugada em Balneário Camboriú - sctododia. Fontes consolidadas: Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-03T19:32:58Z; ativo há 14 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - sctododia",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnlwa3RJUVNzZEg1TzdSUXA4TXZfU0xuVlB1eU5IN3dNVjBZNlcwUk13ZmJHX3RGSlFmeldjUXhjT0Y4VjBCdzBnQTJ5QXNXX1ZoeGhfUjVETlhWT0VhRExYV0VGblQ3QUJ2bDJoN2Rjdmh0Y01DMVFIUlZzaG9MLXZZTGRoNEdTZmRvLVdiZEp5LXNMUVRCdThYUVpGMWxsSDRqZmNNamxDckRBaVdyUjZ3cw",
+    "headline": "Trecho da BR-101 será totalmente interditado durante a madrugada em Balneário Camboriú - sctododia",
+    "newsDate": "Mon, 03 Aug 2026 19:32:58 GMT",
+    "updatedAt": "2026-08-03T19:45:57Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnlwa3RJUVNzZEg1TzdSUXA4TXZfU0xuVlB1eU5IN3dNVjBZNlcwUk13ZmJHX3RGSlFmeldjUXhjT0Y4VjBCdzBnQTJ5QXNXX1ZoeGhfUjVETlhWT0VhRExYV0VGblQ3QUJ2bDJoN2Rjdmh0Y01DMVFIUlZzaG9MLXZZTGRoNEdTZmRvLVdiZEp5LXNMUVRCdThYUVpGMWxsSDRqZmNNamxDckRBaVdyUjZ3cw",
+    "sources": [
+      {
+        "source": "Notícias públicas - sctododia",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnlwa3RJUVNzZEg1TzdSUXA4TXZfU0xuVlB1eU5IN3dNVjBZNlcwUk13ZmJHX3RGSlFmeldjUXhjT0Y4VjBCdzBnQTJ5QXNXX1ZoeGhfUjVETlhWT0VhRExYV0VGblQ3QUJ2bDJoN2Rjdmh0Y01DMVFIUlZzaG9MLXZZTGRoNEdTZmRvLVdiZEp5LXNMUVRCdThYUVpGMWxsSDRqZmNNamxDckRBaVdyUjZ3cw",
+        "headline": "Trecho da BR-101 será totalmente interditado durante a madrugada em Balneário Camboriú - sctododia",
+        "date": "Mon, 03 Aug 2026 19:32:58 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "ed516a866377f3faa92f66f8",
+    "event_id": "ed516a866377f3faa92f66f8",
+    "newsFreshnessHours": 0.24,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-03T19:32:58Z",
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 0.24,
+    "active_duration_label": "14 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-116 / PR-486",
     "road": "BR-116 / PR-486",
     "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
@@ -9,43 +53,40 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 3.6 h.",
+    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - cgn.inf.br. Fontes consolidadas: Notícias públicas - cgn.inf.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - CGN",
+    "source": "Notícias públicas - cgn.inf.br",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnlSeVktYl9hb2xib1V2WG9EVEhNbHJIYkszQXpEeHlNeTk5ZFJKWmJqN3FyckdxQXVTenhuSmw1aGF1Q0tvSzNXWE9HdFlxWjJTVy15NWo4dmY4THl5UG5tSWhTWHZmeWdhN2pPZTBwaWZXVmpUWU13VkhOMzFDZUdjN0RNX1J1NWdxSGlGYXR0eWdJcmdoVW1RWDZNMG52empNSjZCRFpLZHNEdldzall30gG3AUFVX3lxTE5aOVpwRjJzY1EwVjhyYWI0anJFS01LNzJ0a3AweGlIMFJHX2NqRURuaDFsbjhTXzdxUkFRQjdYSEZYeVcxRjVabVJZYS1FV21TcHVXM3VtR1daR0o5V052QmExZWE2WXBiWFVBLXFvLVJGaEdwSUc1RG1lbTEwT3Q5bUtCUjc2NUhIQ0JZeHBWeXBabWppVGJJOGgwLUpCUWNYR0FzaWZneHhOaGNZX1hUSS1NdkMtRQ",
-    "headline": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN",
+    "headline": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - cgn.inf.br",
     "newsDate": "Mon, 03 Aug 2026 15:57:00 GMT",
-    "updatedAt": "2026-08-03T19:31:05Z",
+    "updatedAt": "2026-08-03T19:45:57Z",
     "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnlSeVktYl9hb2xib1V2WG9EVEhNbHJIYkszQXpEeHlNeTk5ZFJKWmJqN3FyckdxQXVTenhuSmw1aGF1Q0tvSzNXWE9HdFlxWjJTVy15NWo4dmY4THl5UG5tSWhTWHZmeWdhN2pPZTBwaWZXVmpUWU13VkhOMzFDZUdjN0RNX1J1NWdxSGlGYXR0eWdJcmdoVW1RWDZNMG52empNSjZCRFpLZHNEdldzall30gG3AUFVX3lxTE5aOVpwRjJzY1EwVjhyYWI0anJFS01LNzJ0a3AweGlIMFJHX2NqRURuaDFsbjhTXzdxUkFRQjdYSEZYeVcxRjVabVJZYS1FV21TcHVXM3VtR1daR0o5V052QmExZWE2WXBiWFVBLXFvLVJGaEdwSUc1RG1lbTEwT3Q5bUtCUjc2NUhIQ0JZeHBWeXBabWppVGJJOGgwLUpCUWNYR0FzaWZneHhOaGNZX1hUSS1NdkMtRQ",
     "sources": [
       {
-        "source": "Notícias públicas - CGN",
+        "source": "Notícias públicas - cgn.inf.br",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnlSeVktYl9hb2xib1V2WG9EVEhNbHJIYkszQXpEeHlNeTk5ZFJKWmJqN3FyckdxQXVTenhuSmw1aGF1Q0tvSzNXWE9HdFlxWjJTVy15NWo4dmY4THl5UG5tSWhTWHZmeWdhN2pPZTBwaWZXVmpUWU13VkhOMzFDZUdjN0RNX1J1NWdxSGlGYXR0eWdJcmdoVW1RWDZNMG52empNSjZCRFpLZHNEdldzall30gG3AUFVX3lxTE5aOVpwRjJzY1EwVjhyYWI0anJFS01LNzJ0a3AweGlIMFJHX2NqRURuaDFsbjhTXzdxUkFRQjdYSEZYeVcxRjVabVJZYS1FV21TcHVXM3VtR1daR0o5V052QmExZWE2WXBiWFVBLXFvLVJGaEdwSUc1RG1lbTEwT3Q5bUtCUjc2NUhIQ0JZeHBWeXBabWppVGJJOGgwLUpCUWNYR0FzaWZneHhOaGNZX1hUSS1NdkMtRQ",
-        "headline": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN",
+        "headline": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - cgn.inf.br",
         "date": "Mon, 03 Aug 2026 15:57:00 GMT"
       }
     ],
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "808e1d7d724488e957c30d31",
-    "event_id": "808e1d7d724488e957c30d31",
-    "newsFreshnessHours": 3.59,
+    "stable_event_id": "00946ca33327be311af23762",
+    "event_id": "00946ca33327be311af23762",
+    "newsFreshnessHours": 3.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T15:57:00Z",
-    "last_seen_at": "2026-08-03T19:32:21Z",
-    "active_duration_hours": 3.6,
-    "active_duration_label": "3.6 h",
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 3.84,
+    "active_duration_label": "3.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-486",
-    "last_confirmed_at": "2026-08-03T19:32:21Z",
-    "news_signature": "1e4a5896e6cb72976ed22c7c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "PR-486"
   },
   {
     "active": true,
@@ -57,7 +98,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre dois caminhões mata motorista e bloqueia a BR-282 na subida da Serra em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-03T10:38:45Z; ativo há 8.9 h.",
+    "description": "Acidente entre dois caminhões mata motorista e bloqueia a BR-282 na subida da Serra em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-03T10:38:45Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -66,7 +107,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTjdPblQwX2lqbUpCejV5eUJBV2ZENm9ZeXBBaXYtUi1qZ1pMZW5YTmJSMHVNNEpLY3Q0bFpkY011eDNURldEQUFlRmZIQUtDS0dMSWxFajVtUWJBZ2NGQzJyY3c5QTV3OHNKbUMwLVNXTkZ3LW4xa1Z4VW9pMHl2Y1FPbnhFS3RqalpyenZYQ1hEV3E2LXFva3hYclJuSUFFc2JKVw",
     "headline": "Acidente entre dois caminhões mata motorista e bloqueia a BR-282 na subida da Serra em SC - ND Mais",
     "newsDate": "Mon, 03 Aug 2026 10:38:45 GMT",
-    "updatedAt": "2026-08-03T19:31:05Z",
+    "updatedAt": "2026-08-03T19:45:57Z",
     "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTjdPblQwX2lqbUpCejV5eUJBV2ZENm9ZeXBBaXYtUi1qZ1pMZW5YTmJSMHVNNEpLY3Q0bFpkY011eDNURldEQUFlRmZIQUtDS0dMSWxFajVtUWJBZ2NGQzJyY3c5QTV3OHNKbUMwLVNXTkZ3LW4xa1Z4VW9pMHl2Y1FPbnhFS3RqalpyenZYQ1hEV3E2LXFva3hYclJuSUFFc2JKVw",
     "sources": [
       {
@@ -81,18 +122,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "edad8ac1e1bfbe520669cfee",
     "event_id": "edad8ac1e1bfbe520669cfee",
-    "newsFreshnessHours": 8.89,
+    "newsFreshnessHours": 9.14,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T10:38:45Z",
-    "last_seen_at": "2026-08-03T19:32:21Z",
-    "active_duration_hours": 8.91,
-    "active_duration_label": "8.9 h",
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 9.14,
+    "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-03T19:32:21Z",
-    "news_signature": "e0495b373cd4ccff3ef62d94",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -104,7 +142,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 NA BAHIA TEM TRECHO INTERDITADO APÓS ACIDENTE COM CARRETAS - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-03T10:37:00Z; ativo há 8.9 h.",
+    "description": "BR-116 NA BAHIA TEM TRECHO INTERDITADO APÓS ACIDENTE COM CARRETAS - - Bahia Economica. Fontes consolidadas: Notícias públicas - - Bahia Economica; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-03T10:37:00Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -113,7 +151,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZnaFZPVzlKc2pRcURkNUZVbzR0cTBYalpYczcwZkVrZ2xPZmZORkRPRkJCYXV2TThjQUg0eno1RTlaUF9jTV9OalhCTUREY1dqUVhEbHlWYTRFdkl2QjRnRnNKYkVmUDdtWDUyLWZhb0pLSXlBN0NPWDEzdEd0dzRMMC12RGdRYlZqTDlRYUxzdWFrbHg1eVVYb0ZJdkthSHlXSW84WG5ZTy1wRllJ",
     "headline": "BR-116 NA BAHIA TEM TRECHO INTERDITADO APÓS ACIDENTE COM CARRETAS - - Bahia Economica",
     "newsDate": "Mon, 03 Aug 2026 10:37:00 GMT",
-    "updatedAt": "2026-08-03T19:31:05Z",
+    "updatedAt": "2026-08-03T19:45:57Z",
     "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZnaFZPVzlKc2pRcURkNUZVbzR0cTBYalpYczcwZkVrZ2xPZmZORkRPRkJCYXV2TThjQUg0eno1RTlaUF9jTV9OalhCTUREY1dqUVhEbHlWYTRFdkl2QjRnRnNKYkVmUDdtWDUyLWZhb0pLSXlBN0NPWDEzdEd0dzRMMC12RGdRYlZqTDlRYUxzdWFrbHg1eVVYb0ZJdkthSHlXSW84WG5ZTy1wRllJ",
     "sources": [
       {
@@ -134,18 +172,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "d0e470e026a344fe8675e8ea",
     "event_id": "d0e470e026a344fe8675e8ea",
-    "newsFreshnessHours": 8.92,
+    "newsFreshnessHours": 9.17,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T10:37:00Z",
-    "last_seen_at": "2026-08-03T19:32:21Z",
-    "active_duration_hours": 8.94,
-    "active_duration_label": "8.9 h",
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 9.17,
+    "active_duration_label": "9.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-03T19:32:21Z",
-    "news_signature": "1a24294e8972da7fa03bd457",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -157,16 +192,16 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-403 é interditada após tombamento de caminhão com combustível deixar pista escorregadia; veja desvios. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Planalto; Notícias públicas - Diário da Manhã; Notícias públicas - Portal 6; Notícias públicas - Daqui. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-03T09:45:33Z; ativo há 9.8 h.",
+    "description": "GO-403 é interditada após tombamento de caminhão com combustível deixar pista escorregadia; veja desvios. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Tribuna do Planalto; Notícias públicas - Diário da Manhã; Notícias públicas - Daqui. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-03T09:45:33Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - G1 + 4 fonte(s)",
+    "source": "Notícias públicas - G1 + 3 fonte(s)",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMzRFWV9sSzFiLW14ajZIaERSLTJXa1VMWlZINGNqZXlvbnRzbU9RTjBGV1lpZ1FqblNZcUVsMlVOUVB4LUd1SEtkTGQzRDl5MlZvbmRwODlpZHJQNTRfTXlaOXo2LXNLdGluSllmdkdMNWFYU1hfU0g1OHNnSlExV080ZEk3dS10a2JLXzdqSlByU3ZfRlFRczJhdE0wMlA2Ylc4bTJpMHNpUWFjdjRhdk5nWVJYWXJ1SUpWZUNBdEVIYmI2bUxCSHVIZW80TlJuVjNCZ3VQdEpLNS1wbEdLMW5uVlFkNlFkTVFTTjRpRdIB_gFBVV95cUxPekg1WE5LRzRaelZPcVlkTjByY0RPRDVkZDhFaG5Eb1RjMkV5WTBEUWJnZXpmWmxkdHZCNk1pVWZ5LXpXX3Z4MmxZS2lGVzFIUW5TeGdMczlnZjNPSDJ6TWhUZDhkNkczSGotc2x0YTVVMUFjR09FZjZkNFZMWW5QM05MMUlxU2R0azJ6VHZUV1NEdFNoU3NQaEJBRVlyb0Z6czZtZVl5Mi1sZnpIRm03QkktdTZraGctZjRtUmd5Wll0d0k0YURqbkRucUs4TU5Pc2E4b3pRdEt4U1hjRW95VlZXODRpZVdpR2h4SEZwTzNDX1A5N3V6MXVfeFd0Zw",
     "headline": "GO-403 é interditada após tombamento de caminhão com combustível deixar pista escorregadia; veja desvios",
     "newsDate": "Mon, 03 Aug 2026 09:45:33 GMT",
-    "updatedAt": "2026-08-03T19:31:05Z",
+    "updatedAt": "2026-08-03T19:45:57Z",
     "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMzRFWV9sSzFiLW14ajZIaERSLTJXa1VMWlZINGNqZXlvbnRzbU9RTjBGV1lpZ1FqblNZcUVsMlVOUVB4LUd1SEtkTGQzRDl5MlZvbmRwODlpZHJQNTRfTXlaOXo2LXNLdGluSllmdkdMNWFYU1hfU0g1OHNnSlExV080ZEk3dS10a2JLXzdqSlByU3ZfRlFRczJhdE0wMlA2Ylc4bTJpMHNpUWFjdjRhdk5nWVJYWXJ1SUpWZUNBdEVIYmI2bUxCSHVIZW80TlJuVjNCZ3VQdEpLNS1wbEdLMW5uVlFkNlFkTVFTTjRpRdIB_gFBVV95cUxPekg1WE5LRzRaelZPcVlkTjByY0RPRDVkZDhFaG5Eb1RjMkV5WTBEUWJnZXpmWmxkdHZCNk1pVWZ5LXpXX3Z4MmxZS2lGVzFIUW5TeGdMczlnZjNPSDJ6TWhUZDhkNkczSGotc2x0YTVVMUFjR09FZjZkNFZMWW5QM05MMUlxU2R0azJ6VHZUV1NEdFNoU3NQaEJBRVlyb0Z6czZtZVl5Mi1sZnpIRm03QkktdTZraGctZjRtUmd5Wll0d0k0YURqbkRucUs4TU5Pc2E4b3pRdEt4U1hjRW95VlZXODRpZVdpR2h4SEZwTzNDX1A5N3V6MXVfeFd0Zw",
     "sources": [
       {
@@ -188,35 +223,27 @@
         "date": "Mon, 03 Aug 2026 14:16:00 GMT"
       },
       {
-        "source": "Notícias públicas - Portal 6",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM3drNTdlb1NfbTd1dHJDNG8tU0ZaS0FrVjEwRGZsTk5DUEFyVWtxdGlpOTVPZzRkUGJjNDdELXNsNFpQT3ZzOVd0UnF0UHZhQlVCM19ULTBJQms5akJ6VWNEVDNPTjNiYW1UVmRkY1dmZHRyVXF4QndHNFM4dzJERVhHdmVKNi0wbUlYS2Y5N3FqTnZCZ0FNN0d0Z2k5cmR2WHI5aVFjazRCMW1KVmRiM2p4MnRKVGd6MEJocWFWdklMaG9xdG9iSw",
-        "headline": "Pista escorregadia mantém GO-403 interditada dois dias após acidente com caminhão de biodiesel",
-        "date": "Mon, 03 Aug 2026 12:45:12 GMT"
-      },
-      {
         "source": "Notícias públicas - Daqui",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON3psTWw2YWRObFZzbll5bkUwQkM0LTlCWm4yZFdnbWNfUW1jMl9JRjZ3elJuMzFXV09DTV9rSW90TkZvM242TjVSQkhyck1TUkVRRlB0akRQVlBwaERCWjk4aVd3ZlQtblNyMUdHdGRoT1JYZVJtbEI2VVBUVlJILTE5b0l5dU5XMmJGWklCSXVzQXJUTjVFS3E1QjRFRUhQaUgyV0VwdmJqejVEenMwT1JqTElweXoxTFM2NHd5aVZURDd4Mm5oa0ZlSkMxTVNkRFh4Mg",
         "headline": "GO-403 é interditada após carreta tombar e derramar biodiesel no Rio Meia Ponte; veja desvios - Daqui",
         "date": "Mon, 03 Aug 2026 10:59:41 GMT"
       }
     ],
-    "sourceCount": 5,
+    "sourceCount": 4,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "e92e4986f5bc73808b450d35",
     "event_id": "e92e4986f5bc73808b450d35",
-    "newsFreshnessHours": 9.78,
+    "newsFreshnessHours": 10.03,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T09:45:33Z",
-    "last_seen_at": "2026-08-03T19:32:36Z",
-    "active_duration_hours": 9.79,
-    "active_duration_label": "9.8 h",
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 10.03,
+    "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-403",
-    "news_signature": "5030b4eeb0e3d7cc19cec5d5",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "GO-403"
   },
   {
     "active": true,
@@ -233,7 +260,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - WebTerra; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 5.5 h.",
+    "description": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO. Período informado: 2026-08-03T14:01:29Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - WebTerra; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-03T14:01:29Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -246,7 +273,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "tracker_reason": "seen_in_current_feed",
     "updatedAt": "2026-08-03T17:02:26Z",
     "sources": [
       {
@@ -262,12 +289,6 @@
         "date": "Mon, 03 Aug 2026 13:29:29 GMT"
       },
       {
-        "source": "Notícias públicas - WebTerra",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR1lGc2ZpOS1IQndhVlVMc2gxa29WUXJwOFVzOUxka2k0NEFKb0drS0JmNUZyVFptOXQ4dHV2Tm0wMUNPakpTYjZ4VGs5ZUJ0NmxEU2VTbWp1Z1J6aGI3RkYtSFlETWdOQ2ZVbjYxdUpNeUpOTUtkX0JvVlJ0OXhDbDBkc3hid0Y5TFN5UERXaDhCdnZDOE8yNmpXcm1uNjd1Z3o1N2FibFo5TVpwY2hXUjVDY2NmaHFo",
-        "headline": "BR-135 será totalmente interditada na tarde de hoje para destombamento de carreta - WebTerra",
-        "date": "Mon, 03 Aug 2026 13:29:29 GMT"
-      },
-      {
         "source": "Notícias públicas - O TEMPO",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMlFmaWw2TG40a05MZG4xb2FhNGg4czdEbDBKcHVLLWtJZnFzNzBYaklHOHV5dUJoVFpZbDFDdlBGMGx4d212Sk80UW1vSnZWQUktTTBSSGtiMUZWbW1yQlJvMXhsZllkUTBBWHRzamJuaUJhQXloakhfb00yZF9YVTQ3a1hBWGhXekk3RkZ4V1JGYjRCa3lsX3gxNm9QUmw1MjI4cDYyQjNhdnZ0Unh6UWpxSWFaUdIBuwFBVV95cUxQZ01ZZlZpckVpTTNmdzh6MkJjaDJyVDhIdENuc0tGdFE5dEhneTkzb3gzVnhCa2I3bVJJbHd2clRLUklNRklBbXlINVhvWmYtVVpCdGJLSTBKS1FhTzlvNGNCdkdBLXlWUW9lNW9ORXJsVHZ3YkFUUDNNM1FqQWd6bTk0SnNrMU9tV1A4Y092LTVTVVRMc09OV0ZVaE1uZ1BMT1FJUFBnODJUUHlJdHV3QmNtV0prQzdYTHBR",
         "headline": "BR-135 é totalmente interditada para destombamento de carreta - O TEMPO",
@@ -278,21 +299,24 @@
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSTE0akFKNUVCUE90TEowbTVtUkozdkdVbGZVTXRrcHJPeXpCVURTUHp3TGtsdEdEQkpKQnVjYktDbnpjRnBBRkFydjZrNEZKaldOVHJ0ak1SbnpVU29oTzZEaDljakZVZjhyVDVFWUI5eHVUeFdPeUxaSFVLYXRyZDJ1SDJ3a1plaFJ3ODBKSzRxek96b2J4WUhGTFQ2WVc0NEk0X3BiTy1ZWWZaa0JhNk90ZzFvUk5pOV9lcUQ2dW50b21MY2FEUURWS21IR1h50gHWAUFVX3lxTE5tdE1WSUNlYnNRcXo1bzhTaXZpZFFfbTNDMllsdmJrNTRmRXVqVXlvNDBiTzczSE1GYzhQcTNqYjljR0pSY2k3S0NmVHZaS1o3Sjc4U2Zucmt4V1lwSWZuNjZZeWtXNUVQcUh5eXczV2UycHBiVjdGSmVyZV8wUUx4eGhNOEtsSG45OFYweXFNdlVDZkk3VWRQTWhrY1hBV19MZFlqOE5zSTRRU25PbjNkcWQzU05kaThRR1Yzb3JkTjhva1hZQ1paQ3lBT2EyN2VhZFF6MVE",
         "headline": "BR-135 será totalmente interditada na tarde de hoje para destombamento de carreta - O TEMPO",
         "date": "2026-08-03T13:44:51Z"
+      },
+      {
+        "source": "Notícias públicas - WebTerra",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR1lGc2ZpOS1IQndhVlVMc2gxa29WUXJwOFVzOUxka2k0NEFKb0drS0JmNUZyVFptOXQ4dHV2Tm0wMUNPakpTYjZ4VGs5ZUJ0NmxEU2VTbWp1Z1J6aGI3RkYtSFlETWdOQ2ZVbjYxdUpNeUpOTUtkX0JvVlJ0OXhDbDBkc3hid0Y5TFN5UERXaDhCdnZDOE8yNmpXcm1uNjd1Z3o1N2FibFo5TVpwY2hXUjVDY2NmaHFo",
+        "headline": "BR-135 será totalmente interditada na tarde de hoje para destombamento de carreta - WebTerra",
+        "date": "2026-08-03T13:29:29Z"
       }
     ],
     "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ01ZZlZpckVpTTNmdzh6MkJjaDJyVDhIdENuc0tGdFE5dEhneTkzb3gzVnhCa2I3bVJJbHd2clRLUklNRklBbXlINVhvWmYtVVpCdGJLSTBKS1FhTzlvNGNCdkdBLXlWUW9lNW9ORXJsVHZ3YkFUUDNNM1FqQWd6bTk0SnNrMU9tV1A4Y092LTVTVVRMc09OV0ZVaE1uZ1BMT1FJUFBnODJUUHlJdHV3QmNtV0prQzdYTHBR0gG7AUFVX3lxTFBnTVlmVmlyRWlNM2Z3OHoyQmNoMnJUOEh0Q25zS0Z0UTl0SGd5OTNveDNWeEJrYjdtUklsd3ZyVEtSSU1GSUFteUg1WG9aZi1VWkJ0YktJMEpLUWFPOW80Y0J2R0EteVZRb2U1b05FcmxUdndiQVRQM00zUWpBZ3ptOTRKc2sxT21XUDhjT3YtNVNVVExzT05XRlVoTW5nUExPUUlQUGc4MlRQeUl0dXdCY21XSmtDN1hMcFE",
     "sourceCount": 5,
     "dedupedFrom": 4,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 5.51,
+    "newsFreshnessHours": 5.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T14:01:29Z",
-    "last_seen_at": "2026-08-03T19:32:21Z",
-    "active_duration_hours": 5.53,
-    "active_duration_label": "5.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-03T19:32:21Z",
-    "news_signature": "69f1728768ae2d7dcc6a4003",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-08-03T19:47:16Z",
+    "active_duration_hours": 5.76,
+    "active_duration_label": "5.8 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
