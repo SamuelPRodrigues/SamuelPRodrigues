@@ -46,9 +46,12 @@
     "active_duration_hours": 0.53,
     "active_duration_label": "32 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-403"
+    "detectedRoad": "GO-403",
+    "last_confirmed_at": "2026-08-03T10:17:04Z",
+    "news_signature": "d787760e664f891a5624bacf",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -87,11 +90,13 @@
     "newsFreshnessHours": 0.78,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T09:30:00Z",
-    "last_seen_at": "2026-08-03T10:17:04Z",
-    "active_duration_hours": 0.78,
+    "last_seen_at": "2026-08-03T10:17:28Z",
+    "active_duration_hours": 0.79,
     "active_duration_label": "47 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f5d174b1fcd6062131e852e8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
