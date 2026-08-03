@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T01:17:20Z",
+  "updatedAt": "2026-08-03T01:32:14Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -91,14 +91,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "49952d70355466c3033a9aba",
+      "stable_event_id": "49952d70355466c3033a9aba",
+      "observation_hash": "0badb1f0c4d9bdc2a57deddc",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
+      "first_seen_at": "2026-08-01T19:46:00+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-277",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Interdição ou bloqueio por notícia pública • BR-277",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-277",
+      "description": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - CBN Curitiba",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
+      "total_snapshots": 58,
+      "estimated_hours": 14.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
+      "headline": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.",
+      "sources": [
+        {
+          "source": "Notícias públicas - CBN Curitiba",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
+          "headline": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.",
+          "date": "2026-08-03T01:32:10.420756+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "e9e1ed25a07c6c143551038f",
       "stable_event_id": "e9e1ed25a07c6c143551038f",
-      "observation_hash": "2c8803d31774b647b91c3d83",
+      "observation_hash": "16066158f0a8dd4867eec7f1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T01:17:15+00:00",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
       "first_seen_at": "2026-08-02T21:28:45+00:00",
-      "last_seen_at": "2026-08-03T01:17:15+00:00",
-      "updated_at": "2026-08-03T01:17:16.339517+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -114,8 +157,8 @@
       "description": "Trânsito na Ponte Ayrton Senna será totalmente bloqueado para obras noturnas nos finais de semana na BR-163 - Banda B.. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Banda B",
       "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTlJVRVJUSHd5aDRvUlNUd3IwZ3R0Wk5oT0pqSWFzVG5aWTItaU5LLW5vTk9EWDRoS1VWc0M1dUVCMUQzTTRGSjVGTWl2LWp5Z21Kc3lOWjJHaFJCdTk2am4tRDlBanl5czIzUG4wT2E3Q2E2eDB0M1dQSTg2Q2RMVENB0gGHAUFVX3lxTE5rQnlHN0k3UlNkeHRndTFNbTVTSlV0YzdfN0QyV0NHMW5Vc016eUZINVhiVkhiYTZsOFEtM2cxY2FBVXFPbklzWGhLZ25ZcHRRakNRSTIyUkdxQkR1QlpSVTRHRTdCTkFPWk5PLUd5UjB3cWZlQWNKMUhfeERsLWx5V2VWbWFzNA",
-      "total_snapshots": 20,
-      "estimated_hours": 5.0,
+      "total_snapshots": 21,
+      "estimated_hours": 5.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,50 +169,7 @@
           "source": "Notícias públicas - Banda B",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTlJVRVJUSHd5aDRvUlNUd3IwZ3R0Wk5oT0pqSWFzVG5aWTItaU5LLW5vTk9EWDRoS1VWc0M1dUVCMUQzTTRGSjVGTWl2LWp5Z21Kc3lOWjJHaFJCdTk2am4tRDlBanl5czIzUG4wT2E3Q2E2eDB0M1dQSTg2Q2RMVENB0gGHAUFVX3lxTE5rQnlHN0k3UlNkeHRndTFNbTVTSlV0YzdfN0QyV0NHMW5Vc016eUZINVhiVkhiYTZsOFEtM2cxY2FBVXFPbklzWGhLZ25ZcHRRakNRSTIyUkdxQkR1QlpSVTRHRTdCTkFPWk5PLUd5UjB3cWZlQWNKMUhfeERsLWx5V2VWbWFzNA",
           "headline": "Trânsito na Ponte Ayrton Senna será totalmente bloqueado para obras noturnas nos finais de semana na BR-163 - Banda B.",
-          "date": "2026-08-03T01:17:16.339517+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "a8ef55398761402940524222",
-      "stable_event_id": "a8ef55398761402940524222",
-      "observation_hash": "157bf86d91c04fc10cfd06aa",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T01:17:15+00:00",
-      "first_seen_at": "2026-08-02T16:46:49+00:00",
-      "last_seen_at": "2026-08-03T01:17:15+00:00",
-      "updated_at": "2026-08-03T01:17:16.339517+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-060 / GO-403",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -16.686,
-      "lon": -49.264,
-      "city": "Interdição ou bloqueio por notícia pública • BR-060 / GO-403",
-      "state": "",
-      "region": "Sudeste",
-      "road": "BR-060 / GO-403",
-      "description": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - Tribuna do Planalto.. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Tribuna do Planalto",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
-      "total_snapshots": 43,
-      "estimated_hours": 10.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
-      "headline": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - Tribuna do Planalto.",
-      "sources": [
-        {
-          "source": "Notícias públicas - Tribuna do Planalto",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
-          "headline": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - Tribuna do Planalto.",
-          "date": "2026-08-03T01:17:16.339517+00:00"
+          "date": "2026-08-03T01:32:10.420756+00:00"
         }
       ],
       "sourceCount": 1,
@@ -179,12 +179,12 @@
     {
       "event_id": "823e20bd836474c0529933a4",
       "stable_event_id": "823e20bd836474c0529933a4",
-      "observation_hash": "9b69adc8aef1f64bdd17b7f9",
+      "observation_hash": "f78e7737ebb13f9328113ca4",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T16:33:02+00:00",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
       "first_seen_at": "2026-08-02T16:33:03+00:00",
-      "last_seen_at": "2026-08-02T16:33:02+00:00",
-      "updated_at": "2026-08-02T16:33:03.832144+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -200,8 +200,8 @@
       "description": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - tribunadoplanalto.com.br.. Fontes consolidadas: Notícias públicas - tribunadoplanalto.com.br. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - tribunadoplanalto.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -212,11 +212,11 @@
           "source": "Notícias públicas - tribunadoplanalto.com.br",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1l5U3AxVzBhUUpBUWpCN1BUYW1pSDhmRy0tQk5GcHhOYmdZRUdsTi03Tkt3NVIyVFRzbHJmSHc1ZEQ5NXd2VE5XWWdJb1VTak1Uc3RzVzZURlFRQU9JOGg4RFRFWnRXSUtoczRiVUxnT0dSdGl4bVR4YmZPV1JEXzJIbTJTTVBqWVlBOGllbEowTm01ZG5QSUktc21aWDN0c25EN0xWNHFIS25TMlhCeVRDNkI5bHdNeERpSW13",
           "headline": "Derramamento de biodiesel mantém trecho da GO-403 interditado no sentido Senador Canedo - tribunadoplanalto.com.br.",
-          "date": "2026-08-02T16:33:03.832144+00:00"
+          "date": "2026-08-03T01:32:10.420756+00:00"
         }
       ],
       "sourceCount": 1,
-      "dedupedFrom": 1,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -308,49 +308,6 @@
         }
       ],
       "sourceCount": 2,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "49952d70355466c3033a9aba",
-      "stable_event_id": "49952d70355466c3033a9aba",
-      "observation_hash": "e5c310179c99daa577ad615c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T08:46:47+00:00",
-      "first_seen_at": "2026-08-01T19:46:00+00:00",
-      "last_seen_at": "2026-08-02T08:46:47+00:00",
-      "updated_at": "2026-08-02T08:46:48.375805+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição ou bloqueio por notícia pública",
-      "name": "Interdição ou bloqueio por notícia pública • BR-277",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -25.428,
-      "lon": -49.273,
-      "city": "Interdição ou bloqueio por notícia pública • BR-277",
-      "state": "",
-      "region": "Sul",
-      "road": "BR-277",
-      "description": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - CBN Curitiba",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
-      "total_snapshots": 57,
-      "estimated_hours": 14.25,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
-      "headline": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.",
-      "sources": [
-        {
-          "source": "Notícias públicas - CBN Curitiba",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTFvTmh3YWc4S1d2MENTbFVTUFliSWdCRWI5OTBDWmdFNDFRdnItUndTZC1XZFJvX2gwY3JEVmZLMlRqc2FxT2RCRHV6TjZoeThFS0ZGdDZKMTFDOTZpT2ZnZi03WjBQUGlYN2haWURtbkpqMUdYd0dOQWpuV3VlWnVGSUttc3QzdWRWTjFnVjRUblA1RGNMZmI5WmVxNF84ZFh3X1pXUHlnU2lGYTJTdXhKV3JleEhzMHc",
-          "headline": "Motociclista morre em acidente na BR-277, na Serra do Mar; rodovia está interditada - CBN Curitiba.",
-          "date": "2026-08-02T08:46:48.375805+00:00"
-        }
-      ],
-      "sourceCount": 1,
       "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
@@ -14418,10 +14375,10 @@
       "stable_event_id": "57a64278cbd624610c5498e1",
       "observation_hash": "ce27cca9a5a556de9f622862",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T01:17:15+00:00",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-03T01:17:15+00:00",
-      "updated_at": "2026-08-03T01:17:16.339517+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14437,8 +14394,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 69.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2894,
-      "estimated_hours": 723.5,
+      "total_snapshots": 2895,
+      "estimated_hours": 723.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14766,10 +14723,10 @@
       "stable_event_id": "16af4132e97e98b46886d5b2",
       "observation_hash": "c1f616bff080bc922ba86cae",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T01:17:15+00:00",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
       "first_seen_at": "2026-05-26T23:16:39+00:00",
-      "last_seen_at": "2026-08-03T01:17:15+00:00",
-      "updated_at": "2026-08-03T01:17:16.339517+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14785,8 +14742,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T23:15:14Z; ativo há 68.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2243,
-      "estimated_hours": 560.75,
+      "total_snapshots": 2244,
+      "estimated_hours": 561.0,
       "active": true,
       "storage": "supabase"
     },
@@ -14795,10 +14752,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "d246f6344d784b01b3b8fd63",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T01:17:15+00:00",
+      "snapshot_at": "2026-08-03T01:32:09+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-03T01:17:15+00:00",
-      "updated_at": "2026-08-03T01:17:16.339517+00:00",
+      "last_seen_at": "2026-08-03T01:32:09+00:00",
+      "updated_at": "2026-08-03T01:32:10.420756+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14814,8 +14771,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 69.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3199,
-      "estimated_hours": 799.75,
+      "total_snapshots": 3200,
+      "estimated_hours": 800.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16968,17 +16925,17 @@
   ],
   "windows": {
     "7": {
-      "events": 130,
+      "events": 129,
       "avgRisk": 47,
       "maxRisk": 86,
       "rainChance": 0,
       "byType": {
         "climate": 86,
-        "road": 44
+        "road": 43
       },
       "byRegion": {
         "Nordeste": 36,
-        "Sudeste": 32,
+        "Sudeste": 31,
         "Sul": 30,
         "Norte": 19,
         "Centro-Oeste": 10,
@@ -16986,7 +16943,7 @@
       },
       "bySeverity": {
         "Moderado": 65,
-        "Alto": 45,
+        "Alto": 44,
         "Baixo": 19,
         "Crítico": 1
       },
@@ -17029,37 +16986,37 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 39,
+          "avgRisk": 43,
+          "events": 37,
           "maxRisk": 86
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 47,
-          "events": 9,
+          "avgRisk": 50,
+          "events": 10,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 241,
+      "events": 240,
       "avgRisk": 56,
       "maxRisk": 86,
       "rainChance": 0,
       "byType": {
-        "road": 147,
+        "road": 146,
         "climate": 94
       },
       "byRegion": {
         "Nordeste": 76,
         "Sul": 67,
-        "Sudeste": 59,
+        "Sudeste": 58,
         "Norte": 22,
         "Centro-Oeste": 12,
         "Sem região": 5
       },
       "bySeverity": {
-        "Alto": 148,
+        "Alto": 147,
         "Moderado": 73,
         "Baixo": 19,
         "Crítico": 1
@@ -17235,38 +17192,38 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 39,
+          "avgRisk": 43,
+          "events": 37,
           "maxRisk": 86
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 47,
-          "events": 9,
+          "avgRisk": 50,
+          "events": 10,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 426,
+      "events": 425,
       "avgRisk": 59,
       "maxRisk": 86,
       "rainChance": 25,
       "byType": {
-        "road": 291,
+        "road": 290,
         "climate": 133,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 127,
-        "Sudeste": 107,
+        "Sudeste": 106,
         "Sul": 102,
         "Norte": 54,
         "Centro-Oeste": 18,
         "Sem região": 18
       },
       "bySeverity": {
-        "Alto": 295,
+        "Alto": 294,
         "Moderado": 111,
         "Baixo": 19,
         "Crítico": 1
@@ -17682,14 +17639,14 @@
         },
         {
           "date": "2026-08-02",
-          "avgRisk": 45,
-          "events": 39,
+          "avgRisk": 43,
+          "events": 37,
           "maxRisk": 86
         },
         {
           "date": "2026-08-03",
-          "avgRisk": 47,
-          "events": 9,
+          "avgRisk": 50,
+          "events": 10,
           "maxRisk": 69
         }
       ]
