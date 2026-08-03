@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-03T01:50:53Z",
+  "updatedAt": "2026-08-03T02:02:33Z",
   "queries": 6,
-  "newItemsBeforeMerge": 0,
-  "savedRoadNewsReused": 0,
+  "newItemsBeforeMerge": 63,
+  "savedRoadNewsReused": 3,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 48,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Quatro pessoas morrem em acidente entre carro e caminhão, em Goiás - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Duas pessoas morrem após colidir carro em carreta tombada na BR-230, no Sertão da PB - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Cinco mortes na BR-116, resgate de trabalhadores e tentativa de feminicídio: veja as mais lidas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após bater em carro e caminhão na BR-153 no Tocantins - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após bater na traseira de carro na BR-277, sentido litoral do PR - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro carregado de drogas bate na BR-163 e deixa dois mortos em MT - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "A chuva retornou a Gramado no fim da tarde desta segunda-feira (27). E ela veio acompanhada de raios e trovões. Visitantes foram pegos de surpresa com a virada no tempo, após um di",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Quinta-feira (30/7) com previsão de chuvisco/chuva fraca isolada e ventos moderados na cidade do Rio - Centro de Operações e Resiliência",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal derruba estrutura de concessionária BYD e atinge carros elétricos em Osório - GZH",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva transforma córrego em rio, derruba muro e alaga ruas em poucas horas; assista - Primeira Página",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte causa falta de energia e transtornos em Campo Grande - acritica.net",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal deixa sete bairros sem energia em Campo Grande - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "'Estou com 70% da cidade destruída', diz prefeito de Guariba (SP) sobre estragos de temporal - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva com granizo e vento de mais de 85 km/h destelha mil casas, derruba árvores e postes no RS - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte deixa Campo Grande em alerta nesta quinta-feira - - Folha de Campo Grande -",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Cinco dias após temporal com ventos de até 160 km/h, interior de SP tem alerta de baixa umidade e risco de incêndios - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ventos de 105 km/h deixam 2 mortos, causam apagão e estragos, e param transportes - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva de granizo dura menos de 5 minutos e danifica 500 casas no RS - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Paralisação interrompe circulação de ônibus e afeta passageiros em Manaus nesta segunda-feira - G1",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Trecho da Armando Renganeschi terá bloqueio emergencial nesta quarta (29) - emdec.com.br",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Motoristas param ônibus e milhares ficam sem transporte em Manaus - amazonas atual",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Caminhoneiros anunciam protesto por restrições na Ponte da Integração - GDia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Estreito de Bab al-Mandab: novas ameaças dos houthis podem gerar crise de transporte no Mar Vermelho? - BBC",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
