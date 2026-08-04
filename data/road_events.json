@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-376",
+    "road": "BR-376",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Passarela na BR-376 é interditada a partir desta terça-feira (04) - Diário do Noroeste. Fontes consolidadas: Notícias públicas - Diário do Noroeste. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-04T13:11:07Z; ativo há 36 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Diário do Noroeste",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWx0OEctRlFFV0pUanI2WC1rTG5tWE5fSXlhdGVjb21KV3JMUHJqaGJ3SlFnNWtRSXBaUk1VWUFYNUN3WEE3UUlnSEtZTkJjQ1FOMFhGNE1UUFdyUnBMaDNXQ0RydW1nd3VfMkNGQ1pEdjNSSkU1VHZsSnlFbUJGZzVQZ3VITnhmV0pjTHJ1eVEzVlQ0OGNZbE94YkM",
+    "headline": "Passarela na BR-376 é interditada a partir desta terça-feira (04) - Diário do Noroeste",
+    "newsDate": "Tue, 04 Aug 2026 13:11:07 GMT",
+    "updatedAt": "2026-08-04T13:45:55Z",
+    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWx0OEctRlFFV0pUanI2WC1rTG5tWE5fSXlhdGVjb21KV3JMUHJqaGJ3SlFnNWtRSXBaUk1VWUFYNUN3WEE3UUlnSEtZTkJjQ1FOMFhGNE1UUFdyUnBMaDNXQ0RydW1nd3VfMkNGQ1pEdjNSSkU1VHZsSnlFbUJGZzVQZ3VITnhmV0pjTHJ1eVEzVlQ0OGNZbE94YkM",
+    "sources": [
+      {
+        "source": "Notícias públicas - Diário do Noroeste",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWx0OEctRlFFV0pUanI2WC1rTG5tWE5fSXlhdGVjb21KV3JMUHJqaGJ3SlFnNWtRSXBaUk1VWUFYNUN3WEE3UUlnSEtZTkJjQ1FOMFhGNE1UUFdyUnBMaDNXQ0RydW1nd3VfMkNGQ1pEdjNSSkU1VHZsSnlFbUJGZzVQZ3VITnhmV0pjTHJ1eVEzVlQ0OGNZbE94YkM",
+        "headline": "Passarela na BR-376 é interditada a partir desta terça-feira (04) - Diário do Noroeste",
+        "date": "Tue, 04 Aug 2026 13:11:07 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "1faa016a13c9a6a25119e14d",
+    "event_id": "1faa016a13c9a6a25119e14d",
+    "newsFreshnessHours": 0.6,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-04T13:11:07Z",
+    "last_seen_at": "2026-08-04T13:47:15Z",
+    "active_duration_hours": 0.6,
+    "active_duration_label": "36 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-280",
     "road": "BR-280",
     "corridor": "Joinville • BR-101 / BR-280",
@@ -9,7 +53,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-280 será bloqueado para remanejamento da rede elétrica - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-04T12:30:31Z; ativo há 1.1 h.",
+    "description": "Trecho da BR-280 será bloqueado para remanejamento da rede elétrica - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-04T12:30:31Z; ativo há 1.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEE0M3U4Vkt5bFNkaVotSEE5WDk1a1VKazVhV2NsTUtOVEMzNlBlbTR0eG1BVE1sSTN2S2xLeHVYNkxJR0ltRWhvV19RVkNxWmdHU0xLbEJyYWx6YVlnTEFPMzg1dDU5X0RKRHQyem5hbEdoVFhmVVMxU2dJTzNlcy1PSS1KY2IzQi1NTjZiVGhjdTY2M1ZOdmQ5blc",
     "headline": "Trecho da BR-280 será bloqueado para remanejamento da rede elétrica - ND Mais",
     "newsDate": "Tue, 04 Aug 2026 12:30:31 GMT",
-    "updatedAt": "2026-08-04T13:31:48Z",
+    "updatedAt": "2026-08-04T13:45:55Z",
     "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEE0M3U4Vkt5bFNkaVotSEE5WDk1a1VKazVhV2NsTUtOVEMzNlBlbTR0eG1BVE1sSTN2S2xLeHVYNkxJR0ltRWhvV19RVkNxWmdHU0xLbEJyYWx6YVlnTEFPMzg1dDU5X0RKRHQyem5hbEdoVFhmVVMxU2dJTzNlcy1PSS1KY2IzQi1NTjZiVGhjdTY2M1ZOdmQ5blc",
     "sources": [
       {
@@ -33,17 +77,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "ed8ba333abbe7d54af4715e5",
     "event_id": "ed8ba333abbe7d54af4715e5",
-    "newsFreshnessHours": 1.04,
+    "newsFreshnessHours": 1.28,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T12:30:31Z",
-    "last_seen_at": "2026-08-04T13:33:07Z",
-    "active_duration_hours": 1.05,
-    "active_duration_label": "1.1 h",
+    "last_seen_at": "2026-08-04T13:47:15Z",
+    "active_duration_hours": 1.28,
+    "active_duration_label": "1.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-04T13:33:07Z",
-    "news_signature": "12b2f940eef356f6730015e6",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
