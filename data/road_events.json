@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o rio Paraguai na BR-262 terá tráfego interditado aos finais de semana em agosto - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-04T18:59:07Z; ativo há 2.3 h.",
+    "description": "Ponte sobre o rio Paraguai na BR-262 terá tráfego interditado aos finais de semana em agosto - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-04T18:59:07Z; ativo há 2.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T18:59:07Z",
     "last_seen_at": "2026-08-04T21:17:17Z",
-    "active_duration_hours": 2.3,
+    "active_duration_hours": 2.31,
     "active_duration_label": "2.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T21:17:17Z",
+    "news_signature": "2e70798f6a48894dfe4f2181",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é parcialmente interditada após tombamento de carreta; veja vídeo - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-04T14:32:49Z; ativo há 6.7 h.",
+    "description": "BR-381 é parcialmente interditada após tombamento de carreta; veja vídeo - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-04T14:32:49Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T14:32:49Z",
     "last_seen_at": "2026-08-04T21:17:17Z",
-    "active_duration_hours": 6.74,
-    "active_duration_label": "6.7 h",
+    "active_duration_hours": 6.75,
+    "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T21:17:17Z",
+    "news_signature": "e7dca692ac768cd741467e51",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra da EPR Via Mineira na BR-040 causa interdição parcial de pista nesta terça-feira em Santos Dumont. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-04T14:16:00Z; ativo há 7.0 h.",
+    "description": "Obra da EPR Via Mineira na BR-040 causa interdição parcial de pista nesta terça-feira em Santos Dumont. Fontes consolidadas: Notícias públicas - Portal 14B. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-04T14:16:00Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -130,12 +136,14 @@
     "newsFreshnessHours": 7.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T14:16:00Z",
-    "last_seen_at": "2026-08-04T21:17:17Z",
-    "active_duration_hours": 7.02,
+    "last_seen_at": "2026-08-04T21:17:32Z",
+    "active_duration_hours": 7.03,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5fb0464d61ba7977b5f0b3f0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +155,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Passarela na BR-376 é interditada a partir desta terça-feira (04) - Diário do Noroeste. Fontes consolidadas: Notícias públicas - Diário do Noroeste. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-04T13:11:07Z; ativo há 8.1 h.",
+    "description": "Passarela na BR-376 é interditada a partir desta terça-feira (04) - Diário do Noroeste. Fontes consolidadas: Notícias públicas - Diário do Noroeste. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-04T13:11:07Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -175,11 +183,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T13:11:07Z",
     "last_seen_at": "2026-08-04T21:17:17Z",
-    "active_duration_hours": 8.1,
+    "active_duration_hours": 8.11,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T21:17:17Z",
+    "news_signature": "66ec2be7802cfbd3b08b63b3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -191,7 +202,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-280 será bloqueado para remanejamento da rede elétrica - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-04T12:30:31Z; ativo há 8.8 h.",
+    "description": "Trecho da BR-280 será bloqueado para remanejamento da rede elétrica - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-04T12:30:31Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -222,8 +233,11 @@
     "active_duration_hours": 8.78,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T21:17:17Z",
+    "news_signature": "12b2f940eef356f6730015e6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -240,7 +254,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Marginal da BR-101 será interditada para obras em Balneário Camboriú - ND Mais. Período informado: 2026-08-04T13:50:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-04T13:50:38Z; ativo há 7.4 h.",
+    "description": "Marginal da BR-101 será interditada para obras em Balneário Camboriú - ND Mais. Período informado: 2026-08-04T13:50:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-04T13:50:38Z; ativo há 7.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -253,7 +267,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-04T21:16:05Z",
     "sources": [
       {
@@ -271,8 +285,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T13:50:38Z",
     "last_seen_at": "2026-08-04T21:17:17Z",
-    "active_duration_hours": 7.44,
-    "active_duration_label": "7.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 7.45,
+    "active_duration_label": "7.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T21:17:17Z",
+    "news_signature": "a75c91a400af34a5bbc9601c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
