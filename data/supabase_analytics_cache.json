@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:02:12Z",
+  "updatedAt": "2026-08-04T08:16:59Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -58,35 +58,6 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "706a039baf9413262340d06d",
-      "stable_event_id": "706a039baf9413262340d06d",
-      "observation_hash": "d52f2f5e4e5536eb79c5ab46",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-04T08:02:06+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-04T08:02:06+00:00",
-      "updated_at": "2026-08-04T08:02:08.039823+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uruguaiana",
-      "risk": 81,
-      "severity": "Crítico",
-      "lat": -29.754,
-      "lon": -57.088,
-      "city": "Uruguaiana",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 70.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1610,
-      "estimated_hours": 402.5,
       "active": true,
       "storage": "supabase"
     },
@@ -356,7 +327,7 @@
           "source": "Notícias públicas - avozdocampo.com + 3 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2dHQWdUZ0h5dkdvRUJaQkZITUxDYU9hNGN4OFlwaDNXWFJTX0VOZVQybkE2VDdlaEptd3Z5WFVkbEM0UG1VYzc4Z3RERFctaFB3ODNHTWFlS3B2dVhmUGxKdE5hYnMwSkRPTGlrcFhTb1IxY00wNGhMZ1QxT1c1QlJoT1ByMDRPZGVyanN2UXRLaUNqVHhQQThfZ0JtUQ",
           "headline": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com.",
-          "date": "2026-08-04T08:02:08.039823+00:00"
+          "date": "2026-08-04T08:16:56.173394+00:00"
         },
         {
           "source": "Notícias públicas - G1 + 2 fonte(s)",
@@ -13691,6 +13662,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "94eba1bea36aeec0d426f14d",
+      "stable_event_id": "94eba1bea36aeec0d426f14d",
+      "observation_hash": "fbf3a745493db5c20c499fbe",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
+      "first_seen_at": "2026-05-26T03:18:15+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santa Maria",
+      "risk": 68,
+      "severity": "Alto",
+      "lat": -29.686,
+      "lon": -53.806,
+      "city": "Santa Maria",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 70.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2240,
+      "estimated_hours": 560.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "833c194f23ed10ea96e00b30",
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "7a2442dc1957909a1658d89d",
@@ -13745,6 +13745,35 @@
       "source_url": "",
       "total_snapshots": 537,
       "estimated_hours": 134.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "706a039baf9413262340d06d",
+      "stable_event_id": "706a039baf9413262340d06d",
+      "observation_hash": "79b30a62245b46374220075a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uruguaiana",
+      "risk": 64,
+      "severity": "Alto",
+      "lat": -29.754,
+      "lon": -57.088,
+      "city": "Uruguaiana",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 70.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1611,
+      "estimated_hours": 402.75,
       "active": true,
       "storage": "supabase"
     },
@@ -14383,35 +14412,6 @@
       "source_url": "",
       "total_snapshots": 61,
       "estimated_hours": 15.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "94eba1bea36aeec0d426f14d",
-      "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "2f405967a6dd738be87e061c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-04T08:02:06+00:00",
-      "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-08-04T08:02:06+00:00",
-      "updated_at": "2026-08-04T08:02:08.039823+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santa Maria",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -29.686,
-      "lon": -53.806,
-      "city": "Santa Maria",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 70.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2239,
-      "estimated_hours": 559.75,
       "active": true,
       "storage": "supabase"
     },
@@ -15114,12 +15114,12 @@
     {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
-      "observation_hash": "e95fe57816cf391829a100a7",
+      "observation_hash": "2cfc1531763b6cf93af6fcc8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-04T08:02:06+00:00",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-04T08:02:06+00:00",
-      "updated_at": "2026-08-04T08:02:08.039823+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15135,8 +15135,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 70.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3284,
-      "estimated_hours": 821.0,
+      "total_snapshots": 3285,
+      "estimated_hours": 821.25,
       "active": true,
       "storage": "supabase"
     },
@@ -15431,35 +15431,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "81996c61139cfa5997723f54",
-      "stable_event_id": "81996c61139cfa5997723f54",
-      "observation_hash": "81eb22371855dd66992ebcb4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-02T06:03:38+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-02T06:03:38+00:00",
-      "updated_at": "2026-08-02T06:03:39.36825+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Criciúma",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -28.672,
-      "lon": -49.373,
-      "city": "Criciúma",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 68.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1399,
-      "estimated_hours": 349.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "83baaed9d8aede34697da9f3",
       "stable_event_id": "83baaed9d8aede34697da9f3",
       "observation_hash": "7fe0c63a9c6eae76e9df0940",
@@ -15692,6 +15663,64 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1392e852ec635648d4a26a0e",
+      "stable_event_id": "1392e852ec635648d4a26a0e",
+      "observation_hash": "abc246d9968a60527b60187b",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 70.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2689,
+      "estimated_hours": 672.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "bb6d3798fb4823bed1c6ba1d",
+      "stable_event_id": "bb6d3798fb4823bed1c6ba1d",
+      "observation_hash": "e403b6753f88593276142c70",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
+      "first_seen_at": "2026-05-26T16:16:52+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caruaru",
+      "risk": 40,
+      "severity": "Moderado",
+      "lat": -8.284,
+      "lon": -35.97,
+      "city": "Caruaru",
+      "state": "PE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 69.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1388,
+      "estimated_hours": 347.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "5fa2d3b705b27721ba81a565",
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "bfce88274a2b74ee316b7dcd",
@@ -15717,64 +15746,6 @@
       "source_url": "",
       "total_snapshots": 1762,
       "estimated_hours": 440.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "1392e852ec635648d4a26a0e",
-      "stable_event_id": "1392e852ec635648d4a26a0e",
-      "observation_hash": "a6023b9b4f5a0da9940eaeb4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-04T08:02:06+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-04T08:02:06+00:00",
-      "updated_at": "2026-08-04T08:02:08.039823+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 70.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2688,
-      "estimated_hours": 672.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "bb6d3798fb4823bed1c6ba1d",
-      "stable_event_id": "bb6d3798fb4823bed1c6ba1d",
-      "observation_hash": "a1c09a96dd8aee8be875ec48",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-04T08:02:06+00:00",
-      "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-04T08:02:06+00:00",
-      "updated_at": "2026-08-04T08:02:08.039823+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caruaru",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -8.284,
-      "lon": -35.97,
-      "city": "Caruaru",
-      "state": "PE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 69.7 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1387,
-      "estimated_hours": 346.75,
       "active": true,
       "storage": "supabase"
     },
@@ -16210,6 +16181,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "81996c61139cfa5997723f54",
+      "stable_event_id": "81996c61139cfa5997723f54",
+      "observation_hash": "4e8655fbcbee21f65bdd7299",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-04T08:16:54+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-08-04T08:16:54+00:00",
+      "updated_at": "2026-08-04T08:16:56.173394+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Criciúma",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -28.672,
+      "lon": -49.373,
+      "city": "Criciúma",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 70.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1400,
+      "estimated_hours": 350.0,
       "active": true,
       "storage": "supabase"
     },
@@ -17579,16 +17579,16 @@
   ],
   "windows": {
     "7": {
-      "events": 148,
+      "events": 147,
       "avgRisk": 49,
       "maxRisk": 88,
       "rainChance": 13,
       "byType": {
         "climate": 98,
-        "road": 50
+        "road": 49
       },
       "byRegion": {
-        "Nordeste": 45,
+        "Nordeste": 44,
         "Sul": 35,
         "Sudeste": 32,
         "Norte": 23,
@@ -17596,16 +17596,16 @@
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 77,
-        "Alto": 53,
+        "Moderado": 76,
+        "Alto": 54,
         "Baixo": 15,
-        "Crítico": 3
+        "Crítico": 2
       },
       "dailyRisk": [
         {
           "date": "2026-07-28",
-          "avgRisk": 65,
-          "events": 7,
+          "avgRisk": 64,
+          "events": 6,
           "maxRisk": 69
         },
         {
@@ -17635,7 +17635,7 @@
         {
           "date": "2026-08-02",
           "avgRisk": 47,
-          "events": 18,
+          "events": 17,
           "maxRisk": 69
         },
         {
@@ -17646,9 +17646,9 @@
         },
         {
           "date": "2026-08-04",
-          "avgRisk": 50,
-          "events": 25,
-          "maxRisk": 81
+          "avgRisk": 49,
+          "events": 26,
+          "maxRisk": 69
         }
       ]
     },
@@ -17670,10 +17670,10 @@
         "Sem região": 5
       },
       "bySeverity": {
-        "Alto": 154,
-        "Moderado": 85,
+        "Alto": 156,
+        "Moderado": 84,
         "Baixo": 16,
-        "Crítico": 3
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -17835,7 +17835,7 @@
         {
           "date": "2026-08-02",
           "avgRisk": 47,
-          "events": 18,
+          "events": 17,
           "maxRisk": 69
         },
         {
@@ -17846,9 +17846,9 @@
         },
         {
           "date": "2026-08-04",
-          "avgRisk": 50,
-          "events": 25,
-          "maxRisk": 81
+          "avgRisk": 49,
+          "events": 26,
+          "maxRisk": 69
         }
       ]
     },
@@ -17871,10 +17871,10 @@
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 307,
-        "Moderado": 115,
+        "Alto": 309,
+        "Moderado": 114,
         "Baixo": 16,
-        "Crítico": 3
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -18288,7 +18288,7 @@
         {
           "date": "2026-08-02",
           "avgRisk": 47,
-          "events": 18,
+          "events": 17,
           "maxRisk": 69
         },
         {
@@ -18299,9 +18299,9 @@
         },
         {
           "date": "2026-08-04",
-          "avgRisk": 50,
-          "events": 25,
-          "maxRisk": 81
+          "avgRisk": 49,
+          "events": 26,
+          "maxRisk": 69
         }
       ]
     }
