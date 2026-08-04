@@ -1,20 +1,15 @@
 {
-  "updatedAt": "2026-08-04T15:02:41Z",
+  "updatedAt": "2026-08-04T15:17:47Z",
   "configured": true,
   "eventsPrepared": 15,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-08-04T15:00Z",
+  "snapshotBucket": "2026-08-04T15:15Z",
   "eventLifecycleFields": true,
-  "ok": true,
-  "response": {
-    "ok": true,
-    "received": 15,
-    "inserted": 0,
-    "updated": 15,
-    "total_rows": 568
-  },
+  "ok": false,
+  "response": null,
   "analyticsCache": true,
-  "error": null,
-  "analyticsRows": 568
+  "error": "The read operation timed out",
+  "analyticsRows": 15,
+  "analyticsCacheWarning": "HTTP Error 404: Not Found"
 }
