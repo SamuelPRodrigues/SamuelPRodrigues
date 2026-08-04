@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - g1.globo.com; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 15.5 h.",
+    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - g1.globo.com; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 15.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,11 +54,13 @@
     "newsFreshnessHours": 11.66,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T20:30:54Z",
-    "last_seen_at": "2026-08-04T12:02:42Z",
-    "active_duration_hours": 15.53,
+    "last_seen_at": "2026-08-04T12:03:01Z",
+    "active_duration_hours": 15.54,
     "active_duration_label": "15.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "634745b6dab09322083e8824",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
