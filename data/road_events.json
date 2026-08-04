@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - G1; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 8.8 h.",
+    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - G1; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -55,11 +55,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T20:30:54Z",
     "last_seen_at": "2026-08-04T05:17:16Z",
-    "active_duration_hours": 8.77,
+    "active_duration_hours": 8.78,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T05:17:16Z",
+    "news_signature": "967670e473895eae41356402",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +74,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra sem fim? ‘Buraco de Jero’ na BR-324 volta a ser interditado após cratera ceder - Se Ligue Bahia. Fontes consolidadas: Notícias públicas - Se Ligue Bahia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-03T20:09:00Z; ativo há 9.1 h.",
+    "description": "Obra sem fim? ‘Buraco de Jero’ na BR-324 volta a ser interditado após cratera ceder - Se Ligue Bahia. Fontes consolidadas: Notícias públicas - Se Ligue Bahia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-03T20:09:00Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,7 +105,10 @@
     "active_duration_hours": 9.14,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T05:17:16Z",
+    "news_signature": "5a217d74e375c4126a8088b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
