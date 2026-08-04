@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta cai em valeta e trânsito é bloqueado na SC-390 em Lauro Müller. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-03T21:10:44Z; ativo há 6.1 h.",
+    "description": "Carreta cai em valeta e trânsito é bloqueado na SC-390 em Lauro Müller. Fontes consolidadas: Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-03T21:10:44Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 6.11,
     "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-390"
+    "detectedRoad": "SC-390",
+    "last_confirmed_at": "2026-08-04T03:17:03Z",
+    "news_signature": "e7a0b4ea101ee1a1a5cfad93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - G1; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 6.8 h.",
+    "description": "Protesto deixa trecho da BR-101 completamente interditado na Bahia - avozdocampo.com. Fontes consolidadas: Notícias públicas - avozdocampo.com; Notícias públicas - G1; Notícias públicas - sctododia; Notícias públicas - DIARINHO. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-03T20:30:54Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,12 +102,14 @@
     "newsFreshnessHours": 6.77,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T20:30:54Z",
-    "last_seen_at": "2026-08-04T03:17:03Z",
+    "last_seen_at": "2026-08-04T03:17:16Z",
     "active_duration_hours": 6.77,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "967670e473895eae41356402",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -116,7 +121,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra sem fim? ‘Buraco de Jero’ na BR-324 volta a ser interditado após cratera ceder - Se Ligue Bahia. Fontes consolidadas: Notícias públicas - Se Ligue Bahia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-03T20:09:00Z; ativo há 7.1 h.",
+    "description": "Obra sem fim? ‘Buraco de Jero’ na BR-324 volta a ser interditado após cratera ceder - Se Ligue Bahia. Fontes consolidadas: Notícias públicas - Se Ligue Bahia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-03T20:09:00Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,11 +149,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T20:09:00Z",
     "last_seen_at": "2026-08-04T03:17:03Z",
-    "active_duration_hours": 7.13,
+    "active_duration_hours": 7.14,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T03:17:03Z",
+    "news_signature": "5a217d74e375c4126a8088b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -160,7 +168,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo: engavetamento na BR-381 deixa trânsito totalmente interditado na Grande BH - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-03T16:50:17Z; ativo há 10.4 h.",
+    "description": "Vídeo: engavetamento na BR-381 deixa trânsito totalmente interditado na Grande BH - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-03T16:50:17Z; ativo há 10.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -191,8 +199,11 @@
     "active_duration_hours": 10.45,
     "active_duration_label": "10.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-04T03:17:03Z",
+    "news_signature": "9020fa4b77ae2be31de8f3b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -204,7 +215,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 11.3 h.",
+    "description": "Piscina cai de caminhão, derruba placa e deixa PR-486 parcialmente interditada - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-03T15:57:00Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -232,11 +243,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-03T15:57:00Z",
     "last_seen_at": "2026-08-04T03:17:03Z",
-    "active_duration_hours": 11.33,
+    "active_duration_hours": 11.34,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-486"
+    "detectedRoad": "PR-486",
+    "last_confirmed_at": "2026-08-04T03:17:03Z",
+    "news_signature": "1e4a5896e6cb72976ed22c7c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
