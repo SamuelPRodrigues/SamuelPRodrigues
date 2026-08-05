@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.33,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T20:27:31Z",
-    "last_seen_at": "2026-08-05T20:47:23Z",
-    "active_duration_hours": 0.33,
+    "last_seen_at": "2026-08-05T20:47:40Z",
+    "active_duration_hours": 0.34,
     "active_duration_label": "20 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ef59b4697b260918afbd3280",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-05T17:42:00Z; ativo há 3.1 h.",
+    "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-05T17:42:00Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +86,12 @@
     "active_duration_hours": 3.09,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-203"
+    "detectedRoad": "GO-203",
+    "last_confirmed_at": "2026-08-05T20:47:23Z",
+    "news_signature": "11286105873200d6fbe67b50",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão entre carro e caminhão deixa rodovia interditada por quase uma hora na SC-114, em São Joaquim - Notiserra SC. Fontes consolidadas: Notícias públicas - Notiserra SC. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-05T17:31:07Z; ativo há 3.3 h.",
+    "description": "Colisão entre carro e caminhão deixa rodovia interditada por quase uma hora na SC-114, em São Joaquim - Notiserra SC. Fontes consolidadas: Notícias públicas - Notiserra SC. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-05T17:31:07Z; ativo há 3.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -126,12 +131,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T17:31:07Z",
     "last_seen_at": "2026-08-05T20:47:23Z",
-    "active_duration_hours": 3.27,
+    "active_duration_hours": 3.28,
     "active_duration_label": "3.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-114"
+    "detectedRoad": "SC-114",
+    "last_confirmed_at": "2026-08-05T20:47:23Z",
+    "news_signature": "67606d2ef371d9b011757156",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -143,7 +151,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 101 em Rio Novo do Sul será interditada para desmonte de rochas - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - jplitoral.com.br; Notícias públicas - Jornal Folha da Terra; Notícias públicas - visornoticias.com.br; Notícias públicas - agorasul.com.br; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-05T16:24:19Z; ativo há 4.4 h.",
+    "description": "BR 101 em Rio Novo do Sul será interditada para desmonte de rochas - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - jplitoral.com.br; Notícias públicas - Jornal Folha da Terra; Notícias públicas - visornoticias.com.br; Notícias públicas - agorasul.com.br; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-05T16:24:19Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -212,12 +220,14 @@
     "newsFreshnessHours": 4.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T16:24:19Z",
-    "last_seen_at": "2026-08-05T20:47:23Z",
-    "active_duration_hours": 4.38,
+    "last_seen_at": "2026-08-05T20:47:40Z",
+    "active_duration_hours": 4.39,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3d6cde3067238609b343660b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -229,7 +239,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 6.7 h.",
+    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -257,11 +267,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T14:07:00Z",
     "last_seen_at": "2026-08-05T20:47:23Z",
-    "active_duration_hours": 6.67,
+    "active_duration_hours": 6.68,
     "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T20:47:23Z",
+    "news_signature": "ec341c845c8a5f241c30393c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -273,7 +286,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 11.2 h.",
+    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -322,8 +335,11 @@
     "active_duration_hours": 11.24,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T20:47:23Z",
+    "news_signature": "7cc2d2c6989eb4dafda1b495",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -340,7 +356,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada na Serra; veja dia e horários. Período informado: 2026-08-05T17:35:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-05T17:35:00Z; ativo há 3.2 h.",
+    "description": "BR-101 será totalmente interditada na Serra; veja dia e horários. Período informado: 2026-08-05T17:35:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-05T17:35:00Z; ativo há 3.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -353,7 +369,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-05T20:46:06Z",
     "sources": [
       {
@@ -373,6 +389,9 @@
     "last_seen_at": "2026-08-05T20:47:23Z",
     "active_duration_hours": 3.21,
     "active_duration_label": "3.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T20:47:23Z",
+    "news_signature": "66b4c272c83a7f240ba214c0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
