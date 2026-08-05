@@ -72,12 +72,14 @@
     "newsFreshnessHours": 0.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T16:24:19Z",
-    "last_seen_at": "2026-08-05T16:47:15Z",
-    "active_duration_hours": 0.38,
+    "last_seen_at": "2026-08-05T16:47:32Z",
+    "active_duration_hours": 0.39,
     "active_duration_label": "23 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8ecbd5204b3e2b1968fb8098",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -89,7 +91,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 2.7 h.",
+    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -117,11 +119,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T14:07:00Z",
     "last_seen_at": "2026-08-05T16:47:15Z",
-    "active_duration_hours": 2.67,
+    "active_duration_hours": 2.68,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T16:47:15Z",
+    "news_signature": "ec341c845c8a5f241c30393c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -133,7 +138,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 7.2 h.",
+    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,7 +181,10 @@
     "active_duration_hours": 7.24,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T16:47:15Z",
+    "news_signature": "29747233d3c611e42f741325",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
