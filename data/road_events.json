@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 1.7 h.",
+    "description": "BR-277 será interditada nesta quarta-feira para detonação de rochas em Irati - Rádio Najuá. Fontes consolidadas: Notícias públicas - Rádio Najuá. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-05T14:07:00Z; ativo há 1.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 1.67,
     "active_duration_label": "1.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T15:47:03Z",
+    "news_signature": "ec341c845c8a5f241c30393c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Faixa da BR-101, em Itaboraí, segue interditada, após ônibus pegar fogo - Jornal Folha da Terra. Fontes consolidadas: Notícias públicas - Jornal Folha da Terra; Notícias públicas - Visor Notícias; Notícias públicas - agorasul.com.br; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-05T13:09:46Z; ativo há 2.6 h.",
+    "description": "Faixa da BR-101, em Itaboraí, segue interditada, após ônibus pegar fogo - Jornal Folha da Terra. Fontes consolidadas: Notícias públicas - Jornal Folha da Terra; Notícias públicas - Visor Notícias; Notícias públicas - agorasul.com.br; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-05T13:09:46Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -105,11 +108,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T13:09:46Z",
     "last_seen_at": "2026-08-05T15:47:03Z",
-    "active_duration_hours": 2.62,
+    "active_duration_hours": 2.63,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T15:47:03Z",
+    "news_signature": "e57b2527350ab4bc6fa64b98",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +127,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 6.2 h.",
+    "description": "Carreta tomba na BR-381 e faixa segue interditada; veja o trânsito - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - O TEMPO; Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-05T09:33:00Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -166,11 +172,13 @@
     "newsFreshnessHours": 6.23,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T09:33:00Z",
-    "last_seen_at": "2026-08-05T15:47:03Z",
-    "active_duration_hours": 6.23,
+    "last_seen_at": "2026-08-05T15:47:18Z",
+    "active_duration_hours": 6.24,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7cc2d2c6989eb4dafda1b495",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
