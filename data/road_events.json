@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o rio Paraguai na BR-262 terá tráfego interditado aos finais de semana em agosto - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-04T18:59:07Z; ativo há 6.3 h.",
+    "description": "Ponte sobre o rio Paraguai na BR-262 terá tráfego interditado aos finais de semana em agosto - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-04T18:59:07Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 6.31,
     "active_duration_label": "6.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T01:17:30Z",
+    "news_signature": "2e70798f6a48894dfe4f2181",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra da EPR Via Mineira na BR-040 causa interdição parcial de pista nesta terça-feira em Santos Dumont. Fontes consolidadas: Notícias públicas - portal14b.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-04T14:16:00Z; ativo há 11.0 h.",
+    "description": "Obra da EPR Via Mineira na BR-040 causa interdição parcial de pista nesta terça-feira em Santos Dumont. Fontes consolidadas: Notícias públicas - portal14b.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-04T14:16:00Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +83,14 @@
     "newsFreshnessHours": 11.03,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-04T14:16:00Z",
-    "last_seen_at": "2026-08-05T01:17:30Z",
+    "last_seen_at": "2026-08-05T01:17:52Z",
     "active_duration_hours": 11.03,
     "active_duration_label": "11.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "750c967a802dc5cb4ea70ca4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +107,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Marginal da BR-101 será interditada para obras em Balneário Camboriú - ndmais.com.br. Período informado: 2026-08-04T13:50:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-04T13:50:38Z; ativo há 11.4 h.",
+    "description": "Marginal da BR-101 será interditada para obras em Balneário Camboriú - ndmais.com.br. Período informado: 2026-08-04T13:50:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-04T13:50:38Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +120,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-05T01:16:12Z",
     "sources": [
       {
@@ -135,6 +140,9 @@
     "last_seen_at": "2026-08-05T01:17:30Z",
     "active_duration_hours": 11.45,
     "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-05T01:17:30Z",
+    "news_signature": "3346edf2ffadfec88db31d26",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
