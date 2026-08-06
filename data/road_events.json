@@ -9,7 +9,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL. Fontes consolidadas: Notícias públicas - DOL. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-05T20:27:31Z; ativo há 11.8 h.",
+    "description": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL. Fontes consolidadas: Notícias públicas - DOL. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-05T20:27:31Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T20:27:31Z",
     "last_seen_at": "2026-08-06T08:17:13Z",
-    "active_duration_hours": 11.83,
+    "active_duration_hours": 11.84,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-06T08:17:13Z",
+    "news_signature": "39f3e160bfa4bbc6374ea8aa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada na Serra nesta quinta-feira. Período informado: 2026-08-05T22:03:32Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-05T22:03:32Z; ativo há 10.2 h.",
+    "description": "BR-101 será totalmente interditada na Serra nesta quinta-feira. Período informado: 2026-08-05T22:03:32Z até fim não identificado. Fontes consolidadas: G1; Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-05T22:03:32Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-06T08:15:59Z",
     "sources": [
       {
@@ -97,6 +100,9 @@
     "last_seen_at": "2026-08-06T08:17:13Z",
     "active_duration_hours": 10.23,
     "active_duration_label": "10.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-06T08:17:13Z",
+    "news_signature": "441b463192f0b6c7182c2ae2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
