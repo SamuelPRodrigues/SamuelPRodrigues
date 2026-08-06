@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-08-06T04:32:04Z",
+  "updatedAt": "2026-08-06T04:47:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "110a249f5451e1a2edad8274",
+      "stable_event_id": "110a249f5451e1a2edad8274",
+      "observation_hash": "2b2fe8bcb2912e53f5be0977",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-06T04:47:02+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-06T04:47:02+00:00",
+      "updated_at": "2026-08-06T04:47:04.11043+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Chapecó",
+      "risk": 86,
+      "severity": "Crítico",
+      "lat": -27.1,
+      "lon": -52.615,
+      "city": "Chapecó",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 72.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2702,
+      "estimated_hours": 675.5,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "833c194f23ed10ea96e00b30",
       "stable_event_id": "833c194f23ed10ea96e00b30",
@@ -29,35 +58,6 @@
       "source_url": "",
       "total_snapshots": 1567,
       "estimated_hours": 391.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "110a249f5451e1a2edad8274",
-      "stable_event_id": "110a249f5451e1a2edad8274",
-      "observation_hash": "309e88b196d3d780f3688f2f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:31:59+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T04:31:59+00:00",
-      "updated_at": "2026-08-06T04:32:00.986415+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Chapecó",
-      "risk": 85,
-      "severity": "Crítico",
-      "lat": -27.1,
-      "lon": -52.615,
-      "city": "Chapecó",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 72.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2701,
-      "estimated_hours": 675.25,
       "active": true,
       "storage": "supabase"
     },
@@ -180,12 +180,12 @@
     {
       "event_id": "3723e8e093de4260ad8dd213",
       "stable_event_id": "3723e8e093de4260ad8dd213",
-      "observation_hash": "6e6ed7ba6fa4fabd11db166f",
+      "observation_hash": "22faa29c1bd0c1fd5c6cac25",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:31:59+00:00",
+      "snapshot_at": "2026-08-06T04:47:02+00:00",
       "first_seen_at": "2026-08-05T17:47:15+00:00",
-      "last_seen_at": "2026-08-06T04:31:59+00:00",
-      "updated_at": "2026-08-06T04:32:00.986415+00:00",
+      "last_seen_at": "2026-08-06T04:47:02+00:00",
+      "updated_at": "2026-08-06T04:47:04.11043+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -198,11 +198,11 @@
       "state": "AL",
       "region": "Nordeste",
       "road": "BR-101",
-      "description": "BR-101 será totalmente interditada na Serra; veja dia e horários.. Fontes consolidadas: Notícias públicas - portaltemponovo.com.br. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - portaltemponovo.com.br",
+      "description": "BR-101 será totalmente interditada na Serra; veja dia e horários.. Fontes consolidadas: Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Portal Tempo Novo",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVXlmc0Jucm5HNFM1SjNQUWNIU3VCUXVpU2tQajJNS0hzemJCQ1c5WWZkUWtoZzZiaUpCbFg5YVlNUkpyNE95QXM5cHNraGtlNF91eXBCU1RJYVYxbkl0UkVXcVdHVENxc3NBaHU1RTdJOXlGdmVDRDVFaUs4WWNBc0ZxN2FnQ2hpWVVhRFZtcU5WWFhCd2V3Y1lYZzdaTTl5",
-      "total_snapshots": 51,
-      "estimated_hours": 12.75,
+      "total_snapshots": 52,
+      "estimated_hours": 13.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -210,10 +210,10 @@
       "headline": "BR-101 será totalmente interditada na Serra; veja dia e horários.",
       "sources": [
         {
-          "source": "Notícias públicas - portaltemponovo.com.br",
+          "source": "Notícias públicas - Portal Tempo Novo",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVXlmc0Jucm5HNFM1SjNQUWNIU3VCUXVpU2tQajJNS0hzemJCQ1c5WWZkUWtoZzZiaUpCbFg5YVlNUkpyNE95QXM5cHNraGtlNF91eXBCU1RJYVYxbkl0UkVXcVdHVENxc3NBaHU1RTdJOXlGdmVDRDVFaUs4WWNBc0ZxN2FnQ2hpWVVhRFZtcU5WWFhCd2V3Y1lYZzdaTTl5",
           "headline": "BR-101 será totalmente interditada na Serra; veja dia e horários.",
-          "date": "2026-08-06T04:32:00.986415+00:00"
+          "date": "2026-08-06T04:47:04.11043+00:00"
         }
       ],
       "sourceCount": 1,
@@ -221,8 +221,8 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "aea0993c1dbefcfcd84a5460",
-      "stable_event_id": "aea0993c1dbefcfcd84a5460",
+      "event_id": "a504de406efd1cccd4ed6010",
+      "stable_event_id": "a504de406efd1cccd4ed6010",
       "observation_hash": "05b357647fa654e42fd3498c",
       "snapshot_bucket": "",
       "snapshot_at": "2026-08-06T04:31:59+00:00",
@@ -241,8 +241,8 @@
       "state": "",
       "region": "Sudeste",
       "road": "BR-060 / GO-203",
-      "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - tribunadoplanalto.com.br.. Fontes consolidadas: Notícias públicas - tribunadoplanalto.com.br. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - tribunadoplanalto.com.br",
+      "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - tribunadoplanalto.com.br.. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Tribuna do Planalto",
       "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlpja3ZiLU9fUEI2ZW9SMlBPdXYtY1hQMkE4dzgxZUZjNE40MDAxdXNYMEVUbk9KR05SU19xU2hRZl9jeElpS1c3OTVWeDBsR3Y3N2I5Y3RvX3dzaDN0NDUxaHVvNHlUc3M5MDJRbTIzV1JGSE5zNDZrUlFTd0g3VEhzUnhQQVV0WVMzd0dyaDMzVDFqcUd1WjNDZW5DZWZDRlhYZ3RBdFg0Q3dYaTdnZkdRMWpDR1JfMlJaNXZKbno4a3RxeVVlaXNB",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
@@ -250,13 +250,13 @@
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlpja3ZiLU9fUEI2ZW9SMlBPdXYtY1hQMkE4dzgxZUZjNE40MDAxdXNYMEVUbk9KR05SU19xU2hRZl9jeElpS1c3OTVWeDBsR3Y3N2I5Y3RvX3dzaDN0NDUxaHVvNHlUc3M5MDJRbTIzV1JGSE5zNDZrUlFTd0g3VEhzUnhQQVV0WVMzd0dyaDMzVDFqcUd1WjNDZW5DZWZDRlhYZ3RBdFg0Q3dYaTdnZkdRMWpDR1JfMlJaNXZKbno4a3RxeVVlaXNB",
-      "headline": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - tribunadoplanalto.com.br.",
+      "headline": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto.",
       "sources": [
         {
-          "source": "Notícias públicas - tribunadoplanalto.com.br",
+          "source": "Notícias públicas - Tribuna do Planalto",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlpja3ZiLU9fUEI2ZW9SMlBPdXYtY1hQMkE4dzgxZUZjNE40MDAxdXNYMEVUbk9KR05SU19xU2hRZl9jeElpS1c3OTVWeDBsR3Y3N2I5Y3RvX3dzaDN0NDUxaHVvNHlUc3M5MDJRbTIzV1JGSE5zNDZrUlFTd0g3VEhzUnhQQVV0WVMzd0dyaDMzVDFqcUd1WjNDZW5DZWZDRlhYZ3RBdFg0Q3dYaTdnZkdRMWpDR1JfMlJaNXZKbno4a3RxeVVlaXNB",
-          "headline": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - tribunadoplanalto.com.br.",
-          "date": "2026-08-06T04:32:00.986415+00:00"
+          "headline": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto.",
+          "date": "2026-08-06T04:47:04.11043+00:00"
         }
       ],
       "sourceCount": 1,
@@ -348,7 +348,7 @@
           "source": "Notícias públicas - Notiserra SC",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVZkSVNzV08zS2F5QkpRMklfVUtGWTJVanFuZ0wxWElHdHBrNV93aFlzRm9zTWd1Mk80aS1Pd2FiV2tYZlRLR2RDTk1YWk54blVuMXpkSHljNV95LU1fT2dwSm1zTDB4R19pMjAzSjBFUlJkMUp3S25hLVAxZ3I0czJiMFFUQXZrMVVMbWRHODR5elVwV0lXZVd1a0dhc3ZaeHNDX1g3a3U2d2xyZkNvb2N4MVN5ZzBLcThQbWNhcUpLeUxwZk00",
           "headline": "Colisão entre carro e caminhão deixa rodovia interditada por quase uma hora na SC-114, em São Joaquim - Notiserra SC.",
-          "date": "2026-08-06T04:32:00.986415+00:00"
+          "date": "2026-08-06T04:47:04.11043+00:00"
         }
       ],
       "sourceCount": 1,
@@ -434,7 +434,7 @@
           "source": "Notícias públicas - DOL",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcV80bWxkR1h4TmdzdzRLbGxDSFU1ekpSWmJsYTZGbzM3a1h4RWNmbFJSdWZ3QldhaFlGTGJJU0FfR3BYRExtYW94c2VwTjNsNDY4U05XMm1aYUhYektpM2xnVXZlaDhRNHJMNHlBcGliY05UMkdvdnFTc0lwcmk0YW9Kd2puaHBaRmVMQ3c1c0xndXN2djltVU5tTHltZllfaFJPMFFn0gGuAUFVX3lxTE1iTXF4UDZuX0FPdVRib3BtUlVMb1lfTEpkbzhrTjEwLXFRcE1abmMyZlAweTVrNjlxa0tELWd4VEZDdXU1N1B0aS1FVnlwRG1GbWVRSFpON3NicndxX2JFV0dIT3lfZ1pJZE12S1RGTXRULU9ibkxfUGhwUFREQ252YU9scEFzeHhGeWRfMmp5UVFuVUtncEpKSXZSQ3BNNmZDc2cwcm16MjE5TUUxdw",
           "headline": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL.",
-          "date": "2026-08-06T04:32:00.986415+00:00"
+          "date": "2026-08-06T04:47:04.11043+00:00"
         }
       ],
       "sourceCount": 1,
@@ -15799,10 +15799,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "bc3676b9390046fa1dca363b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:31:59+00:00",
+      "snapshot_at": "2026-08-06T04:47:02+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-08-06T04:31:59+00:00",
-      "updated_at": "2026-08-06T04:32:00.986415+00:00",
+      "last_seen_at": "2026-08-06T04:47:02+00:00",
+      "updated_at": "2026-08-06T04:47:04.11043+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15818,8 +15818,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 72.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2372,
-      "estimated_hours": 593.0,
+      "total_snapshots": 2373,
+      "estimated_hours": 593.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16437,10 +16437,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "e787217375b2b5b26ac4fac3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:31:59+00:00",
+      "snapshot_at": "2026-08-06T04:47:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T04:31:59+00:00",
-      "updated_at": "2026-08-06T04:32:00.986415+00:00",
+      "last_seen_at": "2026-08-06T04:47:02+00:00",
+      "updated_at": "2026-08-06T04:47:04.11043+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16456,8 +16456,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 72.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3372,
-      "estimated_hours": 843.0,
+      "total_snapshots": 3373,
+      "estimated_hours": 843.25,
       "active": true,
       "storage": "supabase"
     },
@@ -17249,10 +17249,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "3d1908d6368bbdbdbf72f43c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:31:59+00:00",
+      "snapshot_at": "2026-08-06T04:47:02+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-08-06T04:31:59+00:00",
-      "updated_at": "2026-08-06T04:32:00.986415+00:00",
+      "last_seen_at": "2026-08-06T04:47:02+00:00",
+      "updated_at": "2026-08-06T04:47:04.11043+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17268,8 +17268,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 70.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1718,
-      "estimated_hours": 429.5,
+      "total_snapshots": 1719,
+      "estimated_hours": 429.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18360,7 +18360,7 @@
           "date": "2026-08-06",
           "avgRisk": 52,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 86
         }
       ]
     },
@@ -18572,7 +18572,7 @@
           "date": "2026-08-06",
           "avgRisk": 52,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 86
         }
       ]
     },
@@ -19037,7 +19037,7 @@
           "date": "2026-08-06",
           "avgRisk": 52,
           "events": 20,
-          "maxRisk": 85
+          "maxRisk": 86
         }
       ]
     }
