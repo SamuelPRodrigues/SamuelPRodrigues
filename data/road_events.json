@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Grave acidente na BR-101 deixa um morto e rodovia totalmente interditada em SC - SCC10. Período informado: 2026-08-06T10:14:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-06T10:14:11Z; ativo há 3.0 h.",
+    "description": "Grave acidente na BR-101 deixa um morto e rodovia totalmente interditada em SC - SCC10. Período informado: 2026-08-06T10:14:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-06T10:14:11Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-08-06T13:15:45Z",
+    "updatedAt": "2026-08-06T13:21:42Z",
     "sources": [
       {
         "source": "Notícias públicas - SCC10",
@@ -41,12 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 3.05,
+    "newsFreshnessHours": 3.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-06T10:14:11Z",
-    "last_seen_at": "2026-08-06T13:16:57Z",
-    "active_duration_hours": 3.05,
-    "active_duration_label": "3.0 h",
+    "last_seen_at": "2026-08-06T13:22:54Z",
+    "active_duration_hours": 3.15,
+    "active_duration_label": "3.1 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
