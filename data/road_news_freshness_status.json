@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-08-06T21:47:11Z",
+  "updatedAt": "2026-08-06T22:16:55Z",
   "lookbackHours": 12.0,
   "inputEvents": 37,
-  "keptEvents": 2,
-  "removedEvents": 35,
+  "keptEvents": 1,
+  "removedEvents": 36,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "source": "Notícias públicas - SCC10 + 1 fonte(s)",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-08-06T10:08:35Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-101",
       "road": "BR-101",
@@ -175,13 +182,6 @@
       "source": "Surgiu",
       "reason": "public_news_older_than_12h",
       "date": "2026-06-20T13:42:00Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-381",
-      "road": "BR-381",
-      "source": "Notícias públicas - Estado de Minas",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-06-20T01:28:00Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
