@@ -9,7 +9,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL. Fontes consolidadas: Notícias públicas - DOL. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-05T20:27:31Z; ativo há 9.1 h.",
+    "description": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL. Fontes consolidadas: Notícias públicas - DOL. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-05T20:27:31Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 9.08,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-06T05:32:16Z",
+    "news_signature": "39f3e160bfa4bbc6374ea8aa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-05T17:42:00Z; ativo há 11.8 h.",
+    "description": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto. Fontes consolidadas: Notícias públicas - Tribuna do Planalto. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-05T17:42:00Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +87,12 @@
     "active_duration_hours": 11.84,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-203"
+    "detectedRoad": "GO-203",
+    "last_confirmed_at": "2026-08-06T05:32:16Z",
+    "news_signature": "11286105873200d6fbe67b50",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada na Serra; veja dia e horários. Período informado: 2026-08-05T17:35:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - portaltemponovo.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-05T17:35:00Z; ativo há 11.9 h.",
+    "description": "BR-101 será totalmente interditada na Serra; veja dia e horários. Período informado: 2026-08-05T17:35:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - portaltemponovo.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-05T17:35:00Z; ativo há 12.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -133,9 +139,11 @@
     "newsFreshnessHours": 11.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-05T17:35:00Z",
-    "last_seen_at": "2026-08-06T05:32:16Z",
-    "active_duration_hours": 11.95,
-    "active_duration_label": "11.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-08-06T05:32:30Z",
+    "active_duration_hours": 11.96,
+    "active_duration_label": "12.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "248a84348c16299906daeda7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
