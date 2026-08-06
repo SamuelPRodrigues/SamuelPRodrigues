@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "b0750b172b92c415b7405fa3",
+    "stable_event_id": "b0750b172b92c415b7405fa3",
+    "name": "Interdição planejada por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "city": "Maceió",
+    "state": "AL",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "Grave acidente na BR-101 deixa um morto e rodovia interditada em Araquari - SCC10. Período informado: 2026-08-06T10:14:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-06T10:14:11Z; ativo há 19 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - SCC10",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkVxVFdncUJ5VUlZS1BwVzN6dEpGUHhRWGlkOXVXeFRQdHFUdDFMUjg5cURMQ2Q3WlpIQ01uYzkwallGWjlaMURWcUtVWTlDcDdtWEtFRUpZMS1leEctT0NpM2VWcUZKTHhXbVc1ZGRUMXo4cW1DQVR3TWJMNVJNUk1ZeGhPYkFPT3VFUmNhRE0tNXFHNnMtSUhLTnpuNTRaSmJMck1Ua21uMlBqZHY1dFFzMWE",
+    "headline": "Grave acidente na BR-101 deixa um morto e rodovia interditada em Araquari - SCC10",
+    "newsDate": "2026-08-06T10:14:11Z",
+    "plannedStartAt": "2026-08-06T10:14:11Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-08-06T10:31:17Z",
+    "sources": [
+      {
+        "source": "Notícias públicas - SCC10",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkVxVFdncUJ5VUlZS1BwVzN6dEpGUHhRWGlkOXVXeFRQdHFUdDFMUjg5cURMQ2Q3WlpIQ01uYzkwallGWjlaMURWcUtVWTlDcDdtWEtFRUpZMS1leEctT0NpM2VWcUZKTHhXbVc1ZGRUMXo4cW1DQVR3TWJMNVJNUk1ZeGhPYkFPT3VFUmNhRE0tNXFHNnMtSUhLTnpuNTRaSmJMck1Ua21uMlBqZHY1dFFzMWE",
+        "headline": "Grave acidente na BR-101 deixa um morto e rodovia interditada em Araquari - SCC10",
+        "date": "Thu, 06 Aug 2026 10:14:11 GMT"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkVxVFdncUJ5VUlZS1BwVzN6dEpGUHhRWGlkOXVXeFRQdHFUdDFMUjg5cURMQ2Q3WlpIQ01uYzkwallGWjlaMURWcUtVWTlDcDdtWEtFRUpZMS1leEctT0NpM2VWcUZKTHhXbVc1ZGRUMXo4cW1DQVR3TWJMNVJNUk1ZeGhPYkFPT3VFUmNhRE0tNXFHNnMtSUhLTnpuNTRaSmJMck1Ua21uMlBqZHY1dFFzMWE",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 0.31,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-06T10:14:11Z",
+    "last_seen_at": "2026-08-06T10:32:31Z",
+    "active_duration_hours": 0.31,
+    "active_duration_label": "19 min",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
