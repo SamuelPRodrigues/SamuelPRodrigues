@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-08-06T11:44:05Z",
+  "updatedAt": "2026-08-06T11:48:12Z",
   "queries": 6,
-  "newItemsBeforeMerge": 58,
+  "newItemsBeforeMerge": 1,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 51,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Rua Raimundo Machado Fagundes terá interdição de pista nesta quinta-feira (6) para serviços de rede elétrica - Prefeitura de São José dos Pinhais - PR",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Mãe e filha morrem após carro ser atingido por guincho na Rodovia Anhanguera em Ribeirão Preto, SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Quatro pessoas morrem em acidente entre carro e caminhão, em Goiás - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Batida entre carretas arranca cabine e trava a Via Dutra; interdição durou 9 horas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre ao perder o controle da direção e capotar em rodovia de Cabreúva - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Duas pessoas morrem após colidir carro em carreta tombada na BR-230, no Sertão da PB - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após bater de frente com carreta na BR-364, em Pimenta Bueno, RO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após bater na traseira de carro na BR-277, sentido litoral do PR - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre após bater em carro e caminhão na BR-153 no Tocantins - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro carregado de drogas bate na BR-163 e deixa dois mortos em MT - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Nova frente fria chega ao RS com chuva forte e estado tem aviso de vendaval - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Quarta-feira (5/8) com possibilidade ventos fortes para a cidade do Rio de Janeiro - cor.rio",
-      "reason": "not_operationally_relevant"
+      "category": "mobilization",
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Jornal Midiamax. . A tempestade que atinge Mato Grosso do Sul na madrugada e manhã desta quinta-feira (30) chegou com toda a força na maioria dos municípios do estado, com registro",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "weather_news",
-      "title": "Previsão do tempo: segue alerta de chuva forte no Rio Grande do Sul - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva transforma córrego em rio, derruba muro e alaga ruas em poucas horas; assista - Primeira Página",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Rio Grande do Sul em alerta: semana de muita chuva - Climatempo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Defesa Civil contabiliza 141 municípios com danos após temporais no RS - Correio do Povo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Campo Grande tem chuva três vezes acima da média e registra estragos | Notícias de Campo Grande e MS - capitalnews.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Rio entra em estágio 2 com previsão de ventos de até 76 km/h nesta quarta - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Município do Rio de Janeiro entrou em Estágio 2 às 19h desta terça-feira, dia 4 de agosto de 2026 - cor.rio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Frente fria chega a SP com chuvas e queda de temperatura - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva em Campo Grande supera média de julho e agosto em poucas horas - capitalnews.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Cariocas recebem ‘alerta severo’ no celular sobre ventos nesta quarta - G1",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
