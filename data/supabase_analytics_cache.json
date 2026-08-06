@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T05:03:10Z",
+  "updatedAt": "2026-08-06T05:17:08Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -58,35 +58,6 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "110a249f5451e1a2edad8274",
-      "stable_event_id": "110a249f5451e1a2edad8274",
-      "observation_hash": "ee0a15ee13338eecab86e3f6",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T05:03:04+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T05:03:04+00:00",
-      "updated_at": "2026-08-06T05:03:06.405848+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Chapecó",
-      "risk": 83,
-      "severity": "Crítico",
-      "lat": -27.1,
-      "lon": -52.615,
-      "city": "Chapecó",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 72.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2703,
-      "estimated_hours": 675.75,
       "active": true,
       "storage": "supabase"
     },
@@ -178,14 +149,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "110a249f5451e1a2edad8274",
+      "stable_event_id": "110a249f5451e1a2edad8274",
+      "observation_hash": "e4a00b30be8f4a8f7af8d268",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Chapecó",
+      "risk": 70,
+      "severity": "Alto",
+      "lat": -27.1,
+      "lon": -52.615,
+      "city": "Chapecó",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 72.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2704,
+      "estimated_hours": 676.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "3723e8e093de4260ad8dd213",
       "stable_event_id": "3723e8e093de4260ad8dd213",
-      "observation_hash": "0b24fdc8d2d4e4113879374f",
+      "observation_hash": "4c67a45dcd36cea1b4b7340f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T05:03:04+00:00",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
       "first_seen_at": "2026-08-05T17:47:15+00:00",
-      "last_seen_at": "2026-08-06T05:03:04+00:00",
-      "updated_at": "2026-08-06T05:03:06.405848+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -201,8 +201,8 @@
       "description": "BR-101 será totalmente interditada na Serra; veja dia e horários.. Fontes consolidadas: Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Portal Tempo Novo",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVXlmc0Jucm5HNFM1SjNQUWNIU3VCUXVpU2tQajJNS0hzemJCQ1c5WWZkUWtoZzZiaUpCbFg5YVlNUkpyNE95QXM5cHNraGtlNF91eXBCU1RJYVYxbkl0UkVXcVdHVENxc3NBaHU1RTdJOXlGdmVDRDVFaUs4WWNBc0ZxN2FnQ2hpWVVhRFZtcU5WWFhCd2V3Y1lYZzdaTTl5",
-      "total_snapshots": 53,
-      "estimated_hours": 13.25,
+      "total_snapshots": 54,
+      "estimated_hours": 13.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -213,7 +213,7 @@
           "source": "Notícias públicas - Portal Tempo Novo",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVXlmc0Jucm5HNFM1SjNQUWNIU3VCUXVpU2tQajJNS0hzemJCQ1c5WWZkUWtoZzZiaUpCbFg5YVlNUkpyNE95QXM5cHNraGtlNF91eXBCU1RJYVYxbkl0UkVXcVdHVENxc3NBaHU1RTdJOXlGdmVDRDVFaUs4WWNBc0ZxN2FnQ2hpWVVhRFZtcU5WWFhCd2V3Y1lYZzdaTTl5",
           "headline": "BR-101 será totalmente interditada na Serra; veja dia e horários.",
-          "date": "2026-08-06T05:03:06.405848+00:00"
+          "date": "2026-08-06T05:17:04.515478+00:00"
         }
       ],
       "sourceCount": 1,
@@ -256,7 +256,7 @@
           "source": "Notícias públicas - Tribuna do Planalto",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlpja3ZiLU9fUEI2ZW9SMlBPdXYtY1hQMkE4dzgxZUZjNE40MDAxdXNYMEVUbk9KR05SU19xU2hRZl9jeElpS1c3OTVWeDBsR3Y3N2I5Y3RvX3dzaDN0NDUxaHVvNHlUc3M5MDJRbTIzV1JGSE5zNDZrUlFTd0g3VEhzUnhQQVV0WVMzd0dyaDMzVDFqcUd1WjNDZW5DZWZDRlhYZ3RBdFg0Q3dYaTdnZkdRMWpDR1JfMlJaNXZKbno4a3RxeVVlaXNB",
           "headline": "Caminhão carregado com brita tomba e motorista morre na GO-203, em Ipameri; pista está interditada - Tribuna do Planalto.",
-          "date": "2026-08-06T05:03:06.405848+00:00"
+          "date": "2026-08-06T05:17:04.515478+00:00"
         }
       ],
       "sourceCount": 1,
@@ -348,7 +348,7 @@
           "source": "Notícias públicas - Notiserra SC",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVZkSVNzV08zS2F5QkpRMklfVUtGWTJVanFuZ0wxWElHdHBrNV93aFlzRm9zTWd1Mk80aS1Pd2FiV2tYZlRLR2RDTk1YWk54blVuMXpkSHljNV95LU1fT2dwSm1zTDB4R19pMjAzSjBFUlJkMUp3S25hLVAxZ3I0czJiMFFUQXZrMVVMbWRHODR5elVwV0lXZVd1a0dhc3ZaeHNDX1g3a3U2d2xyZkNvb2N4MVN5ZzBLcThQbWNhcUpLeUxwZk00",
           "headline": "Colisão entre carro e caminhão deixa rodovia interditada por quase uma hora na SC-114, em São Joaquim - Notiserra SC.",
-          "date": "2026-08-06T05:03:06.405848+00:00"
+          "date": "2026-08-06T05:17:04.515478+00:00"
         }
       ],
       "sourceCount": 1,
@@ -434,7 +434,7 @@
           "source": "Notícias públicas - DOL",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcV80bWxkR1h4TmdzdzRLbGxDSFU1ekpSWmJsYTZGbzM3a1h4RWNmbFJSdWZ3QldhaFlGTGJJU0FfR3BYRExtYW94c2VwTjNsNDY4U05XMm1aYUhYektpM2xnVXZlaDhRNHJMNHlBcGliY05UMkdvdnFTc0lwcmk0YW9Kd2puaHBaRmVMQ3c1c0xndXN2djltVU5tTHltZllfaFJPMFFn0gGuAUFVX3lxTE1iTXF4UDZuX0FPdVRib3BtUlVMb1lfTEpkbzhrTjEwLXFRcE1abmMyZlAweTVrNjlxa0tELWd4VEZDdXU1N1B0aS1FVnlwRG1GbWVRSFpON3NicndxX2JFV0dIT3lfZ1pJZE12S1RGTXRULU9ibkxfUGhwUFREQ252YU9scEFzeHhGeWRfMmp5UVFuVUtncEpKSXZSQ3BNNmZDc2cwcm16MjE5TUUxdw",
           "headline": "VÍDEO: BR-316 é interditada em Ananindeua após incêndio em poste - DOL.",
-          "date": "2026-08-06T05:03:06.405848+00:00"
+          "date": "2026-08-06T05:17:04.515478+00:00"
         }
       ],
       "sourceCount": 1,
@@ -14867,6 +14867,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "9b86c406e5987317c955096d",
+      "stable_event_id": "9b86c406e5987317c955096d",
+      "observation_hash": "6b8bbb879d873d37c0e4ffce",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Foz do Iguaçu",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -25.546,
+      "lon": -54.588,
+      "city": "Foz do Iguaçu",
+      "state": "PR",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 72.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1447,
+      "estimated_hours": 361.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "f13e2269fc4592f622f09fc2",
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "caf3baf8581f7c6d0630b913",
@@ -14921,35 +14950,6 @@
       "source_url": "",
       "total_snapshots": 466,
       "estimated_hours": 116.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "9b86c406e5987317c955096d",
-      "stable_event_id": "9b86c406e5987317c955096d",
-      "observation_hash": "b26206e3160fa65044206712",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-05T22:02:15+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-05T22:02:15+00:00",
-      "updated_at": "2026-08-05T22:02:17.402341+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Foz do Iguaçu",
-      "risk": 44,
-      "severity": "Moderado",
-      "lat": -25.546,
-      "lon": -54.588,
-      "city": "Foz do Iguaçu",
-      "state": "PR",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 71.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1446,
-      "estimated_hours": 361.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15799,10 +15799,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "bc3676b9390046fa1dca363b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T05:03:04+00:00",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-08-06T05:03:04+00:00",
-      "updated_at": "2026-08-06T05:03:06.405848+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15818,20 +15818,20 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 72.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2374,
-      "estimated_hours": 593.5,
+      "total_snapshots": 2375,
+      "estimated_hours": 593.75,
       "active": true,
       "storage": "supabase"
     },
     {
       "event_id": "57a64278cbd624610c5498e1",
       "stable_event_id": "57a64278cbd624610c5498e1",
-      "observation_hash": "ec721863e45d0cfea36f6b7d",
+      "observation_hash": "d1103f5bac9d858a61a6d8b8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T04:02:28+00:00",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-06T04:02:28+00:00",
-      "updated_at": "2026-08-06T04:02:30.825423+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15844,11 +15844,11 @@
       "state": "PB",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 72.1 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 72.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3077,
-      "estimated_hours": 769.25,
+      "total_snapshots": 3078,
+      "estimated_hours": 769.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16437,10 +16437,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "e787217375b2b5b26ac4fac3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T05:03:04+00:00",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T05:03:04+00:00",
-      "updated_at": "2026-08-06T05:03:06.405848+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16456,8 +16456,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 72.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3374,
-      "estimated_hours": 843.5,
+      "total_snapshots": 3375,
+      "estimated_hours": 843.75,
       "active": true,
       "storage": "supabase"
     },
@@ -17245,35 +17245,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "7162d88fbd3ade34a9dad596",
-      "stable_event_id": "7162d88fbd3ade34a9dad596",
-      "observation_hash": "3d1908d6368bbdbdbf72f43c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T05:03:04+00:00",
-      "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-08-06T05:03:04+00:00",
-      "updated_at": "2026-08-06T05:03:06.405848+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Ilhéus",
-      "risk": 38,
-      "severity": "Moderado",
-      "lat": -14.793,
-      "lon": -39.046,
-      "city": "Ilhéus",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 70.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1720,
-      "estimated_hours": 430.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "7cf55655cceecd24734fee4b",
       "stable_event_id": "7cf55655cceecd24734fee4b",
       "observation_hash": "55053e042cb1e1840e071c54",
@@ -17589,6 +17560,35 @@
       "source_url": "",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "7162d88fbd3ade34a9dad596",
+      "stable_event_id": "7162d88fbd3ade34a9dad596",
+      "observation_hash": "aea773eaec793947bec15ba7",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-06T05:17:02+00:00",
+      "first_seen_at": "2026-05-27T07:16:38+00:00",
+      "last_seen_at": "2026-08-06T05:17:02+00:00",
+      "updated_at": "2026-08-06T05:17:04.515478+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Ilhéus",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -14.793,
+      "lon": -39.046,
+      "city": "Ilhéus",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 70.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1721,
+      "estimated_hours": 430.25,
       "active": true,
       "storage": "supabase"
     },
@@ -18309,9 +18309,9 @@
       },
       "bySeverity": {
         "Moderado": 75,
-        "Alto": 48,
+        "Alto": 49,
         "Baixo": 17,
-        "Crítico": 4
+        "Crítico": 3
       },
       "dailyRisk": [
         {
@@ -18353,14 +18353,14 @@
         {
           "date": "2026-08-05",
           "avgRisk": 41,
-          "events": 52,
+          "events": 51,
           "maxRisk": 86
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 51,
-          "events": 20,
-          "maxRisk": 83
+          "avgRisk": 50,
+          "events": 21,
+          "maxRisk": 70
         }
       ]
     },
@@ -18382,10 +18382,10 @@
         "Sem região": 5
       },
       "bySeverity": {
-        "Alto": 167,
+        "Alto": 168,
         "Moderado": 83,
         "Baixo": 19,
-        "Crítico": 4
+        "Crítico": 3
       },
       "dailyRisk": [
         {
@@ -18565,14 +18565,14 @@
         {
           "date": "2026-08-05",
           "avgRisk": 41,
-          "events": 52,
+          "events": 51,
           "maxRisk": 86
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 51,
-          "events": 20,
-          "maxRisk": 83
+          "avgRisk": 50,
+          "events": 21,
+          "maxRisk": 70
         }
       ]
     },
@@ -18595,10 +18595,10 @@
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 321,
+        "Alto": 322,
         "Moderado": 113,
         "Baixo": 19,
-        "Crítico": 4
+        "Crítico": 3
       },
       "dailyRisk": [
         {
@@ -19030,14 +19030,14 @@
         {
           "date": "2026-08-05",
           "avgRisk": 41,
-          "events": 52,
+          "events": 51,
           "maxRisk": 86
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 51,
-          "events": 20,
-          "maxRisk": 83
+          "avgRisk": 50,
+          "events": 21,
+          "maxRisk": 70
         }
       ]
     }
