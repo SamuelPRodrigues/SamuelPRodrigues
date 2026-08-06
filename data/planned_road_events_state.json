@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T13:47:12Z",
+  "updatedAt": "2026-08-06T14:02:15Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -2838,13 +2838,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-08-06T13:47:12Z",
+      "updatedAt": "2026-08-06T14:02:15Z",
       "sources": [
         {
           "source": "SCC10",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkVxVFdncUJ5VUlZS1BwVzN6dEpGUHhRWGlkOXVXeFRQdHFUdDFMUjg5cURMQ2Q3WlpIQ01uYzkwallGWjlaMURWcUtVWTlDcDdtWEtFRUpZMS1leEctT0NpM2VWcUZKTHhXbVc1ZGRUMXo4cW1DQVR3TWJMNVJNUk1ZeGhPYkFPT3VFUmNhRE0tNXFHNnMtSUhLTnpuNTRaSmJMck1Ua21uMlBqZHY1dFFzMWE?oc=5",
           "headline": "Grave acidente na BR-101 deixa um morto e rodovia totalmente interditada em SC - SCC10",
           "date": "2026-08-06T10:14:11Z"
+        }
+      ]
+    },
+    "e19728f4ca4c5f7a0268a477": {
+      "active": true,
+      "event_id": "e19728f4ca4c5f7a0268a477",
+      "stable_event_id": "e19728f4ca4c5f7a0268a477",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada na Serra nesta quinta-feira para obras de duplicação - Jornal Espírito Santo Notícias.  Período informado: 2026-08-06T10:08:35Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Jornal Espírito Santo Notícias",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjJQVTZKSV9Lbmt0SmxLZW0tTlB6WDk4VTA2ZWJCbm5tZ2VqWmVEWUlqYkpteVZaei16S2JJSDdiSEh6S0p6bmtWYTdHM2Jtb3p4d0FhenBsSWNIMkJWd09lWUtGRUF2ZDRRb0lUM2tta2VWTUNKaEtUSUx5TTZBOGhjRnBxM2VxWV9sZjhTR1ZMRVRnZDlOaHFPRWRhREZ6cHdaZE1UWkViWlJlOGxiRFdiOFlITzRUSnVHT2FCTmxWOXJXWFJHRw?oc=5",
+      "headline": "BR-101 será totalmente interditada na Serra nesta quinta-feira para obras de duplicação - Jornal Espírito Santo Notícias",
+      "newsDate": "2026-08-06T10:08:35Z",
+      "plannedStartAt": "2026-08-06T10:08:35Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-08-06T14:02:15Z",
+      "sources": [
+        {
+          "source": "Jornal Espírito Santo Notícias",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjJQVTZKSV9Lbmt0SmxLZW0tTlB6WDk4VTA2ZWJCbm5tZ2VqWmVEWUlqYkpteVZaei16S2JJSDdiSEh6S0p6bmtWYTdHM2Jtb3p4d0FhenBsSWNIMkJWd09lWUtGRUF2ZDRRb0lUM2tta2VWTUNKaEtUSUx5TTZBOGhjRnBxM2VxWV9sZjhTR1ZMRVRnZDlOaHFPRWRhREZ6cHdaZE1UWkViWlJlOGxiRFdiOFlITzRUSnVHT2FCTmxWOXJXWFJHRw?oc=5",
+          "headline": "BR-101 será totalmente interditada na Serra nesta quinta-feira para obras de duplicação - Jornal Espírito Santo Notícias",
+          "date": "2026-08-06T10:08:35Z"
         }
       ]
     }
