@@ -9,7 +9,7 @@
     "lat": -17.792,
     "lon": -50.919,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-06T13:52:40Z; ativo há 9.5 h.",
+    "description": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.5 h.5 h.5 h. Rastreio: primeiro registro em 2026-08-06T13:52:40Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-06T13:52:40Z",
     "last_seen_at": "2026-08-06T23:24:42Z",
-    "active_duration_hours": 9.53,
-    "active_duration_label": "9.5 h",
+    "active_duration_hours": 9.58,
+    "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
     "news_signature": "6831a2c65843eae3e1a9914c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at.",
+    "last_confirmed_at": "2026-08-06T23:24:42Z"
   }
 ]
