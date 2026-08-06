@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-06T13:32:44Z",
+  "updatedAt": "2026-08-06T13:47:44Z",
   "queries": 6,
-  "newItemsBeforeMerge": 56,
+  "newItemsBeforeMerge": 52,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 53,
+  "rejectedAsIrrelevant": 39,
   "removedPreviouslyStoredIrrelevant": 0,
   "rejectedSample": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "category": "weather_news",
-      "title": "Quarta-feira (5/8) com possibilidade ventos fortes para a cidade do Rio de Janeiro - Centro de Operações e Resiliência",
+      "title": "Quarta-feira (5/8) com possibilidade ventos fortes para a cidade do Rio de Janeiro - cor.rio",
       "reason": "not_operationally_relevant"
     },
     {
@@ -84,11 +84,6 @@
     },
     {
       "category": "weather_news",
-      "title": "Chuvas intensas: Inmet emite alerta para João Pessoa e outras 24 cidades na Paraíba - Jornal da Paraíba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
       "title": "Defesa Civil contabiliza 141 municípios com danos após temporais no RS - Correio do Povo",
       "reason": "not_operationally_relevant"
     },
@@ -99,12 +94,17 @@
     },
     {
       "category": "weather_news",
+      "title": "Prefeitura faz força-tarefa para recuperar estragos em Campo Grande após temporal - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
       "title": "Chuva destrói ponte em Campo Grande nesta quinta (30) - Campo Grande News",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "title": "Prefeitura faz força-tarefa para recuperar estragos em Campo Grande após temporal - Midiamax",
+      "title": "Por uma cidade mais resiliente - Revide",
       "reason": "not_operationally_relevant"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "category": "weather_news",
-      "title": "Município do Rio de Janeiro entrou em Estágio 2 às 19h desta terça-feira, dia 4 de agosto de 2026 - Centro de Operações e Resiliência",
+      "title": "Município do Rio de Janeiro entrou em Estágio 2 às 19h desta terça-feira, dia 4 de agosto de 2026 - cor.rio",
       "reason": "not_operationally_relevant"
     },
     {
@@ -133,5 +133,11 @@
       "reason": "not_operationally_relevant"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
 }
