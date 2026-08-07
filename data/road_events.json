@@ -36,13 +36,15 @@
     "newsFreshnessHours": 0.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T17:02:00Z",
-    "last_seen_at": "2026-08-07T17:11:01Z",
+    "last_seen_at": "2026-08-07T17:11:17Z",
     "active_duration_hours": 0.15,
     "active_duration_label": "9 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-010"
+    "detectedRoad": "GO-010",
+    "news_signature": "8e97776e48fb943d38b983e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão cai em lago às margens da BR-376 e motorista desaparece, em Tijucas do Sul; trânsito é parcialmente bloqueado - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-07T11:31:00Z; ativo há 5.7 h.",
+    "description": "Caminhão cai em lago às margens da BR-376 e motorista desaparece, em Tijucas do Sul; trânsito é parcialmente bloqueado - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-07T11:31:00Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,8 +87,11 @@
     "active_duration_hours": 5.67,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-07T17:11:01Z",
+    "news_signature": "b177fc01d722aa6efbddd354",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - ecoregional.com.br. Fontes consolidadas: Notícias públicas - ecoregional.com.br. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-07T11:30:15Z; ativo há 5.7 h.",
+    "description": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - ecoregional.com.br. Fontes consolidadas: Notícias públicas - ecoregional.com.br. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-07T11:30:15Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -129,7 +134,10 @@
     "active_duration_hours": 5.68,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-07T17:11:01Z",
+    "news_signature": "ce547ceacd36f7664268a416",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
