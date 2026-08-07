@@ -9,7 +9,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-010: rodovia foi totalmente interditada após acidente com 5 mortos. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-07T17:02:00Z; ativo há 3.8 h.",
+    "description": "GO-010: rodovia foi totalmente interditada após acidente com 5 mortos. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-07T17:02:00Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T17:02:00Z",
     "last_seen_at": "2026-08-07T20:50:05Z",
-    "active_duration_hours": 3.8,
+    "active_duration_hours": 3.81,
     "active_duration_label": "3.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-010"
+    "detectedRoad": "GO-010",
+    "last_confirmed_at": "2026-08-07T20:50:05Z",
+    "news_signature": "8e97776e48fb943d38b983e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão cai em lago às margens da BR-376 e motorista desaparece, em Tijucas do Sul; trânsito é parcialmente bloqueado - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-07T11:31:00Z; ativo há 9.3 h.",
+    "description": "Caminhão cai em lago às margens da BR-376 e motorista desaparece, em Tijucas do Sul; trânsito é parcialmente bloqueado - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-07T11:31:00Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,8 +88,11 @@
     "active_duration_hours": 9.32,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-07T20:50:05Z",
+    "news_signature": "b177fc01d722aa6efbddd354",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional. Fontes consolidadas: Notícias públicas - Eco Regional. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-07T11:30:15Z; ativo há 9.3 h.",
+    "description": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional. Fontes consolidadas: Notícias públicas - Eco Regional. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-07T11:30:15Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -126,11 +132,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T11:30:15Z",
     "last_seen_at": "2026-08-07T20:50:05Z",
-    "active_duration_hours": 9.33,
+    "active_duration_hours": 9.34,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-07T20:50:05Z",
+    "news_signature": "cbb34ef2280b26b08e119362",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +156,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 2.0 h.",
+    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -160,7 +169,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-07T20:48:48Z",
     "sources": [
       {
@@ -178,8 +187,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T18:48:02Z",
     "last_seen_at": "2026-08-07T20:50:05Z",
-    "active_duration_hours": 2.03,
+    "active_duration_hours": 2.04,
     "active_duration_label": "2.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-07T20:50:05Z",
+    "news_signature": "f1c3019d10c5a751a49ed279",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
