@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-386",
+    "road": "BR-386",
+    "corridor": "Porto Alegre / Canoas • BR-116 / BR-290 / BR-448",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -30.034,
+    "lon": -51.217,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional. Fontes consolidadas: Notícias públicas - Eco Regional. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-07T11:30:15Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Eco Regional",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSEJxUkFyQllrdlpBSnBzak5OWGFWdHpRMUVZTVM4STVTLU1BSmFQaGdscHAtM0N5TXBXUzZfcFVIdndBUmZudUd3N1ZHSDlJTWpvYXNFdi12eTF2ZUpKZ0ktWlA1ZWdpZThHWkpoOGZGUzgtWEsyTm1WY1JJTGpLMUQ2R21SeEVtODR2RF9pMFcweFBQTi1oVVBPZ2tKME1xY2xhWmRiMURfbFAtdkpxMFlUQ2NTSkdtdGcyZnJnYnpaQklFX1NxUWszTUF6NkhFeEFYZlVsSG9XQXptdGVMdw",
+    "headline": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional",
+    "newsDate": "Fri, 07 Aug 2026 11:30:15 GMT",
+    "updatedAt": "2026-08-07T11:45:53Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSEJxUkFyQllrdlpBSnBzak5OWGFWdHpRMUVZTVM4STVTLU1BSmFQaGdscHAtM0N5TXBXUzZfcFVIdndBUmZudUd3N1ZHSDlJTWpvYXNFdi12eTF2ZUpKZ0ktWlA1ZWdpZThHWkpoOGZGUzgtWEsyTm1WY1JJTGpLMUQ2R21SeEVtODR2RF9pMFcweFBQTi1oVVBPZ2tKME1xY2xhWmRiMURfbFAtdkpxMFlUQ2NTSkdtdGcyZnJnYnpaQklFX1NxUWszTUF6NkhFeEFYZlVsSG9XQXptdGVMdw",
+    "sources": [
+      {
+        "source": "Notícias públicas - Eco Regional",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSEJxUkFyQllrdlpBSnBzak5OWGFWdHpRMUVZTVM4STVTLU1BSmFQaGdscHAtM0N5TXBXUzZfcFVIdndBUmZudUd3N1ZHSDlJTWpvYXNFdi12eTF2ZUpKZ0ktWlA1ZWdpZThHWkpoOGZGUzgtWEsyTm1WY1JJTGpLMUQ2R21SeEVtODR2RF9pMFcweFBQTi1oVVBPZ2tKME1xY2xhWmRiMURfbFAtdkpxMFlUQ2NTSkdtdGcyZnJnYnpaQklFX1NxUWszTUF6NkhFeEFYZlVsSG9XQXptdGVMdw",
+        "headline": "ViaSul realiza detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional",
+        "date": "Fri, 07 Aug 2026 11:30:15 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "1b26e002898f151e93f7dcde",
+    "event_id": "1b26e002898f151e93f7dcde",
+    "newsFreshnessHours": 0.28,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-07T11:30:15Z",
+    "last_seen_at": "2026-08-07T11:47:10Z",
+    "active_duration_hours": 0.28,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
