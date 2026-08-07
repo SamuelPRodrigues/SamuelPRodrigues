@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T23:47:02Z",
+  "updatedAt": "2026-08-07T00:03:54Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -124,10 +124,10 @@
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "343f9ad4236cfea3ad2321d2",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -143,8 +143,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 73.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2740,
-      "estimated_hours": 685.0,
+      "total_snapshots": 2741,
+      "estimated_hours": 685.25,
       "active": true,
       "storage": "supabase"
     },
@@ -182,10 +182,10 @@
       "stable_event_id": "5cca55e4ca30532da426bf44",
       "observation_hash": "a24b718010b919f854ef86af",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -201,8 +201,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 73.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1634,
-      "estimated_hours": 408.5,
+      "total_snapshots": 1635,
+      "estimated_hours": 408.75,
       "active": true,
       "storage": "supabase"
     },
@@ -238,6 +238,49 @@
     {
       "event_id": "7d530da3b8eaec0766278e95",
       "stable_event_id": "7d530da3b8eaec0766278e95",
+      "observation_hash": "ca3ec32b92cfd5ebf13ff2c8",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
+      "first_seen_at": "2026-08-06T14:02:10+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-452",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -17.792,
+      "lon": -50.919,
+      "city": "Interdição ou bloqueio por notícia pública • BR-452",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-452",
+      "description": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos.. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Somos",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
+      "total_snapshots": 16,
+      "estimated_hours": 4.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
+      "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Somos",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
+          "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos.",
+          "date": "2026-08-07T00:03:49.398445+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "ccabf112d9619baed9043a83",
+      "stable_event_id": "ccabf112d9619baed9043a83",
       "observation_hash": "9948bc0a8f54405a581e8b92",
       "snapshot_bucket": "",
       "snapshot_at": "2026-08-06T22:16:50+00:00",
@@ -256,8 +299,8 @@
       "state": "",
       "region": "Sudeste",
       "road": "BR-452",
-      "description": "BR-452 está interditada nos dois sentidos para retirada de carreta - jornalsomos.com.br.. Fontes consolidadas: Notícias públicas - Jornal Somos. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Jornal Somos",
+      "description": "BR-452 está interditada nos dois sentidos para retirada de carreta - jornalsomos.com.br.. Fontes consolidadas: Notícias públicas - jornalsomos.com.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - jornalsomos.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
@@ -265,17 +308,17 @@
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
-      "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos.",
+      "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - jornalsomos.com.br.",
       "sources": [
         {
-          "source": "Notícias públicas - Jornal Somos",
+          "source": "Notícias públicas - jornalsomos.com.br",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpvbEp0N1BWaW1xdHpkVlhMTmFNUWxld3l3LTRfWVlMQkFMZFpHZTJKTDU3OURPVUZiQy1aSlNYQ0hFZWwtUWpxamFsWEVXdnlVWjNwQVhmZjRlQS1zM2NRNVJPa1VBcHppY3RLSll0empwUEs1UUhhZjY0SjBES2sxaXpybVhzN0xmRHgtbFNLaV84Q3VGOUpuNEJscVI2YmxXdzl6eUxYRW5JYTE1bQ",
-          "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - Jornal Somos.",
-          "date": "2026-08-06T23:46:59.23554+00:00"
+          "headline": "BR-452 está interditada nos dois sentidos para retirada de carreta - jornalsomos.com.br.",
+          "date": "2026-08-06T22:16:52.216283+00:00"
         }
       ],
       "sourceCount": 1,
-      "dedupedFrom": 2,
+      "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -14665,10 +14708,10 @@
       "stable_event_id": "110a249f5451e1a2edad8274",
       "observation_hash": "a23fc185ebdd60b680e5b12c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14684,8 +14727,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 73.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2752,
-      "estimated_hours": 688.0,
+      "total_snapshots": 2753,
+      "estimated_hours": 688.25,
       "active": true,
       "storage": "supabase"
     },
@@ -14694,10 +14737,10 @@
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "5d2abc69af1beb72f37616ff",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14713,8 +14756,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 73.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3197,
-      "estimated_hours": 799.25,
+      "total_snapshots": 3198,
+      "estimated_hours": 799.5,
       "active": true,
       "storage": "supabase"
     },
@@ -14723,10 +14766,10 @@
       "stable_event_id": "94eba1bea36aeec0d426f14d",
       "observation_hash": "d1a6c8eddad47f766a62b823",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -14742,8 +14785,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 72.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2341,
-      "estimated_hours": 585.25,
+      "total_snapshots": 2342,
+      "estimated_hours": 585.5,
       "active": true,
       "storage": "supabase"
     },
@@ -15361,10 +15404,10 @@
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "5ce84df027e2fddf40936e62",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T02:17:52+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15380,8 +15423,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T02:15:16Z; ativo há 72.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2422,
-      "estimated_hours": 605.5,
+      "total_snapshots": 2423,
+      "estimated_hours": 605.75,
       "active": true,
       "storage": "supabase"
     },
@@ -16086,10 +16129,10 @@
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "ac67b78f8594ac4e45d38075",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16105,8 +16148,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:13Z; ativo há 72.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2167,
-      "estimated_hours": 541.75,
+      "total_snapshots": 2168,
+      "estimated_hours": 542.0,
       "active": true,
       "storage": "supabase"
     },
@@ -17768,10 +17811,10 @@
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "ad6fe13c60e3bcbd8d4ae4bb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17787,8 +17830,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 73.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1672,
-      "estimated_hours": 418.0,
+      "total_snapshots": 1673,
+      "estimated_hours": 418.25,
       "active": true,
       "storage": "supabase"
     },
@@ -17797,10 +17840,10 @@
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "c64424661c9aee1de937d809",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-06T23:46:57+00:00",
+      "snapshot_at": "2026-08-07T00:03:47+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-06T23:46:57+00:00",
-      "updated_at": "2026-08-06T23:46:59.23554+00:00",
+      "last_seen_at": "2026-08-07T00:03:47+00:00",
+      "updated_at": "2026-08-07T00:03:49.398445+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17816,8 +17859,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 72.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1574,
-      "estimated_hours": 393.5,
+      "total_snapshots": 1575,
+      "estimated_hours": 393.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18346,25 +18389,25 @@
   ],
   "windows": {
     "7": {
-      "events": 142,
+      "events": 143,
       "avgRisk": 49,
       "maxRisk": 92,
       "rainChance": 14,
       "byType": {
         "climate": 96,
-        "road": 46
+        "road": 47
       },
       "byRegion": {
         "Nordeste": 43,
         "Sul": 37,
-        "Sudeste": 30,
+        "Sudeste": 31,
         "Norte": 22,
         "Centro-Oeste": 8,
         "Sem região": 2
       },
       "bySeverity": {
         "Moderado": 71,
-        "Alto": 51,
+        "Alto": 52,
         "Baixo": 18,
         "Crítico": 2
       },
@@ -18407,31 +18450,37 @@
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 43,
-          "events": 58,
+          "avgRisk": 42,
+          "events": 49,
           "maxRisk": 92
+        },
+        {
+          "date": "2026-08-07",
+          "avgRisk": 48,
+          "events": 10,
+          "maxRisk": 73
         }
       ]
     },
     "30": {
-      "events": 269,
+      "events": 270,
       "avgRisk": 57,
       "maxRisk": 92,
       "rainChance": 12,
       "byType": {
-        "road": 162,
+        "road": 163,
         "climate": 107
       },
       "byRegion": {
         "Nordeste": 90,
         "Sul": 74,
-        "Sudeste": 62,
+        "Sudeste": 63,
         "Norte": 26,
         "Centro-Oeste": 12,
         "Sem região": 5
       },
       "bySeverity": {
-        "Alto": 167,
+        "Alto": 168,
         "Moderado": 80,
         "Baixo": 20,
         "Crítico": 2
@@ -18613,32 +18662,38 @@
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 43,
-          "events": 58,
+          "avgRisk": 42,
+          "events": 49,
           "maxRisk": 92
+        },
+        {
+          "date": "2026-08-07",
+          "avgRisk": 48,
+          "events": 10,
+          "maxRisk": 73
         }
       ]
     },
     "90": {
-      "events": 458,
+      "events": 459,
       "avgRisk": 60,
       "maxRisk": 92,
       "rainChance": 29,
       "byType": {
-        "road": 318,
+        "road": 319,
         "climate": 138,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 141,
         "Sul": 114,
-        "Sudeste": 112,
+        "Sudeste": 113,
         "Norte": 55,
         "Sem região": 18,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 326,
+        "Alto": 327,
         "Moderado": 110,
         "Baixo": 20,
         "Crítico": 2
@@ -19078,9 +19133,15 @@
         },
         {
           "date": "2026-08-06",
-          "avgRisk": 43,
-          "events": 58,
+          "avgRisk": 42,
+          "events": 49,
           "maxRisk": 92
+        },
+        {
+          "date": "2026-08-07",
+          "avgRisk": 48,
+          "events": 10,
+          "maxRisk": 73
         }
       ]
     }
