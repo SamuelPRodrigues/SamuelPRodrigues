@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento com 3 caminhões e 2 carros causa 12 km de lentidão na Dutra em São José dos Campos; pista chegou a ficar interditada - Vale 360 News. Fontes consolidadas: Notícias públicas - Vale 360 News. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-07T05:54:03Z; ativo há 2.4 h.",
+    "description": "Engavetamento com 3 caminhões e 2 carros causa 12 km de lentidão na Dutra em São José dos Campos; pista chegou a ficar interditada - Vale 360 News. Fontes consolidadas: Notícias públicas - Vale 360 News. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-07T05:54:03Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 2.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T05:54:03Z",
-    "last_seen_at": "2026-08-07T08:17:07Z",
-    "active_duration_hours": 2.38,
+    "last_seen_at": "2026-08-07T08:17:23Z",
+    "active_duration_hours": 2.39,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d7df9454216ef33692ab9b39",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
