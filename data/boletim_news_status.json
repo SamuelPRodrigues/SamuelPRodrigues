@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-07T20:33:28Z",
+  "updatedAt": "2026-08-07T20:47:43Z",
   "queries": 6,
-  "newItemsBeforeMerge": 4,
+  "newItemsBeforeMerge": 65,
   "savedRoadNewsReused": 4,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 47,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Mãe e filha morrem após carro ser atingido por guincho na Rodovia Anhanguera em Ribeirão Preto, SP - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Caminhão cai em represa após sair de pista no Paraná, e motorista desaparece - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista morre ao perder o controle da direção e capotar em rodovia de Cabreúva - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Engavetamento entre caminhões e carros deixa feridos e provoca interdição na BR-116 , no PR - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após bater de frente com carreta na BR-364, em Pimenta Bueno, RO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista fica gravemente ferido após queda na BR-262 em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após bater em carro e caminhão na BR-153 no Tocantins - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Quinta (6/8) com previsão de rajadas de vento isoladas fortes na cidade do Rio | Há possibilidade de chuva - Centro de Operações e Resiliência",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Nova frente fria chega ao RS com chuva forte e estado tem aviso de vendaval - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone: veja regiões com previsão de ventos fortes no estado de SP e saiba como se proteger - agenciasp.sp.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Após ventania, ciclone-bomba causa temporal com granizo em Antônio João - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rio Grande do Sul em alerta: semana de muita chuva - Climatempo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Quarta-feira (5/8) com possibilidade ventos fortes para a cidade do Rio de Janeiro - Centro de Operações e Resiliência",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Cariocas recebem ‘alerta severo’ no celular sobre ventos nesta quarta - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Defesa Civil emite alerta severo para fortes ventos no Rio de Janeiro - cnnbrasil.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rio entra em estágio 2 com previsão de ventos de até 76 km/h nesta quarta - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Frente fria coloca 156 cidades do Paraná sob alerta de tempestades; veja quais e a previsão do tempo - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Defesa Civil emite 'alerta extremo' de vento forte no Rio; aulas nas escolas públicas estão suspensas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone-bomba pode se formar nesta sexta; Sudeste terá hoje maior risco de ventania, com rajadas de até 110 km/h - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone deve se formar nesta quinta e levar ventos acima de 100 km/h ao Sul e Sudeste; RS tem risco de tornado - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte e ventania atingem Itapeva; região segue sob alerta de rajadas de até 100 km/h - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Fim da greve da CPTM termina com confusão, correria e passageiros pulando catracas na Linha 12-Safira - G1",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Prefeitura informa alterações na linha Gotuzzo - Prefeitura de Pelotas",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Governo de SP adota plano de contingência após greve afetar linhas da CPTM - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
