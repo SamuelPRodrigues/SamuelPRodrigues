@@ -9,7 +9,7 @@
     "lat": -9.416,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 2.9 h.",
+    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.92,
     "active_duration_label": "2.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T17:32:12Z",
+    "news_signature": "1ae88f6b60a15f709ef40301",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 5.7 h.",
+    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 5.69,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T17:32:12Z",
+    "news_signature": "14831e7f81fb3087d42d5d01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -5.187,
     "lon": -37.344,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-08T11:33:27Z; ativo há 6.0 h.",
+    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-08T11:33:27Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,7 +134,10 @@
     "active_duration_hours": 5.98,
     "active_duration_label": "6.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T17:32:12Z",
+    "news_signature": "8e788f82b990dfb5f916115d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
