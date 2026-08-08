@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 41 min.",
+    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 42 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.69,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T11:50:47Z",
-    "last_seen_at": "2026-08-08T12:32:18Z",
-    "active_duration_hours": 0.69,
-    "active_duration_label": "41 min",
+    "last_seen_at": "2026-08-08T12:32:32Z",
+    "active_duration_hours": 0.7,
+    "active_duration_label": "42 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "14831e7f81fb3087d42d5d01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -84,7 +86,10 @@
     "active_duration_hours": 0.98,
     "active_duration_label": "59 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T12:32:18Z",
+    "news_signature": "8e788f82b990dfb5f916115d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
