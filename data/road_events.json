@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba e interdita trecho da BR-116, em Feira de Santana - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-07T20:49:29Z; ativo há 8.2 h.",
+    "description": "Carreta tomba e interdita trecho da BR-116, em Feira de Santana - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-07T20:49:29Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T20:49:29Z",
     "last_seen_at": "2026-08-08T05:02:16Z",
-    "active_duration_hours": 8.21,
+    "active_duration_hours": 8.22,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T05:02:16Z",
+    "news_signature": "af434189f165ade5000c7f93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 10.2 h.",
+    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-07T22:17:09Z",
     "sources": [
       {
@@ -91,6 +94,9 @@
     "last_seen_at": "2026-08-08T05:02:16Z",
     "active_duration_hours": 10.24,
     "active_duration_label": "10.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T05:02:16Z",
+    "news_signature": "9ab9e6de5c84b64cabce3004",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
