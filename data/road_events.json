@@ -9,7 +9,7 @@
     "lat": -9.416,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 5.7 h.",
+    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T14:37:00Z",
     "last_seen_at": "2026-08-08T20:17:25Z",
-    "active_duration_hours": 5.67,
+    "active_duration_hours": 5.68,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T20:17:25Z",
+    "news_signature": "1ae88f6b60a15f709ef40301",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 8.4 h.",
+    "description": "Retorno na BR-163/MT, em Sinop, será interditado, nesta terça (11), para obras em pavimento - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-08T11:50:47Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T11:50:47Z",
     "last_seen_at": "2026-08-08T20:17:25Z",
-    "active_duration_hours": 8.44,
+    "active_duration_hours": 8.45,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T20:17:25Z",
+    "news_signature": "14831e7f81fb3087d42d5d01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -5.187,
     "lon": -37.344,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - tcmnoticia.com.br. Fontes consolidadas: Notícias públicas - tcmnoticia.com.br. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-08T11:33:27Z; ativo há 8.7 h.",
+    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - tcmnoticia.com.br. Fontes consolidadas: Notícias públicas - tcmnoticia.com.br. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-08T11:33:27Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,10 +131,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T11:33:27Z",
     "last_seen_at": "2026-08-08T20:17:25Z",
-    "active_duration_hours": 8.73,
+    "active_duration_hours": 8.74,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T20:17:25Z",
+    "news_signature": "d4f8dc899f7a12f813c95935",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
