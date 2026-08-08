@@ -9,7 +9,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-010: rodovia foi totalmente interditada após acidente com 5 mortos. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-07T17:02:00Z; ativo há 11.2 h.",
+    "description": "GO-010: rodovia foi totalmente interditada após acidente com 5 mortos. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-07T17:02:00Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-07T17:02:00Z",
     "last_seen_at": "2026-08-08T04:17:10Z",
-    "active_duration_hours": 11.25,
-    "active_duration_label": "11.2 h",
+    "active_duration_hours": 11.26,
+    "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-010"
+    "detectedRoad": "GO-010",
+    "last_confirmed_at": "2026-08-08T04:17:10Z",
+    "news_signature": "8e97776e48fb943d38b983e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 9.5 h.",
+    "description": "BR-277 está totalmente interditada em São Luiz do Purunã, segundo concessionária - CBN Curitiba. Período informado: 2026-08-07T18:48:02Z até fim não identificado. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-07T18:48:02Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -72,7 +75,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-07T22:17:09Z",
     "sources": [
       {
@@ -92,6 +95,9 @@
     "last_seen_at": "2026-08-08T04:17:10Z",
     "active_duration_hours": 9.49,
     "active_duration_label": "9.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T04:17:10Z",
+    "news_signature": "9ab9e6de5c84b64cabce3004",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
