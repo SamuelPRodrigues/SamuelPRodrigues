@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba e interdita trecho da BR-116, em Feira de Santana - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-07T20:49:29Z; ativo há 12.0 h.",
+    "description": "Carreta tomba e interdita trecho da BR-116, em Feira de Santana - deolhonacidade.net. Fontes consolidadas: Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-07T20:49:29Z; ativo há 12.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 11.96,
     "active_duration_label": "12.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-08T08:47:03Z",
+    "news_signature": "af434189f165ade5000c7f93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
