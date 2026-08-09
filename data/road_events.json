@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.3 h.",
+    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T22:01:23Z",
     "last_seen_at": "2026-08-09T02:17:05Z",
-    "active_duration_hours": 4.26,
+    "active_duration_hours": 4.27,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-08-09T02:17:05Z",
+    "news_signature": "17cb822b8ae04b545214eec2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.4 h.",
+    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -88,11 +91,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T14:54:10Z",
     "last_seen_at": "2026-08-09T02:17:05Z",
-    "active_duration_hours": 11.38,
+    "active_duration_hours": 11.39,
     "active_duration_label": "11.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-09T02:17:05Z",
+    "news_signature": "f9e4ab5e56910b78e5037808",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "lat": -9.416,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 11.7 h.",
+    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -135,7 +141,10 @@
     "active_duration_hours": 11.67,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-09T02:17:05Z",
+    "news_signature": "1ae88f6b60a15f709ef40301",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
