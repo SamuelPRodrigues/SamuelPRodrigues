@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.5 h.",
+    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 4.52,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-08-09T02:32:18Z",
+    "news_signature": "17cb822b8ae04b545214eec2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.6 h.",
+    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -91,8 +94,11 @@
     "active_duration_hours": 11.64,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-09T02:32:18Z",
+    "news_signature": "f9e4ab5e56910b78e5037808",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "lat": -9.416,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 11.9 h.",
+    "description": "Suplente de Dorinha, Maurício Buffon critica governo federal por ponte interditada na BR-235 - Jornal Opção | Tocantins. Fontes consolidadas: Notícias públicas - Jornal Opção | Tocantins. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-08T14:37:00Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,10 +138,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T14:37:00Z",
     "last_seen_at": "2026-08-09T02:32:18Z",
-    "active_duration_hours": 11.92,
+    "active_duration_hours": 11.93,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-09T02:32:18Z",
+    "news_signature": "1ae88f6b60a15f709ef40301",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
