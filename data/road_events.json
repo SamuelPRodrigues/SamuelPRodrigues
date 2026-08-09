@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 11.5 h.",
+    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - Click Xaxim. Fontes consolidadas: Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T22:01:23Z",
     "last_seen_at": "2026-08-09T09:32:15Z",
-    "active_duration_hours": 11.51,
+    "active_duration_hours": 11.52,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-08-09T09:32:15Z",
+    "news_signature": "17cb822b8ae04b545214eec2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
