@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - clickxaxim.com.br. Fontes consolidadas: Notícias públicas - clickxaxim.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.8 h.",
+    "description": "Serra Dona Francisca entra em alerta para deslizamentos e SC-418 pode ser interditada - clickxaxim.com.br. Fontes consolidadas: Notícias públicas - clickxaxim.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-08T22:01:23Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T22:01:23Z",
     "last_seen_at": "2026-08-09T02:47:08Z",
-    "active_duration_hours": 4.76,
+    "active_duration_hours": 4.77,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "last_confirmed_at": "2026-08-09T02:47:08Z",
+    "news_signature": "fc84059dbed4422aff96d2f5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.9 h.",
+    "description": "Batida entre carreta e caminhão-tanque provoca incêndio e interdita a BR-116, em MG - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - deolhonacidade.net. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-08T14:54:10Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,13 @@
     "newsFreshnessHours": 11.88,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-08T14:54:10Z",
-    "last_seen_at": "2026-08-09T02:47:08Z",
-    "active_duration_hours": 11.88,
+    "last_seen_at": "2026-08-09T02:47:22Z",
+    "active_duration_hours": 11.89,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a053bdd525e48f1f7ca4d2a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
