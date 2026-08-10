@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-10T12:18:00Z",
+  "updatedAt": "2026-08-10T12:32:48Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
+  "newItemsBeforeMerge": 64,
   "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 45,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "DNIT alerta para interdição total no km 15 da BR-405/RN, em Mossoró, nesta terça-feira (11) - www.gov.br",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Sete pessoas morrem e uma fica em estado grave após acidente em MG - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre carro e carreta na BR-232, em São Caetano, deixa três mortos e um ferido - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Sete pessoas morrem após carro que fugia da PRF na BR-251 bater de frente com outro automóvel - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após bater de frente com carreta na BR-364, em Pimenta Bueno, RO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista fica gravemente ferido após queda na BR-262 em MG - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Quinta (6/8) com previsão de rajadas de vento isoladas fortes na cidade do Rio | Há possibilidade de chuva - Centro de Operações Rio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone: veja regiões com previsão de ventos fortes no estado de SP e saiba como se proteger - agenciasp.sp.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva e ventos fortes causam destelhamentos e estragos no Vale do Ribeira; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone causa estrago e morte no RS, ventos no RJ e fecha porto de Santos - UOL Notícias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte e ventania provocam estragos nas cidades Gravataí e Cachoeirinha - Correio do Povo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone bomba: as cidades que estão em maior estado de alerta - VEJA",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone-bomba pelo Brasil: os impactos do fenômeno até agora - BBC",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Após ventania, ciclone-bomba causa temporal com granizo em Antônio João - Midiamax",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Cariocas recebem ‘alerta severo’ no celular sobre ventos nesta quarta - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Veja a rota do ciclone e quais cidades terão vendavais mais fortes no RS - Correio do Povo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone-bomba pode se formar nesta sexta; Sudeste terá hoje maior risco de ventania, com rajadas de até 110 km/h - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal e tornado no RS deixam um morto, mais de 2 mil pessoas fora de casa e estragos em 114 cidades; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rio entra em estágio 2 com previsão de ventos de até 76 km/h nesta quarta - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Defesa Civil emite 'alerta extremo' de vento forte no Rio; aulas nas escolas públicas estão suspensas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone-bomba já se configurou e se afasta pelo oceano, mas ventos ainda podem ser fortes hoje e no sábado; veja previsão - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal com ventos fortes e granizo provoca estragos em Antônio João; ciclone mantém alerta em MS - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Prefeitura informa alterações na linha Gotuzzo - Prefeitura de Pelotas",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Fim da greve da CPTM termina com confusão, correria e passageiros pulando catracas na Linha 12-Safira - G1",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Passageiros encaram trens lotados e gastam com carro de app para não perder o trabalho no 2º dia de greve - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
