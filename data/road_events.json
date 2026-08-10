@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 tem parte da pista interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - Portal | TN Sul. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-10T12:16:51Z; ativo há 2.3 h.",
+    "description": "BR-101 tem parte da pista interditada após tombamento de caminhão. Fontes consolidadas: Notícias públicas - Portal | TN Sul. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-10T12:16:51Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcVg4X2FoNXJMTHZwRzFUb1dYZ1hsZVY5aXd4cVRuU2FsdTZpV3NiN0ttRjd5ZnptUmRrQ1FEQW1vVlVwUDRBMG9YNy1fMzk1WFJ6SkVkdXBUbG5DRUQ3XzN5eWxmWnJ3XzBiNWtOWFZjNnd3alphSUNfdzFLbFNlNW92U2FMMEo0ZE5wVGxIRk1PLVNTWFBHZmtTNA",
     "headline": "BR-101 tem parte da pista interditada após tombamento de caminhão",
     "newsDate": "Mon, 10 Aug 2026 12:16:51 GMT",
-    "updatedAt": "2026-08-10T14:30:48Z",
+    "updatedAt": "2026-08-10T14:45:05Z",
     "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcVg4X2FoNXJMTHZwRzFUb1dYZ1hsZVY5aXd4cVRuU2FsdTZpV3NiN0ttRjd5ZnptUmRrQ1FEQW1vVlVwUDRBMG9YNy1fMzk1WFJ6SkVkdXBUbG5DRUQ3XzN5eWxmWnJ3XzBiNWtOWFZjNnd3alphSUNfdzFLbFNlNW92U2FMMEo0ZE5wVGxIRk1PLVNTWFBHZmtTNA",
     "sources": [
       {
@@ -33,17 +33,14 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "7c24de038fd1d21fbd59e583",
     "event_id": "7c24de038fd1d21fbd59e583",
-    "newsFreshnessHours": 2.25,
+    "newsFreshnessHours": 2.49,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-10T12:16:51Z",
-    "last_seen_at": "2026-08-10T14:32:05Z",
-    "active_duration_hours": 2.26,
-    "active_duration_label": "2.3 h",
+    "last_seen_at": "2026-08-10T14:46:24Z",
+    "active_duration_hours": 2.49,
+    "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-10T14:32:05Z",
-    "news_signature": "e347369c535d7e7316ffc540",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
