@@ -9,7 +9,7 @@
     "lat": -5.187,
     "lon": -37.344,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-405 é interditado em Mossoró. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-11T13:25:46Z; ativo há 2.7 h.",
+    "description": "Trecho da BR-405 é interditado em Mossoró. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-11T13:25:46Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-11T13:25:46Z",
     "last_seen_at": "2026-08-11T16:07:24Z",
-    "active_duration_hours": 2.69,
+    "active_duration_hours": 2.7,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T16:07:24Z",
+    "news_signature": "1f69821a4b9cd497d755c42e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "RN",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - tcmnoticia.com.br. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - tcmnoticia.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 13.1 h.",
+    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - tcmnoticia.com.br. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - tcmnoticia.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 13.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,9 +90,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-08-11T03:00:00Z",
-    "last_seen_at": "2026-08-11T16:07:24Z",
-    "active_duration_hours": 13.12,
+    "last_seen_at": "2026-08-11T16:07:47Z",
+    "active_duration_hours": 13.13,
     "active_duration_label": "13.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cf4f549344e678268ad86c4b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
