@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T16:46:56Z",
+  "updatedAt": "2026-08-11T17:02:27Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -2955,13 +2955,52 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-08-11T16:46:56Z",
+      "updatedAt": "2026-08-11T17:02:27Z",
       "sources": [
         {
           "source": "TCM Notícia",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREVxaWZRaExabUh1V3ZDbnpBa0VMelpMMi1Iem84VHByMWY4dlNZYVRyb3RMUWtYc0poemZSVmczTEVTeVNqc0d5V3JLVUhDYW94Q0xKWVlfT3ZmbWhrdEp3dkxDWGlwUUZOX1dYeUdMSEo0dy0xckkwUk8yZHFuWENqZEZNa0t6NkJZVmdFdm5Eald5NTRFMWJHXzJKU1FoSHRLaElVRGtxd1k?oc=5",
           "headline": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia",
           "date": "2026-08-08T11:33:27Z"
+        }
+      ]
+    },
+    "51347ed5f2417ad43813fe22": {
+      "active": true,
+      "event_id": "51347ed5f2417ad43813fe22",
+      "stable_event_id": "51347ed5f2417ad43813fe22",
+      "name": "Interdição planejada por notícia pública • BR-424",
+      "road": "BR-424",
+      "corridor": "Garanhuns • BR-423 / BR-424",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -8.89,
+      "lon": -36.492,
+      "city": "Garanhuns",
+      "state": "PE",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Grave colisão na BR-424 deixa mortos, feridos e rodovia totalmente interditada - liberdade.com.br.  Período informado: 2026-08-11T16:39:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - liberdade.com.br",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPXzNjRk0xS242bnNaTG9EczM5ZHBTZFVISGUwa3k2dHlob3RWa01TRVY1cHU5ZVFoei1nbk05b3U3bXE4VGVDN0tMSHQwWk5YMnFyYXprZ3AtUDMtZHlQQ0NNRERvWERpX3dVMUNlWlZFZTJnZnc2akJabEJBa2xRSG9FNDlTRllOOHN4WWo3NXRpd2Y5ZjZpT0ZMZVh3WWZxOWlnUFdR?oc=5",
+      "headline": "Grave colisão na BR-424 deixa mortos, feridos e rodovia totalmente interditada - liberdade.com.br",
+      "newsDate": "2026-08-11T16:39:00Z",
+      "plannedStartAt": "2026-08-11T16:39:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-08-11T17:02:27Z",
+      "sources": [
+        {
+          "source": "liberdade.com.br",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPXzNjRk0xS242bnNaTG9EczM5ZHBTZFVISGUwa3k2dHlob3RWa01TRVY1cHU5ZVFoei1nbk05b3U3bXE4VGVDN0tMSHQwWk5YMnFyYXprZ3AtUDMtZHlQQ0NNRERvWERpX3dVMUNlWlZFZTJnZnc2akJabEJBa2xRSG9FNDlTRllOOHN4WWo3NXRpd2Y5ZjZpT0ZMZVh3WWZxOWlnUFdR?oc=5",
+          "headline": "Grave colisão na BR-424 deixa mortos, feridos e rodovia totalmente interditada - liberdade.com.br",
+          "date": "2026-08-11T16:39:00Z"
         }
       ]
     }
