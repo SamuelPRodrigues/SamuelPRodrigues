@@ -9,7 +9,7 @@
     "lat": -5.187,
     "lon": -37.344,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-405 é interditado em Mossoró - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-11T00:20:20Z; ativo há 17.2 h.",
+    "description": "Trecho da BR-405 é interditado em Mossoró - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-11T00:20:20Z; ativo há 17.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 17.2,
     "active_duration_label": "17.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T17:32:15Z",
+    "news_signature": "12d444eb09935af22354569f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-11T17:31:02Z",
     "sources": [
       {
@@ -91,7 +94,10 @@
     "last_seen_at": "2026-08-11T17:32:15Z",
     "active_duration_hours": 0.89,
     "active_duration_label": "53 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T17:32:15Z",
+    "news_signature": "72b1c83c9258b5f1b369107b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "RN",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 14.5 h.",
+    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 14.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,6 +146,9 @@
     "last_seen_at": "2026-08-11T17:32:15Z",
     "active_duration_hours": 14.54,
     "active_duration_label": "14.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T17:32:15Z",
+    "news_signature": "f699295f2c27271ae9513c14",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
