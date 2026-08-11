@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno na BR-470 é interditado definitivamente para obras em Navegantes - Jornal nos Bairros. Fontes consolidadas: Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-11T18:11:42Z; ativo há 2.9 h.",
+    "description": "Retorno na BR-470 é interditado definitivamente para obras em Navegantes - Jornal nos Bairros. Fontes consolidadas: Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-11T18:11:42Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.85,
     "active_duration_label": "2.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T21:02:41Z",
+    "news_signature": "4613d7a39cce5164d9574074",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -5.187,
     "lon": -37.344,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-405 é interditado em Mossoró. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-11T13:25:46Z; ativo há 7.6 h.",
+    "description": "Trecho da BR-405 é interditado em Mossoró. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-11T13:25:46Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 7.62,
     "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T21:02:41Z",
+    "news_signature": "1f69821a4b9cd497d755c42e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +108,7 @@
     "state": "PE",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Grave colisão na BR-424 deixa mortos, feridos e rodovia totalmente interditada - liberdade.com.br. Período informado: 2026-08-11T16:39:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - liberdade.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-11T16:39:00Z; ativo há 4.4 h.",
+    "description": "Grave colisão na BR-424 deixa mortos, feridos e rodovia totalmente interditada - liberdade.com.br. Período informado: 2026-08-11T16:39:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - liberdade.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-11T16:39:00Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +121,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-11T21:01:27Z",
     "sources": [
       {
@@ -133,9 +139,12 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-11T16:39:00Z",
     "last_seen_at": "2026-08-11T21:02:41Z",
-    "active_duration_hours": 4.39,
+    "active_duration_hours": 4.4,
     "active_duration_label": "4.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T21:02:41Z",
+    "news_signature": "72b1c83c9258b5f1b369107b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -152,7 +161,7 @@
     "state": "RN",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 18.0 h.",
+    "description": "BR-405 será totalmente interditada em Mossoró a partir de terça-feira (11) - TCM Notícia. Período informado: 2026-08-11T03:00:00Z até 2026-08-12T02:59:59Z. Fontes consolidadas: Notícias públicas - TCM Notícia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-11T03:00:00Z; ativo há 18.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -182,8 +191,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-08-11T03:00:00Z",
     "last_seen_at": "2026-08-11T21:02:41Z",
-    "active_duration_hours": 18.04,
-    "active_duration_label": "18.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 18.05,
+    "active_duration_label": "18.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-11T21:02:41Z",
+    "news_signature": "0ab0b22bb4378051b51eb5dc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
