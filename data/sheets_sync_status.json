@@ -1,21 +1,20 @@
 {
-  "updatedAt": "2026-08-12T16:47:23Z",
+  "updatedAt": "2026-08-12T17:02:50Z",
   "configured": true,
   "eventsPrepared": 26,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-08-12T16:45Z",
+  "snapshotBucket": "2026-08-12T17:00Z",
   "eventLifecycleFields": true,
   "ok": true,
   "response": {
     "ok": true,
     "received": 26,
-    "inserted": 0,
-    "updated": 26,
-    "total_rows": 633
+    "inserted": 1,
+    "updated": 25,
+    "total_rows": 634
   },
   "analyticsCache": true,
   "error": null,
-  "analyticsRows": 26,
-  "analyticsCacheWarning": "HTTP Error 404: Not Found"
+  "analyticsRows": 634
 }
