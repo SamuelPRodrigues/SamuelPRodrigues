@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-08-12T23:34:34Z",
+  "updatedAt": "2026-08-12T23:47:19Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "07816ebe0d21148d66395a6f",
+      "stable_event_id": "07816ebe0d21148d66395a6f",
+      "observation_hash": "327c7589f0c740b9ff48fecd",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caxias do Sul",
+      "risk": 85,
+      "severity": "Crítico",
+      "lat": -29.168,
+      "lon": -51.179,
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 79.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 3669,
+      "estimated_hours": 917.25,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "6facb261a381908297bf821f",
       "stable_event_id": "6facb261a381908297bf821f",
@@ -29,35 +58,6 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "07816ebe0d21148d66395a6f",
-      "stable_event_id": "07816ebe0d21148d66395a6f",
-      "observation_hash": "3600f7d3ffa13ecb0a4abab4",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caxias do Sul",
-      "risk": 84,
-      "severity": "Crítico",
-      "lat": -29.168,
-      "lon": -51.179,
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 79.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 3668,
-      "estimated_hours": 917.0,
       "active": true,
       "storage": "supabase"
     },
@@ -122,12 +122,12 @@
     {
       "event_id": "484f7562d616c10bb6e677b5",
       "stable_event_id": "484f7562d616c10bb6e677b5",
-      "observation_hash": "169b3af04bb38c314989ab00",
+      "observation_hash": "9a01f69f45f43badade70c9a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:25:48+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-08-12T22:16:58+00:00",
-      "last_seen_at": "2026-08-12T23:25:48+00:00",
-      "updated_at": "2026-08-12T23:25:50.178211+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais + 1 fonte(s); Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - ND Mais + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TSnRTYlExUXFPeGlSS2s0NUZaN3d0eDZobW83OGd3NmR6UFZqaEp2RWJIc0U2dW1OQTYyZ0NPbnNHbnFaU0Z2Y2JJaVFlUUNNQkExS2RWenhrY1VRWTRrOUpsQjA0bFZlV01Z",
-      "total_snapshots": 7,
-      "estimated_hours": 1.75,
+      "total_snapshots": 8,
+      "estimated_hours": 2.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - ND Mais + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TSnRTYlExUXFPeGlSS2s0NUZaN3d0eDZobW83OGd3NmR6UFZqaEp2RWJIc0U2dW1OQTYyZ0NPbnNHbnFaU0Z2Y2JJaVFlUUNNQkExS2RWenhrY1VRWTRrOUpsQjA0bFZlV01Z",
           "headline": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais.",
-          "date": "2026-08-12T23:25:50.178211+00:00"
+          "date": "2026-08-12T23:47:14.111408+00:00"
         },
         {
           "source": "Notícias públicas - ND Mais",
@@ -171,12 +171,12 @@
     {
       "event_id": "57e1e79292cb5dd477df1ea2",
       "stable_event_id": "57e1e79292cb5dd477df1ea2",
-      "observation_hash": "c5f00c9977f362d8c83758bc",
+      "observation_hash": "66126ca60276e5edbae39135",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:25:48+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-08-12T19:32:28+00:00",
-      "last_seen_at": "2026-08-12T23:25:48+00:00",
-      "updated_at": "2026-08-12T23:25:50.178211+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -192,8 +192,8 @@
       "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente.. Fontes consolidadas: Notícias públicas - G1 + 1 fonte(s); Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1 + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOTRxUHB3YjRZOXVPR3ZwcExwelo5RVRzNEVfUjlWdDhad0laekwyVExhR2t6TGFyTUhkUlV3MjIxR0paYWtPdkoxaHZlTnBCWGEzeUJlc2xGUXhRREdNMGxpczRPRmpGMWp2VGxCcGRiSjBER3V1X0lxYndRRlNHcmN4a0Ruc0ZZTVNpV0k5OUxpdHo5WVR5Z3ZJYU80VmxrVi0zOWlGRmhOcEMtNEYxbDAyYlJzVlFDdFc0bnpJTE5hMHZFZ2R6VGFrVWp3ZVF3aHVoT1VOOHRJdElQeUI0d3NpLVTSAfMBQVVfeXFMTjNYYnhMZDdDcWxYXzlQcnhjTWRRM2Ffd1g5MGgxcHNzRGdWX0JaZDM3TmhFSUgwbTE2SzhjMTlIajBaQWh1bFV3NFpoTE9oMzhoZWZicTFEMDJIVHE4c1VxbXNySms0X3ZfdVRENFFQYm1KWjRPdmktVFBKNjNfUDRoaHFjWUtfc2E1S0JTdTVqMXcxbldGSHozYzdtbWZBSlRfbGE0VEdMMmJUTkhVaWQxZ3FwQTFzRUFTa0NSUnk1dy1zcGdIVWNMdzZadmlFUWZGOTYtNElfRkFka0c2ejZpWDlQTElVNjlCZDc0NGZuUkdz",
-      "total_snapshots": 20,
-      "estimated_hours": 5.0,
+      "total_snapshots": 21,
+      "estimated_hours": 5.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -204,7 +204,7 @@
           "source": "Notícias públicas - G1 + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOTRxUHB3YjRZOXVPR3ZwcExwelo5RVRzNEVfUjlWdDhad0laekwyVExhR2t6TGFyTUhkUlV3MjIxR0paYWtPdkoxaHZlTnBCWGEzeUJlc2xGUXhRREdNMGxpczRPRmpGMWp2VGxCcGRiSjBER3V1X0lxYndRRlNHcmN4a0Ruc0ZZTVNpV0k5OUxpdHo5WVR5Z3ZJYU80VmxrVi0zOWlGRmhOcEMtNEYxbDAyYlJzVlFDdFc0bnpJTE5hMHZFZ2R6VGFrVWp3ZVF3aHVoT1VOOHRJdElQeUI0d3NpLVTSAfMBQVVfeXFMTjNYYnhMZDdDcWxYXzlQcnhjTWRRM2Ffd1g5MGgxcHNzRGdWX0JaZDM3TmhFSUgwbTE2SzhjMTlIajBaQWh1bFV3NFpoTE9oMzhoZWZicTFEMDJIVHE4c1VxbXNySms0X3ZfdVRENFFQYm1KWjRPdmktVFBKNjNfUDRoaHFjWUtfc2E1S0JTdTVqMXcxbldGSHozYzdtbWZBSlRfbGE0VEdMMmJUTkhVaWQxZ3FwQTFzRUFTa0NSUnk1dy1zcGdIVWNMdzZadmlFUWZGOTYtNElfRkFka0c2ejZpWDlQTElVNjlCZDc0NGZuUkdz",
           "headline": "BR-470 ficou bloqueada em Apiúna por causa de acidente.",
-          "date": "2026-08-12T23:25:50.178211+00:00"
+          "date": "2026-08-12T23:47:14.111408+00:00"
         },
         {
           "source": "Notícias públicas - Jornal nos Bairros",
@@ -253,7 +253,7 @@
           "source": "Notícias públicas - ContilNet + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRVRUamg2dVVSZnhpZWxac0dlbFZiR29rNVg5aDQ1Vk5PTGsxSTBwR1kwemo2bXlMTUdUVlRqQ3lGVzZ5SUZaRlJYVDRKZllmOHhLMjNLRWR1Vk4xdUNhb1NieWJBOFpoMFFtY0RJOW5WZ2UwbzNQbWhBc0NYMy11N09kdU9VUmhoZk5ZdzJ0a2FLalFOQ28wMNIBngFBVV95cUxPOEZfUU9kMTlZaExfT2g3UGVZUHhuS3NkR2sweEVocGtIZzd1bVhUdGQ5QUx2QzcxUTB4N0poLUJUZkZSQ25BXzBCRE1WT2VMbU1tRDVkaEdhUEJXaVFfbHNlQS0xdXBnc01FREhsa0dLMFZPdjl3aVR3ZjZlN2hvSHBqLTZsaGU3LXlHYXE5bzRJYnF3RFBSbHNhZXN2dw",
           "headline": "Moradores liberam trecho interditado na BR-364 após negociação com a PF - ContilNet.",
-          "date": "2026-08-12T23:25:50.178211+00:00"
+          "date": "2026-08-12T23:47:14.111408+00:00"
         },
         {
           "source": "Notícias públicas - Juruá Online",
@@ -302,7 +302,7 @@
           "source": "Notícias públicas - Diário do Nordeste",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN180bkJhVW5TMlRpM3lHVFFQc09WTnF3SmRTUjFqZndzdndKSDZKa3lJdGh1al9aSnVqWTcxdWowX1kxRkxNM0dGalpzOUdwNUtfSDNlaTFxQmZCRnRJdDJlbmRDenJTaE1oekpPWVFtZ0JiVnBwMWJJQXhtNkliUm8tcFZpamVDT0hZZXM2YnNmcVllU3BWRG1ZMEhKa0JrRlE3aHBJM3NsUF9kWTJwS0lyN0h0NE1yVDE2bGtRRG1LVWdwWGc",
           "headline": "Trecho da BR-116 segue interditado horas após tombamento de veículo - Diário do Nordeste.",
-          "date": "2026-08-12T23:25:50.178211+00:00"
+          "date": "2026-08-12T23:47:14.111408+00:00"
         }
       ],
       "sourceCount": 1,
@@ -15842,10 +15842,10 @@
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "c7bfe05c2e03af61dfbf59e0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -15861,8 +15861,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 78.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1831,
-      "estimated_hours": 457.75,
+      "total_snapshots": 1832,
+      "estimated_hours": 458.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16190,10 +16190,10 @@
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "1bec1fbc502816d463428d53",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16209,8 +16209,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 79.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2087,
-      "estimated_hours": 521.75,
+      "total_snapshots": 2088,
+      "estimated_hours": 522.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16741,10 +16741,10 @@
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "0a8ea47225c157c42f36e794",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16760,8 +16760,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 79.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1968,
-      "estimated_hours": 492.0,
+      "total_snapshots": 1969,
+      "estimated_hours": 492.25,
       "active": true,
       "storage": "supabase"
     },
@@ -17087,12 +17087,12 @@
     {
       "event_id": "94eba1bea36aeec0d426f14d",
       "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "9aa1c92f940cbff26b366a2e",
+      "observation_hash": "66ea3e0863d5837c360ccc99",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17105,11 +17105,11 @@
       "state": "RS",
       "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 78.8 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 78.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2643,
-      "estimated_hours": 660.75,
+      "total_snapshots": 2644,
+      "estimated_hours": 661.0,
       "active": true,
       "storage": "supabase"
     },
@@ -17872,10 +17872,10 @@
       "stable_event_id": "5cca55e4ca30532da426bf44",
       "observation_hash": "a8947938b3d8d5f966382fd1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-12T23:33:38+00:00",
+      "snapshot_at": "2026-08-12T23:47:12+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-12T23:33:38+00:00",
-      "updated_at": "2026-08-12T23:34:13.53911+00:00",
+      "last_seen_at": "2026-08-12T23:47:12+00:00",
+      "updated_at": "2026-08-12T23:47:14.111408+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17891,8 +17891,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 79.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1816,
-      "estimated_hours": 454.0,
+      "total_snapshots": 1817,
+      "estimated_hours": 454.25,
       "active": true,
       "storage": "supabase"
     },
@@ -19496,7 +19496,7 @@
     "7": {
       "events": 128,
       "avgRisk": 42,
-      "maxRisk": 84,
+      "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "climate": 94,
@@ -19557,7 +19557,7 @@
           "date": "2026-08-12",
           "avgRisk": 39,
           "events": 63,
-          "maxRisk": 84
+          "maxRisk": 85
         }
       ]
     },
@@ -19763,7 +19763,7 @@
           "date": "2026-08-12",
           "avgRisk": 39,
           "events": 63,
-          "maxRisk": 84
+          "maxRisk": 85
         }
       ]
     },
@@ -20264,7 +20264,7 @@
           "date": "2026-08-12",
           "avgRisk": 39,
           "events": 63,
-          "maxRisk": 84
+          "maxRisk": 85
         }
       ]
     }
