@@ -42,12 +42,14 @@
     "newsFreshnessHours": 0.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-12T21:56:51Z",
-    "last_seen_at": "2026-08-12T22:17:02Z",
+    "last_seen_at": "2026-08-12T22:17:16Z",
     "active_duration_hours": 0.34,
     "active_duration_label": "20 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5ca836b2effb148a0ae403c1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 segue interditado horas após tombamento de veículo - Diário do Nordeste. Fontes consolidadas: Notícias públicas - Diário do Nordeste. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-12T19:11:00Z; ativo há 3.1 h.",
+    "description": "Trecho da BR-116 segue interditado horas após tombamento de veículo - Diário do Nordeste. Fontes consolidadas: Notícias públicas - Diário do Nordeste. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-12T19:11:00Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 3.1,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-12T22:17:02Z",
+    "news_signature": "51c6315170fac59945788e5c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +108,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 3.5 h.",
+    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,8 +145,11 @@
     "active_duration_hours": 3.47,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-12T22:17:02Z",
+    "news_signature": "cc2689342d6a235992f6552d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +161,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Moradores liberam trecho interditado na BR-364 após negociação com a PF - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet; Notícias públicas - Juruá Online. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-12T14:18:24Z; ativo há 8.0 h.",
+    "description": "Moradores liberam trecho interditado na BR-364 após negociação com a PF - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet; Notícias públicas - Juruá Online. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-12T14:18:24Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -190,7 +198,10 @@
     "active_duration_hours": 7.98,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-12T22:17:02Z",
+    "news_signature": "c0bfd56fece2cf9a247269f2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
