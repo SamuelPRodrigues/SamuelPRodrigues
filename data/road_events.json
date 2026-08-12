@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saque de carga após tombamento de caminhão com eletrodomésticos deixa BR-277 interditada - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - CGN; Notícias públicas - RRMAIS. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-11T23:05:00Z; ativo há 6.9 h.",
+    "description": "Saque de carga após tombamento de caminhão com eletrodomésticos deixa BR-277 interditada - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - CGN; Notícias públicas - RRMAIS. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-11T23:05:00Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,12 +60,14 @@
     "newsFreshnessHours": 6.71,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-11T23:05:00Z",
-    "last_seen_at": "2026-08-12T06:00:28Z",
-    "active_duration_hours": 6.92,
+    "last_seen_at": "2026-08-12T06:00:42Z",
+    "active_duration_hours": 6.93,
     "active_duration_label": "6.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ec890ca4553f34fee0746016",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +79,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno na BR-470 é interditado definitivamente para obras em Navegantes - Jornal nos Bairros. Fontes consolidadas: Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-11T18:11:42Z; ativo há 11.8 h.",
+    "description": "Retorno na BR-470 é interditado definitivamente para obras em Navegantes - Jornal nos Bairros. Fontes consolidadas: Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-11T18:11:42Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -105,10 +107,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-11T18:11:42Z",
     "last_seen_at": "2026-08-12T06:00:28Z",
-    "active_duration_hours": 11.81,
+    "active_duration_hours": 11.82,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-12T06:00:28Z",
+    "news_signature": "4613d7a39cce5164d9574074",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
