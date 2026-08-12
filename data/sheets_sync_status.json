@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-08-12T04:03:37Z",
+  "updatedAt": "2026-08-12T04:17:21Z",
   "configured": true,
-  "eventsPrepared": 19,
+  "eventsPrepared": 16,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-08-12T04:00Z",
+  "snapshotBucket": "2026-08-12T04:15Z",
   "eventLifecycleFields": true,
-  "ok": false,
-  "response": null,
+  "ok": true,
+  "response": {
+    "ok": true,
+    "received": 16,
+    "inserted": 0,
+    "updated": 16,
+    "total_rows": 629
+  },
   "analyticsCache": true,
-  "error": "HTTP 404: <!DOCTYPE html><html lang=\"en\"><head><script nonce=\"nMXSdGsabHBrlk4ZIPn0XA\">window['ppConfig'] = {productName: '26981ed0d57bbad37e728ff58134270c', deleteIsEnforced:  false , sealIsEnforced:  false , heartbeatRate:  0.5 , periodicReportingRateMillis:  60000.0 , disableAllReporting:  false };(function(){'use strict';function k(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function l(a){var b=typeof Symbol!=\"undefined\"&&Symbol.iterator&&a[Symbol.iterator];if(b)ret",
-  "analyticsRows": 629
+  "error": null,
+  "analyticsRows": 16,
+  "analyticsCacheWarning": "HTTP Error 404: Not Found"
 }
