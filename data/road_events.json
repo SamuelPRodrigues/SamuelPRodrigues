@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br. Fontes consolidadas: Notícias públicas - tnh1.com.br; Notícias públicas - GazetaWeb. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-13T20:24:07Z; ativo há 2.1 h.",
+    "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br. Fontes consolidadas: Notícias públicas - tnh1.com.br; Notícias públicas - GazetaWeb. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-13T20:24:07Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T20:24:07Z",
     "last_seen_at": "2026-08-13T22:32:04Z",
-    "active_duration_hours": 2.13,
+    "active_duration_hours": 2.14,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T22:32:04Z",
+    "news_signature": "ba676d4d652bccbe1c91ba87",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -24.955,
     "lon": -53.455,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-13T13:00:00Z; ativo há 9.5 h.",
+    "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-13T13:00:00Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,12 +90,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T13:00:00Z",
     "last_seen_at": "2026-08-13T22:32:04Z",
-    "active_duration_hours": 9.53,
+    "active_duration_hours": 9.54,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-486"
+    "detectedRoad": "PR-486",
+    "last_confirmed_at": "2026-08-13T22:32:04Z",
+    "news_signature": "cd91f51973889dcaae7821e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais; Notícias públicas - Jornal Espírito Santo Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 24.6 h.",
+    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais; Notícias públicas - Jornal Espírito Santo Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 24.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -147,8 +153,11 @@
     "active_duration_hours": 24.59,
     "active_duration_label": "24.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T22:32:04Z",
+    "news_signature": "cf67aa2215171afaa40861be",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -165,7 +174,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Período informado: 2026-08-13T11:08:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online; Tribuna Online. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-13T11:08:29Z; ativo há 11.4 h.",
+    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Período informado: 2026-08-13T11:08:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online; Tribuna Online. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-13T11:08:29Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -178,7 +187,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-13T14:17:01Z",
     "sources": [
       {
@@ -202,8 +211,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T11:08:29Z",
     "last_seen_at": "2026-08-13T22:32:04Z",
-    "active_duration_hours": 11.39,
+    "active_duration_hours": 11.4,
     "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T22:32:04Z",
+    "news_signature": "9c18d0a00e7c9b235e9b8541",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
