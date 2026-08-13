@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 4.8 h.",
+    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 4.84,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T02:47:07Z",
+    "news_signature": "5ca836b2effb148a0ae403c1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -22.315,
     "lon": -49.061,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça da SP-300 que dá acesso à Avenida Euclides Miragaia é interditada - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-12T20:30:00Z; ativo há 6.3 h.",
+    "description": "Alça da SP-300 que dá acesso à Avenida Euclides Miragaia é interditada - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-12T20:30:00Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,13 +89,15 @@
     "newsFreshnessHours": 6.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-12T20:30:00Z",
-    "last_seen_at": "2026-08-13T02:47:07Z",
+    "last_seen_at": "2026-08-13T02:47:19Z",
     "active_duration_hours": 6.29,
     "active_duration_label": "6.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-300"
+    "detectedRoad": "SP-300",
+    "news_signature": "986c9bd7c1c5603902b02a31",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +109,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 8.0 h.",
+    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -141,8 +146,11 @@
     "active_duration_hours": 7.97,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T02:47:07Z",
+    "news_signature": "cc2689342d6a235992f6552d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -154,7 +162,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Moradores liberam trecho interditado na BR-364 após negociação com a PF - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet; Notícias públicas - Juruá Online. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-12T14:18:24Z; ativo há 12.5 h.",
+    "description": "Moradores liberam trecho interditado na BR-364 após negociação com a PF - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet; Notícias públicas - Juruá Online. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-12T14:18:24Z; ativo há 12.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -191,8 +199,11 @@
     "active_duration_hours": 12.48,
     "active_duration_label": "12.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T02:47:07Z",
+    "news_signature": "c0bfd56fece2cf9a247269f2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -204,7 +215,7 @@
     "lat": -20.469,
     "lon": -54.62,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-436 e interdita rodovia em MS - Campo Grande News. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-13T02:05:00Z; ativo há 42 min.",
+    "description": "Carreta tomba na BR-436 e interdita rodovia em MS - Campo Grande News. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-13T02:05:00Z; ativo há 43 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -231,11 +242,13 @@
     "newsFreshnessHours": 0.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T02:05:00Z",
-    "last_seen_at": "2026-08-13T02:47:07Z",
-    "active_duration_hours": 0.7,
-    "active_duration_label": "42 min",
+    "last_seen_at": "2026-08-13T02:47:19Z",
+    "active_duration_hours": 0.71,
+    "active_duration_label": "43 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c6f7b2d0626dd7e8f4820f47",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
