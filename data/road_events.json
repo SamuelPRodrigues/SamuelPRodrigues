@@ -9,7 +9,7 @@
     "lat": -24.955,
     "lon": -53.455,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-13T13:00:00Z; ativo há 32 min.",
+    "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-13T13:00:00Z; ativo há 33 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T13:00:00Z",
     "last_seen_at": "2026-08-13T13:32:29Z",
-    "active_duration_hours": 0.54,
-    "active_duration_label": "32 min",
+    "active_duration_hours": 0.55,
+    "active_duration_label": "33 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-486"
+    "detectedRoad": "PR-486",
+    "last_confirmed_at": "2026-08-13T13:32:29Z",
+    "news_signature": "cd91f51973889dcaae7821e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - ND Mais; Notícias públicas - espiritosantonoticias.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-13T11:06:20Z; ativo há 2.4 h.",
+    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - ND Mais; Notícias públicas - espiritosantonoticias.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-13T11:06:20Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,11 +102,13 @@
     "newsFreshnessHours": 2.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T11:06:20Z",
-    "last_seen_at": "2026-08-13T13:32:29Z",
+    "last_seen_at": "2026-08-13T13:32:45Z",
     "active_duration_hours": 2.44,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b922a6cd9261c99328d9269f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
