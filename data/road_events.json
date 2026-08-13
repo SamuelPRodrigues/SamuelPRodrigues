@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 6.8 h.",
+    "description": "BR-101 terá trechos com faixa interditada durante obras noturnas; confira os locais - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-12T21:56:51Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 6.84,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T04:47:10Z",
+    "news_signature": "5ca836b2effb148a0ae403c1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 interditada em Lindoeste após acidente com seis veículos - O Paraná. Fontes consolidadas: Notícias públicas - O Paraná. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-12T20:54:00Z; ativo há 7.9 h.",
+    "description": "BR-163 interditada em Lindoeste após acidente com seis veículos - O Paraná. Fontes consolidadas: Notícias públicas - O Paraná. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-12T20:54:00Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 7.89,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-13T04:47:10Z",
+    "news_signature": "36e3b53ce1c4986eefd00486",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -22.315,
     "lon": -49.061,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça da SP-300 que dá acesso à Avenida Euclides Miragaia é interditada - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-12T20:30:00Z; ativo há 8.3 h.",
+    "description": "Alça da SP-300 que dá acesso à Avenida Euclides Miragaia é interditada - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-12T20:30:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,9 +140,12 @@
     "active_duration_hours": 8.29,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-300"
+    "detectedRoad": "SP-300",
+    "last_confirmed_at": "2026-08-13T04:47:10Z",
+    "news_signature": "986c9bd7c1c5603902b02a31",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +157,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 10.0 h.",
+    "description": "BR-470 ficou bloqueada em Apiúna por causa de acidente. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Jornal nos Bairros. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-12T18:48:50Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -181,11 +190,13 @@
     "newsFreshnessHours": 9.97,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-12T18:48:50Z",
-    "last_seen_at": "2026-08-13T04:47:10Z",
-    "active_duration_hours": 9.97,
+    "last_seen_at": "2026-08-13T04:47:32Z",
+    "active_duration_hours": 9.98,
     "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cc2689342d6a235992f6552d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
