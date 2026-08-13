@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - ND Mais; Notícias públicas - espiritosantonoticias.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-13T11:06:20Z; ativo há 1.2 h.",
+    "description": "BR-101 na Serra será totalmente interditada nesta quinta; veja horários - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - ND Mais; Notícias públicas - espiritosantonoticias.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-13T11:06:20Z; ativo há 1.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,11 +54,13 @@
     "newsFreshnessHours": 1.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-13T11:06:20Z",
-    "last_seen_at": "2026-08-13T12:17:19Z",
-    "active_duration_hours": 1.18,
+    "last_seen_at": "2026-08-13T12:17:39Z",
+    "active_duration_hours": 1.19,
     "active_duration_label": "1.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b922a6cd9261c99328d9269f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
