@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - GazetaWeb; Notícias públicas - Cadaminuto; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-13T19:40:07Z; ativo há 10.6 h.",
+    "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1. Fontes consolidadas: Notícias públicas - TNH1; Notícias públicas - GazetaWeb; Notícias públicas - Cadaminuto; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-13T19:40:07Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -58,7 +58,10 @@
     "active_duration_hours": 10.62,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-14T06:17:20Z",
+    "news_signature": "3fc3f008545b40782898f51d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
