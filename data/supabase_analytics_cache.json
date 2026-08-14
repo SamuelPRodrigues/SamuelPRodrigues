@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:47:25Z",
+  "updatedAt": "2026-08-14T00:03:55Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -8,10 +8,10 @@
       "stable_event_id": "339bdee139384833cdff05f7",
       "observation_hash": "37a0ed4960bb98e6f2ff9126",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T09:18:44+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -27,8 +27,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T09:15:28Z; ativo há 79.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1343,
-      "estimated_hours": 335.75,
+      "total_snapshots": 1344,
+      "estimated_hours": 336.0,
       "active": true,
       "storage": "supabase"
     },
@@ -122,6 +122,92 @@
     {
       "event_id": "e2ef85182f90fd4a83e7d374",
       "stable_event_id": "e2ef85182f90fd4a83e7d374",
+      "observation_hash": "3ba1e043d740dafb3b424b42",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
+      "first_seen_at": "2026-08-13T20:46:59+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-104",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Interdição ou bloqueio por notícia pública • BR-104",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-104",
+      "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1.. Fontes consolidadas: Notícias públicas - TNH1 + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - TNH1 + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
+      "total_snapshots": 16,
+      "estimated_hours": 4.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
+      "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1.",
+      "sources": [
+        {
+          "source": "Notícias públicas - TNH1 + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
+          "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1.",
+          "date": "2026-08-14T00:03:51.58529+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "c24be26ad00f05739f914873",
+      "stable_event_id": "c24be26ad00f05739f914873",
+      "observation_hash": "8c0a24f251f8075c03314c24",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
+      "first_seen_at": "2026-08-13T13:17:08+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-277 / PR-486",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -24.955,
+      "lon": -53.455,
+      "city": "Interdição ou bloqueio por notícia pública • BR-277 / PR-486",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-277 / PR-486",
+      "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN.. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - CGN",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
+      "total_snapshots": 52,
+      "estimated_hours": 13.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
+      "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN.",
+      "sources": [
+        {
+          "source": "Notícias públicas - CGN",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
+          "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN.",
+          "date": "2026-08-14T00:03:51.58529+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "82605c0a814c5b4ec5832799",
+      "stable_event_id": "82605c0a814c5b4ec5832799",
       "observation_hash": "00208c917b4bb9422c731322",
       "snapshot_bucket": "",
       "snapshot_at": "2026-08-13T22:31:59+00:00",
@@ -140,8 +226,8 @@
       "state": "",
       "region": "Nordeste",
       "road": "BR-104",
-      "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br.. Fontes consolidadas: Notícias públicas - TNH1 + 1 fonte(s); Notícias públicas - GazetaWeb. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - TNH1 + 1 fonte(s) + 1 fonte(s)",
+      "description": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br.. Fontes consolidadas: Notícias públicas - tnh1.com.br + 1 fonte(s); Notícias públicas - GazetaWeb. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - tnh1.com.br + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
@@ -149,13 +235,13 @@
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
-      "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1.",
+      "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br.",
       "sources": [
         {
-          "source": "Notícias públicas - TNH1 + 1 fonte(s)",
+          "source": "Notícias públicas - tnh1.com.br + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWYyNTUyRmk5RGI4bDJDM1pfSVpLZkYtZDB6WUxUd0syNUtmU09Mb2hhbXZzMFBRbFU0aVR4UXh1VHFxSlFEQy12OUVUcVc0NFg5RUw2QjB5b0tHX2lRZ2NoMnQxU1dUUFZJUjZLc1hicDF2RWpPNjZoc1VjamdjR0o2VDdzYk1ZTEFlajhNUkUwZUk2eVVNM1ZKNDc4SE5aN0k4d0pRZHhJWjTSAaYBQVVfeXFMUENSXzc2X3g2aEItci02S3BNX2dQdjNiWFpFMTUtTUYxVTg2R3BpX2oxc0tlNTMwbHdyaTF4YWVybm5oVnR1aXA0ZmxNak1LWmVOQndQNlJPQ2Nsa29GWVRDSXVtQmYzN1Z5WW52TVd0cFFIcjRlU3RrRW1VTG1GTzhzNjB0ZEstR2lkbnk3WngxT2F5OFhnQXRtNGtQNHdNX1ItSHFjZw",
-          "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - TNH1.",
-          "date": "2026-08-13T23:47:21.112827+00:00"
+          "headline": "Trecho da BR-104 será totalmente interditado para detonação em Alagoas - tnh1.com.br.",
+          "date": "2026-08-13T22:32:00.663698+00:00"
         },
         {
           "source": "Notícias públicas - GazetaWeb",
@@ -165,7 +251,7 @@
         }
       ],
       "sourceCount": 2,
-      "dedupedFrom": 3,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -212,8 +298,8 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "c24be26ad00f05739f914873",
-      "stable_event_id": "c24be26ad00f05739f914873",
+      "event_id": "5a0ba712e98dc0afd60d33fd",
+      "stable_event_id": "5a0ba712e98dc0afd60d33fd",
       "observation_hash": "ee65cd9f59f5ecf5a61d5c68",
       "snapshot_bucket": "",
       "snapshot_at": "2026-08-13T15:41:43+00:00",
@@ -232,8 +318,8 @@
       "state": "",
       "region": "Sul",
       "road": "BR-277 / PR-486",
-      "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - cgn.inf.br.. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - CGN",
+      "description": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - cgn.inf.br.. Fontes consolidadas: Notícias públicas - cgn.inf.br. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - cgn.inf.br",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
       "total_snapshots": 3,
       "estimated_hours": 0.75,
@@ -241,17 +327,17 @@
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
-      "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN.",
+      "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - cgn.inf.br.",
       "sources": [
         {
-          "source": "Notícias públicas - CGN",
+          "source": "Notícias públicas - cgn.inf.br",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHA2RFpyUE1RT2tTY0FkU1NQLTdKdEkxNDAyTnlEeFVyZzNlY2ItLUZwSGZvN2dnblVKWF82cTFEQVhLOW5ORnA2VVMxSnVIcy1fRTdVRWwtYzJua0tMajhibm5TRlprREN3M3JuZzhaM2ZQZUV1Uk1Ib0lXaWk1THlra20tQ2lOM0xQUGM4Y2N5cWNx0gGaAUFVX3lxTE04UG0xNkVEVWNGbVRYNEFlR25jTTJ0ZGNwcGctakMzdlotazg2ZVUtQ3RPMjl0SFRIU2lXNHUybmRvT0lPbWlhVjJsTFFta05VekdmR1NEdExCM0JmM3JVN2hxS1NVT19YcV93NTIwSWZDUDExMXpnclRmeEk5eGVwakNTY1BwZk9nZlVsNEYwdjNQMkR1YTcxUGc",
-          "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - CGN.",
-          "date": "2026-08-13T23:47:21.112827+00:00"
+          "headline": "Capotamento deixa faixa bloqueada na PR-486 em Cascavel - cgn.inf.br.",
+          "date": "2026-08-13T15:41:45.122721+00:00"
         }
       ],
       "sourceCount": 1,
-      "dedupedFrom": 2,
+      "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -16057,10 +16143,10 @@
       "stable_event_id": "81996c61139cfa5997723f54",
       "observation_hash": "6a01d1e39df9e66fab6ae987",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16076,8 +16162,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 79.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1739,
-      "estimated_hours": 434.75,
+      "total_snapshots": 1740,
+      "estimated_hours": 435.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16579,10 +16665,10 @@
       "stable_event_id": "1fcf7a0c7179a187e29c34ce",
       "observation_hash": "91856e3d97ae7f243265d87a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16598,8 +16684,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:22Z; ativo há 79.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1353,
-      "estimated_hours": 338.25,
+      "total_snapshots": 1354,
+      "estimated_hours": 338.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16608,10 +16694,10 @@
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
       "observation_hash": "5cbc004405ede29657d8ffcb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16627,8 +16713,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 80.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1720,
-      "estimated_hours": 430.0,
+      "total_snapshots": 1721,
+      "estimated_hours": 430.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16637,10 +16723,10 @@
       "stable_event_id": "5cca55e4ca30532da426bf44",
       "observation_hash": "ff3ffc06326e4345616626db",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16656,8 +16742,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 80.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1919,
-      "estimated_hours": 479.75,
+      "total_snapshots": 1920,
+      "estimated_hours": 480.0,
       "active": true,
       "storage": "supabase"
     },
@@ -17217,10 +17303,10 @@
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "46f1e21cd19ded1b9e4d90a0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17236,8 +17322,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 80.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2050,
-      "estimated_hours": 512.5,
+      "total_snapshots": 2051,
+      "estimated_hours": 512.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18029,10 +18115,10 @@
       "stable_event_id": "83baaed9d8aede34697da9f3",
       "observation_hash": "a8613d0151118d8685b3dad0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-27T09:16:49+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18048,8 +18134,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T09:15:19Z; ativo há 78.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1424,
-      "estimated_hours": 356.0,
+      "total_snapshots": 1425,
+      "estimated_hours": 356.25,
       "active": true,
       "storage": "supabase"
     },
@@ -18348,10 +18434,10 @@
       "stable_event_id": "da05029ce4265c3efca03507",
       "observation_hash": "8015fce4c7bb5697135f978d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18367,8 +18453,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 79.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1151,
-      "estimated_hours": 287.75,
+      "total_snapshots": 1152,
+      "estimated_hours": 288.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18377,10 +18463,10 @@
       "stable_event_id": "883c7d29bda4c183c19a460b",
       "observation_hash": "76147d7eacb813fd0f4c7e84",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-30T06:46:49+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18396,8 +18482,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-30T06:45:17Z; ativo há 75.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1230,
-      "estimated_hours": 307.5,
+      "total_snapshots": 1231,
+      "estimated_hours": 307.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18667,10 +18753,10 @@
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "434254be40254f38947ea3e0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-13T23:47:19+00:00",
+      "snapshot_at": "2026-08-14T00:03:49+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-13T23:47:19+00:00",
-      "updated_at": "2026-08-13T23:47:21.112827+00:00",
+      "last_seen_at": "2026-08-14T00:03:49+00:00",
+      "updated_at": "2026-08-14T00:03:51.58529+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18686,8 +18772,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 80.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2783,
-      "estimated_hours": 695.75,
+      "total_snapshots": 2784,
+      "estimated_hours": 696.0,
       "active": true,
       "storage": "supabase"
     },
@@ -19912,17 +19998,17 @@
   ],
   "windows": {
     "7": {
-      "events": 131,
+      "events": 133,
       "avgRisk": 44,
       "maxRisk": 85,
       "rainChance": 0,
       "byType": {
         "climate": 94,
-        "road": 37
+        "road": 39
       },
       "byRegion": {
-        "Nordeste": 41,
-        "Sul": 29,
+        "Nordeste": 42,
+        "Sul": 30,
         "Sudeste": 29,
         "Norte": 18,
         "Centro-Oeste": 11,
@@ -19930,7 +20016,7 @@
       },
       "bySeverity": {
         "Moderado": 59,
-        "Alto": 40,
+        "Alto": 42,
         "Baixo": 31,
         "Crítico": 1
       },
@@ -19973,31 +20059,37 @@
         },
         {
           "date": "2026-08-13",
-          "avgRisk": 41,
-          "events": 62,
+          "avgRisk": 40,
+          "events": 52,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-14",
+          "avgRisk": 51,
+          "events": 12,
           "maxRisk": 85
         }
       ]
     },
     "30": {
-      "events": 266,
-      "avgRisk": 55,
+      "events": 268,
+      "avgRisk": 56,
       "maxRisk": 85,
       "rainChance": 12,
       "byType": {
-        "road": 159,
+        "road": 161,
         "climate": 107
       },
       "byRegion": {
-        "Nordeste": 90,
-        "Sul": 73,
+        "Nordeste": 91,
+        "Sul": 74,
         "Sudeste": 60,
         "Norte": 25,
         "Centro-Oeste": 12,
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 163,
+        "Alto": 165,
         "Moderado": 70,
         "Baixo": 31,
         "Crítico": 2
@@ -20179,32 +20271,38 @@
         },
         {
           "date": "2026-08-13",
-          "avgRisk": 41,
-          "events": 62,
+          "avgRisk": 40,
+          "events": 52,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-14",
+          "avgRisk": 51,
+          "events": 12,
           "maxRisk": 85
         }
       ]
     },
     "90": {
-      "events": 494,
+      "events": 496,
       "avgRisk": 60,
       "maxRisk": 85,
       "rainChance": 29,
       "byType": {
-        "road": 354,
+        "road": 356,
         "climate": 138,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 159,
-        "Sul": 124,
+        "Nordeste": 160,
+        "Sul": 125,
         "Sudeste": 115,
         "Norte": 57,
         "Sem região": 21,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 361,
+        "Alto": 363,
         "Moderado": 100,
         "Baixo": 31,
         "Crítico": 2
@@ -20686,8 +20784,14 @@
         },
         {
           "date": "2026-08-13",
-          "avgRisk": 41,
-          "events": 62,
+          "avgRisk": 40,
+          "events": 52,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-14",
+          "avgRisk": 51,
+          "events": 12,
           "maxRisk": 85
         }
       ]
