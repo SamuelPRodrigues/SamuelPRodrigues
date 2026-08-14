@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T11:17:06Z",
+  "updatedAt": "2026-08-14T11:31:46Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -93,12 +93,12 @@
     {
       "event_id": "57435049e0a23229042a8027",
       "stable_event_id": "57435049e0a23229042a8027",
-      "observation_hash": "faf228cfa4cff6d6697d597f",
+      "observation_hash": "b08ede468935b0d41bd6994b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-08-14T11:17:02+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -114,8 +114,8 @@
       "description": "Caminhão de frutas tomba e deixa BR-343 parcialmente interditada em Campo Maior - Conecta Piauí.. Fontes consolidadas: Notícias públicas - Conecta Piauí. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Conecta Piauí",
       "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeXEwbEFla0R3SnpJYVpUbW5XQ1drTW52NTd5a2pSM0YzWFZOdUtDSzU3ZEVEcXVyQW4tVzlTcnp6TGZwZ0NNOFJhTGxIb1cyRlJ3YXEwYTdDbTRLdmx3Qlh6aURHbjJvMjQ0d0JSMmlFd1NkNHVUaEJfRXVSdThuSExiWDlvXzQ4TjVCMGZNUXZxZ0JvMm5sdS1TUVppZHZ4dXBOYkgxaWUzVnZubVY1ZXdfdDExZVN1YmNiN3pHbHh3aEJSdmxXX0k1MXJqSGZx0gHWAUFVX3lxTE1qME12S0p5aDlSM1pUbURXOWF5cXRDZVhrWUdKbjhhZEIzY2x6U0ZXc0k1S3ZmOG5aUUxYYWpDT0NQamNKbnphNXJKNVJzNGRJN1Z4TENBdmlCNHVTNUFxMmJsWDRjQWNMd19Nb1Q0QS13bXJWcVJrUDNXQ0prcmQ2amNFVlQxZWx2eldxNG43TlJjOVhaR0VXSm9TQ1lxVjV0TlVpbENnbzN4OXR3VHBfaFBkbG4tS1d0MDJfeDdtbDZqMDIzb1VYM3dabDBmWVVwWkRsb0E",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,7 +126,50 @@
           "source": "Notícias públicas - Conecta Piauí",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeXEwbEFla0R3SnpJYVpUbW5XQ1drTW52NTd5a2pSM0YzWFZOdUtDSzU3ZEVEcXVyQW4tVzlTcnp6TGZwZ0NNOFJhTGxIb1cyRlJ3YXEwYTdDbTRLdmx3Qlh6aURHbjJvMjQ0d0JSMmlFd1NkNHVUaEJfRXVSdThuSExiWDlvXzQ4TjVCMGZNUXZxZ0JvMm5sdS1TUVppZHZ4dXBOYkgxaWUzVnZubVY1ZXdfdDExZVN1YmNiN3pHbHh3aEJSdmxXX0k1MXJqSGZx0gHWAUFVX3lxTE1qME12S0p5aDlSM1pUbURXOWF5cXRDZVhrWUdKbjhhZEIzY2x6U0ZXc0k1S3ZmOG5aUUxYYWpDT0NQamNKbnphNXJKNVJzNGRJN1Z4TENBdmlCNHVTNUFxMmJsWDRjQWNMd19Nb1Q0QS13bXJWcVJrUDNXQ0prcmQ2amNFVlQxZWx2eldxNG43TlJjOVhaR0VXSm9TQ1lxVjV0TlVpbENnbzN4OXR3VHBfaFBkbG4tS1d0MDJfeDdtbDZqMDIzb1VYM3dabDBmWVVwWkRsb0E",
           "headline": "Caminhão de frutas tomba e deixa BR-343 parcialmente interditada em Campo Maior - Conecta Piauí.",
-          "date": "2026-08-14T11:17:03.137406+00:00"
+          "date": "2026-08-14T11:31:41.96392+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "3d969a97317355a722df79bb",
+      "stable_event_id": "3d969a97317355a722df79bb",
+      "observation_hash": "9c10a0e75b5bc2ce406b0407",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
+      "first_seen_at": "2026-08-14T11:31:41+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-277",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Interdição ou bloqueio por notícia pública • BR-277",
+      "state": "",
+      "region": "Sul",
+      "road": "BR-277",
+      "description": "BR-277 é interditada em Foz do Iguaçu - g1.globo.com.. Fontes consolidadas: Notícias públicas - g1.globo.com. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - g1.globo.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONF9VbUljT2VSdlF0aUpDNDk5UU50WDczcUlYWHdRSVpPQjJRTG5uQTlXYzRvdnI3S3NKcV9oZ0VPVWJ6dHExR2JFN0ZtSWROZ2k2NHFVM2h2N2FERV9pT1dHVVBXUkkydW9NMDVkTmR6ZmlNb2hIWHBYb1dMNXdUQjRfbXo1Z0huVkZZOHNZZ3VQQWx1ZTR0RjJtWnRwUTQxTkUzaEEyTVpkeXRsdnpMc9IBvwFBVV95cUxNV0d0NlNjWGNvQURSbll5aWdWSWF4YVFyNmdEMlVjTjBxOGdiazJDQnRtMWlWbWc3TUtXc3JxMnVFOVpMcFYyMGQ2RWo5aTh3ODQyeGlJMGQ3QUt3U3lhR3liWXNyZFdXaEN3NVgxTmJjaXUyWGI5VkhheUI0S19vNEFjZU1mYjBCQWY1RXd5MEw3UEItdm40cmMzR0pVUFRqamRnQnZYdjZKRlgwLVRCQnpfSW41aW50Ul9QYVBIZw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONF9VbUljT2VSdlF0aUpDNDk5UU50WDczcUlYWHdRSVpPQjJRTG5uQTlXYzRvdnI3S3NKcV9oZ0VPVWJ6dHExR2JFN0ZtSWROZ2k2NHFVM2h2N2FERV9pT1dHVVBXUkkydW9NMDVkTmR6ZmlNb2hIWHBYb1dMNXdUQjRfbXo1Z0huVkZZOHNZZ3VQQWx1ZTR0RjJtWnRwUTQxTkUzaEEyTVpkeXRsdnpMc9IBvwFBVV95cUxNV0d0NlNjWGNvQURSbll5aWdWSWF4YVFyNmdEMlVjTjBxOGdiazJDQnRtMWlWbWc3TUtXc3JxMnVFOVpMcFYyMGQ2RWo5aTh3ODQyeGlJMGQ3QUt3U3lhR3liWXNyZFdXaEN3NVgxTmJjaXUyWGI5VkhheUI0S19vNEFjZU1mYjBCQWY1RXd5MEw3UEItdm40cmMzR0pVUFRqamRnQnZYdjZKRlgwLVRCQnpfSW41aW50Ul9QYVBIZw",
+      "headline": "BR-277 é interditada em Foz do Iguaçu - g1.globo.com.",
+      "sources": [
+        {
+          "source": "Notícias públicas - g1.globo.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONF9VbUljT2VSdlF0aUpDNDk5UU50WDczcUlYWHdRSVpPQjJRTG5uQTlXYzRvdnI3S3NKcV9oZ0VPVWJ6dHExR2JFN0ZtSWROZ2k2NHFVM2h2N2FERV9pT1dHVVBXUkkydW9NMDVkTmR6ZmlNb2hIWHBYb1dMNXdUQjRfbXo1Z0huVkZZOHNZZ3VQQWx1ZTR0RjJtWnRwUTQxTkUzaEEyTVpkeXRsdnpMc9IBvwFBVV95cUxNV0d0NlNjWGNvQURSbll5aWdWSWF4YVFyNmdEMlVjTjBxOGdiazJDQnRtMWlWbWc3TUtXc3JxMnVFOVpMcFYyMGQ2RWo5aTh3ODQyeGlJMGQ3QUt3U3lhR3liWXNyZFdXaEN3NVgxTmJjaXUyWGI5VkhheUI0S19vNEFjZU1mYjBCQWY1RXd5MEw3UEItdm40cmMzR0pVUFRqamRnQnZYdjZKRlgwLVRCQnpfSW41aW50Ul9QYVBIZw",
+          "headline": "BR-277 é interditada em Foz do Iguaçu - g1.globo.com.",
+          "date": "2026-08-14T11:31:41.96392+00:00"
         }
       ],
       "sourceCount": 1,
@@ -17170,12 +17213,12 @@
     {
       "event_id": "da05029ce4265c3efca03507",
       "stable_event_id": "da05029ce4265c3efca03507",
-      "observation_hash": "b4e8dc9ede38c09f67209faa",
+      "observation_hash": "55adc06d8b6d53d30d551ae1",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17188,11 +17231,11 @@
       "state": "SC",
       "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 80.0 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 80.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1201,
-      "estimated_hours": 300.25,
+      "total_snapshots": 1202,
+      "estimated_hours": 300.5,
       "active": true,
       "storage": "supabase"
     },
@@ -17491,10 +17534,10 @@
       "stable_event_id": "32351db9c1a47893713d6d70",
       "observation_hash": "3be9a27dac4f3825cee4e836",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -17510,8 +17553,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 79.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1493,
-      "estimated_hours": 373.25,
+      "total_snapshots": 1494,
+      "estimated_hours": 373.5,
       "active": true,
       "storage": "supabase"
     },
@@ -18013,10 +18056,10 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "4022ab9e48b50b5766736262",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18032,8 +18075,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 79.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2461,
-      "estimated_hours": 615.25,
+      "total_snapshots": 2462,
+      "estimated_hours": 615.5,
       "active": true,
       "storage": "supabase"
     },
@@ -18042,10 +18085,10 @@
       "stable_event_id": "1fcf7a0c7179a187e29c34ce",
       "observation_hash": "c8ee4e48e44f050753c37089",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18061,8 +18104,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:22Z; ativo há 79.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1403,
-      "estimated_hours": 350.75,
+      "total_snapshots": 1404,
+      "estimated_hours": 351.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18071,10 +18114,10 @@
       "stable_event_id": "883c7d29bda4c183c19a460b",
       "observation_hash": "0728e83bf110103925c23441",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-30T06:46:49+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18090,8 +18133,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-30T06:45:17Z; ativo há 76.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1275,
-      "estimated_hours": 318.75,
+      "total_snapshots": 1276,
+      "estimated_hours": 319.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18100,10 +18143,10 @@
       "stable_event_id": "7963d269036ec70c9439589e",
       "observation_hash": "86691642c376ff9e32c63b2d",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18119,8 +18162,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:23Z; ativo há 79.8 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1455,
-      "estimated_hours": 363.75,
+      "total_snapshots": 1456,
+      "estimated_hours": 364.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18709,10 +18752,10 @@
       "stable_event_id": "83baaed9d8aede34697da9f3",
       "observation_hash": "310fc091763ea2799820b842",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-27T09:16:49+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18728,8 +18771,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T09:15:19Z; ativo há 79.1 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1447,
-      "estimated_hours": 361.75,
+      "total_snapshots": 1448,
+      "estimated_hours": 362.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18912,10 +18955,10 @@
       "stable_event_id": "81996c61139cfa5997723f54",
       "observation_hash": "9c771b6fef59905a15c16aae",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-14T11:17:01+00:00",
+      "snapshot_at": "2026-08-14T11:31:40+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-14T11:17:01+00:00",
-      "updated_at": "2026-08-14T11:17:03.137406+00:00",
+      "last_seen_at": "2026-08-14T11:31:40+00:00",
+      "updated_at": "2026-08-14T11:31:41.96392+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18931,8 +18974,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 80.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1788,
-      "estimated_hours": 447.0,
+      "total_snapshots": 1789,
+      "estimated_hours": 447.25,
       "active": true,
       "storage": "supabase"
     },
@@ -20041,17 +20084,17 @@
   ],
   "windows": {
     "7": {
-      "events": 131,
-      "avgRisk": 43,
+      "events": 132,
+      "avgRisk": 44,
       "maxRisk": 69,
       "rainChance": 0,
       "byType": {
         "climate": 94,
-        "road": 37
+        "road": 38
       },
       "byRegion": {
         "Nordeste": 41,
-        "Sul": 30,
+        "Sul": 31,
         "Sudeste": 28,
         "Norte": 18,
         "Centro-Oeste": 11,
@@ -20059,7 +20102,7 @@
       },
       "bySeverity": {
         "Moderado": 60,
-        "Alto": 41,
+        "Alto": 42,
         "Baixo": 30
       },
       "dailyRisk": [
@@ -20108,30 +20151,30 @@
         {
           "date": "2026-08-14",
           "avgRisk": 46,
-          "events": 24,
+          "events": 25,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 265,
+      "events": 266,
       "avgRisk": 55,
       "maxRisk": 85,
       "rainChance": 12,
       "byType": {
-        "road": 158,
+        "road": 159,
         "climate": 107
       },
       "byRegion": {
         "Nordeste": 90,
-        "Sul": 73,
+        "Sul": 74,
         "Sudeste": 59,
         "Norte": 25,
         "Centro-Oeste": 12,
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 163,
+        "Alto": 164,
         "Moderado": 71,
         "Baixo": 30,
         "Crítico": 1
@@ -20320,31 +20363,31 @@
         {
           "date": "2026-08-14",
           "avgRisk": 46,
-          "events": 24,
+          "events": 25,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 497,
+      "events": 498,
       "avgRisk": 60,
       "maxRisk": 85,
       "rainChance": 29,
       "byType": {
-        "road": 357,
+        "road": 358,
         "climate": 138,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 161,
-        "Sul": 125,
+        "Sul": 126,
         "Sudeste": 115,
         "Norte": 57,
         "Sem região": 21,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 365,
+        "Alto": 366,
         "Moderado": 101,
         "Baixo": 30,
         "Crítico": 1
@@ -20833,7 +20876,7 @@
         {
           "date": "2026-08-14",
           "avgRisk": 46,
-          "events": 24,
+          "events": 25,
           "maxRisk": 69
         }
       ]
