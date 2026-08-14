@@ -9,7 +9,7 @@
     "lat": -3.731,
     "lon": -38.526,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "CE-388 será interditada para restauração da rodovia a partir da próxima segunda-feira (17). Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-14T21:23:46Z; ativo há 2.1 h.",
+    "description": "CE-388 será interditada para restauração da rodovia a partir da próxima segunda-feira (17). Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-14T21:23:46Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-14T21:23:46Z",
     "last_seen_at": "2026-08-14T23:32:19Z",
-    "active_duration_hours": 2.14,
+    "active_duration_hours": 2.15,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "CE-388"
+    "detectedRoad": "CE-388",
+    "last_confirmed_at": "2026-08-14T23:32:19Z",
+    "news_signature": "023586c421849805d73eed2c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -5.091,
     "lon": -42.803,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-343 interditada: caminhão carregado de abacates tomba e bloqueia trecho entre Altos e Campo Maior - Grupo Jota Sidney. Fontes consolidadas: Notícias públicas - Grupo Jota Sidney; Notícias públicas - G1; Notícias públicas - Conecta Piauí. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-14T12:49:45Z; ativo há 10.7 h.",
+    "description": "BR-343 interditada: caminhão carregado de abacates tomba e bloqueia trecho entre Altos e Campo Maior - Grupo Jota Sidney. Fontes consolidadas: Notícias públicas - Grupo Jota Sidney; Notícias públicas - G1; Notícias públicas - Conecta Piauí. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-14T12:49:45Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -103,7 +106,10 @@
     "active_duration_hours": 10.71,
     "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-14T23:32:19Z",
+    "news_signature": "ffcfa33d8f88d154f4d2bc3d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
