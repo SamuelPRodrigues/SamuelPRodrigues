@@ -9,7 +9,7 @@
     "lat": -5.091,
     "lon": -42.803,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão de frutas tomba e deixa BR-343 parcialmente interditada em Campo Maior - Conecta Piauí. Fontes consolidadas: Notícias públicas - Conecta Piauí. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-14T11:02:39Z; ativo há 44 min.",
+    "description": "Caminhão de frutas tomba e deixa BR-343 parcialmente interditada em Campo Maior - Conecta Piauí. Fontes consolidadas: Notícias públicas - Conecta Piauí. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-14T11:02:39Z; ativo há 45 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-14T11:02:39Z",
     "last_seen_at": "2026-08-14T11:47:11Z",
-    "active_duration_hours": 0.74,
-    "active_duration_label": "44 min",
+    "active_duration_hours": 0.75,
+    "active_duration_label": "45 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-14T11:47:11Z",
+    "news_signature": "57bf42b60b4bf948b21752c4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é interditada em Foz do Iguaçu. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-14T10:56:40Z; ativo há 50 min.",
+    "description": "BR-277 é interditada em Foz do Iguaçu. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-14T10:56:40Z; ativo há 51 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +83,13 @@
     "newsFreshnessHours": 0.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-14T10:56:40Z",
-    "last_seen_at": "2026-08-14T11:47:11Z",
-    "active_duration_hours": 0.84,
-    "active_duration_label": "50 min",
+    "last_seen_at": "2026-08-14T11:47:28Z",
+    "active_duration_hours": 0.85,
+    "active_duration_label": "51 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fe7bd62922754489b1ba77a3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
