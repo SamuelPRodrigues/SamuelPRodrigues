@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso da BR-376 a PR-445 no sentido Londrina será interditada domingo - taroba.com.br. Fontes consolidadas: Notícias públicas - taroba.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-14T23:02:00Z; ativo há 8.2 h.",
+    "description": "Acesso da BR-376 a PR-445 no sentido Londrina será interditada domingo - taroba.com.br. Fontes consolidadas: Notícias públicas - taroba.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-14T23:02:00Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 8.25,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-15T07:16:55Z",
+    "news_signature": "ff316f534a6d92f889f74913",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -3.731,
     "lon": -38.526,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da CE-388 entre Altaneira e Nova Olinda será interditado por 30 dias; veja desvios - diariodonordeste.verdesmares.com.br. Fontes consolidadas: Notícias públicas - diariodonordeste.verdesmares.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-14T22:26:48Z; ativo há 8.8 h.",
+    "description": "Trecho da CE-388 entre Altaneira e Nova Olinda será interditado por 30 dias; veja desvios - diariodonordeste.verdesmares.com.br. Fontes consolidadas: Notícias públicas - diariodonordeste.verdesmares.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-14T22:26:48Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 8.84,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "CE-388"
+    "detectedRoad": "CE-388",
+    "last_confirmed_at": "2026-08-15T07:16:55Z",
+    "news_signature": "4245f6ebd5d22fd5c1fc0b90",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
