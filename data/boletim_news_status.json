@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-15T14:31:19Z",
+  "updatedAt": "2026-08-15T14:48:11Z",
   "queries": 6,
-  "newItemsBeforeMerge": 0,
+  "newItemsBeforeMerge": 61,
   "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 47,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Colisão entre ônibus de trabalhadores rurais e caminhão deixa feridos na BR-153 em Marília - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motorista que causou acidente na Anhanguera estava embriagado e é preso - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Obras nas BRs 251 e 116 têm horário alterado; confira trechos com pare e siga - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre ônibus de trabalhadores rurais e caminhão deixa feridos na BR-153 em Marília - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Atenção, motoristas: obras no trevo da Costa e Silva em Foz do Iguaçu - h2foz.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Ministério dos Transportes libera 6,4 km de faixas adicionais na BR-101 no Rio - transportemoderno.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Criança fica presa às ferragens após caminhão tombar em serra da BR-116 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista de carreta-tanque morto após acidente em Minas Gerais transportava carga de querosene - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Delegado aposentado morre atropelado na BR-101, em Abreu e Lima - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Sargento do Corpo de Bombeiros troca de plantão e morre em acidente a caminho do trabalho entre MG e ES - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Granizo e chuva forte provocam estragos em cidades da Região Metropolitana de Curitiba e do Litoral do Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Previsão: chuva e vento moderado na noite de sexta (14/08) | pancadas de chuva e vento forte no sábado (15/08) - Centro de Operações Rio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte coloca SC em alerta nesta sexta-feira | Previsão do Tempo 14/08/2026 - noticiasagricolas.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte chuva deixa São Paulo tem estado de alerta - Revista Oeste",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte atinge SP e causa desabamento com vítimas na região do ABC - viva.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte surpreende Parauapebas e provoca falta de energia em bairros da cidade - Portal Pebinha de Açúcar",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva e ventos fortes causam destelhamentos e estragos no Vale do Ribeira; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva recorde deixa morto e paralisa cidades perto de Tóquio - UOL Notícias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Pedras de granizo do tamanho de bolas de tênis atingem o Paraná e deixam quintal parecendo coberto de neve; temporais provocaram estragos - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Cidade do Amazonas tem chuva de granizo no mesmo dia em que estado registra calor recorde; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Prefeitura orienta sobre desvios para obras do Viaduto Passarão - Prefeitura de Manaus",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Prefeitura informa alterações na linha Gotuzzo - Prefeitura de Pelotas",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Greve dos trens: como paulistanos conseguiram contornar a paralisação desta terça e evitar o caos - O GLOBO",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Possível greve da CPTM pode afetar milhares de passageiros e impactar comércio em São Paulo - VEJA",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Passageiros encaram trens lotados e gastam com carro de app para não perder o trabalho no 2º dia de greve - folha.uol.com.br",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
