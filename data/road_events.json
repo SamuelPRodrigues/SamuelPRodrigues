@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - agoramt.com.br. Fontes consolidadas: Notícias públicas - agoramt.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 11.6 h.",
+    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - agoramt.com.br. Fontes consolidadas: Notícias públicas - agoramt.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 11.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-16T00:39:18Z",
-    "last_seen_at": "2026-08-16T12:17:02Z",
+    "last_seen_at": "2026-08-16T12:17:15Z",
     "active_duration_hours": 11.63,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8ee86336d53452ff16c5a714",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
