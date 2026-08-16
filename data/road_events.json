@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - agoramt.com.br. Fontes consolidadas: Notícias públicas - agoramt.com.br; Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 2.6 h.",
+    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - agoramt.com.br. Fontes consolidadas: Notícias públicas - agoramt.com.br; Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-16T00:39:18Z",
-    "last_seen_at": "2026-08-16T03:17:09Z",
-    "active_duration_hours": 2.63,
+    "last_seen_at": "2026-08-16T03:17:26Z",
+    "active_duration_hours": 2.64,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cf4c44007336014c6c15ee69",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 11.8 h.",
+    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +89,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-15T15:30:14Z",
     "last_seen_at": "2026-08-16T03:17:09Z",
-    "active_duration_hours": 11.78,
+    "active_duration_hours": 11.79,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T03:17:09Z",
+    "news_signature": "7806e79c53f1e39f7e92b451",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
