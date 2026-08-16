@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT; Notícias públicas - primeirapagina.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 1.1 h.",
+    "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT; Notícias públicas - primeirapagina.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-16T00:39:18Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-16T00:39:18Z",
     "last_seen_at": "2026-08-16T01:44:49Z",
-    "active_duration_hours": 1.09,
+    "active_duration_hours": 1.1,
     "active_duration_label": "1.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T01:44:49Z",
+    "news_signature": "e49c66e11c5b0d680d85048a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 10.2 h.",
+    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-15T15:30:14Z",
     "last_seen_at": "2026-08-16T01:44:49Z",
-    "active_duration_hours": 10.24,
+    "active_duration_hours": 10.25,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T01:44:49Z",
+    "news_signature": "7806e79c53f1e39f7e92b451",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15). Período informado: 2026-08-15T03:00:00Z até 2026-08-16T02:59:59Z. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-15T03:00:00Z; ativo há 22.8 h.",
+    "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15). Período informado: 2026-08-15T03:00:00Z até 2026-08-16T02:59:59Z. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-15T03:00:00Z; ativo há 22.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,6 +146,9 @@
     "last_seen_at": "2026-08-16T01:44:49Z",
     "active_duration_hours": 22.75,
     "active_duration_label": "22.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T01:44:49Z",
+    "news_signature": "976d3fcfea1d4a5942198c83",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
