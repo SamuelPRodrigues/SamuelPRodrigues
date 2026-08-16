@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-08-16T00:31:57Z",
+  "updatedAt": "2026-08-16T00:47:53Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
     {
       "event_id": "f13e2269fc4592f622f09fc2",
       "stable_event_id": "f13e2269fc4592f622f09fc2",
-      "observation_hash": "2f6f62d68ebc4aa28355691c",
+      "observation_hash": "c119000f5eb604b3d06aaa73",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Passo Fundo",
-      "risk": 86,
+      "risk": 87,
       "severity": "Crítico",
       "lat": -28.262,
       "lon": -52.408,
@@ -27,8 +27,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 82.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3277,
-      "estimated_hours": 819.25,
+      "total_snapshots": 3278,
+      "estimated_hours": 819.5,
       "active": true,
       "storage": "supabase"
     },
@@ -153,10 +153,10 @@
       "stable_event_id": "5cca55e4ca30532da426bf44",
       "observation_hash": "e0da7b6f3a2a4f454af47a12",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -172,20 +172,63 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 82.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2008,
-      "estimated_hours": 502.0,
+      "total_snapshots": 2009,
+      "estimated_hours": 502.25,
       "active": true,
       "storage": "supabase"
     },
     {
+      "event_id": "cca7731c7f401050d14db7c9",
+      "stable_event_id": "cca7731c7f401050d14db7c9",
+      "observation_hash": "e5a51a765f77a1b5db531439",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
+      "first_seen_at": "2026-08-16T00:47:47+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-364",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Interdição ou bloqueio por notícia pública • BR-364",
+      "state": "",
+      "region": "Norte",
+      "road": "BR-364",
+      "description": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - Agora MT.. Fontes consolidadas: Notícias públicas - Agora MT + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Agora MT + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcGxFZXpSOHlLb3VIVnVXLUZDS1hQMFg5Nzg3cFpSSzljQkFmMUxJLUpJMi1NdzlZY2NKZ0puLUNITXRYMzg0OGhDemZMX2trRk1OdFJSUEhES2xtcEpPYnYzbkswYnlhQjY5eklxXzUzeDVybkNVZzZ2Tl9LYXZXTkZ3ejVSSnB5TndkRHhrWWxRZXpWWkJmS3dMSGIybkZiTHppVHgtUGZCOFRDaTFhLS1SMU9LOHVUdDVocUtZbW03MkUyczA2dlhvczVBamlVd3YwM2pn",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcGxFZXpSOHlLb3VIVnVXLUZDS1hQMFg5Nzg3cFpSSzljQkFmMUxJLUpJMi1NdzlZY2NKZ0puLUNITXRYMzg0OGhDemZMX2trRk1OdFJSUEhES2xtcEpPYnYzbkswYnlhQjY5eklxXzUzeDVybkNVZzZ2Tl9LYXZXTkZ3ejVSSnB5TndkRHhrWWxRZXpWWkJmS3dMSGIybkZiTHppVHgtUGZCOFRDaTFhLS1SMU9LOHVUdDVocUtZbW03MkUyczA2dlhvczVBamlVd3YwM2pn",
+      "headline": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - Agora MT.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Agora MT + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcGxFZXpSOHlLb3VIVnVXLUZDS1hQMFg5Nzg3cFpSSzljQkFmMUxJLUpJMi1NdzlZY2NKZ0puLUNITXRYMzg0OGhDemZMX2trRk1OdFJSUEhES2xtcEpPYnYzbkswYnlhQjY5eklxXzUzeDVybkNVZzZ2Tl9LYXZXTkZ3ejVSSnB5TndkRHhrWWxRZXpWWkJmS3dMSGIybkZiTHppVHgtUGZCOFRDaTFhLS1SMU9LOHVUdDVocUtZbW03MkUyczA2dlhvczVBamlVd3YwM2pn",
+          "headline": "Acidente entre duas carretas deixa BR-364 interditada nos dois sentidos nas proximidades de Alto Garças - Agora MT.",
+          "date": "2026-08-16T00:47:48.586321+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "6831d6ce8102befcbfd9519e",
       "stable_event_id": "6831d6ce8102befcbfd9519e",
-      "observation_hash": "7b00bc48f78278106dc1c9e0",
+      "observation_hash": "b9cc87f292002acf15b26da5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-08-15T15:47:07+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -201,8 +244,8 @@
       "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - ND Mais",
       "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNnFLeEMtNUZGNHlBVnBHZ2FWYjBydEx3Wm1ZNW4wcWNkZE5IcXFtMnRTMEVJZnF3NXlWYWQ0Y28yRlpNRmp3THZWb0N0VXFTRnFrVTcwdXFVbFJYTVNyRkFDM3NZLVpFYUtRdnZZc0FVOERlMVFacWRtc1NEMFNLTENnTmNtYWc",
-      "total_snapshots": 53,
-      "estimated_hours": 13.25,
+      "total_snapshots": 54,
+      "estimated_hours": 13.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -213,7 +256,7 @@
           "source": "Notícias públicas - ND Mais",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNnFLeEMtNUZGNHlBVnBHZ2FWYjBydEx3Wm1ZNW4wcWNkZE5IcXFtMnRTMEVJZnF3NXlWYWQ0Y28yRlpNRmp3THZWb0N0VXFTRnFrVTcwdXFVbFJYTVNyRkFDM3NZLVpFYUtRdnZZc0FVOERlMVFacWRtc1NEMFNLTENnTmNtYWc",
           "headline": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais.",
-          "date": "2026-08-16T00:31:54.118921+00:00"
+          "date": "2026-08-16T00:47:48.586321+00:00"
         }
       ],
       "sourceCount": 1,
@@ -221,14 +264,14 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "86eba4bba746809bcf4767a1",
-      "stable_event_id": "86eba4bba746809bcf4767a1",
-      "observation_hash": "ce8481f8db79731f2c21adde",
+      "event_id": "21fc5fbc4d137d4679b8e80a",
+      "stable_event_id": "21fc5fbc4d137d4679b8e80a",
+      "observation_hash": "0a394c609dec8a2da866f92c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:03:25+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-08-15T23:48:55+00:00",
-      "last_seen_at": "2026-08-16T00:03:25+00:00",
-      "updated_at": "2026-08-16T00:03:26.157732+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -241,22 +284,22 @@
       "state": "PR",
       "region": "Sul",
       "road": "BR-376",
-      "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15) - g1.globo.com.. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.",
-      "source": "G1",
+      "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15) - g1.globo.com.. Fontes consolidadas: g1.globo.com. Localização aproximada pelo corredor monitorado.",
+      "source": "g1.globo.com",
       "source_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUdIBkAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUQ",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUdIBkAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUQ",
-      "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15).",
+      "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15) - g1.globo.com.",
       "sources": [
         {
-          "source": "G1",
+          "source": "g1.globo.com",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUdIBkAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUQ",
-          "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15).",
-          "date": "2026-08-16T00:31:54.118921+00:00"
+          "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15) - g1.globo.com.",
+          "date": "2026-08-16T00:47:48.586321+00:00"
         }
       ],
       "sourceCount": 1,
@@ -17878,6 +17921,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "da05029ce4265c3efca03507",
+      "stable_event_id": "da05029ce4265c3efca03507",
+      "observation_hash": "27d81b54e07f834c4fec7d64",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
+      "first_seen_at": "2026-05-26T10:18:22+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Florianópolis",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -27.594,
+      "lon": -48.548,
+      "city": "Florianópolis",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 81.6 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1428,
+      "estimated_hours": 357.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "77610d19988aafd6875550dd",
       "stable_event_id": "77610d19988aafd6875550dd",
       "observation_hash": "5b19954c3c9db8e1c82354ce",
@@ -18313,35 +18385,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "da05029ce4265c3efca03507",
-      "stable_event_id": "da05029ce4265c3efca03507",
-      "observation_hash": "aede8886d4a73c65966e54ce",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
-      "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Florianópolis",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -27.594,
-      "lon": -48.548,
-      "city": "Florianópolis",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 81.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1427,
-      "estimated_hours": 356.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "3cc83bf5faf75d60042954f8",
       "stable_event_id": "3cc83bf5faf75d60042954f8",
       "observation_hash": "c145b5a9994748a90360b277",
@@ -18636,10 +18679,10 @@
       "stable_event_id": "339bdee139384833cdff05f7",
       "observation_hash": "b447cd071431c9f2178309ac",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-05-26T09:18:44+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18655,8 +18698,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T09:15:28Z; ativo há 81.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1527,
-      "estimated_hours": 381.75,
+      "total_snapshots": 1528,
+      "estimated_hours": 382.0,
       "active": true,
       "storage": "supabase"
     },
@@ -19303,10 +19346,10 @@
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "909d0ac9ebe6c84c6f50c8a5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "snapshot_at": "2026-08-16T00:47:46+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-16T00:31:52+00:00",
-      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "last_seen_at": "2026-08-16T00:47:46+00:00",
+      "updated_at": "2026-08-16T00:47:48.586321+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -19322,8 +19365,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 82.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1998,
-      "estimated_hours": 499.5,
+      "total_snapshots": 1999,
+      "estimated_hours": 499.75,
       "active": true,
       "storage": "supabase"
     },
@@ -20403,25 +20446,25 @@
   ],
   "windows": {
     "7": {
-      "events": 130,
+      "events": 131,
       "avgRisk": 41,
-      "maxRisk": 86,
+      "maxRisk": 87,
       "rainChance": 0,
       "byType": {
         "climate": 93,
-        "road": 37
+        "road": 38
       },
       "byRegion": {
         "Nordeste": 45,
         "Sul": 29,
         "Sudeste": 25,
-        "Norte": 18,
+        "Norte": 19,
         "Centro-Oeste": 11,
         "Sem região": 2
       },
       "bySeverity": {
         "Moderado": 51,
-        "Alto": 39,
+        "Alto": 40,
         "Baixo": 39,
         "Crítico": 1
       },
@@ -20470,31 +20513,31 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 55,
-          "events": 7,
-          "maxRisk": 86
+          "avgRisk": 57,
+          "events": 8,
+          "maxRisk": 87
         }
       ]
     },
     "30": {
-      "events": 265,
+      "events": 266,
       "avgRisk": 54,
-      "maxRisk": 86,
+      "maxRisk": 87,
       "rainChance": 12,
       "byType": {
-        "road": 158,
+        "road": 159,
         "climate": 107
       },
       "byRegion": {
         "Nordeste": 92,
         "Sul": 75,
         "Sudeste": 55,
-        "Norte": 25,
+        "Norte": 26,
         "Centro-Oeste": 12,
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 161,
+        "Alto": 162,
         "Moderado": 62,
         "Baixo": 40,
         "Crítico": 2
@@ -20682,19 +20725,19 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 55,
-          "events": 7,
-          "maxRisk": 86
+          "avgRisk": 57,
+          "events": 8,
+          "maxRisk": 87
         }
       ]
     },
     "90": {
-      "events": 505,
+      "events": 506,
       "avgRisk": 60,
-      "maxRisk": 86,
+      "maxRisk": 87,
       "rainChance": 29,
       "byType": {
-        "road": 365,
+        "road": 366,
         "climate": 138,
         "operational": 2
       },
@@ -20702,12 +20745,12 @@
         "Nordeste": 166,
         "Sul": 128,
         "Sudeste": 115,
-        "Norte": 57,
+        "Norte": 58,
         "Sem região": 21,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 371,
+        "Alto": 372,
         "Moderado": 92,
         "Baixo": 40,
         "Crítico": 2
@@ -21207,9 +21250,9 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 55,
-          "events": 7,
-          "maxRisk": 86
+          "avgRisk": 57,
+          "events": 8,
+          "maxRisk": 87
         }
       ]
     }
