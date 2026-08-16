@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-08-16T00:18:23Z",
+  "updatedAt": "2026-08-16T00:31:57Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "f13e2269fc4592f622f09fc2",
+      "stable_event_id": "f13e2269fc4592f622f09fc2",
+      "observation_hash": "2f6f62d68ebc4aa28355691c",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Passo Fundo",
+      "risk": 86,
+      "severity": "Crítico",
+      "lat": -28.262,
+      "lon": -52.408,
+      "city": "Passo Fundo",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 82.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 3277,
+      "estimated_hours": 819.25,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "6facb261a381908297bf821f",
       "stable_event_id": "6facb261a381908297bf821f",
@@ -120,14 +149,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "5cca55e4ca30532da426bf44",
+      "stable_event_id": "5cca55e4ca30532da426bf44",
+      "observation_hash": "e0da7b6f3a2a4f454af47a12",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Porto Alegre",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -30.034,
+      "lon": -51.217,
+      "city": "Porto Alegre",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 82.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2008,
+      "estimated_hours": 502.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "6831d6ce8102befcbfd9519e",
       "stable_event_id": "6831d6ce8102befcbfd9519e",
-      "observation_hash": "7e3b1834aac3d924a8cc6060",
+      "observation_hash": "7b00bc48f78278106dc1c9e0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
       "first_seen_at": "2026-08-15T15:47:07+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +201,8 @@
       "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - ND Mais",
       "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNnFLeEMtNUZGNHlBVnBHZ2FWYjBydEx3Wm1ZNW4wcWNkZE5IcXFtMnRTMEVJZnF3NXlWYWQ0Y28yRlpNRmp3THZWb0N0VXFTRnFrVTcwdXFVbFJYTVNyRkFDM3NZLVpFYUtRdnZZc0FVOERlMVFacWRtc1NEMFNLTENnTmNtYWc",
-      "total_snapshots": 52,
-      "estimated_hours": 13.0,
+      "total_snapshots": 53,
+      "estimated_hours": 13.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +213,7 @@
           "source": "Notícias públicas - ND Mais",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNnFLeEMtNUZGNHlBVnBHZ2FWYjBydEx3Wm1ZNW4wcWNkZE5IcXFtMnRTMEVJZnF3NXlWYWQ0Y28yRlpNRmp3THZWb0N0VXFTRnFrVTcwdXFVbFJYTVNyRkFDM3NZLVpFYUtRdnZZc0FVOERlMVFacWRtc1NEMFNLTENnTmNtYWc",
           "headline": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais.",
-          "date": "2026-08-16T00:18:20.044397+00:00"
+          "date": "2026-08-16T00:31:54.118921+00:00"
         }
       ],
       "sourceCount": 1,
@@ -198,7 +256,7 @@
           "source": "G1",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUdIBkAJBVV95cUxOZldJcEgwdURLc2NUYURpNXdjUkRBQWV4UEpUWmhDS3JaUFM3dmt6Zl9tbHZBb0xoTTNDeW9KRWFiMHEyNjZMRVZpZko4aTJKRVlvMmZVdzF4MlFLV0VzT192akpqc201bEh2cjBnd1lBYUFBZExDMTVaS3YyLVlQbU82RW1DRDlVbEVpN2Q3YVlsWWtNTDdHUlJkcllPS1hsalN5QmRrUlZnWktWQkpyNl96WlFiMGlSYTNmN3RqZ2YtMU9uRDhUc3NTX3BpLTl2Y2NKT0pTRXhxSDhJbzNvWWx0cHJOdUpyOS1jTkNDbUpCZjVtYWhvNmpwdzNieTM0NFVEN2xDd1FMX1NiNmJmUQ",
           "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15).",
-          "date": "2026-08-16T00:18:20.044397+00:00"
+          "date": "2026-08-16T00:31:54.118921+00:00"
         }
       ],
       "sourceCount": 1,
@@ -16486,35 +16544,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "f13e2269fc4592f622f09fc2",
-      "stable_event_id": "f13e2269fc4592f622f09fc2",
-      "observation_hash": "6e22d5abe7d291771a764069",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Passo Fundo",
-      "risk": 68,
-      "severity": "Alto",
-      "lat": -28.262,
-      "lon": -52.408,
-      "city": "Passo Fundo",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 82.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 3276,
-      "estimated_hours": 819.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "f9b78a2363b2df1e00078f9e",
       "stable_event_id": "f9b78a2363b2df1e00078f9e",
       "observation_hash": "15541e029c6b4534e9911958",
@@ -16888,35 +16917,6 @@
       "source_url": "",
       "total_snapshots": 471,
       "estimated_hours": 117.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "5cca55e4ca30532da426bf44",
-      "stable_event_id": "5cca55e4ca30532da426bf44",
-      "observation_hash": "78eb33fe483a9c86c5eb9262",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Porto Alegre",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -30.034,
-      "lon": -51.217,
-      "city": "Porto Alegre",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 82.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2007,
-      "estimated_hours": 501.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18313,31 +18313,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "339bdee139384833cdff05f7",
-      "stable_event_id": "339bdee139384833cdff05f7",
-      "observation_hash": "1909acc3c9ca6200b1be02d8",
+      "event_id": "da05029ce4265c3efca03507",
+      "stable_event_id": "da05029ce4265c3efca03507",
+      "observation_hash": "aede8886d4a73c65966e54ce",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
-      "first_seen_at": "2026-05-26T09:18:44+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "first_seen_at": "2026-05-26T10:18:22+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Blumenau",
+      "name": "Florianópolis",
       "risk": 40,
       "severity": "Moderado",
-      "lat": -26.919,
-      "lon": -49.066,
-      "city": "Blumenau",
+      "lat": -27.594,
+      "lon": -48.548,
+      "city": "Florianópolis",
       "state": "SC",
       "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T09:15:28Z; ativo há 81.6 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 81.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1526,
-      "estimated_hours": 381.5,
+      "total_snapshots": 1427,
+      "estimated_hours": 356.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18628,6 +18628,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "339bdee139384833cdff05f7",
+      "stable_event_id": "339bdee139384833cdff05f7",
+      "observation_hash": "b447cd071431c9f2178309ac",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "first_seen_at": "2026-05-26T09:18:44+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Blumenau",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -26.919,
+      "lon": -49.066,
+      "city": "Blumenau",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T09:15:28Z; ativo há 81.6 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1527,
+      "estimated_hours": 381.75,
       "active": true,
       "storage": "supabase"
     },
@@ -19067,35 +19096,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "da05029ce4265c3efca03507",
-      "stable_event_id": "da05029ce4265c3efca03507",
-      "observation_hash": "0928d0710347faa90672df36",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
-      "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Florianópolis",
-      "risk": 37,
-      "severity": "Moderado",
-      "lat": -27.594,
-      "lon": -48.548,
-      "city": "Florianópolis",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:23Z; ativo há 81.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1426,
-      "estimated_hours": 356.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "e8c02817f9d3327bfd0b7755",
       "stable_event_id": "e8c02817f9d3327bfd0b7755",
       "observation_hash": "a870a90c13cae7c3e88cf5cb",
@@ -19241,35 +19241,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "833c194f23ed10ea96e00b30",
-      "stable_event_id": "833c194f23ed10ea96e00b30",
-      "observation_hash": "cb958fa1104aa23436b34d0f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T00:18:18+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-16T00:18:18+00:00",
-      "updated_at": "2026-08-16T00:18:20.044397+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rio Grande",
-      "risk": 15,
-      "severity": "Baixo",
-      "lat": -32.034,
-      "lon": -52.098,
-      "city": "Rio Grande",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 81.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1997,
-      "estimated_hours": 499.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "9b27de2f95bb4650d613a5d2",
       "stable_event_id": "9b27de2f95bb4650d613a5d2",
       "observation_hash": "d0f06a42418dade51eae3be0",
@@ -19324,6 +19295,35 @@
       "source_url": "",
       "total_snapshots": 3392,
       "estimated_hours": 848.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "833c194f23ed10ea96e00b30",
+      "stable_event_id": "833c194f23ed10ea96e00b30",
+      "observation_hash": "909d0ac9ebe6c84c6f50c8a5",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-16T00:31:52+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-08-16T00:31:52+00:00",
+      "updated_at": "2026-08-16T00:31:54.118921+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rio Grande",
+      "risk": 14,
+      "severity": "Baixo",
+      "lat": -32.034,
+      "lon": -52.098,
+      "city": "Rio Grande",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 82.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1998,
+      "estimated_hours": 499.5,
       "active": true,
       "storage": "supabase"
     },
@@ -20405,7 +20405,7 @@
     "7": {
       "events": 130,
       "avgRisk": 41,
-      "maxRisk": 70,
+      "maxRisk": 86,
       "rainChance": 0,
       "byType": {
         "climate": 93,
@@ -20420,9 +20420,10 @@
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 52,
+        "Moderado": 51,
         "Alto": 39,
-        "Baixo": 39
+        "Baixo": 39,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -20469,16 +20470,16 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 49,
+          "avgRisk": 55,
           "events": 7,
-          "maxRisk": 69
+          "maxRisk": 86
         }
       ]
     },
     "30": {
       "events": 265,
       "avgRisk": 54,
-      "maxRisk": 85,
+      "maxRisk": 86,
       "rainChance": 12,
       "byType": {
         "road": 158,
@@ -20494,9 +20495,9 @@
       },
       "bySeverity": {
         "Alto": 161,
-        "Moderado": 63,
+        "Moderado": 62,
         "Baixo": 40,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -20681,16 +20682,16 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 49,
+          "avgRisk": 55,
           "events": 7,
-          "maxRisk": 69
+          "maxRisk": 86
         }
       ]
     },
     "90": {
       "events": 505,
-      "avgRisk": 59,
-      "maxRisk": 85,
+      "avgRisk": 60,
+      "maxRisk": 86,
       "rainChance": 29,
       "byType": {
         "road": 365,
@@ -20707,9 +20708,9 @@
       },
       "bySeverity": {
         "Alto": 371,
-        "Moderado": 93,
+        "Moderado": 92,
         "Baixo": 40,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -21206,9 +21207,9 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 49,
+          "avgRisk": 55,
           "events": 7,
-          "maxRisk": 69
+          "maxRisk": 86
         }
       ]
     }
