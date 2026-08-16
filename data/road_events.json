@@ -42,12 +42,14 @@
     "newsFreshnessHours": 0.91,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-16T00:39:18Z",
-    "last_seen_at": "2026-08-16T01:33:42Z",
+    "last_seen_at": "2026-08-16T01:33:59Z",
     "active_duration_hours": 0.91,
     "active_duration_label": "55 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e49c66e11c5b0d680d85048a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 10.1 h.",
+    "description": "AGORA: BR-101 é totalmente bloqueada após caminhão tombar em Palhoça e filas chegam a 5 km - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-15T15:30:14Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 10.06,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T01:33:42Z",
+    "news_signature": "7806e79c53f1e39f7e92b451",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +113,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15). Período informado: 2026-08-15T03:00:00Z até 2026-08-16T02:59:59Z. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-15T03:00:00Z; ativo há 22.6 h.",
+    "description": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15). Período informado: 2026-08-15T03:00:00Z até 2026-08-16T02:59:59Z. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-15T03:00:00Z; ativo há 22.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -138,8 +143,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-08-15T03:00:00Z",
     "last_seen_at": "2026-08-16T01:33:42Z",
-    "active_duration_hours": 22.56,
+    "active_duration_hours": 22.57,
     "active_duration_label": "22.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-16T01:33:42Z",
+    "news_signature": "976d3fcfea1d4a5942198c83",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
