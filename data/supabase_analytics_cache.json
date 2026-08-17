@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:27:49Z",
+  "updatedAt": "2026-08-17T07:32:01Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -29,6 +29,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "52259929d3b21bf912b47175",
+      "stable_event_id": "52259929d3b21bf912b47175",
+      "observation_hash": "6bea932ad377defd663f6227",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Pelotas",
+      "risk": 81,
+      "severity": "Crítico",
+      "lat": -31.765,
+      "lon": -52.337,
+      "city": "Pelotas",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 83.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2377,
+      "estimated_hours": 594.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16575,17 +16604,17 @@
     {
       "event_id": "b965f4682984e27879a81223",
       "stable_event_id": "b965f4682984e27879a81223",
-      "observation_hash": "e796cbb4ded823c625564fac",
+      "observation_hash": "6b952948d2a2bfc287a39fe5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Vitória da Conquista",
-      "risk": 50,
+      "risk": 49,
       "severity": "Moderado",
       "lat": -14.861,
       "lon": -40.844,
@@ -16596,8 +16625,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 83.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 783,
-      "estimated_hours": 195.75,
+      "total_snapshots": 784,
+      "estimated_hours": 196.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16606,10 +16635,10 @@
       "stable_event_id": "770292d906636e18edaa18dc",
       "observation_hash": "bbbaad6acc6baec672c89e2e",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-26T15:17:02+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16625,8 +16654,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T15:15:20Z; ativo há 82.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2696,
-      "estimated_hours": 674.0,
+      "total_snapshots": 2697,
+      "estimated_hours": 674.25,
       "active": true,
       "storage": "supabase"
     },
@@ -16664,10 +16693,10 @@
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "4a0c1f31621ed4527332fb64",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16683,8 +16712,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:30:40Z; ativo há 83.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3775,
-      "estimated_hours": 943.75,
+      "total_snapshots": 3776,
+      "estimated_hours": 944.0,
       "active": true,
       "storage": "supabase"
     },
@@ -16722,10 +16751,10 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "6e467f070acc274d44538a19",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-27T07:16:38+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16741,8 +16770,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 82.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2025,
-      "estimated_hours": 506.25,
+      "total_snapshots": 2026,
+      "estimated_hours": 506.5,
       "active": true,
       "storage": "supabase"
     },
@@ -16867,10 +16896,10 @@
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "e134812f55e4d6a5dcbe5c84",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -16886,8 +16915,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:45:14Z; ativo há 83.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2954,
-      "estimated_hours": 738.5,
+      "total_snapshots": 2955,
+      "estimated_hours": 738.75,
       "active": true,
       "storage": "supabase"
     },
@@ -17907,35 +17936,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "e8c02817f9d3327bfd0b7755",
-      "stable_event_id": "e8c02817f9d3327bfd0b7755",
-      "observation_hash": "9d152930a75c2f30a482951b",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
-      "first_seen_at": "2026-06-02T03:16:40+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Ipatinga",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -19.47,
-      "lon": -42.548,
-      "city": "Ipatinga",
-      "state": "MG",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-06-02T03:15:16Z; ativo há 76.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 191,
-      "estimated_hours": 47.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "32351db9c1a47893713d6d70",
       "stable_event_id": "32351db9c1a47893713d6d70",
       "observation_hash": "1fb93d2307845ff4c23195e9",
@@ -18143,10 +18143,10 @@
       "stable_event_id": "40d48191ded0e05536c71277",
       "observation_hash": "1ae0212560dd1c84c24753f0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
       "first_seen_at": "2026-05-29T17:17:11+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18162,8 +18162,37 @@
       "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 79.6 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 732,
-      "estimated_hours": 183.0,
+      "total_snapshots": 733,
+      "estimated_hours": 183.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "e8c02817f9d3327bfd0b7755",
+      "stable_event_id": "e8c02817f9d3327bfd0b7755",
+      "observation_hash": "2f386a430d6330d8f67f52bb",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-17T07:31:56+00:00",
+      "first_seen_at": "2026-06-02T03:16:40+00:00",
+      "last_seen_at": "2026-08-17T07:31:56+00:00",
+      "updated_at": "2026-08-17T07:31:58.165844+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Ipatinga",
+      "risk": 38,
+      "severity": "Moderado",
+      "lat": -19.47,
+      "lon": -42.548,
+      "city": "Ipatinga",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-06-02T03:15:16Z; ativo há 76.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 192,
+      "estimated_hours": 48.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18338,35 +18367,6 @@
       "source_url": "",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "52259929d3b21bf912b47175",
-      "stable_event_id": "52259929d3b21bf912b47175",
-      "observation_hash": "f6acf6cb68e24df4e230b414",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-17T07:27:44+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-17T07:27:44+00:00",
-      "updated_at": "2026-08-17T07:27:45.273735+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Pelotas",
-      "risk": 37,
-      "severity": "Moderado",
-      "lat": -31.765,
-      "lon": -52.337,
-      "city": "Pelotas",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 83.3 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2376,
-      "estimated_hours": 594.0,
       "active": true,
       "storage": "supabase"
     },
@@ -20405,7 +20405,7 @@
     "7": {
       "events": 129,
       "avgRisk": 33,
-      "maxRisk": 69,
+      "maxRisk": 81,
       "rainChance": 0,
       "byType": {
         "climate": 95,
@@ -20422,7 +20422,8 @@
       "bySeverity": {
         "Baixo": 66,
         "Alto": 35,
-        "Moderado": 28
+        "Moderado": 27,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -20469,9 +20470,9 @@
         },
         {
           "date": "2026-08-17",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 21,
-          "maxRisk": 50
+          "maxRisk": 81
         }
       ]
     },
@@ -20495,8 +20496,8 @@
       "bySeverity": {
         "Alto": 154,
         "Baixo": 66,
-        "Moderado": 39,
-        "Crítico": 1
+        "Moderado": 38,
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -20681,9 +20682,9 @@
         },
         {
           "date": "2026-08-17",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 21,
-          "maxRisk": 50
+          "maxRisk": 81
         }
       ]
     },
@@ -20707,9 +20708,9 @@
       },
       "bySeverity": {
         "Alto": 370,
-        "Moderado": 68,
+        "Moderado": 67,
         "Baixo": 66,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
@@ -21212,9 +21213,9 @@
         },
         {
           "date": "2026-08-17",
-          "avgRisk": 40,
+          "avgRisk": 42,
           "events": 21,
-          "maxRisk": 50
+          "maxRisk": 81
         }
       ]
     }
