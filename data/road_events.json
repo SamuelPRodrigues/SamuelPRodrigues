@@ -9,7 +9,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 terá viaduto interditado em João Neiva; veja rotas alternativas - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-17T20:55:00Z; ativo há 22 min.",
+    "description": "BR 259 terá viaduto interditado em João Neiva; veja rotas alternativas - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-17T20:55:00Z; ativo há 23 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T20:55:00Z",
     "last_seen_at": "2026-08-17T21:17:15Z",
-    "active_duration_hours": 0.37,
-    "active_duration_label": "22 min",
+    "active_duration_hours": 0.38,
+    "active_duration_label": "23 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T21:17:15Z",
+    "news_signature": "4e0fc5878156555d539b30b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -80,12 +83,14 @@
     "newsFreshnessHours": 0.68,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T20:36:45Z",
-    "last_seen_at": "2026-08-17T21:17:15Z",
+    "last_seen_at": "2026-08-17T21:17:32Z",
     "active_duration_hours": 0.68,
     "active_duration_label": "41 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4db346bc114d4cb194cc2c8f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-280 é parcialmente interditada após acidente com veículo de grande porte em Mafra - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-17T18:46:07Z; ativo há 2.5 h.",
+    "description": "BR-280 é parcialmente interditada após acidente com veículo de grande porte em Mafra - gazetasbs.com.br. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-17T18:46:07Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,8 +133,11 @@
     "active_duration_hours": 2.52,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T21:17:15Z",
+    "news_signature": "806881bb2c83e86a58900a92",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +149,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 segue interditada após manifestação de comunidade indígena - ContilNet Notícias. Fontes consolidadas: Notícias públicas - ContilNet Notícias; Notícias públicas - FOLHAMAX; Notícias públicas - AcreNews. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-17T18:01:17Z; ativo há 3.3 h.",
+    "description": "BR-364 segue interditada após manifestação de comunidade indígena - ContilNet Notícias. Fontes consolidadas: Notícias públicas - ContilNet Notícias; Notícias públicas - FOLHAMAX; Notícias públicas - AcreNews. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-17T18:01:17Z; ativo há 3.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -184,8 +192,11 @@
     "active_duration_hours": 3.27,
     "active_duration_label": "3.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T21:17:15Z",
+    "news_signature": "8ffdca3ab0939515f9605c3b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -197,7 +208,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 8.8 h.",
+    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -225,11 +236,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T12:31:32Z",
     "last_seen_at": "2026-08-17T21:17:15Z",
-    "active_duration_hours": 8.76,
+    "active_duration_hours": 8.77,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T21:17:15Z",
+    "news_signature": "5151f4acfc1d4616af3e67c8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -241,7 +255,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ViaSul realiza nova detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - ecoregional.com.br. Fontes consolidadas: Notícias públicas - ecoregional.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-17T11:55:51Z; ativo há 9.4 h.",
+    "description": "ViaSul realiza nova detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - ecoregional.com.br. Fontes consolidadas: Notícias públicas - ecoregional.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-17T11:55:51Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -268,12 +282,14 @@
     "newsFreshnessHours": 9.36,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T11:55:51Z",
-    "last_seen_at": "2026-08-17T21:17:15Z",
+    "last_seen_at": "2026-08-17T21:17:32Z",
     "active_duration_hours": 9.36,
     "active_duration_label": "9.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "76dffb9adbd84d4cf5a671f5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -290,7 +306,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com. Período informado: 2026-08-17T19:08:12Z até fim não identificado. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-17T19:08:12Z; ativo há 2.1 h.",
+    "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com. Período informado: 2026-08-17T19:08:12Z até fim não identificado. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-17T19:08:12Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -303,7 +319,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-17T21:16:00Z",
     "sources": [
       {
@@ -321,8 +337,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T19:08:12Z",
     "last_seen_at": "2026-08-17T21:17:15Z",
-    "active_duration_hours": 2.15,
-    "active_duration_label": "2.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 2.16,
+    "active_duration_label": "2.2 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T21:17:15Z",
+    "news_signature": "6604dc625fef4f76ab82d3fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
