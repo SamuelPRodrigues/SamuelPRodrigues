@@ -9,7 +9,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 5.8 h.",
+    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 5.76,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T18:16:54Z",
+    "news_signature": "5151f4acfc1d4616af3e67c8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ViaSul realiza nova detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional. Fontes consolidadas: Notícias públicas - Eco Regional. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-17T11:55:51Z; ativo há 6.3 h.",
+    "description": "ViaSul realiza nova detonação de rochas em Soledade (RS) Durante as atividades, pista no km 239 da BR-386 ficará bloqueado - Eco Regional. Fontes consolidadas: Notícias públicas - Eco Regional. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-17T11:55:51Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T11:55:51Z",
     "last_seen_at": "2026-08-17T18:16:54Z",
-    "active_duration_hours": 6.35,
-    "active_duration_label": "6.3 h",
+    "active_duration_hours": 6.36,
+    "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T18:16:54Z",
+    "news_signature": "c71fb9a10d81876bb9f6dace",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 é interditada por indígenas na região de Cruzeiro do Sul - AcreNews. Fontes consolidadas: Notícias públicas - AcreNews; Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 6.8 h.",
+    "description": "BR-364 é interditada por indígenas na região de Cruzeiro do Sul - AcreNews. Fontes consolidadas: Notícias públicas - AcreNews; Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,7 +140,10 @@
     "active_duration_hours": 6.82,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T18:16:54Z",
+    "news_signature": "89744bcf94ccb96ff5f33623",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
