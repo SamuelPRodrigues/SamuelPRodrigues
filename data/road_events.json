@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T12:31:32Z",
-    "last_seen_at": "2026-08-17T12:56:05Z",
+    "last_seen_at": "2026-08-17T12:56:19Z",
     "active_duration_hours": 0.41,
     "active_duration_label": "25 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "835fb6bef14de8973ae05615",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-364 em VG é interditado após acidente entre veículos; ninguém se feriu - gazetadigital.com.br. Fontes consolidadas: Notícias públicas - gazetadigital.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 1.5 h.",
+    "description": "Trecho da BR-364 em VG é interditado após acidente entre veículos; ninguém se feriu - gazetadigital.com.br. Fontes consolidadas: Notícias públicas - gazetadigital.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 1.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +82,13 @@
     "newsFreshnessHours": 1.47,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T11:28:00Z",
-    "last_seen_at": "2026-08-17T12:56:05Z",
+    "last_seen_at": "2026-08-17T12:56:19Z",
     "active_duration_hours": 1.47,
     "active_duration_label": "1.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "800b12c3bf721ec26e7add09",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
