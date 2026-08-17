@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T08:08:06Z",
+  "updatedAt": "2026-08-17T08:16:16Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -14,9 +14,9 @@
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
   "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 3,
-  "publicFallbackRequestFailures": 0,
-  "publicFallbackRawArticles": 210,
+  "publicFallbackRequestsSucceeded": 2,
+  "publicFallbackRequestFailures": 1,
+  "publicFallbackRawArticles": 200,
   "publicFallbackEventsWritten": 1,
   "publicFallbackSkippedNoCorridor": 0,
   "publicFallbackSkippedReleased": 0,
@@ -349,7 +349,8 @@
         -47.86,
         -16.162
       ],
-      "message": "The read operation timed out"
+      "httpStatus": 403,
+      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
     {
       "bbox": [
@@ -848,7 +849,8 @@
         -43.013,
         -22.793
       ],
-      "message": "The read operation timed out"
+      "httpStatus": 403,
+      "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
     {
       "bbox": [
@@ -1319,6 +1321,7 @@
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    }
+    },
+    "gdelt-fallback: HTTP Error 429: Too Many Requests"
   ]
 }
