@@ -9,7 +9,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 4.1 h.",
+    "description": "Riachão das Neves tem BR-135 bloqueada em protesto por água - Fala Barreiras. Fontes consolidadas: Notícias públicas - Fala Barreiras. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-17T12:31:32Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 4.13,
     "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T16:39:12Z",
+    "news_signature": "5151f4acfc1d4616af3e67c8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 é interditada por indígenas na região de Cruzeiro do Sul - AcreNews. Fontes consolidadas: Notícias públicas - AcreNews; Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 5.2 h.",
+    "description": "BR-364 é interditada por indígenas na região de Cruzeiro do Sul - AcreNews. Fontes consolidadas: Notícias públicas - AcreNews; Notícias públicas - Gazeta Digital. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-17T11:28:00Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +93,10 @@
     "active_duration_hours": 5.19,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-17T16:39:12Z",
+    "news_signature": "89744bcf94ccb96ff5f33623",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
