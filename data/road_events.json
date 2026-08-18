@@ -58,8 +58,11 @@
     "active_duration_hours": 0.8,
     "active_duration_label": "48 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T10:47:57Z",
+    "news_signature": "001791f17287c020a982c9d4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +74,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte do distrito de Suzana, em Marcelino Ramos, desaba e acesso à BR-153 é interditado - Planalto News. Fontes consolidadas: Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-17T23:59:00Z; ativo há 10.8 h.",
+    "description": "Ponte do distrito de Suzana, em Marcelino Ramos, desaba e acesso à BR-153 é interditado - Planalto News. Fontes consolidadas: Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-17T23:59:00Z; ativo há 10.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,7 +111,10 @@
     "active_duration_hours": 10.82,
     "active_duration_label": "10.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T10:47:57Z",
+    "news_signature": "755b036065b0de6b7133f6de",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
