@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com. Período informado: 2026-08-17T19:08:12Z até fim não identificado. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-17T19:08:12Z; ativo há 5.5 h.",
+    "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com. Período informado: 2026-08-17T19:08:12Z até fim não identificado. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-17T19:08:12Z; ativo há 5.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-18T00:17:03Z",
     "sources": [
       {
@@ -44,9 +44,12 @@
     "newsFreshnessHours": 5.46,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-17T19:08:12Z",
-    "active_duration_hours": 5.47,
+    "active_duration_hours": 5.48,
     "active_duration_label": "5.5 h",
     "last_seen_at": "2026-08-18T00:35:34Z",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T00:35:34Z",
+    "news_signature": "6604dc625fef4f76ab82d3fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
