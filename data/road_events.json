@@ -9,7 +9,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte do distrito de Suzana desaba e acesso à BR-153 é interditado - Rádio 96 FM. Fontes consolidadas: Notícias públicas - Rádio 96 FM; Notícias públicas - Testo Notícias; Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-18T11:57:00Z; ativo há 1.0 h.",
+    "description": "Ponte do distrito de Suzana desaba e acesso à BR-153 é interditado - Rádio 96 FM. Fontes consolidadas: Notícias públicas - Rádio 96 FM; Notícias públicas - Testo Notícias; Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-18T11:57:00Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -58,8 +58,11 @@
     "active_duration_hours": 1.01,
     "active_duration_label": "1.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T12:57:35Z",
+    "news_signature": "6d2a3dc02b05650048dc12de",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +74,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 1.7 h.",
+    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 1.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,8 +111,11 @@
     "active_duration_hours": 1.73,
     "active_duration_label": "1.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T12:57:35Z",
+    "news_signature": "69a829c9a63b1591f4e3d99f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +127,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 3.0 h.",
+    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,7 +182,10 @@
     "active_duration_hours": 2.96,
     "active_duration_label": "3.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T12:57:35Z",
+    "news_signature": "1ee0c1189a72aa2ffa60ffd1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
