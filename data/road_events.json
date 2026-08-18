@@ -58,8 +58,11 @@
     "active_duration_hours": 0.84,
     "active_duration_label": "50 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T12:47:12Z",
+    "news_signature": "6d2a3dc02b05650048dc12de",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +74,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 1.6 h.",
+    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +107,14 @@
     "newsFreshnessHours": 1.55,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T11:14:00Z",
-    "last_seen_at": "2026-08-18T12:47:12Z",
-    "active_duration_hours": 1.55,
+    "last_seen_at": "2026-08-18T12:47:29Z",
+    "active_duration_hours": 1.56,
     "active_duration_label": "1.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "69a829c9a63b1591f4e3d99f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +126,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.8 h.",
+    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,7 +181,10 @@
     "active_duration_hours": 2.79,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T12:47:12Z",
+    "news_signature": "1ee0c1189a72aa2ffa60ffd1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
