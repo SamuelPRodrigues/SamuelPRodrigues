@@ -54,12 +54,14 @@
     "newsFreshnessHours": 0.33,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T11:57:00Z",
-    "last_seen_at": "2026-08-18T12:16:55Z",
-    "active_duration_hours": 0.33,
+    "last_seen_at": "2026-08-18T12:17:08Z",
+    "active_duration_hours": 0.34,
     "active_duration_label": "20 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6d2a3dc02b05650048dc12de",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.3 h.",
+    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,11 +124,13 @@
     "newsFreshnessHours": 2.28,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T10:00:02Z",
-    "last_seen_at": "2026-08-18T12:16:55Z",
-    "active_duration_hours": 2.28,
+    "last_seen_at": "2026-08-18T12:17:08Z",
+    "active_duration_hours": 2.29,
     "active_duration_label": "2.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1ee0c1189a72aa2ffa60ffd1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
