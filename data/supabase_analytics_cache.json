@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T00:17:03Z",
+  "updatedAt": "2026-08-18T00:35:34Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -89,6 +89,49 @@
       "estimated_hours": 37.0,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "fc744918615a0e4e6d2414d9",
+      "stable_event_id": "fc744918615a0e4e6d2414d9",
+      "observation_hash": "3cedc5bfba38d7c67f1ebb73",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-18T00:33:57+00:00",
+      "first_seen_at": "2026-08-17T19:16:55+00:00",
+      "last_seen_at": "2026-08-18T00:33:57+00:00",
+      "updated_at": "2026-08-18T00:35:15.241089+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-265",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -21.25,
+      "lon": -44.9,
+      "city": "Sul de Minas",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "BR-265",
+      "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - emboabas.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
+      "total_snapshots": 36,
+      "estimated_hours": 9.0,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
+      "headline": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.",
+      "sources": [
+        {
+          "source": "Notícias públicas - emboabas.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
+          "headline": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.",
+          "date": "2026-08-18T00:35:15.241089+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "b6cfd14de6e0fe061c7cdf01",
@@ -341,49 +384,6 @@
           "source": "Notícias públicas - G1 + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPX2hNUl9QY2UzeFk0Vlpxek9iS3RrOHlTZXNOMnVCb0pWZDR2T0tjVnJsU1N1UElVSEVSV2ZIdkJ1Q201ZTdkS0FSTTlDMmZQUTcxbVZNQTlZOUUwZmNPWTltc0w2elNDcXFocElaRFgyYkR4MlE5TExBa0RKbVVGNWEtaDRuUldaRlIyTFFKcS1fQVhSYURuU2Q4YnZER09vWGYxS1Ryd2xuRkNyMXFJeW5fWWhfcl80NXNRbXAxWkhYX0c4SW9wdXZHaFlrRUdfQjl2UzBkQnJjZEZjeGJYcEI2QzUzRllIOUVkMkktbTFDQjFINkVOeDhR0gGIAkFVX3lxTE1qOTE4OWpJRTZlWXRLUjB2S21Zd2VWbEx6QmFvTTY5ZEZ2bjA3RG02YlhYcXVsTGtvSUFxU2hkRTl4QXRQOXdXRmlvclNxNGgxd3JnX18yMk5fMlNicXZfR1Q5Qjgxb2ptcFh5RnlrMzNZN1lCRi1RZkkzWTNKUUxYNVVLVlpFejdLMUVOeFkxcmo3c0c0Y3g1ZUMzTW4tbC04T0FzWW9uSC1iQjEyLTNKS1N0ZFNLTEdacGZUNlAtZU1TZ3JxX0pBYXVrNVlNVFFnaU54aXJ6alBzUUtUZGlmbnhQYk1rWUdhLW4tOU1zbWdVc2NuX0VPWTZJR29YckFFMzRvUkYycA",
           "headline": "BR-259 será interditada para recuperar viaduto; motoristas deverão buscar outras rotas.",
-          "date": "2026-08-18T00:17:00.283714+00:00"
-        }
-      ],
-      "sourceCount": 1,
-      "dedupedFrom": 1,
-      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "fc744918615a0e4e6d2414d9",
-      "stable_event_id": "fc744918615a0e4e6d2414d9",
-      "observation_hash": "c1da4352187a7487b033aa03",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-18T00:16:58+00:00",
-      "first_seen_at": "2026-08-17T19:16:55+00:00",
-      "last_seen_at": "2026-08-18T00:16:58+00:00",
-      "updated_at": "2026-08-18T00:17:00.283714+00:00",
-      "source_type": "road",
-      "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-265",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -21.25,
-      "lon": -44.9,
-      "city": "Sul de Minas",
-      "state": "MG",
-      "region": "Sudeste",
-      "road": "BR-265",
-      "description": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.. Fontes consolidadas: Notícias públicas - emboabas.com. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - emboabas.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
-      "total_snapshots": 35,
-      "estimated_hours": 8.75,
-      "active": true,
-      "storage": "supabase",
-      "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
-      "headline": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.",
-      "sources": [
-        {
-          "source": "Notícias públicas - emboabas.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmpDdkRBVU5JZmV2OGZkQnJIbkZ0dm5ONEY2RGpDZkhvYVBLUnFoZlM5bXE1OHpYdTZsdjlJc0hYTTF4bDZBNWRtRXNnN3NIVk5VY0NhamVMMFIxV0lUaFBEdkxBcmYyc2RfRHZWWWRpQ1BzUnlqN2g5Y2stMGkwbDNtempYWGpa0gGQAUFVX3lxTE1KR200SVFRT0l1WHRTT2NmRkNyVTAxcF9heXVfaGRmVzJiR3pfdUgxOENZbXZtUmg2X3VkOG04OC1BQVBTWl9xQXJrcXVpWk9OS3VVb19FRjNQYWNCWjlEU3k1aVc0U0Fvd3ZEVk9lakpoMnNsdmNBWHY0T1BRZzZFZjJLa0l4OXZfN2RlcVBDeg",
-          "headline": "BR-265 ficará interditada nesta segunda-feira, 17 - emboabas.com.",
           "date": "2026-08-18T00:17:00.283714+00:00"
         }
       ],
@@ -3887,35 +3887,6 @@
       "sourceCount": 1,
       "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "9b7c0707c403a124b3a13bf6",
-      "stable_event_id": "9b7c0707c403a124b3a13bf6",
-      "observation_hash": "623fa6a9acfd2ea3a30ae96f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T20:35:19+00:00",
-      "first_seen_at": "2026-08-03T20:35:19+00:00",
-      "last_seen_at": "2026-08-03T20:35:19+00:00",
-      "updated_at": "2026-08-03T20:35:20.457671+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Maceió",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -9.665,
-      "lon": -35.735,
-      "city": "Maceió",
-      "state": "AL",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Pancadas de chuva detectadas; Chuva/precipitação detectada (0.8 mm)",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
-      "active": true,
-      "storage": "supabase"
     },
     {
       "event_id": "202a4118091e7200388a5c93",
@@ -17041,6 +17012,64 @@
       "storage": "supabase"
     },
     {
+      "event_id": "fe994cb3a7f632363c6dcd8f",
+      "stable_event_id": "fe994cb3a7f632363c6dcd8f",
+      "observation_hash": "8fd1f924bcd4ea48d01b7f15",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-18T00:35:14+00:00",
+      "first_seen_at": "2026-05-25T18:50:04+00:00",
+      "last_seen_at": "2026-08-18T00:35:14+00:00",
+      "updated_at": "2026-08-18T00:35:15.241089+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uruguaiana",
+      "risk": 61,
+      "severity": "Alto",
+      "lat": -29.754,
+      "lon": -57.088,
+      "city": "Uruguaiana",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Chuva detectada; Chuva/precipitação detectada (1.2 mm)",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 11,
+      "estimated_hours": 2.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "9b7c0707c403a124b3a13bf6",
+      "stable_event_id": "9b7c0707c403a124b3a13bf6",
+      "observation_hash": "b2bc8a450868428eef23ac22",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-18T00:35:14+00:00",
+      "first_seen_at": "2026-08-03T20:35:19+00:00",
+      "last_seen_at": "2026-08-18T00:35:14+00:00",
+      "updated_at": "2026-08-18T00:35:15.241089+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Maceió",
+      "risk": 60,
+      "severity": "Alto",
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Chuva detectada; Chuva/precipitação detectada (2.0 mm)",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1392e852ec635648d4a26a0e",
       "stable_event_id": "1392e852ec635648d4a26a0e",
       "observation_hash": "6234d69cbfe01db2b6a45f49",
@@ -17244,6 +17273,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "ff571cac51162b1908579f8c",
+      "stable_event_id": "ff571cac51162b1908579f8c",
+      "observation_hash": "4fe7b515249e5990e2dac7a8",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-18T00:35:14+00:00",
+      "first_seen_at": "2026-05-25T19:06:12+00:00",
+      "last_seen_at": "2026-08-18T00:35:14+00:00",
+      "updated_at": "2026-08-18T00:35:15.241089+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Aracaju",
+      "risk": 46,
+      "severity": "Moderado",
+      "lat": -10.947,
+      "lon": -37.073,
+      "city": "Aracaju",
+      "state": "SE",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Garoa detectada; Chuva/precipitação detectada (0.4 mm)",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 21,
+      "estimated_hours": 5.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "5fa2d3b705b27721ba81a565",
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "27ea4c241d471efdd2e007e1",
@@ -17385,6 +17443,35 @@
       "source_url": "",
       "total_snapshots": 411,
       "estimated_hours": 102.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "de6965a72f85adcc643ebc17",
+      "stable_event_id": "de6965a72f85adcc643ebc17",
+      "observation_hash": "28beeed063bf9d00b1beeeb4",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-18T00:35:14+00:00",
+      "first_seen_at": "2026-08-03T20:35:19+00:00",
+      "last_seen_at": "2026-08-18T00:35:14+00:00",
+      "updated_at": "2026-08-18T00:35:15.241089+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Ilhéus",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -14.793,
+      "lon": -39.046,
+      "city": "Ilhéus",
+      "state": "BA",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Garoa detectada; Chuva/precipitação detectada (0.2 mm)",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase"
     },
@@ -17617,35 +17704,6 @@
       "source_url": "",
       "total_snapshots": 2,
       "estimated_hours": 0.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "de6965a72f85adcc643ebc17",
-      "stable_event_id": "de6965a72f85adcc643ebc17",
-      "observation_hash": "e34eb76442441e89a8d5a0b8",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-03T20:35:19+00:00",
-      "first_seen_at": "2026-08-03T20:35:19+00:00",
-      "last_seen_at": "2026-08-03T20:35:19+00:00",
-      "updated_at": "2026-08-03T20:35:20.457671+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Ilhéus",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -14.793,
-      "lon": -39.046,
-      "city": "Ilhéus",
-      "state": "BA",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Garoa detectada; Chuva/precipitação detectada (0.2 mm)",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
       "active": true,
       "storage": "supabase"
     },
@@ -17907,35 +17965,6 @@
       "source_url": "",
       "total_snapshots": 19,
       "estimated_hours": 4.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "ff571cac51162b1908579f8c",
-      "stable_event_id": "ff571cac51162b1908579f8c",
-      "observation_hash": "1e64db32cdb709709b7082d1",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-26T00:07:28+00:00",
-      "first_seen_at": "2026-05-25T19:06:12+00:00",
-      "last_seen_at": "2026-05-26T00:07:28+00:00",
-      "updated_at": "2026-05-26T00:07:28.925061+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Aracaju",
-      "risk": 42,
-      "severity": "Moderado",
-      "lat": -10.947,
-      "lon": -37.073,
-      "city": "Aracaju",
-      "state": "SE",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Garoa detectada; Chuva/precipitação detectada (0.2 mm)",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 20,
-      "estimated_hours": 5.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18545,35 +18574,6 @@
       "source_url": "",
       "total_snapshots": 16,
       "estimated_hours": 4.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "fe994cb3a7f632363c6dcd8f",
-      "stable_event_id": "fe994cb3a7f632363c6dcd8f",
-      "observation_hash": "94fc77ca13c15674c1985c3d",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-05-25T23:04:35+00:00",
-      "first_seen_at": "2026-05-25T18:50:04+00:00",
-      "last_seen_at": "2026-05-25T23:04:35+00:00",
-      "updated_at": "2026-05-25T23:04:36.030688+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uruguaiana",
-      "risk": 39,
-      "severity": "Moderado",
-      "lat": -29.754,
-      "lon": -57.088,
-      "city": "Uruguaiana",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Garoa detectada; Chuva/precipitação detectada (0.2 mm)",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 10,
-      "estimated_hours": 2.5,
       "active": true,
       "storage": "supabase"
     },
@@ -20900,17 +20900,17 @@
   ],
   "windows": {
     "7": {
-      "events": 139,
+      "events": 143,
       "avgRisk": 36,
       "maxRisk": 69,
-      "rainChance": 0,
+      "rainChance": 4,
       "byType": {
-        "climate": 95,
+        "climate": 99,
         "road": 44
       },
       "byRegion": {
-        "Nordeste": 44,
-        "Sul": 31,
+        "Nordeste": 47,
+        "Sul": 32,
         "Sudeste": 29,
         "Norte": 21,
         "Centro-Oeste": 12,
@@ -20918,8 +20918,8 @@
       },
       "bySeverity": {
         "Baixo": 68,
-        "Alto": 48,
-        "Moderado": 23
+        "Alto": 50,
+        "Moderado": 25
       },
       "dailyRisk": [
         {
@@ -20966,33 +20966,33 @@
         },
         {
           "date": "2026-08-18",
-          "avgRisk": 59,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 18,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 269,
+      "events": 271,
       "avgRisk": 51,
       "maxRisk": 85,
-      "rainChance": 12,
+      "rainChance": 14,
       "byType": {
         "road": 161,
-        "climate": 108
+        "climate": 110
       },
       "byRegion": {
-        "Nordeste": 88,
-        "Sul": 77,
+        "Nordeste": 89,
+        "Sul": 78,
         "Sudeste": 57,
         "Norte": 28,
         "Centro-Oeste": 13,
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 166,
+        "Alto": 167,
         "Baixo": 68,
-        "Moderado": 34,
+        "Moderado": 35,
         "Crítico": 1
       },
       "dailyRisk": [
@@ -21089,7 +21089,7 @@
         {
           "date": "2026-08-03",
           "avgRisk": 55,
-          "events": 21,
+          "events": 19,
           "maxRisk": 85
         },
         {
@@ -21178,8 +21178,8 @@
         },
         {
           "date": "2026-08-18",
-          "avgRisk": 59,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 18,
           "maxRisk": 69
         }
       ]
@@ -21203,22 +21203,22 @@
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 384,
+        "Alto": 385,
         "Baixo": 68,
-        "Moderado": 63,
+        "Moderado": 62,
         "Crítico": 1
       },
       "dailyRisk": [
         {
           "date": "2026-05-25",
           "avgRisk": 48,
-          "events": 21,
+          "events": 20,
           "maxRisk": 69
         },
         {
           "date": "2026-05-26",
           "avgRisk": 53,
-          "events": 24,
+          "events": 23,
           "maxRisk": 69
         },
         {
@@ -21626,7 +21626,7 @@
         {
           "date": "2026-08-03",
           "avgRisk": 55,
-          "events": 21,
+          "events": 19,
           "maxRisk": 85
         },
         {
@@ -21715,8 +21715,8 @@
         },
         {
           "date": "2026-08-18",
-          "avgRisk": 59,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 18,
           "maxRisk": 69
         }
       ]
