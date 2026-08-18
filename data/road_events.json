@@ -9,7 +9,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 1.6 h.",
+    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - rede noticia es. Fontes consolidadas: Notícias públicas - rede noticia es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -61,11 +61,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T10:00:02Z",
     "last_seen_at": "2026-08-18T11:34:56Z",
-    "active_duration_hours": 1.58,
+    "active_duration_hours": 1.59,
     "active_duration_label": "1.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T11:34:56Z",
+    "news_signature": "479f35b6f6e305a6555458e5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +80,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte do distrito de Suzana, em Marcelino Ramos, desaba e acesso à BR-153 é interditado - Planalto News. Fontes consolidadas: Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-17T23:59:00Z; ativo há 11.6 h.",
+    "description": "Ponte do distrito de Suzana, em Marcelino Ramos, desaba e acesso à BR-153 é interditado - Planalto News. Fontes consolidadas: Notícias públicas - Planalto News; Notícias públicas - Jornal Bom Dia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-17T23:59:00Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -114,7 +117,10 @@
     "active_duration_hours": 11.6,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T11:34:56Z",
+    "news_signature": "755b036065b0de6b7133f6de",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
