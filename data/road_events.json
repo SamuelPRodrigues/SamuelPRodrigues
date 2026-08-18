@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Fernão Dias é interditada após queda de passarela. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Itatiaia; Notícias públicas - terradomandu.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-18T15:46:21Z; ativo há 5.4 h.",
+    "description": "Rodovia Fernão Dias é interditada após queda de passarela. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Itatiaia; Notícias públicas - terradomandu.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-18T15:46:21Z; ativo há 5.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,12 +48,14 @@
     "newsFreshnessHours": 5.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T15:46:21Z",
-    "last_seen_at": "2026-08-18T21:11:11Z",
-    "active_duration_hours": 5.41,
+    "last_seen_at": "2026-08-18T21:11:55Z",
+    "active_duration_hours": 5.43,
     "active_duration_label": "5.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c34804a1ea9d0d3cad85af48",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +67,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 interditada em trecho importante do Paraná hoje; veja rotas alternativas - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-18T12:40:00Z; ativo há 8.5 h.",
+    "description": "BR-277 interditada em trecho importante do Paraná hoje; veja rotas alternativas - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-18T12:40:00Z; ativo há 8.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,11 +95,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T12:40:00Z",
     "last_seen_at": "2026-08-18T21:11:11Z",
-    "active_duration_hours": 8.52,
+    "active_duration_hours": 8.53,
     "active_duration_label": "8.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T21:11:11Z",
+    "news_signature": "f006d65ebb359125b0800025",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +114,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 9.9 h.",
+    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo; Notícias públicas - abcmais.com. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,11 +148,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T11:14:00Z",
     "last_seen_at": "2026-08-18T21:11:11Z",
-    "active_duration_hours": 9.95,
-    "active_duration_label": "9.9 h",
+    "active_duration_hours": 9.97,
+    "active_duration_label": "10.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-18T21:11:11Z",
+    "news_signature": "69a829c9a63b1591f4e3d99f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -164,7 +172,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 2.4 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -206,9 +214,11 @@
     "newsFreshnessHours": 2.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T18:48:08Z",
-    "last_seen_at": "2026-08-18T21:11:11Z",
-    "active_duration_hours": 2.38,
+    "last_seen_at": "2026-08-18T21:11:55Z",
+    "active_duration_hours": 2.4,
     "active_duration_label": "2.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2eb42a53b97549df981c0392",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
