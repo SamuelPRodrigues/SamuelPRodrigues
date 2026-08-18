@@ -9,7 +9,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - redenoticia.es. Fontes consolidadas: Notícias públicas - redenoticia.es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.1 h.",
+    "description": "BR 259 no Norte do ES é interditada; DNIT fala em ‘falha em estrutura’; veja desvios - redenoticia.es. Fontes consolidadas: Notícias públicas - redenoticia.es; Notícias públicas - G1; Notícias públicas - Vila Notícias; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-18T10:00:02Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,11 +60,13 @@
     "newsFreshnessHours": 2.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T10:00:02Z",
-    "last_seen_at": "2026-08-18T12:03:45Z",
-    "active_duration_hours": 2.06,
+    "last_seen_at": "2026-08-18T12:04:01Z",
+    "active_duration_hours": 2.07,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a2b011619b229cb8b82783e5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
