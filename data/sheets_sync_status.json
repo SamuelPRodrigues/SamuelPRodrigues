@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T15:47:28Z",
+  "updatedAt": "2026-08-18T15:50:35Z",
   "configured": true,
   "eventsPrepared": 35,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
@@ -10,11 +10,12 @@
   "response": {
     "ok": true,
     "received": 35,
-    "inserted": 1,
-    "updated": 34,
+    "inserted": 0,
+    "updated": 35,
     "total_rows": 700
   },
   "analyticsCache": true,
   "error": null,
-  "analyticsRows": 700
+  "analyticsRows": 35,
+  "analyticsCacheWarning": "HTTP Error 404: Not Found"
 }
