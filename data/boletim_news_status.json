@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-18T08:47:55Z",
+  "updatedAt": "2026-08-18T08:56:34Z",
   "queries": 6,
-  "newItemsBeforeMerge": 3,
+  "newItemsBeforeMerge": 64,
   "savedRoadNewsReused": 3,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 47,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "DNIT alerta para interdição total de viaduto na BR-259/ES a partir desta terça-feira (18) - www.gov.br",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Estrada do Monte Valério tem interdição temporária nesta segunda, 17 - Prefeitura Municipal de Ubatuba",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Nota - Interdição Estrada da Arvorezinha - bage.rs.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Vídeo: Batida seguida de explosão deixa quatro mortos na BR-163, em MS - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Acidente deixa uma pessoa morta, nove feridas e interdita Mogi-Bertioga - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Vídeo: Batida seguida de explosão deixa quatro mortos na BR-163, em MS - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro cai de viaduto e duas pessoas ficam feridas na BR-116, em Sapucaia - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Dez pessoas morrem após ônibus tombar em Petrópolis - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Criança fica presa às ferragens após caminhão tombar em serra da BR-116 - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Sábado (15/8) com possibilidade de chuva e ventos moderados a fortes na cidade do Rio - Centro de Operações Rio",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Granizo e chuva forte provocam estragos em cidades da Região Metropolitana de Curitiba e do Litoral do Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva recorde no Japão inunda ruas, mata 5 e deixa milhares de ilhados - band.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Forte chuva deixa São Paulo tem estado de alerta - Revista Oeste",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte atinge SP e causa desabamento com vítimas na região do ABC - viva.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Granizo atinge bairro dos Campos e derruba árvores durante temporal em Carmo de Minas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva recorde deixa morto e paralisa cidades perto de Tóquio - UOL Notícias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Pedras de granizo do tamanho de bolas de tênis atingem o Paraná e deixam quintal parecendo coberto de neve; temporais provocaram estragos - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte deixa um morto e causa estragos em ao menos 10 cidades de SC - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Cidade do Amazonas tem chuva de granizo no mesmo dia em que estado registra calor recorde; VÍDEO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Apesar da chuva forte, show de João Gomes agita Movimento Cidade - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Prefeitura orienta sobre desvios para obras do Viaduto Passarão - Prefeitura de Manaus",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Carga cai de caminhão e interdita alça de acesso entre rodovias em Santa Cruz do Rio Pardo - G1",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Passageiros encaram trens lotados e gastam com carro de app para não perder o trabalho no 2º dia de greve - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Justiça proíbe sindicato de entrar na Honda e bloquear acesso de trabalhadores em Manaus - amazonas atual",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "BR-277 vira ‘praça de guerra’ após saque de carga e confronto com indígenas no Paraná - Paraná Central",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
