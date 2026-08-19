@@ -14,7 +14,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; g1.globo.com. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 10.3 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; g1.globo.com. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 10.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-08-19T05:02:23Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-08-19T05:16:07Z",
     "sources": [
       {
         "source": "Notícias públicas - G1",
@@ -65,15 +65,12 @@
     "sourceCount": 5,
     "dedupedFrom": 5,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 10.26,
+    "newsFreshnessHours": 10.49,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T18:48:08Z",
-    "last_seen_at": "2026-08-19T05:03:36Z",
-    "active_duration_hours": 10.26,
-    "active_duration_label": "10.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-19T05:03:36Z",
-    "news_signature": "81d18c6e0ae7b0e44f3796ba",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-08-19T05:17:21Z",
+    "active_duration_hours": 10.49,
+    "active_duration_label": "10.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
