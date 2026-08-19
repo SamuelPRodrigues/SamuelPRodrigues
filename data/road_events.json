@@ -14,7 +14,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas - g1.globo.com. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - g1.globo.com; g1.globo.com; G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 11.0 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas - g1.globo.com. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - g1.globo.com; g1.globo.com; G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -68,9 +68,11 @@
     "newsFreshnessHours": 10.98,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T18:48:08Z",
-    "last_seen_at": "2026-08-19T05:47:03Z",
-    "active_duration_hours": 10.98,
+    "last_seen_at": "2026-08-19T05:47:16Z",
+    "active_duration_hours": 10.99,
     "active_duration_label": "11.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "75b27e3c042a6f15d6db1e34",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
