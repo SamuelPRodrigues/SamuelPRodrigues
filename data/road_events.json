@@ -14,7 +14,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; g1.globo.com. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 9.3 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1; g1.globo.com. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 9.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-08-19T04:02:30Z",
+    "updatedAt": "2026-08-19T04:09:20Z",
     "sources": [
       {
         "source": "Notícias públicas - G1",
@@ -65,12 +65,12 @@
     "sourceCount": 5,
     "dedupedFrom": 5,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 9.26,
+    "newsFreshnessHours": 9.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T18:48:08Z",
-    "last_seen_at": "2026-08-19T04:03:45Z",
-    "active_duration_hours": 9.26,
-    "active_duration_label": "9.3 h",
+    "last_seen_at": "2026-08-19T04:10:34Z",
+    "active_duration_hours": 9.37,
+    "active_duration_label": "9.4 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
