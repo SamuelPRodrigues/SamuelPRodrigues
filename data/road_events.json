@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-070",
+    "road": "BR-070",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.78,
+    "lon": -47.929,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Cavalo morre atropelado na BR-070 e rodovia fica com faixa bloqueada - tmc.com.br. Fontes consolidadas: Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-19T10:59:46Z; ativo há 17 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - tmc.com.br",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUFzMGVybjlXeFRCZzd5cEpidVl0QjlSNUd1Vkl3bmZVTHJEVW9zczZYS2JiT3VjejdZYTFaUGhseURJakRXX2REN0FtMXRndFl2MDhyVjdteW1SSGlYQW9zX3E1VXNwWk1oSFRBQmhKWTJuSEh6NGRGd3lWakxyQkllMXIwZUJuWFE",
+    "headline": "Cavalo morre atropelado na BR-070 e rodovia fica com faixa bloqueada - tmc.com.br",
+    "newsDate": "Wed, 19 Aug 2026 10:59:46 GMT",
+    "updatedAt": "2026-08-19T11:15:40Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUFzMGVybjlXeFRCZzd5cEpidVl0QjlSNUd1Vkl3bmZVTHJEVW9zczZYS2JiT3VjejdZYTFaUGhseURJakRXX2REN0FtMXRndFl2MDhyVjdteW1SSGlYQW9zX3E1VXNwWk1oSFRBQmhKWTJuSEh6NGRGd3lWakxyQkllMXIwZUJuWFE",
+    "sources": [
+      {
+        "source": "Notícias públicas - tmc.com.br",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUFzMGVybjlXeFRCZzd5cEpidVl0QjlSNUd1Vkl3bmZVTHJEVW9zczZYS2JiT3VjejdZYTFaUGhseURJakRXX2REN0FtMXRndFl2MDhyVjdteW1SSGlYQW9zX3E1VXNwWk1oSFRBQmhKWTJuSEh6NGRGd3lWakxyQkllMXIwZUJuWFE",
+        "headline": "Cavalo morre atropelado na BR-070 e rodovia fica com faixa bloqueada - tmc.com.br",
+        "date": "Wed, 19 Aug 2026 10:59:46 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "6c5d6574a18560e7c8aaa982",
+    "event_id": "6c5d6574a18560e7c8aaa982",
+    "newsFreshnessHours": 0.29,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-19T10:59:46Z",
+    "last_seen_at": "2026-08-19T11:16:57Z",
+    "active_duration_hours": 0.29,
+    "active_duration_label": "17 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
