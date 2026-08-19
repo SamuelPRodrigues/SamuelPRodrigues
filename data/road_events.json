@@ -46,8 +46,11 @@
     "active_duration_hours": 0.53,
     "active_duration_label": "32 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T21:03:07Z",
+    "news_signature": "aab082c677d4eb46b8ee9bfa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 1.3 h.",
+    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T19:42:39Z",
     "last_seen_at": "2026-08-19T21:03:07Z",
-    "active_duration_hours": 1.34,
-    "active_duration_label": "1.3 h",
+    "active_duration_hours": 1.35,
+    "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T21:03:07Z",
+    "news_signature": "5e4524dd98b655c997d4dbed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-259 é interditada em João Neiva, no Espírito Santo. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Vila Notícias. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-19T12:39:02Z; ativo há 8.4 h.",
+    "description": "BR-259 é interditada em João Neiva, no Espírito Santo. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Vila Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-19T12:39:02Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -136,12 +142,14 @@
     "newsFreshnessHours": 8.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T12:39:02Z",
-    "last_seen_at": "2026-08-19T21:03:07Z",
-    "active_duration_hours": 8.4,
+    "last_seen_at": "2026-08-19T21:03:24Z",
+    "active_duration_hours": 8.41,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fafdb4f94a7d72aadeec0cda",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +161,7 @@
     "lat": -25.095,
     "lon": -50.162,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR: BR-373 está interditada após acidente entre micro-ônibus e carreta. Fontes consolidadas: Notícias públicas - Metrópoles; Notícias públicas - Catve; Notícias públicas - 180graus; Notícias públicas - Gazeta do Paraná. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-19T10:10:44Z; ativo há 10.9 h.",
+    "description": "PR: BR-373 está interditada após acidente entre micro-ônibus e carreta. Fontes consolidadas: Notícias públicas - Metrópoles; Notícias públicas - Catve; Notícias públicas - 180graus; Notícias públicas - Gazeta do Paraná. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-19T10:10:44Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -198,12 +206,14 @@
     "newsFreshnessHours": 10.87,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T10:10:44Z",
-    "last_seen_at": "2026-08-19T21:03:07Z",
-    "active_duration_hours": 10.87,
+    "last_seen_at": "2026-08-19T21:03:24Z",
+    "active_duration_hours": 10.88,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "05ecffc7b4c5a49cf278f2b1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -220,7 +230,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 7.3 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -233,7 +243,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-19T21:01:54Z",
     "sources": [
       {
@@ -257,8 +267,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T13:45:38Z",
     "last_seen_at": "2026-08-19T21:03:07Z",
-    "active_duration_hours": 7.29,
+    "active_duration_hours": 7.3,
     "active_duration_label": "7.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T21:03:07Z",
+    "news_signature": "30d734f3876dc664ddd2226f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
