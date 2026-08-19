@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Fernão Dias foi bloqueada após queda de passarela. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-18T23:29:35Z; ativo há 1.1 h.",
+    "description": "Rodovia Fernão Dias foi bloqueada após queda de passarela. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-18T23:29:35Z; ativo há 1.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 1.05,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T23:29:35Z",
-    "last_seen_at": "2026-08-19T00:32:20Z",
+    "last_seen_at": "2026-08-19T00:32:36Z",
     "active_duration_hours": 1.05,
     "active_duration_label": "1.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b1304501bdb7c8a518d25513",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 interditada em trecho importante do Paraná hoje; veja rotas alternativas - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-18T12:40:00Z; ativo há 11.9 h.",
+    "description": "BR-277 interditada em trecho importante do Paraná hoje; veja rotas alternativas - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-18T12:40:00Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T12:40:00Z",
     "last_seen_at": "2026-08-19T00:32:20Z",
-    "active_duration_hours": 11.87,
+    "active_duration_hours": 11.88,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T00:32:20Z",
+    "news_signature": "f006d65ebb359125b0800025",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +107,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; g1.globo.com; G1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 5.7 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto e desvios aumentam trajeto em até 74 km no ES; veja rotas alternativas. Período informado: 2026-08-18T18:48:08Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1; g1.globo.com; G1. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-18T18:48:08Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +120,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-19T00:31:06Z",
     "sources": [
       {
@@ -147,6 +152,9 @@
     "last_seen_at": "2026-08-19T00:32:20Z",
     "active_duration_hours": 5.74,
     "active_duration_label": "5.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T00:32:20Z",
+    "news_signature": "c538fd385d8d63e921187aa2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
