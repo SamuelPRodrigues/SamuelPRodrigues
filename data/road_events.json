@@ -9,7 +9,7 @@
     "lat": -25.095,
     "lon": -50.162,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR: BR-373 está interditada após acidente entre micro-ônibus e carreta. Fontes consolidadas: Notícias públicas - Metrópoles; Notícias públicas - Gazeta do Paraná. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-19T12:27:00Z; ativo há 5.2 h.",
+    "description": "PR: BR-373 está interditada após acidente entre micro-ônibus e carreta. Fontes consolidadas: Notícias públicas - Metrópoles; Notícias públicas - Gazeta do Paraná. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-19T12:27:00Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 5.17,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T17:37:09Z",
+    "news_signature": "e8e40d61e4e1fee66be941ce",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Cavalo morre atropelado na BR-070 e rodovia fica com faixa bloqueada - tmc.com.br. Fontes consolidadas: Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-19T10:59:46Z; ativo há 6.6 h.",
+    "description": "Cavalo morre atropelado na BR-070 e rodovia fica com faixa bloqueada - tmc.com.br. Fontes consolidadas: Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-19T10:59:46Z; ativo há 6.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +90,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T10:59:46Z",
     "last_seen_at": "2026-08-19T17:37:09Z",
-    "active_duration_hours": 6.62,
+    "active_duration_hours": 6.63,
     "active_duration_label": "6.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-19T17:37:09Z",
+    "news_signature": "43cb1eaecc42e82b05056241",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
