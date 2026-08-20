@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T10:50:00Z",
     "last_seen_at": "2026-08-20T11:46:03Z",
-    "active_duration_hours": 0.93,
+    "active_duration_hours": 0.94,
     "active_duration_label": "56 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T11:46:03Z",
+    "news_signature": "c52f6530ab60dd7f5ccc8c21",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
