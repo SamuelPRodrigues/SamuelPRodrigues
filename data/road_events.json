@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com. Fontes consolidadas: Notícias públicas - soubrasilia.com; Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-19T20:31:27Z; ativo há 5.1 h.",
+    "description": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com. Fontes consolidadas: Notícias públicas - soubrasilia.com; Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-19T20:31:27Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T20:31:27Z",
     "last_seen_at": "2026-08-20T01:38:11Z",
-    "active_duration_hours": 5.11,
+    "active_duration_hours": 5.12,
     "active_duration_label": "5.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T01:38:11Z",
+    "news_signature": "aab082c677d4eb46b8ee9bfa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 5.9 h.",
+    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 5.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 5.93,
     "active_duration_label": "5.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T01:38:11Z",
+    "news_signature": "5e4524dd98b655c997d4dbed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto - g1.globo.com. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: g1.globo.com. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 11.9 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto - g1.globo.com. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: g1.globo.com. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -138,9 +144,11 @@
     "newsFreshnessHours": 11.88,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-19T13:45:38Z",
-    "last_seen_at": "2026-08-20T01:38:11Z",
+    "last_seen_at": "2026-08-20T01:38:26Z",
     "active_duration_hours": 11.88,
     "active_duration_label": "11.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3a6326b8c3b006d6a90ceb49",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
