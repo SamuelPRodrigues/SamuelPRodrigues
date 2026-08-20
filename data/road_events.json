@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T17:15:03Z",
     "last_seen_at": "2026-08-20T17:47:06Z",
-    "active_duration_hours": 0.53,
+    "active_duration_hours": 0.54,
     "active_duration_label": "32 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T17:47:06Z",
+    "news_signature": "33ec3fa574d853986cb6b1e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -90,8 +93,11 @@
     "active_duration_hours": 0.91,
     "active_duration_label": "55 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T17:47:06Z",
+    "news_signature": "877135cded97ffe6f9faf43b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +109,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis. Fontes consolidadas: Notícias públicas - Tribuna de Petrópolis. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-20T16:04:38Z; ativo há 1.7 h.",
+    "description": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis. Fontes consolidadas: Notícias públicas - Tribuna de Petrópolis. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-20T16:04:38Z; ativo há 1.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,7 +140,10 @@
     "active_duration_hours": 1.71,
     "active_duration_label": "1.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T17:47:06Z",
+    "news_signature": "875d3b892dc0df9e53d311a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
