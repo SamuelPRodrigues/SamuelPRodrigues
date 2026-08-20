@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-08-20T06:17:11Z",
+  "updatedAt": "2026-08-20T06:33:03Z",
   "queries": 6,
-  "newItemsBeforeMerge": 62,
+  "newItemsBeforeMerge": 3,
   "savedRoadNewsReused": 3,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 49,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "DNIT alerta para interdição total de viaduto na BR-259/ES a partir desta terça-feira (18) - www.gov.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Acidente com 23 mortos no Paraná é o mais grave desde 2021, segundo a PRF - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Vídeo: Batida seguida de explosão deixa quatro mortos na BR-163, em MS - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento com três carretas e sete carros deixa dois mortos na BR-277, no litoral do Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "BR-277 é liberada após engavetamento que matou duas pessoas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro cai de viaduto e duas pessoas ficam feridas na BR-116, em Sapucaia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Criança fica presa às ferragens após caminhão tombar em serra da BR-116 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Dez pessoas morrem após ônibus tombar em Petrópolis - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Sábado (15/8) com possibilidade de chuva e ventos moderados a fortes na cidade do Rio - Centro de Operações Rio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Granizo e chuva forte provocam estragos em cidades da Região Metropolitana de Curitiba e do Litoral do Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte coloca SC em alerta nesta sexta-feira | Previsão do Tempo 14/08/2026 - noticiasagricolas.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva recorde no Japão inunda ruas, mata 5 e deixa milhares de ilhados - band.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte atinge SP e causa desabamento com vítimas na região do ABC - viva.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Pedras de granizo do tamanho de bolas de tênis atingem o Paraná e deixam quintal parecendo coberto de neve; temporais provocaram estragos - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte deixa um morto e causa estragos em ao menos 10 cidades de SC - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva recorde deixa morto e paralisa cidades perto de Tóquio - noticias.uol.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Granizo atinge bairro dos Campos e derruba árvores durante temporal em Carmo de Minas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Formação de ciclone extratropical é confirmada e deve levar chuva, vento forte e granizo ao RS; veja previsão - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Bloqueio na Rua João XXIII altera trânsito nesta quarta – CGNotícias - campogrande.ms.gov.br",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Carga cai de caminhão e interdita alça de acesso entre rodovias em Santa Cruz do Rio Pardo - G1",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Prefeitura orienta sobre desvios para obras do Viaduto Passarão - Prefeitura de Manaus",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Justiça proíbe sindicato de entrar na Honda e bloquear acesso de trabalhadores em Manaus - amazonasatual.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "BR-277 vira ‘praça de guerra’ após saque de carga e confronto com indígenas no Paraná - Paraná Central",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Carga cai de caminhão e interdita alça de acesso entre rodovias em Santa Cruz do Rio Pardo - Grupo Jota Sidney",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Deslizamento de terra no Peru gera fila de caminhões de 10 km em rodovia - CNN Brasil",
-      "reason": "not_operationally_relevant"
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
