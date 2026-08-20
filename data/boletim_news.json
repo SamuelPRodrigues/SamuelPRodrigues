@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T12:17:37Z",
+  "updatedAt": "2026-08-20T12:34:16Z",
   "source": "bulletin_news_collection",
   "policy": "Boletim usa notícias reais salvas/coletadas. Eventos climáticos do mapa não são usados; clima entra apenas por notícia pública validada por relevância operacional.",
   "items": [
@@ -18,6 +18,34 @@
       "collectedAt": "2026-08-20T12:17:36Z",
       "provider": "Google News RSS",
       "sourceKind": "news"
+    },
+    {
+      "news_id": "b5dae185ba8b590c204524aa",
+      "title": "BR-163 é interditada após peça de caminhão atingir dois veículos - O Presente",
+      "description": "BR-163 é interditada após peça de caminhão atingir dois veículos - O Presente. Fontes consolidadas: Notícias públicas - O Presente; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-20T11:04:30Z; ativo há 1.5 h.",
+      "category": "road",
+      "categoryLabel": "Rodovia",
+      "region": "Sem região",
+      "risk": 69,
+      "severity": "Alta",
+      "source": "Notícias públicas - O Presente + 1 fonte(s)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeHFabDVxWnFRdnhpVTBBZFE2Q0FjVm90ZUxEZkRGeGpZUUdVWlBUMjFIRHhSakV5elhINEFhM3A1Zlo3N1pSOWVvQTB1eHRmbkxoeWVZSUN5T01WOERiT20yMTVDQktzM1MxLVk4V3ZPUkg1U0ZJSFczdVFNRzNLWEpySjFxNFRBd2dqTF81VWVfV2Zyc2tEczNIWjlQOFU1RG5qbHdUdnA",
+      "publishedAt": "2026-08-20T11:04:30Z",
+      "collectedAt": "2026-08-20T12:34:16Z",
+      "provider": "Eventos rodoviários salvos",
+      "sourceKind": "saved_road_news",
+      "sources": [
+        {
+          "source": "Notícias públicas - O Presente",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeHFabDVxWnFRdnhpVTBBZFE2Q0FjVm90ZUxEZkRGeGpZUUdVWlBUMjFIRHhSakV5elhINEFhM3A1Zlo3N1pSOWVvQTB1eHRmbkxoeWVZSUN5T01WOERiT20yMTVDQktzM1MxLVk4V3ZPUkg1U0ZJSFczdVFNRzNLWEpySjFxNFRBd2dqTF81VWVfV2Zyc2tEczNIWjlQOFU1RG5qbHdUdnA",
+          "headline": "BR-163 é interditada após peça de caminhão atingir dois veículos - O Presente"
+        },
+        {
+          "source": "Notícias públicas - CGN",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1JFU1o3MGxTc0o5bmxFSE9DdnoyNmppajliTVFvOFNVOXd4OEw3QVVJLXZNd0FMcW42VmpIVjc0R21sWGVtN1JFUzN4YnNkc1hraGpUWUN2WjZSR2NnRWJTR2c1YThhY1A1aHV6VGZjcnJkamxKdTV3Sld4azl0S3JVT19xVW41WndvV2pQY3ZEczZycUtmOUx0bURSUFlfVnNkeWdrV2F0VGpPVFhrby1pNUZ2Z9IBuwFBVV95cUxPcUtKZVhEd0l0SmlvOTBRY0k1MDhEZWF4M0o4WDJfVFIzVFpRVFAxWUxjMlNCNU5JXzM0VG5XUHdfeW1iWHUxMUlOdEZwUXQ1WWRlS2NxeGJHX0NrUTZsYzI5b2JTSm1Gel92VmNLTmd6RFhRejlxUThoanYxcmdxcFhtSV9KT1d3Q2pyNU12eGkzSmQtLUk1T0NTV20zMURLSTZoZThlNzhQX2tQR1JQRmt3b3k5S1JEU2U0",
+          "headline": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - CGN"
+        }
+      ]
     },
     {
       "news_id": "a83cec669a1bfa3cbe80af40",
@@ -4156,22 +4184,6 @@
           "headline": "Alça de acesso da BR-376 para a PR-445 será interditada para obras no domingo (15) - g1.globo.com"
         }
       ]
-    },
-    {
-      "news_id": "ae409698d40d56724bf8f722",
-      "title": "VÍDEO: Acidente com carro capotado provoca longa fila e bloqueio na BR-101 em SC - ND Mais",
-      "description": "VÍDEO: Acidente com carro capotado provoca longa fila e bloqueio na BR-101 em SC ND Mais",
-      "category": "road",
-      "categoryLabel": "Rodovia",
-      "region": "Sem região",
-      "risk": 66,
-      "severity": "Alta",
-      "source": "ND Mais",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWW9URTdhSVF4bHhUVGl0aGVTQS1ZbExCeXJRV3dRUnRDZHlXZVFXOXA4bHU5R3lEM0wzbGtsN1IxVkZFREVXZ1IwX1dSRGNmZGkzYXVFV0RRbkozeEQ2NGFuR2g0bmFIVXRWUzVlQWJkbXMyYXR6aUlZOURUYW5XVUFtVTAyTEEwbDYyVDBkaUUyMnItaHhUOUpicElJdjUwNmF0R3BNdTMzRFlrQzUxSw",
-      "publishedAt": "2026-08-15T17:11:20Z",
-      "collectedAt": "2026-08-16T15:03:55Z",
-      "provider": "Google News RSS",
-      "sourceKind": "news"
     }
   ]
 }
