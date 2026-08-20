@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-08-20T05:03:28Z",
+  "updatedAt": "2026-08-20T05:17:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
-    {
-      "event_id": "94eba1bea36aeec0d426f14d",
-      "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "0e9b49b059b99db1b1071756",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
-      "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Santa Maria",
-      "risk": 85,
-      "severity": "Crítico",
-      "lat": -29.686,
-      "lon": -53.806,
-      "city": "Santa Maria",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 86.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2858,
-      "estimated_hours": 714.5,
-      "active": true,
-      "storage": "supabase"
-    },
     {
       "event_id": "6facb261a381908297bf821f",
       "stable_event_id": "6facb261a381908297bf821f",
@@ -58,6 +29,35 @@
       "source_url": "",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "94eba1bea36aeec0d426f14d",
+      "stable_event_id": "94eba1bea36aeec0d426f14d",
+      "observation_hash": "4bbdbabc8ed9f40681fa526b",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T03:18:15+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Santa Maria",
+      "risk": 84,
+      "severity": "Crítico",
+      "lat": -29.686,
+      "lon": -53.806,
+      "city": "Santa Maria",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 86.1 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2859,
+      "estimated_hours": 714.75,
       "active": true,
       "storage": "supabase"
     },
@@ -122,12 +122,12 @@
     {
       "event_id": "8bffa17533c1ba0390cbd60d",
       "stable_event_id": "8bffa17533c1ba0390cbd60d",
-      "observation_hash": "72a08bcd58e0e119f5261380",
+      "observation_hash": "7c1aceff9bca72971e0b389f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
       "first_seen_at": "2026-08-19T19:46:51+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +143,8 @@
       "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida.. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Portal Clube News",
       "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ1VXcHBaU2pJeWI3ekRHaEk1NWcxWnZQM19uN0xiUkJsTlpHMlJOUFJiNGl4YlhuN1ZtblRzZ3NFZDhzZ1lYTUNzUjg0a3ZKWkM2NGFxOVNlcGJ5VU9acXpBTmxVcmpqTFZZSnlCWFVFNWl4RHpTMkRLMmFhRGt4a05LTnhBeEhyb3Biem5CNHNvVkJyRU1naWVvTXNDQ1lUdTFibUZlcHBtVzdwNWswempQSkxGUVIzWUxyMkxWcWZNbmY0M0dJLXJnMWFaa0JKbG5R",
-      "total_snapshots": 54,
-      "estimated_hours": 13.5,
+      "total_snapshots": 55,
+      "estimated_hours": 13.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +155,7 @@
           "source": "Notícias públicas - Portal Clube News",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ1VXcHBaU2pJeWI3ekRHaEk1NWcxWnZQM19uN0xiUkJsTlpHMlJOUFJiNGl4YlhuN1ZtblRzZ3NFZDhzZ1lYTUNzUjg0a3ZKWkM2NGFxOVNlcGJ5VU9acXpBTmxVcmpqTFZZSnlCWFVFNWl4RHpTMkRLMmFhRGt4a05LTnhBeEhyb3Biem5CNHNvVkJyRU1naWVvTXNDQ1lUdTFibUZlcHBtVzdwNWswempQSkxGUVIzWUxyMkxWcWZNbmY0M0dJLXJnMWFaa0JKbG5R",
           "headline": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida.",
-          "date": "2026-08-20T05:03:23.871351+00:00"
+          "date": "2026-08-20T05:17:03.30457+00:00"
         }
       ],
       "sourceCount": 1,
@@ -165,12 +165,12 @@
     {
       "event_id": "f04da8a72b1b03a7320d75fb",
       "stable_event_id": "f04da8a72b1b03a7320d75fb",
-      "observation_hash": "835e0ab23d8173437a9bbc80",
+      "observation_hash": "4711d8f79f6a7f8425e7e790",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
       "first_seen_at": "2026-08-19T20:35:55+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -186,8 +186,8 @@
       "description": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com.. Fontes consolidadas: Notícias públicas - soubrasilia.com + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - soubrasilia.com + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRGFSUzQwbTlJU2JncXJka2hGckVWWGJkRlh1blJNTUZyeC13WGhuUWFnYkd1U2NEM0diSFRKcDlQV1BwZ3NHNmplR0tuYk5xaS1QYkFLYnV4b00yZnVUV0U1ekhvalIybmF2R25qTVRNWUUwdHpnTG1CdklVV2NhcEVYdlR2Z25yNjlaRV91N1BpcFIwYkVJ",
-      "total_snapshots": 49,
-      "estimated_hours": 12.25,
+      "total_snapshots": 50,
+      "estimated_hours": 12.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -198,7 +198,7 @@
           "source": "Notícias públicas - soubrasilia.com + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRGFSUzQwbTlJU2JncXJka2hGckVWWGJkRlh1blJNTUZyeC13WGhuUWFnYkd1U2NEM0diSFRKcDlQV1BwZ3NHNmplR0tuYk5xaS1QYkFLYnV4b00yZnVUV0U1ekhvalIybmF2R25qTVRNWUUwdHpnTG1CdklVV2NhcEVYdlR2Z25yNjlaRV91N1BpcFIwYkVJ",
           "headline": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com.",
-          "date": "2026-08-20T05:03:23.871351+00:00"
+          "date": "2026-08-20T05:17:03.30457+00:00"
         }
       ],
       "sourceCount": 1,
@@ -208,12 +208,12 @@
     {
       "event_id": "46fd805425ce67e56cc2a529",
       "stable_event_id": "46fd805425ce67e56cc2a529",
-      "observation_hash": "cc7d2eccdfa4a692f23725c7",
+      "observation_hash": "05776299d8281e8ef5362b37",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
       "first_seen_at": "2026-08-19T21:03:02+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -229,8 +229,8 @@
       "description": "BR-259 é interditada em João Neiva, no Espírito Santo.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTXBaSmVaaTNEU3l1SGp2cG9sRk5xdVJhRHFRbjFjV2ZwWUswUDlGZ2pBYjlzNXpKZnRBd3RxdVF3UzkwSkxYZUdaOGw5cmc5QUtMNUotMm9URzJJcmNaQXJVQ3NUcjVJT0VaZWlUQ3pKd2xGTnROcVdLaklzNG5ETEloRnFtcG1rX3ZZckJfYUp4bE1QMkIwak1fUGtzT3k4eGxVUjFkSzMwVEdSVC1mb01kSVFzbTBDcXhnd0xR0gHMAUFVX3lxTE5yX1U4S1hBaUpLWUY1U21GdzZoZFF5b2c4bzdDQ1drMmduOF9Edml4WUk2XzZKSlNlMk9PdzZyOEhxWmZjVEFjUDFEMWFaV01WUzN4bmFReDRUUkNsNkFVLTg3cm9iRGdpZUZfYjRPREFzQVQtTXowUkhMVnlmdU81U0M3Z1RyYWtMN0VINFpfWl9oQjdSWHJHRUtuS1d5Z3piUXNWNHFsUFBnNkhEWFZ3VTdaSlYtbldsaG10Y01VeVMtdm1rTzR2dGtGZQ",
-      "total_snapshots": 35,
-      "estimated_hours": 8.75,
+      "total_snapshots": 36,
+      "estimated_hours": 9.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -241,7 +241,7 @@
           "source": "Notícias públicas - G1",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTXBaSmVaaTNEU3l1SGp2cG9sRk5xdVJhRHFRbjFjV2ZwWUswUDlGZ2pBYjlzNXpKZnRBd3RxdVF3UzkwSkxYZUdaOGw5cmc5QUtMNUotMm9URzJJcmNaQXJVQ3NUcjVJT0VaZWlUQ3pKd2xGTnROcVdLaklzNG5ETEloRnFtcG1rX3ZZckJfYUp4bE1QMkIwak1fUGtzT3k4eGxVUjFkSzMwVEdSVC1mb01kSVFzbTBDcXhnd0xR0gHMAUFVX3lxTE5yX1U4S1hBaUpLWUY1U21GdzZoZFF5b2c4bzdDQ1drMmduOF9Edml4WUk2XzZKSlNlMk9PdzZyOEhxWmZjVEFjUDFEMWFaV01WUzN4bmFReDRUUkNsNkFVLTg3cm9iRGdpZUZfYjRPREFzQVQtTXowUkhMVnlmdU81U0M3Z1RyYWtMN0VINFpfWl9oQjdSWHJHRUtuS1d5Z3piUXNWNHFsUFBnNkhEWFZ3VTdaSlYtbldsaG10Y01VeVMtdm1rTzR2dGtGZQ",
           "headline": "BR-259 é interditada em João Neiva, no Espírito Santo.",
-          "date": "2026-08-20T05:03:23.871351+00:00"
+          "date": "2026-08-20T05:17:03.30457+00:00"
         }
       ],
       "sourceCount": 1,
@@ -17701,35 +17701,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "833c194f23ed10ea96e00b30",
-      "stable_event_id": "833c194f23ed10ea96e00b30",
-      "observation_hash": "a3f6528b3b02624ec68a0fd1",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Rio Grande",
-      "risk": 66,
-      "severity": "Alto",
-      "lat": -32.034,
-      "lon": -52.098,
-      "city": "Rio Grande",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 86.2 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2371,
-      "estimated_hours": 592.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "175f98924a2c739dfcd6eac5",
       "stable_event_id": "175f98924a2c739dfcd6eac5",
       "observation_hash": "868c2b500b10521e20cf9d69",
@@ -18426,6 +18397,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "c47e79a93bfb550cf3264f3b",
+      "stable_event_id": "c47e79a93bfb550cf3264f3b",
+      "observation_hash": "bfbf7850eba4417cabe57723",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Cascavel",
+      "risk": 43,
+      "severity": "Moderado",
+      "lat": -24.955,
+      "lon": -53.455,
+      "city": "Cascavel",
+      "state": "PR",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:16Z; ativo há 86.1 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2270,
+      "estimated_hours": 567.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "ffbb3295c9c63b9d83aa4b68",
       "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
       "observation_hash": "247dbdbc6a07eba5d0578ec8",
@@ -18625,6 +18625,35 @@
       "source_url": "",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "9b86c406e5987317c955096d",
+      "stable_event_id": "9b86c406e5987317c955096d",
+      "observation_hash": "4fb0b9a3b51d94ac50aef0d0",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Foz do Iguaçu",
+      "risk": 42,
+      "severity": "Moderado",
+      "lat": -25.546,
+      "lon": -54.588,
+      "city": "Foz do Iguaçu",
+      "state": "PR",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 86.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1592,
+      "estimated_hours": 398.0,
       "active": true,
       "storage": "supabase"
     },
@@ -18832,14 +18861,43 @@
       "storage": "supabase"
     },
     {
+      "event_id": "833c194f23ed10ea96e00b30",
+      "stable_event_id": "833c194f23ed10ea96e00b30",
+      "observation_hash": "89293b26b981e8ed8d42389f",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Rio Grande",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -32.034,
+      "lon": -52.098,
+      "city": "Rio Grande",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 86.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2372,
+      "estimated_hours": 593.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "52259929d3b21bf912b47175",
       "stable_event_id": "52259929d3b21bf912b47175",
       "observation_hash": "0d44cdb1c91e22770dcf1214",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T05:03:22+00:00",
+      "snapshot_at": "2026-08-20T05:17:02+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-20T05:03:22+00:00",
-      "updated_at": "2026-08-20T05:03:23.871351+00:00",
+      "last_seen_at": "2026-08-20T05:17:02+00:00",
+      "updated_at": "2026-08-20T05:17:03.30457+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18855,8 +18913,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 86.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2592,
-      "estimated_hours": 648.0,
+      "total_snapshots": 2593,
+      "estimated_hours": 648.25,
       "active": true,
       "storage": "supabase"
     },
@@ -19408,35 +19466,6 @@
       "source_url": "",
       "total_snapshots": 3342,
       "estimated_hours": 835.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "9b86c406e5987317c955096d",
-      "stable_event_id": "9b86c406e5987317c955096d",
-      "observation_hash": "5e85d4ae334604f6d5874f7e",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-19T12:32:01+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-19T12:32:01+00:00",
-      "updated_at": "2026-08-19T12:32:03.447312+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Foz do Iguaçu",
-      "risk": 40,
-      "severity": "Moderado",
-      "lat": -25.546,
-      "lon": -54.588,
-      "city": "Foz do Iguaçu",
-      "state": "PR",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 85.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1591,
-      "estimated_hours": 397.75,
       "active": true,
       "storage": "supabase"
     },
@@ -20423,35 +20452,6 @@
       "source_url": "",
       "total_snapshots": 1265,
       "estimated_hours": 316.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "c47e79a93bfb550cf3264f3b",
-      "stable_event_id": "c47e79a93bfb550cf3264f3b",
-      "observation_hash": "627012d3b4eed4841caf7cd6",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T18:33:15+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-16T18:33:15+00:00",
-      "updated_at": "2026-08-16T18:33:17.283695+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Cascavel",
-      "risk": 14,
-      "severity": "Baixo",
-      "lat": -24.955,
-      "lon": -53.455,
-      "city": "Cascavel",
-      "state": "PR",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:16Z; ativo há 82.7 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2269,
-      "estimated_hours": 567.25,
       "active": true,
       "storage": "supabase"
     },
@@ -21620,7 +21620,7 @@
     "7": {
       "events": 143,
       "avgRisk": 41,
-      "maxRisk": 85,
+      "maxRisk": 84,
       "rainChance": 4,
       "byType": {
         "climate": 99,
@@ -21635,9 +21635,9 @@
         "Sem região": 1
       },
       "bySeverity": {
-        "Alto": 49,
-        "Baixo": 48,
-        "Moderado": 45,
+        "Alto": 48,
+        "Moderado": 47,
+        "Baixo": 47,
         "Crítico": 1
       },
       "dailyRisk": [
@@ -21662,7 +21662,7 @@
         {
           "date": "2026-08-16",
           "avgRisk": 18,
-          "events": 33,
+          "events": 32,
           "maxRisk": 69
         },
         {
@@ -21680,14 +21680,14 @@
         {
           "date": "2026-08-19",
           "avgRisk": 34,
-          "events": 48,
+          "events": 47,
           "maxRisk": 69
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 58,
-          "events": 13,
-          "maxRisk": 85
+          "avgRisk": 54,
+          "events": 15,
+          "maxRisk": 84
         }
       ]
     },
@@ -21709,9 +21709,9 @@
         "Sem região": 6
       },
       "bySeverity": {
-        "Alto": 176,
-        "Moderado": 55,
-        "Baixo": 48,
+        "Alto": 175,
+        "Moderado": 57,
+        "Baixo": 47,
         "Crítico": 2
       },
       "dailyRisk": [
@@ -21874,7 +21874,7 @@
         {
           "date": "2026-08-16",
           "avgRisk": 18,
-          "events": 33,
+          "events": 32,
           "maxRisk": 69
         },
         {
@@ -21892,14 +21892,14 @@
         {
           "date": "2026-08-19",
           "avgRisk": 34,
-          "events": 48,
+          "events": 47,
           "maxRisk": 69
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 58,
-          "events": 13,
-          "maxRisk": 85
+          "avgRisk": 54,
+          "events": 15,
+          "maxRisk": 84
         }
       ]
     },
@@ -21922,9 +21922,9 @@
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 400,
-        "Moderado": 82,
-        "Baixo": 48,
+        "Alto": 399,
+        "Moderado": 84,
+        "Baixo": 47,
         "Crítico": 2
       },
       "dailyRisk": [
@@ -22423,7 +22423,7 @@
         {
           "date": "2026-08-16",
           "avgRisk": 18,
-          "events": 33,
+          "events": 32,
           "maxRisk": 69
         },
         {
@@ -22441,14 +22441,14 @@
         {
           "date": "2026-08-19",
           "avgRisk": 34,
-          "events": 48,
+          "events": 47,
           "maxRisk": 69
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 58,
-          "events": 13,
-          "maxRisk": 85
+          "avgRisk": 54,
+          "events": 15,
+          "maxRisk": 84
         }
       ]
     }
