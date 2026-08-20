@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com. Fontes consolidadas: Notícias públicas - soubrasilia.com; Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-19T20:31:27Z; ativo há 4.5 h.",
+    "description": "Cavalo morre atropelado na BR-070 e faixa fica bloqueada em Ceilândia - soubrasilia.com. Fontes consolidadas: Notícias públicas - soubrasilia.com; Notícias públicas - tmc.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-19T20:31:27Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 4.53,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T01:03:05Z",
+    "news_signature": "aab082c677d4eb46b8ee9bfa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 5.3 h.",
+    "description": "Trecho da BR-316 continua interditado após incêndio atingir árvore em Teresina; jovem ficou ferida. Fontes consolidadas: Notícias públicas - Portal Clube News. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-19T19:42:39Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 5.34,
     "active_duration_label": "5.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T01:03:05Z",
+    "news_signature": "5e4524dd98b655c997d4dbed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +114,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 11.3 h.",
+    "description": "BR-259 é totalmente interditada por falhas estruturais em viaduto. Período informado: 2026-08-19T13:45:38Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-19T13:45:38Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -121,7 +127,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-20T01:01:51Z",
     "sources": [
       {
@@ -141,6 +147,9 @@
     "last_seen_at": "2026-08-20T01:03:05Z",
     "active_duration_hours": 11.29,
     "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-20T01:03:05Z",
+    "news_signature": "2ad23baea09a07fb6eb97aa2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
