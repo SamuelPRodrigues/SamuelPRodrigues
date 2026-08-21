@@ -52,8 +52,11 @@
     "active_duration_hours": 0.94,
     "active_duration_label": "56 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T14:02:19Z",
+    "news_signature": "ef29ede12fb009b360a686d3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +68,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 4.7 h.",
+    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -96,7 +99,10 @@
     "active_duration_hours": 4.74,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T14:02:19Z",
+    "news_signature": "6772a5892b2449cd568e4c6e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
