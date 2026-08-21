@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 1.7 h.",
+    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 1.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 1.73,
     "active_duration_label": "1.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T11:01:42Z",
+    "news_signature": "6772a5892b2449cd568e4c6e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-21T00:29:47Z; ativo há 10.5 h.",
+    "description": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-21T00:29:47Z; ativo há 10.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,10 +84,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T00:29:47Z",
     "last_seen_at": "2026-08-21T11:01:42Z",
-    "active_duration_hours": 10.53,
+    "active_duration_hours": 10.54,
     "active_duration_label": "10.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T11:01:42Z",
+    "news_signature": "e8991ecb25c85de90b0a1bed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
