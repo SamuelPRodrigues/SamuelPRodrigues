@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T19:09:12Z",
-    "last_seen_at": "2026-08-21T19:32:04Z",
-    "active_duration_hours": 0.38,
+    "last_seen_at": "2026-08-21T19:32:18Z",
+    "active_duration_hours": 0.39,
     "active_duration_label": "23 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "82272577dca460dc18c582c0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta pega fogo na BR-316 e deixa rodovia bloqueada nos dois sentidos entre Francisco Macedo e Alegrete - Cidadesnanet.com. Fontes consolidadas: Notícias públicas - Cidadesnanet.com. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-21T15:34:08Z; ativo há 4.0 h.",
+    "description": "Carreta pega fogo na BR-316 e deixa rodovia bloqueada nos dois sentidos entre Francisco Macedo e Alegrete - Cidadesnanet.com. Fontes consolidadas: Notícias públicas - Cidadesnanet.com. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-21T15:34:08Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +86,11 @@
     "active_duration_hours": 3.97,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T19:32:04Z",
+    "news_signature": "6b405959d2d6275654a161a2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá bloqueio total nesta quinta em Fundão; veja motivo e horário - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Folha PE; Notícias públicas - G1; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-21T13:06:12Z; ativo há 6.4 h.",
+    "description": "BR-101 terá bloqueio total nesta quinta em Fundão; veja motivo e horário - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Folha PE; Notícias públicas - G1; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-21T13:06:12Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,8 +151,11 @@
     "active_duration_hours": 6.43,
     "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T19:32:04Z",
+    "news_signature": "12527c78d361788871473462",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -159,7 +167,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 10.2 h.",
+    "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-21T09:18:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -187,10 +195,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T09:18:00Z",
     "last_seen_at": "2026-08-21T19:32:04Z",
-    "active_duration_hours": 10.23,
+    "active_duration_hours": 10.24,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T19:32:04Z",
+    "news_signature": "6772a5892b2449cd568e4c6e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
