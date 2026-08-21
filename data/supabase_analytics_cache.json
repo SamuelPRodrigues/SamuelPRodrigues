@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T09:17:13Z",
+  "updatedAt": "2026-08-21T09:22:41Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -149,14 +149,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "68a9bb3405965ef615695ac6",
+      "stable_event_id": "68a9bb3405965ef615695ac6",
+      "observation_hash": "9bb79f86c5d7e2708ee7e940",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
+      "first_seen_at": "2026-08-21T09:22:36+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-324",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Interdição ou bloqueio por notícia pública • BR-324",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-324",
+      "description": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio.. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Correio",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFFIbkxSZkJrYXNkWUMwdk04RUtvb3JORVoxWE9TeXNaekFwelM5MG50NmZCMzNkbk1UQVRuVUJzNWdPclhBYV92cjB1THZiNXV3Q1VEZkFYYlZmTVppN2ZaYmhxQU44UTRBWWFZWXNTTmJmRXRMRUUyVU5zUTZMX3pTSXFQenlHSnotUGJ6czBBOU9QZWZMMjJFZ0xXVmx4TUdiV3JFYWRhVEFuNUd4MDQ2cVNBdw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFFIbkxSZkJrYXNkWUMwdk04RUtvb3JORVoxWE9TeXNaekFwelM5MG50NmZCMzNkbk1UQVRuVUJzNWdPclhBYV92cjB1THZiNXV3Q1VEZkFYYlZmTVppN2ZaYmhxQU44UTRBWWFZWXNTTmJmRXRMRUUyVU5zUTZMX3pTSXFQenlHSnotUGJ6czBBOU9QZWZMMjJFZ0xXVmx4TUdiV3JFYWRhVEFuNUd4MDQ2cVNBdw",
+      "headline": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFFIbkxSZkJrYXNkWUMwdk04RUtvb3JORVoxWE9TeXNaekFwelM5MG50NmZCMzNkbk1UQVRuVUJzNWdPclhBYV92cjB1THZiNXV3Q1VEZkFYYlZmTVppN2ZaYmhxQU44UTRBWWFZWXNTTmJmRXRMRUUyVU5zUTZMX3pTSXFQenlHSnotUGJ6czBBOU9QZWZMMjJFZ0xXVmx4TUdiV3JFYWRhVEFuNUd4MDQ2cVNBdw",
+          "headline": "Trecho da BR-324 é totalmente interditado após acidente na Bahia - Jornal Correio.",
+          "date": "2026-08-21T09:22:37.208438+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "12d8e99b6505c3ee81a1ab8e",
       "stable_event_id": "12d8e99b6505c3ee81a1ab8e",
-      "observation_hash": "d85b0333cc92ed48519bc83d",
+      "observation_hash": "f79a006f4b134cb94effcb9c",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-08-21T01:31:52+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -172,8 +215,8 @@
       "description": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - ND Mais",
       "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWVN6R19IT3BzMm1zR29JR0Y3OWlfRXp6WGZMZUxIbWFjdzRLUmZieHZXRmNJU0UwRHhNSmhwUVYwdDRsWnNob0VnOW1oMEQxOFFzUU5uZmh6cmQ2Q000OXFoSUdUM3QxTkMyR0c2emNJdGNDbFpXdGZzRzZJRU9qWUYxSld0NkN5M1dPNlU1ZG4zWWZORTFJY3N6Q1pYMVRSS3lVOFltQ2xFZUZKWk9SQWdjd0VkRE8xdTg5R1E3TVdLVk5sQzVfVHpOdEpIVGFBazY3UFNISllkanQ1bVlXNEVRY2gyQQ",
-      "total_snapshots": 40,
-      "estimated_hours": 10.0,
+      "total_snapshots": 41,
+      "estimated_hours": 10.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -184,7 +227,7 @@
           "source": "Notícias públicas - ND Mais",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWVN6R19IT3BzMm1zR29JR0Y3OWlfRXp6WGZMZUxIbWFjdzRLUmZieHZXRmNJU0UwRHhNSmhwUVYwdDRsWnNob0VnOW1oMEQxOFFzUU5uZmh6cmQ2Q000OXFoSUdUM3QxTkMyR0c2emNJdGNDbFpXdGZzRzZJRU9qWUYxSld0NkN5M1dPNlU1ZG4zWWZORTFJY3N6Q1pYMVRSS3lVOFltQ2xFZUZKWk9SQWdjd0VkRE8xdTg5R1E3TVdLVk5sQzVfVHpOdEpIVGFBazY3UFNISllkanQ1bVlXNEVRY2gyQQ",
           "headline": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais.",
-          "date": "2026-08-21T09:17:09.899455+00:00"
+          "date": "2026-08-21T09:22:37.208438+00:00"
         }
       ],
       "sourceCount": 1,
@@ -18084,10 +18127,10 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "60432c0266bc2c4c1f71c45a",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18103,8 +18146,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 86.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2637,
-      "estimated_hours": 659.25,
+      "total_snapshots": 2638,
+      "estimated_hours": 659.5,
       "active": true,
       "storage": "supabase"
     },
@@ -20201,10 +20244,10 @@
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "12a8a6a07abdf81db6233b2f",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -20220,8 +20263,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:31:31Z; ativo há 87.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2277,
-      "estimated_hours": 569.25,
+      "total_snapshots": 2278,
+      "estimated_hours": 569.5,
       "active": true,
       "storage": "supabase"
     },
@@ -20462,10 +20505,10 @@
       "stable_event_id": "1fcf7a0c7179a187e29c34ce",
       "observation_hash": "f26c765bd120c6ef76842b70",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-05-26T16:16:52+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -20481,8 +20524,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T16:15:22Z; ativo há 86.7 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 1516,
-      "estimated_hours": 379.0,
+      "total_snapshots": 1517,
+      "estimated_hours": 379.25,
       "active": true,
       "storage": "supabase"
     },
@@ -20723,10 +20766,10 @@
       "stable_event_id": "07816ebe0d21148d66395a6f",
       "observation_hash": "0129b68cb5ca3680867c5e66",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -20742,8 +20785,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 87.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 4031,
-      "estimated_hours": 1007.75,
+      "total_snapshots": 4032,
+      "estimated_hours": 1008.0,
       "active": true,
       "storage": "supabase"
     },
@@ -21941,10 +21984,10 @@
       "stable_event_id": "706a039baf9413262340d06d",
       "observation_hash": "44bd533c98fbc87705cd154b",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-21T09:17:08+00:00",
+      "snapshot_at": "2026-08-21T09:22:35+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-21T09:17:08+00:00",
-      "updated_at": "2026-08-21T09:17:09.899455+00:00",
+      "last_seen_at": "2026-08-21T09:22:35+00:00",
+      "updated_at": "2026-08-21T09:22:37.208438+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -21960,25 +22003,25 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 87.4 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2012,
-      "estimated_hours": 503.0,
+      "total_snapshots": 2013,
+      "estimated_hours": 503.25,
       "active": true,
       "storage": "supabase"
     }
   ],
   "windows": {
     "7": {
-      "events": 143,
+      "events": 144,
       "avgRisk": 39,
       "maxRisk": 86,
       "rainChance": 4,
       "byType": {
         "climate": 99,
-        "road": 44
+        "road": 45
       },
       "byRegion": {
         "Sudeste": 41,
-        "Nordeste": 37,
+        "Nordeste": 38,
         "Sul": 32,
         "Norte": 19,
         "Centro-Oeste": 12,
@@ -21986,7 +22029,7 @@
       },
       "bySeverity": {
         "Baixo": 55,
-        "Alto": 48,
+        "Alto": 49,
         "Moderado": 38,
         "Crítico": 2
       },
@@ -22035,23 +22078,23 @@
         },
         {
           "date": "2026-08-21",
-          "avgRisk": 45,
-          "events": 28,
+          "avgRisk": 46,
+          "events": 29,
           "maxRisk": 86
         }
       ]
     },
     "30": {
-      "events": 284,
+      "events": 285,
       "avgRisk": 53,
       "maxRisk": 86,
       "rainChance": 14,
       "byType": {
-        "road": 174,
+        "road": 175,
         "climate": 110
       },
       "byRegion": {
-        "Nordeste": 90,
+        "Nordeste": 91,
         "Sul": 76,
         "Sudeste": 69,
         "Norte": 28,
@@ -22059,7 +22102,7 @@
         "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 178,
+        "Alto": 179,
         "Baixo": 55,
         "Moderado": 48,
         "Crítico": 3
@@ -22247,24 +22290,24 @@
         },
         {
           "date": "2026-08-21",
-          "avgRisk": 45,
-          "events": 28,
+          "avgRisk": 46,
+          "events": 29,
           "maxRisk": 86
         }
       ]
     },
     "90": {
-      "events": 540,
+      "events": 541,
       "avgRisk": 59,
       "maxRisk": 86,
       "rainChance": 29,
       "byType": {
-        "road": 400,
+        "road": 401,
         "climate": 138,
         "operational": 2
       },
       "byRegion": {
-        "Nordeste": 171,
+        "Nordeste": 172,
         "Sul": 137,
         "Sudeste": 131,
         "Norte": 60,
@@ -22272,7 +22315,7 @@
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 407,
+        "Alto": 408,
         "Moderado": 75,
         "Baixo": 55,
         "Crítico": 3
@@ -22802,8 +22845,8 @@
         },
         {
           "date": "2026-08-21",
-          "avgRisk": 45,
-          "events": 28,
+          "avgRisk": 46,
+          "events": 29,
           "maxRisk": 86
         }
       ]
