@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T23:52:35Z",
+  "updatedAt": "2026-08-21T00:03:04Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -91,14 +91,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "4bfa618c0b4cd72790f9ed75",
+      "stable_event_id": "4bfa618c0b4cd72790f9ed75",
+      "observation_hash": "aa152dd6267b1f4e4a518c34",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
+      "first_seen_at": "2026-08-20T23:46:49+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-259",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -19.539,
+      "lon": -40.63,
+      "city": "Interdição ou bloqueio por notícia pública • BR-259",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-259",
+      "description": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta.. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - A Gazeta",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2FHZE1XSWpIWVcwRnpBS2ZFaDI0V0N2SFo3ak1kN2t2czBCTTBLRTdhbWl2cnViWF96ZWJMMm1ua1BmT1lmSGcxSGVYNWFqVHhVQUNOa01lUWZ6MGhfSVdDeEoxZnIxejNjSnVjNEF2Z29ocm1ab1dXOW1PWmxjdEtGWDhyZFJkMjNEMTlQWm02aDJQOWJzd2l1b3VWSTM3U0pFYzZpQnZOdkdKdWR3RnJSWXdTbm1T",
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2FHZE1XSWpIWVcwRnpBS2ZFaDI0V0N2SFo3ak1kN2t2czBCTTBLRTdhbWl2cnViWF96ZWJMMm1ua1BmT1lmSGcxSGVYNWFqVHhVQUNOa01lUWZ6MGhfSVdDeEoxZnIxejNjSnVjNEF2Z29ocm1ab1dXOW1PWmxjdEtGWDhyZFJkMjNEMTlQWm02aDJQOWJzd2l1b3VWSTM3U0pFYzZpQnZOdkdKdWR3RnJSWXdTbm1T",
+      "headline": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta.",
+      "sources": [
+        {
+          "source": "Notícias públicas - A Gazeta",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2FHZE1XSWpIWVcwRnpBS2ZFaDI0V0N2SFo3ak1kN2t2czBCTTBLRTdhbWl2cnViWF96ZWJMMm1ua1BmT1lmSGcxSGVYNWFqVHhVQUNOa01lUWZ6MGhfSVdDeEoxZnIxejNjSnVjNEF2Z29ocm1ab1dXOW1PWmxjdEtGWDhyZFJkMjNEMTlQWm02aDJQOWJzd2l1b3VWSTM3U0pFYzZpQnZOdkdKdWR3RnJSWXdTbm1T",
+          "headline": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta.",
+          "date": "2026-08-21T00:03:01.163391+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "66bbac846b954c4b9262d572",
       "stable_event_id": "66bbac846b954c4b9262d572",
-      "observation_hash": "d346571e3dedcb656a2dae55",
+      "observation_hash": "7fb3613d1bd26294ce797cb5",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
       "first_seen_at": "2026-08-20T17:32:10+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -114,8 +157,8 @@
       "description": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - ND Mais",
       "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTm5SSFl1SVl1OVRDVVFWNDI1Wk1Ia203ZGx5SUI5TXBVc1pWeDZKRGdhREMwSE0wWEhkT1loeGlSMmxBaFNEUEQzeUsta0oyb19hWXlyUG4xRmI5Z3hHVUszdFRyTVFtclF6TlJzaXpBNUNKS0h3R1dfbF9jd2lTclU0NHBic0tPcjJ1eXduNA",
-      "total_snapshots": 38,
-      "estimated_hours": 9.5,
+      "total_snapshots": 39,
+      "estimated_hours": 9.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -126,7 +169,7 @@
           "source": "Notícias públicas - ND Mais",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTm5SSFl1SVl1OVRDVVFWNDI1Wk1Ia203ZGx5SUI5TXBVc1pWeDZKRGdhREMwSE0wWEhkT1loeGlSMmxBaFNEUEQzeUsta0oyb19hWXlyUG4xRmI5Z3hHVUszdFRyTVFtclF6TlJzaXpBNUNKS0h3R1dfbF9jd2lTclU0NHBic0tPcjJ1eXduNA",
           "headline": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais.",
-          "date": "2026-08-20T23:52:32.72738+00:00"
+          "date": "2026-08-21T00:03:01.163391+00:00"
         }
       ],
       "sourceCount": 1,
@@ -136,12 +179,12 @@
     {
       "event_id": "9312af5571b33bcd4ae14c31",
       "stable_event_id": "9312af5571b33bcd4ae14c31",
-      "observation_hash": "36a2d66cba190bfe93ec03ce",
+      "observation_hash": "3fa255237eb7b822c181be50",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
       "first_seen_at": "2026-08-20T16:47:03+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -157,8 +200,8 @@
       "description": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis.. Fontes consolidadas: Notícias públicas - Tribuna de Petrópolis. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Tribuna de Petrópolis",
       "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWE9TeVVxRXhkaGtxLWV4N19XaFQ0TW1mSC11TkZvdHNmeHAxRUdlRExrSUZiZEtRZFUtUFVSSVZMN29UM2p0bHNXSUNDaldKUEZUMnhiX2JpMGxWV2YyMl9uQU5weFhXd1ZwQ1BLTmJUTXhYS3lHUmFKMDdXbHpoS1plWmFxRUcxVkQ2TVVMSDdTMF9aSlZzT3lZRi1UTy1MX2N6MUhuT1NrZVp6VzA0QmpNRUhXMVpyRlJET0ZBa29aMzVKejhhREZFS0N0dGwyM01zdFFobG15MmpFUC0zbzlDTFJxTGM",
-      "total_snapshots": 43,
-      "estimated_hours": 10.75,
+      "total_snapshots": 44,
+      "estimated_hours": 11.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -169,7 +212,7 @@
           "source": "Notícias públicas - Tribuna de Petrópolis",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWE9TeVVxRXhkaGtxLWV4N19XaFQ0TW1mSC11TkZvdHNmeHAxRUdlRExrSUZiZEtRZFUtUFVSSVZMN29UM2p0bHNXSUNDaldKUEZUMnhiX2JpMGxWV2YyMl9uQU5weFhXd1ZwQ1BLTmJUTXhYS3lHUmFKMDdXbHpoS1plWmFxRUcxVkQ2TVVMSDdTMF9aSlZzT3lZRi1UTy1MX2N6MUhuT1NrZVp6VzA0QmpNRUhXMVpyRlJET0ZBa29aMzVKejhhREZFS0N0dGwyM01zdFFobG15MmpFUC0zbzlDTFJxTGM",
           "headline": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis.",
-          "date": "2026-08-20T23:52:32.72738+00:00"
+          "date": "2026-08-21T00:03:01.163391+00:00"
         }
       ],
       "sourceCount": 1,
@@ -179,12 +222,12 @@
     {
       "event_id": "8473a6766b1acc5dd0ef404e",
       "stable_event_id": "8473a6766b1acc5dd0ef404e",
-      "observation_hash": "680ec269969e797587fefded",
+      "observation_hash": "f910c5ed4fb5011bc5d8ea02",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
       "first_seen_at": "2026-08-20T18:03:39+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -200,8 +243,8 @@
       "description": "BR-381 é parcialmente interditada após carreta tombar no sentido BH - O TEMPO.. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - O TEMPO",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUtfdjlVZ0o3UGFxcUVWbXhvMDR5U1RYMng2ZFBETDIycEY2eDF1dFpaaTZpalhvczg5WjJhR3NVVkVYOHk5bmpYakk1bXU3djJ6dXRjbDRsSC02NV82R2RiY0NTTC1CNmE0UXdWc2JxckE3SnNDSTlMcjlnSHBZYWNHb2s4X0JkeE1CWHJkRUZ4NzFFRlljdmJINmR1a0xNQ1piajZrbjgxR1NDdjVZZNIBtgFBVV95cUxPRV9aRWFhV0pGZkhUc05OeWJKVGFZd05wRUlFaEVWVXlrcmJpRk5VZ2ZEYTZGanZsQmJ3bDZZX3hRT0kwMldIVlYwd3I3WjhaNVMwbXNmX1FMWFFJelI1RklBanYzOVRxNl8xU0d3V2lYMHVkWThoLTg1WFRJNXBJWjlpZkY1N1lWWGQ4UUR2M3kxUWVJSHNQOFpHRnc0aGk4cU93NW85STZvTDRvWGhWeTRtZTAxZw",
-      "total_snapshots": 35,
-      "estimated_hours": 8.75,
+      "total_snapshots": 36,
+      "estimated_hours": 9.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -212,7 +255,50 @@
           "source": "Notícias públicas - O TEMPO",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUtfdjlVZ0o3UGFxcUVWbXhvMDR5U1RYMng2ZFBETDIycEY2eDF1dFpaaTZpalhvczg5WjJhR3NVVkVYOHk5bmpYakk1bXU3djJ6dXRjbDRsSC02NV82R2RiY0NTTC1CNmE0UXdWc2JxckE3SnNDSTlMcjlnSHBZYWNHb2s4X0JkeE1CWHJkRUZ4NzFFRlljdmJINmR1a0xNQ1piajZrbjgxR1NDdjVZZNIBtgFBVV95cUxPRV9aRWFhV0pGZkhUc05OeWJKVGFZd05wRUlFaEVWVXlrcmJpRk5VZ2ZEYTZGanZsQmJ3bDZZX3hRT0kwMldIVlYwd3I3WjhaNVMwbXNmX1FMWFFJelI1RklBanYzOVRxNl8xU0d3V2lYMHVkWThoLTg1WFRJNXBJWjlpZkY1N1lWWGQ4UUR2M3kxUWVJSHNQOFpHRnc0aGk4cU93NW85STZvTDRvWGhWeTRtZTAxZw",
           "headline": "BR-381 é parcialmente interditada após carreta tombar no sentido BH - O TEMPO.",
-          "date": "2026-08-20T23:52:32.72738+00:00"
+          "date": "2026-08-21T00:03:01.163391+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "840ebac32b3e3f825baae941",
+      "stable_event_id": "840ebac32b3e3f825baae941",
+      "observation_hash": "c73ecb989aaf3d7895267b10",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
+      "first_seen_at": "2026-08-20T17:02:12+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-163",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -15.601,
+      "lon": -56.097,
+      "city": "Interdição ou bloqueio por notícia pública • BR-163",
+      "state": "",
+      "region": "Sem região",
+      "road": "BR-163",
+      "description": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná.. Fontes consolidadas: Notícias públicas - Rádio Difusora do Paraná + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Rádio Difusora do Paraná + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNjRNYUlZS1RCcUVaclFVa3BZRGFTUE5WSzNGSE03Q1BqMS1FQ3R6SzRJY3Vwd0dLQWtueWpBUk8tNFA1TXpzdVZLUC1VNy00VDY0ZUZKV1hrRnRmOVNmWlNtNUxYS0hBeG52V0ZHMHp2Q1owX0N6RkZVb1kxelU2ZWswbWtJbnVyVC11RkcxVWlGUE9GWVdjZE5HYjFqMEY2OXd2dm5qN1FCUQ",
+      "total_snapshots": 42,
+      "estimated_hours": 10.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNjRNYUlZS1RCcUVaclFVa3BZRGFTUE5WSzNGSE03Q1BqMS1FQ3R6SzRJY3Vwd0dLQWtueWpBUk8tNFA1TXpzdVZLUC1VNy00VDY0ZUZKV1hrRnRmOVNmWlNtNUxYS0hBeG52V0ZHMHp2Q1owX0N6RkZVb1kxelU2ZWswbWtJbnVyVC11RkcxVWlGUE9GWVdjZE5HYjFqMEY2OXd2dm5qN1FCUQ",
+      "headline": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Rádio Difusora do Paraná + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNjRNYUlZS1RCcUVaclFVa3BZRGFTUE5WSzNGSE03Q1BqMS1FQ3R6SzRJY3Vwd0dLQWtueWpBUk8tNFA1TXpzdVZLUC1VNy00VDY0ZUZKV1hrRnRmOVNmWlNtNUxYS0hBeG52V0ZHMHp2Q1owX0N6RkZVb1kxelU2ZWswbWtJbnVyVC11RkcxVWlGUE9GWVdjZE5HYjFqMEY2OXd2dm5qN1FCUQ",
+          "headline": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná.",
+          "date": "2026-08-21T00:03:01.163391+00:00"
         }
       ],
       "sourceCount": 1,
@@ -240,8 +326,8 @@
       "state": "",
       "region": "Sem região",
       "road": "BR-163",
-      "description": "BR-163 é interditada após peça de caminhão atingir dois veículos - O Presente.. Fontes consolidadas: Notícias públicas - O Presente + 1 fonte(s); Notícias públicas - Rádio Difusora do Paraná + 1 fonte(s); Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - O Presente + 1 fonte(s) + 2 fonte(s)",
+      "description": "BR-163 é interditada após peça de caminhão atingir dois veículos - O Presente.. Fontes consolidadas: Notícias públicas - O Presente + 1 fonte(s); Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - O Presente + 1 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeHFabDVxWnFRdnhpVTBBZFE2Q0FjVm90ZUxEZkRGeGpZUUdVWlBUMjFIRHhSakV5elhINEFhM3A1Zlo3N1pSOWVvQTB1eHRmbkxoeWVZSUN5T01WOERiT20yMTVDQktzM1MxLVk4V3ZPUkg1U0ZJSFczdVFNRzNLWEpySjFxNFRBd2dqTF81VWVfV2Zyc2tEczNIWjlQOFU1RG5qbHdUdnA",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
@@ -258,20 +344,14 @@
           "date": "2026-08-20T16:53:53.752454+00:00"
         },
         {
-          "source": "Notícias públicas - Rádio Difusora do Paraná + 1 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNjRNYUlZS1RCcUVaclFVa3BZRGFTUE5WSzNGSE03Q1BqMS1FQ3R6SzRJY3Vwd0dLQWtueWpBUk8tNFA1TXpzdVZLUC1VNy00VDY0ZUZKV1hrRnRmOVNmWlNtNUxYS0hBeG52V0ZHMHp2Q1owX0N6RkZVb1kxelU2ZWswbWtJbnVyVC11RkcxVWlGUE9GWVdjZE5HYjFqMEY2OXd2dm5qN1FCUQ",
-          "headline": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná.",
-          "date": "2026-08-20T23:52:32.72738+00:00"
-        },
-        {
           "source": "Notícias públicas - CGN",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1JFU1o3MGxTc0o5bmxFSE9DdnoyNmppajliTVFvOFNVOXd4OEw3QVVJLXZNd0FMcW42VmpIVjc0R21sWGVtN1JFUzN4YnNkc1hraGpUWUN2WjZSR2NnRWJTR2c1YThhY1A1aHV6VGZjcnJkamxKdTV3Sld4azl0S3JVT19xVW41WndvV2pQY3ZEczZycUtmOUx0bURSUFlfVnNkeWdrV2F0VGpPVFhrby1pNUZ2Z9IBuwFBVV95cUxPcUtKZVhEd0l0SmlvOTBRY0k1MDhEZWF4M0o4WDJfVFIzVFpRVFAxWUxjMlNCNU5JXzM0VG5XUHdfeW1iWHUxMUlOdEZwUXQ1WWRlS2NxeGJHX0NrUTZsYzI5b2JTSm1Gel92VmNLTmd6RFhRejlxUThoanYxcmdxcFhtSV9KT1d3Q2pyNU12eGkzSmQtLUk1T0NTV20zMURLSTZoZThlNzhQX2tQR1JQRmt3b3k5S1JEU2U0",
           "headline": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - CGN.",
           "date": "2026-08-20T12:17:11.606257+00:00"
         }
       ],
-      "sourceCount": 3,
-      "dedupedFrom": 3,
+      "sourceCount": 2,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -295,8 +375,8 @@
       "state": "",
       "region": "Sudeste",
       "road": "BR-259",
-      "description": "BR-259 é interditada em João Neiva, no Espírito Santo - g1.globo.com.. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - G1 + 1 fonte(s)",
+      "description": "BR-259 é interditada em João Neiva, no Espírito Santo - g1.globo.com.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - G1",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTXBaSmVaaTNEU3l1SGp2cG9sRk5xdVJhRHFRbjFjV2ZwWUswUDlGZ2pBYjlzNXpKZnRBd3RxdVF3UzkwSkxYZUdaOGw5cmc5QUtMNUotMm9URzJJcmNaQXJVQ3NUcjVJT0VaZWlUQ3pKd2xGTnROcVdLaklzNG5ETEloRnFtcG1rX3ZZckJfYUp4bE1QMkIwak1fUGtzT3k4eGxVUjFkSzMwVEdSVC1mb01kSVFzbTBDcXhnd0xR0gHMAUFVX3lxTE5yX1U4S1hBaUpLWUY1U21GdzZoZFF5b2c4bzdDQ1drMmduOF9Edml4WUk2XzZKSlNlMk9PdzZyOEhxWmZjVEFjUDFEMWFaV01WUzN4bmFReDRUUkNsNkFVLTg3cm9iRGdpZUZfYjRPREFzQVQtTXowUkhMVnlmdU81U0M3Z1RyYWtMN0VINFpfWl9oQjdSWHJHRUtuS1d5Z3piUXNWNHFsUFBnNkhEWFZ3VTdaSlYtbldsaG10Y01VeVMtdm1rTzR2dGtGZQ",
       "total_snapshots": 5,
       "estimated_hours": 1.25,
@@ -311,16 +391,10 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTXBaSmVaaTNEU3l1SGp2cG9sRk5xdVJhRHFRbjFjV2ZwWUswUDlGZ2pBYjlzNXpKZnRBd3RxdVF3UzkwSkxYZUdaOGw5cmc5QUtMNUotMm9URzJJcmNaQXJVQ3NUcjVJT0VaZWlUQ3pKd2xGTnROcVdLaklzNG5ETEloRnFtcG1rX3ZZckJfYUp4bE1QMkIwak1fUGtzT3k4eGxVUjFkSzMwVEdSVC1mb01kSVFzbTBDcXhnd0xR0gHMAUFVX3lxTE5yX1U4S1hBaUpLWUY1U21GdzZoZFF5b2c4bzdDQ1drMmduOF9Edml4WUk2XzZKSlNlMk9PdzZyOEhxWmZjVEFjUDFEMWFaV01WUzN4bmFReDRUUkNsNkFVLTg3cm9iRGdpZUZfYjRPREFzQVQtTXowUkhMVnlmdU81U0M3Z1RyYWtMN0VINFpfWl9oQjdSWHJHRUtuS1d5Z3piUXNWNHFsUFBnNkhEWFZ3VTdaSlYtbldsaG10Y01VeVMtdm1rTzR2dGtGZQ",
           "headline": "BR-259 é interditada em João Neiva, no Espírito Santo.",
           "date": "2026-08-20T11:32:26.989319+00:00"
-        },
-        {
-          "source": "Notícias públicas - A Gazeta",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2FHZE1XSWpIWVcwRnpBS2ZFaDI0V0N2SFo3ak1kN2t2czBCTTBLRTdhbWl2cnViWF96ZWJMMm1ua1BmT1lmSGcxSGVYNWFqVHhVQUNOa01lUWZ6MGhfSVdDeEoxZnIxejNjSnVjNEF2Z29ocm1ab1dXOW1PWmxjdEtGWDhyZFJkMjNEMTlQWm02aDJQOWJzd2l1b3VWSTM3U0pFYzZpQnZOdkdKdWR3RnJSWXdTbm1T",
-          "headline": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta.",
-          "date": "2026-08-20T23:52:32.72738+00:00"
         }
       ],
-      "sourceCount": 2,
-      "dedupedFrom": 3,
+      "sourceCount": 1,
+      "dedupedFrom": 2,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -18036,35 +18110,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "07816ebe0d21148d66395a6f",
-      "stable_event_id": "07816ebe0d21148d66395a6f",
-      "observation_hash": "7a0167cc03231b613ba781ef",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Caxias do Sul",
-      "risk": 48,
-      "severity": "Moderado",
-      "lat": -29.168,
-      "lon": -51.179,
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 87.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 4002,
-      "estimated_hours": 1000.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "d988af0ef7b95a9b5f251e76",
       "stable_event_id": "d988af0ef7b95a9b5f251e76",
       "observation_hash": "2bd96c96f25472f07cd0a670",
@@ -18098,10 +18143,10 @@
       "stable_event_id": "f13e2269fc4592f622f09fc2",
       "observation_hash": "8c73f1094f4a4deb53d91fe7",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -18117,8 +18162,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 87.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3424,
-      "estimated_hours": 856.0,
+      "total_snapshots": 3425,
+      "estimated_hours": 856.25,
       "active": true,
       "storage": "supabase"
     },
@@ -18326,35 +18371,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "ffbb3295c9c63b9d83aa4b68",
-      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
-      "observation_hash": "7c28e36a5cbf5117563aa919",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Lages",
-      "risk": 46,
-      "severity": "Moderado",
-      "lat": -27.817,
-      "lon": -50.326,
-      "city": "Lages",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 87.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2948,
-      "estimated_hours": 737.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "efc62ea27cf7cdded93be10f",
       "stable_event_id": "efc62ea27cf7cdded93be10f",
       "observation_hash": "09aa46aeeef6ff91fc56c800",
@@ -18471,35 +18487,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "81996c61139cfa5997723f54",
-      "stable_event_id": "81996c61139cfa5997723f54",
-      "observation_hash": "e091af784e7d5eb048deafdf",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
-      "first_seen_at": "2026-05-26T01:48:12+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Criciúma",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -28.672,
-      "lon": -49.373,
-      "city": "Criciúma",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 86.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2023,
-      "estimated_hours": 505.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "554021f5434490a857b89c43",
       "stable_event_id": "554021f5434490a857b89c43",
       "observation_hash": "d2e945edfd464766788fd14d",
@@ -18612,6 +18599,35 @@
       "source_url": "",
       "total_snapshots": 411,
       "estimated_hours": 102.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "07816ebe0d21148d66395a6f",
+      "stable_event_id": "07816ebe0d21148d66395a6f",
+      "observation_hash": "291574e0c56754cf07a2243d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Caxias do Sul",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -29.168,
+      "lon": -51.179,
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 87.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 4003,
+      "estimated_hours": 1000.75,
       "active": true,
       "storage": "supabase"
     },
@@ -18960,6 +18976,35 @@
       "source_url": "",
       "total_snapshots": 25,
       "estimated_hours": 6.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "ffbb3295c9c63b9d83aa4b68",
+      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
+      "observation_hash": "40a635d5e674884e500c6681",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Lages",
+      "risk": 42,
+      "severity": "Moderado",
+      "lat": -27.817,
+      "lon": -50.326,
+      "city": "Lages",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 87.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2949,
+      "estimated_hours": 737.25,
       "active": true,
       "storage": "supabase"
     },
@@ -20095,6 +20140,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "81996c61139cfa5997723f54",
+      "stable_event_id": "81996c61139cfa5997723f54",
+      "observation_hash": "99193b13c9ef118767fc680a",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
+      "first_seen_at": "2026-05-26T01:48:12+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Criciúma",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -28.672,
+      "lon": -49.373,
+      "city": "Criciúma",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:45:17Z; ativo há 86.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2024,
+      "estimated_hours": 506.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "ed1702b03dade9e784ae17fa",
       "stable_event_id": "ed1702b03dade9e784ae17fa",
       "observation_hash": "495fe195e80f6d91f980a7c6",
@@ -20215,10 +20289,10 @@
       "stable_event_id": "833c194f23ed10ea96e00b30",
       "observation_hash": "72853621c6db4d41d9f0c7d0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-20T23:52:31+00:00",
+      "snapshot_at": "2026-08-21T00:02:59+00:00",
       "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-08-20T23:52:31+00:00",
-      "updated_at": "2026-08-20T23:52:32.72738+00:00",
+      "last_seen_at": "2026-08-21T00:02:59+00:00",
+      "updated_at": "2026-08-21T00:03:01.163391+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -20234,8 +20308,8 @@
       "description": "Rastreio: primeiro registro em 2026-05-26T01:15:18Z; ativo há 86.9 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2466,
-      "estimated_hours": 616.5,
+      "total_snapshots": 2467,
+      "estimated_hours": 616.75,
       "active": true,
       "storage": "supabase"
     },
@@ -21808,25 +21882,25 @@
   ],
   "windows": {
     "7": {
-      "events": 141,
-      "avgRisk": 38,
+      "events": 143,
+      "avgRisk": 39,
       "maxRisk": 69,
       "rainChance": 4,
       "byType": {
         "climate": 99,
-        "road": 42
+        "road": 44
       },
       "byRegion": {
-        "Sudeste": 39,
+        "Sudeste": 40,
         "Nordeste": 38,
         "Sul": 32,
         "Norte": 19,
         "Centro-Oeste": 12,
-        "Sem região": 1
+        "Sem região": 2
       },
       "bySeverity": {
         "Baixo": 55,
-        "Alto": 45,
+        "Alto": 47,
         "Moderado": 41
       },
       "dailyRisk": [
@@ -21868,31 +21942,37 @@
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 33,
-          "events": 54,
+          "avgRisk": 30,
+          "events": 46,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-21",
+          "avgRisk": 53,
+          "events": 10,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 282,
+      "events": 284,
       "avgRisk": 53,
       "maxRisk": 85,
       "rainChance": 14,
       "byType": {
-        "road": 172,
+        "road": 174,
         "climate": 110
       },
       "byRegion": {
         "Nordeste": 90,
         "Sul": 77,
-        "Sudeste": 67,
+        "Sudeste": 68,
         "Norte": 28,
         "Centro-Oeste": 13,
-        "Sem região": 7
+        "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 175,
+        "Alto": 177,
         "Baixo": 55,
         "Moderado": 51,
         "Crítico": 1
@@ -22074,32 +22154,38 @@
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 33,
-          "events": 54,
+          "avgRisk": 30,
+          "events": 46,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-21",
+          "avgRisk": 53,
+          "events": 10,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 536,
+      "events": 538,
       "avgRisk": 59,
       "maxRisk": 85,
       "rainChance": 29,
       "byType": {
-        "road": 396,
+        "road": 398,
         "climate": 138,
         "operational": 2
       },
       "byRegion": {
         "Nordeste": 171,
         "Sul": 136,
-        "Sudeste": 129,
+        "Sudeste": 130,
         "Norte": 60,
-        "Sem região": 22,
+        "Sem região": 23,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 402,
+        "Alto": 404,
         "Moderado": 78,
         "Baixo": 55,
         "Crítico": 1
@@ -22623,8 +22709,14 @@
         },
         {
           "date": "2026-08-20",
-          "avgRisk": 33,
-          "events": 54,
+          "avgRisk": 30,
+          "events": 46,
+          "maxRisk": 69
+        },
+        {
+          "date": "2026-08-21",
+          "avgRisk": 53,
+          "events": 10,
           "maxRisk": 69
         }
       ]
