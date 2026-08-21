@@ -9,7 +9,7 @@
     "lat": -19.539,
     "lon": -40.63,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-20T21:46:00Z; ativo há 2.7 h.",
+    "description": "Começam as obras de desvio em viaduto interditado da BR 259 em João Neiva - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-20T21:46:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.68,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T00:26:39Z",
+    "news_signature": "f4fe85f7b0c9dc24bcdd7533",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é parcialmente interditada após carreta tombar no sentido BH - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-20T17:49:21Z; ativo há 6.6 h.",
+    "description": "BR-381 é parcialmente interditada após carreta tombar no sentido BH - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-20T17:49:21Z; ativo há 6.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T17:49:21Z",
     "last_seen_at": "2026-08-21T00:26:39Z",
-    "active_duration_hours": 6.62,
+    "active_duration_hours": 6.63,
     "active_duration_label": "6.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T00:26:39Z",
+    "news_signature": "c508adc79b678d8df8192b5c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-20T17:15:03Z; ativo há 7.2 h.",
+    "description": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-20T17:15:03Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,11 +131,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T17:15:03Z",
     "last_seen_at": "2026-08-21T00:26:39Z",
-    "active_duration_hours": 7.19,
+    "active_duration_hours": 7.2,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T00:26:39Z",
+    "news_signature": "33ec3fa574d853986cb6b1e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +150,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná. Fontes consolidadas: Notícias públicas - Rádio Difusora do Paraná; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-20T16:52:30Z; ativo há 7.6 h.",
+    "description": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná. Fontes consolidadas: Notícias públicas - Rádio Difusora do Paraná; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-20T16:52:30Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -178,8 +187,11 @@
     "active_duration_hours": 7.57,
     "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T00:26:39Z",
+    "news_signature": "974a6bae1ef6af7d323eae20",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -191,7 +203,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis. Fontes consolidadas: Notícias públicas - Tribuna de Petrópolis. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-20T16:04:38Z; ativo há 8.4 h.",
+    "description": "Obra da Ponte do Arranha-Céu avança e acesso ao KM 58 da BR-040 ficará interditado para instalação de vigas - Tribuna de Petrópolis. Fontes consolidadas: Notícias públicas - Tribuna de Petrópolis. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-20T16:04:38Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -222,7 +234,10 @@
     "active_duration_hours": 8.37,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T00:26:39Z",
+    "news_signature": "875d3b892dc0df9e53d311a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
