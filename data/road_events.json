@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trevo do Laranjão será interditado nesta quinta-feira à noite para obras na SP-332 - noticiasdepaulinia.com.br. Fontes consolidadas: Notícias públicas - noticiasdepaulinia.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-20T19:23:39Z; ativo há 9.1 h.",
+    "description": "Trevo do Laranjão será interditado nesta quinta-feira à noite para obras na SP-332 - noticiasdepaulinia.com.br. Fontes consolidadas: Notícias públicas - noticiasdepaulinia.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-20T19:23:39Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T19:23:39Z",
     "last_seen_at": "2026-08-21T04:32:16Z",
-    "active_duration_hours": 9.14,
-    "active_duration_label": "9.1 h",
+    "active_duration_hours": 9.15,
+    "active_duration_label": "9.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-332"
+    "detectedRoad": "SP-332",
+    "last_confirmed_at": "2026-08-21T04:32:16Z",
+    "news_signature": "7eda5401c9d8c3cd1b791c93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-20T17:15:03Z; ativo há 11.3 h.",
+    "description": "BR-376 terá bloqueios e área de escape interditada nesta quinta; veja trechos - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-20T17:15:03Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,8 +88,11 @@
     "active_duration_hours": 11.29,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T04:32:16Z",
+    "news_signature": "33ec3fa574d853986cb6b1e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná. Fontes consolidadas: Notícias públicas - Rádio Difusora do Paraná; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-20T16:52:30Z; ativo há 11.7 h.",
+    "description": "Peça cai de caminhão, atinge dois veículos e deixa BR-163 interditada em Cascavel - Rádio Difusora do Paraná. Fontes consolidadas: Notícias públicas - Rádio Difusora do Paraná; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-20T16:52:30Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,11 +138,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-20T16:52:30Z",
     "last_seen_at": "2026-08-21T04:32:16Z",
-    "active_duration_hours": 11.66,
+    "active_duration_hours": 11.67,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T04:32:16Z",
+    "news_signature": "974a6bae1ef6af7d323eae20",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +157,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-21T00:29:47Z; ativo há 4.0 h.",
+    "description": "Vídeo mostra carros destruídos após grave acidente envolvendo carreta e caminhão na BR-470 em SC; rodovia está interditada - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-21T00:29:47Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,10 +185,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T00:29:47Z",
     "last_seen_at": "2026-08-21T04:32:16Z",
-    "active_duration_hours": 4.04,
+    "active_duration_hours": 4.05,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-21T04:32:16Z",
+    "news_signature": "e8991ecb25c85de90b0a1bed",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
