@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista da SC-401 será bloqueada para obras de triplicação; veja quando - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-21T21:43:10Z; ativo há 6.4 h.",
+    "description": "Pista da SC-401 será bloqueada para obras de triplicação; veja quando - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-21T21:43:10Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T21:43:10Z",
     "last_seen_at": "2026-08-22T04:09:05Z",
-    "active_duration_hours": 6.43,
+    "active_duration_hours": 6.44,
     "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "last_confirmed_at": "2026-08-22T04:09:05Z",
+    "news_signature": "d020dfc3d804644a341e43e2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça de acesso da Dutra será interditada para obra a partir da noite desta sexta - Click Guarulhos. Fontes consolidadas: Notícias públicas - Click Guarulhos. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-21T19:09:12Z; ativo há 9.0 h.",
+    "description": "Alça de acesso da Dutra será interditada para obra a partir da noite desta sexta - Click Guarulhos. Fontes consolidadas: Notícias públicas - Click Guarulhos. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-21T19:09:12Z; ativo há 9.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +88,10 @@
     "active_duration_hours": 9.0,
     "active_duration_label": "9.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-22T04:09:05Z",
+    "news_signature": "78fc382c6c5cbf6e810cce7a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
