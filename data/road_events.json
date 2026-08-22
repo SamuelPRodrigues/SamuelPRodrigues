@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista da SC-401 será bloqueada para obras de triplicação; veja quando - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-21T21:43:10Z; ativo há 2.6 h.",
+    "description": "Pista da SC-401 será bloqueada para obras de triplicação; veja quando - TVBV ONLINE. Fontes consolidadas: Notícias públicas - TVBV ONLINE. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-21T21:43:10Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,9 +40,12 @@
     "active_duration_hours": 2.57,
     "active_duration_label": "2.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "last_confirmed_at": "2026-08-22T00:17:12Z",
+    "news_signature": "d020dfc3d804644a341e43e2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça de acesso da Dutra será interditada para obra a partir da noite desta sexta - Click Guarulhos. Fontes consolidadas: Notícias públicas - Click Guarulhos. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-21T19:09:12Z; ativo há 5.1 h.",
+    "description": "Alça de acesso da Dutra será interditada para obra a partir da noite desta sexta - Click Guarulhos. Fontes consolidadas: Notícias públicas - Click Guarulhos. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-21T19:09:12Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -82,11 +85,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T19:09:12Z",
     "last_seen_at": "2026-08-22T00:17:12Z",
-    "active_duration_hours": 5.13,
+    "active_duration_hours": 5.14,
     "active_duration_label": "5.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-22T00:17:12Z",
+    "news_signature": "78fc382c6c5cbf6e810cce7a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -9.752,
     "lon": -36.661,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta pega fogo na BR-316 e deixa rodovia bloqueada nos dois sentidos entre Francisco Macedo e Alegrete - Cidadesnanet.com. Fontes consolidadas: Notícias públicas - Cidadesnanet.com. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-21T15:34:08Z; ativo há 8.7 h.",
+    "description": "Carreta pega fogo na BR-316 e deixa rodovia bloqueada nos dois sentidos entre Francisco Macedo e Alegrete - Cidadesnanet.com. Fontes consolidadas: Notícias públicas - Cidadesnanet.com. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-21T15:34:08Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -129,8 +135,11 @@
     "active_duration_hours": 8.72,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-22T00:17:12Z",
+    "news_signature": "6b405959d2d6275654a161a2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -142,7 +151,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 terá bloqueio total nesta quinta em Fundão; veja motivo e horário - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Folha PE; Notícias públicas - G1; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-21T13:06:12Z; ativo há 11.2 h.",
+    "description": "BR-101 terá bloqueio total nesta quinta em Fundão; veja motivo e horário - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Folha PE; Notícias públicas - G1; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-21T13:06:12Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -188,10 +197,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-21T13:06:12Z",
     "last_seen_at": "2026-08-22T00:17:12Z",
-    "active_duration_hours": 11.18,
+    "active_duration_hours": 11.19,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-22T00:17:12Z",
+    "news_signature": "12527c78d361788871473462",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
