@@ -9,7 +9,7 @@
     "lat": -9.389,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 3.5 h.",
+    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 3.46,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T01:46:35Z",
+    "news_signature": "7de2facd9ae4e22af83b3ff5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai na BR-262 será interditada neste sábado (22); saiba quando bloqueio termina. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-08-22T17:55:47Z; ativo há 7.8 h.",
+    "description": "Ponte sobre o Rio Paraguai na BR-262 será interditada neste sábado (22); saiba quando bloqueio termina. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-08-22T17:55:47Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +93,11 @@
     "active_duration_hours": 7.85,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T01:46:35Z",
+    "news_signature": "8053d03f71a9a5c45ac13f40",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -138,9 +144,11 @@
     "newsFreshnessHours": 0.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-23T01:13:00Z",
-    "last_seen_at": "2026-08-23T01:46:35Z",
+    "last_seen_at": "2026-08-23T01:46:49Z",
     "active_duration_hours": 0.56,
     "active_duration_label": "34 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "52bafa378143e1c9cabc93a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
