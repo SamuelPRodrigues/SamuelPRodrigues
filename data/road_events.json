@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 8.7 h.",
+    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-08-23T10:29:53Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-08-23T10:52:05Z",
     "sources": [
       {
         "source": "O TEMPO",
@@ -47,15 +47,12 @@
     "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.74,
+    "newsFreshnessHours": 9.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-23T01:46:43Z",
-    "last_seen_at": "2026-08-23T10:31:08Z",
-    "active_duration_hours": 8.74,
-    "active_duration_label": "8.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-23T10:31:08Z",
-    "news_signature": "82c9e04b27ddc3852945c151",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-08-23T10:53:21Z",
+    "active_duration_hours": 9.11,
+    "active_duration_label": "9.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
