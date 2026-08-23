@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-101, em Paulo Lopes, e deixa faixa interditada durante a manhã - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-23T14:48:18Z; ativo há 17 min.",
+    "description": "Carreta tomba na BR-101, em Paulo Lopes, e deixa faixa interditada durante a manhã - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-23T14:48:18Z; ativo há 18 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-23T14:48:18Z",
-    "last_seen_at": "2026-08-23T15:05:49Z",
-    "active_duration_hours": 0.29,
-    "active_duration_label": "17 min",
+    "last_seen_at": "2026-08-23T15:06:07Z",
+    "active_duration_hours": 0.3,
+    "active_duration_label": "18 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ec51730bfeba70792dde9769",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-09T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.5 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 90.5 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-09T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.5 dias.5 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 90.5 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,6 +104,9 @@
     "last_seen_at": "2026-08-23T15:05:49Z",
     "active_duration_hours": 2172.1,
     "active_duration_label": "90.5 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T15:05:49Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
