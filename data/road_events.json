@@ -9,7 +9,7 @@
     "lat": -9.389,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 9.9 h.",
+    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-22T22:19:00Z",
     "last_seen_at": "2026-08-23T08:13:09Z",
-    "active_duration_hours": 9.9,
+    "active_duration_hours": 9.91,
     "active_duration_label": "9.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T08:13:09Z",
+    "news_signature": "7de2facd9ae4e22af83b3ff5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 6.4 h.",
+    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-23T08:11:56Z",
     "sources": [
       {
@@ -97,6 +100,9 @@
     "last_seen_at": "2026-08-23T08:13:09Z",
     "active_duration_hours": 6.44,
     "active_duration_label": "6.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T08:13:09Z",
+    "news_signature": "82c9e04b27ddc3852945c151",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
