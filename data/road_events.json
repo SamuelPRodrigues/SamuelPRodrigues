@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 2.6 h.",
+    "description": "BR-381 é totalmente interditada na Grande BH após derramamento de óleo por 2 km - O TEMPO. Período informado: 2026-08-23T01:46:43Z até fim não identificado. Fontes consolidadas: O TEMPO; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-23T01:46:43Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-23T03:38:31Z",
     "sources": [
       {
@@ -53,6 +53,9 @@
     "last_seen_at": "2026-08-23T04:22:11Z",
     "active_duration_hours": 2.6,
     "active_duration_label": "2.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T04:22:11Z",
+    "news_signature": "dabe699a160ac28eea5e9f05",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
