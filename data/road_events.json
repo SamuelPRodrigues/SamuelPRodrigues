@@ -9,7 +9,7 @@
     "lat": -9.389,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 4.5 h.",
+    "description": "Ponte sobre o Rio Brígida na BR-428, em Orocó, será interditada a partir de segunda; veja desvios. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-22T22:19:00Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.54,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-22T22:19:00Z",
-    "last_seen_at": "2026-08-23T02:51:32Z",
-    "active_duration_hours": 4.54,
+    "last_seen_at": "2026-08-23T02:51:47Z",
+    "active_duration_hours": 4.55,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "60fe8385ac1f2be3fb42f94f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai na BR-262 será interditada neste sábado (22); saiba quando bloqueio termina. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-22T17:55:47Z; ativo há 8.9 h.",
+    "description": "Ponte sobre o Rio Paraguai na BR-262 será interditada neste sábado (22); saiba quando bloqueio termina. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-22T17:55:47Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 8.93,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-23T02:51:32Z",
+    "news_signature": "8053d03f71a9a5c45ac13f40",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +113,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-381 está totalmente interditada por óleo na pista na Grande BH - Estado de Minas. Período informado: 2026-08-23T01:13:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-23T01:13:00Z; ativo há 1.6 h.",
+    "description": "BR-381 está totalmente interditada por óleo na pista na Grande BH - Estado de Minas. Período informado: 2026-08-23T01:13:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-23T01:13:00Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -138,9 +143,11 @@
     "newsFreshnessHours": 1.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-23T01:13:00Z",
-    "last_seen_at": "2026-08-23T02:51:32Z",
-    "active_duration_hours": 1.64,
+    "last_seen_at": "2026-08-23T02:51:47Z",
+    "active_duration_hours": 1.65,
     "active_duration_label": "1.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fb0963005d7918c0d1d21f50",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
