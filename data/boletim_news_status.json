@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-08-23T14:53:55Z",
+  "updatedAt": "2026-08-23T15:06:06Z",
   "queries": 6,
-  "newItemsBeforeMerge": 0,
-  "savedRoadNewsReused": 0,
+  "newItemsBeforeMerge": 64,
+  "savedRoadNewsReused": 2,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 46,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "DNIT alerta para interdição total de viaduto na BR-259/ES a partir desta terça-feira (18) - www.gov.br",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Acidente entre micro-ônibus e carreta deixa 23 mortos e cinco feridos no Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Vídeo: Batida seguida de explosão deixa quatro mortos na BR-163, em MS - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Engavetamento com três carretas e sete carros deixa dois mortos na BR-277, no litoral do Paraná - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Engavetamento com sete veículos deixa três feridos e interdita Fernão Dias, em Betim - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista fica gravemente ferido ao bater de frente com caminhão na BR-153 em Getulina - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "VÍDEO: chuva forte inunda metrô de Nova York - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Vídeo: Chuva forte em Nova York causa vazamentos em estação de metrô - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Tempestade com tornado e inundação atinge Nova York e fecha aeroportos - UOL Notícias",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: chuva forte alaga estação de metrô em Nova York - SBT News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte deixa um morto e causa estragos em ao menos 10 cidades de SC - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rio entra em Estágio 2 por previsão de ventos fortes nesta sexta; vendaval pode passar de 90 km/h - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Formação de ciclone extratropical é confirmada e deve levar chuva, vento forte e granizo ao RS; veja previsão - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: Árvore é arrancada pela raiz durante temporal no RS - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ciclone se forma nesta quinta-feira no RS: cidades já registram inundações em rios, famílias fora de casa e aulas canceladas - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Apesar da chuva forte, show de João Gomes agita Movimento Cidade - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Bloqueio na Rua João XXIII altera trânsito nesta quarta – CGNotícias - Prefeitura de Campo Grande",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Vídeos mostram impacto da paralisação das rotas do Distrito Industrial em Manaus - G1",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Prefeitura orienta sobre desvios para obras do Viaduto Passarão - Prefeitura de Manaus",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "BR-277 vira ‘praça de guerra’ após saque de carga e confronto com indígenas no Paraná - Paraná Central",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Edvaldo Magalhães cobra solução para problemas no transporte escolar rural - REDE BRASIL DE TELEVISÃO",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Carga cai de caminhão e interdita alça de acesso entre rodovias em Santa Cruz do Rio Pardo - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Emdec realiza operação de trânsito para corrida de 50 anos do CPI-2 neste domingo - correiodamanha.com.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Carga cai de caminhão e interdita alça de acesso entre rodovias em Santa Cruz do Rio Pardo - Grupo Jota Sidney",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Motoristas do transporte especial aceitam reajuste de 5,5% - amazonas atual",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
