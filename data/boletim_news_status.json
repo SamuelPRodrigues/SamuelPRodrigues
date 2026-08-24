@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-08-24T21:36:46Z",
+  "updatedAt": "2026-08-24T21:58:31Z",
   "queries": 6,
-  "newItemsBeforeMerge": 58,
+  "newItemsBeforeMerge": 0,
   "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 50,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "DNIT alerta para interdição total de ponte sobre o Rio Brígida no km 43,84 da BR-428 no município de Orocó, em Pernambuco - www.gov.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista de caminhão morre após batida com carro na BR-316, em Monsenhor Gil - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Acidente entre micro-ônibus e carreta deixa 23 mortos e cinco feridos no Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Seis pessoas ficam feridas em batida entre dois carros na Rodovia José Bonifácio, em Campinas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Queda de passarela na Fernão Dias: equipes fazem remoção de destroços - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento com três carretas e sete carros deixa dois mortos na BR-277, no litoral do Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista fica gravemente ferido ao bater de frente com caminhão na BR-153 em Getulina - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista fica gravemente ferida após bater em carro na BR-262, em Nova Serrana - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Casal que morreu em engavetamento na BR-277, no litoral do Paraná, é identificado - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre atropelado por caminhão na BR-101 após cair na pista - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "VÍDEO: chuva forte inunda metrô de Nova York - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Vídeo: Chuva forte em Nova York causa vazamentos em estação de metrô - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Tempestade com tornado e inundação atinge Nova York e fecha aeroportos - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "VÍDEO: chuva forte alaga estação de metrô em Nova York - SBT News",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Quando uma tempestade ameaça Kuala Lumpur, motoristas são retirados deste túnel de 3 km e a própria rodovia passa a conduzir a água da enchente sob a cidade - Canal Rural",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "\"Jaguarão parou\": inundação tira famílias de casa e fecha free shops na fronteira do Brasil com o Uruguai - GZH",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte causa alagamentos e transtornos em várias regiões da cidade - bra1.com.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Rio entra em Estágio 2 por previsão de ventos fortes nesta sexta; vendaval pode passar de 90 km/h - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Defesa Civil emite alerta de ventos fortes no Rio; cidade está em estágio 2 - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ciclone se forma nesta quinta-feira no RS: cidades já registram inundações em rios, famílias fora de casa e aulas canceladas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Formação de ciclone extratropical é confirmada e deve levar chuva, vento forte e granizo ao RS; veja previsão - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Inmet emite aviso de vendaval para RJ, SP e ES; ciclone se forma nesta sexta - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "VÍDEO mostra 'cachoeira de barro' no Chile após tempestade; governo decreta estado de catástrofe - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Após pancadas isoladas, Manaus tem previsão de chuva forte neste sábado - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Vídeos mostram impacto da paralisação das rotas do Distrito Industrial em Manaus - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
