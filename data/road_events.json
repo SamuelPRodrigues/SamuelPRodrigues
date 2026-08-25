@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 é interditada na Grande Natal após cobertura da PRF desabar e atingir três carros. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-24T16:57:16Z; ativo há 11.2 h.",
+    "description": "BR-101 é interditada na Grande Natal após cobertura da PRF desabar e atingir três carros. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-24T16:57:16Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 11.25,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-25T04:12:05Z",
+    "news_signature": "95ea351cf5447ab4974acc85",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
