@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-376",
+    "road": "BR-376",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-25T11:15:06Z; ativo há 32 min.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Band News FM Curitiba",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
+    "headline": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba",
+    "newsDate": "Tue, 25 Aug 2026 11:15:06 GMT",
+    "updatedAt": "2026-08-25T11:45:34Z",
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
+    "sources": [
+      {
+        "source": "Notícias públicas - Band News FM Curitiba",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
+        "headline": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba",
+        "date": "Tue, 25 Aug 2026 11:15:06 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "62347b925ac384e38f464ae1",
+    "event_id": "62347b925ac384e38f464ae1",
+    "newsFreshnessHours": 0.53,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-08-25T11:15:06Z",
+    "last_seen_at": "2026-08-25T11:46:54Z",
+    "active_duration_hours": 0.53,
+    "active_duration_label": "32 min",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
