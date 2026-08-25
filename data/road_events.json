@@ -9,16 +9,16 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-25T11:15:06Z; ativo há 2.0 h.",
+    "description": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-25T11:15:06Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Band News FM Curitiba",
+    "source": "Notícias públicas - Band News FM Curitiba + 1 fonte(s)",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
     "headline": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba",
     "newsDate": "Tue, 25 Aug 2026 11:15:06 GMT",
-    "updatedAt": "2026-08-25T13:13:15Z",
+    "updatedAt": "2026-08-25T14:05:39Z",
     "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
     "sources": [
       {
@@ -26,24 +26,27 @@
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTRibkluTFJ5TDk3c0hORXZKYTk0RU1JWDRZc0ZjMEplVGl4TFpWT296a1pKckx5VDE2TkZPRVlMZXlZcFJrYzNfYVVEZzZrZjdUeEhIVTA1bVd5alNlQklpVE94UjNNU3ZFSjZSOVgzRmZVb1c5SkJlUzhHcFY5eTlMWl91dXJ4NWM2UlAwSWtXRlEtRVln",
         "headline": "BR-376, em Guaratuba, será bloqueada para implantação de poste - Band News FM Curitiba",
         "date": "Tue, 25 Aug 2026 11:15:06 GMT"
+      },
+      {
+        "source": "Notícias públicas - Litorânea",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcFhyakJjUVhxbWc5YVB2V1VvdzJkdm9MYmVLb1RiVHZBa3FJUDFIRGJiWUJrSkp1QTdQT0VwUTlXU3ZKdnFYdzhCNUIzXzgzTDBGY2FDUEhOYU9nOVZpSWx2dEE0NFhlRm1NaUtwb3pabUZMNmk5ZXcybHdiRF9xQ21BVVI5dktFckhGem1sT3lQdnZhUzJ0blNhSE9jRmFHUDM0a0w5Yw",
+        "headline": "BR-376, em Guaratuba, será bloqueada para implantação de poste nesta quinta-feira (27) - Litorânea",
+        "date": "Tue, 25 Aug 2026 10:53:02 GMT"
       }
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "62347b925ac384e38f464ae1",
     "event_id": "62347b925ac384e38f464ae1",
-    "newsFreshnessHours": 1.99,
+    "newsFreshnessHours": 2.86,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-25T11:15:06Z",
-    "last_seen_at": "2026-08-25T13:14:34Z",
-    "active_duration_hours": 2.0,
-    "active_duration_label": "2.0 h",
+    "last_seen_at": "2026-08-25T14:06:59Z",
+    "active_duration_hours": 2.87,
+    "active_duration_label": "2.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-08-25T13:14:34Z",
-    "news_signature": "bf912a72b9f852d9911d75d2",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
