@@ -40,8 +40,11 @@
     "active_duration_hours": 0.77,
     "active_duration_label": "46 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-25T23:52:04Z",
+    "news_signature": "7d0844b9709a71b738b7d340",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento entre ônibus da Saritur, caminhão e carreta interditada trecho da Rodovia Fernão Dias (BR-318), em Brumadinho (MG), nesta terça-feira (25) - Diário do Transporte. Fontes consolidadas: Notícias públicas - Diário do Transporte. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-25T21:46:20Z; ativo há 2.1 h.",
+    "description": "Engavetamento entre ônibus da Saritur, caminhão e carreta interditada trecho da Rodovia Fernão Dias (BR-318), em Brumadinho (MG), nesta terça-feira (25) - Diário do Transporte. Fontes consolidadas: Notícias públicas - Diário do Transporte. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-25T21:46:20Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,7 +87,10 @@
     "active_duration_hours": 2.1,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-25T23:52:04Z",
+    "news_signature": "460d19c8a7e1a372a5bb1179",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
