@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:01:13Z",
+  "updatedAt": "2026-08-25T23:11:42Z",
   "source": "google_sheets_current_state",
   "storageMode": "current_state_upsert",
   "error": null,
@@ -9,9 +9,9 @@
       "stable_event_id": "04a398ba39a537dbe3d9bf3b",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -41,9 +41,9 @@
       "stable_event_id": "7cf55655cceecd24734fee4b",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -73,9 +73,9 @@
       "stable_event_id": "9b27de2f95bb4650d613a5d2",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -105,9 +105,9 @@
       "stable_event_id": "1e76c5ff719f8f716b2d0c34",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -137,9 +137,9 @@
       "stable_event_id": "ec5767af500445c922d4539a",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -169,9 +169,9 @@
       "stable_event_id": "c03c34965f11fecba8a9db6d",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-08-25T23:01:00Z",
+      "snapshot_at": "2026-08-25T23:11:34Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-08-25T23:01:04.323Z",
+      "last_seen_at": "2026-08-25T23:11:36.841Z",
       "updated_at": "2026-08-25T22:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -20807,40 +20807,34 @@
   ],
   "windows": {
     "7": {
-      "events": 129,
-      "activeEvents": 129,
+      "events": 128,
+      "activeEvents": 128,
       "inactiveEvents": 0,
-      "avgRisk": 41,
+      "avgRisk": 40,
       "maxRisk": 82,
       "rainChance": 0,
       "byType": {
         "climate": 87,
-        "road": 42
+        "road": 41
       },
       "byRegion": {
         "Sudeste": 40,
-        "Nordeste": 33,
+        "Nordeste": 32,
         "Sul": 27,
         "Norte": 16,
         "Centro-Oeste": 10,
         "Sem região": 3
       },
       "bySeverity": {
-        "Alto": 44,
         "Moderado": 43,
+        "Alto": 43,
         "Baixo": 41,
         "Crítico": 1
       },
       "byLifecycle": {
-        "active": 129
+        "active": 128
       },
       "dailyRisk": [
-        {
-          "date": "2026-08-18",
-          "avgRisk": 69,
-          "events": 1,
-          "maxRisk": 69
-        },
         {
           "date": "2026-08-19",
           "avgRisk": 61,
