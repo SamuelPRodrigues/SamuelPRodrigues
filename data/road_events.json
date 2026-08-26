@@ -9,7 +9,7 @@
     "lat": -3.736,
     "lon": -38.653,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta com 35 mil litros de combustível tomba e bloqueia BR-020; veja vídeo - Folha do ES. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-26T13:35:12Z; ativo há 31 min.",
+    "description": "Carreta com 35 mil litros de combustível tomba e bloqueia BR-020; veja vídeo - Folha do ES. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-26T13:35:12Z; ativo há 32 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T13:35:12Z",
-    "last_seen_at": "2026-08-26T14:06:33Z",
-    "active_duration_hours": 0.52,
-    "active_duration_label": "31 min",
+    "last_seen_at": "2026-08-26T14:06:49Z",
+    "active_duration_hours": 0.53,
+    "active_duration_label": "32 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a78f07c80685c914955ab07a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão pega fogo e BR-376 fica interditada em Guaratuba por 5h - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-26T10:58:40Z; ativo há 3.1 h.",
+    "description": "Caminhão pega fogo e BR-376 fica interditada em Guaratuba por 5h - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-26T10:58:40Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,10 +89,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T10:58:40Z",
     "last_seen_at": "2026-08-26T14:06:33Z",
-    "active_duration_hours": 3.13,
+    "active_duration_hours": 3.14,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-26T14:06:33Z",
+    "news_signature": "1dd05806913a6cdbe0f0cda8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
