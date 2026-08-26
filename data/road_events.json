@@ -9,7 +9,7 @@
     "lat": -3.736,
     "lon": -38.653,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de carreta causa interdição total da BR-020; veja alternativas. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-26T09:23:00Z; ativo há 46 min.",
+    "description": "Tombamento de carreta causa interdição total da BR-020; veja alternativas. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-26T09:23:00Z; ativo há 47 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.77,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T09:23:00Z",
-    "last_seen_at": "2026-08-26T10:09:14Z",
-    "active_duration_hours": 0.77,
-    "active_duration_label": "46 min",
+    "last_seen_at": "2026-08-26T10:09:30Z",
+    "active_duration_hours": 0.78,
+    "active_duration_label": "47 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "51553bdafd838865ba3f9183",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-153 é interditada para detonação de rochas durante obras de duplacação da rodovia, em Rialma - CBN Goiânia. Fontes consolidadas: Notícias públicas - CBN Goiânia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-08-25T23:06:07Z; ativo há 11.1 h.",
+    "description": "BR-153 é interditada para detonação de rochas durante obras de duplacação da rodovia, em Rialma - CBN Goiânia. Fontes consolidadas: Notícias públicas - CBN Goiânia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-08-25T23:06:07Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,10 +83,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-25T23:06:07Z",
     "last_seen_at": "2026-08-26T10:09:14Z",
-    "active_duration_hours": 11.05,
+    "active_duration_hours": 11.06,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-26T10:09:14Z",
+    "news_signature": "7d0844b9709a71b738b7d340",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
