@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T14:53:18Z",
+  "updatedAt": "2026-08-26T16:22:13Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -9,17 +9,17 @@
   "bboxRequestsPlanned": 130,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
-  "eventsWritten": 7,
+  "eventsWritten": 15,
   "skippedFinishedOrInvalid": 0,
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
   "publicFallbackUsed": true,
   "publicFallbackRequestsSucceeded": 2,
   "publicFallbackRequestFailures": 1,
-  "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 7,
+  "publicFallbackRawArticles": 191,
+  "publicFallbackEventsWritten": 15,
   "publicFallbackSkippedNoCorridor": 0,
-  "publicFallbackSkippedReleased": 1,
+  "publicFallbackSkippedReleased": 2,
   "keptPreviousOnApiFailure": false,
   "errors": [
     {
@@ -1322,6 +1322,6 @@
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
-    "gdelt-fallback: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    "gdelt-fallback: <urlopen error timed out>"
   ]
 }
