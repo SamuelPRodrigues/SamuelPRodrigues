@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T10:58:40Z",
     "last_seen_at": "2026-08-26T11:48:35Z",
-    "active_duration_hours": 0.83,
+    "active_duration_hours": 0.84,
     "active_duration_label": "50 min",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-26T11:48:35Z",
+    "news_signature": "1dd05806913a6cdbe0f0cda8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -3.736,
     "lon": -38.653,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tombamento de carreta causa interdição total da BR-020; veja alternativas. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-26T09:23:00Z; ativo há 2.4 h.",
+    "description": "Tombamento de carreta causa interdição total da BR-020; veja alternativas. Fontes consolidadas: Notícias públicas - Metrópoles. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-26T09:23:00Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +93,10 @@
     "active_duration_hours": 2.43,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-26T11:48:35Z",
+    "news_signature": "51553bdafd838865ba3f9183",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
