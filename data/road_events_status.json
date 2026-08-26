@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:50:09Z",
+  "updatedAt": "2026-08-26T00:02:01Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -14,9 +14,9 @@
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
   "publicFallbackUsed": true,
-  "publicFallbackRequestsSucceeded": 3,
-  "publicFallbackRequestFailures": 0,
-  "publicFallbackRawArticles": 212,
+  "publicFallbackRequestsSucceeded": 2,
+  "publicFallbackRequestFailures": 1,
+  "publicFallbackRawArticles": 200,
   "publicFallbackEventsWritten": 6,
   "publicFallbackSkippedNoCorridor": 0,
   "publicFallbackSkippedReleased": 0,
@@ -1321,6 +1321,7 @@
       ],
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
-    }
+    },
+    "gdelt-fallback: HTTP Error 429: Too Many Requests"
   ]
 }
