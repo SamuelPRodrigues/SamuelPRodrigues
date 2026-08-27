@@ -1,21 +1,20 @@
 {
-  "updatedAt": "2026-08-26T23:45:08Z",
+  "updatedAt": "2026-08-27T04:35:04Z",
   "configured": true,
-  "eventsPrepared": 8,
+  "eventsPrepared": 11,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-08-26T23:45Z",
+  "snapshotBucket": "2026-08-27T04:30Z",
   "eventLifecycleFields": true,
   "ok": true,
   "response": {
     "ok": true,
-    "received": 8,
-    "inserted": 0,
-    "updated": 8,
-    "total_rows": 756
+    "received": 11,
+    "inserted": 1,
+    "updated": 10,
+    "total_rows": 757
   },
   "analyticsCache": true,
   "error": null,
-  "analyticsRows": 8,
-  "analyticsCacheWarning": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+  "analyticsRows": 658
 }
