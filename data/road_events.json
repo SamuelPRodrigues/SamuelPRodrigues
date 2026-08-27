@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-163 será interditada para instalar vigas de 2 viadutos, em Sorriso - FOLHAMAX. Fontes consolidadas: Notícias públicas - FOLHAMAX. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-26T22:51:00Z; ativo há 5.7 h.",
+    "description": "BR-163 será interditada para instalar vigas de 2 viadutos, em Sorriso - FOLHAMAX. Fontes consolidadas: Notícias públicas - FOLHAMAX. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-26T22:51:00Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 5.73,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T22:51:00Z",
-    "last_seen_at": "2026-08-27T04:34:49Z",
+    "last_seen_at": "2026-08-27T04:35:05Z",
     "active_duration_hours": 5.73,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a0242f0a7ac40882f80b8d86",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno da BR-364 é interditado durante recuperação de ponte sobre o Rio São Lourenço - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-26T22:20:32Z; ativo há 6.2 h.",
+    "description": "Retorno da BR-364 é interditado durante recuperação de ponte sobre o Rio São Lourenço - Agora MT. Fontes consolidadas: Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-26T22:20:32Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +86,11 @@
     "active_duration_hours": 6.24,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-27T04:34:49Z",
+    "news_signature": "4adebeb6e9196fe3f41da836",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Marginal da BR-101 em Balneário Camboriú/SC será interditada para reparos no pavimento - Arteris S.A.. Fontes consolidadas: Notícias públicas - Arteris S.A.; Notícias públicas - DIARINHO; Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-26T19:23:31Z; ativo há 9.2 h.",
+    "description": "Marginal da BR-101 em Balneário Camboriú/SC será interditada para reparos no pavimento - Arteris S.A.. Fontes consolidadas: Notícias públicas - Arteris S.A.; Notícias públicas - DIARINHO; Notícias públicas - Portal Engeplus. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-26T19:23:31Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -136,12 +141,14 @@
     "newsFreshnessHours": 9.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T19:23:31Z",
-    "last_seen_at": "2026-08-27T04:34:49Z",
+    "last_seen_at": "2026-08-27T04:35:05Z",
     "active_duration_hours": 9.19,
     "active_duration_label": "9.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "30488901d9f2bea23537c3eb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -158,7 +165,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-153 será interditada para obras de duplicação e detonação de rochas. Período informado: 2026-08-26T18:32:57Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-26T18:32:57Z; ativo há 10.0 h.",
+    "description": "BR-153 será interditada para obras de duplicação e detonação de rochas. Período informado: 2026-08-26T18:32:57Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-26T18:32:57Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -171,7 +178,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-08-27T04:33:35Z",
     "sources": [
       {
@@ -189,8 +196,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-26T18:32:57Z",
     "last_seen_at": "2026-08-27T04:34:49Z",
-    "active_duration_hours": 10.03,
+    "active_duration_hours": 10.04,
     "active_duration_label": "10.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-27T04:34:49Z",
+    "news_signature": "c08e19f58d5609ca4cd12166",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
