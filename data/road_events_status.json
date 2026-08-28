@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T12:04:25Z",
+  "updatedAt": "2026-08-28T22:12:17Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -9,7 +9,7 @@
   "bboxRequestsPlanned": 130,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
-  "eventsWritten": 2,
+  "eventsWritten": 5,
   "skippedFinishedOrInvalid": 0,
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
@@ -17,7 +17,7 @@
   "publicFallbackRequestsSucceeded": 2,
   "publicFallbackRequestFailures": 1,
   "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 2,
+  "publicFallbackEventsWritten": 5,
   "publicFallbackSkippedNoCorridor": 1,
   "publicFallbackSkippedReleased": 5,
   "keptPreviousOnApiFailure": false,
@@ -1322,6 +1322,6 @@
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
-    "gdelt-fallback: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    "gdelt-fallback: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
   ]
 }
