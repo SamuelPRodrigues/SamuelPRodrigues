@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente na MG-10: após 14 horas, via segue interditada - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - BHAZ; Notícias públicas - Rádio Itatiaia; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-08-27T22:24:00Z; ativo há 2.2 h.",
+    "description": "Acidente na MG-10: após 14 horas, via segue interditada - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas; Notícias públicas - BHAZ; Notícias públicas - Rádio Itatiaia; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-08-27T22:24:00Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,13 +54,15 @@
     "newsFreshnessHours": 2.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-27T22:24:00Z",
-    "last_seen_at": "2026-08-28T00:34:34Z",
+    "last_seen_at": "2026-08-28T00:34:47Z",
     "active_duration_hours": 2.18,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-10"
+    "detectedRoad": "MG-10",
+    "news_signature": "a398c5345e15ead9c6056132",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -72,7 +74,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-050 em Uberaba fica interditado nesta noite (27); veja detalhes - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-08-27T18:11:49Z; ativo há 6.4 h.",
+    "description": "Trecho da BR-050 em Uberaba fica interditado nesta noite (27); veja detalhes - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-08-27T18:11:49Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,11 +101,13 @@
     "newsFreshnessHours": 6.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-27T18:11:49Z",
-    "last_seen_at": "2026-08-28T00:34:34Z",
+    "last_seen_at": "2026-08-28T00:34:47Z",
     "active_duration_hours": 6.38,
     "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fb4c8fa9adfd26dd584ccc49",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
