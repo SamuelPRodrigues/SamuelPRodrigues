@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T22:12:17Z",
+  "updatedAt": "2026-08-29T03:43:46Z",
   "provider": "TomTom Traffic API + fallback público GDELT/Google News RSS",
   "tomtomKeyConfigured": true,
   "language": "pt-PT",
@@ -9,7 +9,7 @@
   "bboxRequestsPlanned": 130,
   "bboxRequestsSucceeded": 0,
   "rawIncidents": 0,
-  "eventsWritten": 5,
+  "eventsWritten": 4,
   "skippedFinishedOrInvalid": 0,
   "skippedNonBlocking": 0,
   "skippedLocalStreet": 0,
@@ -17,9 +17,9 @@
   "publicFallbackRequestsSucceeded": 2,
   "publicFallbackRequestFailures": 1,
   "publicFallbackRawArticles": 200,
-  "publicFallbackEventsWritten": 5,
-  "publicFallbackSkippedNoCorridor": 1,
-  "publicFallbackSkippedReleased": 5,
+  "publicFallbackEventsWritten": 4,
+  "publicFallbackSkippedNoCorridor": 0,
+  "publicFallbackSkippedReleased": 3,
   "keptPreviousOnApiFailure": false,
   "errors": [
     {
@@ -1322,6 +1322,6 @@
       "httpStatus": 403,
       "message": "{\"detailedError\":{\"code\":\"InsufficientFunds\",\"message\":\"You do not have enough credits to perform this action\"}}"
     },
-    "gdelt-fallback: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    "gdelt-fallback: HTTP Error 429: Too Many Requests"
   ]
 }
