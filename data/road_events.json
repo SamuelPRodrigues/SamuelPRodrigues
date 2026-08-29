@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba e deixa trecho da BR-324 parcialmente interditado - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-29T14:47:31Z; ativo há 28 min.",
+    "description": "Caminhão tomba e deixa trecho da BR-324 parcialmente interditado - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-08-29T14:47:31Z; ativo há 29 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 0.47,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-29T14:47:31Z",
-    "last_seen_at": "2026-08-29T15:15:54Z",
-    "active_duration_hours": 0.47,
-    "active_duration_label": "28 min",
+    "last_seen_at": "2026-08-29T15:16:07Z",
+    "active_duration_hours": 0.48,
+    "active_duration_label": "29 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f76ec241c4ed22938a65feeb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Fernão Dias bloqueada sentido BH por acidente - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-08-29T13:37:34Z; ativo há 1.6 h.",
+    "description": "Fernão Dias bloqueada sentido BH por acidente - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-08-29T13:37:34Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,11 +88,13 @@
     "newsFreshnessHours": 1.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-29T13:37:34Z",
-    "last_seen_at": "2026-08-29T15:15:54Z",
+    "last_seen_at": "2026-08-29T15:16:07Z",
     "active_duration_hours": 1.64,
     "active_duration_label": "1.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b181fead3ef404e200534afd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
