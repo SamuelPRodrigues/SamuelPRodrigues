@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba e deixa trecho da BR-324 parcialmente interditado - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-08-29T14:47:31Z; ativo há 8.5 h.",
+    "description": "Caminhão tomba e deixa trecho da BR-324 parcialmente interditado - A TARDE. Fontes consolidadas: Notícias públicas - A TARDE; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-08-29T14:47:31Z; ativo há 8.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 8.48,
     "active_duration_label": "8.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-29T23:16:21Z",
+    "news_signature": "f76ec241c4ed22938a65feeb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Fernão Dias bloqueada sentido BH por acidente - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-08-29T13:37:34Z; ativo há 9.7 h.",
+    "description": "Fernão Dias bloqueada sentido BH por acidente - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-08-29T13:37:34Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,7 +93,10 @@
     "active_duration_hours": 9.65,
     "active_duration_label": "9.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-29T23:16:21Z",
+    "news_signature": "b181fead3ef404e200534afd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
