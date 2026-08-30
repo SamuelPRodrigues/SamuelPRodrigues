@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão entre carros deixa trânsito parcialmente bloqueado na BR-116, em Caxias - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-30T11:30:00Z; ativo há 8.0 h.",
+    "description": "Colisão entre carros deixa trânsito parcialmente bloqueado na BR-116, em Caxias - Leouve. Fontes consolidadas: Notícias públicas - Leouve. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-30T11:30:00Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-30T11:30:00Z",
     "last_seen_at": "2026-08-30T19:31:29Z",
-    "active_duration_hours": 8.02,
+    "active_duration_hours": 8.03,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-08-30T19:31:29Z",
+    "news_signature": "823a80319d3d2536b902138e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
