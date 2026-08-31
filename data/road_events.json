@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 segue parcialmente interditada e com fila na Grande Curitiba - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - Leouve; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-08-31T10:57:01Z; ativo há 7.3 h.",
+    "description": "BR-116 segue parcialmente interditada e com fila na Grande Curitiba - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - Leouve; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-08-31T10:57:01Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -66,12 +66,14 @@
     "newsFreshnessHours": 7.27,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-31T10:57:01Z",
-    "last_seen_at": "2026-08-31T18:13:15Z",
-    "active_duration_hours": 7.27,
+    "last_seen_at": "2026-08-31T18:13:32Z",
+    "active_duration_hours": 7.28,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0d1866e65a72e7d21e0f431b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -88,7 +90,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 é totalmente interditada após acidente com incêndio em veículo em Ortigueira - Canal 38. Período informado: 2026-08-31T10:17:55Z até fim não identificado. Fontes consolidadas: Notícias públicas - Canal 38. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-08-31T10:17:55Z; ativo há 7.9 h.",
+    "description": "BR-376 é totalmente interditada após acidente com incêndio em veículo em Ortigueira - Canal 38. Período informado: 2026-08-31T10:17:55Z até fim não identificado. Fontes consolidadas: Notícias públicas - Canal 38. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-08-31T10:17:55Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -118,9 +120,11 @@
     "newsFreshnessHours": 7.92,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-31T10:17:55Z",
-    "last_seen_at": "2026-08-31T18:13:15Z",
-    "active_duration_hours": 7.92,
+    "last_seen_at": "2026-08-31T18:13:32Z",
+    "active_duration_hours": 7.93,
     "active_duration_label": "7.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5ad22f84c3ef9c86fe0b8d3f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
