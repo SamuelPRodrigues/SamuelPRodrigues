@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MT-251 será totalmente interditada por 4 horas - Primeira Página. Fontes consolidadas: Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-31T19:55:01Z; ativo há 3.0 h.",
+    "description": "MT-251 será totalmente interditada por 4 horas - Primeira Página. Fontes consolidadas: Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-31T19:55:01Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 3.0,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-31T19:55:01Z",
-    "last_seen_at": "2026-08-31T22:55:15Z",
-    "active_duration_hours": 3.0,
+    "last_seen_at": "2026-08-31T22:55:31Z",
+    "active_duration_hours": 3.01,
     "active_duration_label": "3.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MT-251"
+    "detectedRoad": "MT-251",
+    "news_signature": "c9faef2769f56c0e23689e66",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 segue parcialmente interditada e com fila na Grande Curitiba - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - Leouve; Notícias públicas - Se Ligue Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-08-31T10:57:01Z; ativo há 12.0 h.",
+    "description": "BR-116 segue parcialmente interditada e com fila na Grande Curitiba - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba; Notícias públicas - G1; Notícias públicas - Banda B; Notícias públicas - Leouve; Notícias públicas - Se Ligue Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-08-31T10:57:01Z; ativo há 12.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -117,11 +119,13 @@
     "newsFreshnessHours": 11.97,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-31T10:57:01Z",
-    "last_seen_at": "2026-08-31T22:55:15Z",
-    "active_duration_hours": 11.97,
+    "last_seen_at": "2026-08-31T22:55:31Z",
+    "active_duration_hours": 11.98,
     "active_duration_label": "12.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "672654f0b7972c18de567c97",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
