@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "1b42fa80e4a1071b92d403d7",
+    "stable_event_id": "1b42fa80e4a1071b92d403d7",
+    "name": "Interdição planejada por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "city": "Maceió",
+    "state": "AL",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br. Período informado: 2026-09-02T13:43:00Z até fim não identificado. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-02T13:43:00Z; ativo há 6.0 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "lerunica.com.br",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
+    "headline": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br",
+    "newsDate": "2026-09-02T13:43:00Z",
+    "plannedStartAt": "2026-09-02T13:43:00Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-09-02T19:42:51Z",
+    "sources": [
+      {
+        "source": "lerunica.com.br",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
+        "headline": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br",
+        "date": "2026-09-02T13:43:00Z"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 6.02,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-09-02T13:43:00Z",
+    "last_seen_at": "2026-09-02T19:44:07Z",
+    "active_duration_hours": 6.02,
+    "active_duration_label": "6.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
