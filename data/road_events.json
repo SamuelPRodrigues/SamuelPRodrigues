@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br. Período informado: 2026-09-02T13:43:00Z até fim não identificado. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-02T13:43:00Z; ativo há 6.0 h.",
+    "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br. Período informado: 2026-09-02T13:43:00Z até fim não identificado. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-02T13:43:00Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 6.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-02T13:43:00Z",
-    "last_seen_at": "2026-09-02T19:44:07Z",
+    "last_seen_at": "2026-09-02T19:44:23Z",
     "active_duration_hours": 6.02,
     "active_duration_label": "6.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "857eef00b30c3b671d2707fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
