@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br. Período informado: 2026-09-02T13:43:00Z até fim não identificado. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-02T13:43:00Z; ativo há 8.3 h.",
+    "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br. Período informado: 2026-09-02T13:43:00Z até fim não identificado. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-02T13:43:00Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,8 +27,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-09-02T21:59:47Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-09-02T22:01:01Z",
     "sources": [
       {
         "source": "lerunica.com.br",
@@ -41,15 +41,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 8.3,
+    "newsFreshnessHours": 10.27,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-02T13:43:00Z",
-    "last_seen_at": "2026-09-02T22:01:02Z",
-    "active_duration_hours": 8.3,
-    "active_duration_label": "8.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-09-02T22:01:02Z",
-    "news_signature": "857eef00b30c3b671d2707fd",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-09-02T23:59:03Z",
+    "active_duration_hours": 10.27,
+    "active_duration_label": "10.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]

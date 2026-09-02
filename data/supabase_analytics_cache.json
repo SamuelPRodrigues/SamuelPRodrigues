@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T22:01:02Z",
+  "updatedAt": "2026-09-02T23:59:03Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -238,12 +238,12 @@
     {
       "event_id": "1b42fa80e4a1071b92d403d7",
       "stable_event_id": "1b42fa80e4a1071b92d403d7",
-      "observation_hash": "14d3b4841c2db59f391683a8",
+      "observation_hash": "ca374fb6011e8440ebf90a95",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-02T22:00:56+00:00",
+      "snapshot_at": "2026-09-02T23:58:56+00:00",
       "first_seen_at": "2026-09-02T19:44:01+00:00",
-      "last_seen_at": "2026-09-02T22:00:56+00:00",
-      "updated_at": "2026-09-02T22:00:58.153612+00:00",
+      "last_seen_at": "2026-09-02T23:58:56+00:00",
+      "updated_at": "2026-09-02T23:58:58.607203+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -259,8 +259,8 @@
       "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br.. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.",
       "source": "lerunica.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -271,7 +271,7 @@
           "source": "lerunica.com.br",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
           "headline": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br.",
-          "date": "2026-09-02T22:00:58.153612+00:00"
+          "date": "2026-09-02T23:58:58.607203+00:00"
         }
       ],
       "sourceCount": 1,
@@ -23626,13 +23626,13 @@
   ],
   "windows": {
     "7": {
-      "events": 113,
+      "events": 112,
       "avgRisk": 44,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
         "climate": 93,
-        "road": 20
+        "road": 19
       },
       "byRegion": {
         "Sudeste": 30,
@@ -23640,21 +23640,15 @@
         "Sul": 21,
         "Norte": 16,
         "Centro-Oeste": 13,
-        "Sem região": 3
+        "Sem região": 2
       },
       "bySeverity": {
         "Moderado": 57,
-        "Alto": 30,
+        "Alto": 29,
         "Baixo": 23,
         "Crítico": 3
       },
       "dailyRisk": [
-        {
-          "date": "2026-08-26",
-          "avgRisk": 69,
-          "events": 1,
-          "maxRisk": 69
-        },
         {
           "date": "2026-08-27",
           "avgRisk": 63,
@@ -23700,35 +23694,29 @@
       ]
     },
     "30": {
-      "events": 251,
+      "events": 243,
       "avgRisk": 57,
       "maxRisk": 90,
-      "rainChance": 10,
+      "rainChance": 4,
       "byType": {
-        "road": 146,
-        "climate": 105
+        "road": 144,
+        "climate": 99
       },
       "byRegion": {
-        "Nordeste": 86,
-        "Sul": 61,
+        "Nordeste": 81,
         "Sudeste": 60,
+        "Sul": 58,
         "Norte": 23,
         "Centro-Oeste": 13,
         "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 158,
-        "Moderado": 66,
+        "Alto": 156,
+        "Moderado": 61,
         "Baixo": 23,
-        "Crítico": 4
+        "Crítico": 3
       },
       "dailyRisk": [
-        {
-          "date": "2026-08-03",
-          "avgRisk": 54,
-          "events": 8,
-          "maxRisk": 85
-        },
         {
           "date": "2026-08-04",
           "avgRisk": 69,
@@ -23912,35 +23900,29 @@
       ]
     },
     "90": {
-      "events": 509,
+      "events": 505,
       "avgRisk": 63,
       "maxRisk": 90,
       "rainChance": 14,
       "byType": {
-        "road": 399,
+        "road": 395,
         "climate": 110
       },
       "byRegion": {
-        "Nordeste": 178,
-        "Sudeste": 124,
+        "Nordeste": 177,
         "Sul": 123,
-        "Norte": 43,
+        "Sudeste": 122,
+        "Norte": 42,
         "Sem região": 23,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 411,
+        "Alto": 407,
         "Moderado": 71,
         "Baixo": 23,
         "Crítico": 4
       },
       "dailyRisk": [
-        {
-          "date": "2026-06-04",
-          "avgRisk": 69,
-          "events": 4,
-          "maxRisk": 69
-        },
         {
           "date": "2026-06-05",
           "avgRisk": 69,
