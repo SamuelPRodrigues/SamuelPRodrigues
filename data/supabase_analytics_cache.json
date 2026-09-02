@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T19:44:07Z",
+  "updatedAt": "2026-09-02T22:01:02Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -238,12 +238,12 @@
     {
       "event_id": "1b42fa80e4a1071b92d403d7",
       "stable_event_id": "1b42fa80e4a1071b92d403d7",
-      "observation_hash": "e701fa0a2562dde5d0987a73",
+      "observation_hash": "14d3b4841c2db59f391683a8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-02T19:44:00+00:00",
+      "snapshot_at": "2026-09-02T22:00:56+00:00",
       "first_seen_at": "2026-09-02T19:44:01+00:00",
-      "last_seen_at": "2026-09-02T19:44:00+00:00",
-      "updated_at": "2026-09-02T19:44:02.869357+00:00",
+      "last_seen_at": "2026-09-02T22:00:56+00:00",
+      "updated_at": "2026-09-02T22:00:58.153612+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -259,8 +259,8 @@
       "description": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br.. Fontes consolidadas: lerunica.com.br. Localização aproximada pelo corredor monitorado.",
       "source": "lerunica.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -271,7 +271,7 @@
           "source": "lerunica.com.br",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXM1RThNZlExeFdhY2plUFZrMmlOZDVJWWdWOUo4LWpTV3BweXJaRS1kdTFVS1RXWlhLckVGUmstR24yMjY4dmVYd0ppazR4Y1ZPckhrNzBtVG1OMWt4aWFZRk1yaldPSGdKOU5qZ0Z2SGdEWlJBNFhQeE1XOGhINUFCS2FQVEtyLVlkd0ZzNG5iWENadUxvZlp5T1ptZw",
           "headline": "Pista é totalmente interditada na BR-101 em São José - lerunica.com.br.",
-          "date": "2026-09-02T19:44:02.869357+00:00"
+          "date": "2026-09-02T22:00:58.153612+00:00"
         }
       ],
       "sourceCount": 1,
@@ -22348,6 +22348,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "05948a4bc013245ba55e8146",
+      "stable_event_id": "05948a4bc013245ba55e8146",
+      "observation_hash": "3f385dec54840be9c5587ceb",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-02T22:00:56+00:00",
+      "first_seen_at": "2026-05-31T17:16:47+00:00",
+      "last_seen_at": "2026-09-02T22:00:56+00:00",
+      "updated_at": "2026-09-02T22:00:58.153612+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Brasília",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -15.793,
+      "lon": -47.882,
+      "city": "Brasília",
+      "state": "DF",
+      "region": "Centro-Oeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:16Z; ativo há 94.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 106,
+      "estimated_hours": 26.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "2569a381fe8a1abed1056a48",
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "14905a84b141ce4de0066a32",
@@ -22986,35 +23015,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "4aeff1b5cdfa54777fe8051f",
-      "stable_event_id": "4aeff1b5cdfa54777fe8051f",
-      "observation_hash": "0a8546b44f16d0ad88f4609c",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-02T19:44:00+00:00",
-      "first_seen_at": "2026-05-26T06:17:45+00:00",
-      "last_seen_at": "2026-09-02T19:44:00+00:00",
-      "updated_at": "2026-09-02T19:44:02.869357+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Manaus",
-      "risk": 14,
-      "severity": "Baixo",
-      "lat": -3.119,
-      "lon": -60.021,
-      "city": "Manaus",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 99.6 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1562,
-      "estimated_hours": 390.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "da05029ce4265c3efca03507",
       "stable_event_id": "da05029ce4265c3efca03507",
       "observation_hash": "53ff5500176d06a7d8c74b61",
@@ -23131,35 +23131,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "5bbae218e2c2ee7fdd5c168c",
-      "stable_event_id": "5bbae218e2c2ee7fdd5c168c",
-      "observation_hash": "3c89f419e7b39980fc90439f",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-02T19:44:00+00:00",
-      "first_seen_at": "2026-05-29T17:17:11+00:00",
-      "last_seen_at": "2026-09-02T19:44:00+00:00",
-      "updated_at": "2026-09-02T19:44:02.869357+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Teresina",
-      "risk": 12,
-      "severity": "Baixo",
-      "lat": -5.091,
-      "lon": -42.803,
-      "city": "Teresina",
-      "state": "PI",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:20Z; ativo há 96.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1158,
-      "estimated_hours": 289.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "c56cab3f7a0e28a25e8b2a73",
       "stable_event_id": "c56cab3f7a0e28a25e8b2a73",
       "observation_hash": "57562d8cfacbc7421950adf4",
@@ -23243,6 +23214,35 @@
       "source_url": "",
       "total_snapshots": 131,
       "estimated_hours": 32.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "4aeff1b5cdfa54777fe8051f",
+      "stable_event_id": "4aeff1b5cdfa54777fe8051f",
+      "observation_hash": "1721eed2afb9a1b06c2c933b",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-02T22:00:56+00:00",
+      "first_seen_at": "2026-05-26T06:17:45+00:00",
+      "last_seen_at": "2026-09-02T22:00:56+00:00",
+      "updated_at": "2026-09-02T22:00:58.153612+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Manaus",
+      "risk": 10,
+      "severity": "Baixo",
+      "lat": -3.119,
+      "lon": -60.021,
+      "city": "Manaus",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T06:15:15Z; ativo há 99.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1563,
+      "estimated_hours": 390.75,
       "active": true,
       "storage": "supabase"
     },
@@ -23479,35 +23479,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "05948a4bc013245ba55e8146",
-      "stable_event_id": "05948a4bc013245ba55e8146",
-      "observation_hash": "fd1896b5f428ee8206504f34",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-08-16T14:16:57+00:00",
-      "first_seen_at": "2026-05-31T17:16:47+00:00",
-      "last_seen_at": "2026-08-16T14:16:57+00:00",
-      "updated_at": "2026-08-16T14:16:58.780546+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Brasília",
-      "risk": 8,
-      "severity": "Baixo",
-      "lat": -15.793,
-      "lon": -47.882,
-      "city": "Brasília",
-      "state": "DF",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:16Z; ativo há 76.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 105,
-      "estimated_hours": 26.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "9055ebd0a3e53b37297d0cf2",
       "stable_event_id": "9055ebd0a3e53b37297d0cf2",
       "observation_hash": "2c7f6eb79f2a9d799cc727d7",
@@ -23622,29 +23593,58 @@
       "estimated_hours": 174.25,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "5bbae218e2c2ee7fdd5c168c",
+      "stable_event_id": "5bbae218e2c2ee7fdd5c168c",
+      "observation_hash": "741ec8017de72b6e16dd4a18",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-02T22:00:56+00:00",
+      "first_seen_at": "2026-05-29T17:17:11+00:00",
+      "last_seen_at": "2026-09-02T22:00:56+00:00",
+      "updated_at": "2026-09-02T22:00:58.153612+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Teresina",
+      "risk": 3,
+      "severity": "Baixo",
+      "lat": -5.091,
+      "lon": -42.803,
+      "city": "Teresina",
+      "state": "PI",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:20Z; ativo há 96.2 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1159,
+      "estimated_hours": 289.75,
+      "active": true,
+      "storage": "supabase"
     }
   ],
   "windows": {
     "7": {
       "events": 113,
-      "avgRisk": 45,
+      "avgRisk": 44,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
-        "climate": 92,
-        "road": 21
+        "climate": 93,
+        "road": 20
       },
       "byRegion": {
         "Sudeste": 30,
         "Nordeste": 30,
-        "Sul": 22,
+        "Sul": 21,
         "Norte": 16,
-        "Centro-Oeste": 12,
+        "Centro-Oeste": 13,
         "Sem região": 3
       },
       "bySeverity": {
-        "Moderado": 56,
-        "Alto": 31,
+        "Moderado": 57,
+        "Alto": 30,
         "Baixo": 23,
         "Crítico": 3
       },
@@ -23652,7 +23652,7 @@
         {
           "date": "2026-08-26",
           "avgRisk": 69,
-          "events": 2,
+          "events": 1,
           "maxRisk": 69
         },
         {
@@ -23694,39 +23694,39 @@
         {
           "date": "2026-09-02",
           "avgRisk": 31,
-          "events": 45,
+          "events": 46,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 258,
+      "events": 251,
       "avgRisk": 57,
       "maxRisk": 90,
-      "rainChance": 14,
+      "rainChance": 10,
       "byType": {
-        "road": 148,
-        "climate": 110
+        "road": 146,
+        "climate": 105
       },
       "byRegion": {
-        "Nordeste": 87,
-        "Sul": 62,
-        "Sudeste": 61,
-        "Norte": 27,
+        "Nordeste": 86,
+        "Sul": 61,
+        "Sudeste": 60,
+        "Norte": 23,
         "Centro-Oeste": 13,
         "Sem região": 8
       },
       "bySeverity": {
-        "Alto": 160,
-        "Moderado": 70,
-        "Baixo": 24,
+        "Alto": 158,
+        "Moderado": 66,
+        "Baixo": 23,
         "Crítico": 4
       },
       "dailyRisk": [
         {
           "date": "2026-08-03",
-          "avgRisk": 52,
-          "events": 15,
+          "avgRisk": 54,
+          "events": 8,
           "maxRisk": 85
         },
         {
@@ -23803,8 +23803,8 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 54,
-          "events": 4,
+          "avgRisk": 69,
+          "events": 3,
           "maxRisk": 69
         },
         {
@@ -23906,7 +23906,7 @@
         {
           "date": "2026-09-02",
           "avgRisk": 31,
-          "events": 45,
+          "events": 46,
           "maxRisk": 69
         }
       ]
@@ -23930,8 +23930,8 @@
       },
       "bySeverity": {
         "Alto": 411,
-        "Moderado": 70,
-        "Baixo": 24,
+        "Moderado": 71,
+        "Baixo": 23,
         "Crítico": 4
       },
       "dailyRisk": [
@@ -24369,8 +24369,8 @@
         },
         {
           "date": "2026-08-16",
-          "avgRisk": 54,
-          "events": 4,
+          "avgRisk": 69,
+          "events": 3,
           "maxRisk": 69
         },
         {
@@ -24472,7 +24472,7 @@
         {
           "date": "2026-09-02",
           "avgRisk": 31,
-          "events": 45,
+          "events": 46,
           "maxRisk": 69
         }
       ]
