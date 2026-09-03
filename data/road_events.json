@@ -9,7 +9,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-153 volta a ser bloqueada para detonação de rochas em Rialma. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Goiânia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-03T20:50:52Z; ativo há 3.1 h.",
+    "description": "BR-153 volta a ser bloqueada para detonação de rochas em Rialma. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Goiânia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-03T20:50:52Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 3.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-03T20:50:52Z",
-    "last_seen_at": "2026-09-03T23:54:41Z",
-    "active_duration_hours": 3.06,
+    "last_seen_at": "2026-09-03T23:54:55Z",
+    "active_duration_hours": 3.07,
     "active_duration_label": "3.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "62e5d722d121624f072939c9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -5.795,
     "lon": -35.209,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-304 tem trecho interditado em Mossoró após poste cair sobre a pista. Fontes consolidadas: Notícias públicas - Portal Diário do RN. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-03T13:09:42Z; ativo há 10.8 h.",
+    "description": "BR-304 tem trecho interditado em Mossoró após poste cair sobre a pista. Fontes consolidadas: Notícias públicas - Portal Diário do RN. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-03T13:09:42Z; ativo há 10.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,8 +104,11 @@
     "active_duration_hours": 10.75,
     "active_duration_label": "10.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-03T23:54:41Z",
+    "news_signature": "f2f652bbd20e7024933bd3ba",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +120,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente com caminhão interdita parcialmente trecho da BR-470, em Blumenau - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-03T12:28:58Z; ativo há 11.4 h.",
+    "description": "Acidente com caminhão interdita parcialmente trecho da BR-470, em Blumenau - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-03T12:28:58Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,8 +151,11 @@
     "active_duration_hours": 11.43,
     "active_duration_label": "11.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-03T23:54:41Z",
+    "news_signature": "2a7d40dff8755ce8d8983903",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -159,7 +167,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vazamento de ácido clorídrico mantém trecho da Via Dutra interditado em Piraí - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-03T12:13:00Z; ativo há 11.7 h.",
+    "description": "Vazamento de ácido clorídrico mantém trecho da Via Dutra interditado em Piraí - Rádio Manchete Rio. Fontes consolidadas: Notícias públicas - Rádio Manchete Rio. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-03T12:13:00Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -187,11 +195,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-03T12:13:00Z",
     "last_seen_at": "2026-09-03T23:54:41Z",
-    "active_duration_hours": 11.69,
+    "active_duration_hours": 11.7,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-03T23:54:41Z",
+    "news_signature": "7d0f48bf7f449f625ecbfc32",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -208,7 +219,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta. Período informado: 2026-09-03T03:00:00Z até 2026-09-04T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-03T03:00:00Z; ativo há 20.9 h.",
+    "description": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta. Período informado: 2026-09-03T03:00:00Z até 2026-09-04T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-03T03:00:00Z; ativo há 20.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -237,9 +248,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-03T03:00:00Z",
-    "last_seen_at": "2026-09-03T23:54:41Z",
-    "active_duration_hours": 20.91,
+    "last_seen_at": "2026-09-03T23:54:55Z",
+    "active_duration_hours": 20.92,
     "active_duration_label": "20.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c59c1c2c1b18ddb58f044e14",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
