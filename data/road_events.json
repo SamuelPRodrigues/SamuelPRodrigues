@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta. Período informado: 2026-09-03T03:00:00Z até 2026-09-04T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-03T03:00:00Z; ativo há 14.0 h.",
+    "description": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta. Período informado: 2026-09-03T03:00:00Z até 2026-09-04T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-03T03:00:00Z; ativo há 14.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,9 +43,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-03T03:00:00Z",
-    "last_seen_at": "2026-09-03T17:00:51Z",
-    "active_duration_hours": 14.01,
+    "last_seen_at": "2026-09-03T17:01:07Z",
+    "active_duration_hours": 14.02,
     "active_duration_label": "14.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c59c1c2c1b18ddb58f044e14",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
