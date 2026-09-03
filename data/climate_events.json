@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Tabatinga",
+    "region": "Norte",
+    "state": "AM",
+    "lat": -4.252,
+    "lon": -69.938,
+    "risk": 66,
+    "current": {
+      "time": "2026-09-03T00:45",
+      "interval": 900,
+      "temperature_2m": 24.1,
+      "precipitation": 0.4,
+      "rain": 0.2,
+      "showers": 0.2,
+      "wind_speed_10m": 3.9,
+      "wind_gusts_10m": 22.3,
+      "weather_code": 80
+    },
+    "reasons": [
+      "Pancadas de chuva detectadas",
+      "Chuva/precipitação detectada (0.8 mm)"
+    ],
+    "time": "2026-09-03T00:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-09-03T03:56:51Z",
+    "stable_event_id": "2569a381fe8a1abed1056a48",
+    "event_id": "2569a381fe8a1abed1056a48",
+    "first_seen_at": "2026-05-26T16:15:18Z",
+    "last_seen_at": "2026-09-03T03:58:27Z",
+    "active_duration_hours": 2387.72,
+    "active_duration_label": "99.5 dias",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "description": "Rastreio: primeiro registro em 2026-05-26T16:15:18Z; ativo há 99.5 dias."
+  },
+  {
+    "active": true,
+    "type": "climate",
+    "name": "Ilhéus",
+    "region": "Nordeste",
+    "state": "BA",
+    "lat": -14.793,
+    "lon": -39.046,
+    "risk": 39,
+    "current": {
+      "time": "2026-09-03T00:45",
+      "interval": 900,
+      "temperature_2m": 23.7,
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "showers": 0.0,
+      "wind_speed_10m": 6.6,
+      "wind_gusts_10m": 14.8,
+      "weather_code": 51
+    },
+    "reasons": [
+      "Garoa detectada",
+      "Chuva/precipitação detectada (0.2 mm)"
+    ],
+    "time": "2026-09-03T00:45",
+    "source": "Open-Meteo",
+    "createdAt": "2026-09-03T03:56:53Z",
+    "stable_event_id": "7162d88fbd3ade34a9dad596",
+    "event_id": "7162d88fbd3ade34a9dad596",
+    "first_seen_at": "2026-05-27T07:15:15Z",
+    "last_seen_at": "2026-09-03T03:58:27Z",
+    "active_duration_hours": 2372.72,
+    "active_duration_label": "98.9 dias",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "description": "Rastreio: primeiro registro em 2026-05-27T07:15:15Z; ativo há 98.9 dias."
+  }
+]
