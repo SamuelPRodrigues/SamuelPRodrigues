@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "d4f5c778e678e155e2cfbebc",
+    "stable_event_id": "d4f5c778e678e155e2cfbebc",
+    "name": "Interdição planejada por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "city": "Maceió",
+    "state": "AL",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta. Período informado: 2026-09-03T03:00:00Z até 2026-09-04T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-03T03:00:00Z; ativo há 14.0 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - A Gazeta",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjZqUlVVb2RjU2t6N2hyVC1ZanFNNWd5bFFhY19PRXp3TGx1N3ZvVTFjTHk3RUNwZ0dBOWFVRlREVWRYYlRJdlVobXNpempSSFAwcGVEZVI3WkZlcDdjbjJpUnBJWXVZMXBOdGJ2LVBoTTN3NFRIalFGSlFUNV9rR01yV1FEdXBVVnpvQjhRNl90dUx1dk9zUUNvaEZWcjVuWE5LcDJqYXhTakE",
+    "headline": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta",
+    "newsDate": "2026-09-03T00:59:00Z",
+    "plannedStartAt": "2026-09-03T03:00:00Z",
+    "plannedEndAt": "2026-09-04T02:59:59Z",
+    "plannedWindowRule": "Período extraído do texto da notícia.",
+    "lifecycle_status": "active_planned_closure",
+    "tracker_reason": "planned_road_news_window",
+    "updatedAt": "2026-09-03T16:59:36Z",
+    "sources": [
+      {
+        "source": "Notícias públicas - A Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjZqUlVVb2RjU2t6N2hyVC1ZanFNNWd5bFFhY19PRXp3TGx1N3ZvVTFjTHk3RUNwZ0dBOWFVRlREVWRYYlRJdlVobXNpempSSFAwcGVEZVI3WkZlcDdjbjJpUnBJWXVZMXBOdGJ2LVBoTTN3NFRIalFGSlFUNV9rR01yV1FEdXBVVnpvQjhRNl90dUx1dk9zUUNvaEZWcjVuWE5LcDJqYXhTakE",
+        "headline": "BR 101, em Fundão, terá trecho totalmente interditado na quinta-feira (3) - A Gazeta",
+        "date": "2026-09-03T00:59:00Z"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjZqUlVVb2RjU2t6N2hyVC1ZanFNNWd5bFFhY19PRXp3TGx1N3ZvVTFjTHk3RUNwZ0dBOWFVRlREVWRYYlRJdlVobXNpempSSFAwcGVEZVI3WkZlcDdjbjJpUnBJWXVZMXBOdGJ2LVBoTTN3NFRIalFGSlFUNV9rR01yV1FEdXBVVnpvQjhRNl90dUx1dk9zUUNvaEZWcjVuWE5LcDJqYXhTakE",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
+    "first_seen_at": "2026-09-03T03:00:00Z",
+    "last_seen_at": "2026-09-03T17:00:51Z",
+    "active_duration_hours": 14.01,
+    "active_duration_label": "14.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
