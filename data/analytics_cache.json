@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T03:58:52Z",
+  "updatedAt": "2026-09-03T05:54:54Z",
   "source": "google_sheets_current_state",
   "storageMode": "current_state_upsert",
   "error": null,
@@ -9,9 +9,9 @@
       "stable_event_id": "2569a381fe8a1abed1056a48",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-03T03:58:44Z",
+      "snapshot_at": "2026-09-03T05:54:44Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-09-03T03:58:46.729Z",
+      "last_seen_at": "2026-09-03T05:54:49.164Z",
       "updated_at": "2026-09-03T03:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -41,9 +41,9 @@
       "stable_event_id": "7162d88fbd3ade34a9dad596",
       "observation_hash": "",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-03T03:58:44Z",
+      "snapshot_at": "2026-09-03T05:54:44Z",
       "first_seen_at": "",
-      "last_seen_at": "2026-09-03T03:58:46.729Z",
+      "last_seen_at": "2026-09-03T05:54:49.164Z",
       "updated_at": "2026-09-03T03:45:00.000Z",
       "deactivated_at": "",
       "active_duration_hours": 0,
@@ -20519,39 +20519,39 @@
   ],
   "windows": {
     "7": {
-      "events": 112,
-      "activeEvents": 112,
+      "events": 108,
+      "activeEvents": 108,
       "inactiveEvents": 0,
-      "avgRisk": 45,
+      "avgRisk": 44,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
         "climate": 93,
-        "road": 19
+        "road": 15
       },
       "byRegion": {
-        "Nordeste": 31,
+        "Nordeste": 30,
         "Sudeste": 29,
         "Sul": 21,
-        "Norte": 16,
-        "Centro-Oeste": 13,
-        "Sem região": 2
+        "Norte": 15,
+        "Centro-Oeste": 12,
+        "Sem região": 1
       },
       "bySeverity": {
         "Moderado": 57,
-        "Alto": 30,
+        "Alto": 26,
         "Baixo": 22,
         "Crítico": 3
       },
       "byLifecycle": {
-        "active": 112
+        "active": 108
       },
       "dailyRisk": [
         {
           "date": "2026-08-27",
-          "avgRisk": 63,
-          "events": 5,
-          "maxRisk": 69
+          "avgRisk": 41,
+          "events": 1,
+          "maxRisk": 41
         },
         {
           "date": "2026-08-28",
@@ -20598,39 +20598,39 @@
       ]
     },
     "30": {
-      "events": 313,
-      "activeEvents": 299,
-      "inactiveEvents": 14,
+      "events": 309,
+      "activeEvents": 298,
+      "inactiveEvents": 11,
       "avgRisk": 60,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
-        "road": 218,
+        "road": 214,
         "climate": 95
       },
       "byRegion": {
-        "Nordeste": 109,
-        "Sudeste": 82,
+        "Nordeste": 106,
+        "Sudeste": 81,
         "Sul": 69,
         "Norte": 29,
         "Centro-Oeste": 13,
         "Sem região": 11
       },
       "bySeverity": {
-        "Alto": 229,
+        "Alto": 225,
         "Moderado": 59,
         "Baixo": 22,
         "Crítico": 3
       },
       "byLifecycle": {
-        "active": 299,
-        "inactive": 14
+        "active": 298,
+        "inactive": 11
       },
       "dailyRisk": [
         {
           "date": "2026-08-04",
           "avgRisk": 69,
-          "events": 11,
+          "events": 7,
           "maxRisk": 69
         },
         {
