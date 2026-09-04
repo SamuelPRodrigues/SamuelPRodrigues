@@ -1,20 +1,14 @@
 {
-  "updatedAt": "2026-09-04T17:39:56Z",
+  "updatedAt": "2026-09-04T19:12:13Z",
   "configured": true,
-  "eventsPrepared": 38,
+  "eventsPrepared": 35,
   "historyMode": "current state upsert in Google Sheets; permanent history should use external database",
   "storageMode": "current_state_upsert",
-  "snapshotBucket": "2026-09-04T17:30Z",
+  "snapshotBucket": "2026-09-04T19:00Z",
   "eventLifecycleFields": true,
-  "ok": true,
-  "response": {
-    "ok": true,
-    "received": 38,
-    "inserted": 0,
-    "updated": 38,
-    "total_rows": 780
-  },
+  "ok": false,
+  "response": null,
   "analyticsCache": true,
-  "error": null,
+  "error": "HTTP 404: <!DOCTYPE html><html lang=\"en\"><head><script nonce=\"fbWR3Zm4UWz8E8H-j79RXw\">window['ppConfig'] = {productName: '26981ed0d57bbad37e728ff58134270c', deleteIsEnforced:  false , sealIsEnforced:  false , heartbeatRate:  0.5 , periodicReportingRateMillis:  60000.0 , disableAllReporting:  false };(function(){'use strict';function k(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function l(a){var b=typeof Symbol!=\"undefined\"&&Symbol.iterator&&a[Symbol.iterator];if(b)ret",
   "analyticsRows": 640
 }
