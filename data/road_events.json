@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-390 será interditada entre Pindotiba e Orleans e na Serra do Rio do Rastro nesta sexta e sábado - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-04T13:00:00Z; ativo há 6.2 h.",
+    "description": "SC-390 será interditada entre Pindotiba e Orleans e na Serra do Rio do Rastro nesta sexta e sábado - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-04T13:00:00Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 6.2,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-390"
+    "detectedRoad": "SC-390",
+    "last_confirmed_at": "2026-09-04T19:11:57Z",
+    "news_signature": "1fe90586f0f160c2f4dba060",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
