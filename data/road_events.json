@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-390 será interditada entre Pindotiba e Orleans e na Serra do Rio do Rastro nesta sexta e sábado - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-04T13:00:00Z; ativo há 3.8 h.",
+    "description": "SC-390 será interditada entre Pindotiba e Orleans e na Serra do Rio do Rastro nesta sexta e sábado - Ligado no Sul. Fontes consolidadas: Notícias públicas - Ligado no Sul; Notícias públicas - Hora Hiper. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-04T13:00:00Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSG12Tmx6dnBfUk5DM0t2MUdRV1NYS25pRWh5bkJhNXhzakh0SjN4TFZURGV0MDdyVXlnRlFYcG9FVmlva1JqYTEtTlNpcDhvSHNtRWNveDM2YnZick9EZEJzWldlSjMzM2NKSEpQZXR2MmR5T3Qzd2o4b1JUR3JaWXNaQlQ2SDMtWi01N08wMU5yQjI4bWw5MUlQamNOZ2tZSmFRVU1TSGMtTUhpcDJQMlhNRF9sX3dzODdxMnp0ek9jSHRvaUhQeFJsWV91WFd6WXRmZHdn",
     "headline": "SC-390 será interditada entre Pindotiba e Orleans e na Serra do Rio do Rastro nesta sexta e sábado - Ligado no Sul",
     "newsDate": "Fri, 04 Sep 2026 13:00:00 GMT",
-    "updatedAt": "2026-09-04T16:48:26Z",
+    "updatedAt": "2026-09-04T19:10:36Z",
     "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSG12Tmx6dnBfUk5DM0t2MUdRV1NYS25pRWh5bkJhNXhzakh0SjN4TFZURGV0MDdyVXlnRlFYcG9FVmlva1JqYTEtTlNpcDhvSHNtRWNveDM2YnZick9EZEJzWldlSjMzM2NKSEpQZXR2MmR5T3Qzd2o4b1JUR3JaWXNaQlQ2SDMtWi01N08wMU5yQjI4bWw5MUlQamNOZ2tZSmFRVU1TSGMtTUhpcDJQMlhNRF9sX3dzODdxMnp0ek9jSHRvaUhQeFJsWV91WFd6WXRmZHdn",
     "sources": [
       {
@@ -39,17 +39,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "003052bd607b8274e37c5145",
     "event_id": "003052bd607b8274e37c5145",
-    "newsFreshnessHours": 3.83,
+    "newsFreshnessHours": 6.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-04T13:00:00Z",
-    "last_seen_at": "2026-09-04T16:50:02Z",
-    "active_duration_hours": 3.83,
-    "active_duration_label": "3.8 h",
+    "last_seen_at": "2026-09-04T19:11:57Z",
+    "active_duration_hours": 6.2,
+    "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-390",
-    "news_signature": "1fe90586f0f160c2f4dba060",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "SC-390"
   }
 ]
