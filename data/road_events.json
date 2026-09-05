@@ -42,12 +42,14 @@
     "newsFreshnessHours": 0.61,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T12:10:00Z",
-    "last_seen_at": "2026-09-05T12:46:31Z",
+    "last_seen_at": "2026-09-05T12:46:45Z",
     "active_duration_hours": 0.61,
     "active_duration_label": "37 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MT-251"
+    "detectedRoad": "MT-251",
+    "news_signature": "7896daa5f6c951c4d36dd0da",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
