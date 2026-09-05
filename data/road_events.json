@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-05T17:11:15Z; ativo há 4.2 h.",
+    "description": "Trecho da BR-116 segue interditado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-05T17:11:15Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T17:11:15Z",
     "last_seen_at": "2026-09-05T21:21:40Z",
-    "active_duration_hours": 4.17,
+    "active_duration_hours": 4.19,
     "active_duration_label": "4.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-05T21:21:40Z",
+    "news_signature": "0760940f55936bcb88442801",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MT-251 será interditada entre Cuiabá e Chapada dos Guimarães neste domingo (6); entenda. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CircuitoMT; Notícias públicas - Cliquef5; Notícias públicas - rdnews.com.br. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-05T11:54:27Z; ativo há 9.4 h.",
+    "description": "MT-251 será interditada entre Cuiabá e Chapada dos Guimarães neste domingo (6); entenda. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CircuitoMT; Notícias públicas - Cliquef5; Notícias públicas - rdnews.com.br. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-05T11:54:27Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -98,13 +101,15 @@
     "newsFreshnessHours": 9.45,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T11:54:27Z",
-    "last_seen_at": "2026-09-05T21:21:40Z",
-    "active_duration_hours": 9.45,
-    "active_duration_label": "9.4 h",
+    "last_seen_at": "2026-09-05T21:22:31Z",
+    "active_duration_hours": 9.47,
+    "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MT-251"
+    "detectedRoad": "MT-251",
+    "news_signature": "864865c66bf3e9be9a68c15d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +126,7 @@
     "state": "AM",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Via marginal da BR-230 será totalmente interditada para obras, em Cabedelo - paraibaja.com.br. Período informado: 2026-09-05T10:30:51Z até fim não identificado. Fontes consolidadas: paraibaja.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-05T10:30:51Z; ativo há 10.8 h.",
+    "description": "Via marginal da BR-230 será totalmente interditada para obras, em Cabedelo - paraibaja.com.br. Período informado: 2026-09-05T10:30:51Z até fim não identificado. Fontes consolidadas: paraibaja.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-05T10:30:51Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -134,7 +139,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-05T21:20:24Z",
     "sources": [
       {
@@ -152,8 +157,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T10:30:51Z",
     "last_seen_at": "2026-09-05T21:21:40Z",
-    "active_duration_hours": 10.85,
-    "active_duration_label": "10.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "active_duration_hours": 10.86,
+    "active_duration_label": "10.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-05T21:21:40Z",
+    "news_signature": "cb534f7b5b46d368c1cadf58",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
