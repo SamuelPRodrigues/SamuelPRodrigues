@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "URGENTE | BR-040 é interditada em Valparaíso e trânsito fica parado. Fontes consolidadas: Notícias públicas - Portal do Val. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-04T22:05:54Z; ativo há 11.2 h.",
+    "description": "URGENTE | BR-040 é interditada em Valparaíso e trânsito fica parado. Fontes consolidadas: Notícias públicas - Portal do Val. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-04T22:05:54Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-04T22:05:54Z",
     "last_seen_at": "2026-09-05T09:16:21Z",
-    "active_duration_hours": 11.17,
+    "active_duration_hours": 11.18,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-05T09:16:21Z",
+    "news_signature": "ee43cf7e405654d8ead27c24",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Fernão Dias terá faixa interditada e obras 24 horas por dia no trecho de Vargem. - Jornal Estância de Atibaia. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-04T21:34:38Z; ativo há 11.7 h.",
+    "description": "Fernão Dias terá faixa interditada e obras 24 horas por dia no trecho de Vargem. - Jornal Estância de Atibaia. Fontes consolidadas: Notícias públicas - Jornal Estância de Atibaia. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-04T21:34:38Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +83,13 @@
     "newsFreshnessHours": 11.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-04T21:34:38Z",
-    "last_seen_at": "2026-09-05T09:16:21Z",
+    "last_seen_at": "2026-09-05T09:16:36Z",
     "active_duration_hours": 11.7,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "de074d9f77f45941d40be93f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
