@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATENÇÃO, MOTORISTA: MT-251 será interditada neste domingo e irá afetar quem segue para Cuiabá - cliquef5.com.br. Fontes consolidadas: Notícias públicas - cliquef5.com.br; Notícias públicas - Rdnews. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-05T12:10:00Z; ativo há 3.5 h.",
+    "description": "ATENÇÃO, MOTORISTA: MT-251 será interditada neste domingo e irá afetar quem segue para Cuiabá - cliquef5.com.br. Fontes consolidadas: Notícias públicas - cliquef5.com.br; Notícias públicas - Rdnews. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-05T12:10:00Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 3.45,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T12:10:00Z",
-    "last_seen_at": "2026-09-05T15:37:07Z",
-    "active_duration_hours": 3.45,
+    "last_seen_at": "2026-09-05T15:37:22Z",
+    "active_duration_hours": 3.46,
     "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MT-251"
+    "detectedRoad": "MT-251",
+    "news_signature": "e763c1e762b303e5646e5340",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
