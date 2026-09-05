@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "URGENTE | BR-040 é interditada em Valparaíso e trânsito fica parado. Fontes consolidadas: Notícias públicas - Portal do Val. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-04T22:05:54Z; ativo há 2.9 h.",
+    "description": "URGENTE | BR-040 é interditada em Valparaíso e trânsito fica parado. Fontes consolidadas: Notícias públicas - Portal do Val. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-04T22:05:54Z; ativo há 2.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-04T22:05:54Z",
     "last_seen_at": "2026-09-05T01:01:23Z",
-    "active_duration_hours": 2.92,
+    "active_duration_hours": 2.93,
     "active_duration_label": "2.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-05T01:01:23Z",
+    "news_signature": "ee43cf7e405654d8ead27c24",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MT-251 será interditada para corrida entre Cuiabá e Chapada neste domingo - Rdnews. Fontes consolidadas: Notícias públicas - Rdnews. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-04T18:55:00Z; ativo há 6.1 h.",
+    "description": "MT-251 será interditada para corrida entre Cuiabá e Chapada neste domingo - Rdnews. Fontes consolidadas: Notícias públicas - Rdnews. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-04T18:55:00Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 6.11,
     "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MT-251"
+    "detectedRoad": "MT-251",
+    "last_confirmed_at": "2026-09-05T01:01:23Z",
+    "news_signature": "5de8c2a38634b0b8adf4c1ce",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
