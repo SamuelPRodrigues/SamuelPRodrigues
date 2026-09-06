@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-09-06T20:31:36Z",
+  "updatedAt": "2026-09-06T22:16:29Z",
   "queries": 6,
-  "newItemsBeforeMerge": 3,
+  "newItemsBeforeMerge": 57,
   "savedRoadNewsReused": 3,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 54,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Prefeitura de BH realiza operação especial para nova etapa das obras do Trevo do Belvedere - Prefeitura de Belo Horizonte",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Vídeo mostra carro batendo de frente com carreta na Rodovia Zeferino Vaz; motorista morreu - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Quem era o motorista que morreu ao bater de frente com carreta na Rodovia Zeferino Vaz, em Paulínia - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caminhão tomba, derrama carga e provoca engavetamento entre vários veículos na BR-324 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Passageira morre e duas pessoas ficam feridas em acidente entre caminhão e carreta em Itatinga - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro pega fogo e duas pessoas morrem após colisão com caminhão na BR-290 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Carro invade pista contrária, bate de frente com carreta e motorista morre em rodovia do interior de SP - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Mulher morre após batida frontal entre motocicleta e carro na BR-364 em Pimenta Bueno, RO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Jovem morre e dois irmãos ficam feridos após carro colidir com carreta parada em acostamento, em João Pessoa - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista de caminhonete morre no PR após ser atingido por carro que invadiu pista contrária na BR-277 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "VÍDEO: motoristas saqueiam carga de carne após carreta tombar na BR-163 em MT - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista de aplicativo morre após colisão entre motos na BR-364, em Rio Branco - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Passageiro morre após moto ser atingida por carreta em viaduto da BR-101; piloto se feriu - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Chuva forte e ventos de até 80 km/h: Rio tem alerta de severidade alta neste sábado - O GLOBO",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte coloca São Paulo em estado de atenção - R7",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte na Zona Sudoeste faz Rock in Rio suspender agendamento dos brinquedos; veja - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuvas e ventos fortes causam estragos em diversas cidades de Goiás; vídeos - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "São Paulo tem chuva e ventos fortes; céu nublado faz 'dia virar noite' em vários pontos da cidade - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Vídeo mostra temporal que derrubou cobertura de estádio e danificou escolas em Promissão - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Rajada de ventos de 110 km/h, falta de energia e aulas suspensas: temporal causa transtornos em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: chuva de granizo surpreende moradores de cidade do sudoeste da Bahia - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "316 cidades do Paraná têm alerta para chuva forte, granizo e ventos de até 60 km/h; confira quais - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Pedras de granizo do tamanho de bolas de tênis causam estragos e deixam famílias desabrigadas em Piracaia, SP - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Rock in Rio 2026: CET-Rio inicia operação especial de trânsito nesta sexta-feira - Prefeitura da Cidade do Rio de Janeiro",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Desfile de 7 de Setembro terá alterações no trânsito e transporte da Capital - Prefeitura de Porto Alegre",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
