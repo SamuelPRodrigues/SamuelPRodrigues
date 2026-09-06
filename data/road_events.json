@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 tem faixa interditada em Paulista para instalação de postes - Diario de Pernambuco. Fontes consolidadas: Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-06T15:04:00Z; ativo há 5.4 h.",
+    "description": "BR-101 tem faixa interditada em Paulista para instalação de postes - Diario de Pernambuco. Fontes consolidadas: Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-06T15:04:00Z; ativo há 5.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-06T15:04:00Z",
     "last_seen_at": "2026-09-06T20:30:41Z",
-    "active_duration_hours": 5.44,
-    "active_duration_label": "5.4 h",
+    "active_duration_hours": 5.45,
+    "active_duration_label": "5.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-06T20:30:41Z",
+    "news_signature": "4aa24a9e3cc2b7a69c4a293d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Via marginal da BR-230 será interditada em Cabedelo a partir de terça-feira para obras - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-06T13:46:29Z; ativo há 6.7 h.",
+    "description": "Via marginal da BR-230 será interditada em Cabedelo a partir de terça-feira para obras - ClickPB. Fontes consolidadas: Notícias públicas - ClickPB. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-06T13:46:29Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 6.74,
     "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-06T20:30:41Z",
+    "news_signature": "f348080fbaa5dda28dba1e5e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +108,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.7 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 104.7 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.7 dias.7 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 104.7 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,8 +150,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-05-25T03:00:00Z",
     "last_seen_at": "2026-09-06T20:30:41Z",
-    "active_duration_hours": 2513.51,
+    "active_duration_hours": 2513.52,
     "active_duration_label": "104.7 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-06T20:30:41Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
