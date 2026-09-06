@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 tem faixa interditada em Paulista para instalação de postes - Diario de Pernambuco. Fontes consolidadas: Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-06T15:04:00Z; ativo há 8.9 h.",
+    "description": "BR-101 tem faixa interditada em Paulista para instalação de postes - Diario de Pernambuco. Fontes consolidadas: Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-06T15:04:00Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-06T15:04:00Z",
     "last_seen_at": "2026-09-06T23:58:46Z",
-    "active_duration_hours": 8.91,
+    "active_duration_hours": 8.92,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-06T23:58:46Z",
+    "news_signature": "4aa24a9e3cc2b7a69c4a293d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Via marginal da BR-230 será interditada em Cabedelo a partir de terça-feira para obras - clickpb.com.br. Fontes consolidadas: Notícias públicas - clickpb.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-06T13:46:29Z; ativo há 10.2 h.",
+    "description": "Via marginal da BR-230 será interditada em Cabedelo a partir de terça-feira para obras - clickpb.com.br. Fontes consolidadas: Notícias públicas - clickpb.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-06T13:46:29Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +83,13 @@
     "newsFreshnessHours": 10.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-06T13:46:29Z",
-    "last_seen_at": "2026-09-06T23:58:46Z",
-    "active_duration_hours": 10.2,
+    "last_seen_at": "2026-09-06T23:59:01Z",
+    "active_duration_hours": 10.21,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c8fd4a758874916bf77a8f73",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
