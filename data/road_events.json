@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão carregado com soja tomba na BR-277 e deixa trânsito parcialmente interditado na Serra de São Luiz do Purunã - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-06T08:11:09Z; ativo há 4.9 h.",
+    "description": "Caminhão carregado com soja tomba na BR-277 e deixa trânsito parcialmente interditado na Serra de São Luiz do Purunã - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-06T08:11:09Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,7 +40,10 @@
     "active_duration_hours": 4.9,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-06T13:05:01Z",
+    "news_signature": "28ccda5d76675263b4c6c9d9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
