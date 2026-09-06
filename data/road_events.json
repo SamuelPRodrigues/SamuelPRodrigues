@@ -14,7 +14,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 É TOTALMENTE INTERDITADA PARA RETIRADA DE VEÍCULO ACIDENTADO - Rádio Chapecó. Período informado: 2026-09-05T19:31:14Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Chapecó. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-05T19:31:14Z; ativo há 9.6 h.",
+    "description": "BR-282 É TOTALMENTE INTERDITADA PARA RETIRADA DE VEÍCULO ACIDENTADO - Rádio Chapecó. Período informado: 2026-09-05T19:31:14Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Chapecó. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-05T19:31:14Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 9.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-05T19:31:14Z",
-    "last_seen_at": "2026-09-06T05:09:34Z",
+    "last_seen_at": "2026-09-06T05:09:48Z",
     "active_duration_hours": 9.64,
     "active_duration_label": "9.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7e3f9c8660e809b6a4016196",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
