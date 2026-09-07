@@ -42,12 +42,14 @@
     "newsFreshnessHours": 0.48,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-07T14:37:56Z",
-    "last_seen_at": "2026-09-07T15:06:27Z",
+    "last_seen_at": "2026-09-07T15:06:42Z",
     "active_duration_hours": 0.48,
     "active_duration_label": "29 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4895f7aab58d8bf863f6544c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Fernão Dias tem trecho interditado em MG - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-07T12:41:53Z; ativo há 2.4 h.",
+    "description": "Rodovia Fernão Dias tem trecho interditado em MG - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-07T12:41:53Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,12 +88,14 @@
     "newsFreshnessHours": 2.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-07T12:41:53Z",
-    "last_seen_at": "2026-09-07T15:06:27Z",
+    "last_seen_at": "2026-09-07T15:06:42Z",
     "active_duration_hours": 2.41,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f474fd25a422cae6f7d58ca3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -108,7 +112,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.5 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 105.5 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.5 dias.5 dias. Rastreio: primeiro registro em 2026-05-25T03:00:00Z; ativo há 105.5 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,6 +156,9 @@
     "last_seen_at": "2026-09-07T15:06:27Z",
     "active_duration_hours": 2532.11,
     "active_duration_label": "105.5 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-07T15:06:27Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
