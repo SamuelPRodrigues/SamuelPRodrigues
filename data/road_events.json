@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR 101 será interditado para desmonte de rochas em Rio Novo do Sul - agazeta.com.br. Fontes consolidadas: Notícias públicas - agazeta.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-08T20:36:00Z; ativo há 2.1 h.",
+    "description": "Trecho da BR 101 será interditado para desmonte de rochas em Rio Novo do Sul - agazeta.com.br. Fontes consolidadas: Notícias públicas - agazeta.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-08T20:36:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,11 +48,13 @@
     "newsFreshnessHours": 2.14,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-08T20:36:00Z",
-    "last_seen_at": "2026-09-08T22:44:12Z",
+    "last_seen_at": "2026-09-08T22:44:31Z",
     "active_duration_hours": 2.14,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "446c06f6599cded7a55a4776",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
