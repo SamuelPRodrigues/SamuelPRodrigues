@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente na Rodovia do Contorno: BR-101 é interditada após batida entre carretas na Serra. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-08T12:07:31Z; ativo há 8.1 h.",
+    "description": "Acidente na Rodovia do Contorno: BR-101 é interditada após batida entre carretas na Serra. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-08T12:07:31Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-08T12:07:31Z",
     "last_seen_at": "2026-09-08T20:10:45Z",
-    "active_duration_hours": 8.05,
+    "active_duration_hours": 8.06,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-08T20:10:45Z",
+    "news_signature": "cca3f4ab4fe1366d89c6ef05",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-230 tem trecho interditado em Cabedelo para obras de restauração do pavimento - WSCOM. Fontes consolidadas: Notícias públicas - WSCOM; Notícias públicas - Blog do Dércio; Notícias públicas - G1; Notícias públicas - THMais; Notícias públicas - Portal Correio; Notícias públicas - Fonte 83; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-08T10:42:51Z; ativo há 9.5 h.",
+    "description": "BR-230 tem trecho interditado em Cabedelo para obras de restauração do pavimento - WSCOM. Fontes consolidadas: Notícias públicas - WSCOM; Notícias públicas - Blog do Dércio; Notícias públicas - G1; Notícias públicas - THMais; Notícias públicas - Portal Correio; Notícias públicas - Fonte 83; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-08T10:42:51Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,11 +131,13 @@
     "newsFreshnessHours": 9.47,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-08T10:42:51Z",
-    "last_seen_at": "2026-09-08T20:10:45Z",
-    "active_duration_hours": 9.46,
+    "last_seen_at": "2026-09-08T20:11:02Z",
+    "active_duration_hours": 9.47,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2da2ca442a2eaaeb41475950",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
