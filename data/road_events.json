@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra de São Vicente terá trânsito parcialmente interditado por quatro dias na BR-364; saiba trechos. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-07T22:07:59Z; ativo há 2.0 h.",
+    "description": "Serra de São Vicente terá trânsito parcialmente interditado por quatro dias na BR-364; saiba trechos. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-07T22:07:59Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 2.03,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-07T22:07:59Z",
-    "last_seen_at": "2026-09-08T00:09:39Z",
+    "last_seen_at": "2026-09-08T00:09:54Z",
     "active_duration_hours": 2.03,
     "active_duration_label": "2.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b5ce0ef9224a9981233ac2e5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -8.047,
     "lon": -34.877,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Protesto interdita trecho da BR-232 e causa engarrafamento em Vitória de Santo Antão; VÍDEO. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-07T15:54:01Z; ativo há 8.3 h.",
+    "description": "Protesto interdita trecho da BR-232 e causa engarrafamento em Vitória de Santo Antão; VÍDEO. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-07T15:54:01Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-07T15:54:01Z",
     "last_seen_at": "2026-09-08T00:09:39Z",
-    "active_duration_hours": 8.26,
+    "active_duration_hours": 8.27,
     "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-08T00:09:39Z",
+    "news_signature": "811ca736a3e31cf36f49e8f1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 é parcialmente interditada após tombamento em Amélia Rodrigues - Rádio Metrópole. Fontes consolidadas: Notícias públicas - Rádio Metrópole. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-07T14:37:56Z; ativo há 9.5 h.",
+    "description": "BR-324 é parcialmente interditada após tombamento em Amélia Rodrigues - Rádio Metrópole. Fontes consolidadas: Notícias públicas - Rádio Metrópole. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-07T14:37:56Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,8 +133,11 @@
     "active_duration_hours": 9.53,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-08T00:09:39Z",
+    "news_signature": "e124010f563c18708e98a5a9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +149,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Fernão Dias tem trecho interditado em MG - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-07T12:41:53Z; ativo há 11.5 h.",
+    "description": "Rodovia Fernão Dias tem trecho interditado em MG - - Via Trolebus. Fontes consolidadas: Notícias públicas - Via Trolebus. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-07T12:41:53Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -169,11 +177,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-07T12:41:53Z",
     "last_seen_at": "2026-09-08T00:09:39Z",
-    "active_duration_hours": 11.46,
+    "active_duration_hours": 11.47,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-08T00:09:39Z",
+    "news_signature": "f474fd25a422cae6f7d58ca3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -190,7 +201,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-01-08T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias. Rastreio: primeiro registro em 2026-01-08T03:00:00Z; ativo há 242.9 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-01-08T03:00:00Z até 2026-09-08T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.9 dias.9 dias. Rastreio: primeiro registro em 2026-01-08T03:00:00Z; ativo há 242.9 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -232,8 +243,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-01-08T03:00:00Z",
     "last_seen_at": "2026-09-08T00:09:39Z",
-    "active_duration_hours": 5829.16,
+    "active_duration_hours": 5829.17,
     "active_duration_label": "242.9 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-08T00:09:39Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
