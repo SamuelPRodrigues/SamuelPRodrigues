@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:03:23Z",
+  "updatedAt": "2026-09-09T22:25:07Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3657,7 +3657,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-09T20:03:23Z",
+      "updatedAt": "2026-09-09T22:25:07Z",
       "sources": [
         {
           "source": "Aqui Notícias",
@@ -3696,13 +3696,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-09T20:03:23Z",
+      "updatedAt": "2026-09-09T22:25:07Z",
       "sources": [
         {
           "source": "gazetasbs.com.br",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcE9sTXIyTlcwS2Q5TTBRUXVGa2hZTy1xd1BYY3lrYVRaNUEtX0Utc20zdjlFRVNEd3JTaFFJd2phSzQyMXlxLUNJd3VpLWJZU1F0NGJEeFhoeVZSaldpeG9UVkpLOUoxZjZmaVNWOWU2dm1RSE9CM2pjSkNvTmRrd0UtS0o4YS1UOEY1amdCVWFPNDA2LVgxS1FqVkVXYVYt?oc=5",
           "headline": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br",
           "date": "2026-09-09T16:10:43Z"
+        }
+      ]
+    },
+    "c645778cc6c94439688ea0fa": {
+      "active": true,
+      "event_id": "c645778cc6c94439688ea0fa",
+      "stable_event_id": "c645778cc6c94439688ea0fa",
+      "name": "Interdição planejada por notícia pública • BR-242",
+      "road": "BR-242",
+      "corridor": "Barreiras • BR-242 / BR-135",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -12.152,
+      "lon": -44.99,
+      "city": "Barreiras",
+      "state": "BA",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - Se Liga Chapada.  Período informado: 2026-09-09T14:22:33Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Se Liga Chapada",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMVhsRUl5MFpzbHJ4OUpZZk5CSWFSbjdtbXVXZnZLR0dlZFNEd000VVF5VnBtZGg3Y0cyT182MjU2NXdVQVlLQjFFNkdPaG5YczhLaXZTSHBGZDU2SmtBa0l3MkNBdWRuRDBZUkxiVUpuZUc4c0diaDNpWDY4TWJzTjg2N0JoOTdIQnc?oc=5",
+      "headline": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - Se Liga Chapada",
+      "newsDate": "2026-09-09T14:22:33Z",
+      "plannedStartAt": "2026-09-09T14:22:33Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-09T22:25:07Z",
+      "sources": [
+        {
+          "source": "Se Liga Chapada",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMVhsRUl5MFpzbHJ4OUpZZk5CSWFSbjdtbXVXZnZLR0dlZFNEd000VVF5VnBtZGg3Y0cyT182MjU2NXdVQVlLQjFFNkdPaG5YczhLaXZTSHBGZDU2SmtBa0l3MkNBdWRuRDBZUkxiVUpuZUc4c0diaDNpWDY4TWJzTjg2N0JoOTdIQnc?oc=5",
+          "headline": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - Se Liga Chapada",
+          "date": "2026-09-09T14:22:33Z"
         }
       ]
     }
