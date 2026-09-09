@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T13:59:24Z",
+  "updatedAt": "2026-09-09T17:45:41Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3657,13 +3657,52 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-09T13:59:24Z",
+      "updatedAt": "2026-09-09T17:45:41Z",
       "sources": [
         {
           "source": "Aqui Notícias",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVTUweV9FX05LalFuQ3EwQ2lRNHZfcGVsOGVxbUZaUkZSUnZ2WEpYU0E4cGtXVVZ4OE5BS0dIenNRR1A1TFJSOHRQRFZhNjMtcFpRTnZWczdNVEVaVzcyRUN1d1l0cGo5OTFwc1NCWGt1RWtMdnJ3ZVN4b0R4MG1EdDVpbmxZbUx5bDRTQjl0LWV6YkFHSVBILWFmeVdiX29idFlISw?oc=5",
           "headline": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta (9) - Aqui Notícias",
           "date": "2026-09-09T12:14:36Z"
+        }
+      ]
+    },
+    "66ecd5d69074b19bf1e0e822": {
+      "active": true,
+      "event_id": "66ecd5d69074b19bf1e0e822",
+      "stable_event_id": "66ecd5d69074b19bf1e0e822",
+      "name": "Interdição planejada por notícia pública • BR-280",
+      "road": "BR-280",
+      "corridor": "Joinville • BR-101 / BR-280",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -26.304,
+      "lon": -48.849,
+      "city": "Joinville",
+      "state": "SC",
+      "region": "Sul",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br.  Período informado: 2026-09-09T16:10:43Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - gazetasbs.com.br",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcE9sTXIyTlcwS2Q5TTBRUXVGa2hZTy1xd1BYY3lrYVRaNUEtX0Utc20zdjlFRVNEd3JTaFFJd2phSzQyMXlxLUNJd3VpLWJZU1F0NGJEeFhoeVZSaldpeG9UVkpLOUoxZjZmaVNWOWU2dm1RSE9CM2pjSkNvTmRrd0UtS0o4YS1UOEY1amdCVWFPNDA2LVgxS1FqVkVXYVYt?oc=5",
+      "headline": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br",
+      "newsDate": "2026-09-09T16:10:43Z",
+      "plannedStartAt": "2026-09-09T16:10:43Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-09T17:45:41Z",
+      "sources": [
+        {
+          "source": "gazetasbs.com.br",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcE9sTXIyTlcwS2Q5TTBRUXVGa2hZTy1xd1BYY3lrYVRaNUEtX0Utc20zdjlFRVNEd3JTaFFJd2phSzQyMXlxLUNJd3VpLWJZU1F0NGJEeFhoeVZSaldpeG9UVkpLOUoxZjZmaVNWOWU2dm1RSE9CM2pjSkNvTmRrd0UtS0o4YS1UOEY1amdCVWFPNDA2LVgxS1FqVkVXYVYt?oc=5",
+          "headline": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br",
+          "date": "2026-09-09T16:10:43Z"
         }
       ]
     }
