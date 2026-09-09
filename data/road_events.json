@@ -9,7 +9,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-280 é totalmente interditado após caminhão tombar em Mafra - Rádio Clube de Canoinhas. Fontes consolidadas: Notícias públicas - Rádio Clube de Canoinhas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-09T17:04:52Z; ativo há 3.0 h.",
+    "description": "Trecho da BR-280 é totalmente interditado após caminhão tombar em Mafra - Rádio Clube de Canoinhas. Fontes consolidadas: Notícias públicas - Rádio Clube de Canoinhas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-09T17:04:52Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 2.98,
     "active_duration_label": "3.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-09T20:03:23Z",
+    "news_signature": "164b5d9867f7fcfe048134ec",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376, principal via entre Paraná e Santa Catarina, é interditada após tombamento de caminhão - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-09T15:28:00Z; ativo há 4.6 h.",
+    "description": "BR-376, principal via entre Paraná e Santa Catarina, é interditada após tombamento de caminhão - CBN Total. Fontes consolidadas: Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-09T15:28:00Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 4.59,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-09T20:03:23Z",
+    "news_signature": "63a11039648fae8956974178",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - seligachapada.com.br. Fontes consolidadas: Notícias públicas - seligachapada.com.br. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-09T14:22:33Z; ativo há 5.7 h.",
+    "description": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - seligachapada.com.br. Fontes consolidadas: Notícias públicas - seligachapada.com.br. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-09T14:22:33Z; ativo há 5.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -124,12 +130,14 @@
     "newsFreshnessHours": 5.68,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-09T14:22:33Z",
-    "last_seen_at": "2026-09-09T20:03:23Z",
+    "last_seen_at": "2026-09-09T20:03:36Z",
     "active_duration_hours": 5.68,
     "active_duration_label": "5.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e67c24aac33ce5165e5a3786",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +149,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada por 19 horas para obras na BR-262 - Folha MS. Fontes consolidadas: Notícias públicas - Folha MS; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-09T13:57:14Z; ativo há 6.1 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada por 19 horas para obras na BR-262 - Folha MS. Fontes consolidadas: Notícias públicas - Folha MS; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-09T13:57:14Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -175,11 +183,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-09T13:57:14Z",
     "last_seen_at": "2026-09-09T20:03:23Z",
-    "active_duration_hours": 6.1,
+    "active_duration_hours": 6.11,
     "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-09T20:03:23Z",
+    "news_signature": "9ac107b42d8b6a462f5007ba",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -196,7 +207,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br. Período informado: 2026-09-09T16:10:43Z até fim não identificado. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-09T16:10:43Z; ativo há 3.9 h.",
+    "description": "BR-280 é totalmente interditada após acidente em Mafra nesta quarta-feira - gazetasbs.com.br. Período informado: 2026-09-09T16:10:43Z até fim não identificado. Fontes consolidadas: Notícias públicas - gazetasbs.com.br. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-09T16:10:43Z; ativo há 3.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -209,7 +220,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-09T20:02:10Z",
     "sources": [
       {
@@ -229,7 +240,10 @@
     "last_seen_at": "2026-09-09T20:03:23Z",
     "active_duration_hours": 3.88,
     "active_duration_label": "3.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-09T20:03:23Z",
+    "news_signature": "791de3ddff6e668feaccccbb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -246,7 +260,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta (9) - Aqui Notícias. Período informado: 2026-09-09T03:00:00Z até 2026-09-10T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-09T03:00:00Z; ativo há 17.1 h.",
+    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta (9) - Aqui Notícias. Período informado: 2026-09-09T03:00:00Z até 2026-09-10T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-09T03:00:00Z; ativo há 17.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -278,6 +292,9 @@
     "last_seen_at": "2026-09-09T20:03:23Z",
     "active_duration_hours": 17.06,
     "active_duration_label": "17.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-09T20:03:23Z",
+    "news_signature": "d2732127c125762e9421c25d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
