@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente com vítimas deixa BR-116 bloqueada em Correia Pinto - SCC10. Fontes consolidadas: Notícias públicas - SCC10; Notícias públicas - Jornal Correio; Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-10T23:04:39Z; ativo há 51 min.",
+    "description": "Acidente com vítimas deixa BR-116 bloqueada em Correia Pinto - SCC10. Fontes consolidadas: Notícias públicas - SCC10; Notícias públicas - Jornal Correio; Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-10T23:04:39Z; ativo há 52 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 0.85,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-10T23:04:39Z",
-    "last_seen_at": "2026-09-10T23:55:48Z",
-    "active_duration_hours": 0.85,
-    "active_duration_label": "51 min",
+    "last_seen_at": "2026-09-10T23:56:04Z",
+    "active_duration_hours": 0.86,
+    "active_duration_label": "52 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e3c72bd07dcba3246faafc57",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será bloqueada em dois trechos no ES nesta quinta; veja os pontos - ES Hoje. Fontes consolidadas: Notícias públicas - ES Hoje; Notícias públicas - G1; Notícias públicas - Aqui Notícias; Notícias públicas - Tribuna Norte Leste; Notícias públicas - agazeta.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-10T13:40:55Z; ativo há 10.2 h.",
+    "description": "BR-101 será bloqueada em dois trechos no ES nesta quinta; veja os pontos - ES Hoje. Fontes consolidadas: Notícias públicas - ES Hoje; Notícias públicas - G1; Notícias públicas - Aqui Notícias; Notícias públicas - Tribuna Norte Leste; Notícias públicas - agazeta.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-10T13:40:55Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,12 +130,14 @@
     "newsFreshnessHours": 7.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-10T13:40:55Z",
-    "last_seen_at": "2026-09-10T23:55:48Z",
+    "last_seen_at": "2026-09-10T23:56:04Z",
     "active_duration_hours": 10.25,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "acc7afaa5fae7d4e6b9a8804",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -145,7 +149,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-050 terá pista interditada entre Araguari e Uberlândia; veja desvio - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais; Notícias públicas - v9vitoriosa. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-10T14:58:21Z; ativo há 9.0 h.",
+    "description": "BR-050 terá pista interditada entre Araguari e Uberlândia; veja desvio - Paranaíba Mais. Fontes consolidadas: Notícias públicas - Paranaíba Mais; Notícias públicas - v9vitoriosa. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-10T14:58:21Z; ativo há 9.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -182,8 +186,11 @@
     "active_duration_hours": 8.96,
     "active_duration_label": "9.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-10T23:55:48Z",
+    "news_signature": "3ea881e3eb2bdfc4e4498f52",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -200,7 +207,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES. Período informado: 2026-09-10T03:00:00Z até 2026-09-11T02:59:59Z. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-10T03:00:00Z; ativo há 20.9 h.",
+    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES. Período informado: 2026-09-10T03:00:00Z até 2026-09-11T02:59:59Z. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-10T03:00:00Z; ativo há 20.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -232,6 +239,9 @@
     "last_seen_at": "2026-09-10T23:55:48Z",
     "active_duration_hours": 20.93,
     "active_duration_label": "20.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-10T23:55:48Z",
+    "news_signature": "9594d8ce1f01c5d19ca00b02",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
