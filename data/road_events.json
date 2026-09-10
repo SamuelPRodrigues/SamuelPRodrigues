@@ -60,12 +60,14 @@
     "newsFreshnessHours": 0.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-10T13:40:55Z",
-    "last_seen_at": "2026-09-10T13:47:52Z",
+    "last_seen_at": "2026-09-10T13:48:21Z",
     "active_duration_hours": 0.12,
     "active_duration_label": "7 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9bf02fb4eb4bfb27d784acea",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +79,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retorno de acesso à BR-116 pelo bairro Cohab é bloqueado por obras em Camaquã - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-10T11:35:56Z; ativo há 2.2 h.",
+    "description": "Retorno de acesso à BR-116 pelo bairro Cohab é bloqueado por obras em Camaquã - Clic Camaquã. Fontes consolidadas: Notícias públicas - Clic Camaquã. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-10T11:35:56Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +106,14 @@
     "newsFreshnessHours": 2.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-10T11:35:56Z",
-    "last_seen_at": "2026-09-10T13:47:52Z",
-    "active_duration_hours": 2.2,
+    "last_seen_at": "2026-09-10T13:48:21Z",
+    "active_duration_hours": 2.21,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0868c76094064f8af150ce7e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -126,7 +130,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES. Período informado: 2026-09-10T03:00:00Z até 2026-09-11T02:59:59Z. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-10T03:00:00Z; ativo há 10.8 h.",
+    "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES. Período informado: 2026-09-10T03:00:00Z até 2026-09-11T02:59:59Z. Fontes consolidadas: Notícias públicas - Folha do ES. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-10T03:00:00Z; ativo há 10.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -155,9 +159,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-10T03:00:00Z",
-    "last_seen_at": "2026-09-10T13:47:52Z",
-    "active_duration_hours": 10.8,
+    "last_seen_at": "2026-09-10T13:48:21Z",
+    "active_duration_hours": 10.81,
     "active_duration_label": "10.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9594d8ce1f01c5d19ca00b02",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
