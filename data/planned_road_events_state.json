@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T22:25:07Z",
+  "updatedAt": "2026-09-10T00:30:20Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3657,7 +3657,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-09T22:25:07Z",
+      "updatedAt": "2026-09-10T00:30:20Z",
       "sources": [
         {
           "source": "Aqui Notícias",
@@ -3696,7 +3696,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-09T22:25:07Z",
+      "updatedAt": "2026-09-10T00:30:20Z",
       "sources": [
         {
           "source": "gazetasbs.com.br",
@@ -3735,13 +3735,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-09T22:25:07Z",
+      "updatedAt": "2026-09-10T00:30:20Z",
       "sources": [
         {
           "source": "Se Liga Chapada",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMVhsRUl5MFpzbHJ4OUpZZk5CSWFSbjdtbXVXZnZLR0dlZFNEd000VVF5VnBtZGg3Y0cyT182MjU2NXdVQVlLQjFFNkdPaG5YczhLaXZTSHBGZDU2SmtBa0l3MkNBdWRuRDBZUkxiVUpuZUc4c0diaDNpWDY4TWJzTjg2N0JoOTdIQnc?oc=5",
           "headline": "BR-242 é totalmente interditada após carreta carregada com soja tombar em Lençóis - Se Liga Chapada",
           "date": "2026-09-09T14:22:33Z"
+        }
+      ]
+    },
+    "bb316cd287cbbe1ed594c808": {
+      "active": false,
+      "event_id": "bb316cd287cbbe1ed594c808",
+      "stable_event_id": "bb316cd287cbbe1ed594c808",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES.  Período informado: 2026-09-10T03:00:00Z até 2026-09-11T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Folha do ES",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWVRwa0tiVWhuTjc5SEFRUEtoUnRVTF9wcktGQmVBSDkwTnlodUJTMlhQSGkzLUdSZUhZaVVUeElhNTBITjA5d2taM1lmSklwV25KOVZCN05fNGJEUDVadUdpb21XaC1FSlJCT2gwLWswdVBXMVp6d0VLN0V5bUxQeGJTTkNlb1F2ZkQycmo2emI4NEVsemhfZEdMWXRwdDA?oc=5",
+      "headline": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES",
+      "newsDate": "2026-09-09T23:04:35Z",
+      "plannedStartAt": "2026-09-10T03:00:00Z",
+      "plannedEndAt": "2026-09-11T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "scheduled",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-09-10T00:30:20Z",
+      "sources": [
+        {
+          "source": "Folha do ES",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWVRwa0tiVWhuTjc5SEFRUEtoUnRVTF9wcktGQmVBSDkwTnlodUJTMlhQSGkzLUdSZUhZaVVUeElhNTBITjA5d2taM1lmSklwV25KOVZCN05fNGJEUDVadUdpb21XaC1FSlJCT2gwLWswdVBXMVp6d0VLN0V5bUxQeGJTTkNlb1F2ZkQycmo2emI4NEVsemhfZEdMWXRwdDA?oc=5",
+          "headline": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES",
+          "date": "2026-09-09T23:04:35Z"
         }
       ]
     }
