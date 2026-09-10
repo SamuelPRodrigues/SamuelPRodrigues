@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T09:37:35Z",
+  "updatedAt": "2026-09-10T13:47:52Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3735,13 +3735,52 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-10T05:08:33Z",
+      "updatedAt": "2026-09-10T13:47:52Z",
       "sources": [
         {
           "source": "Folha do ES",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWVRwa0tiVWhuTjc5SEFRUEtoUnRVTF9wcktGQmVBSDkwTnlodUJTMlhQSGkzLUdSZUhZaVVUeElhNTBITjA5d2taM1lmSklwV25KOVZCN05fNGJEUDVadUdpb21XaC1FSlJCT2gwLWswdVBXMVp6d0VLN0V5bUxQeGJTTkNlb1F2ZkQycmo2emI4NEVsemhfZEdMWXRwdDA?oc=5",
           "headline": "BR-101 será totalmente interditada em Rio Novo do Sul nesta quinta-feira (10) - Folha do ES",
           "date": "2026-09-09T23:04:35Z"
+        }
+      ]
+    },
+    "d1f1ee64eb642a4219bccf85": {
+      "active": true,
+      "event_id": "d1f1ee64eb642a4219bccf85",
+      "stable_event_id": "d1f1ee64eb642a4219bccf85",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada na Serra nesta quinta-feira - portaltemponovo.com.br.  Período informado: 2026-09-10T13:39:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - portaltemponovo.com.br",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYm44R2JOS3k0SUNSSEpsRXRpQ0ozMTJ3Rm4tTEl2SzVTNC1zUmF4NDc5bmd6dTNrdFEzanNXeVdMVHNzeEpUN0JBSFNjLVBuTTZDUE1CNWNwVHA2M1lLQnoyWHRPanVqamxlZXFWVV9iNXFtYkRnc01ZaE4zdm5INVI5eUVkUTd4RzFUcnlMOEpCZXRLd0pKQzFxYWV6M28?oc=5",
+      "headline": "BR-101 será totalmente interditada na Serra nesta quinta-feira - portaltemponovo.com.br",
+      "newsDate": "2026-09-10T13:39:00Z",
+      "plannedStartAt": "2026-09-10T13:39:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-10T13:47:52Z",
+      "sources": [
+        {
+          "source": "portaltemponovo.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYm44R2JOS3k0SUNSSEpsRXRpQ0ozMTJ3Rm4tTEl2SzVTNC1zUmF4NDc5bmd6dTNrdFEzanNXeVdMVHNzeEpUN0JBSFNjLVBuTTZDUE1CNWNwVHA2M1lLQnoyWHRPanVqamxlZXFWVV9iNXFtYkRnc01ZaE4zdm5INVI5eUVkUTd4RzFUcnlMOEpCZXRLd0pKQzFxYWV6M28?oc=5",
+          "headline": "BR-101 será totalmente interditada na Serra nesta quinta-feira - portaltemponovo.com.br",
+          "date": "2026-09-10T13:39:00Z"
         }
       ]
     }
