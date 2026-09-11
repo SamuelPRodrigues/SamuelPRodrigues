@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motoristas devem ficar atentos: BR-101 será interditada nesta quinta (10) em Rio Novo do Sul - Aqui Notícias. Fontes consolidadas: Notícias públicas - Aqui Notícias; Notícias públicas - tribunanorteleste.com.br; Notícias públicas - vipsocial.com.br; Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-11T19:28:57Z; ativo há 2.4 h.",
+    "description": "Motoristas devem ficar atentos: BR-101 será interditada nesta quinta (10) em Rio Novo do Sul - Aqui Notícias. Fontes consolidadas: Notícias públicas - Aqui Notícias; Notícias públicas - tribunanorteleste.com.br; Notícias públicas - vipsocial.com.br; Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-11T19:28:57Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 2.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T19:28:57Z",
-    "last_seen_at": "2026-09-11T21:53:30Z",
+    "last_seen_at": "2026-09-11T21:53:46Z",
     "active_duration_hours": 2.41,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e82fbf17dafc8e6726a36ce0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-050 terá pista interditada por cinco dias em Araguari; veja como será feito o desvio. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Paranaíba Mais; Notícias públicas - v9vitoriosa. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-11T17:45:39Z; ativo há 4.1 h.",
+    "description": "BR-050 terá pista interditada por cinco dias em Araguari; veja como será feito o desvio. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Paranaíba Mais; Notícias públicas - v9vitoriosa. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-11T17:45:39Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -111,11 +113,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T17:45:39Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 4.13,
+    "active_duration_hours": 4.14,
     "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "7de2e0f0d22ef7f6e5ea0434",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +132,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-369 em Cascavel é interditada para retirada de ônibus. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-11T17:03:09Z; ativo há 4.8 h.",
+    "description": "BR-369 em Cascavel é interditada para retirada de ônibus. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-11T17:03:09Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -158,8 +163,11 @@
     "active_duration_hours": 4.84,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "69c8888eb60ec01bba140e7b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -171,7 +179,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-283 é interditada após queda de barreira em Seara - SCC10. Fontes consolidadas: Notícias públicas - SCC10; Notícias públicas - Rede Vale Norte. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-11T14:46:58Z; ativo há 7.1 h.",
+    "description": "SC-283 é interditada após queda de barreira em Seara - SCC10. Fontes consolidadas: Notícias públicas - SCC10; Notícias públicas - Rede Vale Norte. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-11T14:46:58Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -208,9 +216,12 @@
     "active_duration_hours": 7.11,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-340"
+    "detectedRoad": "SC-340",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "eca57cb998311964e56bae6a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -222,7 +233,7 @@
     "lat": -23.189,
     "lon": -45.884,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da Serra Antiga da Tamoios (SP-099) está interditada por conta das chuvas - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-11T12:54:47Z; ativo há 9.0 h.",
+    "description": "Trecho da Serra Antiga da Tamoios (SP-099) está interditada por conta das chuvas - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-11T12:54:47Z; ativo há 9.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -253,9 +264,12 @@
     "active_duration_hours": 8.98,
     "active_duration_label": "9.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-099"
+    "detectedRoad": "SP-099",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "39493204d7144ef170fe8c44",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -267,7 +281,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 será bloqueada em Nobres para detonação de rocha nesta sexta - 24 HORAS MT. Fontes consolidadas: Notícias públicas - 24 HORAS MT. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-11T11:57:00Z; ativo há 9.9 h.",
+    "description": "BR-364 será bloqueada em Nobres para detonação de rocha nesta sexta - 24 HORAS MT. Fontes consolidadas: Notícias públicas - 24 HORAS MT. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-11T11:57:00Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -295,11 +309,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T11:57:00Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 9.94,
+    "active_duration_hours": 9.95,
     "active_duration_label": "9.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "b5fd80a5395ff1b8645db405",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -311,7 +328,7 @@
     "lat": -16.728,
     "lon": -43.858,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-11T11:34:03Z; ativo há 10.3 h.",
+    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-11T11:34:03Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -339,11 +356,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T11:34:03Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 10.32,
+    "active_duration_hours": 10.33,
     "active_duration_label": "10.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "b3b41528d663c61799491f70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -355,7 +375,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 em Ibirama tem desvio após queda de barreira - RWTV. Fontes consolidadas: Notícias públicas - RWTV; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-11T11:24:26Z; ativo há 10.5 h.",
+    "description": "BR-470 em Ibirama tem desvio após queda de barreira - RWTV. Fontes consolidadas: Notícias públicas - RWTV; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-11T11:24:26Z; ativo há 10.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -389,11 +409,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T11:24:26Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 10.48,
+    "active_duration_hours": 10.49,
     "active_duration_label": "10.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "5ec9e4b2cf66da7d66645844",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -405,7 +428,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Túnel da Serra do Cafezal, na Regis Bittencourt, é bloqueado - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-11T10:24:00Z; ativo há 11.5 h.",
+    "description": "Túnel da Serra do Cafezal, na Regis Bittencourt, é bloqueado - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-11T10:24:00Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -433,11 +456,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T10:24:00Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 11.49,
+    "active_duration_hours": 11.5,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "a1b86045efb745ae280d67b9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -454,7 +480,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta tomba e BR-101 fica totalmente interditada no Morro dos Cavalos - TubaNews. Período informado: 2026-09-11T17:40:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - TubaNews. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-11T17:40:00Z; ativo há 4.2 h.",
+    "description": "Carreta tomba e BR-101 fica totalmente interditada no Morro dos Cavalos - TubaNews. Período informado: 2026-09-11T17:40:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - TubaNews. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-11T17:40:00Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -467,7 +493,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-11T21:52:11Z",
     "sources": [
       {
@@ -485,8 +511,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T17:40:00Z",
     "last_seen_at": "2026-09-11T21:53:30Z",
-    "active_duration_hours": 4.22,
+    "active_duration_hours": 4.23,
     "active_duration_label": "4.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T21:53:30Z",
+    "news_signature": "c5f7354dfe2d71eba3c7da56",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
