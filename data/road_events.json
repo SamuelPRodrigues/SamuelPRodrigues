@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-340 é interditada após barro invadir a pista entre Presidente Getúlio e Dona Emma - redevalenorte.com. Fontes consolidadas: Notícias públicas - redevalenorte.com. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-11T14:46:58Z; ativo há 2.2 h.",
+    "description": "SC-340 é interditada após barro invadir a pista entre Presidente Getúlio e Dona Emma - redevalenorte.com. Fontes consolidadas: Notícias públicas - redevalenorte.com. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-11T14:46:58Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 2.22,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T14:46:58Z",
-    "last_seen_at": "2026-09-11T17:00:05Z",
+    "last_seen_at": "2026-09-11T17:00:21Z",
     "active_duration_hours": 2.22,
     "active_duration_label": "2.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-340"
+    "detectedRoad": "SC-340",
+    "news_signature": "abb211712ea542b449839264",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -23.189,
     "lon": -45.884,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da Serra Antiga da Tamoios (SP-099) está interditada por conta das chuvas - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-11T12:54:47Z; ativo há 4.1 h.",
+    "description": "Trecho da Serra Antiga da Tamoios (SP-099) está interditada por conta das chuvas - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-11T12:54:47Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,9 +87,12 @@
     "active_duration_hours": 4.09,
     "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-099"
+    "detectedRoad": "SP-099",
+    "last_confirmed_at": "2026-09-11T17:00:05Z",
+    "news_signature": "39493204d7144ef170fe8c44",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -99,7 +104,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-470 fica parcialmente bloqueado após acidente entre veículos e causa lentidão no trânsito em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-11T11:24:26Z; ativo há 5.6 h.",
+    "description": "Trecho da BR-470 fica parcialmente bloqueado após acidente entre veículos e causa lentidão no trânsito em SC - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-11T11:24:26Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -126,12 +131,14 @@
     "newsFreshnessHours": 5.59,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T11:24:26Z",
-    "last_seen_at": "2026-09-11T17:00:05Z",
-    "active_duration_hours": 5.59,
+    "last_seen_at": "2026-09-11T17:00:21Z",
+    "active_duration_hours": 5.6,
     "active_duration_label": "5.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "54cfb56de146f5c42efd5f78",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -143,7 +150,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Túnel da Serra do Cafezal, na Regis Bittencourt, é bloqueado - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-11T10:24:00Z; ativo há 6.6 h.",
+    "description": "Túnel da Serra do Cafezal, na Regis Bittencourt, é bloqueado - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-11T10:24:00Z; ativo há 6.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -171,10 +178,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T10:24:00Z",
     "last_seen_at": "2026-09-11T17:00:05Z",
-    "active_duration_hours": 6.6,
+    "active_duration_hours": 6.61,
     "active_duration_label": "6.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-11T17:00:05Z",
+    "news_signature": "a1b86045efb745ae280d67b9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
