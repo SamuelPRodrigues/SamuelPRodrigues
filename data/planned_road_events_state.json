@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T23:35:41Z",
+  "updatedAt": "2026-09-12T01:29:14Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3774,7 +3774,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-11T23:35:40Z",
+      "updatedAt": "2026-09-12T01:29:14Z",
       "sources": [
         {
           "source": "G1",
@@ -3813,7 +3813,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-11T23:35:41Z",
+      "updatedAt": "2026-09-12T01:29:14Z",
       "sources": [
         {
           "source": "Se Liga Chapada",
@@ -3852,7 +3852,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-11T23:35:41Z",
+      "updatedAt": "2026-09-12T01:29:14Z",
       "sources": [
         {
           "source": "TubaNews",
@@ -3891,7 +3891,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-11T23:35:40Z",
+      "updatedAt": "2026-09-12T01:29:14Z",
       "sources": [
         {
           "source": "Riomafra Mix",
@@ -3916,7 +3916,7 @@
       "state": "AL",
       "region": "Nordeste",
       "eventType": "Interdição planejada por notícia pública",
-      "description": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas - Portal Menina.  Período informado: 2026-09-11T19:47:16Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "description": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas - Portal Menina.  Período informado: 2026-09-11T19:47:50Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
       "risk": 69,
       "severity": "Alto",
       "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -3924,19 +3924,58 @@
       "sourceProvider": "Google News RSS planejado",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbXFvOTNLTnFkOFJhMjMzRUxhbEhLbnVUelNkbVV5NE4tOGpBbEVWNmszQWxqenZEQm16Mlg0a21OWG5XMTN4TGhId25BT3FheFgwNGh4U0NHa0NJNUIwQnNjZ2lCLUdBN0hhX3RZcXpheURibW1Hb0wyeW0weFNTZXFiVnBmdlpzazBkZEtSUHVnLWwwMURRcXh3UVRxaFJGcngtUUotd3FHQUlIRFpfdU1XNlFUVVZZZlE?oc=5",
       "headline": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas - Portal Menina",
-      "newsDate": "2026-09-11T19:47:16Z",
-      "plannedStartAt": "2026-09-11T19:47:16Z",
+      "newsDate": "2026-09-11T19:47:50Z",
+      "plannedStartAt": "2026-09-11T19:47:50Z",
       "plannedEndAt": "",
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-09-11T23:35:41Z",
+      "updatedAt": "2026-09-12T01:29:14Z",
       "sources": [
         {
           "source": "Portal Menina",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbXFvOTNLTnFkOFJhMjMzRUxhbEhLbnVUelNkbVV5NE4tOGpBbEVWNmszQWxqenZEQm16Mlg0a21OWG5XMTN4TGhId25BT3FheFgwNGh4U0NHa0NJNUIwQnNjZ2lCLUdBN0hhX3RZcXpheURibW1Hb0wyeW0weFNTZXFiVnBmdlpzazBkZEtSUHVnLWwwMURRcXh3UVRxaFJGcngtUUotd3FHQUlIRFpfdU1XNlFUVVZZZlE?oc=5",
           "headline": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas - Portal Menina",
-          "date": "2026-09-11T19:47:16Z"
+          "date": "2026-09-11T19:47:50Z"
+        }
+      ]
+    },
+    "6499f01c64936df520b525a7": {
+      "active": true,
+      "event_id": "6499f01c64936df520b525a7",
+      "stable_event_id": "6499f01c64936df520b525a7",
+      "name": "Interdição planejada por notícia pública • BR-116",
+      "road": "BR-116",
+      "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Feira de Santana",
+      "state": "BA",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná.  Período informado: 2026-09-11T23:50:45Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Bem Paraná",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUxrMnJSblB0RmQyVFpkcFNCbkhyN1NMM2NURzJ5dkVJTFctVEFkOS1RY2E3ZlY0aG9Mc1dicmpobnJOUVhiUWNqZFNSbFowNFJXd3V1VXVrSzFoNm5kanBjN2ZpbkN0a2drX3RmZjdZcHc5SnhBcFBVbm5tVUoxbGRMQ2dsbXNCVjFudjhZLWE0Q2RyT1E3WUZlX3p4YTlGWFpsN1JRQlZPb2phTnBkNnJmcm4tbXVSeUx2aGNKWDNRb2RTdWNlQllWTFTSAcwBQVVfeXFMTjVMazJyUm5QdEZkMlRaZHBTQm5IcjdTTDNjVEcyeXZFSUxXLVRBZDktUWNhN2ZWNGhvTHNXYnJqaG5yTlFYYlFjamRTUmxaMDRSV3d1dVV1a0sxaDZuZGpwYzdmaW5DdGtna190ZmY3WXB3OUp4QXBQVW5ubVVKMWxkTENnbG1zQlYxbnY4WS1hNENkck9RN1lGZV96eGE5RlhabDdSUUJWT29qYU5wZDZyZnJuLW11UnlMdmhjSlgzUW9kU3VjZUJZVkxU?oc=5",
+      "headline": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná",
+      "newsDate": "2026-09-11T23:50:45Z",
+      "plannedStartAt": "2026-09-11T23:50:45Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-12T01:29:14Z",
+      "sources": [
+        {
+          "source": "Bem Paraná",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUxrMnJSblB0RmQyVFpkcFNCbkhyN1NMM2NURzJ5dkVJTFctVEFkOS1RY2E3ZlY0aG9Mc1dicmpobnJOUVhiUWNqZFNSbFowNFJXd3V1VXVrSzFoNm5kanBjN2ZpbkN0a2drX3RmZjdZcHc5SnhBcFBVbm5tVUoxbGRMQ2dsbXNCVjFudjhZLWE0Q2RyT1E3WUZlX3p4YTlGWFpsN1JRQlZPb2phTnBkNnJmcm4tbXVSeUx2aGNKWDNRb2RTdWNlQllWTFTSAcwBQVVfeXFMTjVMazJyUm5QdEZkMlRaZHBTQm5IcjdTTDNjVEcyeXZFSUxXLVRBZDktUWNhN2ZWNGhvTHNXYnJqaG5yTlFYYlFjamRTUmxaMDRSV3d1dVV1a0sxaDZuZGpwYzdmaW5DdGtna190ZmY3WXB3OUp4QXBQVW5ubVVKMWxkTENnbG1zQlYxbnY4WS1hNENkck9RN1lGZV96eGE5RlhabDdSUUJWT29qYU5wZDZyZnJuLW11UnlMdmhjSlgzUW9kU3VjZUJZVkxU?oc=5",
+          "headline": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná",
+          "date": "2026-09-11T23:50:45Z"
         }
       ]
     }
