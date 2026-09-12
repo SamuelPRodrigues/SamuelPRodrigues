@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira fecha trecho da BR-116 na divisa com SC em meio a alerta vermelho para chuva intensa - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-12T00:01:37Z; ativo há 6.3 h.",
+    "description": "Queda de barreira fecha trecho da BR-116 na divisa com SC em meio a alerta vermelho para chuva intensa - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-12T00:01:37Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 6.33,
     "active_duration_label": "6.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T06:21:26Z",
+    "news_signature": "924e6901bd4d32394541bcac",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Interdição na rodovia: BR-050 terá trecho interditado em Araguari - Diário do Comércio. Fontes consolidadas: Notícias públicas - Diário do Comércio; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-11T23:25:07Z; ativo há 6.9 h.",
+    "description": "Interdição na rodovia: BR-050 terá trecho interditado em Araguari - Diário do Comércio. Fontes consolidadas: Notícias públicas - Diário do Comércio; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-11T23:25:07Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +95,14 @@
     "newsFreshnessHours": 6.94,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T23:25:07Z",
-    "last_seen_at": "2026-09-12T06:21:26Z",
+    "last_seen_at": "2026-09-12T06:21:41Z",
     "active_duration_hours": 6.94,
     "active_duration_label": "6.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f82f913ec2fb66b0591cd12b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +114,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-114 é totalmente interditada entre Taió e Salete após água invadir a pista - RWTV. Fontes consolidadas: Notícias públicas - RWTV; Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-11T21:56:53Z; ativo há 8.4 h.",
+    "description": "SC-114 é totalmente interditada entre Taió e Salete após água invadir a pista - RWTV. Fontes consolidadas: Notícias públicas - RWTV; Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-11T21:56:53Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -142,13 +147,15 @@
     "newsFreshnessHours": 8.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T21:56:53Z",
-    "last_seen_at": "2026-09-12T06:21:26Z",
+    "last_seen_at": "2026-09-12T06:21:41Z",
     "active_duration_hours": 8.41,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-114"
+    "detectedRoad": "SC-114",
+    "news_signature": "e15ea850e7184c2d9a17062f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -160,7 +167,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 no Morro dos Cavalos fica bloqueada no sentido Sul por 4 horas após tombamento de carreta. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - VipSocial; Notícias públicas - NSC Total; Notícias públicas - 4oito. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-11T19:16:47Z; ativo há 11.1 h.",
+    "description": "BR-101 no Morro dos Cavalos fica bloqueada no sentido Sul por 4 horas após tombamento de carreta. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - VipSocial; Notícias públicas - NSC Total; Notícias públicas - 4oito. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-11T19:16:47Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -205,12 +212,14 @@
     "newsFreshnessHours": 11.08,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T19:16:47Z",
-    "last_seen_at": "2026-09-12T06:21:26Z",
+    "last_seen_at": "2026-09-12T06:21:41Z",
     "active_duration_hours": 11.08,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "84c5f3742aa40650d2b59b9e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -227,7 +236,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 3.4 h.",
+    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -256,10 +265,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-12T03:00:00Z",
-    "last_seen_at": "2026-09-12T06:21:26Z",
+    "last_seen_at": "2026-09-12T06:21:41Z",
     "active_duration_hours": 3.36,
     "active_duration_label": "3.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b3b41528d663c61799491f70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -276,7 +287,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná. Período informado: 2026-09-11T23:50:45Z até fim não identificado. Fontes consolidadas: Bem Paraná; Notícias públicas - bemparana.com.br; Notícias públicas - Riomafra Mix. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-11T23:50:45Z; ativo há 6.5 h.",
+    "description": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná. Período informado: 2026-09-11T23:50:45Z até fim não identificado. Fontes consolidadas: Bem Paraná; Notícias públicas - bemparana.com.br; Notícias públicas - Riomafra Mix. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-11T23:50:45Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -318,10 +329,12 @@
     "newsFreshnessHours": 6.51,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T23:50:45Z",
-    "last_seen_at": "2026-09-12T06:21:26Z",
-    "active_duration_hours": 6.51,
+    "last_seen_at": "2026-09-12T06:21:41Z",
+    "active_duration_hours": 6.52,
     "active_duration_label": "6.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b36ddc9554e4dc8d9379bad4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -338,7 +351,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas. Período informado: 2026-09-11T19:47:50Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Menina; Notícias públicas - TubaNews. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-11T19:47:16Z; ativo há 10.6 h.",
+    "description": "BR-101 será totalmente interditada para manutenção no Túnel Morro do Boi; confira as datas. Período informado: 2026-09-11T19:47:50Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Menina; Notícias públicas - TubaNews. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-11T19:47:16Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -351,7 +364,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-12T06:20:11Z",
     "sources": [
       {
@@ -377,6 +390,9 @@
     "last_seen_at": "2026-09-12T06:21:26Z",
     "active_duration_hours": 10.57,
     "active_duration_label": "10.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T06:21:26Z",
+    "news_signature": "426ee98a7b3b59827c1e3501",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
