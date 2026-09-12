@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Presidente Dutra será totalmente interditada neste sábado (12); detonação de rochas acontece às 14h - Tempo Real. Fontes consolidadas: Notícias públicas - Tempo Real. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-12T15:38:30Z; ativo há 5.8 h.",
+    "description": "Rodovia Presidente Dutra será totalmente interditada neste sábado (12); detonação de rochas acontece às 14h - Tempo Real. Fontes consolidadas: Notícias públicas - Tempo Real. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-12T15:38:30Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 5.77,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T21:24:41Z",
+    "news_signature": "db958aad10bdcca4c9273d01",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 18.4 h.",
+    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 18.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,9 +90,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-12T03:00:00Z",
-    "last_seen_at": "2026-09-12T21:24:41Z",
+    "last_seen_at": "2026-09-12T21:24:54Z",
     "active_duration_hours": 18.41,
     "active_duration_label": "18.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b3b41528d663c61799491f70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
