@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira fecha trecho da BR-116 na divisa com SC em meio a alerta vermelho para chuva intensa - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-12T00:01:37Z; ativo há 10.9 h.",
+    "description": "Queda de barreira fecha trecho da BR-116 na divisa com SC em meio a alerta vermelho para chuva intensa - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-12T00:01:37Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-12T00:01:37Z",
     "last_seen_at": "2026-09-12T10:57:34Z",
-    "active_duration_hours": 10.93,
+    "active_duration_hours": 10.94,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T10:57:34Z",
+    "news_signature": "924e6901bd4d32394541bcac",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Interdição na rodovia: BR-050 terá trecho interditado em Araguari - diariodocomercio.com.br. Fontes consolidadas: Notícias públicas - diariodocomercio.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-11T23:25:07Z; ativo há 11.5 h.",
+    "description": "Interdição na rodovia: BR-050 terá trecho interditado em Araguari - diariodocomercio.com.br. Fontes consolidadas: Notícias públicas - diariodocomercio.com.br; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-11T23:25:07Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +95,14 @@
     "newsFreshnessHours": 11.54,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T23:25:07Z",
-    "last_seen_at": "2026-09-12T10:57:34Z",
+    "last_seen_at": "2026-09-12T10:57:48Z",
     "active_duration_hours": 11.54,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "da15c7df08c9033f488e6de3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +119,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 8.0 h.",
+    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,7 +151,10 @@
     "last_seen_at": "2026-09-12T10:57:34Z",
     "active_duration_hours": 7.96,
     "active_duration_label": "8.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T10:57:34Z",
+    "news_signature": "b3b41528d663c61799491f70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -163,7 +171,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná. Período informado: 2026-09-11T23:50:45Z até fim não identificado. Fontes consolidadas: Bem Paraná; Notícias públicas - Bem Paraná; Notícias públicas - Riomafra Mix. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-11T23:50:45Z; ativo há 11.1 h.",
+    "description": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná. Período informado: 2026-09-11T23:50:45Z até fim não identificado. Fontes consolidadas: Bem Paraná; Notícias públicas - Bem Paraná; Notícias públicas - Riomafra Mix. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-11T23:50:45Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -205,9 +213,11 @@
     "newsFreshnessHours": 11.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-11T23:50:45Z",
-    "last_seen_at": "2026-09-12T10:57:34Z",
-    "active_duration_hours": 11.11,
+    "last_seen_at": "2026-09-12T10:57:48Z",
+    "active_duration_hours": 11.12,
     "active_duration_label": "11.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "78dd4196d445ced970086317",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
