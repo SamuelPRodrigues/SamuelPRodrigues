@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 11.0 h.",
+    "description": "BR-251, em Grão Mogol, será totalmente interditada neste sábado (12) para içamento de pórtico de pedágio. Período informado: 2026-09-12T03:00:00Z até 2026-09-13T02:59:59Z. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-12T03:00:00Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,8 +44,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-12T03:00:00Z",
     "last_seen_at": "2026-09-12T13:58:16Z",
-    "active_duration_hours": 10.97,
+    "active_duration_hours": 10.98,
     "active_duration_label": "11.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-12T13:58:16Z",
+    "news_signature": "b3b41528d663c61799491f70",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
