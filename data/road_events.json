@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-483 segue interditada após deslizamento de terra - Diário do Iguaçu. Fontes consolidadas: Notícias públicas - Diário do Iguaçu; Notícias públicas - ndmais.com.br; Notícias públicas - gazetasbs.com.br; Notícias públicas - Visor Notícias; Notícias públicas - Rádio Clube de Canoinhas. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-13T12:51:46Z; ativo há 7.8 h.",
+    "description": "SC-483 segue interditada após deslizamento de terra - Diário do Iguaçu. Fontes consolidadas: Notícias públicas - Diário do Iguaçu; Notícias públicas - ndmais.com.br; Notícias públicas - gazetasbs.com.br; Notícias públicas - Visor Notícias; Notícias públicas - Rádio Clube de Canoinhas. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-13T12:51:46Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,13 +60,15 @@
     "newsFreshnessHours": 7.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-13T12:51:46Z",
-    "last_seen_at": "2026-09-13T20:37:10Z",
+    "last_seen_at": "2026-09-13T20:37:26Z",
     "active_duration_hours": 7.76,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-418"
+    "detectedRoad": "SC-418",
+    "news_signature": "320e50b6484c700bf3912fc9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -78,7 +80,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Erosão no asfalto provoca interdição total da BR-476 em Adrianópolis - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba; Notícias públicas - Tribuna do Paraná; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-13T12:47:06Z; ativo há 7.8 h.",
+    "description": "Erosão no asfalto provoca interdição total da BR-476 em Adrianópolis - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba; Notícias públicas - Tribuna do Paraná; Notícias públicas - Litorânea. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-13T12:47:06Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -123,12 +125,14 @@
     "newsFreshnessHours": 7.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-13T12:47:06Z",
-    "last_seen_at": "2026-09-13T20:37:10Z",
-    "active_duration_hours": 7.83,
+    "last_seen_at": "2026-09-13T20:37:26Z",
+    "active_duration_hours": 7.84,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9f874fd4da6c1f76af534842",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -145,7 +149,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-476 é totalmente interditada após erosão da pista em Adrianópolis, no PR - band.com.br. Período informado: 2026-09-13T13:17:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - band.com.br. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-13T13:17:00Z; ativo há 7.3 h.",
+    "description": "BR-476 é totalmente interditada após erosão da pista em Adrianópolis, no PR - band.com.br. Período informado: 2026-09-13T13:17:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - band.com.br. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-13T13:17:00Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -158,7 +162,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-13T18:03:05Z",
     "sources": [
       {
@@ -178,6 +182,9 @@
     "last_seen_at": "2026-09-13T20:37:10Z",
     "active_duration_hours": 7.34,
     "active_duration_label": "7.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-13T20:37:10Z",
+    "news_signature": "007fb52ea45f22b7c6dfc4d6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
