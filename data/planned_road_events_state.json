@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T11:32:47Z",
+  "updatedAt": "2026-09-13T15:02:10Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3774,7 +3774,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-13T05:55:13Z",
+      "updatedAt": "2026-09-13T15:02:10Z",
       "sources": [
         {
           "source": "Se Liga Chapada",
@@ -3976,6 +3976,45 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZXRveGRqSXkxYk9hMXlXMzFqUlR5OVpEUnFpdGFMNTk5VXJlejMxMnlNOHhXYW5zLV9zUnlqUEljUjlVZVIwVGczU01vMkFqZG5iSGx6c1R0MTdnOXBQQXgwdHp1eGw4RThQMkt2VmZ5YVdvQmhOZVkwend6SGZJYVpDaG54Q0U4SnlBR0F1ZWxJbUFycm01aE5ncklfTDFTaUY4eXNObmktRk1tTWE2WTlGanVxYW1oWTc2OTVNLWsxYWlKMnhr0gHMAUFVX3lxTE41TGsyclJuUHRGZDJUWmRwU0JuSHI3U0wzY1RHMnl2RUlMVy1UQWQ5LVFjYTdmVjRob0xzV2Jyamhuck5RWGJRY2pkU1JsWjA0Uld3dXVVdWtLMWg2bmRqcGM3ZmluQ3RrZ2tfdGZmN1lwdzlKeEFwUFVubm1VSjFsZExDZ2xtc0JWMW52OFktYTRDZHJPUTdZRmVfenhhOUZYWmw3UlFCVk9vamFOcGQ2cmZybi1tdVJ5THZoY0pYM1FvZFN1Y2VCWVZMVA?oc=5",
           "headline": "BR-116 está totalmente interditada devido à queda de barreira no Sudeste do Paraná - Bem Paraná",
           "date": "2026-09-11T23:50:00Z"
+        }
+      ]
+    },
+    "143a47eae39b4cabfbb266ed": {
+      "active": true,
+      "event_id": "143a47eae39b4cabfbb266ed",
+      "stable_event_id": "143a47eae39b4cabfbb266ed",
+      "name": "Interdição planejada por notícia pública • BR-476",
+      "road": "BR-476",
+      "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Curitiba / São José dos Pinhais",
+      "state": "PR",
+      "region": "Sul",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-476 é totalmente interditada após erosão da pista em Adrianópolis, no PR - band.com.br.  Período informado: 2026-09-13T13:17:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - band.com.br",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlJaMkJHaXR4dTJVZDVreVlHZmd5THNKbkFYOWdjWUNKOFFJR3VaSWNWaU1CLXlweEdEWFE0b3hoTXhrWnc0YkZSR2VCYnZfcU9LRWdjVGN6eWNXbkRha3NiY3pWbVJRN1d5N0xhSWlreVJRSm80VG9SaTlqSWYxTENrTlFOMjlSUEhPT1plYjRfVXFDQ0tXeFNwak9CaHJDWTRId3AtOXU3NHVTRjN3?oc=5",
+      "headline": "BR-476 é totalmente interditada após erosão da pista em Adrianópolis, no PR - band.com.br",
+      "newsDate": "2026-09-13T13:17:00Z",
+      "plannedStartAt": "2026-09-13T13:17:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-13T15:02:10Z",
+      "sources": [
+        {
+          "source": "band.com.br",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlJaMkJHaXR4dTJVZDVreVlHZmd5THNKbkFYOWdjWUNKOFFJR3VaSWNWaU1CLXlweEdEWFE0b3hoTXhrWnc0YkZSR2VCYnZfcU9LRWdjVGN6eWNXbkRha3NiY3pWbVJRN1d5N0xhSWlreVJRSm80VG9SaTlqSWYxTENrTlFOMjlSUEhPT1plYjRfVXFDQ0tXeFNwak9CaHJDWTRId3AtOXU3NHVTRjN3?oc=5",
+          "headline": "BR-476 é totalmente interditada após erosão da pista em Adrianópolis, no PR - band.com.br",
+          "date": "2026-09-13T13:17:00Z"
         }
       ]
     }
