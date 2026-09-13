@@ -1,10 +1,15 @@
 {
-  "updatedAt": "2026-09-13T05:55:06Z",
+  "updatedAt": "2026-09-13T11:32:31Z",
   "configured": true,
-  "eventsPrepared": 16,
-  "ingestOk": false,
-  "ingestResponse": null,
-  "cacheRows": 0,
-  "cacheWritten": false,
-  "error": "HTTP 504: {\"message\":\"Gateway Timeout\"}"
+  "eventsPrepared": 18,
+  "ingestOk": true,
+  "ingestResponse": {
+    "ok": true,
+    "updated_events": 18,
+    "inserted_events": 0,
+    "inserted_observations": 18
+  },
+  "cacheRows": 878,
+  "cacheWritten": true,
+  "error": null
 }
