@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à Rodovia João Paulo é bloqueado próximo à SC-401 em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-14T16:30:57Z; ativo há 7 min.",
+    "description": "Acesso à Rodovia João Paulo é bloqueado próximo à SC-401 em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-14T16:30:57Z; ativo há 8 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 0.12,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-14T16:30:57Z",
-    "last_seen_at": "2026-09-14T16:38:21Z",
-    "active_duration_hours": 0.12,
-    "active_duration_label": "7 min",
+    "last_seen_at": "2026-09-14T16:38:35Z",
+    "active_duration_hours": 0.13,
+    "active_duration_label": "8 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "news_signature": "468c799bec7c4e087fe57c16",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.2 dias. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 27.2 dias.",
+    "description": "Serra das Araras, na Dutra, é interditada para obras; veja quando - iG Último Segundo. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.2 dias.2 dias. Rastreio: primeiro registro em 2026-08-18T11:14:00Z; ativo há 27.2 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,13 @@
     "newsFreshnessHours": 4.14,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-08-18T11:14:00Z",
-    "last_seen_at": "2026-09-14T16:38:21Z",
+    "last_seen_at": "2026-09-14T16:38:35Z",
     "active_duration_hours": 653.41,
     "active_duration_label": "27.2 dias",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "01cb4496eaa33a71180c598e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
