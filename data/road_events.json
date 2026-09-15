@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada na Serra nesta terça (15) - esbrasil.com.br. Fontes consolidadas: Notícias públicas - esbrasil.com.br; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-14T21:19:00Z; ativo há 9.3 h.",
+    "description": "BR-101 será interditada na Serra nesta terça (15) - esbrasil.com.br. Fontes consolidadas: Notícias públicas - esbrasil.com.br; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-14T21:19:00Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 9.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-14T21:19:00Z",
-    "last_seen_at": "2026-09-15T06:38:20Z",
-    "active_duration_hours": 9.32,
+    "last_seen_at": "2026-09-15T06:38:35Z",
+    "active_duration_hours": 9.33,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "596ced49317587a8cd924f73",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
