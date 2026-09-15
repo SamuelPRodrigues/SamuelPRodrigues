@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 será interditado durante a noite para obras do VLT em Salvador - Alô Alô Bahia. Fontes consolidadas: Notícias públicas - Alô Alô Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-15T17:51:06Z; ativo há 2.0 h.",
+    "description": "Trecho da BR-324 será interditado durante a noite para obras do VLT em Salvador - Alô Alô Bahia. Fontes consolidadas: Notícias públicas - Alô Alô Bahia; Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-15T17:51:06Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T17:51:06Z",
-    "last_seen_at": "2026-09-15T19:52:21Z",
-    "active_duration_hours": 2.02,
+    "last_seen_at": "2026-09-15T19:52:36Z",
+    "active_duration_hours": 2.03,
     "active_duration_label": "2.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0a570f61dab896f76a0330ef",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ibirama: BR 470 fica parcialmente interditada para retirada de carreta e contêiner - ndmais.com.br. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-15T17:32:14Z; ativo há 2.3 h.",
+    "description": "Ibirama: BR 470 fica parcialmente interditada para retirada de carreta e contêiner - ndmais.com.br. Fontes consolidadas: Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-15T17:32:14Z; ativo há 2.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 2.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T17:32:14Z",
-    "last_seen_at": "2026-09-15T19:52:21Z",
+    "last_seen_at": "2026-09-15T19:52:36Z",
     "active_duration_hours": 2.34,
     "active_duration_label": "2.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e84d5208fdb4787418ec9d7b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +113,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - bandfmitajai.com.br. Fontes consolidadas: Notícias públicas - bandfmitajai.com.br; Notícias públicas - G1; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-15T17:30:02Z; ativo há 2.4 h.",
+    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - bandfmitajai.com.br. Fontes consolidadas: Notícias públicas - bandfmitajai.com.br; Notícias públicas - G1; Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-15T17:30:02Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -154,12 +158,14 @@
     "newsFreshnessHours": 2.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T17:30:02Z",
-    "last_seen_at": "2026-09-15T19:52:21Z",
-    "active_duration_hours": 2.37,
+    "last_seen_at": "2026-09-15T19:52:36Z",
+    "active_duration_hours": 2.38,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a5b9f0f4e093d48a0070a37f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -171,7 +177,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-153 será novamente interditada para detonação de rochas em Rialm. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-15T15:27:18Z; ativo há 4.4 h.",
+    "description": "BR-153 será novamente interditada para detonação de rochas em Rialm. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-15T15:27:18Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -202,8 +208,11 @@
     "active_duration_hours": 4.42,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-15T19:52:21Z",
+    "news_signature": "a4f4a3977ee349f769cc2d5a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -215,7 +224,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-483 está há quatro dias interditada após deslizamento causado pelas fortes chuvas; mais de 100 cargas de terra já foram retiradas - Observador Regional. Fontes consolidadas: Notícias públicas - Observador Regional; Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-15T12:40:00Z; ativo há 7.2 h.",
+    "description": "SC-483 está há quatro dias interditada após deslizamento causado pelas fortes chuvas; mais de 100 cargas de terra já foram retiradas - Observador Regional. Fontes consolidadas: Notícias públicas - Observador Regional; Notícias públicas - ndmais.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-15T12:40:00Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -254,12 +263,14 @@
     "newsFreshnessHours": 7.21,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T12:40:00Z",
-    "last_seen_at": "2026-09-15T19:52:21Z",
+    "last_seen_at": "2026-09-15T19:52:36Z",
     "active_duration_hours": 7.21,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-483"
+    "detectedRoad": "SC-483",
+    "news_signature": "db84827256adaf3f8cfce242",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
