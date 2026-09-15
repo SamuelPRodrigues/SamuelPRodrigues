@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada na Serra nesta terça (15) - ES Brasil. Fontes consolidadas: Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-14T21:19:00Z; ativo há 4.3 h.",
+    "description": "BR-101 será interditada na Serra nesta terça (15) - ES Brasil. Fontes consolidadas: Notícias públicas - ES Brasil; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-14T21:19:00Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 4.27,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-15T01:35:09Z",
+    "news_signature": "01e28f30d26ccacf5a47dd99",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia SP-165 segue interditada por alagamentos no Vale do Ribeira; equipes seguem em monitoramento. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-14T17:42:00Z; ativo há 7.9 h.",
+    "description": "Rodovia SP-165 segue interditada por alagamentos no Vale do Ribeira; equipes seguem em monitoramento. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-14T17:42:00Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,9 +93,12 @@
     "active_duration_hours": 7.89,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-165"
+    "detectedRoad": "SP-165",
+    "last_confirmed_at": "2026-09-15T01:35:09Z",
+    "news_signature": "af7c7cf8fd3b3ef6b929846c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +110,7 @@
     "lat": -22.906,
     "lon": -43.172,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente nas proximidade de Sapucaia (RJ), deixou interditada por horas a BR-393 - Jornal Além Parahyba. Fontes consolidadas: Notícias públicas - Jornal Além Parahyba. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-14T17:12:59Z; ativo há 8.4 h.",
+    "description": "Acidente nas proximidade de Sapucaia (RJ), deixou interditada por horas a BR-393 - Jornal Além Parahyba. Fontes consolidadas: Notícias públicas - Jornal Além Parahyba. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-14T17:12:59Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -135,8 +141,11 @@
     "active_duration_hours": 8.37,
     "active_duration_label": "8.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-15T01:35:09Z",
+    "news_signature": "4d2cd10124c9c20cef314df9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +157,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à Rodovia João Paulo é bloqueado próximo à SC-401 em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-14T16:30:57Z; ativo há 9.1 h.",
+    "description": "Acesso à Rodovia João Paulo é bloqueado próximo à SC-401 em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-14T16:30:57Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -176,11 +185,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-14T16:30:57Z",
     "last_seen_at": "2026-09-15T01:35:09Z",
-    "active_duration_hours": 9.07,
+    "active_duration_hours": 9.08,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "last_confirmed_at": "2026-09-15T01:35:09Z",
+    "news_signature": "468c799bec7c4e087fe57c16",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
