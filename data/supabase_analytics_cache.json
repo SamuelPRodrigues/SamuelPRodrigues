@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T06:38:20Z",
+  "updatedAt": "2026-09-15T12:04:17Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -118,6 +118,49 @@
       "estimated_hours": 556.75,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "a88c0e468bd87f1235c6724b",
+      "stable_event_id": "a88c0e468bd87f1235c6724b",
+      "observation_hash": "ba1c3fa930c286bb23b13162",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-15T12:04:10+00:00",
+      "first_seen_at": "2026-09-15T12:04:11+00:00",
+      "last_seen_at": "2026-09-15T12:04:10+00:00",
+      "updated_at": "2026-09-15T12:04:12.662599+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-324",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Interdição ou bloqueio por notícia pública • BR-324",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-324",
+      "description": "Trecho da BR-324 em Salvador será interditado para obras; veja horários - Jornal Correio.. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Jornal Correio",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0FzSVQwekdQa1FSY1htdDI5aHhDQlp4a1U2bkdoTWZzOEs1UDZOYjYyYlJNRXhEay0wVVJvaWhTRFlaMzY2S3pHMVVOSHFqamFXUWlQTkF6TTByQUgwMUhYVVBmQ3ljN3J3aHF2WVhlR0RRRFRGOVRJTVRGa3hoaUd0N0lpYXhFWERMdE9MN2ZqbXJNcXVBY0tIRlM0bVBtc1AxVy1TYm5xZ0pnTzVRdnNjX0Fpam9sOXc",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0FzSVQwekdQa1FSY1htdDI5aHhDQlp4a1U2bkdoTWZzOEs1UDZOYjYyYlJNRXhEay0wVVJvaWhTRFlaMzY2S3pHMVVOSHFqamFXUWlQTkF6TTByQUgwMUhYVVBmQ3ljN3J3aHF2WVhlR0RRRFRGOVRJTVRGa3hoaUd0N0lpYXhFWERMdE9MN2ZqbXJNcXVBY0tIRlM0bVBtc1AxVy1TYm5xZ0pnTzVRdnNjX0Fpam9sOXc",
+      "headline": "Trecho da BR-324 em Salvador será interditado para obras; veja horários - Jornal Correio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0FzSVQwekdQa1FSY1htdDI5aHhDQlp4a1U2bkdoTWZzOEs1UDZOYjYyYlJNRXhEay0wVVJvaWhTRFlaMzY2S3pHMVVOSHFqamFXUWlQTkF6TTByQUgwMUhYVVBmQ3ljN3J3aHF2WVhlR0RRRFRGOVRJTVRGa3hoaUd0N0lpYXhFWERMdE9MN2ZqbXJNcXVBY0tIRlM0bVBtc1AxVy1TYm5xZ0pnTzVRdnNjX0Fpam9sOXc",
+          "headline": "Trecho da BR-324 em Salvador será interditado para obras; veja horários - Jornal Correio.",
+          "date": "2026-09-15T12:04:12.662599+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "a2106c8eff0731de48d34872",
@@ -22891,35 +22934,6 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "2a591ba3d2b00bb09a289bc8",
-      "stable_event_id": "2a591ba3d2b00bb09a289bc8",
-      "observation_hash": "c617502615322e6b87029ec3",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-13T11:32:30+00:00",
-      "first_seen_at": "2026-05-26T01:17:20+00:00",
-      "last_seen_at": "2026-09-13T11:32:30+00:00",
-      "updated_at": "2026-09-13T11:32:32.227238+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Coari",
-      "risk": 66,
-      "severity": "Alto",
-      "lat": -4.085,
-      "lon": -63.141,
-      "city": "Coari",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 110.4 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1887,
-      "estimated_hours": 471.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "efc62ea27cf7cdded93be10f",
       "stable_event_id": "efc62ea27cf7cdded93be10f",
       "observation_hash": "d1cb0b736e46438cff23f2a3",
@@ -24283,31 +24297,31 @@
       "storage": "supabase"
     },
     {
-      "event_id": "59d82109d2c8715fda0d3803",
-      "stable_event_id": "59d82109d2c8715fda0d3803",
-      "observation_hash": "f0c593186f6154cecdb1c062",
+      "event_id": "2a591ba3d2b00bb09a289bc8",
+      "stable_event_id": "2a591ba3d2b00bb09a289bc8",
+      "observation_hash": "e7ef46c2f2040be70bc51df3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-15T06:38:14+00:00",
-      "first_seen_at": "2026-05-30T20:17:04+00:00",
-      "last_seen_at": "2026-09-15T06:38:14+00:00",
-      "updated_at": "2026-09-15T06:38:15.951266+00:00",
+      "snapshot_at": "2026-09-15T12:04:10+00:00",
+      "first_seen_at": "2026-05-26T01:17:20+00:00",
+      "last_seen_at": "2026-09-15T12:04:10+00:00",
+      "updated_at": "2026-09-15T12:04:12.662599+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
-      "name": "Divinópolis",
+      "name": "Coari",
       "risk": 41,
       "severity": "Moderado",
-      "lat": -20.144,
-      "lon": -44.891,
-      "city": "Divinópolis",
-      "state": "MG",
-      "region": "Sudeste",
+      "lat": -4.085,
+      "lon": -63.141,
+      "city": "Coari",
+      "state": "AM",
+      "region": "Norte",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-30T20:15:16Z; ativo há 107.4 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T01:15:15Z; ativo há 112.5 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 178,
-      "estimated_hours": 44.5,
+      "total_snapshots": 1888,
+      "estimated_hours": 472.0,
       "active": true,
       "storage": "supabase"
     },
@@ -24337,35 +24351,6 @@
       "source_url": "",
       "total_snapshots": 1594,
       "estimated_hours": 398.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "7cf55655cceecd24734fee4b",
-      "stable_event_id": "7cf55655cceecd24734fee4b",
-      "observation_hash": "939b63600921948753740e0e",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-15T01:35:03+00:00",
-      "first_seen_at": "2026-05-27T14:17:23+00:00",
-      "last_seen_at": "2026-09-15T01:35:03+00:00",
-      "updated_at": "2026-09-15T01:35:05.131333+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Campinas",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -22.907,
-      "lon": -47.063,
-      "city": "Campinas",
-      "state": "SP",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:27Z; ativo há 110.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 666,
-      "estimated_hours": 166.5,
       "active": true,
       "storage": "supabase"
     },
@@ -25269,6 +25254,64 @@
       "storage": "supabase"
     },
     {
+      "event_id": "59d82109d2c8715fda0d3803",
+      "stable_event_id": "59d82109d2c8715fda0d3803",
+      "observation_hash": "e8aa8201c47bea37279e9732",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-15T12:04:10+00:00",
+      "first_seen_at": "2026-05-30T20:17:04+00:00",
+      "last_seen_at": "2026-09-15T12:04:10+00:00",
+      "updated_at": "2026-09-15T12:04:12.662599+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Divinópolis",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -20.144,
+      "lon": -44.891,
+      "city": "Divinópolis",
+      "state": "MG",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-30T20:15:16Z; ativo há 107.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 179,
+      "estimated_hours": 44.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "7cf55655cceecd24734fee4b",
+      "stable_event_id": "7cf55655cceecd24734fee4b",
+      "observation_hash": "b936b9ad1c39e89b006505ba",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-15T12:04:10+00:00",
+      "first_seen_at": "2026-05-27T14:17:23+00:00",
+      "last_seen_at": "2026-09-15T12:04:10+00:00",
+      "updated_at": "2026-09-15T12:04:12.662599+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Campinas",
+      "risk": 39,
+      "severity": "Moderado",
+      "lat": -22.907,
+      "lon": -47.063,
+      "city": "Campinas",
+      "state": "SP",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-27T14:15:27Z; ativo há 110.9 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 667,
+      "estimated_hours": 166.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "406820a3be86242a0c73f399",
       "stable_event_id": "406820a3be86242a0c73f399",
       "observation_hash": "6127818ced781e4d2af8fd20",
@@ -26141,12 +26184,12 @@
     {
       "event_id": "66e1791f8dbba3841f3d59de",
       "stable_event_id": "66e1791f8dbba3841f3d59de",
-      "observation_hash": "0edba1e84bb2d6117060a401",
+      "observation_hash": "b509bfd3c10d768a07007647",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-14T16:38:14+00:00",
+      "snapshot_at": "2026-09-15T12:04:10+00:00",
       "first_seen_at": "2026-05-27T06:16:53+00:00",
-      "last_seen_at": "2026-09-14T16:38:14+00:00",
-      "updated_at": "2026-09-14T16:38:15.952869+00:00",
+      "last_seen_at": "2026-09-15T12:04:10+00:00",
+      "updated_at": "2026-09-15T12:04:12.662599+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -26159,11 +26202,11 @@
       "state": "CE",
       "region": "Nordeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 110.4 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-27T06:15:15Z; ativo há 111.2 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2222,
-      "estimated_hours": 555.5,
+      "total_snapshots": 2223,
+      "estimated_hours": 555.75,
       "active": true,
       "storage": "supabase"
     },
@@ -26837,31 +26880,31 @@
   ],
   "windows": {
     "7": {
-      "events": 147,
+      "events": 146,
       "avgRisk": 47,
       "maxRisk": 70,
       "rainChance": 0,
       "byType": {
-        "climate": 95,
+        "climate": 94,
         "road": 52
       },
       "byRegion": {
-        "Nordeste": 41,
+        "Nordeste": 42,
         "Sudeste": 38,
         "Sul": 36,
-        "Norte": 20,
-        "Centro-Oeste": 12
+        "Norte": 19,
+        "Centro-Oeste": 11
       },
       "bySeverity": {
         "Moderado": 66,
-        "Alto": 57,
+        "Alto": 56,
         "Baixo": 24
       },
       "dailyRisk": [
         {
           "date": "2026-09-08",
-          "avgRisk": 64,
-          "events": 4,
+          "avgRisk": 69,
+          "events": 2,
           "maxRisk": 69
         },
         {
@@ -26890,35 +26933,35 @@
         },
         {
           "date": "2026-09-13",
-          "avgRisk": 39,
-          "events": 23,
+          "avgRisk": 37,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-09-14",
           "avgRisk": 37,
-          "events": 42,
+          "events": 41,
           "maxRisk": 69
         },
         {
           "date": "2026-09-15",
-          "avgRisk": 44,
-          "events": 22,
+          "avgRisk": 43,
+          "events": 25,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 247,
+      "events": 248,
       "avgRisk": 56,
       "maxRisk": 70,
       "rainChance": 4,
       "byType": {
-        "road": 148,
+        "road": 149,
         "climate": 99
       },
       "byRegion": {
-        "Nordeste": 75,
+        "Nordeste": 76,
         "Sudeste": 70,
         "Sul": 56,
         "Norte": 27,
@@ -26927,7 +26970,7 @@
       },
       "bySeverity": {
         "Alto": 155,
-        "Moderado": 68,
+        "Moderado": 69,
         "Baixo": 24
       },
       "dailyRisk": [
@@ -27095,44 +27138,44 @@
         },
         {
           "date": "2026-09-13",
-          "avgRisk": 39,
-          "events": 23,
+          "avgRisk": 37,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-09-14",
           "avgRisk": 37,
-          "events": 42,
+          "events": 41,
           "maxRisk": 69
         },
         {
           "date": "2026-09-15",
-          "avgRisk": 44,
-          "events": 22,
+          "avgRisk": 43,
+          "events": 25,
           "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 540,
+      "events": 538,
       "avgRisk": 62,
       "maxRisk": 85,
       "rainChance": 14,
       "byType": {
-        "road": 430,
+        "road": 428,
         "climate": 110
       },
       "byRegion": {
-        "Nordeste": 192,
+        "Nordeste": 193,
         "Sul": 138,
-        "Sudeste": 128,
+        "Sudeste": 125,
         "Norte": 46,
         "Sem região": 18,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 437,
-        "Moderado": 78,
+        "Alto": 434,
+        "Moderado": 79,
         "Baixo": 24,
         "Crítico": 1
       },
@@ -27140,7 +27183,7 @@
         {
           "date": "2026-06-17",
           "avgRisk": 69,
-          "events": 4,
+          "events": 1,
           "maxRisk": 69
         },
         {
@@ -27655,20 +27698,20 @@
         },
         {
           "date": "2026-09-13",
-          "avgRisk": 39,
-          "events": 23,
+          "avgRisk": 37,
+          "events": 22,
           "maxRisk": 69
         },
         {
           "date": "2026-09-14",
           "avgRisk": 37,
-          "events": 42,
+          "events": 41,
           "maxRisk": 69
         },
         {
           "date": "2026-09-15",
-          "avgRisk": 44,
-          "events": 22,
+          "avgRisk": 43,
+          "events": 25,
           "maxRisk": 69
         }
       ]
