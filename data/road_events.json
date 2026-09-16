@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 4.6 h.",
+    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 4.59,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T13:53:51Z",
-    "last_seen_at": "2026-09-16T18:29:13Z",
+    "last_seen_at": "2026-09-16T18:29:28Z",
     "active_duration_hours": 4.59,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "39727f142d9c7917cadadd82",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -76,7 +78,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 15.5 h.",
+    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 15.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -108,6 +110,9 @@
     "last_seen_at": "2026-09-16T18:29:13Z",
     "active_duration_hours": 15.49,
     "active_duration_label": "15.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T18:29:13Z",
+    "news_signature": "b802996c02b9e99f3fe388f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
