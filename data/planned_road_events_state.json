@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T18:29:12Z",
+  "updatedAt": "2026-09-16T21:37:24Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -3774,7 +3774,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-09-16T18:29:12Z",
+      "updatedAt": "2026-09-16T21:37:24Z",
       "sources": [
         {
           "source": "Se Liga Chapada",
@@ -4093,6 +4093,45 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGlkN2t5dDE0TXFqdWRIVXpjVWVNeEFmRFdmdDRpWlFWNEJzSDFTQUd5VTVuczc0MGlhT1h6dUI2RE5tbDdWTjdBWjEtbUZYek1jb1AycXRjT2xydTk5Uk51VmVMSFNSNzB4aFVqbUlOcmU1VW1mWEhMX3V6TVc5bnBnbHBZQ21EWFF0WU9R0gGTAUFVX3lxTE0wRU5salpJQmNFcWxTdnhqM0dCbnN4Z2lmWnFveU5fZk5lQWtLRGxHeGU4S3JQWGVsLXZkQTBoRlNoUVBBSEZsS01GcTR0dWN1SVNLaEh0NlU2YmREaXNTZ01RSVZ4TUZFSVFFajNrS1h2RGdVZ0hpRUIyS3hpdWJvNDd3NjFRQnNxVGdkMVMtSkNBZw?oc=5",
           "headline": "BR-376 é interditada após derramamento de óleo causado por colisão em Ponta Grossa - Banda B",
           "date": "2026-09-15T20:15:00Z"
+        }
+      ]
+    },
+    "b6c9625cb1bfc0102fe78917": {
+      "active": true,
+      "event_id": "b6c9625cb1bfc0102fe78917",
+      "stable_event_id": "b6c9625cb1bfc0102fe78917",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Itajaí • BR-101 / BR-470",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -26.91,
+      "lon": -48.67,
+      "city": "Itajaí",
+      "state": "SC",
+      "region": "Sul",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com.  Período informado: 2026-09-16T14:53:54Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - hojesc.com",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlp3YW00V3JqcjNBU25IdDVHLV92UXhIMThDNnNnekpmTmJrZUhzNUFuT2R1VVVmTnNRYUVxaThLdXB6RExPN2g3a1otS2cyNm9BdTZfRjk1bUtlLXNOYk42SlhkREtaY2RrUENuR1YxOE9hWG9tNDNfSEtvYlJfZENTRGJtU3dq?oc=5",
+      "headline": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com",
+      "newsDate": "2026-09-16T14:53:54Z",
+      "plannedStartAt": "2026-09-16T14:53:54Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-09-16T21:37:24Z",
+      "sources": [
+        {
+          "source": "hojesc.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlp3YW00V3JqcjNBU25IdDVHLV92UXhIMThDNnNnekpmTmJrZUhzNUFuT2R1VVVmTnNRYUVxaThLdXB6RExPN2g3a1otS2cyNm9BdTZfRjk1bUtlLXNOYk42SlhkREtaY2RrUENuR1YxOE9hWG9tNDNfSEtvYlJfZENTRGJtU3dq?oc=5",
+          "headline": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com",
+          "date": "2026-09-16T14:53:54Z"
         }
       ]
     }
