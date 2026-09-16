@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 52 min.",
+    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 53 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,12 +60,14 @@
     "newsFreshnessHours": 0.87,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T13:53:51Z",
-    "last_seen_at": "2026-09-16T14:46:15Z",
-    "active_duration_hours": 0.87,
-    "active_duration_label": "52 min",
+    "last_seen_at": "2026-09-16T14:46:36Z",
+    "active_duration_hours": 0.88,
+    "active_duration_label": "53 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6569c7ea593410c6fc79d65e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +79,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Casal passa de carro pela BR-470 em Santa Catarina de madrugada quando cratera engole a pista, o veículo cai dentro do buraco e os dois saem sem ferimentos graves segundos antes de. Fontes consolidadas: Notícias públicas - CPG Click Petróleo e Gás; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-16T12:20:00Z; ativo há 2.4 h.",
+    "description": "Casal passa de carro pela BR-470 em Santa Catarina de madrugada quando cratera engole a pista, o veículo cai dentro do buraco e os dois saem sem ferimentos graves segundos antes de. Fontes consolidadas: Notícias públicas - CPG Click Petróleo e Gás; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-16T12:20:00Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -116,12 +118,14 @@
     "newsFreshnessHours": 2.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T12:20:00Z",
-    "last_seen_at": "2026-09-16T14:46:15Z",
+    "last_seen_at": "2026-09-16T14:46:36Z",
     "active_duration_hours": 2.44,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8fb56a9393be114a12532cab",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -138,7 +142,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 11.8 h.",
+    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -168,8 +172,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-16T03:00:00Z",
     "last_seen_at": "2026-09-16T14:46:15Z",
-    "active_duration_hours": 11.77,
+    "active_duration_hours": 11.78,
     "active_duration_label": "11.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T14:46:15Z",
+    "news_signature": "b802996c02b9e99f3fe388f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
