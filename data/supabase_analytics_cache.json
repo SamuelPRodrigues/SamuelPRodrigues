@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:37:25Z",
+  "updatedAt": "2026-09-16T23:48:52Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -120,14 +120,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "de38b5314a9cecd5673fd9aa",
+      "stable_event_id": "de38b5314a9cecd5673fd9aa",
+      "observation_hash": "b8b16e2c278590538470946e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
+      "first_seen_at": "2026-09-16T23:48:45+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-364",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Interdição ou bloqueio por notícia pública • BR-364",
+      "state": "",
+      "region": "Norte",
+      "road": "BR-364",
+      "description": "BR-364 será interditada na Serra de São Vicente - LEIAGORA.. Fontes consolidadas: Notícias públicas - LEIAGORA. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - LEIAGORA",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vXzRMZm5ZeEhWMjVNelN2SXY4MVlZUHZZSE91VTdGaWJVeHFZV0tvREp5Z0RzeUpmVHBjcENUMTZCTjRQUVo5aW91VWFjU0VFa1pJUU95YldlWjlSR1NPbGtkQUMtRHJfeVRjNV9BUUhrVUsxMDZwZW85eWg",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vXzRMZm5ZeEhWMjVNelN2SXY4MVlZUHZZSE91VTdGaWJVeHFZV0tvREp5Z0RzeUpmVHBjcENUMTZCTjRQUVo5aW91VWFjU0VFa1pJUU95YldlWjlSR1NPbGtkQUMtRHJfeVRjNV9BUUhrVUsxMDZwZW85eWg",
+      "headline": "BR-364 será interditada na Serra de São Vicente - LEIAGORA.",
+      "sources": [
+        {
+          "source": "Notícias públicas - LEIAGORA",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vXzRMZm5ZeEhWMjVNelN2SXY4MVlZUHZZSE91VTdGaWJVeHFZV0tvREp5Z0RzeUpmVHBjcENUMTZCTjRQUVo5aW91VWFjU0VFa1pJUU95YldlWjlSR1NPbGtkQUMtRHJfeVRjNV9BUUhrVUsxMDZwZW85eWg",
+          "headline": "BR-364 será interditada na Serra de São Vicente - LEIAGORA.",
+          "date": "2026-09-16T23:48:46.566405+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "b182755fbfee83f5d5aced20",
       "stable_event_id": "b182755fbfee83f5d5aced20",
-      "observation_hash": "b0c95395afb238966e63254a",
+      "observation_hash": "41d68e0fcfcc192a04902770",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-09-16T21:37:19+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -143,8 +186,8 @@
       "description": "Vídeo: acidente na BR-381 entre carretas e carro mata uma pessoa em MG; rodovia está interditada - O TEMPO.. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - O TEMPO",
       "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnFMdWNUQndldkhRVXBvSmM2S2swTW1oeldqbmhSb1diYlF3YllwR185V2lRaGZHNkp0YWdkOGtuX242VnVfMUZhQ0Y4eHpZcjdYU1BuYlBZWU5rR0l6UTUwVnFlZ1dLX2p6T0R3cV9tN1VKaFJqMzZJZzVfT2dqbFlMZ3pFbktYVUczWE1OYlBkWHZGT3lUb01CTm5LdDFkaE1fY0NZTC0yWXJ2WjhjNWp6Q2FiMy1BeGUySGNtLUNGakJkUW9RaGRNMUhvaW4yMWlOa9IB2gFBVV95cUxNdE1tbUJBNjF6Z2pqU2pmbG5leXMwTDZPREVKcWR3cGlLSldJUWVoVmp2T09jajZ1Q2hqODgzQ2NoV1RlTGJpUE5UMENVbGtEN3B1a1hTUHBrVnowcXhJYXNXdDY4N1RZdExyTjVELTdqYVRkRUZucEJnVDA3OTduNHZpamZnLUZUcmNNaUlidk1JSzAxeEZxNWRJSUQzS1hvNE9kVmVVRGQwRnlETDZOX0xNc3hPQTJTNVItZkl6bEQtX0RrczlmRVdtazg3WkhlX3R1UjhmZ3R4UQ",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -155,7 +198,7 @@
           "source": "Notícias públicas - O TEMPO",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnFMdWNUQndldkhRVXBvSmM2S2swTW1oeldqbmhSb1diYlF3YllwR185V2lRaGZHNkp0YWdkOGtuX242VnVfMUZhQ0Y4eHpZcjdYU1BuYlBZWU5rR0l6UTUwVnFlZ1dLX2p6T0R3cV9tN1VKaFJqMzZJZzVfT2dqbFlMZ3pFbktYVUczWE1OYlBkWHZGT3lUb01CTm5LdDFkaE1fY0NZTC0yWXJ2WjhjNWp6Q2FiMy1BeGUySGNtLUNGakJkUW9RaGRNMUhvaW4yMWlOa9IB2gFBVV95cUxNdE1tbUJBNjF6Z2pqU2pmbG5leXMwTDZPREVKcWR3cGlLSldJUWVoVmp2T09jajZ1Q2hqODgzQ2NoV1RlTGJpUE5UMENVbGtEN3B1a1hTUHBrVnowcXhJYXNXdDY4N1RZdExyTjVELTdqYVRkRUZucEJnVDA3OTduNHZpamZnLUZUcmNNaUlidk1JSzAxeEZxNWRJSUQzS1hvNE9kVmVVRGQwRnlETDZOX0xNc3hPQTJTNVItZkl6bEQtX0RrczlmRVdtazg3WkhlX3R1UjhmZ3R4UQ",
           "headline": "Vídeo: acidente na BR-381 entre carretas e carro mata uma pessoa em MG; rodovia está interditada - O TEMPO.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         }
       ],
       "sourceCount": 1,
@@ -165,12 +208,12 @@
     {
       "event_id": "e31a5c5a8fb955511009a4f1",
       "stable_event_id": "e31a5c5a8fb955511009a4f1",
-      "observation_hash": "c4f47a1cd76d4e7a87c1475c",
+      "observation_hash": "2a5de7c1eb520dc8fe471341",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-09-16T21:37:19+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -186,8 +229,8 @@
       "description": "Caminhão tem princípio de incêndio e BR-070 é parcialmente interditada em Cuiabá - en.com.br.. Fontes consolidadas: Notícias públicas - en.com.br. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - en.com.br",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONmlkbGxyYTBmSDFyU25hSzk1SkRHS3B5RGxmaW5QYlJrRnpRUVVJajNHcTRxTmpvRnZBM3M1OU5tZWEzZXEydm1mRlJpSEtLVkU4WEg1SzZ4a250ZUtKWjE5YUozWjJPQTRCRU82REV4dUlOTnN4N0JOYm01VzcwLWJUU2tEaXY0ajRqcnRpZE5JSXI5dlI1VzdSdVBSRWl5",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -198,7 +241,7 @@
           "source": "Notícias públicas - en.com.br",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONmlkbGxyYTBmSDFyU25hSzk1SkRHS3B5RGxmaW5QYlJrRnpRUVVJajNHcTRxTmpvRnZBM3M1OU5tZWEzZXEydm1mRlJpSEtLVkU4WEg1SzZ4a250ZUtKWjE5YUozWjJPQTRCRU82REV4dUlOTnN4N0JOYm01VzcwLWJUU2tEaXY0ajRqcnRpZE5JSXI5dlI1VzdSdVBSRWl5",
           "headline": "Caminhão tem princípio de incêndio e BR-070 é parcialmente interditada em Cuiabá - en.com.br.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         }
       ],
       "sourceCount": 1,
@@ -208,12 +251,12 @@
     {
       "event_id": "9cd492791af45881946b44be",
       "stable_event_id": "9cd492791af45881946b44be",
-      "observation_hash": "89113ace8412db2cd5848c16",
+      "observation_hash": "47401f19a7cc730902e77849",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-09-16T05:21:01+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição planejada por notícia pública",
@@ -229,8 +272,8 @@
       "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí.. Fontes consolidadas: Notícias públicas - Band FM Itajaí; Notícias públicas - hojesc.com. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - Band FM Itajaí + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUmZfeXlxOXpPQ2VIUGh5LTVyS3hrMVNMdzI4MjY5Y3JVWVl0MjQyelVmYlhvblV3eEtpaWdGUjdQRE5xM0Y1Mmc3bjJralhjVGpNOEtNLUlNd0gybG1zRTZ3X1FDMURXTGFHQ2ptLTZHVWlCLWhMSEx1TjVIakFuaGRsYVhxbWpUeER6T0NndEZ5eWhJNmFlTzRrT1MtWEV0R28xN2JDZEZBcnBRcWxETUZ0enhfRkJYVjRlMV81NjYzNEhWUE9DcU01R0tEbDdQeTZQaVpnVVNLSk5pc2hud0h5aHdCWjdJNFhudlpRRFUtZWhYS09wQ0FWdw",
-      "total_snapshots": 5,
-      "estimated_hours": 1.25,
+      "total_snapshots": 6,
+      "estimated_hours": 1.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -241,13 +284,13 @@
           "source": "Notícias públicas - Band FM Itajaí",
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUmZfeXlxOXpPQ2VIUGh5LTVyS3hrMVNMdzI4MjY5Y3JVWVl0MjQyelVmYlhvblV3eEtpaWdGUjdQRE5xM0Y1Mmc3bjJralhjVGpNOEtNLUlNd0gybG1zRTZ3X1FDMURXTGFHQ2ptLTZHVWlCLWhMSEx1TjVIakFuaGRsYVhxbWpUeER6T0NndEZ5eWhJNmFlTzRrT1MtWEV0R28xN2JDZEZBcnBRcWxETUZ0enhfRkJYVjRlMV81NjYzNEhWUE9DcU01R0tEbDdQeTZQaVpnVVNLSk5pc2hud0h5aHdCWjdJNFhudlpRRFUtZWhYS09wQ0FWdw",
           "headline": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         },
         {
           "source": "Notícias públicas - hojesc.com",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlp3YW00V3JqcjNBU25IdDVHLV92UXhIMThDNnNnekpmTmJrZUhzNUFuT2R1VVVmTnNRYUVxaThLdXB6RExPN2g3a1otS2cyNm9BdTZfRjk1bUtlLXNOYk42SlhkREtaY2RrUENuR1YxOE9hWG9tNDNfSEtvYlJfZENTRGJtU3dq",
           "headline": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         }
       ],
       "sourceCount": 2,
@@ -257,12 +300,12 @@
     {
       "event_id": "a5324ad491f528c62d286db8",
       "stable_event_id": "a5324ad491f528c62d286db8",
-      "observation_hash": "35000707eb66553d6874e38e",
+      "observation_hash": "5fe8eeed44824c6195bd27d3",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-09-16T14:45:50+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -278,8 +321,8 @@
       "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total.. Fontes consolidadas: Notícias públicas - NSC Total + 4 fonte(s); Notícias públicas - Página 3 + 6 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - NSC Total + 4 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNY1FlblYxM24ta2dpcVFxMldERzVEM3Y2bi1sZVladUgwTURnVWVoQTdMam8yM2VpTEZKZHhJeXBDY3lyVkVLNVlBU09PV0FvM3lQZzhYc0xKcWd0OG5lNnFnZERhZFpjRDM2Q2FfOG43OVJNdTBXSHR4VG16bkwzdXVXeVZiX1ptejZ4cEVmTklGZk9CdVAxaE02ckFDSmxUQ1pEQ3VGRnhWbGZYRjExWmREZWQwd1ZZX3RCVW5kYWZhTU9qNFJmYnJtQVp5TU1JUnZaTlhMLTVjczMyYUNVaUtIeXdfWTVvTFNhSUhnV2JDX3FZ",
-      "total_snapshots": 3,
-      "estimated_hours": 0.75,
+      "total_snapshots": 4,
+      "estimated_hours": 1.0,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -290,7 +333,7 @@
           "source": "Notícias públicas - NSC Total + 4 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNY1FlblYxM24ta2dpcVFxMldERzVEM3Y2bi1sZVladUgwTURnVWVoQTdMam8yM2VpTEZKZHhJeXBDY3lyVkVLNVlBU09PV0FvM3lQZzhYc0xKcWd0OG5lNnFnZERhZFpjRDM2Q2FfOG43OVJNdTBXSHR4VG16bkwzdXVXeVZiX1ptejZ4cEVmTklGZk9CdVAxaE02ckFDSmxUQ1pEQ3VGRnhWbGZYRjExWmREZWQwd1ZZX3RCVW5kYWZhTU9qNFJmYnJtQVp5TU1JUnZaTlhMLTVjczMyYUNVaUtIeXdfWTVvTFNhSUhnV2JDX3FZ",
           "headline": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         },
         {
           "source": "Notícias públicas - Página 3 + 6 fonte(s)",
@@ -306,12 +349,12 @@
     {
       "event_id": "3ce3379d039446c4c938831b",
       "stable_event_id": "3ce3379d039446c4c938831b",
-      "observation_hash": "7b5b351bcd59a3a8c01a9b8a",
+      "observation_hash": "867b2790360756bcdde66464",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-09-16T14:45:50+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -327,8 +370,8 @@
       "description": "Casal passa de carro pela BR-470 em Santa Catarina de madrugada quando cratera engole a pista, o veículo cai dentro do buraco e os dois saem sem ferimentos graves segundos antes de.. Fontes consolidadas: Notícias públicas - CPG Click Petróleo e Gás + 2 fonte(s); Notícias públicas - ND Mais + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - CPG Click Petróleo e Gás + 2 fonte(s) + 1 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPd3EwZVNnd09XdDlmSm0wWGZuX2lDQlVXdDc2QlNPUFFaRk10LWNvWkJpdDdua0l5Mm9uSkhPODJuZ2tZSHp1R3dCb2NMSGxFSE1HUjZqYjhiT09XREJwR1lLZlNEQXBXeVZQZFJkVlprLUR0NWNuVmRiWlNhTkdXeklvamFZeFZ2STFjQm9ybFF2N2hHS19yRndDTlRNdjI3eHRRQzBRZ01XcDZPWW5nUjhPNHdobExOT3FPcWFzdEJoYThGWGVIOUMtbGJzNUR3b3lZYjBIUEpQTm9zUFVWVkR0S0REZWY2ZWdyTldIcHVPRElZQ3czZGhMOHZqYk4tZEg3MVBZSE00SG1jSTkwMG1qTEpWdDlxUEhHaXZTdWV0TXQ5bUUtU2JYcXJQLXBOWXNrU2VPR051MElIMTJXT0FwaTU1djA",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -339,7 +382,7 @@
           "source": "Notícias públicas - CPG Click Petróleo e Gás + 2 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPd3EwZVNnd09XdDlmSm0wWGZuX2lDQlVXdDc2QlNPUFFaRk10LWNvWkJpdDdua0l5Mm9uSkhPODJuZ2tZSHp1R3dCb2NMSGxFSE1HUjZqYjhiT09XREJwR1lLZlNEQXBXeVZQZFJkVlprLUR0NWNuVmRiWlNhTkdXeklvamFZeFZ2STFjQm9ybFF2N2hHS19yRndDTlRNdjI3eHRRQzBRZ01XcDZPWW5nUjhPNHdobExOT3FPcWFzdEJoYThGWGVIOUMtbGJzNUR3b3lZYjBIUEpQTm9zUFVWVkR0S0REZWY2ZWdyTldIcHVPRElZQ3czZGhMOHZqYk4tZEg3MVBZSE00SG1jSTkwMG1qTEpWdDlxUEhHaXZTdWV0TXQ5bUUtU2JYcXJQLXBOWXNrU2VPR051MElIMTJXT0FwaTU1djA",
           "headline": "Casal passa de carro pela BR-470 em Santa Catarina de madrugada quando cratera engole a pista, o veículo cai dentro do buraco e os dois saem sem ferimentos graves segundos antes de.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         },
         {
           "source": "Notícias públicas - ND Mais + 1 fonte(s)",
@@ -394,7 +437,7 @@
           "source": "Notícias públicas - Gazeta do Paraná + 1 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGVxTmk5LXZEUDRqOS1UdXZweWZURjM4NW1aMlZscVFjS0hxM3BqRTZFVGdSTHlzVUFRdWhvdGs4T0pOa0ZhV1Q0bDJfNDJFblNmcTJjQnVPeXVRMi16a2hBSGRFMnEyUWY4V2hhaGhudDhtSWJ5Y0FEVFFCQ214Ynh1QkFHYVM0ekNaVlZyZUxta09M",
           "headline": "Rodovia Régis Bittencourt é interditada após resina provocar acidente - Gazeta do Paraná.",
-          "date": "2026-09-16T21:37:20.745378+00:00"
+          "date": "2026-09-16T23:48:46.566405+00:00"
         }
       ],
       "sourceCount": 2,
@@ -23558,6 +23601,35 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
+      "event_id": "05948a4bc013245ba55e8146",
+      "stable_event_id": "05948a4bc013245ba55e8146",
+      "observation_hash": "d7cc9320673c570afa3cc853",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
+      "first_seen_at": "2026-05-31T17:16:47+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Brasília",
+      "risk": 67,
+      "severity": "Alto",
+      "lat": -15.793,
+      "lon": -47.882,
+      "city": "Brasília",
+      "state": "DF",
+      "region": "Centro-Oeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:16Z; ativo há 108.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 113,
+      "estimated_hours": 28.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "1d2adae79a0a9e94e7260ca5",
       "stable_event_id": "1d2adae79a0a9e94e7260ca5",
       "observation_hash": "c51ad94fa1db512fae5db6f6",
@@ -23906,6 +23978,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "1e7b30ba66890a70624ba3de",
+      "stable_event_id": "1e7b30ba66890a70624ba3de",
+      "observation_hash": "32b88e320a85000ebe8965d6",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Tefé",
+      "risk": 57,
+      "severity": "Moderado",
+      "lat": -3.354,
+      "lon": -64.711,
+      "city": "Tefé",
+      "state": "AM",
+      "region": "Norte",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 114.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 1807,
+      "estimated_hours": 451.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "60b523f2d72780308cda2ed5",
       "stable_event_id": "60b523f2d72780308cda2ed5",
       "observation_hash": "86a3d0582548d5b975d0aeba",
@@ -24047,35 +24148,6 @@
       "source_url": "",
       "total_snapshots": 732,
       "estimated_hours": 183.0,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "05948a4bc013245ba55e8146",
-      "stable_event_id": "05948a4bc013245ba55e8146",
-      "observation_hash": "d786e76ca78dd77b93f1f2a2",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-08T09:03:14+00:00",
-      "first_seen_at": "2026-05-31T17:16:47+00:00",
-      "last_seen_at": "2026-09-08T09:03:14+00:00",
-      "updated_at": "2026-09-08T09:03:16.183033+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Brasília",
-      "risk": 47,
-      "severity": "Moderado",
-      "lat": -15.793,
-      "lon": -47.882,
-      "city": "Brasília",
-      "state": "DF",
-      "region": "Centro-Oeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-31T17:15:16Z; ativo há 99.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 112,
-      "estimated_hours": 28.0,
       "active": true,
       "storage": "supabase"
     },
@@ -24312,35 +24384,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "bd4769b91543baf1f47de54a",
-      "stable_event_id": "bd4769b91543baf1f47de54a",
-      "observation_hash": "945efc9e2f7b18af879542f2",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T10:02:13+00:00",
-      "first_seen_at": "2026-05-26T10:18:22+00:00",
-      "last_seen_at": "2026-09-16T10:02:13+00:00",
-      "updated_at": "2026-09-16T10:02:15.17732+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Campina Grande",
-      "risk": 45,
-      "severity": "Moderado",
-      "lat": -7.23,
-      "lon": -35.881,
-      "city": "Campina Grande",
-      "state": "PB",
-      "region": "Nordeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:19Z; ativo há 113.0 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2897,
-      "estimated_hours": 724.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "5fa2d3b705b27721ba81a565",
       "stable_event_id": "5fa2d3b705b27721ba81a565",
       "observation_hash": "4c32c0256be8096f603c6055",
@@ -24424,6 +24467,64 @@
       "source_url": "",
       "total_snapshots": 853,
       "estimated_hours": 213.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "bd4769b91543baf1f47de54a",
+      "stable_event_id": "bd4769b91543baf1f47de54a",
+      "observation_hash": "eaa89919abd906777dc6fd09",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
+      "first_seen_at": "2026-05-26T10:18:22+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Campina Grande",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -7.23,
+      "lon": -35.881,
+      "city": "Campina Grande",
+      "state": "PB",
+      "region": "Nordeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T10:15:19Z; ativo há 113.6 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2898,
+      "estimated_hours": 724.5,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "40d48191ded0e05536c71277",
+      "stable_event_id": "40d48191ded0e05536c71277",
+      "observation_hash": "2e2b5a01608c769189bc8c5f",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
+      "first_seen_at": "2026-05-29T17:17:11+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Vitória",
+      "risk": 44,
+      "severity": "Moderado",
+      "lat": -20.315,
+      "lon": -40.312,
+      "city": "Vitória",
+      "state": "ES",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 110.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 832,
+      "estimated_hours": 208.0,
       "active": true,
       "storage": "supabase"
     },
@@ -25240,35 +25341,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "1e7b30ba66890a70624ba3de",
-      "stable_event_id": "1e7b30ba66890a70624ba3de",
-      "observation_hash": "c63f31109c651a549c2cd212",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T18:29:07+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-09-16T18:29:07+00:00",
-      "updated_at": "2026-09-16T18:29:08.991929+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Tefé",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -3.354,
-      "lon": -64.711,
-      "city": "Tefé",
-      "state": "AM",
-      "region": "Norte",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:30:36Z; ativo há 113.7 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 1806,
-      "estimated_hours": 451.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "71e76321cd7baa987871dd23",
       "stable_event_id": "71e76321cd7baa987871dd23",
       "observation_hash": "653671e681e4934df7bdcbdf",
@@ -25294,35 +25366,6 @@
       "source_url": "",
       "total_snapshots": 615,
       "estimated_hours": 153.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "40d48191ded0e05536c71277",
-      "stable_event_id": "40d48191ded0e05536c71277",
-      "observation_hash": "b4ba17890724e7e9213caa48",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-14T20:30:50+00:00",
-      "first_seen_at": "2026-05-29T17:17:11+00:00",
-      "last_seen_at": "2026-09-14T20:30:50+00:00",
-      "updated_at": "2026-09-14T20:30:52.495264+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Vitória",
-      "risk": 41,
-      "severity": "Moderado",
-      "lat": -20.315,
-      "lon": -40.312,
-      "city": "Vitória",
-      "state": "ES",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 108.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 831,
-      "estimated_hours": 207.75,
       "active": true,
       "storage": "supabase"
     },
@@ -26373,12 +26416,12 @@
     {
       "event_id": "8aa8dc50a333b47c6ac0b19b",
       "stable_event_id": "8aa8dc50a333b47c6ac0b19b",
-      "observation_hash": "6020b6c754afaf347048081a",
+      "observation_hash": "21d71b9730e84f7793b207d0",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-16T21:37:19+00:00",
+      "snapshot_at": "2026-09-16T23:48:44+00:00",
       "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-09-16T21:37:19+00:00",
-      "updated_at": "2026-09-16T21:37:20.745378+00:00",
+      "last_seen_at": "2026-09-16T23:48:44+00:00",
+      "updated_at": "2026-09-16T23:48:46.566405+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
@@ -26391,11 +26434,11 @@
       "state": "RJ",
       "region": "Sudeste",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 113.9 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:24Z; ativo há 114.0 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 2000,
-      "estimated_hours": 500.0,
+      "total_snapshots": 2001,
+      "estimated_hours": 500.25,
       "active": true,
       "storage": "supabase"
     },
@@ -27475,33 +27518,27 @@
   ],
   "windows": {
     "7": {
-      "events": 152,
+      "events": 153,
       "avgRisk": 49,
       "maxRisk": 70,
       "rainChance": 0,
       "byType": {
-        "climate": 93,
+        "climate": 94,
         "road": 59
       },
       "byRegion": {
         "Sul": 42,
         "Nordeste": 41,
-        "Sudeste": 40,
-        "Norte": 18,
-        "Centro-Oeste": 11
+        "Sudeste": 39,
+        "Norte": 19,
+        "Centro-Oeste": 12
       },
       "bySeverity": {
-        "Alto": 69,
+        "Alto": 70,
         "Moderado": 57,
         "Baixo": 26
       },
       "dailyRisk": [
-        {
-          "date": "2026-09-09",
-          "avgRisk": 69,
-          "events": 1,
-          "maxRisk": 69
-        },
         {
           "date": "2026-09-10",
           "avgRisk": 66,
@@ -27528,8 +27565,8 @@
         },
         {
           "date": "2026-09-14",
-          "avgRisk": 57,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 13,
           "maxRisk": 69
         },
         {
@@ -27540,24 +27577,24 @@
         },
         {
           "date": "2026-09-16",
-          "avgRisk": 37,
-          "events": 61,
+          "avgRisk": 38,
+          "events": 64,
           "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 260,
+      "events": 259,
       "avgRisk": 57,
       "maxRisk": 70,
       "rainChance": 4,
       "byType": {
-        "road": 161,
+        "road": 160,
         "climate": 99
       },
       "byRegion": {
         "Nordeste": 79,
-        "Sudeste": 73,
+        "Sudeste": 72,
         "Sul": 63,
         "Norte": 26,
         "Centro-Oeste": 13,
@@ -27565,14 +27602,14 @@
       },
       "bySeverity": {
         "Alto": 173,
-        "Moderado": 61,
+        "Moderado": 60,
         "Baixo": 26
       },
       "dailyRisk": [
         {
           "date": "2026-08-17",
           "avgRisk": 69,
-          "events": 4,
+          "events": 2,
           "maxRisk": 69
         },
         {
@@ -27697,8 +27734,8 @@
         },
         {
           "date": "2026-09-08",
-          "avgRisk": 66,
-          "events": 8,
+          "avgRisk": 69,
+          "events": 7,
           "maxRisk": 69
         },
         {
@@ -27733,8 +27770,8 @@
         },
         {
           "date": "2026-09-14",
-          "avgRisk": 57,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 13,
           "maxRisk": 69
         },
         {
@@ -27745,8 +27782,8 @@
         },
         {
           "date": "2026-09-16",
-          "avgRisk": 37,
-          "events": 61,
+          "avgRisk": 38,
+          "events": 64,
           "maxRisk": 69
         }
       ]
@@ -27761,26 +27798,20 @@
         "climate": 110
       },
       "byRegion": {
-        "Nordeste": 193,
+        "Nordeste": 192,
         "Sul": 144,
         "Sudeste": 128,
-        "Norte": 45,
+        "Norte": 46,
         "Sem região": 18,
         "Centro-Oeste": 18
       },
       "bySeverity": {
-        "Alto": 448,
-        "Moderado": 71,
+        "Alto": 449,
+        "Moderado": 70,
         "Baixo": 26,
         "Crítico": 1
       },
       "dailyRisk": [
-        {
-          "date": "2026-06-18",
-          "avgRisk": 69,
-          "events": 1,
-          "maxRisk": 69
-        },
         {
           "date": "2026-06-19",
           "avgRisk": 69,
@@ -28257,8 +28288,8 @@
         },
         {
           "date": "2026-09-08",
-          "avgRisk": 66,
-          "events": 8,
+          "avgRisk": 69,
+          "events": 7,
           "maxRisk": 69
         },
         {
@@ -28293,8 +28324,8 @@
         },
         {
           "date": "2026-09-14",
-          "avgRisk": 57,
-          "events": 14,
+          "avgRisk": 58,
+          "events": 13,
           "maxRisk": 69
         },
         {
@@ -28305,8 +28336,8 @@
         },
         {
           "date": "2026-09-16",
-          "avgRisk": 37,
-          "events": 61,
+          "avgRisk": 38,
+          "events": 64,
           "maxRisk": 69
         }
       ]
