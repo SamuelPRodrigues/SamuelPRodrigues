@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão entre ônibus e caminhão deixa trânsito interditado nos dois sentidos da BR-116, em MG - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-16T01:16:01Z; ativo há 8.8 h.",
+    "description": "Colisão entre ônibus e caminhão deixa trânsito interditado nos dois sentidos da BR-116, em MG - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-16T01:16:01Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T01:16:01Z",
     "last_seen_at": "2026-09-16T10:02:19Z",
-    "active_duration_hours": 8.77,
+    "active_duration_hours": 8.78,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T10:02:19Z",
+    "news_signature": "f080e18004177ac6d3e53d9e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 7.0 h.",
+    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,6 +93,9 @@
     "last_seen_at": "2026-09-16T10:02:19Z",
     "active_duration_hours": 7.04,
     "active_duration_label": "7.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T10:02:19Z",
+    "news_signature": "b802996c02b9e99f3fe388f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
