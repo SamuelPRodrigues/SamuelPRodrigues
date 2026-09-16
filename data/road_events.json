@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 é interditada após óleo vazar de caminhão-tanque em Ponta Grossa - band.com.br. Fontes consolidadas: Notícias públicas - band.com.br; Notícias públicas - dpontanews.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-15T20:16:00Z; ativo há 4.5 h.",
+    "description": "BR-376 é interditada após óleo vazar de caminhão-tanque em Ponta Grossa - band.com.br. Fontes consolidadas: Notícias públicas - band.com.br; Notícias públicas - dpontanews.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-15T20:16:00Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,11 +43,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T20:16:00Z",
     "last_seen_at": "2026-09-16T00:44:24Z",
-    "active_duration_hours": 4.47,
+    "active_duration_hours": 4.48,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T00:44:24Z",
+    "news_signature": "36a3b9c097868a4f39ede118",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ibirama: BR-470 fica parcialmente interditada para retirada de carreta e contêiner - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-15T17:32:14Z; ativo há 7.2 h.",
+    "description": "Ibirama: BR-470 fica parcialmente interditada para retirada de carreta e contêiner - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-15T17:32:14Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +95,14 @@
     "newsFreshnessHours": 7.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T17:32:14Z",
-    "last_seen_at": "2026-09-16T00:44:24Z",
-    "active_duration_hours": 7.2,
+    "last_seen_at": "2026-09-16T00:44:39Z",
+    "active_duration_hours": 7.21,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0c8ed72e05fa52f20188a6ea",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +114,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Saída 119 da BR-101 em Itajaí será interditada por cerca de 90 dias a partir desta quarta-feira - Página 3. Fontes consolidadas: Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - Band FM Itajaí; Notícias públicas - G1; Notícias públicas - NoPontoSC; Notícias públicas - sctododia; +2 fonte(s). Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-15T17:29:52Z; ativo há 7.2 h.",
+    "description": "Saída 119 da BR-101 em Itajaí será interditada por cerca de 90 dias a partir desta quarta-feira - Página 3. Fontes consolidadas: Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - Band FM Itajaí; Notícias públicas - G1; Notícias públicas - NoPontoSC; Notícias públicas - sctododia; +2 fonte(s). Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-15T17:29:52Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -178,12 +183,14 @@
     "newsFreshnessHours": 7.24,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-15T17:29:52Z",
-    "last_seen_at": "2026-09-16T00:44:24Z",
-    "active_duration_hours": 7.24,
+    "last_seen_at": "2026-09-16T00:44:39Z",
+    "active_duration_hours": 7.25,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1b22d6de579ad8da63ae5cc4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -195,7 +202,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-153 será novamente interditada para detonação de rochas em Rialm. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-15T15:27:18Z; ativo há 9.3 h.",
+    "description": "BR-153 será novamente interditada para detonação de rochas em Rialm. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-15T15:27:18Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -226,8 +233,11 @@
     "active_duration_hours": 9.29,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T00:44:24Z",
+    "news_signature": "a4f4a3977ee349f769cc2d5a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -244,7 +254,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 é interditada após derramamento de óleo causado por colisão em Ponta Grossa - Banda B. Período informado: 2026-09-15T20:15:00Z até fim não identificado. Fontes consolidadas: Banda B. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-15T20:15:00Z; ativo há 4.5 h.",
+    "description": "BR-376 é interditada após derramamento de óleo causado por colisão em Ponta Grossa - Banda B. Período informado: 2026-09-15T20:15:00Z até fim não identificado. Fontes consolidadas: Banda B. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-15T20:15:00Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -257,7 +267,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-16T00:43:09Z",
     "sources": [
       {
@@ -277,6 +287,9 @@
     "last_seen_at": "2026-09-16T00:44:24Z",
     "active_duration_hours": 4.49,
     "active_duration_label": "4.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-16T00:44:24Z",
+    "news_signature": "7fadb0a103665ea236df11d1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
