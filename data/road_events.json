@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 será interditada na Serra de São Vicente - LEIAGORA. Fontes consolidadas: Notícias públicas - LEIAGORA. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-16T21:37:00Z; ativo há 9.1 h.",
+    "description": "BR-364 será interditada na Serra de São Vicente - LEIAGORA. Fontes consolidadas: Notícias públicas - LEIAGORA. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-16T21:37:00Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T21:37:00Z",
     "last_seen_at": "2026-09-17T06:42:47Z",
-    "active_duration_hours": 9.1,
+    "active_duration_hours": 9.11,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T06:42:47Z",
+    "news_signature": "faa7a5277ef952c3d37643e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é interditada e aulas são suspensas em Ipatinga após temporal com ventos de 76 km/h - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-17T02:36:49Z; ativo há 4.1 h.",
+    "description": "BR-381 é interditada e aulas são suspensas em Ipatinga após temporal com ventos de 76 km/h - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-17T02:36:49Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +83,14 @@
     "newsFreshnessHours": 4.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-17T02:36:49Z",
-    "last_seen_at": "2026-09-17T06:42:47Z",
-    "active_duration_hours": 4.1,
+    "last_seen_at": "2026-09-17T06:43:36Z",
+    "active_duration_hours": 4.11,
     "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b3807afda4059dbb9ca2e90f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +107,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-242 é totalmente interditada próximo a Itaberaba para destombamento de carreta nesta quarta-feira (17) - seligachapada.com.br. Período informado: 2026-09-17T03:00:00Z até 2026-09-18T02:59:59Z. Fontes consolidadas: Notícias públicas - seligachapada.com.br. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-17T03:00:00Z; ativo há 3.7 h.",
+    "description": "BR-242 é totalmente interditada próximo a Itaberaba para destombamento de carreta nesta quarta-feira (17) - seligachapada.com.br. Período informado: 2026-09-17T03:00:00Z até 2026-09-18T02:59:59Z. Fontes consolidadas: Notícias públicas - seligachapada.com.br. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-17T03:00:00Z; ativo há 3.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,9 +136,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-17T03:00:00Z",
-    "last_seen_at": "2026-09-17T06:42:47Z",
-    "active_duration_hours": 3.71,
+    "last_seen_at": "2026-09-17T06:43:36Z",
+    "active_duration_hours": 3.73,
     "active_duration_label": "3.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a3b0e272d387886b72d8e1cb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
