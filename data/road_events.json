@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 será interditada na Serra de São Vicente - LEIAGORA. Fontes consolidadas: Notícias públicas - LEIAGORA. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-16T21:37:00Z; ativo há 4.1 h.",
+    "description": "BR-364 será interditada na Serra de São Vicente - LEIAGORA. Fontes consolidadas: Notícias públicas - LEIAGORA. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-16T21:37:00Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T21:37:00Z",
     "last_seen_at": "2026-09-17T01:45:30Z",
-    "active_duration_hours": 4.14,
-    "active_duration_label": "4.1 h",
+    "active_duration_hours": 4.15,
+    "active_duration_label": "4.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "faa7a5277ef952c3d37643e1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Vídeo: acidente na BR-381 entre carretas e carro mata uma pessoa em MG; rodovia está interditada - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-16T19:09:46Z; ativo há 6.6 h.",
+    "description": "Vídeo: acidente na BR-381 entre carretas e carro mata uma pessoa em MG; rodovia está interditada - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-16T19:09:46Z; ativo há 6.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +83,14 @@
     "newsFreshnessHours": 6.6,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T19:09:46Z",
-    "last_seen_at": "2026-09-17T01:45:30Z",
+    "last_seen_at": "2026-09-17T01:45:43Z",
     "active_duration_hours": 6.6,
     "active_duration_label": "6.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "457b6560c35c2b7dd2587865",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Régis Bittencourt é interditada após resina provocar acidente - Gazeta do Paraná. Fontes consolidadas: Notícias públicas - Gazeta do Paraná; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-16T14:48:59Z; ativo há 10.9 h.",
+    "description": "Rodovia Régis Bittencourt é interditada após resina provocar acidente - Gazeta do Paraná. Fontes consolidadas: Notícias públicas - Gazeta do Paraná; Notícias públicas - Bem Paraná. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-16T14:48:59Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,11 +136,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-16T14:48:59Z",
     "last_seen_at": "2026-09-17T01:45:30Z",
-    "active_duration_hours": 10.94,
+    "active_duration_hours": 10.95,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "bf6037c37c80b2e6409dd182",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +155,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tem princípio de incêndio e BR-070 é parcialmente interditada em Cuiabá - en.com.br. Fontes consolidadas: Notícias públicas - en.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-16T14:35:00Z; ativo há 11.2 h.",
+    "description": "Caminhão tem princípio de incêndio e BR-070 é parcialmente interditada em Cuiabá - en.com.br. Fontes consolidadas: Notícias públicas - en.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-16T14:35:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -178,8 +186,11 @@
     "active_duration_hours": 11.18,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "75813ca7752eb9ae9783b4f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -191,7 +202,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 11.9 h.",
+    "description": "Trecho movimentado da BR-101 em Itajaí terá saída interditada por 90 dias para obras e motoristas terão que usar outro acesso - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - Página 3; Notícias públicas - Portal Menina; Notícias públicas - NoPontoSC; Notícias públicas - sctododia. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-16T13:53:51Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -246,8 +257,11 @@
     "active_duration_hours": 11.86,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "6569c7ea593410c6fc79d65e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -264,7 +278,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com. Período informado: 2026-09-16T14:53:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - hojesc.com. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-16T14:53:54Z; ativo há 10.9 h.",
+    "description": "Itajaí: saída 119 da BR-101 será interditada para obras de macrodrenagem - hojesc.com. Período informado: 2026-09-16T14:53:54Z até fim não identificado. Fontes consolidadas: Notícias públicas - hojesc.com. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-16T14:53:54Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -277,7 +291,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-17T01:44:16Z",
     "sources": [
       {
@@ -297,7 +311,10 @@
     "last_seen_at": "2026-09-17T01:45:30Z",
     "active_duration_hours": 10.86,
     "active_duration_label": "10.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "35ce94404de5721e9edaf431",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -314,7 +331,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 22.8 h.",
+    "description": "ALERTA IMPORTANTE: Saída 119 da BR-101 será interditada para obras de macrodrenagem na manhã desta quarta (16), em Itajaí - Band FM Itajaí. Período informado: 2026-09-16T03:00:00Z até 2026-09-17T02:59:59Z. Fontes consolidadas: Notícias públicas - Band FM Itajaí. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-16T03:00:00Z; ativo há 22.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -346,6 +363,9 @@
     "last_seen_at": "2026-09-17T01:45:30Z",
     "active_duration_hours": 22.76,
     "active_duration_label": "22.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T01:45:30Z",
+    "news_signature": "b802996c02b9e99f3fe388f4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
