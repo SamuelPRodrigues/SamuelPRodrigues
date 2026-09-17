@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-324 é interditado totalmente em Salvador por causa de obras - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-17T10:45:34Z; ativo há 1.4 h.",
+    "description": "Trecho da BR-324 é interditado totalmente em Salvador por causa de obras - Jornal Correio. Fontes consolidadas: Notícias públicas - Jornal Correio. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-17T10:45:34Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 1.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-17T10:45:34Z",
-    "last_seen_at": "2026-09-17T12:10:02Z",
+    "last_seen_at": "2026-09-17T12:10:16Z",
     "active_duration_hours": 1.41,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "faa7a574bc2194a697427172",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é interditada e aulas são suspensas em Ipatinga após temporal com ventos de 76 km/h - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-17T02:36:49Z; ativo há 9.6 h.",
+    "description": "BR-381 é interditada e aulas são suspensas em Ipatinga após temporal com ventos de 76 km/h - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-17T02:36:49Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-17T02:36:49Z",
     "last_seen_at": "2026-09-17T12:10:02Z",
-    "active_duration_hours": 9.55,
+    "active_duration_hours": 9.56,
     "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-17T12:10:02Z",
+    "news_signature": "b3807afda4059dbb9ca2e90f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +107,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-242 é totalmente interditada próximo a Itaberaba para destombamento de carreta nesta quarta-feira (17) - Se Liga Chapada. Período informado: 2026-09-17T03:00:00Z até 2026-09-18T02:59:59Z. Fontes consolidadas: Notícias públicas - Se Liga Chapada. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-17T03:00:00Z; ativo há 9.2 h.",
+    "description": "BR-242 é totalmente interditada próximo a Itaberaba para destombamento de carreta nesta quarta-feira (17) - Se Liga Chapada. Período informado: 2026-09-17T03:00:00Z até 2026-09-18T02:59:59Z. Fontes consolidadas: Notícias públicas - Se Liga Chapada. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-17T03:00:00Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,9 +136,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-17T03:00:00Z",
-    "last_seen_at": "2026-09-17T12:10:02Z",
+    "last_seen_at": "2026-09-17T12:10:16Z",
     "active_duration_hours": 9.17,
     "active_duration_label": "9.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "71eff3a1e5ce1b78d0821cb4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
