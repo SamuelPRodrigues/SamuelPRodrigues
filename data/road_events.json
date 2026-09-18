@@ -36,13 +36,15 @@
     "newsFreshnessHours": 0.42,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T22:01:58Z",
-    "last_seen_at": "2026-09-18T22:27:11Z",
+    "last_seen_at": "2026-09-18T22:27:26Z",
     "active_duration_hours": 0.42,
     "active_duration_label": "25 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-310"
+    "detectedRoad": "SP-310",
+    "news_signature": "230d290585704f493cf1fe56",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia Fernão Dias terá retorno interditado em Bragança Paulista. Fontes consolidadas: Notícias públicas - Portal Atibaia News; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-18T18:51:43Z; ativo há 3.6 h.",
+    "description": "Rodovia Fernão Dias terá retorno interditado em Bragança Paulista. Fontes consolidadas: Notícias públicas - Portal Atibaia News; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-18T18:51:43Z; ativo há 3.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -88,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T18:51:43Z",
     "last_seen_at": "2026-09-18T22:27:11Z",
-    "active_duration_hours": 3.59,
+    "active_duration_hours": 3.6,
     "active_duration_label": "3.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T22:27:11Z",
+    "news_signature": "8c9746f473d07f140bcbbb58",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +109,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente na BR-280, em Araquari deixou o trânsito totalmente bloqueado no sentido de São Francisco do Sul.. Fontes consolidadas: Notícias públicas - portal.rbnfm.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-18T18:18:31Z; ativo há 4.1 h.",
+    "description": "Acidente na BR-280, em Araquari deixou o trânsito totalmente bloqueado no sentido de São Francisco do Sul.. Fontes consolidadas: Notícias públicas - portal.rbnfm.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-18T18:18:31Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,11 +137,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T18:18:31Z",
     "last_seen_at": "2026-09-18T22:27:11Z",
-    "active_duration_hours": 4.14,
-    "active_duration_label": "4.1 h",
+    "active_duration_hours": 4.15,
+    "active_duration_label": "4.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T22:27:11Z",
+    "news_signature": "5197769bbd8a071f56e8ad22",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +156,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Dutra é totalmente interditada para obras em São José dos Campos - realidadeguaraeregiao.com.br. Fontes consolidadas: Notícias públicas - realidadeguaraeregiao.com.br; Notícias públicas - G1; Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-18T15:09:10Z; ativo há 7.3 h.",
+    "description": "Dutra é totalmente interditada para obras em São José dos Campos - realidadeguaraeregiao.com.br. Fontes consolidadas: Notícias públicas - realidadeguaraeregiao.com.br; Notícias públicas - G1; Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-18T15:09:10Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -187,12 +195,14 @@
     "newsFreshnessHours": 7.3,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T15:09:10Z",
-    "last_seen_at": "2026-09-18T22:27:11Z",
+    "last_seen_at": "2026-09-18T22:27:26Z",
     "active_duration_hours": 7.3,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "851777adc888d72b3caed88b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -204,7 +214,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - GP1. Fontes consolidadas: Notícias públicas - GP1; Notícias públicas - Portal Integração. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 27.9 h.",
+    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - GP1. Fontes consolidadas: Notícias públicas - GP1; Notícias públicas - Portal Integração. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 27.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -241,8 +251,11 @@
     "active_duration_hours": 27.92,
     "active_duration_label": "27.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T22:27:11Z",
+    "news_signature": "896deee3ab32ec926e83bb94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -254,7 +267,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia BR-101 é interditada no trecho Aracaju-Maceió após colisão e tombamento de carreta em Porto Real do Colégio, AL - A8SE. Fontes consolidadas: Notícias públicas - A8SE; Notícias públicas - visse.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-18T12:39:00Z; ativo há 9.8 h.",
+    "description": "Rodovia BR-101 é interditada no trecho Aracaju-Maceió após colisão e tombamento de carreta em Porto Real do Colégio, AL - A8SE. Fontes consolidadas: Notícias públicas - A8SE; Notícias públicas - visse.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-18T12:39:00Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -288,10 +301,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T12:39:00Z",
     "last_seen_at": "2026-09-18T22:27:11Z",
-    "active_duration_hours": 9.8,
+    "active_duration_hours": 9.81,
     "active_duration_label": "9.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T22:27:11Z",
+    "news_signature": "3ab25ec2282a643d45e45b16",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
