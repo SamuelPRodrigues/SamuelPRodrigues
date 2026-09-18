@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Dutra é totalmente interditada para obras em São José dos Campos. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-18T14:52:40Z; ativo há 2.8 h.",
+    "description": "Dutra é totalmente interditada para obras em São José dos Campos. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-18T14:52:40Z; ativo há 2.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T14:52:40Z",
-    "last_seen_at": "2026-09-18T17:38:16Z",
+    "last_seen_at": "2026-09-18T17:38:32Z",
     "active_duration_hours": 2.76,
     "active_duration_label": "2.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cd3e46b0f9ff1c129eb7810b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - GP1. Fontes consolidadas: Notícias públicas - GP1; Notícias públicas - Portal Integração. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 23.1 h.",
+    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - GP1. Fontes consolidadas: Notícias públicas - GP1; Notícias públicas - Portal Integração. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 23.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 3.85,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-17T18:32:00Z",
-    "last_seen_at": "2026-09-18T17:38:16Z",
-    "active_duration_hours": 23.1,
+    "last_seen_at": "2026-09-18T17:38:32Z",
+    "active_duration_hours": 23.11,
     "active_duration_label": "23.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "896deee3ab32ec926e83bb94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +113,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia BR-101 é interditada no trecho Aracaju-Maceió após colisão e tombamento de carreta em Porto Real do Colégio, AL - A8SE. Fontes consolidadas: Notícias públicas - A8SE. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-18T12:39:00Z; ativo há 5.0 h.",
+    "description": "Rodovia BR-101 é interditada no trecho Aracaju-Maceió após colisão e tombamento de carreta em Porto Real do Colégio, AL - A8SE. Fontes consolidadas: Notícias públicas - A8SE. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-18T12:39:00Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -140,8 +144,11 @@
     "active_duration_hours": 4.99,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T17:38:16Z",
+    "news_signature": "38c23e910ed1de9c38ab575b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +160,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente com caminhão de obra interdita a BR-381 e provoca caos no trânsito em Betim - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-18T11:33:31Z; ativo há 6.1 h.",
+    "description": "Acidente com caminhão de obra interdita a BR-381 e provoca caos no trânsito em Betim - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-18T11:33:31Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -180,12 +187,14 @@
     "newsFreshnessHours": 6.08,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T11:33:31Z",
-    "last_seen_at": "2026-09-18T17:38:16Z",
+    "last_seen_at": "2026-09-18T17:38:32Z",
     "active_duration_hours": 6.08,
     "active_duration_label": "6.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "88fc9ee03c83621b5182538e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -197,7 +206,7 @@
     "lat": -16.728,
     "lon": -43.858,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trânsito na BR-251 será totalmente interditado nesta sexta-feira (18) para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-18T10:11:36Z; ativo há 7.4 h.",
+    "description": "Trânsito na BR-251 será totalmente interditado nesta sexta-feira (18) para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-18T10:11:36Z; ativo há 7.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -225,10 +234,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T10:11:36Z",
     "last_seen_at": "2026-09-18T17:38:16Z",
-    "active_duration_hours": 7.44,
-    "active_duration_label": "7.4 h",
+    "active_duration_hours": 7.45,
+    "active_duration_label": "7.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T17:38:16Z",
+    "news_signature": "f37d8df656c6f969e93a4b42",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
