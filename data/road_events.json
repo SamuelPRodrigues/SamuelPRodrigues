@@ -9,7 +9,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - gp1.com.br. Fontes consolidadas: Notícias públicas - gp1.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 10.8 h.",
+    "description": "Caminhão tomba na BR 135 e deixa rodovia parcialmente interditada em Sebastião Leal - gp1.com.br. Fontes consolidadas: Notícias públicas - gp1.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-17T18:32:00Z; ativo há 10.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 10.77,
     "active_duration_label": "10.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-18T05:18:03Z",
+    "news_signature": "9706358811a28a03f6887bc7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente com dois veículos interdita trecho sul da BR-116, em Barra do Turvo/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-17T18:09:00Z; ativo há 11.2 h.",
+    "description": "Acidente com dois veículos interdita trecho sul da BR-116, em Barra do Turvo/SP. Fontes consolidadas: Notícias públicas - Portal Rodonews GVR. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-17T18:09:00Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +83,13 @@
     "newsFreshnessHours": 11.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-17T18:09:00Z",
-    "last_seen_at": "2026-09-18T05:18:03Z",
+    "last_seen_at": "2026-09-18T05:18:18Z",
     "active_duration_hours": 11.15,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "42b381a0b67e8fda28f719a6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
