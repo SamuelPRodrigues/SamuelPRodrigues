@@ -9,7 +9,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente na BR-280, em Araquari deixou o trânsito totalmente bloqueado no sentido de São Francisco do Sul.. Fontes consolidadas: Notícias públicas - portal.rbnfm.com.br. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-18T18:18:31Z; ativo há 15.0 h.",
+    "description": "Acidente na BR-280, em Araquari deixou o trânsito totalmente bloqueado no sentido de São Francisco do Sul.. Fontes consolidadas: Notícias públicas - portal.rbnfm.com.br. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-18T18:18:31Z; ativo há 15.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T18:18:31Z",
     "last_seen_at": "2026-09-19T09:20:00Z",
-    "active_duration_hours": 15.02,
+    "active_duration_hours": 15.03,
     "active_duration_label": "15.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-19T09:20:00Z",
+    "news_signature": "de49273c42df1668e2b5aeef",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -20.812,
     "lon": -49.376,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça de acesso à Rodovia Washington Luís (SP-310) será interditada, na quarta (23) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-18T22:01:58Z; ativo há 11.3 h.",
+    "description": "Alça de acesso à Rodovia Washington Luís (SP-310) será interditada, na quarta (23) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-18T22:01:58Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +84,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-18T22:01:58Z",
     "last_seen_at": "2026-09-19T09:20:00Z",
-    "active_duration_hours": 11.3,
+    "active_duration_hours": 11.31,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-310"
+    "detectedRoad": "SP-310",
+    "last_confirmed_at": "2026-09-19T09:20:00Z",
+    "news_signature": "230d290585704f493cf1fe56",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
