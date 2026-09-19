@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 1.0 h.",
+    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 1.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-19T21:53:29Z",
-    "last_seen_at": "2026-09-19T22:54:20Z",
-    "active_duration_hours": 1.01,
+    "last_seen_at": "2026-09-19T22:54:37Z",
+    "active_duration_hours": 1.02,
     "active_duration_label": "1.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "news_signature": "d61fefd6f043e79e530a1e21",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada em Novo Lino (AL) - Francês News. Período informado: 2026-09-19T12:59:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-19T12:59:29Z; ativo há 9.9 h.",
+    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada em Novo Lino (AL) - Francês News. Período informado: 2026-09-19T12:59:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-19T12:59:29Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -72,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-19T22:53:04Z",
     "sources": [
       {
@@ -90,8 +92,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-19T12:59:29Z",
     "last_seen_at": "2026-09-19T22:54:20Z",
-    "active_duration_hours": 9.91,
+    "active_duration_hours": 9.92,
     "active_duration_label": "9.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-19T22:54:20Z",
+    "news_signature": "8e54a38a873ee8937a11959e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
