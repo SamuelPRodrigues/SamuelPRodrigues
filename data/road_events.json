@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada em Novo Lino (AL) - francesnews.com.br. Período informado: 2026-09-19T12:59:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - francesnews.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-19T12:59:29Z; ativo há 8.1 h.",
+    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada em Novo Lino (AL) - francesnews.com.br. Período informado: 2026-09-19T12:59:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - francesnews.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-19T12:59:29Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 8.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-19T12:59:29Z",
-    "last_seen_at": "2026-09-19T21:05:33Z",
-    "active_duration_hours": 8.1,
+    "last_seen_at": "2026-09-19T21:05:47Z",
+    "active_duration_hours": 8.11,
     "active_duration_label": "8.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5ba1dfdd9da2370d2a83b731",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
