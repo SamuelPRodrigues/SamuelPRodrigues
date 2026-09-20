@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 8.1 h.",
+    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 8.08,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "last_confirmed_at": "2026-09-20T05:58:17Z",
+    "news_signature": "d61fefd6f043e79e530a1e21",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
