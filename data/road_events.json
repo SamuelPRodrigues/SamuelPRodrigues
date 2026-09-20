@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 3.0 h.",
+    "description": "ATENÇÃO: SC 401, em Florianópolis, tem faixa interditada após óleo na pista - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-19T21:53:29Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-19T21:53:29Z",
     "last_seen_at": "2026-09-20T00:54:48Z",
-    "active_duration_hours": 3.02,
+    "active_duration_hours": 3.03,
     "active_duration_label": "3.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "last_confirmed_at": "2026-09-20T00:54:48Z",
+    "news_signature": "d61fefd6f043e79e530a1e21",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada - 180graus. Período informado: 2026-09-19T13:47:15Z até fim não identificado. Fontes consolidadas: 180graus; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-19T13:47:15Z; ativo há 11.1 h.",
+    "description": "Carreta-cegonha tomba e deixa BR-101 totalmente interditada - 180graus. Período informado: 2026-09-19T13:47:15Z até fim não identificado. Fontes consolidadas: 180graus; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-19T13:47:15Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -95,9 +98,11 @@
     "newsFreshnessHours": 11.13,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-19T13:47:15Z",
-    "last_seen_at": "2026-09-20T00:54:48Z",
+    "last_seen_at": "2026-09-20T00:55:02Z",
     "active_duration_hours": 11.13,
     "active_duration_label": "11.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f6b8563e8bcd46d53403c898",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
