@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.96,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-20T13:42:57Z",
-    "last_seen_at": "2026-09-20T14:40:29Z",
+    "last_seen_at": "2026-09-20T14:40:45Z",
     "active_duration_hours": 0.96,
     "active_duration_label": "58 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ed141d037f4220982d90a0b6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba, cavalo mecânico cai em açude e SC-355 fica interditada em Lebon Régis - radiofraiburgo.fm.br. Fontes consolidadas: Notícias públicas - radiofraiburgo.fm.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-20T10:10:23Z; ativo há 4.5 h.",
+    "description": "Carreta tomba, cavalo mecânico cai em açude e SC-355 fica interditada em Lebon Régis - radiofraiburgo.fm.br. Fontes consolidadas: Notícias públicas - radiofraiburgo.fm.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-20T10:10:23Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +82,14 @@
     "newsFreshnessHours": 4.5,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-20T10:10:23Z",
-    "last_seen_at": "2026-09-20T14:40:29Z",
-    "active_duration_hours": 4.5,
+    "last_seen_at": "2026-09-20T14:40:45Z",
+    "active_duration_hours": 4.51,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-355"
+    "detectedRoad": "SC-355",
+    "news_signature": "7bf13b7c92b897b0c7ec864c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
