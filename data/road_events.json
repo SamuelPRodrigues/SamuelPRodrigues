@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso da Marginal Leste à BR-101 será interditado por cerca de um mês em BC. Fontes consolidadas: Notícias públicas - Portal Menina. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-20T14:46:03Z; ativo há 7.1 h.",
+    "description": "Acesso da Marginal Leste à BR-101 será interditado por cerca de um mês em BC. Fontes consolidadas: Notícias públicas - Portal Menina. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-20T14:46:03Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 7.13,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-20T14:46:03Z",
-    "last_seen_at": "2026-09-20T21:54:03Z",
-    "active_duration_hours": 7.13,
+    "last_seen_at": "2026-09-20T21:54:18Z",
+    "active_duration_hours": 7.14,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "37dd6b7a1843586529c9b1bc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-116 é interditado após engavetamento com quatro carretas na Bahia - correio24horas.com.br. Fontes consolidadas: Notícias públicas - correio24horas.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-20T13:42:57Z; ativo há 8.2 h.",
+    "description": "Trecho da BR-116 é interditado após engavetamento com quatro carretas na Bahia - correio24horas.com.br. Fontes consolidadas: Notícias públicas - correio24horas.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-20T13:42:57Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +86,11 @@
     "active_duration_hours": 8.19,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-20T21:54:03Z",
+    "news_signature": "ed141d037f4220982d90a0b6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba, cavalo mecânico cai em açude e SC-355 fica interditada em Lebon Régis - Rádio Fraiburgo. Fontes consolidadas: Notícias públicas - Rádio Fraiburgo. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-20T10:10:23Z; ativo há 11.7 h.",
+    "description": "Carreta tomba, cavalo mecânico cai em açude e SC-355 fica interditada em Lebon Régis - Rádio Fraiburgo. Fontes consolidadas: Notícias públicas - Rádio Fraiburgo. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-20T10:10:23Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,8 +133,11 @@
     "active_duration_hours": 11.73,
     "active_duration_label": "11.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-355"
+    "detectedRoad": "SC-355",
+    "last_confirmed_at": "2026-09-20T21:54:03Z",
+    "news_signature": "93abbb0e06ca5fca89460c09",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
