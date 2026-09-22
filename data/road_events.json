@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Chuvas na região: cidades decretam emergência, ponte desaba e BR-101 é parcialmente bloqueada - folharegionalwebtv.com. Fontes consolidadas: Notícias públicas - folharegionalwebtv.com; Notícias públicas - Agora Floripa; Notícias públicas - Página 3; Notícias públicas - NSC Total; Notícias públicas - Portal Engeplus; Notícias públicas - Tribuna Norte Leste. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 1.6 h.",
+    "description": "Chuvas na região: cidades decretam emergência, ponte desaba e BR-101 é parcialmente bloqueada - folharegionalwebtv.com. Fontes consolidadas: Notícias públicas - folharegionalwebtv.com; Notícias públicas - Agora Floripa; Notícias públicas - Página 3; Notícias públicas - NSC Total; Notícias públicas - Portal Engeplus; Notícias públicas - Tribuna Norte Leste. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 1.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -66,12 +66,14 @@
     "newsFreshnessHours": 1.61,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:15:00Z",
-    "last_seen_at": "2026-09-22T22:51:46Z",
-    "active_duration_hours": 1.61,
+    "last_seen_at": "2026-09-22T22:51:59Z",
+    "active_duration_hours": 1.62,
     "active_duration_label": "1.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1557455a483b7f4a710d08a8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -83,7 +85,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 10.1 h.",
+    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -110,12 +112,14 @@
     "newsFreshnessHours": 10.06,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:48:00Z",
-    "last_seen_at": "2026-09-22T22:51:46Z",
-    "active_duration_hours": 10.06,
+    "last_seen_at": "2026-09-22T22:51:59Z",
+    "active_duration_hours": 10.07,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5db733c4b8a59f18606af6ca",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -127,7 +131,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Visor Notícias; Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 10.5 h.",
+    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Visor Notícias; Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 10.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -172,13 +176,15 @@
     "newsFreshnessHours": 10.49,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:22:06Z",
-    "last_seen_at": "2026-09-22T22:51:46Z",
-    "active_duration_hours": 10.49,
+    "last_seen_at": "2026-09-22T22:51:59Z",
+    "active_duration_hours": 10.5,
     "active_duration_label": "10.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-110"
+    "detectedRoad": "SC-110",
+    "news_signature": "229075690de55e356561f67c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -195,7 +201,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 1.3 h.",
+    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 1.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -225,10 +231,12 @@
     "newsFreshnessHours": 1.27,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:35:26Z",
-    "last_seen_at": "2026-09-22T22:51:46Z",
-    "active_duration_hours": 1.27,
+    "last_seen_at": "2026-09-22T22:51:59Z",
+    "active_duration_hours": 1.28,
     "active_duration_label": "1.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f01dd4b4455e2ca1b4dafeb3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -245,7 +253,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 é totalmente interditada após chuva em Araranguá - sctododia. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5; Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 3.4 h.",
+    "description": "BR-101 é totalmente interditada após chuva em Araranguá - sctododia. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5; Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -258,7 +266,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-22T22:50:31Z",
     "sources": [
       {
@@ -290,6 +298,9 @@
     "last_seen_at": "2026-09-22T22:51:46Z",
     "active_duration_hours": 3.43,
     "active_duration_label": "3.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-22T22:51:46Z",
+    "news_signature": "8d48dfdf07e739fe776bb4e8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
