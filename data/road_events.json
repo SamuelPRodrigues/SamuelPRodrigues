@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 4.0 h.",
+    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:48:00Z",
-    "last_seen_at": "2026-09-22T16:49:13Z",
+    "last_seen_at": "2026-09-22T16:49:29Z",
     "active_duration_hours": 4.02,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ad295e56675acf635cad46a9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 4.5 h.",
+    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 4.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,13 +94,15 @@
     "newsFreshnessHours": 4.45,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:22:06Z",
-    "last_seen_at": "2026-09-22T16:49:13Z",
-    "active_duration_hours": 4.45,
+    "last_seen_at": "2026-09-22T16:49:29Z",
+    "active_duration_hours": 4.46,
     "active_duration_label": "4.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-110"
+    "detectedRoad": "SC-110",
+    "news_signature": "b9718e9fc92f44cc17588b95",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -110,7 +114,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trânsito na BR-116 será interditado nesta terça (22) para içamento de pórtico de pedágio - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-22T10:05:30Z; ativo há 6.7 h.",
+    "description": "Trânsito na BR-116 será interditado nesta terça (22) para içamento de pórtico de pedágio - g1.globo.com. Fontes consolidadas: Notícias públicas - g1.globo.com; Notícias públicas - Click Xaxim. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-22T10:05:30Z; ativo há 6.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,12 +147,14 @@
     "newsFreshnessHours": 6.73,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T10:05:30Z",
-    "last_seen_at": "2026-09-22T16:49:13Z",
+    "last_seen_at": "2026-09-22T16:49:29Z",
     "active_duration_hours": 6.73,
     "active_duration_label": "6.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0c3dc9cd0765cabc4831f63a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -165,7 +171,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada nesta terça-feira (22) entre Anchieta e Iconha - aquinoticias.com. Período informado: 2026-09-22T03:00:00Z até 2026-09-23T02:59:59Z. Fontes consolidadas: Notícias públicas - aquinoticias.com. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-22T03:00:00Z; ativo há 13.8 h.",
+    "description": "BR-101 será totalmente interditada nesta terça-feira (22) entre Anchieta e Iconha - aquinoticias.com. Período informado: 2026-09-22T03:00:00Z até 2026-09-23T02:59:59Z. Fontes consolidadas: Notícias públicas - aquinoticias.com. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-22T03:00:00Z; ativo há 13.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -194,9 +200,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-09-22T03:00:00Z",
-    "last_seen_at": "2026-09-22T16:49:13Z",
+    "last_seen_at": "2026-09-22T16:49:29Z",
     "active_duration_hours": 13.82,
     "active_duration_label": "13.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5f764b314f1597c6aa0f03b1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
