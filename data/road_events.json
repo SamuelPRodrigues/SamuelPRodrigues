@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 7.1 h.",
+    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:48:00Z",
     "last_seen_at": "2026-09-22T19:55:59Z",
-    "active_duration_hours": 7.13,
+    "active_duration_hours": 7.14,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-22T19:55:59Z",
+    "news_signature": "ad295e56675acf635cad46a9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - visornoticias.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 7.6 h.",
+    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - visornoticias.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,13 +95,15 @@
     "newsFreshnessHours": 7.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T12:22:06Z",
-    "last_seen_at": "2026-09-22T19:55:59Z",
-    "active_duration_hours": 7.56,
+    "last_seen_at": "2026-09-22T19:56:16Z",
+    "active_duration_hours": 7.57,
     "active_duration_label": "7.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-110"
+    "detectedRoad": "SC-110",
+    "news_signature": "73199a2c5dbcb1cc07cea606",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -110,7 +115,7 @@
     "lat": -16.686,
     "lon": -49.264,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "GO-020 tem novo trecho interditado para obras entre Goiânia e Bela Vista; veja desvios - opopular.com.br. Fontes consolidadas: Notícias públicas - opopular.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-22T11:41:49Z; ativo há 8.2 h.",
+    "description": "GO-020 tem novo trecho interditado para obras entre Goiânia e Bela Vista; veja desvios - opopular.com.br. Fontes consolidadas: Notícias públicas - opopular.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-22T11:41:49Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -137,13 +142,15 @@
     "newsFreshnessHours": 8.24,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T11:41:49Z",
-    "last_seen_at": "2026-09-22T19:55:59Z",
+    "last_seen_at": "2026-09-22T19:56:16Z",
     "active_duration_hours": 8.24,
     "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "GO-020"
+    "detectedRoad": "GO-020",
+    "news_signature": "182450c1412e50e6998571c0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -202,9 +209,11 @@
     "newsFreshnessHours": 0.5,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T19:26:00Z",
-    "last_seen_at": "2026-09-22T19:55:59Z",
+    "last_seen_at": "2026-09-22T19:56:16Z",
     "active_duration_hours": 0.5,
     "active_duration_label": "30 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8d48dfdf07e739fe776bb4e8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
