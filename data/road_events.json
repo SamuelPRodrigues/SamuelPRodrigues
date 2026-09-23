@@ -1,6 +1,51 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101 / SC-447",
+    "road": "BR-101 / SC-447",
+    "corridor": "Florianópolis / São José • BR-101 / BR-282",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -27.595,
+    "lon": -48.548,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5. Fontes consolidadas: Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-22T21:30:00Z; ativo há 3.5 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Araranguá FM 95.5",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOEkwaUQ1dnh3R3MyMnFPTWlJTVhqemJRWEVWd19KSXVMZ0ZCUkc3bFRjU1daYnRkZkFVc2RCbDUyLVozdVdkV1JIZzhMaHA2WlBHU3BuMWRQNDAtY1I3MmhyeHdsR0xMQlhFUGpGSnN4c0VBMjIzUkdSTW8wWGtkZ05hNWN6dktBVGlzakV1a3h4cndUWjJNVC1Odk4zeHV0WFVtTWxMSFFyYk1sdzlaR3hHWQ",
+    "headline": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5",
+    "newsDate": "Tue, 22 Sep 2026 21:30:00 GMT",
+    "updatedAt": "2026-09-23T00:58:18Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOEkwaUQ1dnh3R3MyMnFPTWlJTVhqemJRWEVWd19KSXVMZ0ZCUkc3bFRjU1daYnRkZkFVc2RCbDUyLVozdVdkV1JIZzhMaHA2WlBHU3BuMWRQNDAtY1I3MmhyeHdsR0xMQlhFUGpGSnN4c0VBMjIzUkdSTW8wWGtkZ05hNWN6dktBVGlzakV1a3h4cndUWjJNVC1Odk4zeHV0WFVtTWxMSFFyYk1sdzlaR3hHWQ",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Araranguá FM 95.5",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOEkwaUQ1dnh3R3MyMnFPTWlJTVhqemJRWEVWd19KSXVMZ0ZCUkc3bFRjU1daYnRkZkFVc2RCbDUyLVozdVdkV1JIZzhMaHA2WlBHU3BuMWRQNDAtY1I3MmhyeHdsR0xMQlhFUGpGSnN4c0VBMjIzUkdSTW8wWGtkZ05hNWN6dktBVGlzakV1a3h4cndUWjJNVC1Odk4zeHV0WFVtTWxMSFFyYk1sdzlaR3hHWQ",
+        "headline": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5",
+        "date": "Tue, 22 Sep 2026 21:30:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "a14ca5b03d58eccddf6481fb",
+    "event_id": "a14ca5b03d58eccddf6481fb",
+    "newsFreshnessHours": 3.49,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-09-22T21:30:00Z",
+    "last_seen_at": "2026-09-23T00:59:39Z",
+    "active_duration_hours": 3.49,
+    "active_duration_label": "3.5 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "SC-447"
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-101",
     "road": "BR-101",
     "corridor": "Maceió • BR-101 / BR-104 / AL-101",
@@ -9,7 +54,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Chuvas na região: cidades decretam emergência, ponte desaba e BR-101 é parcialmente bloqueada - folharegionalwebtv.com. Fontes consolidadas: Notícias públicas - folharegionalwebtv.com; Notícias públicas - Agora Floripa; Notícias públicas - Página 3; Notícias públicas - NSC Total; Notícias públicas - Portal Engeplus; Notícias públicas - Tribuna Norte Leste. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 1.6 h.",
+    "description": "Chuvas na região: cidades decretam emergência, ponte desaba e BR-101 é parcialmente bloqueada - folharegionalwebtv.com. Fontes consolidadas: Notícias públicas - folharegionalwebtv.com; Notícias públicas - 4oito; Notícias públicas - Agora Floripa; Notícias públicas - NSC Total; Notícias públicas - Portal Engeplus; Notícias públicas - Tribuna Norte Leste. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 3.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +63,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcnRvVk91Vnktd09WRFpwMGljNWZYUlFUXzZ6ME9URGotYUdJUVJNQlBvdk56Ry1MWGhiOTNKazhrbV9SVVdhN3otYVQ2X245VllHTmZCMkhYYmY2Y3RGWVpwLTNFR0w1eXI4VVl6aktPOExlaTEwR3hBejJKWU5wajJRQzJVX0pLcmdEZzBzTnN3cVVtZjQ0VlNtNmc0ejcxZkp4Zk5Wd2dGZS1nYWVGVmhPeXBVYWgxUk5qMmh3ZjNYQklsZ0xpZExfNnFYLVdpdkZEM3pB",
     "headline": "Chuvas na região: cidades decretam emergência, ponte desaba e BR-101 é parcialmente bloqueada - folharegionalwebtv.com",
     "newsDate": "Tue, 22 Sep 2026 21:15:00 GMT",
-    "updatedAt": "2026-09-22T22:50:27Z",
+    "updatedAt": "2026-09-23T00:58:18Z",
     "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcnRvVk91Vnktd09WRFpwMGljNWZYUlFUXzZ6ME9URGotYUdJUVJNQlBvdk56Ry1MWGhiOTNKazhrbV9SVVdhN3otYVQ2X245VllHTmZCMkhYYmY2Y3RGWVpwLTNFR0w1eXI4VVl6aktPOExlaTEwR3hBejJKWU5wajJRQzJVX0pLcmdEZzBzTnN3cVVtZjQ0VlNtNmc0ejcxZkp4Zk5Wd2dGZS1nYWVGVmhPeXBVYWgxUk5qMmh3ZjNYQklsZ0xpZExfNnFYLVdpdkZEM3pB",
     "sources": [
       {
@@ -28,16 +73,16 @@
         "date": "Tue, 22 Sep 2026 21:15:00 GMT"
       },
       {
+        "source": "Notícias públicas - 4oito",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjJ4SVNVc1pOZTh5OHBrUjJTSElKUUhGemJJTURVTmJFRGRaWldOc01ibm9aRkFFdng1aGJYc1VZdm5ncTNNRDVOQUxtdmdXeHZwYThweGdRQ1NTWko4YTdCMHdjRXJ4aUxfeUZYV1dqeDRxMTctbWM1cEdQVnBUYlNkOW9wNTNJTlNKWjBpMlZzcGFUY1A1NmhqTlVPSzhwZXNqRQ",
+        "headline": "Chuva alaga BR-101 e obriga PRF a interditar pista em Araranguá - 4oito",
+        "date": "Tue, 22 Sep 2026 21:14:00 GMT"
+      },
+      {
         "source": "Notícias públicas - Agora Floripa",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVoxZG9lWl9HeDRVanFsd2dvdmg2Nm8wU2JGNDEwaFZCN2VIRUV5NW5tamFFaTZRMkNvMk96Y0xtWEs2UTNOOGZYdzlLQXMtcVBET3hPaHU4cWpzTUc1cklYdUg1STNCNlN4ZkcyRk82ckU0MjNvY2p5bkhsXzZFeVBhMFp6ZkdsNVlRZE14dklVTE1zNkpHN1FR",
         "headline": "BR-101, em São José, tem acesso bloqueado e trânsito fica carregado - Agora Floripa",
         "date": "Tue, 22 Sep 2026 16:03:14 GMT"
-      },
-      {
-        "source": "Notícias públicas - Página 3",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWmRWZzRUUlVYdXV3WVhpaGpSMDE3NjVoOUZWYUZRWm1FSXN6NzF2LXVxbTc2dDkxVjktSVNnRTduaFVLSlY2Tl9WeTV5MzBNSXRpWm5zT3p4S0lUdGVRUUhGbWY0QWNmX0dwaHhINU1fc0g1UkIzNHM1WjVjdmp6c3F0YVZWVkhkNkhFenRrYkJqeVZQZEphMnhwVE5abWs4cnRySkxaejJKeDZvT19sTGlHQU10Tk1CazdTc2tIWlE0cU40LVF1SVlFYzc3UQ",
-        "headline": "Acesso à BR-101 pela Marginal Leste interditado por um mês a partir desta segunda em Balneário Camboriú - Página 3",
-        "date": "Mon, 21 Sep 2026 16:57:54 GMT"
       },
       {
         "source": "Notícias públicas - NSC Total",
@@ -63,128 +108,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "652a97874b74b278ad2d3fb2",
     "event_id": "652a97874b74b278ad2d3fb2",
-    "newsFreshnessHours": 1.61,
+    "newsFreshnessHours": 3.74,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:15:00Z",
-    "last_seen_at": "2026-09-22T22:51:59Z",
-    "active_duration_hours": 1.62,
-    "active_duration_label": "1.6 h",
+    "last_seen_at": "2026-09-23T00:59:39Z",
+    "active_duration_hours": 3.74,
+    "active_duration_label": "3.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "1557455a483b7f4a710d08a8",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-476",
-    "road": "BR-476",
-    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -25.428,
-    "lon": -49.273,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - tribunapr.com.br. Fontes consolidadas: Notícias públicas - tribunapr.com.br. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-09-22T12:48:00Z; ativo há 10.1 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - tribunapr.com.br",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ3Zob2JUVk1OMFVPbjVib1UxcUpBcERUNE9CTkZtNFN1UHlSWF9RQ3dXYlM0X28tTWRyaGJSRldIYlpYMkdkVkxmdzhzeG02cHJRNnRodmhXRWp2aXZjUEF6R2U3b20tTm5iRXpFNkVLLXFRV1A0ajN6RFBCWUNwY1I1eU9sUjk5Yk1jUFgxdmdQTXphMlJ0bnBJTThPc0JlQ3JhYVlXUmxQWWJ5TmkxYmdOUjVpUzU0NXU2dFM0a01PWE5qVmfSAcsBQVVfeXFMT3lCd0NCdUtpUWtFU1FtR1RBOGVlZWI1ZHpyNXI3c0xJLU1MMkxCZ214Q3MwM2d1WWItWkYtd25Rbl9TcHVNQk94X21rOFNlVm83VUhrYi1WUkdOR3FaRDRid3ZFN1pSV05FVWt1OFdyMkpQX1FsZmJMbzYxaU5yU3VXdDNXaXdYTXFubjZjQmNTT3lKNzY4Q2tnUjcxVzF4VXBXY3FtQUNRZVRMRDR2azJnMEQ1TTJldkRHcy1XUEZJaUtxaHBNQVAtWlE",
-    "headline": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - tribunapr.com.br",
-    "newsDate": "Tue, 22 Sep 2026 12:48:00 GMT",
-    "updatedAt": "2026-09-22T22:50:27Z",
-    "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ3Zob2JUVk1OMFVPbjVib1UxcUpBcERUNE9CTkZtNFN1UHlSWF9RQ3dXYlM0X28tTWRyaGJSRldIYlpYMkdkVkxmdzhzeG02cHJRNnRodmhXRWp2aXZjUEF6R2U3b20tTm5iRXpFNkVLLXFRV1A0ajN6RFBCWUNwY1I1eU9sUjk5Yk1jUFgxdmdQTXphMlJ0bnBJTThPc0JlQ3JhYVlXUmxQWWJ5TmkxYmdOUjVpUzU0NXU2dFM0a01PWE5qVmfSAcsBQVVfeXFMT3lCd0NCdUtpUWtFU1FtR1RBOGVlZWI1ZHpyNXI3c0xJLU1MMkxCZ214Q3MwM2d1WWItWkYtd25Rbl9TcHVNQk94X21rOFNlVm83VUhrYi1WUkdOR3FaRDRid3ZFN1pSV05FVWt1OFdyMkpQX1FsZmJMbzYxaU5yU3VXdDNXaXdYTXFubjZjQmNTT3lKNzY4Q2tnUjcxVzF4VXBXY3FtQUNRZVRMRDR2azJnMEQ1TTJldkRHcy1XUEZJaUtxaHBNQVAtWlE",
-    "sources": [
-      {
-        "source": "Notícias públicas - tribunapr.com.br",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ3Zob2JUVk1OMFVPbjVib1UxcUpBcERUNE9CTkZtNFN1UHlSWF9RQ3dXYlM0X28tTWRyaGJSRldIYlpYMkdkVkxmdzhzeG02cHJRNnRodmhXRWp2aXZjUEF6R2U3b20tTm5iRXpFNkVLLXFRV1A0ajN6RFBCWUNwY1I1eU9sUjk5Yk1jUFgxdmdQTXphMlJ0bnBJTThPc0JlQ3JhYVlXUmxQWWJ5TmkxYmdOUjVpUzU0NXU2dFM0a01PWE5qVmfSAcsBQVVfeXFMT3lCd0NCdUtpUWtFU1FtR1RBOGVlZWI1ZHpyNXI3c0xJLU1MMkxCZ214Q3MwM2d1WWItWkYtd25Rbl9TcHVNQk94X21rOFNlVm83VUhrYi1WUkdOR3FaRDRid3ZFN1pSV05FVWt1OFdyMkpQX1FsZmJMbzYxaU5yU3VXdDNXaXdYTXFubjZjQmNTT3lKNzY4Q2tnUjcxVzF4VXBXY3FtQUNRZVRMRDR2azJnMEQ1TTJldkRHcy1XUEZJaUtxaHBNQVAtWlE",
-        "headline": "Mais de 50 bloqueios: BR-476 é interditada por erosão severa e rodovias do Paraná têm restrições - tribunapr.com.br",
-        "date": "Tue, 22 Sep 2026 12:48:00 GMT"
-      }
-    ],
-    "sourceCount": 1,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "8ed0f6eb053c9a4315eaa29c",
-    "event_id": "8ed0f6eb053c9a4315eaa29c",
-    "newsFreshnessHours": 10.06,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-09-22T12:48:00Z",
-    "last_seen_at": "2026-09-22T22:51:59Z",
-    "active_duration_hours": 10.07,
-    "active_duration_label": "10.1 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "5db733c4b8a59f18606af6ca",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-101 / SC-110",
-    "road": "BR-101 / SC-110",
-    "corridor": "Florianópolis / São José • BR-101 / BR-282",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -27.595,
-    "lon": -48.548,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Visor Notícias; Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-22T12:22:06Z; ativo há 10.5 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Estradas + 3 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmpIb21tMGdhRkZpRFV2RVNJSU92OEJVZmlnaWd0eUc5WVBLR2FsV0lOcVdOVFlMN2JRenFrMGJ0Q2YtbFpJMWVjanJLc2ZocktfQjBDclp6V0xPTWxNblFNTERmZ0VQMUtuLUh0LVdjYkVNWWRzMXVIaDdUWXlEREw0V19CZkx3MmhqNU95RGJSeERqTkVnM09QTWNFeC1wUlZ2NFQwN0E5N3dXNTZzUUduekotckpxVTQwXw",
-    "headline": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas",
-    "newsDate": "Tue, 22 Sep 2026 12:22:06 GMT",
-    "updatedAt": "2026-09-22T22:50:27Z",
-    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmpIb21tMGdhRkZpRFV2RVNJSU92OEJVZmlnaWd0eUc5WVBLR2FsV0lOcVdOVFlMN2JRenFrMGJ0Q2YtbFpJMWVjanJLc2ZocktfQjBDclp6V0xPTWxNblFNTERmZ0VQMUtuLUh0LVdjYkVNWWRzMXVIaDdUWXlEREw0V19CZkx3MmhqNU95RGJSeERqTkVnM09QTWNFeC1wUlZ2NFQwN0E5N3dXNTZzUUduekotckpxVTQwXw",
-    "sources": [
-      {
-        "source": "Notícias públicas - Estradas",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmpIb21tMGdhRkZpRFV2RVNJSU92OEJVZmlnaWd0eUc5WVBLR2FsV0lOcVdOVFlMN2JRenFrMGJ0Q2YtbFpJMWVjanJLc2ZocktfQjBDclp6V0xPTWxNblFNTERmZ0VQMUtuLUh0LVdjYkVNWWRzMXVIaDdUWXlEREw0V19CZkx3MmhqNU95RGJSeERqTkVnM09QTWNFeC1wUlZ2NFQwN0E5N3dXNTZzUUduekotckpxVTQwXw",
-        "headline": "Atenção, motoristas! SC-110 tem interdição parcial devido à queda de barreira, na Serra do Panelão - Estradas",
-        "date": "Tue, 22 Sep 2026 12:22:06 GMT"
-      },
-      {
-        "source": "Notícias públicas - Visor Notícias",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzZaNXo1TDMxS3ZXX2ZfNUdRNV9oUk1ZejRZUnNlcVRQbWhJakxrT2xGM3hTdTV2S1N3N0VEb1Ruem9ITFhfX1lvU2ZYaGJBWG5OdFZPTW5ZS2FLZjlyYmdrSFE5Y0RmX2t2RlV6TEJ4MHI1YmZtVmM2eE5BdFN3eGctTm5GeEt6dWRaYmpVZWZSUDBpdDJkNEhmQ1dCQm41cnFXT19wVU9vbS1vNUdhUVZZX2tLcXJHZWg1ZUNLaXliVzJ0c29od1NMNWkxME3SAc8BQVVfeXFMTmM2WjV6NUwzMUt2V19mXzVHUTVfaFJNWXo0WVJzZXFUUG1oSWpMa09sRjN4U3U1dktTdzdFRG9UbnpvSExYX19Zb1NmWGhiQVhuTnRWT01uWUthS2Y5cmJna0hROWNEZl9rdkZVekxCeDByNWJmbVZjNnhOQXRTd3hnLU5uRnhLenVkWmJqVWVmUlAwaXQyZDRIZkNXQkJuNXJxV09fcFVPb20tbzVHYVFWWV9rS3FyR2VoNWVDS2l5YlcydHNvaHdTTDVpMTBN",
-        "headline": "Queda de barreira interdita parte da SC-110 e trânsito fica em meia pista na Serra do Panelão - Visor Notícias",
-        "date": "Tue, 22 Sep 2026 10:46:08 GMT"
-      },
-      {
-        "source": "Notícias públicas - Visor Notícias",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOejltYmlmZ2s4SFRJLWYwRmIwc2V1a1J3Q0E1MkFIRFJNMHhLTktkUXhEczVrWVlPUDVDbUl4QzFob2R0OTU3cmNhUWJuakwxMDkxVVRhcWhQbEhwSDZ1cl9NS0d1Nnp4LTNndVVCWHJfbzIyY0FpbnhtbWtpaTFvZUZkWVFZcHlGV0FBT3Jsak15aDdiZURiZG1pZ1h0cFgxWmxlQkZ3RUt4VHlnekFvTkhjbTZEdHpmSmhmTFVpTl8",
-        "headline": "Queda de barreira interdita parte da SC-110 e trânsito fica em meia pista na Serra do Panelão - Visor Notícias",
-        "date": "Tue, 22 Sep 2026 10:36:02 GMT"
-      },
-      {
-        "source": "Notícias públicas - Rádio Araranguá FM 95.5",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOEkwaUQ1dnh3R3MyMnFPTWlJTVhqemJRWEVWd19KSXVMZ0ZCUkc3bFRjU1daYnRkZkFVc2RCbDUyLVozdVdkV1JIZzhMaHA2WlBHU3BuMWRQNDAtY1I3MmhyeHdsR0xMQlhFUGpGSnN4c0VBMjIzUkdSTW8wWGtkZ05hNWN6dktBVGlzakV1a3h4cndUWjJNVC1Odk4zeHV0WFVtTWxMSFFyYk1sdzlaR3hHWQ",
-        "headline": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5",
-        "date": "Tue, 22 Sep 2026 21:30:00 GMT"
-      }
-    ],
-    "sourceCount": 4,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "89ef897ec0e0f6ec4475afad",
-    "event_id": "89ef897ec0e0f6ec4475afad",
-    "newsFreshnessHours": 10.49,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-09-22T12:22:06Z",
-    "last_seen_at": "2026-09-22T22:51:59Z",
-    "active_duration_hours": 10.5,
-    "active_duration_label": "10.5 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-110",
-    "news_signature": "229075690de55e356561f67c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -201,7 +133,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 1.3 h.",
+    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -215,7 +147,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-09-22T22:50:31Z",
+    "updatedAt": "2026-09-23T00:58:22Z",
     "sources": [
       {
         "source": "Notícias públicas - Notícia no Ato",
@@ -228,15 +160,13 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 1.27,
+    "newsFreshnessHours": 3.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:35:26Z",
-    "last_seen_at": "2026-09-22T22:51:59Z",
-    "active_duration_hours": 1.28,
-    "active_duration_label": "1.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "f01dd4b4455e2ca1b4dafeb3",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-09-23T00:59:39Z",
+    "active_duration_hours": 3.4,
+    "active_duration_label": "3.4 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -253,7 +183,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 é totalmente interditada após chuva em Araranguá - sctododia. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5; Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 3.4 h.",
+    "description": "BR-101 é totalmente interditada após chuva em Araranguá - sctododia. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5; Notícias públicas - aquinoticias.com. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -266,8 +196,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-09-22T22:50:31Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-09-23T00:58:22Z",
     "sources": [
       {
         "source": "Notícias públicas - sctododia",
@@ -282,9 +212,9 @@
         "date": "Tue, 22 Sep 2026 19:26:00 GMT"
       },
       {
-        "source": "Notícias públicas - Aqui Notícias",
+        "source": "Notícias públicas - aquinoticias.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd1FjR0ZNbWVSMEpTRUlsS1JidmljSm1fOU9JeUkxX3JyNVBxcXVLcDJuYjRRX0M2QzVWZzJFVkxXWG0wNlN4MzVEZ1hJSlF6MW92SXlwRXkxdE9VS2h2SHZNYzNUMHlPbzFRdVRiZ1pxWndwZkRBUHRIVWIxdUlqUkIwRUJPQjFWTXNKaXhOQUozaXNfdk8zOS1wQlhSeG52NGxKa05Ba3A3c1k3LV9nblNoNA",
-        "headline": "BR-101 será totalmente interditada nesta terça-feira (22) entre Anchieta e Iconha - Aqui Notícias",
+        "headline": "BR-101 será totalmente interditada nesta terça-feira (22) entre Anchieta e Iconha - aquinoticias.com",
         "date": "Tue, 22 Sep 2026 13:13:49 GMT"
       }
     ],
@@ -292,15 +222,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 3.43,
+    "newsFreshnessHours": 5.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T19:26:00Z",
-    "last_seen_at": "2026-09-22T22:51:46Z",
-    "active_duration_hours": 3.43,
-    "active_duration_label": "3.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-09-22T22:51:46Z",
-    "news_signature": "8d48dfdf07e739fe776bb4e8",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-09-23T00:59:39Z",
+    "active_duration_hours": 5.56,
+    "active_duration_label": "5.6 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
