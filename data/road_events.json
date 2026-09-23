@@ -9,7 +9,7 @@
     "lat": -28.262,
     "lon": -52.408,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-285 segue interditada após queda de barreira em Timbé do Sul - sctd.com.br. Fontes consolidadas: Notícias públicas - sctd.com.br. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-23T14:58:36Z; ativo há 6 min.",
+    "description": "BR-285 segue interditada após queda de barreira em Timbé do Sul - sctd.com.br. Fontes consolidadas: Notícias públicas - sctd.com.br. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-09-23T14:58:36Z; ativo há 7 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-23T14:58:36Z",
-    "last_seen_at": "2026-09-23T15:04:38Z",
-    "active_duration_hours": 0.1,
-    "active_duration_label": "6 min",
+    "last_seen_at": "2026-09-23T15:05:06Z",
+    "active_duration_hours": 0.11,
+    "active_duration_label": "7 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4ad7d8b78c886867be03c4c1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -88,9 +90,11 @@
     "newsFreshnessHours": 0.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-23T14:31:00Z",
-    "last_seen_at": "2026-09-23T15:04:38Z",
-    "active_duration_hours": 0.56,
+    "last_seen_at": "2026-09-23T15:05:06Z",
+    "active_duration_hours": 0.57,
     "active_duration_label": "34 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "17014e5e2fd29a718a77acf2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
