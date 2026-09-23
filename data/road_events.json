@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5. Fontes consolidadas: Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-22T21:30:00Z; ativo há 8.2 h.",
+    "description": "Água avança sobre a SC-447 e trecho entre Araranguá e Meleiro pode ser interditado - Rádio Araranguá FM 95.5. Fontes consolidadas: Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-22T21:30:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,12 +37,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:30:00Z",
     "last_seen_at": "2026-09-23T05:45:04Z",
-    "active_duration_hours": 8.25,
-    "active_duration_label": "8.2 h",
+    "active_duration_hours": 8.26,
+    "active_duration_label": "8.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-447"
+    "detectedRoad": "SC-447",
+    "last_confirmed_at": "2026-09-23T05:45:04Z",
+    "news_signature": "16ca169a2c7e261565238c26",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +57,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso Norte de Araranguá é bloqueado na BR-101. Fontes consolidadas: Notícias públicas - Portal | TN Sul; Notícias públicas - folharegionalwebtv.com; Notícias públicas - 4oito; Notícias públicas - Agora Floripa; Notícias públicas - Portal Engeplus; Notícias públicas - Aqui Notícias; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 8.5 h.",
+    "description": "Acesso Norte de Araranguá é bloqueado na BR-101. Fontes consolidadas: Notícias públicas - Portal | TN Sul; Notícias públicas - folharegionalwebtv.com; Notícias públicas - 4oito; Notícias públicas - Agora Floripa; Notícias públicas - Portal Engeplus; Notícias públicas - Aqui Notícias; +1 fonte(s). Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-22T21:15:00Z; ativo há 8.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -117,12 +120,14 @@
     "newsFreshnessHours": 8.5,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T21:15:00Z",
-    "last_seen_at": "2026-09-23T05:45:04Z",
-    "active_duration_hours": 8.5,
+    "last_seen_at": "2026-09-23T05:45:20Z",
+    "active_duration_hours": 8.51,
     "active_duration_label": "8.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ba3e8554790b52361bcd859d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -139,7 +144,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 8.2 h.",
+    "description": "ATENÇÃO: ponte na BR-116 é totalmente interditada após danos na estrutura - Notícia no Ato. Período informado: 2026-09-22T21:35:26Z até fim não identificado. Fontes consolidadas: Notícias públicas - Notícia no Ato. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-09-22T21:35:26Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,7 +157,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-23T05:43:49Z",
     "sources": [
       {
@@ -172,7 +177,10 @@
     "last_seen_at": "2026-09-23T05:45:04Z",
     "active_duration_hours": 8.16,
     "active_duration_label": "8.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-23T05:45:04Z",
+    "news_signature": "f01dd4b4455e2ca1b4dafeb3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -189,7 +197,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 é totalmente interditada no sentido Norte após fortes chuvas e acumulo de água na pista; veja rotas - NSC Total. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 10.3 h.",
+    "description": "BR-101 é totalmente interditada no sentido Norte após fortes chuvas e acumulo de água na pista; veja rotas - NSC Total. Período informado: 2026-09-22T19:26:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - NSC Total; Notícias públicas - sctododia; Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-22T19:26:00Z; ativo há 10.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -231,9 +239,11 @@
     "newsFreshnessHours": 10.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-22T19:26:00Z",
-    "last_seen_at": "2026-09-23T05:45:04Z",
+    "last_seen_at": "2026-09-23T05:45:20Z",
     "active_duration_hours": 10.32,
     "active_duration_label": "10.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3c85f558e22da45bc937d594",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
