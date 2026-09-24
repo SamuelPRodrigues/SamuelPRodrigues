@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T05:15:00Z",
+  "updatedAt": "2026-09-24T10:05:47Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -261,35 +261,6 @@
       "source_url": "",
       "total_snapshots": 1773,
       "estimated_hours": 443.25,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "40d48191ded0e05536c71277",
-      "stable_event_id": "40d48191ded0e05536c71277",
-      "observation_hash": "409386e2c0c6c8889c08d0dd",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-24T05:14:55+00:00",
-      "first_seen_at": "2026-05-29T17:17:11+00:00",
-      "last_seen_at": "2026-09-24T05:14:55+00:00",
-      "updated_at": "2026-09-24T05:14:56.862588+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Vitória",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -20.315,
-      "lon": -40.312,
-      "city": "Vitória",
-      "state": "ES",
-      "region": "Sudeste",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 117.5 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 851,
-      "estimated_hours": 212.75,
       "active": true,
       "storage": "supabase"
     },
@@ -27144,6 +27115,35 @@
       "storage": "supabase"
     },
     {
+      "event_id": "40d48191ded0e05536c71277",
+      "stable_event_id": "40d48191ded0e05536c71277",
+      "observation_hash": "5f87d640450b38e72c8fbe29",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-24T10:05:42+00:00",
+      "first_seen_at": "2026-05-29T17:17:11+00:00",
+      "last_seen_at": "2026-09-24T10:05:42+00:00",
+      "updated_at": "2026-09-24T10:05:43.753585+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Vitória",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -20.315,
+      "lon": -40.312,
+      "city": "Vitória",
+      "state": "ES",
+      "region": "Sudeste",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-29T17:15:23Z; ativo há 117.7 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 852,
+      "estimated_hours": 213.0,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
       "event_id": "bc1140c117d7158b3aede7f9",
       "stable_event_id": "bc1140c117d7158b3aede7f9",
       "observation_hash": "0788fa7767a52c76e9968e24",
@@ -29466,17 +29466,17 @@
     {
       "event_id": "94eba1bea36aeec0d426f14d",
       "stable_event_id": "94eba1bea36aeec0d426f14d",
-      "observation_hash": "e34d2a10f19041c41ff8d2b0",
+      "observation_hash": "7f39c66a20fbc9f2a11e9ff8",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-09-24T05:14:55+00:00",
+      "snapshot_at": "2026-09-24T10:05:42+00:00",
       "first_seen_at": "2026-05-26T03:18:15+00:00",
-      "last_seen_at": "2026-09-24T05:14:55+00:00",
-      "updated_at": "2026-09-24T05:14:56.862588+00:00",
+      "last_seen_at": "2026-09-24T10:05:42+00:00",
+      "updated_at": "2026-09-24T10:05:43.753585+00:00",
       "source_type": "climate",
       "category": "",
       "event_type": "climate",
       "name": "Santa Maria",
-      "risk": 4,
+      "risk": 3,
       "severity": "Baixo",
       "lat": -29.686,
       "lon": -53.806,
@@ -29484,35 +29484,35 @@
       "state": "RS",
       "region": "Sul",
       "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 121.1 dias.",
+      "description": "Rastreio: primeiro registro em 2026-05-26T03:15:18Z; ativo há 121.3 dias.",
       "source": "Open-Meteo",
       "source_url": "",
-      "total_snapshots": 3011,
-      "estimated_hours": 752.75,
+      "total_snapshots": 3012,
+      "estimated_hours": 753.0,
       "active": true,
       "storage": "supabase"
     }
   ],
   "windows": {
     "7": {
-      "events": 138,
+      "events": 137,
       "avgRisk": 47,
       "maxRisk": 88,
       "rainChance": 0,
       "byType": {
         "climate": 93,
-        "road": 45
+        "road": 44
       },
       "byRegion": {
         "Nordeste": 46,
         "Sul": 34,
         "Sudeste": 30,
-        "Norte": 17,
+        "Norte": 16,
         "Centro-Oeste": 11
       },
       "bySeverity": {
-        "Moderado": 56,
-        "Alto": 55,
+        "Moderado": 57,
+        "Alto": 53,
         "Baixo": 26,
         "Crítico": 1
       },
@@ -29520,7 +29520,7 @@
         {
           "date": "2026-09-17",
           "avgRisk": 69,
-          "events": 4,
+          "events": 3,
           "maxRisk": 69
         },
         {
@@ -29561,7 +29561,7 @@
         },
         {
           "date": "2026-09-24",
-          "avgRisk": 45,
+          "avgRisk": 43,
           "events": 16,
           "maxRisk": 69
         }
@@ -29585,8 +29585,8 @@
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 170,
-        "Moderado": 57,
+        "Alto": 169,
+        "Moderado": 58,
         "Baixo": 26,
         "Crítico": 1
       },
@@ -29767,7 +29767,7 @@
         },
         {
           "date": "2026-09-24",
-          "avgRisk": 45,
+          "avgRisk": 43,
           "events": 16,
           "maxRisk": 69
         }
@@ -29791,8 +29791,8 @@
         "Centro-Oeste": 15
       },
       "bySeverity": {
-        "Alto": 465,
-        "Moderado": 69,
+        "Alto": 464,
+        "Moderado": 70,
         "Baixo": 26,
         "Crítico": 2
       },
@@ -30327,7 +30327,7 @@
         },
         {
           "date": "2026-09-24",
-          "avgRisk": 45,
+          "avgRisk": 43,
           "events": 16,
           "maxRisk": 69
         }
