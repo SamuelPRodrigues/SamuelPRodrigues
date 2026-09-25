@@ -1,13 +1,27 @@
 {
-  "updatedAt": "2026-09-25T00:35:50Z",
+  "updatedAt": "2026-09-25T05:18:44Z",
   "lookbackHours": 12.0,
   "inputEvents": 66,
-  "keptEvents": 4,
-  "removedEvents": 62,
+  "keptEvents": 2,
+  "removedEvents": 64,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-285",
+      "road": "BR-285",
+      "source": "Rádio Araranguá FM 95.5",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-09-24T16:06:00Z"
+    },
+    {
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "source": "G1 + 1 fonte(s)",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-09-24T12:48:22Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-285",
       "road": "BR-285",
@@ -168,20 +182,6 @@
       "source": "Notícias públicas - emboabas.com",
       "reason": "public_news_older_than_12h",
       "date": "2026-08-17T19:08:12Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-101",
-      "road": "BR-101",
-      "source": "Tribuna Online + 1 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-08-13T11:08:29Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-424",
-      "road": "BR-424",
-      "source": "Notícias públicas - liberdade.com.br",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-08-11T16:39:00Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
