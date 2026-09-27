@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-09-27T07:09:08Z",
+  "updatedAt": "2026-09-27T12:58:18Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
-  "savedRoadNewsReused": 1,
+  "newItemsBeforeMerge": 55,
+  "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 53,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Acidente em carona por aplicativo no Paraná: quem eram professora e pedreiro que também morreram na batida - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motociclista morre na hora após ter veículo atingido por carro na BR-163, no oeste do Pará - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Homem morre ao bater moto em caminhão-tanque na BR-153 em Rio Preto - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Sobreviventes de acidente de ônibus com 7 mortos na Bahia estão em estado grave - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre caminhões mata homem na BR-101 na Grande Florianópolis - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista morre após invadir pista contrária e bater contra caminhões em rodovia de Cosmópolis - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Homem morre ao bater moto em caminhão-tanque na BR-153 em Rio Preto - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Detonação de rocha causará interdição temporária na BR-381 nesta quinta-feira - Jornal Bairros Net",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre na hora após ter veículo atingido por carro na BR-163, no oeste do Pará - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Colisão entre caminhões mata homem na BR-101 na Grande Florianópolis - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Acidente em carona por aplicativo no Paraná: quem eram professora e pedreiro que também morreram na batida - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista de van perde o controle e bate em passarela na BR-101, em João Pessoa - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Pais morrem e filha fica em estado grave após batida entre carro e carreta em MT - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motociclista morre após atropelar animal na BR-101, em São José de Mipibu - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Motorista e passageiro morrem após caminhão trocar de faixa e bater contra carro na BR-364 em MT - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "BR-101 entre Natal e Parnamirim registra 8 mortes em 2026 e é o trecho mais crítico no RN, diz PRF - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Chuva na cidade de São Paulo em setembro já é 329,4% acima da média - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte em São Lourenço - TV Alterosa",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal em Porto Alegre tem chuva forte, raios, granizo e vento de 106 km/h - MetSul Meteorologia",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva forte com ventania atinge Goiânia; vídeo - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Defesa Civil envia 'alerta severo' de ventos fortes para a madrugada desta terça no Rio - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Capela destruída, 43 mil casas sem energia e mulher 'afundando' em granizo: cidade do Paraná está em situação de emergência após temporal - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Interdição no cruzamento da Rua Ademar Paula com a Av. Alberto Craveiro começa nesta terça-feira (15/9) - Prefeitura de Fortaleza",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "60% dos empregados da Caixa devem manter serviço em greve - Consultor Jurídico",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Em greve, trabalhadores dos Correios ocupam centro de tratamento e paralisam entregas em Indaiatuba - G1",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
