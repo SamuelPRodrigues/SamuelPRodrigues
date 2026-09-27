@@ -1,8 +1,37 @@
 {
-  "updatedAt": "2026-09-27T01:43:34Z",
+  "updatedAt": "2026-09-27T07:08:07Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
+    {
+      "event_id": "706a039baf9413262340d06d",
+      "stable_event_id": "706a039baf9413262340d06d",
+      "observation_hash": "1209b0735f633128f9bd4419",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-27T07:08:01+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-09-27T07:08:01+00:00",
+      "updated_at": "2026-09-27T07:08:03.045442+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uruguaiana",
+      "risk": 86,
+      "severity": "Crítico",
+      "lat": -29.754,
+      "lon": -57.088,
+      "city": "Uruguaiana",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 124.3 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2079,
+      "estimated_hours": 519.75,
+      "active": true,
+      "storage": "supabase"
+    },
     {
       "event_id": "6facb261a381908297bf821f",
       "stable_event_id": "6facb261a381908297bf821f",
@@ -118,6 +147,49 @@
       "estimated_hours": 410.75,
       "active": true,
       "storage": "supabase"
+    },
+    {
+      "event_id": "d63c49e0a8a7fc5846316ac2",
+      "stable_event_id": "d63c49e0a8a7fc5846316ac2",
+      "observation_hash": "669d2d214be1ba2f0012d903",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-09-27T07:08:01+00:00",
+      "first_seen_at": "2026-09-27T07:08:02+00:00",
+      "last_seen_at": "2026-09-27T07:08:01+00:00",
+      "updated_at": "2026-09-27T07:08:03.045442+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-262",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -20.315,
+      "lon": -40.312,
+      "city": "Interdição ou bloqueio por notícia pública • BR-262",
+      "state": "",
+      "region": "Sudeste",
+      "road": "BR-262",
+      "description": "Acidente na BR-262 mata uma pessoa e deixa trânsito interditado - Patos 1.. Fontes consolidadas: Notícias públicas - Patos 1. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Patos 1",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXpsYjYtNF9OZTRBZjRtZm94U3Q4dnFRaDJabVdiR2RlYTZpekxGcElhZUgyRmhIdF9vQzU0aWh6MTlqVjUzbGp4cnBNMm4zRWlrU0luTEVVc2xxS2xCa3BMdG5JZi1VbW9XampZTWhHTkxTRkt3SlRFMUhzZHJQVnl2b3Q0NGhFd3RmTTVmWmVyeTJJamZBNDVmMEtidw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXpsYjYtNF9OZTRBZjRtZm94U3Q4dnFRaDJabVdiR2RlYTZpekxGcElhZUgyRmhIdF9vQzU0aWh6MTlqVjUzbGp4cnBNMm4zRWlrU0luTEVVc2xxS2xCa3BMdG5JZi1VbW9XampZTWhHTkxTRkt3SlRFMUhzZHJQVnl2b3Q0NGhFd3RmTTVmWmVyeTJJamZBNDVmMEtidw",
+      "headline": "Acidente na BR-262 mata uma pessoa e deixa trânsito interditado - Patos 1.",
+      "sources": [
+        {
+          "source": "Notícias públicas - Patos 1",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXpsYjYtNF9OZTRBZjRtZm94U3Q4dnFRaDJabVdiR2RlYTZpekxGcElhZUgyRmhIdF9vQzU0aWh6MTlqVjUzbGp4cnBNMm4zRWlrU0luTEVVc2xxS2xCa3BMdG5JZi1VbW9XampZTWhHTkxTRkt3SlRFMUhzZHJQVnl2b3Q0NGhFd3RmTTVmWmVyeTJJamZBNDVmMEtidw",
+          "headline": "Acidente na BR-262 mata uma pessoa e deixa trânsito interditado - Patos 1.",
+          "date": "2026-09-27T07:08:03.045442+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
       "event_id": "2cf7e6031f7c5348f515b043",
@@ -27154,35 +27226,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "706a039baf9413262340d06d",
-      "stable_event_id": "706a039baf9413262340d06d",
-      "observation_hash": "44a1c353754fb0065491fed6",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-09-26T20:56:22+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-09-26T20:56:22+00:00",
-      "updated_at": "2026-09-26T20:56:23.708258+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uruguaiana",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -29.754,
-      "lon": -57.088,
-      "city": "Uruguaiana",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 123.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2078,
-      "estimated_hours": 519.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "c56cab3f7a0e28a25e8b2a73",
       "stable_event_id": "c56cab3f7a0e28a25e8b2a73",
       "observation_hash": "bc8db16c1b7efa022140ddb0",
@@ -30406,7 +30449,7 @@
     "7": {
       "events": 142,
       "avgRisk": 45,
-      "maxRisk": 70,
+      "maxRisk": 86,
       "rainChance": 0,
       "byType": {
         "climate": 93,
@@ -30414,22 +30457,23 @@
       },
       "byRegion": {
         "Nordeste": 45,
-        "Sul": 33,
-        "Sudeste": 32,
+        "Sudeste": 33,
+        "Sul": 32,
         "Norte": 16,
         "Centro-Oeste": 14,
         "Sem região": 2
       },
       "bySeverity": {
-        "Moderado": 60,
+        "Moderado": 59,
         "Alto": 52,
-        "Baixo": 30
+        "Baixo": 30,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
           "date": "2026-09-20",
-          "avgRisk": 59,
-          "events": 5,
+          "avgRisk": 57,
+          "events": 4,
           "maxRisk": 69
         },
         {
@@ -30464,39 +30508,40 @@
         },
         {
           "date": "2026-09-26",
-          "avgRisk": 30,
-          "events": 51,
+          "avgRisk": 29,
+          "events": 50,
           "maxRisk": 69
         },
         {
           "date": "2026-09-27",
-          "avgRisk": 56,
-          "events": 4,
-          "maxRisk": 69
+          "avgRisk": 63,
+          "events": 6,
+          "maxRisk": 86
         }
       ]
     },
     "30": {
-      "events": 261,
+      "events": 262,
       "avgRisk": 56,
-      "maxRisk": 70,
+      "maxRisk": 86,
       "rainChance": 0,
       "byType": {
-        "road": 166,
+        "road": 167,
         "climate": 95
       },
       "byRegion": {
         "Nordeste": 96,
         "Sul": 65,
-        "Sudeste": 58,
+        "Sudeste": 59,
         "Norte": 24,
         "Centro-Oeste": 14,
         "Sem região": 4
       },
       "bySeverity": {
-        "Alto": 169,
-        "Moderado": 61,
-        "Baixo": 31
+        "Alto": 170,
+        "Moderado": 60,
+        "Baixo": 31,
+        "Crítico": 1
       },
       "dailyRisk": [
         {
@@ -30669,22 +30714,22 @@
         },
         {
           "date": "2026-09-26",
-          "avgRisk": 30,
-          "events": 51,
+          "avgRisk": 29,
+          "events": 50,
           "maxRisk": 69
         },
         {
           "date": "2026-09-27",
-          "avgRisk": 56,
-          "events": 4,
-          "maxRisk": 69
+          "avgRisk": 63,
+          "events": 6,
+          "maxRisk": 86
         }
       ]
     },
     "90": {
       "events": 574,
       "avgRisk": 62,
-      "maxRisk": 85,
+      "maxRisk": 86,
       "rainChance": 14,
       "byType": {
         "road": 464,
@@ -30693,22 +30738,22 @@
       "byRegion": {
         "Nordeste": 215,
         "Sul": 157,
-        "Sudeste": 126,
+        "Sudeste": 127,
         "Norte": 43,
-        "Centro-Oeste": 17,
-        "Sem região": 16
+        "Sem região": 16,
+        "Centro-Oeste": 16
       },
       "bySeverity": {
         "Alto": 469,
-        "Moderado": 73,
+        "Moderado": 72,
         "Baixo": 31,
-        "Crítico": 1
+        "Crítico": 2
       },
       "dailyRisk": [
         {
           "date": "2026-06-29",
           "avgRisk": 69,
-          "events": 2,
+          "events": 1,
           "maxRisk": 69
         },
         {
@@ -31229,15 +31274,15 @@
         },
         {
           "date": "2026-09-26",
-          "avgRisk": 30,
-          "events": 51,
+          "avgRisk": 29,
+          "events": 50,
           "maxRisk": 69
         },
         {
           "date": "2026-09-27",
-          "avgRisk": 56,
-          "events": 4,
-          "maxRisk": 69
+          "avgRisk": 63,
+          "events": 6,
+          "maxRisk": 86
         }
       ]
     }
