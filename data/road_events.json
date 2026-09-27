@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente na BR-262 mata uma pessoa e deixa trânsito interditado - Patos 1. Fontes consolidadas: Notícias públicas - Patos 1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-26T23:25:15Z; ativo há 7.7 h.",
+    "description": "Acidente na BR-262 mata uma pessoa e deixa trânsito interditado - Patos 1. Fontes consolidadas: Notícias públicas - Patos 1. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-26T23:25:15Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 7.71,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-26T23:25:15Z",
-    "last_seen_at": "2026-09-27T07:08:07Z",
-    "active_duration_hours": 7.71,
+    "last_seen_at": "2026-09-27T07:08:21Z",
+    "active_duration_hours": 7.72,
     "active_duration_label": "7.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4f962dd4b0344cb3c74184d3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
