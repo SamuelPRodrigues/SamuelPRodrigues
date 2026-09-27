@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente com dez vítimas deixa uma pessoa morta e interdita totalmente a BR-040 em Congonhas - bhaz.com.br. Fontes consolidadas: Notícias públicas - bhaz.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-09-27T13:50:00Z; ativo há 9.5 h.",
+    "description": "Acidente com dez vítimas deixa uma pessoa morta e interdita totalmente a BR-040 em Congonhas - bhaz.com.br. Fontes consolidadas: Notícias públicas - bhaz.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-09-27T13:50:00Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 9.53,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-27T13:50:00Z",
-    "last_seen_at": "2026-09-27T23:21:30Z",
+    "last_seen_at": "2026-09-27T23:21:45Z",
     "active_duration_hours": 9.53,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0b43aa2ffbb927d3558ecb4c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
