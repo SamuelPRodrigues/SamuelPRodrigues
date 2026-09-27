@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-040",
+    "road": "BR-040",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.78,
+    "lon": -47.929,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Acidente com dez vítimas deixa uma pessoa morta e interdita totalmente a BR-040 em Congonhas - BHAZ. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-27T13:50:00Z; ativo há 3.8 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - BHAZ",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3pjbGY4dDVSWm5TS1MzU0tENjBVdlFMZGRqd3FybTZVLTFoMmt0MTU0WkdNR05UaEw4OUxLMVVMbEVqcTlmU2JsemhRRzBnNVVXZV9PdlZqTTM1SXRxdTRHWDBoOHI3V0pUVk10aHlGLXJvLW9pZWlIN1ZqWjR0Mm5feW5MYzFWNG9CNG9ROWNwMW1QOGVHRDlIel94Yi1PUEE",
+    "headline": "Acidente com dez vítimas deixa uma pessoa morta e interdita totalmente a BR-040 em Congonhas - BHAZ",
+    "newsDate": "Sun, 27 Sep 2026 13:50:00 GMT",
+    "updatedAt": "2026-09-27T17:37:34Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3pjbGY4dDVSWm5TS1MzU0tENjBVdlFMZGRqd3FybTZVLTFoMmt0MTU0WkdNR05UaEw4OUxLMVVMbEVqcTlmU2JsemhRRzBnNVVXZV9PdlZqTTM1SXRxdTRHWDBoOHI3V0pUVk10aHlGLXJvLW9pZWlIN1ZqWjR0Mm5feW5MYzFWNG9CNG9ROWNwMW1QOGVHRDlIel94Yi1PUEE",
+    "sources": [
+      {
+        "source": "Notícias públicas - BHAZ",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3pjbGY4dDVSWm5TS1MzU0tENjBVdlFMZGRqd3FybTZVLTFoMmt0MTU0WkdNR05UaEw4OUxLMVVMbEVqcTlmU2JsemhRRzBnNVVXZV9PdlZqTTM1SXRxdTRHWDBoOHI3V0pUVk10aHlGLXJvLW9pZWlIN1ZqWjR0Mm5feW5MYzFWNG9CNG9ROWNwMW1QOGVHRDlIel94Yi1PUEE",
+        "headline": "Acidente com dez vítimas deixa uma pessoa morta e interdita totalmente a BR-040 em Congonhas - BHAZ",
+        "date": "Sun, 27 Sep 2026 13:50:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "0a3081f43ce2002de09759ae",
+    "event_id": "0a3081f43ce2002de09759ae",
+    "newsFreshnessHours": 3.81,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-09-27T13:50:00Z",
+    "last_seen_at": "2026-09-27T17:38:53Z",
+    "active_duration_hours": 3.81,
+    "active_duration_label": "3.8 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
