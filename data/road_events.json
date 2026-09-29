@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 segue interditada após carreta tombar e pegar fogo - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-29T02:18:00Z; ativo há 4.7 h.",
+    "description": "BR-040 segue interditada após carreta tombar e pegar fogo - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-09-29T02:18:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.68,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-29T02:18:00Z",
-    "last_seen_at": "2026-09-29T06:58:41Z",
+    "last_seen_at": "2026-09-29T06:58:56Z",
     "active_duration_hours": 4.68,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3566fe957f1e5335f4f0dbcc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 262 é interditada para remoção de ônibus envolvido em tragédia no ES - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-09-28T20:20:00Z; ativo há 10.6 h.",
+    "description": "BR 262 é interditada para remoção de ônibus envolvido em tragédia no ES - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.6 h. Rastreio: primeiro registro em 2026-09-28T20:20:00Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T20:20:00Z",
     "last_seen_at": "2026-09-29T06:58:41Z",
-    "active_duration_hours": 10.64,
-    "active_duration_label": "10.6 h",
+    "active_duration_hours": 10.65,
+    "active_duration_label": "10.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-29T06:58:41Z",
+    "news_signature": "c22b70076b22e56596603a22",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +107,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Acidente na BR-365 deixa motorista preso às ferragens e pista totalmente interditada - Paranaíba Mais. Período informado: 2026-09-28T23:23:48Z até fim não identificado. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-28T23:23:48Z; ativo há 7.6 h.",
+    "description": "Acidente na BR-365 deixa motorista preso às ferragens e pista totalmente interditada - Paranaíba Mais. Período informado: 2026-09-28T23:23:48Z até fim não identificado. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-28T23:23:48Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -115,7 +120,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-09-29T06:57:25Z",
     "sources": [
       {
@@ -133,8 +138,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T23:23:48Z",
     "last_seen_at": "2026-09-29T06:58:41Z",
-    "active_duration_hours": 7.58,
+    "active_duration_hours": 7.59,
     "active_duration_label": "7.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-29T06:58:41Z",
+    "news_signature": "4ba8441f16d0c553e3e1409c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
