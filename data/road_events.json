@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carro sai da pista, cai de ponte e pega fogo na BR-470; trecho é interditado - Jornal de Pomerode. Fontes consolidadas: Notícias públicas - Jornal de Pomerode; Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-29T11:54:34Z; ativo há 2.0 h.",
+    "description": "Carro sai da pista, cai de ponte e pega fogo na BR-470; trecho é interditado - Jornal de Pomerode. Fontes consolidadas: Notícias públicas - Jornal de Pomerode; Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-29T11:54:34Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-29T11:54:34Z",
-    "last_seen_at": "2026-09-29T13:55:51Z",
-    "active_duration_hours": 2.02,
+    "last_seen_at": "2026-09-29T13:56:05Z",
+    "active_duration_hours": 2.03,
     "active_duration_label": "2.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "403a453a0a4152a91d6bffb7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -5.091,
     "lon": -42.803,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-343 é interditado em Teresina para obras de duplicação; veja desvio. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - piauihoje.com. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-09-29T09:35:09Z; ativo há 4.3 h.",
+    "description": "Trecho da BR-343 é interditado em Teresina para obras de duplicação; veja desvio. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - piauihoje.com. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-09-29T09:35:09Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -98,12 +100,14 @@
     "newsFreshnessHours": 4.35,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-29T09:35:09Z",
-    "last_seen_at": "2026-09-29T13:55:51Z",
-    "active_duration_hours": 4.34,
+    "last_seen_at": "2026-09-29T13:56:05Z",
+    "active_duration_hours": 4.35,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a68a972ec6db57709ac13ed8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -115,7 +119,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 segue interditada após carreta tombar e pegar fogo - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-29T02:18:00Z; ativo há 11.6 h.",
+    "description": "BR-040 segue interditada após carreta tombar e pegar fogo - Estado de Minas. Fontes consolidadas: Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-29T02:18:00Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -146,7 +150,10 @@
     "active_duration_hours": 11.63,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-29T13:55:51Z",
+    "news_signature": "3566fe957f1e5335f4f0dbcc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
