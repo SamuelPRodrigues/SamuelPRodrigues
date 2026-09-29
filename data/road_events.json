@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR 262 é interditada para remoção de ônibus envolvido em tragédia no ES - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-28T20:20:00Z; ativo há 5.0 h.",
+    "description": "BR 262 é interditada para remoção de ônibus envolvido em tragédia no ES - A Gazeta. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-28T20:20:00Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,11 +37,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T20:20:00Z",
     "last_seen_at": "2026-09-29T01:18:52Z",
-    "active_duration_hours": 4.98,
+    "active_duration_hours": 4.99,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-09-29T01:18:52Z",
+    "news_signature": "c22b70076b22e56596603a22",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista temporariamente interditada na PR-280, km 237, em Renascença - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-09-28T17:20:01Z; ativo há 8.0 h.",
+    "description": "Pista temporariamente interditada na PR-280, km 237, em Renascença - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-09-28T17:20:01Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,12 +84,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T17:20:01Z",
     "last_seen_at": "2026-09-29T01:18:52Z",
-    "active_duration_hours": 7.98,
+    "active_duration_hours": 7.99,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-280"
+    "detectedRoad": "PR-280",
+    "last_confirmed_at": "2026-09-29T01:18:52Z",
+    "news_signature": "9b0c6ba20038891e0e1ff82f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +104,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 é interditada nos dois sentidos após incêndio e acidentes na Grande Natal. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-09-28T16:33:19Z; ativo há 8.8 h.",
+    "description": "BR-101 é interditada nos dois sentidos após incêndio e acidentes na Grande Natal. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-09-28T16:33:19Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,12 +131,14 @@
     "newsFreshnessHours": 8.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T16:33:19Z",
-    "last_seen_at": "2026-09-29T01:18:52Z",
+    "last_seen_at": "2026-09-29T01:19:08Z",
     "active_duration_hours": 8.76,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "638e451aa0fff0580f285047",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +155,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Acidente na BR-365 deixa motorista preso às ferragens e pista totalmente interditada - Paranaíba Mais. Período informado: 2026-09-28T23:23:48Z até fim não identificado. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-09-28T23:23:48Z; ativo há 1.9 h.",
+    "description": "Acidente na BR-365 deixa motorista preso às ferragens e pista totalmente interditada - Paranaíba Mais. Período informado: 2026-09-28T23:23:48Z até fim não identificado. Fontes consolidadas: Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-09-28T23:23:48Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -177,9 +185,11 @@
     "newsFreshnessHours": 1.92,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-28T23:23:48Z",
-    "last_seen_at": "2026-09-29T01:18:52Z",
+    "last_seen_at": "2026-09-29T01:19:08Z",
     "active_duration_hours": 1.92,
     "active_duration_label": "1.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4ba8441f16d0c553e3e1409c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
