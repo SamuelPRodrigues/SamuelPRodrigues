@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-09-30T08:17:09Z",
+  "updatedAt": "2026-09-30T14:58:19Z",
   "lookbackHours": 12.0,
-  "inputEvents": 70,
-  "keptEvents": 4,
-  "removedEvents": 66,
+  "inputEvents": 69,
+  "keptEvents": 2,
+  "removedEvents": 67,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-282",
+      "road": "BR-282",
+      "source": "Rede Peperi",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-09-29T22:21:00Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-365",
       "road": "BR-365",
@@ -175,13 +182,6 @@
       "source": "O TEMPO + 1 fonte(s)",
       "reason": "public_news_older_than_12h",
       "date": "2026-08-23T01:46:43Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-259",
-      "road": "BR-259",
-      "source": "g1.globo.com",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-08-19T13:45:38Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
