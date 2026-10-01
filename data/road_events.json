@@ -14,7 +14,7 @@
     "state": "RS",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Serra da Rocinha é totalmente interditada após nova queda de barreira na BR-285 - NSC Total. Período informado: 2026-09-30T23:46:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-09-30T23:46:49Z; ativo há 2.6 h.",
+    "description": "Serra da Rocinha é totalmente interditada após nova queda de barreira na BR-285 - NSC Total. Período informado: 2026-09-30T23:46:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-09-30T23:46:49Z; ativo há 2.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 2.6,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-09-30T23:46:49Z",
-    "last_seen_at": "2026-10-01T02:22:37Z",
+    "last_seen_at": "2026-10-01T02:22:51Z",
     "active_duration_hours": 2.6,
     "active_duration_label": "2.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8053422bb589e53600387873",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
