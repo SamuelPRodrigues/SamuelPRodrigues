@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Fundão - folhavitoria.com.br. Período informado: 2026-10-01T13:48:51Z até fim não identificado. Fontes consolidadas: folhavitoria.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-01T13:48:51Z; ativo há 2.5 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Fundão - folhavitoria.com.br. Período informado: 2026-10-01T13:48:51Z até fim não identificado. Fontes consolidadas: folhavitoria.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-10-01T13:48:51Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,10 +44,12 @@
     "newsFreshnessHours": 2.5,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-01T13:48:51Z",
-    "last_seen_at": "2026-10-01T16:18:52Z",
+    "last_seen_at": "2026-10-01T16:19:07Z",
     "active_duration_hours": 2.5,
     "active_duration_label": "2.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "414369c1bbc3f29a772fb18a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +66,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-116 será totalmente interditada em Catuji para instalação de pedágio eletrônico. Período informado: 2026-10-01T11:23:07Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-01T11:23:07Z; ativo há 4.9 h.",
+    "description": "BR-116 será totalmente interditada em Catuji para instalação de pedágio eletrônico. Período informado: 2026-10-01T11:23:07Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-01T11:23:07Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -94,10 +96,12 @@
     "newsFreshnessHours": 4.93,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-01T11:23:07Z",
-    "last_seen_at": "2026-10-01T16:18:52Z",
+    "last_seen_at": "2026-10-01T16:19:07Z",
     "active_duration_hours": 4.93,
     "active_duration_label": "4.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b529e4f583e3d5553e4ebf46",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +118,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 é totalmente interditada após carreta pegar fogo e fila chega a 6 km na divisa com SC - ND Mais. Período informado: 2026-10-01T11:13:45Z até fim não identificado. Fontes consolidadas: ND Mais; Notícias públicas - TVBV ONLINE; Notícias públicas - Diário da Jaraguá; Notícias públicas - ND Mais; Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-01T11:13:45Z; ativo há 5.1 h.",
+    "description": "BR-376 é totalmente interditada após carreta pegar fogo e fila chega a 6 km na divisa com SC - ND Mais. Período informado: 2026-10-01T11:13:45Z até fim não identificado. Fontes consolidadas: ND Mais; Notícias públicas - TVBV ONLINE; Notícias públicas - Diário da Jaraguá; Notícias públicas - ND Mais; Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-01T11:13:45Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -168,9 +172,11 @@
     "newsFreshnessHours": 5.09,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-01T11:13:45Z",
-    "last_seen_at": "2026-10-01T16:18:52Z",
+    "last_seen_at": "2026-10-01T16:19:07Z",
     "active_duration_hours": 5.09,
     "active_duration_label": "5.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d0d6a82a2d6c546d915bf683",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
