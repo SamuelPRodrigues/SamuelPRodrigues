@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada para detonação de rochas em Fundão - Folha Vitória. Período informado: 2026-10-01T13:48:51Z até fim não identificado. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-01T13:48:51Z; ativo há 10.9 h.",
+    "description": "BR-101 será totalmente interditada para detonação de rochas em Fundão - Folha Vitória. Período informado: 2026-10-01T13:48:51Z até fim não identificado. Fontes consolidadas: Folha Vitória. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-01T13:48:51Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -27,7 +27,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-02T00:40:21Z",
     "sources": [
       {
@@ -47,6 +47,9 @@
     "last_seen_at": "2026-10-02T00:41:35Z",
     "active_duration_hours": 10.88,
     "active_duration_label": "10.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-02T00:41:35Z",
+    "news_signature": "3d82325c709f60b3bcbbd5bd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
