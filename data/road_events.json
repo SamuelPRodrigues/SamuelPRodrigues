@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MG-448 é interditada após veículo sair da pista e cair em ribanceira - Barbacena Online. Fontes consolidadas: Notícias públicas - Barbacena Online. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-04T19:54:42Z; ativo há 2.1 h.",
+    "description": "MG-448 é interditada após veículo sair da pista e cair em ribanceira - Barbacena Online. Fontes consolidadas: Notícias públicas - Barbacena Online. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-04T19:54:42Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 2.09,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-04T19:54:42Z",
-    "last_seen_at": "2026-10-04T22:00:21Z",
-    "active_duration_hours": 2.09,
+    "last_seen_at": "2026-10-04T22:00:37Z",
+    "active_duration_hours": 2.1,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-448"
+    "detectedRoad": "MG-448",
+    "news_signature": "75eea4ad9131249f162d1858",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
