@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão carregado com produtos ortopédicos pega fogo e provoca bloqueio total da BR-376 - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-05T14:23:00Z; ativo há 7.3 h.",
+    "description": "Caminhão carregado com produtos ortopédicos pega fogo e provoca bloqueio total da BR-376 - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-05T14:23:00Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 7.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-05T14:23:00Z",
-    "last_seen_at": "2026-10-05T21:42:18Z",
-    "active_duration_hours": 7.32,
+    "last_seen_at": "2026-10-05T21:42:34Z",
+    "active_duration_hours": 7.33,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a3fa04236413c3475dc170a2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +66,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 em Fundão será totalmente interditada nesta segunda e terça para obras - tribunaonline.com.br. Período informado: 2026-10-05T14:03:40Z até fim não identificado. Fontes consolidadas: Notícias públicas - tribunaonline.com.br; tribunaonline.com.br. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-05T14:03:40Z; ativo há 7.6 h.",
+    "description": "BR-101 em Fundão será totalmente interditada nesta segunda e terça para obras - tribunaonline.com.br. Período informado: 2026-10-05T14:03:40Z até fim não identificado. Fontes consolidadas: Notícias públicas - tribunaonline.com.br; tribunaonline.com.br. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-05T14:03:40Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -100,10 +102,12 @@
     "newsFreshnessHours": 7.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-05T14:03:40Z",
-    "last_seen_at": "2026-10-05T21:42:18Z",
-    "active_duration_hours": 7.64,
-    "active_duration_label": "7.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-10-05T21:42:34Z",
+    "active_duration_hours": 7.65,
+    "active_duration_label": "7.7 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "988df2e5a12e89ac8f275d6c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -120,7 +124,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 é totalmente interditada após incêndio em carreta e congestionamento chega a 7 km no trecho; veja - ND Mais. Período informado: 2026-10-05T13:54:18Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-05T13:54:18Z; ativo há 7.8 h.",
+    "description": "BR-376 é totalmente interditada após incêndio em carreta e congestionamento chega a 7 km no trecho; veja - ND Mais. Período informado: 2026-10-05T13:54:18Z até fim não identificado. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-05T13:54:18Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -133,7 +137,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-05T21:41:02Z",
     "sources": [
       {
@@ -153,6 +157,9 @@
     "last_seen_at": "2026-10-05T21:42:18Z",
     "active_duration_hours": 7.8,
     "active_duration_label": "7.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-05T21:42:18Z",
+    "news_signature": "249cea74ba604150e9e86261",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
