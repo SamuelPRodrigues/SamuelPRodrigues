@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-381 no Sul de Minas será interditado para içamento de passarela que caiu - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-06T18:13:05Z; ativo há 2.3 h.",
+    "description": "Trecho da BR-381 no Sul de Minas será interditado para içamento de passarela que caiu - O TEMPO. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-06T18:13:05Z; ativo há 2.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 2.3,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-06T18:13:05Z",
-    "last_seen_at": "2026-10-06T20:31:16Z",
-    "active_duration_hours": 2.3,
+    "last_seen_at": "2026-10-06T20:31:34Z",
+    "active_duration_hours": 2.31,
     "active_duration_label": "2.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "589ec75865d4a9d13888ceb5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "\"Deviam planejar melhor\": Rua Domingos Martins é interditada para construção de muro do túnel sob a BR-116, em Canoas - abc+. Fontes consolidadas: Notícias públicas - abc+. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-06T14:41:16Z; ativo há 5.8 h.",
+    "description": "\"Deviam planejar melhor\": Rua Domingos Martins é interditada para construção de muro do túnel sob a BR-116, em Canoas - abc+. Fontes consolidadas: Notícias públicas - abc+. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-06T14:41:16Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,11 +82,13 @@
     "newsFreshnessHours": 5.83,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-06T14:41:16Z",
-    "last_seen_at": "2026-10-06T20:31:16Z",
-    "active_duration_hours": 5.83,
+    "last_seen_at": "2026-10-06T20:31:34Z",
+    "active_duration_hours": 5.84,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "79a098b4bf99e93f815b1212",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
