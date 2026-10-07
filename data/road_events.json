@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-07T18:15:00Z",
-    "last_seen_at": "2026-10-07T18:46:00Z",
+    "last_seen_at": "2026-10-07T18:46:15Z",
     "active_duration_hours": 0.52,
     "active_duration_label": "31 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a35dfa0b1cd6ec70b3c5a5e4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Faixa da BR-277 é interditada após queda de árvore em Morretes - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-07T11:54:01Z; ativo há 6.9 h.",
+    "description": "Faixa da BR-277 é interditada após queda de árvore em Morretes - CBN Curitiba. Fontes consolidadas: Notícias públicas - CBN Curitiba. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-07T11:54:01Z; ativo há 6.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +82,14 @@
     "newsFreshnessHours": 5.62,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-07T11:54:01Z",
-    "last_seen_at": "2026-10-07T18:46:00Z",
+    "last_seen_at": "2026-10-07T18:46:15Z",
     "active_duration_hours": 6.87,
     "active_duration_label": "6.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3b0d76b2ed6b3dbcba610648",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -102,7 +106,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-040 é totalmente interditada após engavetamento com 25 veículos na Grande BH - O TEMPO. Período informado: 2026-10-07T13:41:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-07T13:41:10Z; ativo há 5.1 h.",
+    "description": "BR-040 é totalmente interditada após engavetamento com 25 veículos na Grande BH - O TEMPO. Período informado: 2026-10-07T13:41:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-07T13:41:10Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -132,9 +136,11 @@
     "newsFreshnessHours": 5.08,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-07T13:41:10Z",
-    "last_seen_at": "2026-10-07T18:46:00Z",
+    "last_seen_at": "2026-10-07T18:46:15Z",
     "active_duration_hours": 5.08,
     "active_duration_label": "5.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "caaf132c19e441fe2563f65b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
