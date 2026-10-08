@@ -9,7 +9,7 @@
     "lat": -5.091,
     "lon": -42.803,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Incêndio deixa BR 343 parcialmente interditada em Piripiri - GP1. Fontes consolidadas: Notícias públicas - GP1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-08T02:36:36Z; ativo há 7.0 h.",
+    "description": "Incêndio deixa BR 343 parcialmente interditada em Piripiri - GP1. Fontes consolidadas: Notícias públicas - GP1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-08T02:36:36Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 6.95,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-08T09:33:25Z",
+    "news_signature": "0d9281915dd47a2e7f35371d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-10-17T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.3 dias. Rastreio: primeiro registro em 2026-01-08T03:00:00Z; ativo há 273.3 dias.",
+    "description": "Trecho da BR-265 é totalmente interditado para obras no Sul de Minas; veja rotas alternativas. Período informado: 2026-05-25T03:00:00Z até 2026-10-17T02:59:59Z. Fontes consolidadas: G1; g1.globo.com. Localização aproximada pelo corredor monitorado.3 dias.3 dias. Rastreio: primeiro registro em 2026-01-08T03:00:00Z; ativo há 273.3 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -102,6 +105,9 @@
     "last_seen_at": "2026-10-08T09:33:25Z",
     "active_duration_hours": 6558.56,
     "active_duration_label": "273.3 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-08T09:33:25Z",
+    "news_signature": "ea17f30a752d438687312fc0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
