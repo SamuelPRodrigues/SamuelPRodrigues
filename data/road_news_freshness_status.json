@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-10-07T23:21:14Z",
+  "updatedAt": "2026-10-08T02:45:22Z",
   "lookbackHours": 12.0,
   "inputEvents": 77,
-  "keptEvents": 3,
-  "removedEvents": 74,
+  "keptEvents": 2,
+  "removedEvents": 75,
   "plannedWindowPreserved": 1,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-040",
+      "road": "BR-040",
+      "source": "Notícias públicas - O TEMPO",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-10-07T13:41:10Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-280",
       "road": "BR-280",
@@ -175,13 +182,6 @@
       "source": "Portal Menina + 1 fonte(s)",
       "reason": "public_news_older_than_12h",
       "date": "2026-09-11T17:40:00Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-280",
-      "road": "BR-280",
-      "source": "Notícias públicas - gazetasbs.com.br",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-09-09T16:10:43Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
