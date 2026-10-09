@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista bate na traseira de carro, é atropelado por caminhão e tem perna amputada na BR-277; rodovia é bloqueada - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-09T13:54:00Z; ativo há 9.7 h.",
+    "description": "Motociclista bate na traseira de carro, é atropelado por caminhão e tem perna amputada na BR-277; rodovia é bloqueada - Banda B. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-09T13:54:00Z; ativo há 9.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 9.68,
     "active_duration_label": "9.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-09T23:34:34Z",
+    "news_signature": "49752d8eb1c47a76945e7cb8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +61,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 é totalmente interditada no sentido sul em Araranguá após acidente - Rádio Araranguá FM 95.5. Período informado: 2026-10-09T18:27:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-09T18:27:00Z; ativo há 5.1 h.",
+    "description": "BR-101 é totalmente interditada no sentido sul em Araranguá após acidente - Rádio Araranguá FM 95.5. Período informado: 2026-10-09T18:27:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-09T18:27:00Z; ativo há 5.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +74,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-09T23:33:20Z",
     "sources": [
       {
@@ -91,6 +94,9 @@
     "last_seen_at": "2026-10-09T23:34:34Z",
     "active_duration_hours": 5.13,
     "active_duration_label": "5.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-09T23:34:34Z",
+    "news_signature": "9aff2d717623ece472dfcf1e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
