@@ -9,7 +9,7 @@
     "lat": -22.315,
     "lon": -49.061,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Alça de saída da SP-300 é interditado em Birigui - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-08T23:00:00Z; ativo há 8.5 h.",
+    "description": "Alça de saída da SP-300 é interditado em Birigui - O LIBERAL REGIONAL. Fontes consolidadas: Notícias públicas - O LIBERAL REGIONAL. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-10-08T23:00:00Z; ativo há 8.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 8.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-08T23:00:00Z",
-    "last_seen_at": "2026-10-09T07:30:57Z",
+    "last_seen_at": "2026-10-09T07:31:11Z",
     "active_duration_hours": 8.52,
     "active_duration_label": "8.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-300"
+    "detectedRoad": "SP-300",
+    "news_signature": "8879c13d60bedccb494928e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trânsito na BR-116 será interditado para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-08T22:51:27Z; ativo há 8.7 h.",
+    "description": "Trânsito na BR-116 será interditado para içamento de pórtico de pedágio. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-08T22:51:27Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +87,10 @@
     "active_duration_hours": 8.66,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-09T07:30:57Z",
+    "news_signature": "2893419d2b2fa6fbd6dbfd89",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
