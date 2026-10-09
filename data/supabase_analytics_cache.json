@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T21:35:07Z",
+  "updatedAt": "2026-10-09T01:23:10Z",
   "source": "supabase",
   "storageMode": "permanent_history",
   "rows": [
@@ -352,14 +352,57 @@
       "storage": "supabase"
     },
     {
+      "event_id": "6ce82f528917936226fd5b34",
+      "stable_event_id": "6ce82f528917936226fd5b34",
+      "observation_hash": "8deaf10edab648be8fa2ef63",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
+      "first_seen_at": "2026-10-09T01:23:05+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-116",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Interdição ou bloqueio por notícia pública • BR-116",
+      "state": "",
+      "region": "Nordeste",
+      "road": "BR-116",
+      "description": "Trânsito na BR-116 será interditado para içamento de pórtico de pedágio.. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - G1",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZWdGdjVpTkVTd05oNUcyU0tLNnRVU3BlS2g0MUZ4NVNHV2s2RUJiRWlJWG9OV3ZpaDdXNXBBZWFnX1BVdlFwRGEwd25XTzV6WXdUSHJrS3MyMy0zVjJzTmxmYjhxMnlTaEZPTlRpczgzMFBFVU5NZlllSXh1V0c1RlA5czZTS3AzSjlsS3lOajJYeGhERHhSRWxTcjlXVzJEbGlVZFdRTXBnblk0b0dHMmltTmlPX09sWW96Z19CQWRoZDE4RnBtSNIB1wFBVV95cUxOdW44RTdOUS1FeVFwNzhvcG5jb3JBdmdqN2Fab05Bdkc4MGV0dmRtYzBkdTY4Wk1ja3lIb2ZxcnJYQk1YY3RQWWZQcVQyYzlLN3lZc2VrMTdZUXhnSFlDYVFxQkEzMGZZMWVTZnM3cTdlSHJTNXhtMmZnWW1BZVY3TGxLV2J2emVRWWpIcXpFZUo1MEVyT29xdmlISjBFeE5KOFZRZjJ5N1NkMHdNeHhOSFVIekxXdy1yNFZJaG5neDgyenlPZTBWZGc3T240VGczbzB5eXNFaw",
+      "total_snapshots": 1,
+      "estimated_hours": 0.25,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZWdGdjVpTkVTd05oNUcyU0tLNnRVU3BlS2g0MUZ4NVNHV2s2RUJiRWlJWG9OV3ZpaDdXNXBBZWFnX1BVdlFwRGEwd25XTzV6WXdUSHJrS3MyMy0zVjJzTmxmYjhxMnlTaEZPTlRpczgzMFBFVU5NZlllSXh1V0c1RlA5czZTS3AzSjlsS3lOajJYeGhERHhSRWxTcjlXVzJEbGlVZFdRTXBnblk0b0dHMmltTmlPX09sWW96Z19CQWRoZDE4RnBtSNIB1wFBVV95cUxOdW44RTdOUS1FeVFwNzhvcG5jb3JBdmdqN2Fab05Bdkc4MGV0dmRtYzBkdTY4Wk1ja3lIb2ZxcnJYQk1YY3RQWWZQcVQyYzlLN3lZc2VrMTdZUXhnSFlDYVFxQkEzMGZZMWVTZnM3cTdlSHJTNXhtMmZnWW1BZVY3TGxLV2J2emVRWWpIcXpFZUo1MEVyT29xdmlISjBFeE5KOFZRZjJ5N1NkMHdNeHhOSFVIekxXdy1yNFZJaG5neDgyenlPZTBWZGc3T240VGczbzB5eXNFaw",
+      "headline": "Trânsito na BR-116 será interditado para içamento de pórtico de pedágio.",
+      "sources": [
+        {
+          "source": "Notícias públicas - G1",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZWdGdjVpTkVTd05oNUcyU0tLNnRVU3BlS2g0MUZ4NVNHV2s2RUJiRWlJWG9OV3ZpaDdXNXBBZWFnX1BVdlFwRGEwd25XTzV6WXdUSHJrS3MyMy0zVjJzTmxmYjhxMnlTaEZPTlRpczgzMFBFVU5NZlllSXh1V0c1RlA5czZTS3AzSjlsS3lOajJYeGhERHhSRWxTcjlXVzJEbGlVZFdRTXBnblk0b0dHMmltTmlPX09sWW96Z19CQWRoZDE4RnBtSNIB1wFBVV95cUxOdW44RTdOUS1FeVFwNzhvcG5jb3JBdmdqN2Fab05Bdkc4MGV0dmRtYzBkdTY4Wk1ja3lIb2ZxcnJYQk1YY3RQWWZQcVQyYzlLN3lZc2VrMTdZUXhnSFlDYVFxQkEzMGZZMWVTZnM3cTdlSHJTNXhtMmZnWW1BZVY3TGxLV2J2emVRWWpIcXpFZUo1MEVyT29xdmlISjBFeE5KOFZRZjJ5N1NkMHdNeHhOSFVIekxXdy1yNFZJaG5neDgyenlPZTBWZGc3T240VGczbzB5eXNFaw",
+          "headline": "Trânsito na BR-116 será interditado para içamento de pórtico de pedágio.",
+          "date": "2026-10-09T01:23:06.575725+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
       "event_id": "e7de120f7d32c5b00182f061",
       "stable_event_id": "e7de120f7d32c5b00182f061",
-      "observation_hash": "905861a57c01f6e7abc66be6",
+      "observation_hash": "d3efce171cc7c158b9bc1447",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-10-08T21:35:01+00:00",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
       "first_seen_at": "2026-10-08T16:50:48+00:00",
-      "last_seen_at": "2026-10-08T21:35:01+00:00",
-      "updated_at": "2026-10-08T21:35:02.699139+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -375,8 +418,8 @@
       "description": "Fernão Dias é bloqueada para obra em passarela que matou família - iG Último Segundo.. Fontes consolidadas: Notícias públicas - iG Último Segundo. Localização aproximada pelo corredor monitorado.",
       "source": "Notícias públicas - iG Último Segundo",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmdCMzlIYmRfb0VlS1Y5a3M1RGhWN21VRlRlVGZROVBHQWpEOEp6NTVmeTVnbHFYNk9RVkVqRHNJLUJVWmFMTmsyWk56aWJkcWF2VGRoNEY1QWRycHdLN3BwWVlmM2JMNFZ0dlV3eXZNdDVqQmR6Q3EyZTRBUW1XdkJJU3QtQTl0cURlei1OZFYzemtmZldKY2w3NkZWSUFHcTBJT1BzYVhSMTRNdTdSYzln0gG3AUFVX3lxTE9qRC16UTJ6NjVKVFhqMzM2VFNrY3l4ZWprMWgtU0U5emUydThDSkp4QldoWnZISktXSnhleGdlejlEZjdHMW90SjZVWDRBbEFZSkc0bl9TYVg5Q0pZSl9WU2FXTkxnTGE0ZC16blpxSFVDNHM3RTB5WEUxaTMxVkdmUndRczJncGh0Zy1lMVd1UWI2QmtHUjZsN0tpdUdFM211eGdOWFJoTTlUaVdWVkt0NEFyZE5aSQ",
-      "total_snapshots": 2,
-      "estimated_hours": 0.5,
+      "total_snapshots": 3,
+      "estimated_hours": 0.75,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -387,7 +430,7 @@
           "source": "Notícias públicas - iG Último Segundo",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmdCMzlIYmRfb0VlS1Y5a3M1RGhWN21VRlRlVGZROVBHQWpEOEp6NTVmeTVnbHFYNk9RVkVqRHNJLUJVWmFMTmsyWk56aWJkcWF2VGRoNEY1QWRycHdLN3BwWVlmM2JMNFZ0dlV3eXZNdDVqQmR6Q3EyZTRBUW1XdkJJU3QtQTl0cURlei1OZFYzemtmZldKY2w3NkZWSUFHcTBJT1BzYVhSMTRNdTdSYzln0gG3AUFVX3lxTE9qRC16UTJ6NjVKVFhqMzM2VFNrY3l4ZWprMWgtU0U5emUydThDSkp4QldoWnZISktXSnhleGdlejlEZjdHMW90SjZVWDRBbEFZSkc0bl9TYVg5Q0pZSl9WU2FXTkxnTGE0ZC16blpxSFVDNHM3RTB5WEUxaTMxVkdmUndRczJncGh0Zy1lMVd1UWI2QmtHUjZsN0tpdUdFM211eGdOWFJoTTlUaVdWVkt0NEFyZE5aSQ",
           "headline": "Fernão Dias é bloqueada para obra em passarela que matou família - iG Último Segundo.",
-          "date": "2026-10-08T21:35:02.699139+00:00"
+          "date": "2026-10-09T01:23:06.575725+00:00"
         }
       ],
       "sourceCount": 1,
@@ -397,12 +440,12 @@
     {
       "event_id": "96772f5e8b59139487663400",
       "stable_event_id": "96772f5e8b59139487663400",
-      "observation_hash": "f431d738dc69a674204813c6",
+      "observation_hash": "6385783714d84c37d3ae79eb",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-10-08T21:35:01+00:00",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
       "first_seen_at": "2026-10-08T21:35:01+00:00",
-      "last_seen_at": "2026-10-08T21:35:01+00:00",
-      "updated_at": "2026-10-08T21:35:02.699139+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
       "source_type": "road",
       "category": "",
       "event_type": "Interdição ou bloqueio por notícia pública",
@@ -415,11 +458,11 @@
       "state": "",
       "region": "Sul",
       "road": "BR-376",
-      "description": "Vídeo! Acidente com mais de 10 veículos na BR-376 bloqueia totalmente rodovia em Tijucas do Sul - Banda B.. Fontes consolidadas: Notícias públicas - Banda B + 3 fonte(s); Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - Banda B + 3 fonte(s) + 1 fonte(s)",
+      "description": "Vídeo! Acidente com mais de 10 veículos na BR-376 bloqueia totalmente rodovia em Tijucas do Sul - Banda B.. Fontes consolidadas: Notícias públicas - Banda B + 4 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - Banda B + 4 fonte(s)",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzBldzUzME5kWWNTTkk5RENEUTFZUUVxRVIyQXdZRkRQRHpmNGhPRFhYaVBHNnVPUUFHcy1ldW1kczVCcXJpWFlOOWpIT2RCMzlYaW0ySnkyT2dqcUNJQmJGVmhhRWxKV1JTMEUtampkbmF0Z3pBQ05hVUQ0Y210Y3pyYkl0LXBa0gGOAUFVX3lxTE9IU3FXcFVIM3djN2ZfeTFNaWI1YWRaRlNOSElvQVFFRU9zelRZUXdJN3I3ZjZleHctZVh5MldPYm5pSncxQTQzMm9XRkdFWTh1bnRhbFRvaFQxRDJWck1sSlp4X0tfQlItdmpWSndnOTd4RDJreGRSdHVBUWU3U3hNZDczYmtpWjR5UDBMZ2c",
-      "total_snapshots": 1,
-      "estimated_hours": 0.25,
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
@@ -427,20 +470,57 @@
       "headline": "Vídeo! Acidente com mais de 10 veículos na BR-376 bloqueia totalmente rodovia em Tijucas do Sul - Banda B.",
       "sources": [
         {
-          "source": "Notícias públicas - Banda B + 3 fonte(s)",
+          "source": "Notícias públicas - Banda B + 4 fonte(s)",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzBldzUzME5kWWNTTkk5RENEUTFZUUVxRVIyQXdZRkRQRHpmNGhPRFhYaVBHNnVPUUFHcy1ldW1kczVCcXJpWFlOOWpIT2RCMzlYaW0ySnkyT2dqcUNJQmJGVmhhRWxKV1JTMEUtampkbmF0Z3pBQ05hVUQ0Y210Y3pyYkl0LXBa0gGOAUFVX3lxTE9IU3FXcFVIM3djN2ZfeTFNaWI1YWRaRlNOSElvQVFFRU9zelRZUXdJN3I3ZjZleHctZVh5MldPYm5pSncxQTQzMm9XRkdFWTh1bnRhbFRvaFQxRDJWck1sSlp4X0tfQlItdmpWSndnOTd4RDJreGRSdHVBUWU3U3hNZDczYmtpWjR5UDBMZ2c",
           "headline": "Vídeo! Acidente com mais de 10 veículos na BR-376 bloqueia totalmente rodovia em Tijucas do Sul - Banda B.",
-          "date": "2026-10-08T21:35:02.699139+00:00"
-        },
-        {
-          "source": "Notícias públicas - ND Mais",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWlV3TEcyRU5nbTlRLVhqZV9DVmlBLWRGZXZHa0xCaHRveXNHb29WMm1wd3VaWmpxU2d0RGdPNU02VU13ak1BMnFVSVd2LTRpNEFoTDc4VU44TmRyTncxZF9WZTdORnNjV3hWeTE5MjFvdlJNMDJhMTM5Wk4wVlFUZXhGNFV4Z1JGQjkxNncxTzdybUFMZGxyNlZ4S2xGamJOLW9GZ0llVXJvR2ZOVFNsZ0hzWGQ2Y1lxSHEyOXNlcGN0TVBWTGJpcVJaNA",
-          "headline": "Acidente violento bloqueia BR-376 após engavetamento de veículos na descida da serra no sentido SC - ND Mais.",
-          "date": "2026-10-08T16:50:49.379587+00:00"
+          "date": "2026-10-09T01:23:06.575725+00:00"
         }
       ],
-      "sourceCount": 2,
-      "dedupedFrom": 2,
+      "sourceCount": 1,
+      "dedupedFrom": 1,
+      "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
+    },
+    {
+      "event_id": "fc3611581a93cc6fc68a5e1d",
+      "stable_event_id": "fc3611581a93cc6fc68a5e1d",
+      "observation_hash": "d7cd7fc63bf036802f21e66d",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
+      "first_seen_at": "2026-10-08T21:35:01+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
+      "source_type": "road",
+      "category": "",
+      "event_type": "Interdição planejada por notícia pública",
+      "name": "Interdição planejada por notícia pública • BR-376",
+      "risk": 69,
+      "severity": "Alto",
+      "lat": -25.428,
+      "lon": -49.273,
+      "city": "Curitiba / São José dos Pinhais",
+      "state": "PR",
+      "region": "Sul",
+      "road": "BR-376",
+      "description": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.. Fontes consolidadas: Notícias públicas - G1 + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - G1 + 1 fonte(s)",
+      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
+      "total_snapshots": 2,
+      "estimated_hours": 0.5,
+      "active": true,
+      "storage": "supabase",
+      "sourceProvider": "Noticias publicas consolidadas",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
+      "headline": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.",
+      "sources": [
+        {
+          "source": "Notícias públicas - G1 + 1 fonte(s)",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
+          "headline": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.",
+          "date": "2026-10-09T01:23:06.575725+00:00"
+        }
+      ],
+      "sourceCount": 1,
+      "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -530,76 +610,47 @@
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
-      "event_id": "fc3611581a93cc6fc68a5e1d",
-      "stable_event_id": "fc3611581a93cc6fc68a5e1d",
-      "observation_hash": "dea4556f718d8293e19cff14",
+      "event_id": "651fdf30bc9ed314b2711eff",
+      "stable_event_id": "651fdf30bc9ed314b2711eff",
+      "observation_hash": "1958baad1f69c06f20716896",
       "snapshot_bucket": "",
-      "snapshot_at": "2026-10-08T21:35:01+00:00",
-      "first_seen_at": "2026-10-08T21:35:01+00:00",
-      "last_seen_at": "2026-10-08T21:35:01+00:00",
-      "updated_at": "2026-10-08T21:35:02.699139+00:00",
+      "snapshot_at": "2026-10-08T16:50:47+00:00",
+      "first_seen_at": "2026-10-08T16:50:48+00:00",
+      "last_seen_at": "2026-10-08T16:50:47+00:00",
+      "updated_at": "2026-10-08T16:50:49.379587+00:00",
       "source_type": "road",
       "category": "",
-      "event_type": "Interdição planejada por notícia pública",
-      "name": "Interdição planejada por notícia pública • BR-376",
+      "event_type": "Interdição ou bloqueio por notícia pública",
+      "name": "Interdição ou bloqueio por notícia pública • BR-376",
       "risk": 69,
       "severity": "Alto",
       "lat": -25.428,
       "lon": -49.273,
-      "city": "Curitiba / São José dos Pinhais",
-      "state": "PR",
+      "city": "Interdição ou bloqueio por notícia pública • BR-376",
+      "state": "",
       "region": "Sul",
       "road": "BR-376",
-      "description": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.. Fontes consolidadas: Notícias públicas - G1 + 1 fonte(s). Localização aproximada pelo corredor monitorado.",
-      "source": "Notícias públicas - G1 + 1 fonte(s)",
-      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
+      "description": "Acidente violento bloqueia BR-376 após engavetamento de veículos na descida da serra no sentido SC - ND Mais.. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.",
+      "source": "Notícias públicas - ND Mais",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWlV3TEcyRU5nbTlRLVhqZV9DVmlBLWRGZXZHa0xCaHRveXNHb29WMm1wd3VaWmpxU2d0RGdPNU02VU13ak1BMnFVSVd2LTRpNEFoTDc4VU44TmRyTncxZF9WZTdORnNjV3hWeTE5MjFvdlJNMDJhMTM5Wk4wVlFUZXhGNFV4Z1JGQjkxNncxTzdybUFMZGxyNlZ4S2xGamJOLW9GZ0llVXJvR2ZOVFNsZ0hzWGQ2Y1lxSHEyOXNlcGN0TVBWTGJpcVJaNA",
       "total_snapshots": 1,
       "estimated_hours": 0.25,
       "active": true,
       "storage": "supabase",
       "sourceProvider": "Noticias publicas consolidadas",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
-      "headline": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWlV3TEcyRU5nbTlRLVhqZV9DVmlBLWRGZXZHa0xCaHRveXNHb29WMm1wd3VaWmpxU2d0RGdPNU02VU13ak1BMnFVSVd2LTRpNEFoTDc4VU44TmRyTncxZF9WZTdORnNjV3hWeTE5MjFvdlJNMDJhMTM5Wk4wVlFUZXhGNFV4Z1JGQjkxNncxTzdybUFMZGxyNlZ4S2xGamJOLW9GZ0llVXJvR2ZOVFNsZ0hzWGQ2Y1lxSHEyOXNlcGN0TVBWTGJpcVJaNA",
+      "headline": "Acidente violento bloqueia BR-376 após engavetamento de veículos na descida da serra no sentido SC - ND Mais.",
       "sources": [
         {
-          "source": "Notícias públicas - G1 + 1 fonte(s)",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHZQc2tDQk0zRVVlVU9sZG1pQXBUbmM0V2dMQXFFYXg2YXVVakJtSUtCTTRKRVFJbmd3aDhJMFI5Zkh5bkpXeW1QSGNnZDRHRXpWUTFXSjBSWERKbmZWU0NtQmQtQzQxdHh5eVU2UGN3REp6VTZ4YXhRUm54UmdvLXZwaUVBNmhHQ25pYS1TTTNTN0tZMGI0SFVJb0JZUjRUbElla3NDSzJ3VUo0TzUtSXlaU2hvcXFQLTFLdU5GQXQ1WngxcXU5ZlhBYktPWGtwNDhlbzRTNHUzZ0ZnRzExcEx0a1lDbllWUWZpT9IB-wFBVV95cUxQSGgyNnE5STRPYkpuTWYzUzdydnpFVzczeEFqbmxYbE1ZckdYUjk4ZzdCcnUtXzJpck1pTTAxaHkyT2dISkNSRk45dWVXYWpxZHN3bWxsMk10cGRUWngzWnNwYmpjY0FzUXd4OHBKaWU2UkJvSFJ4VFlJSlNpQ1ZIak9vb1JNSEFrTlgyZTRIV3RuZ0E2Z1lSWkY1TV8wT2E5VkkwTnBRZEdTVTFqWGcxRnNRU0gxWld5dW9QUWNzTzhyME9oTEtrRjFoVUw4QnJBNFBydVFhQTlZaFpQaXItc2ZoUTBGRjB1Vmt3Q19PT0VnVmZ1b01vT1BlSQ",
-          "headline": "Acidente deixa BR-376 em Tijucas do Sul totalmente interditada.",
-          "date": "2026-10-08T21:35:02.699139+00:00"
+          "source": "Notícias públicas - ND Mais",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWlV3TEcyRU5nbTlRLVhqZV9DVmlBLWRGZXZHa0xCaHRveXNHb29WMm1wd3VaWmpxU2d0RGdPNU02VU13ak1BMnFVSVd2LTRpNEFoTDc4VU44TmRyTncxZF9WZTdORnNjV3hWeTE5MjFvdlJNMDJhMTM5Wk4wVlFUZXhGNFV4Z1JGQjkxNncxTzdybUFMZGxyNlZ4S2xGamJOLW9GZ0llVXJvR2ZOVFNsZ0hzWGQ2Y1lxSHEyOXNlcGN0TVBWTGJpcVJaNA",
+          "headline": "Acidente violento bloqueia BR-376 após engavetamento de veículos na descida da serra no sentido SC - ND Mais.",
+          "date": "2026-10-08T16:50:49.379587+00:00"
         }
       ],
       "sourceCount": 1,
       "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
-    },
-    {
-      "event_id": "706a039baf9413262340d06d",
-      "stable_event_id": "706a039baf9413262340d06d",
-      "observation_hash": "bfac5ea1e474b9c4ad0b5a17",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-10-08T09:33:20+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-10-08T09:33:20+00:00",
-      "updated_at": "2026-10-08T09:33:21.788634+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Uruguaiana",
-      "risk": 69,
-      "severity": "Alto",
-      "lat": -29.754,
-      "lon": -57.088,
-      "city": "Uruguaiana",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 135.1 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 2093,
-      "estimated_hours": 523.25,
-      "active": true,
-      "storage": "supabase"
     },
     {
       "event_id": "e0be8c242a610189d1789a07",
@@ -28366,7 +28417,7 @@
         }
       ],
       "sourceCount": 1,
-      "dedupedFrom": 2,
+      "dedupedFrom": 1,
       "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento."
     },
     {
@@ -28395,35 +28446,6 @@
       "source_url": "",
       "total_snapshots": 1586,
       "estimated_hours": 396.5,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
-      "event_id": "f13e2269fc4592f622f09fc2",
-      "stable_event_id": "f13e2269fc4592f622f09fc2",
-      "observation_hash": "2c88f4a3f1c7aded5b705070",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-10-08T21:35:01+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-10-08T21:35:01+00:00",
-      "updated_at": "2026-10-08T21:35:02.699139+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Passo Fundo",
-      "risk": 68,
-      "severity": "Alto",
-      "lat": -28.262,
-      "lon": -52.408,
-      "city": "Passo Fundo",
-      "state": "RS",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 135.9 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 3581,
-      "estimated_hours": 895.25,
       "active": true,
       "storage": "supabase"
     },
@@ -28714,6 +28736,35 @@
       "source_url": "",
       "total_snapshots": 1715,
       "estimated_hours": 428.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "f13e2269fc4592f622f09fc2",
+      "stable_event_id": "f13e2269fc4592f622f09fc2",
+      "observation_hash": "dea03cfec5dd78bd8d2e5a95",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Passo Fundo",
+      "risk": 47,
+      "severity": "Moderado",
+      "lat": -28.262,
+      "lon": -52.408,
+      "city": "Passo Fundo",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 136.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 3582,
+      "estimated_hours": 895.5,
       "active": true,
       "storage": "supabase"
     },
@@ -29327,35 +29378,6 @@
       "storage": "supabase"
     },
     {
-      "event_id": "ffbb3295c9c63b9d83aa4b68",
-      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
-      "observation_hash": "788b6266d74e899c3d31b1bc",
-      "snapshot_bucket": "",
-      "snapshot_at": "2026-10-07T00:03:28+00:00",
-      "first_seen_at": "2026-05-26T00:18:04+00:00",
-      "last_seen_at": "2026-10-07T00:03:28+00:00",
-      "updated_at": "2026-10-07T00:03:30.493657+00:00",
-      "source_type": "climate",
-      "category": "",
-      "event_type": "climate",
-      "name": "Lages",
-      "risk": 43,
-      "severity": "Moderado",
-      "lat": -27.817,
-      "lon": -50.326,
-      "city": "Lages",
-      "state": "SC",
-      "region": "Sul",
-      "road": "",
-      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 133.8 dias.",
-      "source": "Open-Meteo",
-      "source_url": "",
-      "total_snapshots": 3115,
-      "estimated_hours": 778.75,
-      "active": true,
-      "storage": "supabase"
-    },
-    {
       "event_id": "e8ecad1317ef60eb6b75eedf",
       "stable_event_id": "e8ecad1317ef60eb6b75eedf",
       "observation_hash": "b671e3974cea2dff4c807fcf",
@@ -29758,6 +29780,35 @@
       "source_url": "",
       "total_snapshots": 7,
       "estimated_hours": 1.75,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "ffbb3295c9c63b9d83aa4b68",
+      "stable_event_id": "ffbb3295c9c63b9d83aa4b68",
+      "observation_hash": "126d1424a614dff8b83e360e",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Lages",
+      "risk": 41,
+      "severity": "Moderado",
+      "lat": -27.817,
+      "lon": -50.326,
+      "city": "Lages",
+      "state": "SC",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:32:25Z; ativo há 136.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 3116,
+      "estimated_hours": 779.0,
       "active": true,
       "storage": "supabase"
     },
@@ -30396,6 +30447,35 @@
       "source_url": "",
       "total_snapshots": 261,
       "estimated_hours": 65.25,
+      "active": true,
+      "storage": "supabase"
+    },
+    {
+      "event_id": "706a039baf9413262340d06d",
+      "stable_event_id": "706a039baf9413262340d06d",
+      "observation_hash": "9f1eaee01077dd5c732a10ee",
+      "snapshot_bucket": "",
+      "snapshot_at": "2026-10-09T01:23:05+00:00",
+      "first_seen_at": "2026-05-26T00:18:04+00:00",
+      "last_seen_at": "2026-10-09T01:23:05+00:00",
+      "updated_at": "2026-10-09T01:23:06.575725+00:00",
+      "source_type": "climate",
+      "category": "",
+      "event_type": "climate",
+      "name": "Uruguaiana",
+      "risk": 37,
+      "severity": "Moderado",
+      "lat": -29.754,
+      "lon": -57.088,
+      "city": "Uruguaiana",
+      "state": "RS",
+      "region": "Sul",
+      "road": "",
+      "description": "Rastreio: primeiro registro em 2026-05-26T00:33:13Z; ativo há 136.0 dias.",
+      "source": "Open-Meteo",
+      "source_url": "",
+      "total_snapshots": 2094,
+      "estimated_hours": 523.5,
       "active": true,
       "storage": "supabase"
     },
@@ -31214,34 +31294,34 @@
   ],
   "windows": {
     "7": {
-      "events": 117,
+      "events": 118,
       "avgRisk": 46,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
         "climate": 94,
-        "road": 23
+        "road": 24
       },
       "byRegion": {
         "Nordeste": 32,
         "Sudeste": 30,
-        "Sul": 26,
+        "Sul": 27,
         "Norte": 15,
         "Centro-Oeste": 13,
         "Sem região": 1
       },
       "bySeverity": {
-        "Moderado": 48,
-        "Alto": 33,
+        "Moderado": 50,
+        "Alto": 32,
         "Baixo": 28,
         "Crítico": 8
       },
       "dailyRisk": [
         {
           "date": "2026-10-02",
-          "avgRisk": 40,
-          "events": 2,
-          "maxRisk": 69
+          "avgRisk": 11,
+          "events": 1,
+          "maxRisk": 11
         },
         {
           "date": "2026-10-03",
@@ -31269,30 +31349,36 @@
         },
         {
           "date": "2026-10-07",
-          "avgRisk": 51,
-          "events": 31,
+          "avgRisk": 52,
+          "events": 30,
           "maxRisk": 82
         },
         {
           "date": "2026-10-08",
-          "avgRisk": 38,
-          "events": 47,
+          "avgRisk": 35,
+          "events": 43,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-10-09",
+          "avgRisk": 57,
+          "events": 7,
+          "maxRisk": 69
         }
       ]
     },
     "30": {
-      "events": 274,
+      "events": 276,
       "avgRisk": 59,
       "maxRisk": 90,
       "rainChance": 0,
       "byType": {
-        "road": 179,
+        "road": 181,
         "climate": 95
       },
       "byRegion": {
-        "Nordeste": 97,
-        "Sul": 74,
+        "Nordeste": 98,
+        "Sul": 75,
         "Sudeste": 60,
         "Norte": 22,
         "Centro-Oeste": 15,
@@ -31300,7 +31386,7 @@
       },
       "bySeverity": {
         "Alto": 189,
-        "Moderado": 49,
+        "Moderado": 51,
         "Baixo": 28,
         "Crítico": 8
       },
@@ -31475,30 +31561,36 @@
         },
         {
           "date": "2026-10-07",
-          "avgRisk": 51,
-          "events": 31,
+          "avgRisk": 52,
+          "events": 30,
           "maxRisk": 82
         },
         {
           "date": "2026-10-08",
-          "avgRisk": 38,
-          "events": 47,
+          "avgRisk": 35,
+          "events": 43,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-10-09",
+          "avgRisk": 57,
+          "events": 7,
+          "maxRisk": 69
         }
       ]
     },
     "90": {
-      "events": 574,
+      "events": 576,
       "avgRisk": 64,
       "maxRisk": 90,
       "rainChance": 14,
       "byType": {
-        "road": 464,
+        "road": 466,
         "climate": 110
       },
       "byRegion": {
-        "Nordeste": 211,
-        "Sul": 158,
+        "Nordeste": 212,
+        "Sul": 159,
         "Sudeste": 127,
         "Norte": 41,
         "Sem região": 20,
@@ -31506,7 +31598,7 @@
       },
       "bySeverity": {
         "Alto": 476,
-        "Moderado": 61,
+        "Moderado": 63,
         "Baixo": 28,
         "Crítico": 9
       },
@@ -32035,15 +32127,21 @@
         },
         {
           "date": "2026-10-07",
-          "avgRisk": 51,
-          "events": 31,
+          "avgRisk": 52,
+          "events": 30,
           "maxRisk": 82
         },
         {
           "date": "2026-10-08",
-          "avgRisk": 38,
-          "events": 47,
+          "avgRisk": 35,
+          "events": 43,
           "maxRisk": 89
+        },
+        {
+          "date": "2026-10-09",
+          "avgRisk": 57,
+          "events": 7,
+          "maxRisk": 69
         }
       ]
     }
