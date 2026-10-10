@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 é totalmente interditada no sentido sul em Araranguá após acidente - Rádio Araranguá FM 95.5. Período informado: 2026-10-09T18:27:00Z até fim não identificado. Fontes consolidadas: Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-09T18:27:00Z; ativo há 8.2 h.",
+    "description": "BR-101 é totalmente interditada no sentido sul em Araranguá após acidente - Rádio Araranguá FM 95.5. Período informado: 2026-10-09T18:27:00Z até fim não identificado. Fontes consolidadas: Rádio Araranguá FM 95.5. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-09T18:27:00Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 8.21,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-09T18:27:00Z",
-    "last_seen_at": "2026-10-10T02:39:40Z",
-    "active_duration_hours": 8.21,
+    "last_seen_at": "2026-10-10T02:39:55Z",
+    "active_duration_hours": 8.22,
     "active_duration_label": "8.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "56d4c918ec886e6e0ec5b8e6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
