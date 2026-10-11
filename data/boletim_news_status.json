@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-10-10T22:38:48Z",
+  "updatedAt": "2026-10-11T01:15:03Z",
   "queries": 6,
-  "newItemsBeforeMerge": 56,
-  "savedRoadNewsReused": 0,
+  "newItemsBeforeMerge": 1,
+  "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 52,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Interdição na Avenida Brasil marca nova etapa de obra para acabar com alagamentos históricos entre Mariano Procópio e Democrata - PJF - Prefeitura de Juiz de Fora",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Colisão entre carros mata mãe e filho em rodovia entre Pontal e o distrito de Cândia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento com ao menos 20 veículos causa interdição da BR-040, na Grande BH - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Colisão entre dois carros deixa 2 mortos e 4 feridos na BR-156, no Amapá - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motorista morre após carro bater de frente com caminhão em rodovia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro de luxo é destruído e motorista fica gravemente ferido após batida na BR-101 em SC - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento com ao menos 20 veículos causa interdição da BR-040, na Grande BH - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Arteris S.A - Arteris S.A.",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "BR-101 terá interdição total nesta quinta (08) no ES - ES Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carreta perde o freio e atinge 20 veículos na BR-040, em MG - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Engavetamento com ao menos 20 veículos deixa feridos na BR-040, em MG - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO mostra momento em que carreta perde controle e bate em ao menos 20 veículos na BR-040, na Grande BH - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Passageira de moto morre após ser atingida por carreta na BR-153 em Rio Preto - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Militares do Exército morrem após batida entre caminhonete e carreta na BR-163 em MS - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "Ventos de até 107,8 km/h provocam estragos em cidades da região de Presidente Prudente no dia da eleição - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Vídeo: Chuva forte e ventos assustam moradores de Alcinópolis; cidade continua com alerta para tempestades - MS Todo dia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva em Uberlândia: cidade registra vento forte, falta de energia e acidente - Paranaíba Mais",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Rio ultrapassa 9 metros, alaga bairros e deixa 112 pessoas em abrigos em cidade de SC; previsão aponta chuva forte - ND Mais",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal causa estragos em Marília; votação segue normalmente - Marília Notícia",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte atinge Dom Silvério mas não prejudica votação - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte derruba árvores e provoca estragos no interior do Tocantins; VÍDEO - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva e ventania destelham igreja em Lorena - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Bairros de Marília enfrentam falta de energia e água um dia após temporal que atingiu a região centro-oeste de SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "STTU prepara operação especial de trânsito e transporte para o Bote Fé com Maria neste sábado (10) - Prefeitura Municipal do Natal",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Confira o esquema de trânsito e transporte para o 1º turno das eleições - Prefeitura de Porto Alegre",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
