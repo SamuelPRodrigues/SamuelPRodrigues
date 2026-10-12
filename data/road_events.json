@@ -1,15 +1,20 @@
 [
   {
     "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-277",
+    "event_id": "fb3a13562ccf426fa1611927",
+    "stable_event_id": "fb3a13562ccf426fa1611927",
+    "name": "Interdição planejada por notícia pública • BR-277",
     "road": "BR-277",
     "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
     "isMainRoad": true,
     "fallbackCorridor": true,
     "lat": -25.428,
     "lon": -49.273,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 é totalmente interditada no sentido Litoral. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-12T16:10:06Z; ativo há 1.6 h.",
+    "city": "Curitiba / São José dos Pinhais",
+    "state": "PR",
+    "region": "Sul",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "BR-277 é totalmente interditada no sentido Litoral. Período informado: 2026-10-12T16:10:06Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-12T16:10:06Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -17,9 +22,13 @@
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcTRpVEUxNWRMODlzNGljdDVMRE4yUTBNSTZlY0ZFc1JRajBvdWRzLUVnZndJVGdqYzl0SlV5QkxVSlJRa3ZqNHFyZWtrQ0pWdDg2dVZ5ZVBhQzJCYTlMd3V1WEhfcUloaE1acS1KMVJJSThFeEI2dXdRT3dfb182VVg5MUdMdk5PWmJmYjF0RXVGT1Z3b1hxc0tkLURWTnBHZFJFOXhaS2IwZC1WMFk3ektCX3E1OXpfX1ZyMEQwOC1lTTDSAdIBQVVfeXFMTWVvVGkweWw3MEZRS3RmR3ItVFpwTEVXT0RvdFhiZ2ZyNktJb0pXZEkybEFDSThJSF80YTdfZTBwYVloYkVqNWxfS3J5c2RSdGM2X2FMR3JicmZndEsyczVNUTIxTU9hX0I0TllYbzZoVmZlc19XY0RWSnZ2RXN6QmZSTXprZnFLUVYwQkw4d0Z1Y0p2TE1rMVYzM2VFY3RXWXlHSF95bmtCR3JpZHkwdXRyaEtTM0JmT0hRcUlrY282cVdGdzJvMWhwcThfUzVTaVRB",
     "headline": "BR-277 é totalmente interditada no sentido Litoral",
-    "newsDate": "Mon, 12 Oct 2026 16:10:06 GMT",
-    "updatedAt": "2026-10-12T17:43:41Z",
-    "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcTRpVEUxNWRMODlzNGljdDVMRE4yUTBNSTZlY0ZFc1JRajBvdWRzLUVnZndJVGdqYzl0SlV5QkxVSlJRa3ZqNHFyZWtrQ0pWdDg2dVZ5ZVBhQzJCYTlMd3V1WEhfcUloaE1acS1KMVJJSThFeEI2dXdRT3dfb182VVg5MUdMdk5PWmJmYjF0RXVGT1Z3b1hxc0tkLURWTnBHZFJFOXhaS2IwZC1WMFk3ektCX3E1OXpfX1ZyMEQwOC1lTTDSAdIBQVVfeXFMTWVvVGkweWw3MEZRS3RmR3ItVFpwTEVXT0RvdFhiZ2ZyNktJb0pXZEkybEFDSThJSF80YTdfZTBwYVloYkVqNWxfS3J5c2RSdGM2X2FMR3JicmZndEsyczVNUTIxTU9hX0I0TllYbzZoVmZlc19XY0RWSnZ2RXN6QmZSTXprZnFLUVYwQkw4d0Z1Y0p2TE1rMVYzM2VFY3RXWXlHSF95bmtCR3JpZHkwdXRyaEtTM0JmT0hRcUlrY282cVdGdzJvMWhwcThfUzVTaVRB",
+    "newsDate": "2026-10-12T16:10:06Z",
+    "plannedStartAt": "2026-10-12T16:10:06Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-10-12T23:46:58Z",
     "sources": [
       {
         "source": "Notícias públicas - G1",
@@ -28,21 +37,16 @@
         "date": "Mon, 12 Oct 2026 16:10:06 GMT"
       }
     ],
+    "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcTRpVEUxNWRMODlzNGljdDVMRE4yUTBNSTZlY0ZFc1JRajBvdWRzLUVnZndJVGdqYzl0SlV5QkxVSlJRa3ZqNHFyZWtrQ0pWdDg2dVZ5ZVBhQzJCYTlMd3V1WEhfcUloaE1acS1KMVJJSThFeEI2dXdRT3dfb182VVg5MUdMdk5PWmJmYjF0RXVGT1Z3b1hxc0tkLURWTnBHZFJFOXhaS2IwZC1WMFk3ektCX3E1OXpfX1ZyMEQwOC1lTTDSAdIBQVVfeXFMTWVvVGkweWw3MEZRS3RmR3ItVFpwTEVXT0RvdFhiZ2ZyNktJb0pXZEkybEFDSThJSF80YTdfZTBwYVloYkVqNWxfS3J5c2RSdGM2X2FMR3JicmZndEsyczVNUTIxTU9hX0I0TllYbzZoVmZlc19XY0RWSnZ2RXN6QmZSTXprZnFLUVYwQkw4d0Z1Y0p2TE1rMVYzM2VFY3RXWXlHSF95bmtCR3JpZHkwdXRyaEtTM0JmT0hRcUlrY282cVdGdzJvMWhwcThfUzVTaVRB",
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "545497a6f25e7fb30adf6ab1",
-    "event_id": "545497a6f25e7fb30adf6ab1",
-    "newsFreshnessHours": 1.58,
+    "newsFreshnessHours": 7.64,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-12T16:10:06Z",
-    "last_seen_at": "2026-10-12T17:45:15Z",
-    "active_duration_hours": 1.59,
-    "active_duration_label": "1.6 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "548fa6eccd124d2882672e22",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-10-12T23:48:14Z",
+    "active_duration_hours": 7.64,
+    "active_duration_label": "7.6 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
