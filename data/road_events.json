@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-280",
+    "road": "BR-280",
+    "corridor": "Joinville • BR-101 / BR-280",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -26.304,
+    "lon": -48.849,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-280 é totalmente bloqueada na Serra de Corupá após caminhão tombar e pegar fogo - primeira página sc. Fontes consolidadas: Notícias públicas - primeira página sc. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-13T00:15:17Z; ativo há 3.7 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - primeira página sc",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnFNYWpwV0JIYzEwNlN1ZDNoSDJOX2VkbjlxX25XVUhwNm91VDZ6VEdOeWN6Y3E4b0c3M2tOMnhtTmtjWC1YQThqYzFQMHdTNnUtT3lxWjhiN3JzOWpxSkw0SFZYT0dWQl8wZWJQdW92WVNybFNwbnNBZkZqa2hzMExwVjRUaTNkZF9iUFBDVVdwVFM1QmpDWklVd21VWlhOMzBqRmJ6ajlZVU1SQkFBR3hFcw",
+    "headline": "BR-280 é totalmente bloqueada na Serra de Corupá após caminhão tombar e pegar fogo - primeira página sc",
+    "newsDate": "Tue, 13 Oct 2026 00:15:17 GMT",
+    "updatedAt": "2026-10-13T03:54:50Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnFNYWpwV0JIYzEwNlN1ZDNoSDJOX2VkbjlxX25XVUhwNm91VDZ6VEdOeWN6Y3E4b0c3M2tOMnhtTmtjWC1YQThqYzFQMHdTNnUtT3lxWjhiN3JzOWpxSkw0SFZYT0dWQl8wZWJQdW92WVNybFNwbnNBZkZqa2hzMExwVjRUaTNkZF9iUFBDVVdwVFM1QmpDWklVd21VWlhOMzBqRmJ6ajlZVU1SQkFBR3hFcw",
+    "sources": [
+      {
+        "source": "Notícias públicas - primeira página sc",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnFNYWpwV0JIYzEwNlN1ZDNoSDJOX2VkbjlxX25XVUhwNm91VDZ6VEdOeWN6Y3E4b0c3M2tOMnhtTmtjWC1YQThqYzFQMHdTNnUtT3lxWjhiN3JzOWpxSkw0SFZYT0dWQl8wZWJQdW92WVNybFNwbnNBZkZqa2hzMExwVjRUaTNkZF9iUFBDVVdwVFM1QmpDWklVd21VWlhOMzBqRmJ6ajlZVU1SQkFBR3hFcw",
+        "headline": "BR-280 é totalmente bloqueada na Serra de Corupá após caminhão tombar e pegar fogo - primeira página sc",
+        "date": "Tue, 13 Oct 2026 00:15:17 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "57157619fddc45c443e000ae",
+    "event_id": "57157619fddc45c443e000ae",
+    "newsFreshnessHours": 3.68,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-10-13T00:15:17Z",
+    "last_seen_at": "2026-10-13T03:56:06Z",
+    "active_duration_hours": 3.68,
+    "active_duration_label": "3.7 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "fb3a13562ccf426fa1611927",
     "stable_event_id": "fb3a13562ccf426fa1611927",
     "name": "Interdição planejada por notícia pública • BR-277",
@@ -14,7 +58,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-277 é totalmente interditada no sentido Litoral. Período informado: 2026-10-12T16:10:06Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-12T16:10:06Z; ativo há 7.6 h.",
+    "description": "BR-277 é totalmente interditada no sentido Litoral. Período informado: 2026-10-12T16:10:06Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-12T16:10:06Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +72,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-10-12T23:46:58Z",
+    "updatedAt": "2026-10-13T03:54:54Z",
     "sources": [
       {
         "source": "Notícias públicas - G1",
@@ -41,12 +85,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 7.64,
+    "newsFreshnessHours": 11.77,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-12T16:10:06Z",
-    "last_seen_at": "2026-10-12T23:48:14Z",
-    "active_duration_hours": 7.64,
-    "active_duration_label": "7.6 h",
+    "last_seen_at": "2026-10-13T03:56:06Z",
+    "active_duration_hours": 11.77,
+    "active_duration_label": "11.8 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
