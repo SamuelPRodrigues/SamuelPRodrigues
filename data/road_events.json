@@ -9,7 +9,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-280 é totalmente bloqueada na Serra de Corupá após caminhão tombar e pegar fogo - primeira página sc. Fontes consolidadas: Notícias públicas - primeira página sc. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-10-13T00:15:17Z; ativo há 11.4 h.",
+    "description": "BR-280 é totalmente bloqueada na Serra de Corupá após caminhão tombar e pegar fogo - primeira página sc. Fontes consolidadas: Notícias públicas - primeira página sc. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-10-13T00:15:17Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -37,10 +37,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-13T00:15:17Z",
     "last_seen_at": "2026-10-13T11:38:15Z",
-    "active_duration_hours": 11.38,
+    "active_duration_hours": 11.39,
     "active_duration_label": "11.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-13T11:38:15Z",
+    "news_signature": "42ac9aefd1b97faf275d483c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
