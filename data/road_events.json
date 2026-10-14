@@ -9,7 +9,7 @@
     "lat": -8.047,
     "lon": -34.877,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Fontes consolidadas: Notícias públicas - Terra; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-14T10:22:00Z; ativo há 2.1 h.",
+    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Fontes consolidadas: Notícias públicas - Terra; Notícias públicas - Diario de Pernambuco. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-14T10:22:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 2.11,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T10:22:00Z",
-    "last_seen_at": "2026-10-14T12:28:31Z",
+    "last_seen_at": "2026-10-14T12:28:50Z",
     "active_duration_hours": 2.11,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ea12db876af28ecdc5b1091a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
