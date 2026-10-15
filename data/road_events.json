@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção: Pista Interditada na PR 592 - Nova Prata do Iguaçu. Fontes consolidadas: Notícias públicas - Nova Prata do Iguaçu; Notícias públicas - Folha de Curitiba; Notícias públicas - Diário do Sudoeste; Notícias públicas - Portal de Beltrão. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-14T23:29:00Z; ativo há 7.8 h.",
+    "description": "Atenção: Pista Interditada na PR 592 - Nova Prata do Iguaçu. Fontes consolidadas: Notícias públicas - Nova Prata do Iguaçu; Notícias públicas - Folha de Curitiba; Notícias públicas - Diário do Sudoeste; Notícias públicas - Portal de Beltrão. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-14T23:29:00Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,13 +54,15 @@
     "newsFreshnessHours": 7.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T23:29:00Z",
-    "last_seen_at": "2026-10-15T07:14:27Z",
+    "last_seen_at": "2026-10-15T07:14:41Z",
     "active_duration_hours": 7.76,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-592"
+    "detectedRoad": "PR-592",
+    "news_signature": "9f03f295ae526dc1e0b82ac4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -72,7 +74,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba e pega fogo na BR-381, na Grande BH; pista foi totalmente interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-14T19:54:05Z; ativo há 11.3 h.",
+    "description": "Carreta tomba e pega fogo na BR-381, na Grande BH; pista foi totalmente interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-14T19:54:05Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -99,12 +101,14 @@
     "newsFreshnessHours": 11.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T19:54:05Z",
-    "last_seen_at": "2026-10-15T07:14:27Z",
+    "last_seen_at": "2026-10-15T07:14:41Z",
     "active_duration_hours": 11.34,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a6f3850b9032aedfa428db89",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -116,7 +120,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão-cegonha que tombou na BR-101 deve ser recolhido na quinta (15); faixa segue interditada - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE; Notícias públicas - CBN Recife. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-14T19:36:37Z; ativo há 11.6 h.",
+    "description": "Caminhão-cegonha que tombou na BR-101 deve ser recolhido na quinta (15); faixa segue interditada - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE; Notícias públicas - CBN Recife. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-14T19:36:37Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -149,11 +153,13 @@
     "newsFreshnessHours": 11.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T19:36:37Z",
-    "last_seen_at": "2026-10-15T07:14:27Z",
+    "last_seen_at": "2026-10-15T07:14:41Z",
     "active_duration_hours": 11.63,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "029dbcb97b3a15a0610108a5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
