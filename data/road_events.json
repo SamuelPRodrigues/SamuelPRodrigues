@@ -9,7 +9,7 @@
     "lat": -3.731,
     "lon": -38.526,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba na BR-222 entre PI e CE; pista fica temporariamente interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Piauí Hoje. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-15T13:04:32Z; ativo há 4.3 h.",
+    "description": "Carreta tomba na BR-222 entre PI e CE; pista fica temporariamente interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Portal Piauí Hoje. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-15T13:04:32Z; ativo há 4.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,11 +42,13 @@
     "newsFreshnessHours": 4.33,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-15T13:04:32Z",
-    "last_seen_at": "2026-10-15T17:24:36Z",
-    "active_duration_hours": 4.33,
+    "last_seen_at": "2026-10-15T17:24:53Z",
+    "active_duration_hours": 4.34,
     "active_duration_label": "4.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ee302f6616ee77a11533c3b0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
