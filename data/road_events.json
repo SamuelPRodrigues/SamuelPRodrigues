@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-15T12:00:05Z",
-    "last_seen_at": "2026-10-15T12:42:01Z",
+    "last_seen_at": "2026-10-15T12:42:19Z",
     "active_duration_hours": 0.7,
     "active_duration_label": "42 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0b6282330c5904f06ab34908",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da PR-460 é interditado devido a rompimento de aterro em Pitanga - Folha de Curitiba. Fontes consolidadas: Notícias públicas - Folha de Curitiba. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-15T03:30:10Z; ativo há 9.2 h.",
+    "description": "Trecho da PR-460 é interditado devido a rompimento de aterro em Pitanga - Folha de Curitiba. Fontes consolidadas: Notícias públicas - Folha de Curitiba. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-15T03:30:10Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +82,14 @@
     "newsFreshnessHours": 9.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-15T03:30:10Z",
-    "last_seen_at": "2026-10-15T12:42:01Z",
+    "last_seen_at": "2026-10-15T12:42:19Z",
     "active_duration_hours": 9.2,
     "active_duration_label": "9.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-460"
+    "detectedRoad": "PR-460",
+    "news_signature": "20544fd0d35128354eae8692",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
