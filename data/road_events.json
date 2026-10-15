@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Atenção: Pista Interditada na PR 592 - Nova Prata do Iguaçu. Fontes consolidadas: Notícias públicas - Nova Prata do Iguaçu; Notícias públicas - Diário do Sudoeste; Notícias públicas - Portal de Beltrão. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-10-14T23:29:00Z; ativo há 2.4 h.",
+    "description": "Atenção: Pista Interditada na PR 592 - Nova Prata do Iguaçu. Fontes consolidadas: Notícias públicas - Nova Prata do Iguaçu; Notícias públicas - Diário do Sudoeste; Notícias públicas - Portal de Beltrão. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-10-14T23:29:00Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,13 +48,15 @@
     "newsFreshnessHours": 2.42,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T23:29:00Z",
-    "last_seen_at": "2026-10-15T01:54:05Z",
+    "last_seen_at": "2026-10-15T01:54:20Z",
     "active_duration_hours": 2.42,
     "active_duration_label": "2.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-592"
+    "detectedRoad": "PR-592",
+    "news_signature": "918f5e4e7a693f1806846646",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -66,7 +68,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba e pega fogo na BR-381, na Grande BH; pista foi totalmente interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-14T19:54:05Z; ativo há 6.0 h.",
+    "description": "Carreta tomba e pega fogo na BR-381, na Grande BH; pista foi totalmente interditada. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-14T19:54:05Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -103,8 +105,11 @@
     "active_duration_hours": 6.0,
     "active_duration_label": "6.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-15T01:54:05Z",
+    "news_signature": "ac8857e5667cd9a41445fa94",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -116,7 +121,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão-cegonha que tombou na BR-101 deve ser recolhido na quinta (15); faixa segue interditada - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE; Notícias públicas - CBN Recife; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-14T19:36:37Z; ativo há 6.3 h.",
+    "description": "Caminhão-cegonha que tombou na BR-101 deve ser recolhido na quinta (15); faixa segue interditada - Folha PE. Fontes consolidadas: Notícias públicas - Folha PE; Notícias públicas - CBN Recife; Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-14T19:36:37Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -156,11 +161,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T19:36:37Z",
     "last_seen_at": "2026-10-15T01:54:05Z",
-    "active_duration_hours": 6.29,
+    "active_duration_hours": 6.3,
     "active_duration_label": "6.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-15T01:54:05Z",
+    "news_signature": "6cfb9caa624fdacc5b3c4e69",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -172,7 +180,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Veículos de carga pegam fogo após acidente e deixam BR-364 interditada em Mato Grosso; dois mortos - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-14T18:22:00Z; ativo há 7.5 h.",
+    "description": "Veículos de carga pegam fogo após acidente e deixam BR-364 interditada em Mato Grosso; dois mortos - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-10-14T18:22:00Z; ativo há 7.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -200,11 +208,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-14T18:22:00Z",
     "last_seen_at": "2026-10-15T01:54:05Z",
-    "active_duration_hours": 7.53,
+    "active_duration_hours": 7.54,
     "active_duration_label": "7.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-15T01:54:05Z",
+    "news_signature": "4875bd0ae20d2f12213e8d3a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -216,7 +227,7 @@
     "lat": -7.506,
     "lon": -63.02,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-230 fica bloqueada após tombamento de semirreboque de carreta, na Paraíba. Fontes consolidadas: Notícias públicas - Portal Correio; Notícias públicas - R7. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-14T13:52:30Z; ativo há 12.0 h.",
+    "description": "Trecho da BR-230 fica bloqueada após tombamento de semirreboque de carreta, na Paraíba. Fontes consolidadas: Notícias públicas - Portal Correio; Notícias públicas - R7. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-14T13:52:30Z; ativo há 12.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -253,7 +264,10 @@
     "active_duration_hours": 12.03,
     "active_duration_label": "12.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-15T01:54:05Z",
+    "news_signature": "e013833cdc743c46333c0831",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
