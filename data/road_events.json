@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão com dois ônibus deixa caminhão destruído, motorista preso às ferragens e BR-163 interditada entre Sinop e Sorriso - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-16T23:43:00Z; ativo há 4.8 h.",
+    "description": "Colisão com dois ônibus deixa caminhão destruído, motorista preso às ferragens e BR-163 interditada entre Sinop e Sorriso - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-16T23:43:00Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T23:43:00Z",
-    "last_seen_at": "2026-10-17T04:33:07Z",
+    "last_seen_at": "2026-10-17T04:33:21Z",
     "active_duration_hours": 4.84,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f89238210e08cbeefef82aec",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rio Jacaré sobe 10 metros e cobre cachoeira em Iporã; ponte na PR-554 é interditada - Jornal Ilustrado. Fontes consolidadas: Notícias públicas - Jornal Ilustrado. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-16T20:28:19Z; ativo há 8.1 h.",
+    "description": "Rio Jacaré sobe 10 metros e cobre cachoeira em Iporã; ponte na PR-554 é interditada - Jornal Ilustrado. Fontes consolidadas: Notícias públicas - Jornal Ilustrado. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-16T20:28:19Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +86,12 @@
     "active_duration_hours": 8.08,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-554"
+    "detectedRoad": "PR-554",
+    "last_confirmed_at": "2026-10-17T04:33:07Z",
+    "news_signature": "f4a276a0588abb84227d773b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-282, em Maravilha, está bloqueado para obras de drenagem. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Centro Oeste; Notícias públicas - ND Mais; Notícias públicas - Rede Peperi. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-16T18:56:14Z; ativo há 9.6 h.",
+    "description": "Trecho da BR-282, em Maravilha, está bloqueado para obras de drenagem. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Centro Oeste; Notícias públicas - ND Mais; Notícias públicas - Rede Peperi. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-16T18:56:14Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -143,12 +148,14 @@
     "newsFreshnessHours": 9.61,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T18:56:14Z",
-    "last_seen_at": "2026-10-17T04:33:07Z",
-    "active_duration_hours": 9.61,
+    "last_seen_at": "2026-10-17T04:33:21Z",
+    "active_duration_hours": 9.62,
     "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6cf821a2e5f062750029d25d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -160,7 +167,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento deixa BR-376 bloqueada por quase quatro horas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-16T17:17:36Z; ativo há 11.3 h.",
+    "description": "Engavetamento deixa BR-376 bloqueada por quase quatro horas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-16T17:17:36Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -193,11 +200,13 @@
     "newsFreshnessHours": 11.26,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T17:17:36Z",
-    "last_seen_at": "2026-10-17T04:33:07Z",
+    "last_seen_at": "2026-10-17T04:33:21Z",
     "active_duration_hours": 11.26,
     "active_duration_label": "11.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6011704b9436413027341a7f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
