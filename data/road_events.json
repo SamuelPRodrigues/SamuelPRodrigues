@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SP-101 tem faixa da esquerda interditada na altura do km 7, em Hortolândia - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-17T03:49:15Z; ativo há 5.0 h.",
+    "description": "SP-101 tem faixa da esquerda interditada na altura do km 7, em Hortolândia - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-17T03:49:15Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 4.96,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-17T03:49:15Z",
-    "last_seen_at": "2026-10-17T08:47:02Z",
-    "active_duration_hours": 4.96,
+    "last_seen_at": "2026-10-17T08:47:15Z",
+    "active_duration_hours": 4.97,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-101"
+    "detectedRoad": "SP-101",
+    "news_signature": "5cc51724c27075a692e69274",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão com dois ônibus deixa caminhão destruído, motorista preso às ferragens e BR-163 interditada entre Sinop e Sorriso - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-16T23:43:00Z; ativo há 9.1 h.",
+    "description": "Colisão com dois ônibus deixa caminhão destruído, motorista preso às ferragens e BR-163 interditada entre Sinop e Sorriso - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-16T23:43:00Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,7 +87,10 @@
     "active_duration_hours": 9.07,
     "active_duration_label": "9.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-17T08:47:02Z",
+    "news_signature": "f89238210e08cbeefef82aec",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
