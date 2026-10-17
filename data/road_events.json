@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.58,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T23:43:00Z",
-    "last_seen_at": "2026-10-17T00:17:55Z",
-    "active_duration_hours": 0.58,
+    "last_seen_at": "2026-10-17T00:18:12Z",
+    "active_duration_hours": 0.59,
     "active_duration_label": "35 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "bc4a52bd5ba09601c00aedad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rio Jacaré sobe 10 metros e cobre cachoeira em Iporã; ponte na PR-554 é interditada - Jornal Ilustrado. Fontes consolidadas: Notícias públicas - Jornal Ilustrado. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-16T20:28:19Z; ativo há 3.8 h.",
+    "description": "Rio Jacaré sobe 10 metros e cobre cachoeira em Iporã; ponte na PR-554 é interditada - Jornal Ilustrado. Fontes consolidadas: Notícias públicas - Jornal Ilustrado. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-16T20:28:19Z; ativo há 3.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,9 +86,12 @@
     "active_duration_hours": 3.83,
     "active_duration_label": "3.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-554"
+    "detectedRoad": "PR-554",
+    "last_confirmed_at": "2026-10-17T00:17:55Z",
+    "news_signature": "f4a276a0588abb84227d773b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-282, em Maravilha, está bloqueado para obras de drenagem. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Centro Oeste; Notícias públicas - ND Mais; Notícias públicas - Diário do Iguaçu; Notícias públicas - Rede Peperi. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-10-16T18:56:14Z; ativo há 5.4 h.",
+    "description": "Trecho da BR-282, em Maravilha, está bloqueado para obras de drenagem. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Rádio Centro Oeste; Notícias públicas - ND Mais; Notícias públicas - Diário do Iguaçu; Notícias públicas - Rede Peperi. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-10-16T18:56:14Z; ativo há 5.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -150,11 +155,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T18:56:14Z",
     "last_seen_at": "2026-10-17T00:17:55Z",
-    "active_duration_hours": 5.36,
+    "active_duration_hours": 5.37,
     "active_duration_label": "5.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-17T00:17:55Z",
+    "news_signature": "012d4736057f426cbd88afa5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -166,7 +174,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento deixa BR-376 bloqueada por quase quatro horas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-16T17:17:36Z; ativo há 7.0 h.",
+    "description": "Engavetamento deixa BR-376 bloqueada por quase quatro horas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - CBN Total. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-16T17:17:36Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -199,12 +207,14 @@
     "newsFreshnessHours": 7.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T17:17:36Z",
-    "last_seen_at": "2026-10-17T00:17:55Z",
+    "last_seen_at": "2026-10-17T00:18:12Z",
     "active_duration_hours": 7.01,
     "active_duration_label": "7.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8c7df94d4180e09271251852",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -216,7 +226,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na Via Expressa Sul e interdita rodovia SC-401 em Florianópolis - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-16T16:16:07Z; ativo há 8.0 h.",
+    "description": "Caminhão tomba na Via Expressa Sul e interdita rodovia SC-401 em Florianópolis - NSC Total. Fontes consolidadas: Notícias públicas - NSC Total. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-16T16:16:07Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -243,13 +253,15 @@
     "newsFreshnessHours": 8.03,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T16:16:07Z",
-    "last_seen_at": "2026-10-17T00:17:55Z",
-    "active_duration_hours": 8.03,
+    "last_seen_at": "2026-10-17T00:18:12Z",
+    "active_duration_hours": 8.04,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "news_signature": "788327c0cfaa84b7f9f0175d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -261,7 +273,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte na BR-319 será interditada diariamente para obras até 22 de outubro. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - D24AM. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-16T13:43:18Z; ativo há 10.6 h.",
+    "description": "Ponte na BR-319 será interditada diariamente para obras até 22 de outubro. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - D24AM. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-16T13:43:18Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -298,8 +310,11 @@
     "active_duration_hours": 10.58,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-17T00:17:55Z",
+    "news_signature": "7edaf9c01f81d389ad7ecf8b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -311,7 +326,7 @@
     "lat": -22.906,
     "lon": -43.172,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta com produto perigoso tomba na BR-493/RJ e interdita a via, em Seropédica - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-16T13:21:26Z; ativo há 10.9 h.",
+    "description": "Carreta com produto perigoso tomba na BR-493/RJ e interdita a via, em Seropédica - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-16T13:21:26Z; ativo há 10.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -339,10 +354,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-16T13:21:26Z",
     "last_seen_at": "2026-10-17T00:17:55Z",
-    "active_duration_hours": 10.94,
+    "active_duration_hours": 10.95,
     "active_duration_label": "10.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-17T00:17:55Z",
+    "news_signature": "4b11b137471faaa9f833914f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
