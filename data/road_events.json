@@ -9,7 +9,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SP-101 tem faixa da esquerda interditada na altura do km 7, em Hortolândia - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-17T03:49:15Z; ativo há 8.7 h.",
+    "description": "SP-101 tem faixa da esquerda interditada na altura do km 7, em Hortolândia - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-17T03:49:15Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 8.68,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-101"
+    "detectedRoad": "SP-101",
+    "last_confirmed_at": "2026-10-17T12:29:50Z",
+    "news_signature": "5cc51724c27075a692e69274",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
