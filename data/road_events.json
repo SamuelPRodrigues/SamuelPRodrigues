@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-040",
+    "road": "BR-040",
+    "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.78,
+    "lon": -47.929,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 2.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Estradas",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXN3cFRMYVBYclJ4QjVWcnFvaVE5SDJxeHlxalg0WklwbU9rRFRQbVNuakZsOHlPTVRIeHR0VjVTbUtBYjhHQUl1MjU2SDR6eGYxLS1YR2dNNTc5SzdUVlZ4bndvbzhXallSSjF1bFJGajE0M29HaTk5LVd1QURncFluVnB3LVRZdmF3MnZUSWI0bjZsMkFoOA",
+    "headline": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas",
+    "newsDate": "Sun, 18 Oct 2026 13:43:52 GMT",
+    "updatedAt": "2026-10-18T16:35:30Z",
+    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXN3cFRMYVBYclJ4QjVWcnFvaVE5SDJxeHlxalg0WklwbU9rRFRQbVNuakZsOHlPTVRIeHR0VjVTbUtBYjhHQUl1MjU2SDR6eGYxLS1YR2dNNTc5SzdUVlZ4bndvbzhXallSSjF1bFJGajE0M29HaTk5LVd1QURncFluVnB3LVRZdmF3MnZUSWI0bjZsMkFoOA",
+    "sources": [
+      {
+        "source": "Notícias públicas - Estradas",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXN3cFRMYVBYclJ4QjVWcnFvaVE5SDJxeHlxalg0WklwbU9rRFRQbVNuakZsOHlPTVRIeHR0VjVTbUtBYjhHQUl1MjU2SDR6eGYxLS1YR2dNNTc5SzdUVlZ4bndvbzhXallSSjF1bFJGajE0M29HaTk5LVd1QURncFluVnB3LVRZdmF3MnZUSWI0bjZsMkFoOA",
+        "headline": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas",
+        "date": "Sun, 18 Oct 2026 13:43:52 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "78f96d556acdae9da1b75b3d",
+    "event_id": "78f96d556acdae9da1b75b3d",
+    "newsFreshnessHours": 2.88,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-10-18T13:43:52Z",
+    "last_seen_at": "2026-10-18T16:36:50Z",
+    "active_duration_hours": 2.88,
+    "active_duration_label": "2.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "event_id": "54baf691f564649c0202529d",
     "stable_event_id": "54baf691f564649c0202529d",
     "name": "Interdição planejada por notícia pública • BR-232",
@@ -14,7 +58,7 @@
     "state": "PE",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 10.4 h.",
+    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 13.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +72,7 @@
     "plannedWindowRule": "Período extraído do texto da notícia.",
     "lifecycle_status": "active_planned_closure",
     "tracker_reason": "planned_road_news_window",
-    "updatedAt": "2026-10-18T13:20:27Z",
+    "updatedAt": "2026-10-18T16:35:34Z",
     "sources": [
       {
         "source": "Notícias públicas - Terra",
@@ -43,9 +87,9 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-10-18T03:00:00Z",
-    "last_seen_at": "2026-10-18T13:21:40Z",
-    "active_duration_hours": 10.36,
-    "active_duration_label": "10.4 h",
+    "last_seen_at": "2026-10-18T16:36:50Z",
+    "active_duration_hours": 13.61,
+    "active_duration_label": "13.6 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
