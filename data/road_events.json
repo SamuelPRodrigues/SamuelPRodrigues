@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 5.2 h.",
+    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 5.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-18T13:43:52Z",
-    "last_seen_at": "2026-10-18T18:53:02Z",
-    "active_duration_hours": 5.15,
+    "last_seen_at": "2026-10-18T18:53:17Z",
+    "active_duration_hours": 5.16,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7c812e7f0728887781b4269b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada nesta semana para obras na BR-262 - JD1 Notícias. Fontes consolidadas: Notícias públicas - JD1 Notícias; Notícias públicas - O Pantaneiro; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-18T12:52:00Z; ativo há 6.0 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada nesta semana para obras na BR-262 - JD1 Notícias. Fontes consolidadas: Notícias públicas - JD1 Notícias; Notícias públicas - O Pantaneiro; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-18T12:52:00Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 6.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-18T12:52:00Z",
-    "last_seen_at": "2026-10-18T18:53:02Z",
+    "last_seen_at": "2026-10-18T18:53:17Z",
     "active_duration_hours": 6.02,
     "active_duration_label": "6.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e3cb12bcab4259e53a0d8c8b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +118,7 @@
     "state": "PE",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 15.9 h.",
+    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 15.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,8 +148,11 @@
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-10-18T03:00:00Z",
     "last_seen_at": "2026-10-18T18:53:02Z",
-    "active_duration_hours": 15.88,
+    "active_duration_hours": 15.89,
     "active_duration_label": "15.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-18T18:53:02Z",
+    "news_signature": "cdb77a95417bdb3ad00245b2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
