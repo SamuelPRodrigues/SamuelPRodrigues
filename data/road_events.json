@@ -9,7 +9,7 @@
     "lat": -16.728,
     "lon": -43.858,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta carregada de diesel pega fogo e bloqueia trânsito na BR-251 em Salinas; vídeo. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-18T17:40:35Z; ativo há 5.3 h.",
+    "description": "Carreta carregada de diesel pega fogo e bloqueia trânsito na BR-251 em Salinas; vídeo. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-18T17:40:35Z; ativo há 5.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 5.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-18T17:40:35Z",
-    "last_seen_at": "2026-10-18T23:01:16Z",
-    "active_duration_hours": 5.34,
+    "last_seen_at": "2026-10-18T23:01:30Z",
+    "active_duration_hours": 5.35,
     "active_duration_label": "5.3 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f323071f32f15c388dee0631",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 9.3 h.",
+    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 9.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +86,11 @@
     "active_duration_hours": 9.29,
     "active_duration_label": "9.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-18T23:01:16Z",
+    "news_signature": "7c812e7f0728887781b4269b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada nesta semana para obras na BR-262 - JD1 Notícias. Fontes consolidadas: Notícias públicas - JD1 Notícias; Notícias públicas - O Pantaneiro; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-18T12:52:00Z; ativo há 10.2 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada nesta semana para obras na BR-262 - JD1 Notícias. Fontes consolidadas: Notícias públicas - JD1 Notícias; Notícias públicas - O Pantaneiro; Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-18T12:52:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -137,11 +142,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-18T12:52:00Z",
     "last_seen_at": "2026-10-18T23:01:16Z",
-    "active_duration_hours": 10.15,
+    "active_duration_hours": 10.16,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-18T23:01:16Z",
+    "news_signature": "e3cb12bcab4259e53a0d8c8b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -158,7 +166,7 @@
     "state": "PE",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 20.0 h.",
+    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 20.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -190,6 +198,9 @@
     "last_seen_at": "2026-10-18T23:01:16Z",
     "active_duration_hours": 20.02,
     "active_duration_label": "20.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-18T23:01:16Z",
+    "news_signature": "cdb77a95417bdb3ad00245b2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
