@@ -14,7 +14,7 @@
     "state": "PE",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 1.7 h.",
+    "description": "BR-232 será totalmente interditada no Recife para instalação de passarela no domingo (18); confira rotas alternativas - Terra. Período informado: 2026-10-18T03:00:00Z até 2026-10-19T02:59:59Z. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-18T03:00:00Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -28,7 +28,7 @@
     "plannedWindowRule": "Período extraído do texto da notícia.",
     "lifecycle_status": "active_planned_closure",
     "tracker_reason": "planned_road_news_window",
-    "updatedAt": "2026-10-18T04:38:35Z",
+    "updatedAt": "2026-10-18T09:07:56Z",
     "sources": [
       {
         "source": "Notícias públicas - Terra",
@@ -43,11 +43,9 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-10-18T03:00:00Z",
-    "last_seen_at": "2026-10-18T04:40:03Z",
-    "active_duration_hours": 1.67,
-    "active_duration_label": "1.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "cdb77a95417bdb3ad00245b2",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-10-18T09:09:09Z",
+    "active_duration_hours": 6.15,
+    "active_duration_label": "6.2 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
