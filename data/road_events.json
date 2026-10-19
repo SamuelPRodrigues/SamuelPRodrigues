@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 é interditada no sentido Porto Velho após acidente - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-18T23:08:21Z; ativo há 6.8 h.",
+    "description": "BR-364 é interditada no sentido Porto Velho após acidente - ContilNet. Fontes consolidadas: Notícias públicas - ContilNet. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-18T23:08:21Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,11 +36,13 @@
     "newsFreshnessHours": 6.81,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-18T23:08:21Z",
-    "last_seen_at": "2026-10-19T05:57:00Z",
-    "active_duration_hours": 6.81,
+    "last_seen_at": "2026-10-19T05:57:15Z",
+    "active_duration_hours": 6.82,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e831276040c83c63da96779f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
