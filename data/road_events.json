@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "MG-414 será interditada por duas horas para detonação de rochas no Triângulo Mineiro - Hoje em Dia. Fontes consolidadas: Notícias públicas - Hoje em Dia. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-19T16:55:00Z; ativo há 1.9 h.",
+    "description": "MG-414 será interditada por duas horas para detonação de rochas no Triângulo Mineiro - Hoje em Dia. Fontes consolidadas: Notícias públicas - Hoje em Dia. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-19T16:55:00Z; ativo há 2.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 1.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T16:55:00Z",
-    "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 1.95,
-    "active_duration_label": "1.9 h",
+    "last_seen_at": "2026-10-19T18:52:29Z",
+    "active_duration_hours": 1.96,
+    "active_duration_label": "2.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-414"
+    "detectedRoad": "MG-414",
+    "news_signature": "42118eb198a2a63e92c3a65a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "SC-401 é interditada nos dois sentidos após atropelamento em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-19T13:40:39Z; ativo há 5.2 h.",
+    "description": "SC-401 é interditada nos dois sentidos após atropelamento em Florianópolis - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-19T13:40:39Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,13 +83,15 @@
     "newsFreshnessHours": 5.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T13:40:39Z",
-    "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 5.19,
+    "last_seen_at": "2026-10-19T18:52:29Z",
+    "active_duration_hours": 5.2,
     "active_duration_label": "5.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-401"
+    "detectedRoad": "SC-401",
+    "news_signature": "6b864a08597383aacd94e35f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -99,7 +103,7 @@
     "lat": -26.304,
     "lon": -48.849,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-280 interditada em Guaramirim: veja horários e desvios - SCC10. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-10-19T12:29:46Z; ativo há 6.4 h.",
+    "description": "BR-280 interditada em Guaramirim: veja horários e desvios - SCC10. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-10-19T12:29:46Z; ativo há 6.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -127,11 +131,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T12:29:46Z",
     "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 6.37,
+    "active_duration_hours": 6.38,
     "active_duration_label": "6.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-19T18:52:13Z",
+    "news_signature": "4572368888bb3ea73a9c7603",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -143,7 +150,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Incêndio em caminhão bloqueia pista expressa da Rodovia Presidente Dutra; veja trecho afetado - Terra. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-19T09:57:00Z; ativo há 8.9 h.",
+    "description": "Incêndio em caminhão bloqueia pista expressa da Rodovia Presidente Dutra; veja trecho afetado - Terra. Fontes consolidadas: Notícias públicas - Terra. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-19T09:57:00Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -171,11 +178,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T09:57:00Z",
     "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 8.92,
+    "active_duration_hours": 8.93,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-19T18:52:13Z",
+    "news_signature": "0519eee3aadd2943567388f1",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -187,7 +197,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 29.1 h.",
+    "description": "BR-040/MG será interditada, em Congonhas, a partir de segunda-feira (19) - Estradas. Fontes consolidadas: Notícias públicas - Estradas; Notícias públicas - Estado de Minas. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-18T13:43:52Z; ativo há 29.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -224,8 +234,11 @@
     "active_duration_hours": 29.14,
     "active_duration_label": "29.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-19T18:52:13Z",
+    "news_signature": "3d935d661051e1b5dd8ae9af",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -242,7 +255,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte da BR-262 sobre o rio Paraguai será interditada para obras; veja horários. Período informado: 2026-10-19T14:01:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-19T14:01:11Z; ativo há 4.8 h.",
+    "description": "Ponte da BR-262 sobre o rio Paraguai será interditada para obras; veja horários. Período informado: 2026-10-19T14:01:11Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-19T14:01:11Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -272,10 +285,12 @@
     "newsFreshnessHours": 4.85,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T14:01:11Z",
-    "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 4.85,
-    "active_duration_label": "4.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-10-19T18:52:29Z",
+    "active_duration_hours": 4.86,
+    "active_duration_label": "4.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e53eb468e40dcca250bd33fa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -292,7 +307,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-251 volta a ser totalmente interditada em Salinas para transbordo de combustível. Período informado: 2026-10-19T09:59:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-19T09:59:21Z; ativo há 8.9 h.",
+    "description": "BR-251 volta a ser totalmente interditada em Salinas para transbordo de combustível. Período informado: 2026-10-19T09:59:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-19T09:59:21Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -322,9 +337,11 @@
     "newsFreshnessHours": 8.88,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-19T09:59:21Z",
-    "last_seen_at": "2026-10-19T18:52:13Z",
-    "active_duration_hours": 8.88,
+    "last_seen_at": "2026-10-19T18:52:29Z",
+    "active_duration_hours": 8.89,
     "active_duration_label": "8.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "67f63ecf315f6f9132f9b608",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
