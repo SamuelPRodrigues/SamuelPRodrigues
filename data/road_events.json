@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-277",
+    "road": "BR-277",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Últimas notícias | Motorista morre e BR-277 é interditada em colisão entre carretas, em Palmeira - Band News FM Curitiba. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-19T21:32:51Z; ativo há 13.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Band News FM Curitiba",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0UzMTFTUWVvUU91bXE2c3AxNk5heC1QNGpLc0x5SXhjejY4UXNSRU56ZkJiWGpTLWxPQmQxYzJUc3E1U0lSTzQxM3F1SEhQMHE3dnY0a2VxT0JMOHRnZnBSc1k1MWhXVEZqcXFKT0g5TEl5c1p3QXRWZEhqT2tFYzR6aTFPaDZ6eHJMbVZqLUlydTloRElTNzk5RURzNDVhd1JuaUh5QWVKc2VH",
+    "headline": "Últimas notícias | Motorista morre e BR-277 é interditada em colisão entre carretas, em Palmeira - Band News FM Curitiba",
+    "newsDate": "Tue, 20 Oct 2026 01:38:23 GMT",
+    "updatedAt": "2026-10-20T11:23:22Z",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0UzMTFTUWVvUU91bXE2c3AxNk5heC1QNGpLc0x5SXhjejY4UXNSRU56ZkJiWGpTLWxPQmQxYzJUc3E1U0lSTzQxM3F1SEhQMHE3dnY0a2VxT0JMOHRnZnBSc1k1MWhXVEZqcXFKT0g5TEl5c1p3QXRWZEhqT2tFYzR6aTFPaDZ6eHJMbVZqLUlydTloRElTNzk5RURzNDVhd1JuaUh5QWVKc2VH",
+    "sources": [
+      {
+        "source": "Notícias públicas - Band News FM Curitiba",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0UzMTFTUWVvUU91bXE2c3AxNk5heC1QNGpLc0x5SXhjejY4UXNSRU56ZkJiWGpTLWxPQmQxYzJUc3E1U0lSTzQxM3F1SEhQMHE3dnY0a2VxT0JMOHRnZnBSc1k1MWhXVEZqcXFKT0g5TEl5c1p3QXRWZEhqT2tFYzR6aTFPaDZ6eHJMbVZqLUlydTloRElTNzk5RURzNDVhd1JuaUh5QWVKc2VH",
+        "headline": "Últimas notícias | Motorista morre e BR-277 é interditada em colisão entre carretas, em Palmeira - Band News FM Curitiba",
+        "date": "Tue, 20 Oct 2026 01:38:23 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "304ae6fc6a4a25c15a5e91df",
+    "event_id": "304ae6fc6a4a25c15a5e91df",
+    "newsFreshnessHours": 9.77,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-10-19T21:32:51Z",
+    "last_seen_at": "2026-10-20T11:24:37Z",
+    "active_duration_hours": 13.86,
+    "active_duration_label": "13.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
