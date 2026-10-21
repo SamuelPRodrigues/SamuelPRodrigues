@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101 / SC-350",
+    "road": "BR-101 / SC-350",
+    "corridor": "Florianópolis / São José • BR-101 / BR-282",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -27.595,
+    "lon": -48.548,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Caminhão tomba na SC-350 e deixa rodovia parcialmente interditada - Rádio Araguaia. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-21T08:04:44Z; ativo há 2.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Araguaia",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0w3SnVXcUlJdXVTdHRSaTQ2bmhMWFN6MjB5YmlWRU5tdXdUd1RveWo4LXhrUjJaNHV2TEtiM0hfRWNkVTROM2tkd2ExWXFwZzhjTXRIeVJQckpILTlvZ2xNNFdJcUZzQW9ZV0ZGcllvelhWd3RGbi1NOVItcWw2VmhpMF95cndKeFJBMEZHNHU4eXlUU0hFbVJBb0VDZw",
+    "headline": "Caminhão tomba na SC-350 e deixa rodovia parcialmente interditada - Rádio Araguaia",
+    "newsDate": "Wed, 21 Oct 2026 08:04:44 GMT",
+    "updatedAt": "2026-10-21T10:38:55Z",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0w3SnVXcUlJdXVTdHRSaTQ2bmhMWFN6MjB5YmlWRU5tdXdUd1RveWo4LXhrUjJaNHV2TEtiM0hfRWNkVTROM2tkd2ExWXFwZzhjTXRIeVJQckpILTlvZ2xNNFdJcUZzQW9ZV0ZGcllvelhWd3RGbi1NOVItcWw2VmhpMF95cndKeFJBMEZHNHU4eXlUU0hFbVJBb0VDZw",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Araguaia",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0w3SnVXcUlJdXVTdHRSaTQ2bmhMWFN6MjB5YmlWRU5tdXdUd1RveWo4LXhrUjJaNHV2TEtiM0hfRWNkVTROM2tkd2ExWXFwZzhjTXRIeVJQckpILTlvZ2xNNFdJcUZzQW9ZV0ZGcllvelhWd3RGbi1NOVItcWw2VmhpMF95cndKeFJBMEZHNHU4eXlUU0hFbVJBb0VDZw",
+        "headline": "Caminhão tomba na SC-350 e deixa rodovia parcialmente interditada - Rádio Araguaia",
+        "date": "Wed, 21 Oct 2026 08:04:44 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "0b1f353309478094ffaa70da",
+    "event_id": "0b1f353309478094ffaa70da",
+    "newsFreshnessHours": 2.59,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-10-21T08:04:44Z",
+    "last_seen_at": "2026-10-21T10:40:11Z",
+    "active_duration_hours": 2.59,
+    "active_duration_label": "2.6 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "SC-350"
+  }
+]
