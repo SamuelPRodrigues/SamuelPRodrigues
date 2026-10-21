@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 em Rio Novo do Sul será interditado nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha do ES; Notícias públicas - ES Brasil; Notícias públicas - Jornal ES HOJE; Notícias públicas - Aqui Notícias; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-20T20:14:08Z; ativo há 4.8 h.",
+    "description": "Trecho da BR-101 em Rio Novo do Sul será interditado nesta quarta-feira - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha do ES; Notícias públicas - ES Brasil; Notícias públicas - Jornal ES HOJE; Notícias públicas - Aqui Notícias; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-20T20:14:08Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -72,12 +72,14 @@
     "newsFreshnessHours": 4.82,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-20T20:14:08Z",
-    "last_seen_at": "2026-10-21T01:03:23Z",
-    "active_duration_hours": 4.82,
+    "last_seen_at": "2026-10-21T01:03:38Z",
+    "active_duration_hours": 4.83,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3519cd338c6ffea4fea27190",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -89,7 +91,7 @@
     "lat": -23.55,
     "lon": -46.633,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia SP-055 tem alça de acesso em Itanhaém interditada para obras e afeta acesso para a praia - São Paulo Secreto. Fontes consolidadas: Notícias públicas - São Paulo Secreto. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-20T18:18:32Z; ativo há 6.8 h.",
+    "description": "Rodovia SP-055 tem alça de acesso em Itanhaém interditada para obras e afeta acesso para a praia - São Paulo Secreto. Fontes consolidadas: Notícias públicas - São Paulo Secreto. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-20T18:18:32Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -116,13 +118,15 @@
     "newsFreshnessHours": 6.75,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-20T18:18:32Z",
-    "last_seen_at": "2026-10-21T01:03:23Z",
+    "last_seen_at": "2026-10-21T01:03:38Z",
     "active_duration_hours": 6.75,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-055"
+    "detectedRoad": "SP-055",
+    "news_signature": "f53f673e0c8fc78572d3703b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -134,7 +138,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Obra na BR-040 mantém faixa interditada por cerca de 90 dias em Congonhas - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-20T14:57:36Z; ativo há 10.1 h.",
+    "description": "Obra na BR-040 mantém faixa interditada por cerca de 90 dias em Congonhas - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-20T14:57:36Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -161,12 +165,14 @@
     "newsFreshnessHours": 10.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-20T14:57:36Z",
-    "last_seen_at": "2026-10-21T01:03:23Z",
+    "last_seen_at": "2026-10-21T01:03:38Z",
     "active_duration_hours": 10.1,
     "active_duration_label": "10.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "255936d55f42d86ed25735c7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -178,7 +184,7 @@
     "lat": -23.189,
     "lon": -45.884,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira interdita trecho da SP-171 em Guaratinguetá - CBN São José dos Campos e Vale. Fontes consolidadas: Notícias públicas - CBN São José dos Campos e Vale. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-20T13:26:12Z; ativo há 11.6 h.",
+    "description": "Queda de barreira interdita trecho da SP-171 em Guaratinguetá - CBN São José dos Campos e Vale. Fontes consolidadas: Notícias públicas - CBN São José dos Campos e Vale. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-20T13:26:12Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -209,9 +215,12 @@
     "active_duration_hours": 11.62,
     "active_duration_label": "11.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-171"
+    "detectedRoad": "SP-171",
+    "last_confirmed_at": "2026-10-21T01:03:23Z",
+    "news_signature": "a9060a544e994272fa71448a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -228,7 +237,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101 na Serra será totalmente interditada nesta terça (20) - A Gazeta. Período informado: 2026-10-20T13:07:30Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-20T13:07:30Z; ativo há 11.9 h.",
+    "description": "BR 101 na Serra será totalmente interditada nesta terça (20) - A Gazeta. Período informado: 2026-10-20T13:07:30Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta; Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Portal Tempo Novo. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-20T13:07:30Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -241,7 +250,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-21T01:02:08Z",
     "sources": [
       {
@@ -277,8 +286,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-20T13:07:30Z",
     "last_seen_at": "2026-10-21T01:03:23Z",
-    "active_duration_hours": 11.93,
+    "active_duration_hours": 11.94,
     "active_duration_label": "11.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-21T01:03:23Z",
+    "news_signature": "372dbb407b942e09416668c7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
