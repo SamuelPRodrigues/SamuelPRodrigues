@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:40:11Z",
+  "updatedAt": "2026-10-21T15:40:40Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -5685,13 +5685,91 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-10-21T10:40:10Z",
+      "updatedAt": "2026-10-21T15:40:40Z",
       "sources": [
         {
           "source": "Aqui Notícias",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLThnQmtSNjlaYmU1LTBVZ1R6eGRObS1aRFNZNHJXM3BXZzJfcDFPWUtjTlhmTlBINDBmMUtrYzl3eVcxUXVNTWVINThBZjNkaUQycTlVSXBRb0JlVnNmTk01aE8zaWxFUnBKRFA1OUJ4Um5VRk9POXl1MzJVa25tZW5oaE0yY0pVckhsN2YzZDNVTVhsVDZuRktxdnkzMWRkN0s3RGRB?oc=5",
           "headline": "BR-101 será totalmente interditada nesta quarta (21) em Rio Novo do Sul - Aqui Notícias",
           "date": "2026-10-20T21:20:00Z"
+        }
+      ]
+    },
+    "15ca69643f188e564f3e64bc": {
+      "active": true,
+      "event_id": "15ca69643f188e564f3e64bc",
+      "stable_event_id": "15ca69643f188e564f3e64bc",
+      "name": "Interdição planejada por notícia pública • BR-262",
+      "road": "BR-262",
+      "corridor": "Vitória / Serra • BR-101 / BR-262",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -20.315,
+      "lon": -40.312,
+      "city": "Vitória / Serra",
+      "state": "ES",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Ponte na BR-262 fica totalmente interditada para obras de recuperação da estrutura - diariodigital.com.br.  Período informado: 2026-10-21T12:24:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - diariodigital.com.br",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdEJoc2Q2UXNEaVdnd3FKeERYWjJ1Y0ZFUUxvZDY5RWhLR013cUF2VUhRVEZxTDE5NzJOWEg5UnZxdjRweFJJR0JKUVVCYzJPX0QzQTFFTzRyNWFxS3pCdlJBNkd1SEY3amtCelFDTEx5OWo2eWV5c2h2VlB1ZEtuQl82QUFMeFJGMTkzSVg3UGdBRWhZSUxQczFzQjNidWxaWF96UWRBdlpfQlFnbDhha3ZDaDVSQQ?oc=5",
+      "headline": "Ponte na BR-262 fica totalmente interditada para obras de recuperação da estrutura - diariodigital.com.br",
+      "newsDate": "2026-10-21T12:24:00Z",
+      "plannedStartAt": "2026-10-21T12:24:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-10-21T15:40:40Z",
+      "sources": [
+        {
+          "source": "diariodigital.com.br",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdEJoc2Q2UXNEaVdnd3FKeERYWjJ1Y0ZFUUxvZDY5RWhLR013cUF2VUhRVEZxTDE5NzJOWEg5UnZxdjRweFJJR0JKUVVCYzJPX0QzQTFFTzRyNWFxS3pCdlJBNkd1SEY3amtCelFDTEx5OWo2eWV5c2h2VlB1ZEtuQl82QUFMeFJGMTkzSVg3UGdBRWhZSUxQczFzQjNidWxaWF96UWRBdlpfQlFnbDhha3ZDaDVSQQ?oc=5",
+          "headline": "Ponte na BR-262 fica totalmente interditada para obras de recuperação da estrutura - diariodigital.com.br",
+          "date": "2026-10-21T12:24:00Z"
+        }
+      ]
+    },
+    "c791c2647a5de37c1e8ac56b": {
+      "active": true,
+      "event_id": "c791c2647a5de37c1e8ac56b",
+      "stable_event_id": "c791c2647a5de37c1e8ac56b",
+      "name": "Interdição planejada por notícia pública • BR-116",
+      "road": "BR-116",
+      "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -12.266,
+      "lon": -38.966,
+      "city": "Feira de Santana",
+      "state": "BA",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Susto na BR-116: ônibus de turismo pega fogo no Paraná, 18 pessoas estavam a bordo e pista fica totalmente interditada - Banda B.  Período informado: 2026-10-21T13:36:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Banda B",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HLXBURWxSRUlVSzhTLTFYbk9uVXBQNjEyemlnQ0xhVjhORXduYmFJQUh3d21COXpsSTRQMTNhUFl0TkZnZExwYlpOdmctSHROcHVmNUlmckUzUW9HZUNwNlpNSnBLaXNBWHp3cjZleWtWREN0eF9RZUJldGRnbmPSAYQBQVVfeXFMTU0xLWE3anJ3ZlQwT2FxcHV3R0FNWU9pV2hUZkpHUVY5bFpjanZvSzVzWGZ1QjVfSUI1NjlKT3lma1lPbUtGazdMemJGZi0ySWRaTWFFNVdHNUxaTzdNVU5Xb1p0dkdzMy1ZOTYtYjJNMVJ3RHg5M0ZjMW9IdWpHT1ZKWldi?oc=5",
+      "headline": "Susto na BR-116: ônibus de turismo pega fogo no Paraná, 18 pessoas estavam a bordo e pista fica totalmente interditada - Banda B",
+      "newsDate": "2026-10-21T13:36:00Z",
+      "plannedStartAt": "2026-10-21T13:36:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-10-21T15:40:40Z",
+      "sources": [
+        {
+          "source": "Banda B",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HLXBURWxSRUlVSzhTLTFYbk9uVXBQNjEyemlnQ0xhVjhORXduYmFJQUh3d21COXpsSTRQMTNhUFl0TkZnZExwYlpOdmctSHROcHVmNUlmckUzUW9HZUNwNlpNSnBLaXNBWHp3cjZleWtWREN0eF9RZUJldGRnbmPSAYQBQVVfeXFMTU0xLWE3anJ3ZlQwT2FxcHV3R0FNWU9pV2hUZkpHUVY5bFpjanZvSzVzWGZ1QjVfSUI1NjlKT3lma1lPbUtGazdMemJGZi0ySWRaTWFFNVdHNUxaTzdNVU5Xb1p0dkdzMy1ZOTYtYjJNMVJ3RHg5M0ZjMW9IdWpHT1ZKWldi?oc=5",
+          "headline": "Susto na BR-116: ônibus de turismo pega fogo no Paraná, 18 pessoas estavam a bordo e pista fica totalmente interditada - Banda B",
+          "date": "2026-10-21T13:36:00Z"
         }
       ]
     }
