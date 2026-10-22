@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento com cinco veículos deixa Dutra interditada por 2 horas. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-22T14:59:00Z; ativo há 4.9 h.",
+    "description": "Engavetamento com cinco veículos deixa Dutra interditada por 2 horas. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-22T14:59:00Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 4.92,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-22T19:54:00Z",
+    "news_signature": "9fff7f28f0c9627155133d8e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta tomba e deixa trecho da BR-101 interditado em Junqueiro - Todo Segundo. Fontes consolidadas: Notícias públicas - Todo Segundo. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-22T14:51:00Z; ativo há 5.0 h.",
+    "description": "Carreta tomba e deixa trecho da BR-101 interditado em Junqueiro - Todo Segundo. Fontes consolidadas: Notícias públicas - Todo Segundo. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-22T14:51:00Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 5.05,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-22T19:54:00Z",
+    "news_signature": "e14abccc095ad3cceb7d0951",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -18.918,
     "lon": -48.277,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Batida frontal entre duas carretas deixa trânsito parcialmente interditado na BR-365 - V9 Vitoriosa. Fontes consolidadas: Notícias públicas - V9 Vitoriosa. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-22T12:50:31Z; ativo há 7.1 h.",
+    "description": "Batida frontal entre duas carretas deixa trânsito parcialmente interditado na BR-365 - V9 Vitoriosa. Fontes consolidadas: Notícias públicas - V9 Vitoriosa. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-22T12:50:31Z; ativo há 7.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,8 +134,11 @@
     "active_duration_hours": 7.06,
     "active_duration_label": "7.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-22T19:54:00Z",
+    "news_signature": "1d6b82bedb8f787a360bc15e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -146,7 +155,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta tomba na BR-265, deixa motorista ferido e interdita parcialmente pista em São João del-Rei - Lavras24Horas. Período informado: 2026-10-22T13:40:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - Lavras24Horas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-22T13:40:32Z; ativo há 6.2 h.",
+    "description": "Carreta tomba na BR-265, deixa motorista ferido e interdita parcialmente pista em São João del-Rei - Lavras24Horas. Período informado: 2026-10-22T13:40:32Z até fim não identificado. Fontes consolidadas: Notícias públicas - Lavras24Horas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-22T13:40:32Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -159,7 +168,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-22T19:52:47Z",
     "sources": [
       {
@@ -177,8 +186,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-22T13:40:32Z",
     "last_seen_at": "2026-10-22T19:54:00Z",
-    "active_duration_hours": 6.22,
+    "active_duration_hours": 6.23,
     "active_duration_label": "6.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-22T19:54:00Z",
+    "news_signature": "c41a9551ed61716a30102fb6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
