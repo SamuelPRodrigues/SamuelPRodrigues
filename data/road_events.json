@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à BR-470 em Indaial fica bloqueado por 45 dias - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias; Notícias públicas - ND Mais; Notícias públicas - AJ Notícias. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-24T13:46:44Z; ativo há 6.0 h.",
+    "description": "Acesso à BR-470 em Indaial fica bloqueado por 45 dias - Testo Notícias. Fontes consolidadas: Notícias públicas - Testo Notícias; Notícias públicas - ND Mais; Notícias públicas - AJ Notícias. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-24T13:46:44Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +18,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ib0hRdHo2ZVFmVjh6Nkh0cWYtTWJJSzU4NEJwOTFUaHY5VG5OZjJJOGlIZi1kZEoxYlRwcndENjhtcVBybXhUTHd3VF9RQ2dabGs2bndMaUV3VG1DZW1KMGNPeVpwX0txNFhLZ3JzQ1V1OC1SZkJpWFdB",
     "headline": "Acesso à BR-470 em Indaial fica bloqueado por 45 dias - Testo Notícias",
     "newsDate": "Sat, 24 Oct 2026 13:46:44 GMT",
-    "updatedAt": "2026-10-24T19:43:22Z",
+    "updatedAt": "2026-10-24T21:56:43Z",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ib0hRdHo2ZVFmVjh6Nkh0cWYtTWJJSzU4NEJwOTFUaHY5VG5OZjJJOGlIZi1kZEoxYlRwcndENjhtcVBybXhUTHd3VF9RQ2dabGs2bndMaUV3VG1DZW1KMGNPeVpwX0txNFhLZ3JzQ1V1OC1SZkJpWFdB",
     "sources": [
       {
@@ -45,18 +45,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "11ccc4e308ef418861642f82",
     "event_id": "11ccc4e308ef418861642f82",
-    "newsFreshnessHours": 5.97,
+    "newsFreshnessHours": 8.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-24T13:46:44Z",
-    "last_seen_at": "2026-10-24T19:44:38Z",
-    "active_duration_hours": 5.97,
-    "active_duration_label": "6.0 h",
+    "last_seen_at": "2026-10-24T21:57:58Z",
+    "active_duration_hours": 8.19,
+    "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-10-24T19:44:38Z",
-    "news_signature": "eb9185eb4a47e5ccf64177d8",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -73,7 +70,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Colisão frontal entre duas carretas deixa um morto carbonizado e rodovia totalmente interditada na BR-251 - Gerais News. Período informado: 2026-10-24T13:20:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Gerais News. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-10-24T13:20:00Z; ativo há 6.4 h.",
+    "description": "Colisão frontal entre duas carretas deixa um morto carbonizado e rodovia totalmente interditada na BR-251 - Gerais News. Período informado: 2026-10-24T13:20:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Gerais News. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-24T13:20:00Z; ativo há 8.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,8 +83,8 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "unchanged_public_news_not_reconfirmed",
-    "updatedAt": "2026-10-24T19:43:25Z",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-10-24T21:56:46Z",
     "sources": [
       {
         "source": "Notícias públicas - Gerais News",
@@ -100,15 +97,12 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 6.41,
+    "newsFreshnessHours": 8.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-24T13:20:00Z",
-    "last_seen_at": "2026-10-24T19:44:38Z",
-    "active_duration_hours": 6.41,
-    "active_duration_label": "6.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "last_confirmed_at": "2026-10-24T19:44:38Z",
-    "news_signature": "85c6efacb6f8666ef6a2bb9c",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-10-24T21:57:58Z",
+    "active_duration_hours": 8.63,
+    "active_duration_label": "8.6 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
