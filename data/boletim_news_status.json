@@ -1,137 +1,42 @@
 {
-  "updatedAt": "2026-10-25T09:27:59Z",
+  "updatedAt": "2026-10-25T13:54:11Z",
   "queries": 6,
-  "newItemsBeforeMerge": 56,
+  "newItemsBeforeMerge": 0,
   "savedRoadNewsReused": 0,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 52,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
+  "rejectedSample": [],
+  "errors": [
     {
       "category": "road",
-      "title": "Moraes determina bloqueio de até R$ 6 bilhões do advogado Willer Tomaz - Agência Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Batida entre carretas causa morte, incêndio e interdição na Rodovia Anhanguera em Jardinópolis, SP - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
-      "title": "Amigos morrem em acidente na BR-070 após assistirem a um jogo de futebol - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Duas jovens feridas em grave acidente que matou estudante recebem alta no interior de SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "VÍDEO: casal de idosos morre após carro ser atingido por caminhão em rodovia no interior de SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "BR-277 terá iluminação em trecho de 32 quilômetros entre Curitiba e São José dos Pinhais - Prefeitura de São José dos Pinhais - PR",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Dois trabalhadores morrem em batida entre caminhonetes na BR-262 em MS - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Carro fica partido ao meio após colidir com poste na BR-116 e duas pessoas ficam feridas no RS - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "road",
-      "title": "Motociclista morre atropelado por caminhão na BR-101, em Igarassu; VÍDEO - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "weather_news",
-      "title": "São Paulo terá dia de chuva, com máxima de apenas 23°C nesta sexta-feira, diz CGE - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Jornal Midiamax. . Como previsto pela meteorologia, uma chuva intensa atingiu o município de Três Lagoas, a 340 km de Campo Grande, na tarde desta sexta-feira (23). Consequência do",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal de 20 minutos alaga ruas e avenidas em cidade de MS - Primeira Página",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Previsão de chuva forte faz Defesa Civil reforçar monitoramento para 2º turno das eleições - Hora Campinas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal provoca estragos no Norte Pioneiro do PR nesta sexta-feira(23) - Band",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva de 20 minutos alaga ruas e correnteza assusta moradores de MS; veja vídeo - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva de granizo com ventania destelha imóveis, derruba árvores e deixa homem ferido após desabamento na Bahia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ruas alagadas, muros desabados e árvores caídas: chuva deixa desalojados e feridos no extremo sul da Bahia - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Temporal deixa mais de 500 famílias desabrigadas em cidade na BA; sobrevivente se emociona ao lembrar desabamento - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Ruas de cidade do Paraná alagam após 120 mm de chuva em sete horas - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Quinta-feira (22) tem chance de chuva forte na região de Ribeirão Preto, SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Sexta-feira (23) tem chance de chuva forte na região de Ribeirão Preto, SP - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Tempo muda de vez com chuva forte e queda acentuada de temperatura nesta quinta-feira - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Sexta tem alerta de chuva forte e vento de até 90 km/h em São Carlos e região - G1",
-      "reason": "not_operationally_relevant"
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "mobilization",
-      "title": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo - Agência Brasil",
-      "reason": "not_operationally_relevant"
+      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "category": "mobilization",
-      "title": "Confira o esquema de trânsito e transporte para o 2º turno das eleições na Capital - Prefeitura de Porto Alegre",
-      "reason": "not_operationally_relevant"
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
-  ],
-  "errors": []
+  ]
 }
