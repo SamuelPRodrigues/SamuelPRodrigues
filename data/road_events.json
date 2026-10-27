@@ -54,12 +54,14 @@
     "newsFreshnessHours": 0.49,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T10:33:51Z",
-    "last_seen_at": "2026-10-27T11:03:12Z",
+    "last_seen_at": "2026-10-27T11:03:26Z",
     "active_duration_hours": 0.49,
     "active_duration_label": "29 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1322fcc85105c44438bc92e0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à RS-118 pela Freeway será bloqueado em Gravataí - oreporter.net. Fontes consolidadas: Notícias públicas - oreporter.net. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-26T20:53:59Z; ativo há 14.2 h.",
+    "description": "Acesso à RS-118 pela Freeway será bloqueado em Gravataí - oreporter.net. Fontes consolidadas: Notícias públicas - oreporter.net. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-26T20:53:59Z; ativo há 14.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -98,13 +100,15 @@
     "newsFreshnessHours": 2.73,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-26T20:53:59Z",
-    "last_seen_at": "2026-10-27T11:03:12Z",
-    "active_duration_hours": 14.15,
+    "last_seen_at": "2026-10-27T11:03:26Z",
+    "active_duration_hours": 14.16,
     "active_duration_label": "14.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RS-118"
+    "detectedRoad": "RS-118",
+    "news_signature": "71120b69ba4f2bda4b1836a0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +125,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-153 continua totalmente interditada e motoristas devem utilizar rota alternativa - Marechal News. Período informado: 2026-10-27T08:01:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Marechal News. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-27T08:01:00Z; ativo há 3.0 h.",
+    "description": "BR-153 continua totalmente interditada e motoristas devem utilizar rota alternativa - Marechal News. Período informado: 2026-10-27T08:01:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Marechal News. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-27T08:01:00Z; ativo há 3.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -151,9 +155,11 @@
     "newsFreshnessHours": 3.04,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T08:01:00Z",
-    "last_seen_at": "2026-10-27T11:03:12Z",
+    "last_seen_at": "2026-10-27T11:03:26Z",
     "active_duration_hours": 3.04,
     "active_duration_label": "3.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "33ea5bb05270fa5807ff30b3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
