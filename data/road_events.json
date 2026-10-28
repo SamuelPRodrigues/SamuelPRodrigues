@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-472",
+    "road": "BR-472",
+    "corridor": "Uruguaiana • BR-290 / BR-472",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -29.754,
+    "lon": -57.089,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte sobre o Rio Ibicuí é interditada durante a noite no km 520 da BR-472 entre Uruguaiana e Itaqui - NO AR NOTÍCIAS. Fontes consolidadas: Notícias públicas - NO AR NOTÍCIAS. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-28T15:50:00Z; ativo há 1.5 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - NO AR NOTÍCIAS",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONzVJTEJ5WHF4aTlFc0xGSHlYTzVlOUtGU2FxQ0twZXo5LVhkZzlWaW5jR29KSDcxQkRDZ1pOd3pGV0IzRS04N0JVbFlNc3dOLURjcGt3NW5McklxNHhoU3lrRkhlckJWY0l2SklrZDdlQnVJbTJyaTMyX1BrRllEaDJ1S25jcElrUHI4QXRJNzVpRmRWdFFIV2IwRk1KNXktOEc3eUpTaXJaNmUtVWRXLXI4UUh1aDhJN21qLW41TmFDaE5LX1dxS29YajlIUFNzM2dBeDJ1QW53dw",
+    "headline": "Ponte sobre o Rio Ibicuí é interditada durante a noite no km 520 da BR-472 entre Uruguaiana e Itaqui - NO AR NOTÍCIAS",
+    "newsDate": "Wed, 28 Oct 2026 15:50:00 GMT",
+    "updatedAt": "2026-10-28T17:17:14Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONzVJTEJ5WHF4aTlFc0xGSHlYTzVlOUtGU2FxQ0twZXo5LVhkZzlWaW5jR29KSDcxQkRDZ1pOd3pGV0IzRS04N0JVbFlNc3dOLURjcGt3NW5McklxNHhoU3lrRkhlckJWY0l2SklrZDdlQnVJbTJyaTMyX1BrRllEaDJ1S25jcElrUHI4QXRJNzVpRmRWdFFIV2IwRk1KNXktOEc3eUpTaXJaNmUtVWRXLXI4UUh1aDhJN21qLW41TmFDaE5LX1dxS29YajlIUFNzM2dBeDJ1QW53dw",
+    "sources": [
+      {
+        "source": "Notícias públicas - NO AR NOTÍCIAS",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONzVJTEJ5WHF4aTlFc0xGSHlYTzVlOUtGU2FxQ0twZXo5LVhkZzlWaW5jR29KSDcxQkRDZ1pOd3pGV0IzRS04N0JVbFlNc3dOLURjcGt3NW5McklxNHhoU3lrRkhlckJWY0l2SklrZDdlQnVJbTJyaTMyX1BrRllEaDJ1S25jcElrUHI4QXRJNzVpRmRWdFFIV2IwRk1KNXktOEc3eUpTaXJaNmUtVWRXLXI4UUh1aDhJN21qLW41TmFDaE5LX1dxS29YajlIUFNzM2dBeDJ1QW53dw",
+        "headline": "Ponte sobre o Rio Ibicuí é interditada durante a noite no km 520 da BR-472 entre Uruguaiana e Itaqui - NO AR NOTÍCIAS",
+        "date": "Wed, 28 Oct 2026 15:50:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "e35dadc139d565c248e401f5",
+    "event_id": "e35dadc139d565c248e401f5",
+    "newsFreshnessHours": 1.48,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-10-28T15:50:00Z",
+    "last_seen_at": "2026-10-28T17:18:36Z",
+    "active_duration_hours": 1.48,
+    "active_duration_label": "1.5 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
