@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 no Morro do Boi será interditado hoje (27). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TopElegance; Notícias públicas - Visor Notícias; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-27T16:52:00Z; ativo há 12.5 h.",
+    "description": "Trecho da BR-101 no Morro do Boi será interditado hoje (27). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TopElegance; Notícias públicas - Visor Notícias; Notícias públicas - Francês News. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-10-27T16:52:00Z; ativo há 12.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -66,12 +66,14 @@
     "newsFreshnessHours": 11.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T16:52:00Z",
-    "last_seen_at": "2026-10-28T05:23:27Z",
-    "active_duration_hours": 12.52,
+    "last_seen_at": "2026-10-28T05:23:42Z",
+    "active_duration_hours": 12.53,
     "active_duration_label": "12.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7ce79a59173806d9c8e1807c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -88,7 +90,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte do Estreito dos Mosquitos será implodida no feriadão; 62km da BR-135 ficará totalmente interditada por seis horas - Diego Emir. Período informado: 2026-10-27T17:46:22Z até fim não identificado. Fontes consolidadas: Notícias públicas - Diego Emir. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-27T17:46:22Z; ativo há 11.6 h.",
+    "description": "Ponte do Estreito dos Mosquitos será implodida no feriadão; 62km da BR-135 ficará totalmente interditada por seis horas - Diego Emir. Período informado: 2026-10-27T17:46:22Z até fim não identificado. Fontes consolidadas: Notícias públicas - Diego Emir. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-27T17:46:22Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -101,7 +103,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-28T05:22:14Z",
     "sources": [
       {
@@ -121,6 +123,9 @@
     "last_seen_at": "2026-10-28T05:23:27Z",
     "active_duration_hours": 11.62,
     "active_duration_label": "11.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-28T05:23:27Z",
+    "news_signature": "e7fb8bbada3340c7d085409b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
