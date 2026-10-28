@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 no Morro do Boi será interditado hoje (27). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TopElegance; Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-27T16:52:00Z; ativo há 7.2 h.",
+    "description": "Trecho da BR-101 no Morro do Boi será interditado hoje (27). Fontes consolidadas: Notícias públicas - G1; Notícias públicas - TopElegance; Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-27T16:52:00Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -60,12 +60,14 @@
     "newsFreshnessHours": 5.88,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T16:52:00Z",
-    "last_seen_at": "2026-10-28T00:05:39Z",
+    "last_seen_at": "2026-10-28T00:05:55Z",
     "active_duration_hours": 7.23,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c674c591a5a703ee3b500bad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -77,7 +79,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Implosão da ponte sobre o Estreito dos Mosquitos será no domingo (1º); BR-135 será interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-27T15:32:42Z; ativo há 8.6 h.",
+    "description": "Implosão da ponte sobre o Estreito dos Mosquitos será no domingo (1º); BR-135 será interditada. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-27T15:32:42Z; ativo há 8.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +106,14 @@
     "newsFreshnessHours": 8.55,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T15:32:42Z",
-    "last_seen_at": "2026-10-28T00:05:39Z",
+    "last_seen_at": "2026-10-28T00:05:55Z",
     "active_duration_hours": 8.55,
     "active_duration_label": "8.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "535034586f59ff192d494e22",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +125,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 terá retorno bloqueado em Camaquã; veja rota alternativa - Agora RS. Fontes consolidadas: Notícias públicas - Agora RS. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-27T15:23:24Z; ativo há 8.7 h.",
+    "description": "BR-116 terá retorno bloqueado em Camaquã; veja rota alternativa - Agora RS. Fontes consolidadas: Notícias públicas - Agora RS. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-27T15:23:24Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -149,11 +153,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T15:23:24Z",
     "last_seen_at": "2026-10-28T00:05:39Z",
-    "active_duration_hours": 8.7,
+    "active_duration_hours": 8.71,
     "active_duration_label": "8.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-28T00:05:39Z",
+    "news_signature": "f3b694c2e7742b7fbcc62d31",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -170,7 +177,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte do Estreito dos Mosquitos será implodida no feriadão; 62km da BR-135 ficará totalmente interditada por seis horas - Diego Emir. Período informado: 2026-10-27T17:46:22Z até fim não identificado. Fontes consolidadas: Notícias públicas - Diego Emir. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-10-27T17:46:22Z; ativo há 6.3 h.",
+    "description": "Ponte do Estreito dos Mosquitos será implodida no feriadão; 62km da BR-135 ficará totalmente interditada por seis horas - Diego Emir. Período informado: 2026-10-27T17:46:22Z até fim não identificado. Fontes consolidadas: Notícias públicas - Diego Emir. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-10-27T17:46:22Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -200,10 +207,12 @@
     "newsFreshnessHours": 6.32,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T17:46:22Z",
-    "last_seen_at": "2026-10-28T00:05:39Z",
-    "active_duration_hours": 6.32,
+    "last_seen_at": "2026-10-28T00:05:55Z",
+    "active_duration_hours": 6.33,
     "active_duration_label": "6.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e7fb8bbada3340c7d085409b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -220,7 +229,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada nesta terça e quarta em Rio Novo do Sul - diaadiaes.com.br. Período informado: 2026-10-27T14:55:09Z até fim não identificado. Fontes consolidadas: Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-27T14:55:09Z; ativo há 9.2 h.",
+    "description": "BR-101 será totalmente interditada nesta terça e quarta em Rio Novo do Sul - diaadiaes.com.br. Período informado: 2026-10-27T14:55:09Z até fim não identificado. Fontes consolidadas: Notícias públicas - diaadiaes.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-27T14:55:09Z; ativo há 9.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -250,10 +259,12 @@
     "newsFreshnessHours": 9.17,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-27T14:55:09Z",
-    "last_seen_at": "2026-10-28T00:05:39Z",
+    "last_seen_at": "2026-10-28T00:05:55Z",
     "active_duration_hours": 9.18,
     "active_duration_label": "9.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cb149cd8de9dcbb76f1f4869",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -270,7 +281,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 permanece totalmente interditada em Rebouças, no Centro-Sul do estado - Band News FM Curitiba. Período informado: 2026-10-27T14:05:19Z até fim não identificado. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-27T14:05:19Z; ativo há 10.0 h.",
+    "description": "BR-376 permanece totalmente interditada em Rebouças, no Centro-Sul do estado - Band News FM Curitiba. Período informado: 2026-10-27T14:05:19Z até fim não identificado. Fontes consolidadas: Notícias públicas - Band News FM Curitiba. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-27T14:05:19Z; ativo há 10.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -283,7 +294,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-28T00:04:26Z",
     "sources": [
       {
@@ -303,7 +314,10 @@
     "last_seen_at": "2026-10-28T00:05:39Z",
     "active_duration_hours": 10.01,
     "active_duration_label": "10.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-28T00:05:39Z",
+    "news_signature": "a10efe1c2040799f9c7aec89",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -320,7 +334,7 @@
     "state": "GO",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-153 segue totalmente interditada por alagamento no trecho de Rebouças; veja rota alternativa. Período informado: 2026-10-27T13:01:00Z até fim não identificado. Fontes consolidadas: Portal RDX; Notícias públicas - MZ Notícia; Notícias públicas - Marechal News; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-10-27T13:01:00Z; ativo há 11.1 h.",
+    "description": "BR-153 segue totalmente interditada por alagamento no trecho de Rebouças; veja rota alternativa. Período informado: 2026-10-27T13:01:00Z até fim não identificado. Fontes consolidadas: Portal RDX; Notícias públicas - MZ Notícia; Notícias públicas - Marechal News; Notícias públicas - CGN. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-10-27T13:01:00Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -333,7 +347,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-28T00:04:26Z",
     "sources": [
       {
@@ -371,6 +385,9 @@
     "last_seen_at": "2026-10-28T00:05:39Z",
     "active_duration_hours": 11.08,
     "active_duration_label": "11.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-28T00:05:39Z",
+    "news_signature": "5aa38f7a0c86f5e08c058cc9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
