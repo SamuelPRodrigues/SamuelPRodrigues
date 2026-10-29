@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Interdição parcial na BR-163/364 nesta quinta-feira(29) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-29T03:10:02Z; ativo há 4.0 h.",
+    "description": "Interdição parcial na BR-163/364 nesta quinta-feira(29) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-29T03:10:02Z; ativo há 4.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T03:10:02Z",
-    "last_seen_at": "2026-10-29T07:10:29Z",
+    "last_seen_at": "2026-10-29T07:10:44Z",
     "active_duration_hours": 4.01,
     "active_duration_label": "4.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "3313aeb3c2aeaf8fbf42c090",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-280 é totalmente interditada após acidente com caminhão em Mafra - Rádio Clube de Canoinhas. Período informado: 2026-10-28T20:26:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Clube de Canoinhas; Notícias públicas - A Gazeta SBS. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-28T20:26:10Z; ativo há 10.7 h.",
+    "description": "BR-280 é totalmente interditada após acidente com caminhão em Mafra - Rádio Clube de Canoinhas. Período informado: 2026-10-28T20:26:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Clube de Canoinhas; Notícias públicas - A Gazeta SBS. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-28T20:26:10Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -94,9 +96,11 @@
     "newsFreshnessHours": 10.74,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-28T20:26:10Z",
-    "last_seen_at": "2026-10-29T07:10:29Z",
+    "last_seen_at": "2026-10-29T07:10:44Z",
     "active_duration_hours": 10.74,
     "active_duration_label": "10.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d1a2d6a9c63ec2f1aa4d7b45",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
