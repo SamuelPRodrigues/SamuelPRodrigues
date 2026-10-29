@@ -42,13 +42,15 @@
     "newsFreshnessHours": 0.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T19:02:17Z",
-    "last_seen_at": "2026-10-29T19:48:09Z",
-    "active_duration_hours": 0.76,
+    "last_seen_at": "2026-10-29T19:48:23Z",
+    "active_duration_hours": 0.77,
     "active_duration_label": "46 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-350"
+    "detectedRoad": "SC-350",
+    "news_signature": "3cac6fdf94903f0a3095a36a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -60,7 +62,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 em SC será interditado para obras na Capital Nacional da Baleia-franca nesta quinta-feira (29); saiba qual o cronograma de interdição - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-29T13:46:14Z; ativo há 6.0 h.",
+    "description": "Trecho da BR-101 em SC será interditado para obras na Capital Nacional da Baleia-franca nesta quinta-feira (29); saiba qual o cronograma de interdição - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-29T13:46:14Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -88,11 +90,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T13:46:14Z",
     "last_seen_at": "2026-10-29T19:48:09Z",
-    "active_duration_hours": 6.03,
+    "active_duration_hours": 6.04,
     "active_duration_label": "6.0 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-29T19:48:09Z",
+    "news_signature": "2799aa4b95d516f87ae89bfc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +114,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Atenção motoristas: BR-101 será totalmente interditada por duas horas nesta quinta-feira em Fundão - ES Fala. Período informado: 2026-10-29T14:00:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - ES Fala. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-29T14:00:00Z; ativo há 5.8 h.",
+    "description": "Atenção motoristas: BR-101 será totalmente interditada por duas horas nesta quinta-feira em Fundão - ES Fala. Período informado: 2026-10-29T14:00:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - ES Fala. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-29T14:00:00Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -139,9 +144,11 @@
     "newsFreshnessHours": 5.8,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T14:00:00Z",
-    "last_seen_at": "2026-10-29T19:48:09Z",
-    "active_duration_hours": 5.8,
+    "last_seen_at": "2026-10-29T19:48:23Z",
+    "active_duration_hours": 5.81,
     "active_duration_label": "5.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "41e44968cc1b2c73d4c9e82f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
