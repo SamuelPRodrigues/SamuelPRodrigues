@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Anel Rodoviário de BH será interditado entre Olhos D’Água e BR-040 durante transporte de carga especial - BH 24 Horas. Fontes consolidadas: Notícias públicas - BH 24 Horas. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-29T22:16:12Z; ativo há 4.6 h.",
+    "description": "Anel Rodoviário de BH será interditado entre Olhos D’Água e BR-040 durante transporte de carga especial - BH 24 Horas. Fontes consolidadas: Notícias públicas - BH 24 Horas. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-29T22:16:12Z; ativo há 4.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T22:16:12Z",
-    "last_seen_at": "2026-10-30T02:54:13Z",
-    "active_duration_hours": 4.63,
+    "last_seen_at": "2026-10-30T02:54:28Z",
+    "active_duration_hours": 4.64,
     "active_duration_label": "4.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c3430805d346a67a3e8d261f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Engavetamento de 3 carretas deixa trecho da BR 116 interditada, em Icó | Cidade Alerta CE - GCMais. Fontes consolidadas: Notícias públicas - GCMais. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-10-29T22:12:40Z; ativo há 4.7 h.",
+    "description": "Engavetamento de 3 carretas deixa trecho da BR 116 interditada, em Icó | Cidade Alerta CE - GCMais. Fontes consolidadas: Notícias públicas - GCMais. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-10-29T22:12:40Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T22:12:40Z",
     "last_seen_at": "2026-10-30T02:54:13Z",
-    "active_duration_hours": 4.69,
+    "active_duration_hours": 4.7,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-30T02:54:13Z",
+    "news_signature": "0112acd99356d4f68b7e90b4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-592 segue interditada em Nova Prata do Iguaçu - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-29T21:03:12Z; ativo há 5.8 h.",
+    "description": "PR-592 segue interditada em Nova Prata do Iguaçu - Jornal de Beltrão. Fontes consolidadas: Notícias públicas - Jornal de Beltrão. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-29T21:03:12Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,9 +133,12 @@
     "active_duration_hours": 5.85,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-592"
+    "detectedRoad": "PR-592",
+    "last_confirmed_at": "2026-10-30T02:54:13Z",
+    "news_signature": "d6edc60a40089e119a3708fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -142,7 +150,7 @@
     "lat": -3.119,
     "lon": -60.021,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da avenida Brasil, na BR-174, é interditado para instalação de semáforo. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-10-29T20:57:18Z; ativo há 6.0 h.",
+    "description": "Trecho da avenida Brasil, na BR-174, é interditado para instalação de semáforo. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-10-29T20:57:18Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -169,12 +177,14 @@
     "newsFreshnessHours": 5.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-29T20:57:18Z",
-    "last_seen_at": "2026-10-30T02:54:13Z",
+    "last_seen_at": "2026-10-30T02:54:28Z",
     "active_duration_hours": 5.95,
     "active_duration_label": "6.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6910ca4d16c4347a62111c0e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -186,7 +196,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta carregada de milho tomba na SC-350 e deixa rodovia interditada - Visor Notícias. Fontes consolidadas: Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-29T19:02:17Z; ativo há 7.9 h.",
+    "description": "Carreta carregada de milho tomba na SC-350 e deixa rodovia interditada - Visor Notícias. Fontes consolidadas: Notícias públicas - Visor Notícias. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-29T19:02:17Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -223,9 +233,12 @@
     "active_duration_hours": 7.87,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-350"
+    "detectedRoad": "SC-350",
+    "last_confirmed_at": "2026-10-30T02:54:13Z",
+    "news_signature": "3cac6fdf94903f0a3095a36a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -237,7 +250,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trincheira da BR-476, na RMC, será interditada nesta sexta-feira (30). Fontes consolidadas: Notícias públicas - Portal Nosso Dia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-29T16:16:35Z; ativo há 10.6 h.",
+    "description": "Trincheira da BR-476, na RMC, será interditada nesta sexta-feira (30). Fontes consolidadas: Notícias públicas - Portal Nosso Dia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-29T16:16:35Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -268,7 +281,10 @@
     "active_duration_hours": 10.63,
     "active_duration_label": "10.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-30T02:54:13Z",
+    "news_signature": "bcf87ea5673c87cfbde7152e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
