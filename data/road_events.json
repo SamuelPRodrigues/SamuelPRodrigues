@@ -9,7 +9,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Semirreboque destruído por incêndio continua na BR-163 e mantém faixa interditada em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-10-30T23:27:00Z; ativo há 43 min.",
+    "description": "Semirreboque destruído por incêndio continua na BR-163 e mantém faixa interditada em Cascavel - CGN. Fontes consolidadas: Notícias públicas - CGN. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-10-30T23:27:00Z; ativo há 44 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.72,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-30T23:27:00Z",
-    "last_seen_at": "2026-10-31T00:10:23Z",
-    "active_duration_hours": 0.72,
-    "active_duration_label": "43 min",
+    "last_seen_at": "2026-10-31T00:10:38Z",
+    "active_duration_hours": 0.73,
+    "active_duration_label": "44 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "36585ff0e09da711f39f83ee",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-090 será totalmente interditada neste sábado para retirada de carga de grandes dimensões - MZ Notícia. Fontes consolidadas: Notícias públicas - MZ Notícia; Notícias públicas - Jornale; Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-10-30T18:40:51Z; ativo há 5.5 h.",
+    "description": "PR-090 será totalmente interditada neste sábado para retirada de carga de grandes dimensões - MZ Notícia. Fontes consolidadas: Notícias públicas - MZ Notícia; Notícias públicas - Jornale; Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-10-30T18:40:51Z; ativo há 5.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 5.49,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-30T18:40:51Z",
-    "last_seen_at": "2026-10-31T00:10:23Z",
-    "active_duration_hours": 5.49,
+    "last_seen_at": "2026-10-31T00:10:38Z",
+    "active_duration_hours": 5.5,
     "active_duration_label": "5.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-090"
+    "detectedRoad": "PR-090",
+    "news_signature": "749a6c3c40946d2630b62355",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
