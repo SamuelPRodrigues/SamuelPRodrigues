@@ -9,7 +9,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Tráfego na BR 135 será interditado neste domingo entre São Luís e Bacabeira para implosão de ponte sobre Estreito dos Mosquitos - Maranhão Hoje. Fontes consolidadas: Notícias públicas - Maranhão Hoje; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-10-31T19:03:31Z; ativo há 4.2 h.",
+    "description": "Tráfego na BR 135 será interditado neste domingo entre São Luís e Bacabeira para implosão de ponte sobre Estreito dos Mosquitos - Maranhão Hoje. Fontes consolidadas: Notícias públicas - Maranhão Hoje; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-10-31T19:03:31Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 4.22,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-31T19:03:31Z",
-    "last_seen_at": "2026-10-31T23:16:28Z",
+    "last_seen_at": "2026-10-31T23:16:55Z",
     "active_duration_hours": 4.22,
     "active_duration_label": "4.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d14a0c55b687239ee0f943e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-470 fica totalmente bloqueada neste sábado (31) após carreta tombar em SC; veja trecho - SCC10. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-10-31T13:38:49Z; ativo há 9.6 h.",
+    "description": "BR-470 fica totalmente bloqueada neste sábado (31) após carreta tombar em SC; veja trecho - SCC10. Fontes consolidadas: Notícias públicas - SCC10. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-10-31T13:38:49Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,8 +92,11 @@
     "active_duration_hours": 9.63,
     "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-31T23:16:28Z",
+    "news_signature": "1c09a4bb2e1167037457d812",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +108,7 @@
     "lat": -28.672,
     "lon": -49.373,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia SC-446 segue interditada na região de Criciúma. Fontes consolidadas: Notícias públicas - Portal TN Sul. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-10-31T13:19:56Z; ativo há 9.9 h.",
+    "description": "Rodovia SC-446 segue interditada na região de Criciúma. Fontes consolidadas: Notícias públicas - Portal TN Sul. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-10-31T13:19:56Z; ativo há 9.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,12 +136,15 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-10-31T13:19:56Z",
     "last_seen_at": "2026-10-31T23:16:28Z",
-    "active_duration_hours": 9.94,
+    "active_duration_hours": 9.95,
     "active_duration_label": "9.9 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-446"
+    "detectedRoad": "SC-446",
+    "last_confirmed_at": "2026-10-31T23:16:28Z",
+    "news_signature": "097ed0730a2d2469c0b1792f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +161,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-135 fica totalmente interditada após caminhão tanque pegar fogo no Norte de MG - O TEMPO. Período informado: 2026-10-31T13:27:33Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-10-31T13:27:33Z; ativo há 9.8 h.",
+    "description": "BR-135 fica totalmente interditada após caminhão tanque pegar fogo no Norte de MG - O TEMPO. Período informado: 2026-10-31T13:27:33Z até fim não identificado. Fontes consolidadas: Notícias públicas - O TEMPO. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-10-31T13:27:33Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -166,7 +174,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-10-31T23:15:14Z",
     "sources": [
       {
@@ -186,6 +194,9 @@
     "last_seen_at": "2026-10-31T23:16:28Z",
     "active_duration_hours": 9.82,
     "active_duration_label": "9.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-10-31T23:16:28Z",
+    "news_signature": "b0de900c35f94f016054a11a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
