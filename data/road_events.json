@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101 será totalmente interditada por duas horas para obras em Fundão - A Gazeta. Período informado: 2026-11-03T00:01:00Z até fim não identificado. Fontes consolidadas: A Gazeta. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-03T00:01:00Z; ativo há 2.4 h.",
+    "description": "BR 101 será totalmente interditada por duas horas para obras em Fundão - A Gazeta. Período informado: 2026-11-03T00:01:00Z até fim não identificado. Fontes consolidadas: A Gazeta. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-03T00:01:00Z; ativo há 2.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 2.37,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-03T00:01:00Z",
-    "last_seen_at": "2026-11-03T02:23:03Z",
+    "last_seen_at": "2026-11-03T02:23:22Z",
     "active_duration_hours": 2.37,
     "active_duration_label": "2.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fc518ff1cf8766a56e1e7ad8",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
