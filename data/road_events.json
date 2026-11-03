@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "active": true,
+    "event_id": "fd9fe74e5cac5b132801656c",
+    "stable_event_id": "fd9fe74e5cac5b132801656c",
+    "name": "Interdição planejada por notícia pública • BR-324",
+    "road": "BR-324",
+    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.977,
+    "lon": -38.501,
+    "city": "Salvador",
+    "state": "BA",
+    "region": "Nordeste",
+    "eventType": "Interdição planejada por notícia pública",
+    "description": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia. Período informado: 2026-11-03T19:30:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Farol da Bahia. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-03T19:30:00Z; ativo há 2.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Farol da Bahia",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSl9iYWdfSHZyRktscjNDNE1kckZQSmk3NmE0dUhENDdySC1mUFZldTlqMGVYT0w0OEpJYkNxVFoteGRiMUE3S3lUU3NmLVd1M2tMUWp4Q1JuRVI0c01XblBNSmxCVGVnTGZBUFVwME8xTmJBRjNqRkdhZmNYejJRaElscTltRUFMWGxqd0tCaVl4TGdyNkR5aXJBcklmbW9jU21JTjJhaUpHZlRaajVTR2RQa1lOclRQd2JGSEhn",
+    "headline": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia",
+    "newsDate": "2026-11-03T19:30:00Z",
+    "plannedStartAt": "2026-11-03T19:30:00Z",
+    "plannedEndAt": "",
+    "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "updatedAt": "2026-11-03T22:21:48Z",
+    "sources": [
+      {
+        "source": "Notícias públicas - Farol da Bahia",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSl9iYWdfSHZyRktscjNDNE1kckZQSmk3NmE0dUhENDdySC1mUFZldTlqMGVYT0w0OEpJYkNxVFoteGRiMUE3S3lUU3NmLVd1M2tMUWp4Q1JuRVI0c01XblBNSmxCVGVnTGZBUFVwME8xTmJBRjNqRkdhZmNYejJRaElscTltRUFMWGxqd0tCaVl4TGdyNkR5aXJBcklmbW9jU21JTjJhaUpHZlRaajVTR2RQa1lOclRQd2JGSEhn",
+        "headline": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia",
+        "date": "2026-11-03T19:30:00Z"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSl9iYWdfSHZyRktscjNDNE1kckZQSmk3NmE0dUhENDdySC1mUFZldTlqMGVYT0w0OEpJYkNxVFoteGRiMUE3S3lUU3NmLVd1M2tMUWp4Q1JuRVI0c01XblBNSmxCVGVnTGZBUFVwME8xTmJBRjNqRkdhZmNYejJRaElscTltRUFMWGxqd0tCaVl4TGdyNkR5aXJBcklmbW9jU21JTjJhaUpHZlRaajVTR2RQa1lOclRQd2JGSEhn",
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "newsFreshnessHours": 2.88,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-03T19:30:00Z",
+    "last_seen_at": "2026-11-03T22:23:02Z",
+    "active_duration_hours": 2.88,
+    "active_duration_label": "2.9 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  }
+]
