@@ -1,15 +1,20 @@
 {
-  "updatedAt": "2026-11-03T17:22:48Z",
+  "updatedAt": "2026-11-03T22:23:23Z",
   "queries": 6,
-  "newItemsBeforeMerge": 61,
-  "savedRoadNewsReused": 0,
+  "newItemsBeforeMerge": 58,
+  "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 47,
+  "rejectedAsIrrelevant": 51,
   "removedPreviouslyStoredIrrelevant": 0,
   "rejectedSample": [
     {
       "category": "road",
-      "title": "Motorista infarta, e engavetamento de 20 veículos deixa feridos no Rio - Agência Brasil",
+      "title": "Ponte na região norte tem interdição a partir de terça - Prefeitura de São José dos Campos",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Polícia investiga acidente com asa-delta que deixou dois mortos no Rio - Agência Brasil",
       "reason": "not_operationally_relevant"
     },
     {
@@ -19,47 +24,42 @@
     },
     {
       "category": "road",
+      "title": "Motorista morre carbonizado após batida entre veículos na BR-364 em RO - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
       "title": "Motorista morre e seis pessoas ficam feridas em acidente envolvendo quatro carros - G1",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "title": "Vice-prefeito e outros três ficam feridos após carro da prefeitura ser atingido por caminhão na BR-386 no RS - G1",
+      "title": "Motociclista morre após bater na traseira de caminhão e atingir lateral de carro na SP-280 em Pardinho - G1",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "title": "Motorista de carro tenta ultrapassar três caminhões e bate de frente com caminhonete na BR-365, em MG - G1",
+      "title": "Estudante morre após batida entre moto e carro na BR-116, na Bahia; jovem ficou ferida - G1",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "title": "Motorista morre carbonizado após batida entre veículos na BR-364 em RO - G1",
+      "title": "Carro bate de frente com caminhão durante chuva forte na BR-116 - G1",
       "reason": "not_operationally_relevant"
     },
     {
-      "category": "weather_news",
-      "title": "Granizo e vendaval causam estragos no Paraná; alerta de chuva forte segue - CNN Brasil",
+      "category": "road",
+      "title": "Jovem morre atropelada após moto bater em ônibus na BR-101; piloto ficou ferido - G1",
       "reason": "not_operationally_relevant"
     },
     {
-      "category": "weather_news",
-      "title": "BH registra chuva de granizo e temporal em diversas regiões da cidade - Rede 98",
+      "category": "road",
+      "title": "Motorista morre após carreta com carga de fraldas tombar na BR-262, em MG - G1",
       "reason": "not_operationally_relevant"
     },
     {
-      "category": "weather_news",
-      "title": "Forte chuva de granizo surpreende moradores e cobre ruas de cidade do ES - Tribuna Online",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "VÍDEO: temporal de granizo deixa quintais cobertos de branco, cidade sem luz e causa estragos em casas e escolas no Paraná - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Desabamento após chuva deixa um morto e 10 feridos na zona Leste de SP - CNN Brasil",
+      "category": "road",
+      "title": "Quem era o major da reserva do Corpo de Bombeiros que morreu em hospital após acidente - G1",
       "reason": "not_operationally_relevant"
     },
     {
@@ -69,7 +69,27 @@
     },
     {
       "category": "weather_news",
-      "title": "O prefeito de Maringá, Silvio Barros, anunciou que vai decretar estado de calamidade pública no município nesta segunda-feira (2), em decorrência dos estragos provocados pelas fort",
+      "title": "Granizo e vendaval causam estragos no Paraná; alerta de chuva forte segue - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Um forte temporal atingiu diversas cidades do Paraná entre domingo (1º) e a madrugada desta segunda-feira (2), deixando um rastro de destruição. Em Maringá, ventos de até 81 km/h a",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "BH registra chuva de granizo e temporal em diversas regiões da cidade - Rede 98",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Ventos e chuva forte causam estragos generalizados em Maringá (PR) - Folha de S.Paulo",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Desabamento após chuva deixa um morto e 10 feridos na zona Leste de SP - CNN Brasil",
       "reason": "not_operationally_relevant"
     },
     {
@@ -79,12 +99,17 @@
     },
     {
       "category": "weather_news",
-      "title": "VÍDEO: chuva forte transforma ruas em rios e motorista precisa abandonar carro submerso no interior de SP - G1",
+      "title": "O prefeito de Maringá, Silvio Barros, anunciou que vai decretar estado de calamidade pública no município nesta segunda-feira (2), em decorrência dos estragos provocados pelas fort",
       "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "title": "Temporal destelha casas e deixa 47 desalojados no interior de SP - G1",
+      "title": "Maringá (PR) suspende aulas após temporal que deixou rastro de destruição - CNN Brasil",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "VÍDEO: chuva forte transforma ruas em rios e motorista precisa abandonar carro submerso no interior de SP - G1",
       "reason": "not_operationally_relevant"
     },
     {
@@ -105,31 +130,6 @@
     {
       "category": "mobilization",
       "title": "Procon identifica 370 ônibus parados em garagens de Salvador - Agência Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Trecho de via no Nova Europa será interditado nesta quarta (28/10) - EMDEC - Empresa Municipal de Desenvolvimento de Campinas S/A",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Um acidente envolvendo um carro e um caminhão provocou a queda de uma carga sobre um veículo na manhã desta quarta-feira (28), por volta das 6h51, no km 37 da Rodovia Raposo Tavare",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Rodovia do Paraná terá interdição para resgate de carga de grandes dimensões neste sábado - Bem Paraná",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "PT pede para estender horário de votação em Salvador e mais duas cidades da BA - CartaCapital",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "mobilization",
-      "title": "Greve dos caminhoneiros? Saiba se manifestação está sendo organizada - Aliança News",
       "reason": "not_operationally_relevant"
     }
   ],
