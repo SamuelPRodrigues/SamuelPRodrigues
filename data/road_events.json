@@ -14,7 +14,7 @@
     "state": "BA",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia. Período informado: 2026-11-03T19:30:00Z até fim não identificado. Fontes consolidadas: Portal Massa; Notícias públicas - Farol da Bahia. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-03T19:30:00Z; ativo há 7.0 h.",
+    "description": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia. Período informado: 2026-11-03T19:30:00Z até fim não identificado. Fontes consolidadas: Portal Massa; Notícias públicas - Farol da Bahia. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-03T19:30:00Z; ativo há 7.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -50,10 +50,12 @@
     "newsFreshnessHours": 6.96,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-03T19:30:00Z",
-    "last_seen_at": "2026-11-04T02:27:50Z",
-    "active_duration_hours": 6.96,
+    "last_seen_at": "2026-11-04T02:28:05Z",
+    "active_duration_hours": 6.97,
     "active_duration_label": "7.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cc60eb9a4f9cc09c4ccc2a0b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -70,7 +72,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada por duas horas nesta terça-feira (3) no ES; veja onde - Folha do ES. Período informado: 2026-11-03T03:00:00Z até 2026-11-04T02:59:59Z. Fontes consolidadas: Folha do ES; A Gazeta. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-03T03:00:00Z; ativo há 23.5 h.",
+    "description": "BR-101 será totalmente interditada por duas horas nesta terça-feira (3) no ES; veja onde - Folha do ES. Período informado: 2026-11-03T03:00:00Z até 2026-11-04T02:59:59Z. Fontes consolidadas: Folha do ES; A Gazeta. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-03T03:00:00Z; ativo há 23.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -105,9 +107,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-03T03:00:00Z",
-    "last_seen_at": "2026-11-04T02:27:50Z",
-    "active_duration_hours": 23.46,
+    "last_seen_at": "2026-11-04T02:28:05Z",
+    "active_duration_hours": 23.47,
     "active_duration_label": "23.5 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "dd84e304ec3505e7efdf6c8e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
