@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T22:23:01Z",
+  "updatedAt": "2026-11-04T02:27:49Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -6465,13 +6465,91 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-11-03T22:23:01Z",
+      "updatedAt": "2026-11-04T02:27:49Z",
       "sources": [
         {
           "source": "Farol da Bahia",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSl9iYWdfSHZyRktscjNDNE1kckZQSmk3NmE0dUhENDdySC1mUFZldTlqMGVYT0w0OEpJYkNxVFoteGRiMUE3S3lUU3NmLVd1M2tMUWp4Q1JuRVI0c01XblBNSmxCVGVnTGZBUFVwME8xTmJBRjNqRkdhZmNYejJRaElscTltRUFMWGxqd0tCaVl4TGdyNkR5aXJBcklmbW9jU21JTjJhaUpHZlRaajVTR2RQa1lOclRQd2JGSEhn?oc=5",
           "headline": "BR-324 deve ser totalmente interditada por quatro dias para obras em Simões Filho - Farol da Bahia",
           "date": "2026-11-03T19:30:00Z"
+        }
+      ]
+    },
+    "a5dc1a378cd7bc805995556f": {
+      "active": true,
+      "event_id": "a5dc1a378cd7bc805995556f",
+      "stable_event_id": "a5dc1a378cd7bc805995556f",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada por duas horas nesta terça-feira (3) no ES; veja onde - Folha do ES.  Período informado: 2026-11-03T03:00:00Z até 2026-11-04T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Folha do ES",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1lYUi1SbVdPYktuOG45bWNKVTJSQm1oR3cxVUVqaXJpMC10Y0dGYmgzMTJxMWM2M01zTmFpUGdpLVFySzhLd2k2cTZrYUhDeWxLNUZoYmVZOUt2VHljdHVfcnZNVVVlY2gwZkZvNDhJRVpnNkQ3d0JxNzNaTDdmcEhVY01DeFBh?oc=5",
+      "headline": "BR-101 será totalmente interditada por duas horas nesta terça-feira (3) no ES; veja onde - Folha do ES",
+      "newsDate": "2026-11-03T14:25:06Z",
+      "plannedStartAt": "2026-11-03T03:00:00Z",
+      "plannedEndAt": "2026-11-04T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "active_planned_closure",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-04T02:27:49Z",
+      "sources": [
+        {
+          "source": "Folha do ES",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1lYUi1SbVdPYktuOG45bWNKVTJSQm1oR3cxVUVqaXJpMC10Y0dGYmgzMTJxMWM2M01zTmFpUGdpLVFySzhLd2k2cTZrYUhDeWxLNUZoYmVZOUt2VHljdHVfcnZNVVVlY2gwZkZvNDhJRVpnNkQ3d0JxNzNaTDdmcEhVY01DeFBh?oc=5",
+          "headline": "BR-101 será totalmente interditada por duas horas nesta terça-feira (3) no ES; veja onde - Folha do ES",
+          "date": "2026-11-03T14:25:06Z"
+        }
+      ]
+    },
+    "0aea12c08946d6dfdd0ac3e9": {
+      "active": true,
+      "event_id": "0aea12c08946d6dfdd0ac3e9",
+      "stable_event_id": "0aea12c08946d6dfdd0ac3e9",
+      "name": "Interdição planejada por notícia pública • BR-324",
+      "road": "BR-324",
+      "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -12.977,
+      "lon": -38.501,
+      "city": "Salvador",
+      "state": "BA",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-324 é totalmente interditada após cratera em Simões Filho - Massa - Portal Massa.  Período informado: 2026-11-03T23:06:49Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Portal Massa",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzZRdnBQNkswVWlFb21OdFZjbFlKa3M0QVZJTzIyR1M4LTFhSEJtYmxpRVdscEN3QmhObEtjUTQwV0lFSTR3Rk1ReTFLYVBoSHZoWWJQZ290bUY0c19GeU14T3NTcEFuQmZhOGVaY2tZVnpKWVlCcUZEVktjSEstb2NqNWhuVHh4SXdFVmNkRFZEU1JSdzFzcG9uOHJYMXJ3RzVFMzF30gGuAUFVX3lxTE90alFmbHF6OUNRekl0aTdMNHNXVzRUZE00SU9hY2Nlay1BRWNycHl2UkhSOWhkWUpYSUZXSVdQV3U1UzlsbEt6Z0FrMDV2RHRhakVmTHFVRUQ4bFVETERhVWRNUjBzcFpmVWJqUk1MZVNodlRSak42UzVWWEljcTEyZWx2WkhraFMydEZjalRDNmZ6ak82RHhKbHdNMU9UMVVETDVUYkdXOGpLWm92QQ?oc=5",
+      "headline": "BR-324 é totalmente interditada após cratera em Simões Filho - Massa - Portal Massa",
+      "newsDate": "2026-11-03T23:06:49Z",
+      "plannedStartAt": "2026-11-03T23:06:49Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-04T02:27:49Z",
+      "sources": [
+        {
+          "source": "Portal Massa",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzZRdnBQNkswVWlFb21OdFZjbFlKa3M0QVZJTzIyR1M4LTFhSEJtYmxpRVdscEN3QmhObEtjUTQwV0lFSTR3Rk1ReTFLYVBoSHZoWWJQZ290bUY0c19GeU14T3NTcEFuQmZhOGVaY2tZVnpKWVlCcUZEVktjSEstb2NqNWhuVHh4SXdFVmNkRFZEU1JSdzFzcG9uOHJYMXJ3RzVFMzF30gGuAUFVX3lxTE90alFmbHF6OUNRekl0aTdMNHNXVzRUZE00SU9hY2Nlay1BRWNycHl2UkhSOWhkWUpYSUZXSVdQV3U1UzlsbEt6Z0FrMDV2RHRhakVmTHFVRUQ4bFVETERhVWRNUjBzcFpmVWJqUk1MZVNodlRSak42UzVWWEljcTEyZWx2WkhraFMydEZjalRDNmZ6ak82RHhKbHdNMU9UMVVETDVUYkdXOGpLWm92QQ?oc=5",
+          "headline": "BR-324 é totalmente interditada após cratera em Simões Filho - Massa - Portal Massa",
+          "date": "2026-11-03T23:06:49Z"
         }
       ]
     }
