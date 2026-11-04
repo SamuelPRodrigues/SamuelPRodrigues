@@ -14,7 +14,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 segue totalmente interditada em Vargem - RBA TV. Período informado: 2026-11-04T16:45:01Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-04T16:45:01Z; ativo há 49 min.",
+    "description": "BR-282 segue totalmente interditada em Vargem - RBA TV. Período informado: 2026-11-04T16:45:01Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-04T16:45:01Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,9 +44,11 @@
     "newsFreshnessHours": 0.82,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T16:45:01Z",
-    "last_seen_at": "2026-11-04T17:34:21Z",
-    "active_duration_hours": 0.82,
-    "active_duration_label": "49 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "last_seen_at": "2026-11-04T17:46:09Z",
+    "active_duration_hours": 1.02,
+    "active_duration_label": "1.0 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f0f564ae6c051fd3c234afc2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
