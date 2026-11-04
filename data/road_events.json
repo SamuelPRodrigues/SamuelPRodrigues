@@ -14,7 +14,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-050 em Araguari é totalmente interditada após incêndio em carreta com medicamentos - Patos em Destaque. Período informado: 2026-11-04T19:41:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Patos em Destaque; Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-04T19:41:00Z; ativo há 3.1 h.",
+    "description": "BR-050 em Araguari é totalmente interditada após incêndio em carreta com medicamentos - Patos em Destaque. Período informado: 2026-11-04T19:41:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Patos em Destaque; Notícias públicas - Paranaíba Mais. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-04T19:41:00Z; ativo há 3.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -50,10 +50,12 @@
     "newsFreshnessHours": 3.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T19:41:00Z",
-    "last_seen_at": "2026-11-04T22:49:46Z",
+    "last_seen_at": "2026-11-04T22:50:01Z",
     "active_duration_hours": 3.15,
     "active_duration_label": "3.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "424b505236b0edf455aa7297",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -70,7 +72,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEO: BR-282 em Vargem é totalmente interditada após rompimento da pista - Oeste Mais. Período informado: 2026-11-04T18:34:56Z até fim não identificado. Fontes consolidadas: Oeste Mais; Notícias públicas - Canal Ideal; Notícias públicas - Jornal A Semana; Notícias públicas - Rádio Araguaia; Portal TN Sul; Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-04T18:34:56Z; ativo há 4.2 h.",
+    "description": "VÍDEO: BR-282 em Vargem é totalmente interditada após rompimento da pista - Oeste Mais. Período informado: 2026-11-04T18:34:56Z até fim não identificado. Fontes consolidadas: Oeste Mais; Notícias públicas - Canal Ideal; Notícias públicas - Jornal A Semana; Notícias públicas - Rádio Araguaia; Portal TN Sul; Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-04T18:34:56Z; ativo há 4.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -130,9 +132,11 @@
     "newsFreshnessHours": 4.25,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T18:34:56Z",
-    "last_seen_at": "2026-11-04T22:49:46Z",
+    "last_seen_at": "2026-11-04T22:50:01Z",
     "active_duration_hours": 4.25,
     "active_duration_label": "4.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "10fa9c27322925542e02c6ca",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
