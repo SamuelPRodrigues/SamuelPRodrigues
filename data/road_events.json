@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada para içamento de vigas em Paulo Lopes. Fontes consolidadas: Notícias públicas - Portal TN Sul. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-04T22:00:00Z; ativo há 11.9 h.",
+    "description": "BR-101 será interditada para içamento de vigas em Paulo Lopes. Fontes consolidadas: Notícias públicas - Portal TN Sul. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-04T22:00:00Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 11.93,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T22:00:00Z",
-    "last_seen_at": "2026-11-05T09:56:04Z",
-    "active_duration_hours": 11.93,
+    "last_seen_at": "2026-11-05T09:56:20Z",
+    "active_duration_hours": 11.94,
     "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c5949e6a5ed06141d98c4543",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ônibus pega fogo na BR-364 em Cuiabá e tráfego fica interditado por quase três horas - Notícia Exata. Fontes consolidadas: Notícias públicas - Notícia Exata. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-05T08:53:42Z; ativo há 1.0 h.",
+    "description": "Ônibus pega fogo na BR-364 em Cuiabá e tráfego fica interditado por quase três horas - Notícia Exata. Fontes consolidadas: Notícias públicas - Notícia Exata. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-05T08:53:42Z; ativo há 1.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +82,14 @@
     "newsFreshnessHours": 1.04,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-05T08:53:42Z",
-    "last_seen_at": "2026-11-05T09:56:04Z",
+    "last_seen_at": "2026-11-05T09:56:20Z",
     "active_duration_hours": 1.04,
     "active_duration_label": "1.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7fbd8ff5ac32d913be9c49e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +101,7 @@
     "lat": -30.034,
     "lon": -51.217,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Forte chuva faz pista ceder na RS-463, entre Tapejara e Vila Lângaro e trecho é bloqueado; confira rotas alternativas - GZH. Fontes consolidadas: Notícias públicas - GZH. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-05T00:24:28Z; ativo há 9.5 h.",
+    "description": "Forte chuva faz pista ceder na RS-463, entre Tapejara e Vila Lângaro e trecho é bloqueado; confira rotas alternativas - GZH. Fontes consolidadas: Notícias públicas - GZH. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-05T00:24:28Z; ativo há 9.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -124,13 +128,15 @@
     "newsFreshnessHours": 9.53,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-05T00:24:28Z",
-    "last_seen_at": "2026-11-05T09:56:04Z",
+    "last_seen_at": "2026-11-05T09:56:20Z",
     "active_duration_hours": 9.53,
     "active_duration_label": "9.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "RS-463"
+    "detectedRoad": "RS-463",
+    "news_signature": "832c7788745c76af91f2d9d4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +153,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEO! Trecho da BR-282 “parte ao meio” após chuva e deixa rodovia totalmente interditada em Santa Catarina - Banda B. Período informado: 2026-11-04T23:51:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Oeste Mais; Notícias públicas - WH3; Notícias públicas - Jornal A Semana; Notícias públicas - Canal Ideal; Notícias públicas - Rádio Araguaia; +2 fonte(s). Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-04T23:51:00Z; ativo há 10.1 h.",
+    "description": "VÍDEO! Trecho da BR-282 “parte ao meio” após chuva e deixa rodovia totalmente interditada em Santa Catarina - Banda B. Período informado: 2026-11-04T23:51:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B; Oeste Mais; Notícias públicas - WH3; Notícias públicas - Jornal A Semana; Notícias públicas - Canal Ideal; Notícias públicas - Rádio Araguaia; +2 fonte(s). Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-04T23:51:00Z; ativo há 10.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -219,9 +225,11 @@
     "newsFreshnessHours": 10.08,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T23:51:00Z",
-    "last_seen_at": "2026-11-05T09:56:04Z",
-    "active_duration_hours": 10.08,
+    "last_seen_at": "2026-11-05T09:56:20Z",
+    "active_duration_hours": 10.09,
     "active_duration_label": "10.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "aca982a842405f3e3ea7212c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
