@@ -9,7 +9,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 44 min.",
+    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 45 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.74,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T14:58:15Z",
-    "last_seen_at": "2026-11-07T15:42:43Z",
-    "active_duration_hours": 0.74,
-    "active_duration_label": "44 min",
+    "last_seen_at": "2026-11-07T15:42:58Z",
+    "active_duration_hours": 0.75,
+    "active_duration_label": "45 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d32e6623c8c31ce37e673d08",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 3.7 h.",
+    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 3.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,13 +82,15 @@
     "newsFreshnessHours": 3.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T12:01:00Z",
-    "last_seen_at": "2026-11-07T15:42:43Z",
+    "last_seen_at": "2026-11-07T15:42:58Z",
     "active_duration_hours": 3.7,
     "active_duration_label": "3.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-350"
+    "detectedRoad": "SC-350",
+    "news_signature": "9d5411733ce82421dd9deef7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +102,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 4.0 h.",
+    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 4.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,12 +129,14 @@
     "newsFreshnessHours": 4.05,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T11:39:34Z",
-    "last_seen_at": "2026-11-07T15:42:43Z",
-    "active_duration_hours": 4.05,
-    "active_duration_label": "4.0 h",
+    "last_seen_at": "2026-11-07T15:42:58Z",
+    "active_duration_hours": 4.06,
+    "active_duration_label": "4.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "41eec244bcad7ba2551c0448",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -147,7 +153,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEO: BR-282 é totalmente interditada após fortes chuvas provocarem alagamento em SC – Araguaia 104,5 FM - Rádio Araguaia. Período informado: 2026-11-07T10:32:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-07T10:32:10Z; ativo há 5.2 h.",
+    "description": "VÍDEO: BR-282 é totalmente interditada após fortes chuvas provocarem alagamento em SC – Araguaia 104,5 FM - Rádio Araguaia. Período informado: 2026-11-07T10:32:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-07T10:32:10Z; ativo há 5.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -177,10 +183,12 @@
     "newsFreshnessHours": 5.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T10:32:10Z",
-    "last_seen_at": "2026-11-07T15:42:43Z",
+    "last_seen_at": "2026-11-07T15:42:58Z",
     "active_duration_hours": 5.18,
     "active_duration_label": "5.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f71105522e715121fc11b470",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -197,7 +205,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada na Paraíba para implosão de ponte sobre o Rio Paraíba - Estação Notícias. Período informado: 2026-11-07T08:01:00Z até fim não identificado. Fontes consolidadas: Estação Notícias; Notícias públicas - Portal Ponto PB; Notícias públicas - Polêmica Paraíba. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-07T08:01:00Z; ativo há 7.7 h.",
+    "description": "BR-101 será totalmente interditada na Paraíba para implosão de ponte sobre o Rio Paraíba - Estação Notícias. Período informado: 2026-11-07T08:01:00Z até fim não identificado. Fontes consolidadas: Estação Notícias; Notícias públicas - Portal Ponto PB; Notícias públicas - Polêmica Paraíba. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-07T08:01:00Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -239,9 +247,11 @@
     "newsFreshnessHours": 7.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T08:01:00Z",
-    "last_seen_at": "2026-11-07T15:42:43Z",
+    "last_seen_at": "2026-11-07T15:42:58Z",
     "active_duration_hours": 7.7,
     "active_duration_label": "7.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f8bbf7c947227d3dac23c9fa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
