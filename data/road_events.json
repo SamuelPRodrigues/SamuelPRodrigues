@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-324",
+    "road": "BR-324",
+    "corridor": "Salvador • BR-324 / BR-101 / BA-099",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.977,
+    "lon": -38.501,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br. Fontes consolidadas: Notícias públicas - www.portalabrantes.com.br. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-07T16:35:00Z; ativo há 3.1 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - www.portalabrantes.com.br",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVhndUQxcGNmUVFKc2dQME8tODdKaEtVcjVIR0ZibXotUjVsQ2lidUhnaGpYZ0g3aFlSZFdEUUpGaWFFc2N2dFdpbWpoa3JFSnlYaTJpckM1VHQ4b04tb25FNnZBQzQ5T2RPQWh4TUdJNTlENVF2bDJ0blNUU0FVdElmUEpnSGg0OWtDODNKNU9rbWF6cWNVTGxWdw",
+    "headline": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br",
+    "newsDate": "Sat, 07 Nov 2026 16:35:00 GMT",
+    "updatedAt": "2026-11-07T19:39:05Z",
+    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVhndUQxcGNmUVFKc2dQME8tODdKaEtVcjVIR0ZibXotUjVsQ2lidUhnaGpYZ0g3aFlSZFdEUUpGaWFFc2N2dFdpbWpoa3JFSnlYaTJpckM1VHQ4b04tb25FNnZBQzQ5T2RPQWh4TUdJNTlENVF2bDJ0blNUU0FVdElmUEpnSGg0OWtDODNKNU9rbWF6cWNVTGxWdw",
+    "sources": [
+      {
+        "source": "Notícias públicas - www.portalabrantes.com.br",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVhndUQxcGNmUVFKc2dQME8tODdKaEtVcjVIR0ZibXotUjVsQ2lidUhnaGpYZ0g3aFlSZFdEUUpGaWFFc2N2dFdpbWpoa3JFSnlYaTJpckM1VHQ4b04tb25FNnZBQzQ5T2RPQWh4TUdJNTlENVF2bDJ0blNUU0FVdElmUEpnSGg0OWtDODNKNU9rbWF6cWNVTGxWdw",
+        "headline": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br",
+        "date": "Sat, 07 Nov 2026 16:35:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "1121e79c3969219b259102e2",
+    "event_id": "1121e79c3969219b259102e2",
+    "newsFreshnessHours": 3.09,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-07T16:35:00Z",
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 3.09,
+    "active_duration_label": "3.1 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-470",
     "road": "BR-470",
     "corridor": "Blumenau • BR-470",
@@ -9,7 +53,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 45 min.",
+    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQak1aZXo4eHdOX1ZuRmZkQXZUYXJfcHZxMk5KYVpOVnkyelRJU3h4WFBBRTg0MF9XSEd5Z1hLWmt1blh6SWc5Skh1X3BmZG9RY1J1OTZ6Q3dHY3duVUk2Wk5YeVItSkM4T3gydHppRVM3RmYwS0pkRkU2NVlkbW0zZ01nSy1sWWZrZ3FEUFBvWDhYUlNpZndnODZBTjJBLUxCZ1c0cjNVUUpiRkdPblZ6MWoyeTdBUWlDZ0JTZVJUdHFZYUlvZS1kdm96WGZiQ1pHWnN1aHRR",
     "headline": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais",
     "newsDate": "Sat, 07 Nov 2026 14:58:15 GMT",
-    "updatedAt": "2026-11-07T15:41:28Z",
+    "updatedAt": "2026-11-07T19:39:05Z",
     "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQak1aZXo4eHdOX1ZuRmZkQXZUYXJfcHZxMk5KYVpOVnkyelRJU3h4WFBBRTg0MF9XSEd5Z1hLWmt1blh6SWc5Skh1X3BmZG9RY1J1OTZ6Q3dHY3duVUk2Wk5YeVItSkM4T3gydHppRVM3RmYwS0pkRkU2NVlkbW0zZ01nSy1sWWZrZ3FEUFBvWDhYUlNpZndnODZBTjJBLUxCZ1c0cjNVUUpiRkdPblZ6MWoyeTdBUWlDZ0JTZVJUdHFZYUlvZS1kdm96WGZiQ1pHWnN1aHRR",
     "sources": [
       {
@@ -33,17 +77,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "072aa7006c3703d16abb02cf",
     "event_id": "072aa7006c3703d16abb02cf",
-    "newsFreshnessHours": 0.74,
+    "newsFreshnessHours": 4.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T14:58:15Z",
-    "last_seen_at": "2026-11-07T15:42:58Z",
-    "active_duration_hours": 0.75,
-    "active_duration_label": "45 min",
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 4.7,
+    "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "d32e6623c8c31ce37e673d08",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -55,7 +97,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 3.7 h.",
+    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -64,7 +106,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTBkRVljRjRDdzJpRFZ5TWNMQjdUdGhTUVJidjU5ZkZybFVMNjlSdUVDYjV0eV9yQnI2THNWWl9TMXQ4VjRKWmZWVG9DSUR3RnoxVVA2Rlk0WTd5akpQLUZHMXp4NTZ3VE5NOHcyZk84X09JaWRCMXkxdlBWZGNOalpSemU0RnE4aVNxLTZwazlXd3lUUEotUTBJOHRfNkVjbGdGd2J3dDNGSjZi",
     "headline": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino",
     "newsDate": "Sat, 07 Nov 2026 12:01:00 GMT",
-    "updatedAt": "2026-11-07T15:41:28Z",
+    "updatedAt": "2026-11-07T19:39:05Z",
     "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTBkRVljRjRDdzJpRFZ5TWNMQjdUdGhTUVJidjU5ZkZybFVMNjlSdUVDYjV0eV9yQnI2THNWWl9TMXQ4VjRKWmZWVG9DSUR3RnoxVVA2Rlk0WTd5akpQLUZHMXp4NTZ3VE5NOHcyZk84X09JaWRCMXkxdlBWZGNOalpSemU0RnE4aVNxLTZwazlXd3lUUEotUTBJOHRfNkVjbGdGd2J3dDNGSjZi",
     "sources": [
       {
@@ -79,18 +121,16 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "19e955605ae4d121e7664473",
     "event_id": "19e955605ae4d121e7664473",
-    "newsFreshnessHours": 3.7,
+    "newsFreshnessHours": 7.66,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T12:01:00Z",
-    "last_seen_at": "2026-11-07T15:42:58Z",
-    "active_duration_hours": 3.7,
-    "active_duration_label": "3.7 h",
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 7.66,
+    "active_duration_label": "7.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-350",
-    "news_signature": "9d5411733ce82421dd9deef7",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "detectedRoad": "SC-350"
   },
   {
     "active": true,
@@ -102,7 +142,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 4.1 h.",
+    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -111,7 +151,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNEo4dzRNeHp2bkVWYjRVdEhwemE4WjAxX3J1MlJnTEw3cWh0aGw3c1MtU1h3aTJnWHFTRDlodUdtaUlVRlZPSEg4T2FDWnpmWmlLN21HcHJUT2tNZ1RhTEdVcXl3SWxQRzY1LXd0VVlYUVFtMTJpeEVicDJ4TkhvWUQ0Y2c4STJORnpiaWV6MThObmp2ZWUtX2J6dkNrVWdzbUUwOWNWSE9ROE1vQWFRSg",
     "headline": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas",
     "newsDate": "Sat, 07 Nov 2026 11:39:34 GMT",
-    "updatedAt": "2026-11-07T15:41:28Z",
+    "updatedAt": "2026-11-07T19:39:05Z",
     "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNEo4dzRNeHp2bkVWYjRVdEhwemE4WjAxX3J1MlJnTEw3cWh0aGw3c1MtU1h3aTJnWHFTRDlodUdtaUlVRlZPSEg4T2FDWnpmWmlLN21HcHJUT2tNZ1RhTEdVcXl3SWxQRzY1LXd0VVlYUVFtMTJpeEVicDJ4TkhvWUQ0Y2c4STJORnpiaWV6MThObmp2ZWUtX2J6dkNrVWdzbUUwOWNWSE9ROE1vQWFRSg",
     "sources": [
       {
@@ -126,17 +166,15 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "759ba898ef157c8af7cfa951",
     "event_id": "759ba898ef157c8af7cfa951",
-    "newsFreshnessHours": 4.05,
+    "newsFreshnessHours": 8.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T11:39:34Z",
-    "last_seen_at": "2026-11-07T15:42:58Z",
-    "active_duration_hours": 4.06,
-    "active_duration_label": "4.1 h",
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 8.01,
+    "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "41eec244bcad7ba2551c0448",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -153,7 +191,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEO: BR-282 é totalmente interditada após fortes chuvas provocarem alagamento em SC – Araguaia 104,5 FM - Rádio Araguaia. Período informado: 2026-11-07T10:32:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-07T10:32:10Z; ativo há 5.2 h.",
+    "description": "VÍDEO: BR-282 é totalmente interditada após fortes chuvas provocarem alagamento em SC – Araguaia 104,5 FM - Rádio Araguaia. Período informado: 2026-11-07T10:32:10Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-07T10:32:10Z; ativo há 9.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -167,7 +205,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-11-07T15:41:30Z",
+    "updatedAt": "2026-11-07T19:39:07Z",
     "sources": [
       {
         "source": "Notícias públicas - Rádio Araguaia",
@@ -180,15 +218,13 @@
     "sourceCount": 1,
     "dedupedFrom": 1,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 5.18,
+    "newsFreshnessHours": 9.14,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T10:32:10Z",
-    "last_seen_at": "2026-11-07T15:42:58Z",
-    "active_duration_hours": 5.18,
-    "active_duration_label": "5.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "f71105522e715121fc11b470",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 9.14,
+    "active_duration_label": "9.1 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -205,7 +241,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada na Paraíba para implosão de ponte sobre o Rio Paraíba - Estação Notícias. Período informado: 2026-11-07T08:01:00Z até fim não identificado. Fontes consolidadas: Estação Notícias; Notícias públicas - Portal Ponto PB; Notícias públicas - Polêmica Paraíba. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-07T08:01:00Z; ativo há 7.7 h.",
+    "description": "BR-101 será totalmente interditada na Paraíba para implosão de ponte sobre o Rio Paraíba - Estação Notícias. Período informado: 2026-11-07T08:01:00Z até fim não identificado. Fontes consolidadas: Estação Notícias; Notícias públicas - Portal Ponto PB; Notícias públicas - Polêmica Paraíba. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-07T08:01:00Z; ativo há 11.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -219,7 +255,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-11-07T15:41:30Z",
+    "updatedAt": "2026-11-07T19:39:07Z",
     "sources": [
       {
         "source": "Estação Notícias",
@@ -244,14 +280,12 @@
     "sourceCount": 3,
     "dedupedFrom": 3,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 7.7,
+    "newsFreshnessHours": 11.66,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T08:01:00Z",
-    "last_seen_at": "2026-11-07T15:42:58Z",
-    "active_duration_hours": 7.7,
-    "active_duration_label": "7.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "f8bbf7c947227d3dac23c9fa",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-11-07T19:40:20Z",
+    "active_duration_hours": 11.66,
+    "active_duration_label": "11.7 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
