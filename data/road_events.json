@@ -9,7 +9,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br. Fontes consolidadas: Notícias públicas - www.portalabrantes.com.br. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-07T16:35:00Z; ativo há 6.5 h.",
+    "description": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br. Fontes consolidadas: Notícias públicas - www.portalabrantes.com.br. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-07T16:35:00Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 6.53,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T16:35:00Z",
-    "last_seen_at": "2026-11-07T23:06:57Z",
-    "active_duration_hours": 6.53,
+    "last_seen_at": "2026-11-07T23:07:12Z",
+    "active_duration_hours": 6.54,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2df22e9b55efdda9c86af7e7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 8.1 h.",
+    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.2 h.1 h. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,11 +83,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T14:58:15Z",
     "last_seen_at": "2026-11-07T23:06:57Z",
-    "active_duration_hours": 8.14,
-    "active_duration_label": "8.1 h",
+    "active_duration_hours": 8.15,
+    "active_duration_label": "8.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T23:06:57Z",
+    "news_signature": "d32e6623c8c31ce37e673d08",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +102,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 11.1 h.",
+    "description": "Queda de barreira deixa SC-350 em meia pista entre Rio do Sul e Laurentino. Fontes consolidadas: Notícias públicas - Portal GCD. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-07T12:01:00Z; ativo há 11.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -128,9 +133,12 @@
     "active_duration_hours": 11.1,
     "active_duration_label": "11.1 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-350"
+    "detectedRoad": "SC-350",
+    "last_confirmed_at": "2026-11-07T23:06:57Z",
+    "news_signature": "9d5411733ce82421dd9deef7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -142,7 +150,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 11.5 h.",
+    "description": "Serra das Araras terá interdição total da pista de descida na Via Dutra, neste sábado (7) - Estradas. Fontes consolidadas: Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-07T11:39:34Z; ativo há 11.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -173,7 +181,10 @@
     "active_duration_hours": 11.46,
     "active_duration_label": "11.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T23:06:57Z",
+    "news_signature": "41eec244bcad7ba2551c0448",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
