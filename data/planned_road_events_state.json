@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T02:52:02Z",
+  "updatedAt": "2026-11-07T09:18:50Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7245,7 +7245,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-07T02:52:02Z",
+      "updatedAt": "2026-11-07T09:18:50Z",
       "sources": [
         {
           "source": "Portal Diário do RN",
@@ -7323,7 +7323,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-07T02:52:02Z",
+      "updatedAt": "2026-11-07T09:18:50Z",
       "sources": [
         {
           "source": "Portal Gazeta RN",
@@ -7362,7 +7362,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-07T02:52:02Z",
+      "updatedAt": "2026-11-07T09:18:50Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7401,7 +7401,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-07T02:52:02Z",
+      "updatedAt": "2026-11-07T09:18:50Z",
       "sources": [
         {
           "source": "Terra Brasil Notícias",
@@ -7447,6 +7447,45 @@
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQUdfYUZhbmpMVm5idlllOXFLOUgwakx5SHR3ekdZVlpiZ3NoUkxFZ18wS0h3RVhTNXlnT3lYRlUzOGVxNHdDX29KaEhKYk1zN3dScFBVVk56ZGZzRWtTN1l6VzY2cjVjNHdxVUhSN0pEVF9VbF9qcldwX3BPOXN3dk9xYVBlTlBQSS1CN216YjRIT202WXlQeWpNbzNrZ3Y3X3dLMDR4eVp2eXhKVHBWdDE0SExHaTlOOTlsVmZZalozQzZTOWsxMDc5ODJ5VVltaDBKT3FtOTljcm9vOUhNNWZfVHpVQmJIakE?oc=5",
           "headline": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa - Grande Ponto",
           "date": "2026-11-06T20:45:00Z"
+        }
+      ]
+    },
+    "0ec65dc794a0d794ad757557": {
+      "active": true,
+      "event_id": "0ec65dc794a0d794ad757557",
+      "stable_event_id": "0ec65dc794a0d794ad757557",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada neste domingo para implosão de ponte sobre o Rio Paraíba, em Santa Rita - Portal Ponto PB.  Período informado: 2026-11-07T01:06:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Portal Ponto PB",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNbnhIcDh3ZkJidURtSWN1S2VObVdjcUJyd21oOERIVjRKZ2tUcTVQSVB4Y1puNVYyUkx1a2hiTV9vWFFnVThrckhUY0VoRlpHR0stbzZKMmVuT0lJZ1UyX1B1Y29Ca1lwQXpHa1NzSGNXQXB6STFVckdDMWJRdWwwR0JlRzBuaUd4RzdBRGhONHNPTW5PM1BGMmtENDlzRWNUV21BQ1pqWjVMYjlpTERhMHFFZkstcXZPVVdKRF9MeGhGZ2VxanlFUzRXcGRUZHNBa1ZvdUFablk4UERrMWZQanBZdEdsYU1BUjBfVFdhMjQzc3I0RVE?oc=5",
+      "headline": "BR-101 será totalmente interditada neste domingo para implosão de ponte sobre o Rio Paraíba, em Santa Rita - Portal Ponto PB",
+      "newsDate": "2026-11-07T01:06:00Z",
+      "plannedStartAt": "2026-11-07T01:06:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-07T09:18:50Z",
+      "sources": [
+        {
+          "source": "Portal Ponto PB",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNbnhIcDh3ZkJidURtSWN1S2VObVdjcUJyd21oOERIVjRKZ2tUcTVQSVB4Y1puNVYyUkx1a2hiTV9vWFFnVThrckhUY0VoRlpHR0stbzZKMmVuT0lJZ1UyX1B1Y29Ca1lwQXpHa1NzSGNXQXB6STFVckdDMWJRdWwwR0JlRzBuaUd4RzdBRGhONHNPTW5PM1BGMmtENDlzRWNUV21BQ1pqWjVMYjlpTERhMHFFZkstcXZPVVdKRF9MeGhGZ2VxanlFUzRXcGRUZHNBa1ZvdUFablk4UERrMWZQanBZdEdsYU1BUjBfVFdhMjQzc3I0RVE?oc=5",
+          "headline": "BR-101 será totalmente interditada neste domingo para implosão de ponte sobre o Rio Paraíba, em Santa Rita - Portal Ponto PB",
+          "date": "2026-11-07T01:06:00Z"
         }
       ]
     }
