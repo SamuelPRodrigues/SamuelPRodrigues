@@ -1,13 +1,27 @@
 {
-  "updatedAt": "2026-11-07T19:40:20Z",
+  "updatedAt": "2026-11-07T23:06:57Z",
   "lookbackHours": 12.0,
   "inputEvents": 113,
-  "keptEvents": 6,
-  "removedEvents": 107,
+  "keptEvents": 4,
+  "removedEvents": 109,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-282",
+      "road": "BR-282",
+      "source": "Notícias públicas - Rádio Araguaia",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-11-07T10:32:10Z"
+    },
+    {
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "source": "Estação Notícias + 2 fonte(s)",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-11-07T08:01:00Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-101",
       "road": "BR-101",
@@ -168,20 +182,6 @@
       "source": "Tribuna Online + 2 fonte(s)",
       "reason": "public_news_older_than_12h",
       "date": "2026-10-20T13:07:30Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-262",
-      "road": "BR-262",
-      "source": "G1",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-10-19T14:01:11Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-251",
-      "road": "BR-251",
-      "source": "G1",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-10-19T09:59:21Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
