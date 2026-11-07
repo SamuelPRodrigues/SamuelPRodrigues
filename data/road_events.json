@@ -9,7 +9,7 @@
     "lat": -22.536,
     "lon": -55.725,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso ao Aeroporto de Dourados pela BR-463 será interditado no domingo - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-06T19:09:37Z; ativo há 7.7 h.",
+    "description": "Acesso ao Aeroporto de Dourados pela BR-463 será interditado no domingo - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-06T19:09:37Z; ativo há 7.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -40,8 +40,11 @@
     "active_duration_hours": 7.71,
     "active_duration_label": "7.7 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T02:52:02Z",
+    "news_signature": "825e0e818ea70eb4b36a5046",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +56,7 @@
     "lat": -12.152,
     "lon": -44.99,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão tomba na BR-135 e deixa pista parcialmente interditada em Barreiras - Fala Oeste. Fontes consolidadas: Notícias públicas - Fala Oeste. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-06T19:01:14Z; ativo há 7.8 h.",
+    "description": "Caminhão tomba na BR-135 e deixa pista parcialmente interditada em Barreiras - Fala Oeste. Fontes consolidadas: Notícias públicas - Fala Oeste. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-06T19:01:14Z; ativo há 7.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -84,8 +87,11 @@
     "active_duration_hours": 7.85,
     "active_duration_label": "7.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T02:52:02Z",
+    "news_signature": "fec25c72d63edcc19cc7e61c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +103,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 fica interditada após carreta pegar fogo. Fontes consolidadas: Notícias públicas - Portal Abrantes. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-06T17:57:00Z; ativo há 8.9 h.",
+    "description": "BR-324 fica interditada após carreta pegar fogo. Fontes consolidadas: Notícias públicas - Portal Abrantes. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-06T17:57:00Z; ativo há 8.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -124,12 +130,14 @@
     "newsFreshnessHours": 8.88,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-06T17:57:00Z",
-    "last_seen_at": "2026-11-07T02:52:02Z",
+    "last_seen_at": "2026-11-07T02:52:23Z",
     "active_duration_hours": 8.92,
     "active_duration_label": "8.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fcb60db0989a019dc5015fd6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +149,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho na BR 101 será interditado para imploisão. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do ES; Notícias públicas - RN News; Notícias públicas - Terra; Notícias públicas - R7; Notícias públicas - Portal Engeplus; +11 fonte(s). Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-06T16:42:10Z; ativo há 10.2 h.",
+    "description": "Trecho na BR 101 será interditado para imploisão. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha do ES; Notícias públicas - RN News; Notícias públicas - Terra; Notícias públicas - R7; Notícias públicas - Portal Engeplus; +11 fonte(s). Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-06T16:42:10Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -270,12 +278,14 @@
     "newsFreshnessHours": 10.16,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-06T16:42:10Z",
-    "last_seen_at": "2026-11-07T02:52:02Z",
-    "active_duration_hours": 10.16,
+    "last_seen_at": "2026-11-07T02:52:23Z",
+    "active_duration_hours": 10.17,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "79ff04e635ce0e02bf6ae201",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -292,7 +302,7 @@
     "state": "PB",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa - Grande Ponto. Período informado: 2026-11-06T20:45:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Grande Ponto. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-06T20:45:00Z; ativo há 6.1 h.",
+    "description": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa - Grande Ponto. Período informado: 2026-11-06T20:45:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Grande Ponto. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-06T20:45:00Z; ativo há 6.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -305,7 +315,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-07T02:50:49Z",
     "sources": [
       {
@@ -325,7 +335,10 @@
     "last_seen_at": "2026-11-07T02:52:02Z",
     "active_duration_hours": 6.12,
     "active_duration_label": "6.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T02:52:02Z",
+    "news_signature": "4c3e21a4b8fe40460883a13b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -342,7 +355,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Trecho BR-101 será totalmente interditado para implosão de ponte sobre o Rio Paraíba, em Santa Rita - Grupo Jota Sidney. Período informado: 2026-11-06T16:15:23Z até fim não identificado. Fontes consolidadas: Notícias públicas - Grupo Jota Sidney; Notícias públicas - G1; Notícias públicas - radiocidadesc.com.br; Notícias públicas - pb agora; Notícias públicas - Fonte 83; Notícias públicas - WSCOM; +1 fonte(s). Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-06T16:15:23Z; ativo há 10.6 h.",
+    "description": "Trecho BR-101 será totalmente interditado para implosão de ponte sobre o Rio Paraíba, em Santa Rita - Grupo Jota Sidney. Período informado: 2026-11-06T16:15:23Z até fim não identificado. Fontes consolidadas: Notícias públicas - Grupo Jota Sidney; Notícias públicas - G1; Notícias públicas - radiocidadesc.com.br; Notícias públicas - pb agora; Notícias públicas - Fonte 83; Notícias públicas - WSCOM; +1 fonte(s). Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-06T16:15:23Z; ativo há 10.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -355,7 +368,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-07T02:50:49Z",
     "sources": [
       {
@@ -409,8 +422,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-06T16:15:23Z",
     "last_seen_at": "2026-11-07T02:52:02Z",
-    "active_duration_hours": 10.61,
+    "active_duration_hours": 10.62,
     "active_duration_label": "10.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-07T02:52:02Z",
+    "news_signature": "b45990f3120e33db579b38b2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
