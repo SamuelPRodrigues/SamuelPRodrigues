@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Pista de descida da serra das Araras tem interdição total para obras na Via Dutra - Folha de S.Paulo. Fontes consolidadas: Notícias públicas - Folha de S.Paulo; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-08T01:56:00Z; ativo há 7.2 h.",
+    "description": "Pista de descida da serra das Araras tem interdição total para obras na Via Dutra - Folha de S.Paulo. Fontes consolidadas: Notícias públicas - Folha de S.Paulo; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-08T01:56:00Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 7.18,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-08T01:56:00Z",
-    "last_seen_at": "2026-11-08T09:06:49Z",
+    "last_seen_at": "2026-11-08T09:07:01Z",
     "active_duration_hours": 7.18,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2eb3b178b480da4860c6716b",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +66,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "VÍDEO! Trecho da BR-282 “parte ao meio” após chuva e deixa rodovia totalmente interditada em Santa Catarina - Banda B. Período informado: 2026-11-08T08:49:18Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.4 dias. Rastreio: primeiro registro em 2026-11-04T23:51:00Z; ativo há 3.4 dias.",
+    "description": "VÍDEO! Trecho da BR-282 “parte ao meio” após chuva e deixa rodovia totalmente interditada em Santa Catarina - Banda B. Período informado: 2026-11-08T08:49:18Z até fim não identificado. Fontes consolidadas: Notícias públicas - Banda B. Localização aproximada pelo corredor monitorado.4 dias.4 dias. Rastreio: primeiro registro em 2026-11-04T23:51:00Z; ativo há 3.4 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -94,9 +96,11 @@
     "newsFreshnessHours": 0.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-04T23:51:00Z",
-    "last_seen_at": "2026-11-08T09:06:49Z",
-    "active_duration_hours": 81.26,
+    "last_seen_at": "2026-11-08T09:07:01Z",
+    "active_duration_hours": 81.27,
     "active_duration_label": "3.4 dias",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "87dd1ac34822b93f02cc60f0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
