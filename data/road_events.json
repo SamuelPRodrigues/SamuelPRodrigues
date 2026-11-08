@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-101 será interditada neste domingo para implosão de ponte sobre o Rio Paraíba - Vitrine do Cariri. Fontes consolidadas: Notícias públicas - Vitrine do Cariri; Notícias públicas - ClickPB; Notícias públicas - Portal da Abelhinha; Notícias públicas - Portal Diário do RN. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-08T14:14:09Z; ativo há 9.6 h.",
+    "description": "BR-101 será interditada neste domingo para implosão de ponte sobre o Rio Paraíba - Vitrine do Cariri. Fontes consolidadas: Notícias públicas - Vitrine do Cariri; Notícias públicas - ClickPB; Notícias públicas - Portal da Abelhinha; Notícias públicas - Portal Diário do RN. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-08T14:14:09Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 9.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-08T14:14:09Z",
-    "last_seen_at": "2026-11-08T23:47:45Z",
+    "last_seen_at": "2026-11-08T23:47:59Z",
     "active_duration_hours": 9.56,
     "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ef0ca686c8d2addfa1cecb41",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -76,7 +78,7 @@
     "state": "PB",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa. Período informado: 2026-11-08T15:18:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal 96FM. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-08T15:05:04Z; ativo há 8.7 h.",
+    "description": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa. Período informado: 2026-11-08T15:18:29Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal 96FM. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-08T15:05:04Z; ativo há 8.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -89,7 +91,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-08T23:46:34Z",
     "sources": [
       {
@@ -107,8 +109,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-08T15:05:04Z",
     "last_seen_at": "2026-11-08T23:47:45Z",
-    "active_duration_hours": 8.71,
+    "active_duration_hours": 8.72,
     "active_duration_label": "8.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-08T23:47:45Z",
+    "news_signature": "e7ab5ae9ba6bf1af3630103a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
