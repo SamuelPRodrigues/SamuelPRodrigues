@@ -9,7 +9,7 @@
     "lat": -23.304,
     "lon": -51.169,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acidente envolvendo dois caminhões e carro deixa uma pessoa morta e causa interdição total na BR-369, no Paraná. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-07T20:30:02Z; ativo há 5.8 h.",
+    "description": "Acidente envolvendo dois caminhões e carro deixa uma pessoa morta e causa interdição total na BR-369, no Paraná. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-07T20:30:02Z; ativo há 5.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 5.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T20:30:02Z",
-    "last_seen_at": "2026-11-08T02:20:39Z",
-    "active_duration_hours": 5.84,
+    "last_seen_at": "2026-11-08T02:20:53Z",
+    "active_duration_hours": 5.85,
     "active_duration_label": "5.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1104eb60c23807a6bf9dc42f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai terá tráfego interditado por quase 20 horas na BR-262 - Primeira Página. Fontes consolidadas: Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-07T18:17:55Z; ativo há 8.1 h.",
+    "description": "Ponte sobre o Rio Paraguai terá tráfego interditado por quase 20 horas na BR-262 - Primeira Página. Fontes consolidadas: Notícias públicas - Primeira Página. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-07T18:17:55Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -80,12 +82,14 @@
     "newsFreshnessHours": 8.05,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T18:17:55Z",
-    "last_seen_at": "2026-11-08T02:20:39Z",
+    "last_seen_at": "2026-11-08T02:20:53Z",
     "active_duration_hours": 8.05,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "b2c97d37f8201e81a69ea785",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -97,7 +101,7 @@
     "lat": -12.977,
     "lon": -38.501,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br. Fontes consolidadas: Notícias públicas - www.portalabrantes.com.br. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-07T16:35:00Z; ativo há 9.8 h.",
+    "description": "BR-324 fica interditada após carreta pegar fogo - www.portalabrantes.com.br. Fontes consolidadas: Notícias públicas - www.portalabrantes.com.br. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-07T16:35:00Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -125,11 +129,14 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T16:35:00Z",
     "last_seen_at": "2026-11-08T02:20:39Z",
-    "active_duration_hours": 9.76,
+    "active_duration_hours": 9.77,
     "active_duration_label": "9.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-08T02:20:39Z",
+    "news_signature": "2df22e9b55efdda9c86af7e7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -141,7 +148,7 @@
     "lat": -26.919,
     "lon": -49.066,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 11.4 h.",
+    "description": "Acesso de cidade à BR-470 é interditado após temporal provocar alagamentos com 100 mm de chuva em poucas horas - ND Mais. Fontes consolidadas: Notícias públicas - ND Mais. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-07T14:58:15Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -169,10 +176,13 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-07T14:58:15Z",
     "last_seen_at": "2026-11-08T02:20:39Z",
-    "active_duration_hours": 11.37,
+    "active_duration_hours": 11.38,
     "active_duration_label": "11.4 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-08T02:20:39Z",
+    "news_signature": "d32e6623c8c31ce37e673d08",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
