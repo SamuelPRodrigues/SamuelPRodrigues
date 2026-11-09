@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:13:50Z",
+  "updatedAt": "2026-11-09T21:28:42Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7284,7 +7284,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-09T11:13:50Z",
+      "updatedAt": "2026-11-09T21:28:42Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7486,6 +7486,45 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUEtGRkw4SVd3dWlya28ybURFUmp5X1o3NnBCaGpZNXduNEZ1ZjczSm1TSUNIb28wdG9xd2R1NTlnZmF2ckNOdk93Zy1oSjFiME8ydmlsNzVIQkVnT0lscGxhUDFUNmFZcjdOM0t6TkMtUG5haU9iOHR3QnJ6V2laX3VuWW9oNEZRYnFuQkpPX1NIVnJ1a3JLOWdwczN1cHlTX3BkX2tn?oc=5",
           "headline": "BR-101 será totalmente interditada neste domingo para implosão de ponte e afetará viagens entre Natal e João Pessoa - Portal 96FM",
           "date": "2026-11-08T15:18:29Z"
+        }
+      ]
+    },
+    "6970981cb51498c03a35a550": {
+      "active": true,
+      "event_id": "6970981cb51498c03a35a550",
+      "stable_event_id": "6970981cb51498c03a35a550",
+      "name": "Interdição planejada por notícia pública • BR-040",
+      "road": "BR-040",
+      "corridor": "Brasília • BR-040 / BR-060 / BR-070 / BR-020 / DF-001",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -15.78,
+      "lon": -47.929,
+      "city": "Brasília",
+      "state": "DF",
+      "region": "Centro-Oeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ.  Período informado: 2026-11-09T19:43:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - BHAZ",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbTh0QW12RlEtX1J2aEJuTXEzbGY5UndOWHFtUk9kT0J4OVFOSkU0VFUwUzVfelZmLWhUMDB1N09RUXFjblVZMXdPWTlkZ3ZBNTRvamdJV09ERlVadkU0V0tzeWtRMDlhOVEzVjN0T1hnaGVjal9wTE9YUDFualY5TDE5cm42YUszd2U4eXJJdFZZakNfdE1DSWhDbzVRcGdfZkpydm53?oc=5",
+      "headline": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ",
+      "newsDate": "2026-11-09T19:43:00Z",
+      "plannedStartAt": "2026-11-09T19:43:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-09T21:28:42Z",
+      "sources": [
+        {
+          "source": "BHAZ",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbTh0QW12RlEtX1J2aEJuTXEzbGY5UndOWHFtUk9kT0J4OVFOSkU0VFUwUzVfelZmLWhUMDB1N09RUXFjblVZMXdPWTlkZ3ZBNTRvamdJV09ERlVadkU0V0tzeWtRMDlhOVEzVjN0T1hnaGVjal9wTE9YUDFualY5TDE5cm42YUszd2U4eXJJdFZZakNfdE1DSWhDbzVRcGdfZkpydm53?oc=5",
+          "headline": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ",
+          "date": "2026-11-09T19:43:00Z"
         }
       ]
     }
