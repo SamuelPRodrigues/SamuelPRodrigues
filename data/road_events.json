@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Deslizamento de terra deixa pista interditada pelo segundo dia na BR-376; motoristas devem redobrar atenção - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.3 dias. Rastreio: primeiro registro em 2026-11-06T14:10:00Z; ativo há 3.3 dias.",
+    "description": "Deslizamento de terra deixa pista interditada pelo segundo dia na BR-376; motoristas devem redobrar atenção - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.3 dias.3 dias. Rastreio: primeiro registro em 2026-11-06T14:10:00Z; ativo há 3.3 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.52,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-06T14:10:00Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
-    "active_duration_hours": 79.31,
+    "last_seen_at": "2026-11-09T21:28:59Z",
+    "active_duration_hours": 79.32,
     "active_duration_label": "3.3 dias",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f83a62fc9ee1f3db6191c8ad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -20.812,
     "lon": -49.376,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "RODOVIA INTERDITADA! Caminhão desgovernado invade pista contrária e causa incêndio após colisão na SP-310. - Regional 24 Horas. Fontes consolidadas: Notícias públicas - Regional 24 Horas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-09T16:35:09Z; ativo há 4.9 h.",
+    "description": "RODOVIA INTERDITADA! Caminhão desgovernado invade pista contrária e causa incêndio após colisão na SP-310. - Regional 24 Horas. Fontes consolidadas: Notícias públicas - Regional 24 Horas. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-09T16:35:09Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,13 +88,15 @@
     "newsFreshnessHours": 4.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-09T16:35:09Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
-    "active_duration_hours": 4.89,
+    "last_seen_at": "2026-11-09T21:28:59Z",
+    "active_duration_hours": 4.9,
     "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-310"
+    "detectedRoad": "SP-310",
+    "news_signature": "99128fc0dbbb72f21613bd9e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +108,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 será interditada em Congonhas para avanço das obras de duplicação neste sábado (14) - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-09T14:57:07Z; ativo há 6.5 h.",
+    "description": "BR-040 será interditada em Congonhas para avanço das obras de duplicação neste sábado (14) - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-09T14:57:07Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -131,12 +135,14 @@
     "newsFreshnessHours": 6.53,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-09T14:57:07Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
+    "last_seen_at": "2026-11-09T21:28:59Z",
     "active_duration_hours": 6.53,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4388a0ac0d0b59a91ee1d4f7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -148,7 +154,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-101 é interditado parcialmente em Goiana, na Mata Norte, após derramamento de óleo - CBN Recife. Fontes consolidadas: Notícias públicas - CBN Recife; Notícias públicas - Vitrine do Cariri; Notícias públicas - ClickPB; Notícias públicas - Portal da Abelhinha; Notícias públicas - Portal Diário do RN; Notícias públicas - Tudo Aqui SC. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-09T13:34:41Z; ativo há 7.9 h.",
+    "description": "Trecho da BR-101 é interditado parcialmente em Goiana, na Mata Norte, após derramamento de óleo - CBN Recife. Fontes consolidadas: Notícias públicas - CBN Recife; Notícias públicas - Vitrine do Cariri; Notícias públicas - ClickPB; Notícias públicas - Portal da Abelhinha; Notícias públicas - Portal Diário do RN; Notícias públicas - Tudo Aqui SC. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-09T13:34:41Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -205,12 +211,14 @@
     "newsFreshnessHours": 7.9,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-09T13:34:41Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
-    "active_duration_hours": 7.9,
+    "last_seen_at": "2026-11-09T21:28:59Z",
+    "active_duration_hours": 7.91,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "ea13f6c298cdf3a7b782a7b2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -222,7 +230,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Lideranças de São Marcos e região cobram solução para ponte interditada na BR-116 - Rádio Solaris. Fontes consolidadas: Notícias públicas - Rádio Solaris. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-09T13:23:49Z; ativo há 8.1 h.",
+    "description": "Lideranças de São Marcos e região cobram solução para ponte interditada na BR-116 - Rádio Solaris. Fontes consolidadas: Notícias públicas - Rádio Solaris. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-09T13:23:49Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -249,12 +257,14 @@
     "newsFreshnessHours": 8.08,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-09T13:23:49Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
-    "active_duration_hours": 8.08,
+    "last_seen_at": "2026-11-09T21:28:59Z",
+    "active_duration_hours": 8.09,
     "active_duration_label": "8.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c306f872f7386f9cf9e11bb2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -271,7 +281,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ. Período informado: 2026-11-09T19:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-09T19:43:00Z; ativo há 1.8 h.",
+    "description": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ. Período informado: 2026-11-09T19:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-09T19:43:00Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -301,9 +311,11 @@
     "newsFreshnessHours": 1.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-09T19:43:00Z",
-    "last_seen_at": "2026-11-09T21:28:43Z",
-    "active_duration_hours": 1.76,
+    "last_seen_at": "2026-11-09T21:28:59Z",
+    "active_duration_hours": 1.77,
     "active_duration_label": "1.8 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "696320fc1b5ca307bd376c25",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
