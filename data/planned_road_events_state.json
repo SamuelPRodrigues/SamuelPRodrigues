@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:50:05Z",
+  "updatedAt": "2026-11-10T18:54:23Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7284,7 +7284,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-10T11:50:05Z",
+      "updatedAt": "2026-11-10T18:54:23Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7525,6 +7525,84 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbTh0QW12RlEtX1J2aEJuTXEzbGY5UndOWHFtUk9kT0J4OVFOSkU0VFUwUzVfelZmLWhUMDB1N09RUXFjblVZMXdPWTlkZ3ZBNTRvamdJV09ERlVadkU0V0tzeWtRMDlhOVEzVjN0T1hnaGVjal9wTE9YUDFualY5TDE5cm42YUszd2U4eXJJdFZZakNfdE1DSWhDbzVRcGdfZkpydm53?oc=5",
           "headline": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ",
           "date": "2026-11-09T19:43:00Z"
+        }
+      ]
+    },
+    "16edde878cae4081557672c4": {
+      "active": true,
+      "event_id": "16edde878cae4081557672c4",
+      "stable_event_id": "16edde878cae4081557672c4",
+      "name": "Interdição planejada por notícia pública • BR-364",
+      "road": "BR-364",
+      "corridor": "Rio Branco • BR-364 / BR-317",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Rio Branco",
+      "state": "AC",
+      "region": "Norte",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-364 é totalmente interditada após acidente com veículo de transporte de produtos perigosos - Rondoniagora.com.  Período informado: 2026-11-10T15:48:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Rondoniagora.com",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdHJoRHBHWW9ISVU5LXVwT29ZT3hTQUtmU1AtSTJRR3U3RFA3WnN1d1dxOUVtSk80endiLWg5NXkyRXBYdEQxdVRQT3NzTmJ2LVN0Y1p0SmZoZkVYSUtRdHgtcnVHMHFtOENtenRTNmRTYTNBTllHYmd6cXlyLTB4Yl9jMnBXX2tfdy1FRENZM24tTzI0dDhCTnA2N3FkbTAwNTFQcURIYTFCeGhVUTBreEVsMUs5QWE1QkFaSDI2eEF4dWlpNW01QVlB0gHKAUFVX3lxTFBrR2k3R1BnUzBDQTBCSkhCcC1TM2VQRVZ2bHJIbXBnQ3BZNGloWnVscWZzMWlieG90RXlPdGlWVlNPanpJREhYLVZPcDJ3VHZ5YVNnNFNZWjNlSEdkRHhyNG1kd3hyUkw4ZG1zVzBheF8tbHQyWjVuRjBpUEMyaGQ3c0N0T2VVeUNlMEZES2xzUHNITTI1akRfYzByRkFnQWdmQ3hyVzl0Tm9UUURKZkRwVE9mR2JPaGtsMVRhVTBMSk15ZGI3S2JXeEE?oc=5",
+      "headline": "BR-364 é totalmente interditada após acidente com veículo de transporte de produtos perigosos - Rondoniagora.com",
+      "newsDate": "2026-11-10T15:48:00Z",
+      "plannedStartAt": "2026-11-10T15:48:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-10T18:54:23Z",
+      "sources": [
+        {
+          "source": "Rondoniagora.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdHJoRHBHWW9ISVU5LXVwT29ZT3hTQUtmU1AtSTJRR3U3RFA3WnN1d1dxOUVtSk80endiLWg5NXkyRXBYdEQxdVRQT3NzTmJ2LVN0Y1p0SmZoZkVYSUtRdHgtcnVHMHFtOENtenRTNmRTYTNBTllHYmd6cXlyLTB4Yl9jMnBXX2tfdy1FRENZM24tTzI0dDhCTnA2N3FkbTAwNTFQcURIYTFCeGhVUTBreEVsMUs5QWE1QkFaSDI2eEF4dWlpNW01QVlB0gHKAUFVX3lxTFBrR2k3R1BnUzBDQTBCSkhCcC1TM2VQRVZ2bHJIbXBnQ3BZNGloWnVscWZzMWlieG90RXlPdGlWVlNPanpJREhYLVZPcDJ3VHZ5YVNnNFNZWjNlSEdkRHhyNG1kd3hyUkw4ZG1zVzBheF8tbHQyWjVuRjBpUEMyaGQ3c0N0T2VVeUNlMEZES2xzUHNITTI1akRfYzByRkFnQWdmQ3hyVzl0Tm9UUURKZkRwVE9mR2JPaGtsMVRhVTBMSk15ZGI3S2JXeEE?oc=5",
+          "headline": "BR-364 é totalmente interditada após acidente com veículo de transporte de produtos perigosos - Rondoniagora.com",
+          "date": "2026-11-10T15:48:00Z"
+        }
+      ]
+    },
+    "0e1d5db938fbf74eafc98da7": {
+      "active": true,
+      "event_id": "0e1d5db938fbf74eafc98da7",
+      "stable_event_id": "0e1d5db938fbf74eafc98da7",
+      "name": "Interdição planejada por notícia pública • SP-310",
+      "road": "SP-310",
+      "corridor": "São José do Rio Preto • BR-153 / SP-310",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -20.812,
+      "lon": -49.376,
+      "city": "São José do Rio Preto",
+      "state": "SP",
+      "region": "Sudeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho.  Período informado: 2026-11-10T12:33:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Brasil do Trecho",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkptVkRCd0NxajJyMjZ4elRPR0xTTWRtTnRMS0N6bjRTdFdMUVVfTkU3WXNJdnktaGxld0FTdWNmWXpldWVZS2NKeHZxdDhwU2k0Y0ItYmdDcVJldzRDX0dJUU1OM0I1NXdzSmx0V0VaYVZBc1dwUjhTQUVGdm1VcU9LQW44Zk1R?oc=5",
+      "headline": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho",
+      "newsDate": "2026-11-10T12:33:00Z",
+      "plannedStartAt": "2026-11-10T12:33:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-10T18:54:23Z",
+      "sources": [
+        {
+          "source": "Brasil do Trecho",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkptVkRCd0NxajJyMjZ4elRPR0xTTWRtTnRMS0N6bjRTdFdMUVVfTkU3WXNJdnktaGxld0FTdWNmWXpldWVZS2NKeHZxdDhwU2k0Y0ItYmdDcVJldzRDX0dJUU1OM0I1NXdzSmx0V0VaYVZBc1dwUjhTQUVGdm1VcU9LQW44Zk1R?oc=5",
+          "headline": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho",
+          "date": "2026-11-10T12:33:00Z"
         }
       ]
     }
