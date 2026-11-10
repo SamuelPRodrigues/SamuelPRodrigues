@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T18:54:23Z",
+  "updatedAt": "2026-11-10T23:59:37Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7284,7 +7284,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-10T18:54:23Z",
+      "updatedAt": "2026-11-10T23:59:37Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7557,7 +7557,7 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-11-10T18:54:23Z",
+      "updatedAt": "2026-11-10T23:59:37Z",
       "sources": [
         {
           "source": "Rondoniagora.com",
@@ -7596,13 +7596,52 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-11-10T18:54:23Z",
+      "updatedAt": "2026-11-10T23:59:37Z",
       "sources": [
         {
           "source": "Brasil do Trecho",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkptVkRCd0NxajJyMjZ4elRPR0xTTWRtTnRMS0N6bjRTdFdMUVVfTkU3WXNJdnktaGxld0FTdWNmWXpldWVZS2NKeHZxdDhwU2k0Y0ItYmdDcVJldzRDX0dJUU1OM0I1NXdzSmx0V0VaYVZBc1dwUjhTQUVGdm1VcU9LQW44Zk1R?oc=5",
           "headline": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho",
           "date": "2026-11-10T12:33:00Z"
+        }
+      ]
+    },
+    "efdad0769f5bb607b901dbbf": {
+      "active": false,
+      "event_id": "efdad0769f5bb607b901dbbf",
+      "stable_event_id": "efdad0769f5bb607b901dbbf",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias.  Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Aqui Notícias",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWJza0tsMDNOVEVadTR1Z1Z4M0YyQ19QaHh4ZDBTek5kNll6TTZ5S0ZTX3pGc1Q2elBWSU41b3RlZnRTbXA3dk1XSUhqREpSVjFUV3laSWNEeHBNZHQ1N3d5QlBPeXlwdDRpWFV4Uk90Z2p3MmRLY2h1VW1hX0wyMHpaU2p0LXpHNUZiOHVnZlk4eGNHdTJ1R3JZYTg4WnA2NEE?oc=5",
+      "headline": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias",
+      "newsDate": "2026-11-10T20:32:15Z",
+      "plannedStartAt": "2026-11-11T03:00:00Z",
+      "plannedEndAt": "2026-11-12T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "scheduled",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-10T23:59:37Z",
+      "sources": [
+        {
+          "source": "Aqui Notícias",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWJza0tsMDNOVEVadTR1Z1Z4M0YyQ19QaHh4ZDBTek5kNll6TTZ5S0ZTX3pGc1Q2elBWSU41b3RlZnRTbXA3dk1XSUhqREpSVjFUV3laSWNEeHBNZHQ1N3d5QlBPeXlwdDRpWFV4Uk90Z2p3MmRLY2h1VW1hX0wyMHpaU2p0LXpHNUZiOHVnZlk4eGNHdTJ1R3JZYTg4WnA2NEE?oc=5",
+          "headline": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias",
+          "date": "2026-11-10T20:32:15Z"
         }
       ]
     }
