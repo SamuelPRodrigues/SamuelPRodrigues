@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Grave acidente na PR-508 deixa mortos e feridos; rodovia segue interditada - JB Litoral. Fontes consolidadas: Notícias públicas - JB Litoral; Notícias públicas - Portal Vvale. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-10T14:27:11Z; ativo há 9.5 h.",
+    "description": "Grave acidente na PR-508 deixa mortos e feridos; rodovia segue interditada - JB Litoral. Fontes consolidadas: Notícias públicas - JB Litoral; Notícias públicas - Portal Vvale. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-10T14:27:11Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,13 +42,15 @@
     "newsFreshnessHours": 9.54,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T14:27:11Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 9.54,
-    "active_duration_label": "9.5 h",
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 9.55,
+    "active_duration_label": "9.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-508"
+    "detectedRoad": "PR-508",
+    "news_signature": "3450d1a0a63ff0564b87ad7f",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -60,7 +62,7 @@
     "lat": -9.416,
     "lon": -40.503,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte interditada na BR-235: entenda o que muda na travessia de balsa - Jornal do Tocantins. Fontes consolidadas: Notícias públicas - Jornal do Tocantins. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-10T13:47:24Z; ativo há 10.2 h.",
+    "description": "Ponte interditada na BR-235: entenda o que muda na travessia de balsa - Jornal do Tocantins. Fontes consolidadas: Notícias públicas - Jornal do Tocantins. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-10T13:47:24Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -87,12 +89,14 @@
     "newsFreshnessHours": 10.2,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T13:47:24Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 10.2,
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 10.21,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a5fac54b6e3ee1ceafbcb9ea",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -104,7 +108,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trecho da BR-040 será interditado para detonação de rocha neste sábado, em Congonhas - Vertentes das Gerais. Fontes consolidadas: Notícias públicas - Vertentes das Gerais; Notícias públicas - Rádio Itatiaia; Notícias públicas - Por Dentro de Minas; Notícias públicas - Jornal Voz Ativa. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-10T12:14:24Z; ativo há 11.8 h.",
+    "description": "Trecho da BR-040 será interditado para detonação de rocha neste sábado, em Congonhas - Vertentes das Gerais. Fontes consolidadas: Notícias públicas - Vertentes das Gerais; Notícias públicas - Rádio Itatiaia; Notícias públicas - Por Dentro de Minas; Notícias públicas - Jornal Voz Ativa. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-10T12:14:24Z; ativo há 11.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -149,12 +153,14 @@
     "newsFreshnessHours": 11.75,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T12:14:24Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 11.75,
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 11.76,
     "active_duration_label": "11.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4e15f11b46155d5db3b8edde",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -171,7 +177,7 @@
     "state": "AC",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-364 é totalmente interditada após acidente com veículo de transporte de produtos perigosos - Rondoniagora.com. Período informado: 2026-11-10T15:48:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rondoniagora.com. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-10T15:48:00Z; ativo há 8.2 h.",
+    "description": "BR-364 é totalmente interditada após acidente com veículo de transporte de produtos perigosos - Rondoniagora.com. Período informado: 2026-11-10T15:48:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rondoniagora.com. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-10T15:48:00Z; ativo há 8.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -201,10 +207,12 @@
     "newsFreshnessHours": 8.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T15:48:00Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 8.19,
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 8.2,
     "active_duration_label": "8.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d22c215f17dbc4b069ada07c",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -221,7 +229,7 @@
     "state": "SP",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho. Período informado: 2026-11-10T12:33:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Brasil do Trecho. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-10T12:33:00Z; ativo há 11.4 h.",
+    "description": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho. Período informado: 2026-11-10T12:33:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Brasil do Trecho. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-10T12:33:00Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -251,11 +259,13 @@
     "newsFreshnessHours": 11.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T12:33:00Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 11.44,
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 11.45,
     "active_duration_label": "11.4 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-310"
+    "detectedRoad": "SP-310",
+    "news_signature": "adc9d36b6340eaf44ca2eab6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -272,7 +282,7 @@
     "state": "SP",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho. Período informado: 2026-11-10T12:33:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Brasil do Trecho. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-10T12:33:00Z; ativo há 11.4 h.",
+    "description": "Parada de caminhoneiros na SP-310 será interditada para obras em Araraquara - Brasil do Trecho. Período informado: 2026-11-10T12:33:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Brasil do Trecho. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-10T12:33:00Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -302,9 +312,11 @@
     "newsFreshnessHours": 11.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-10T12:33:00Z",
-    "last_seen_at": "2026-11-10T23:59:37Z",
-    "active_duration_hours": 11.44,
+    "last_seen_at": "2026-11-10T23:59:54Z",
+    "active_duration_hours": 11.45,
     "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "adc9d36b6340eaf44ca2eab6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
