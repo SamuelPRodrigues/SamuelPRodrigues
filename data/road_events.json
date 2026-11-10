@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Deslizamento de terra deixa pista interditada pelo segundo dia na BR-376; motoristas devem redobrar atenção - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.6 dias. Rastreio: primeiro registro em 2026-11-06T14:10:00Z; ativo há 3.6 dias.",
+    "description": "Deslizamento de terra deixa pista interditada pelo segundo dia na BR-376; motoristas devem redobrar atenção - Banda B. Fontes consolidadas: Notícias públicas - Banda B; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.6 dias.6 dias. Rastreio: primeiro registro em 2026-11-06T14:10:00Z; ativo há 3.6 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 85.6,
     "active_duration_label": "3.6 dias",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-10T03:45:50Z",
+    "news_signature": "f83a62fc9ee1f3db6191c8ad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +62,7 @@
     "lat": -20.812,
     "lon": -49.376,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "RODOVIA INTERDITADA! Caminhão desgovernado invade pista contrária e causa incêndio após colisão na SP-310. - Regional 24 Horas. Fontes consolidadas: Notícias públicas - Regional 24 Horas. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-09T16:35:09Z; ativo há 11.2 h.",
+    "description": "RODOVIA INTERDITADA! Caminhão desgovernado invade pista contrária e causa incêndio após colisão na SP-310. - Regional 24 Horas. Fontes consolidadas: Notícias públicas - Regional 24 Horas. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-09T16:35:09Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -90,9 +93,12 @@
     "active_duration_hours": 11.18,
     "active_duration_label": "11.2 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SP-310"
+    "detectedRoad": "SP-310",
+    "last_confirmed_at": "2026-11-10T03:45:50Z",
+    "news_signature": "99128fc0dbbb72f21613bd9e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -109,7 +115,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ. Período informado: 2026-11-09T19:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-09T19:43:00Z; ativo há 8.1 h.",
+    "description": "BR-040 será interditada por uma hora para obras em Congonhas; saiba quando - BHAZ. Período informado: 2026-11-09T19:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - BHAZ. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-09T19:43:00Z; ativo há 8.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,7 +128,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-10T03:44:36Z",
     "sources": [
       {
@@ -142,6 +148,9 @@
     "last_seen_at": "2026-11-10T03:45:50Z",
     "active_duration_hours": 8.05,
     "active_duration_label": "8.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-10T03:45:50Z",
+    "news_signature": "696320fc1b5ca307bd376c25",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
