@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Asfalto cede na Régis Bittencourt e rodovia pode ser totalmente interditada no interior de SP. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-11T13:57:56Z; ativo há 6.2 h.",
+    "description": "Asfalto cede na Régis Bittencourt e rodovia pode ser totalmente interditada no interior de SP. Fontes consolidadas: Notícias públicas - G1. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-11T13:57:56Z; ativo há 6.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 6.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-11T13:57:56Z",
-    "last_seen_at": "2026-11-11T20:06:55Z",
+    "last_seen_at": "2026-11-11T20:07:13Z",
     "active_duration_hours": 6.15,
     "active_duration_label": "6.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "09772eae55c46e9528a9c985",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 fica totalmente interditada no Sul do ES após caminhões tombarem com carga de remédios - Folha Vitória. Período informado: 2026-11-11T17:24:50Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-11T17:24:50Z; ativo há 2.7 h.",
+    "description": "BR-101 fica totalmente interditada no Sul do ES após caminhões tombarem com carga de remédios - Folha Vitória. Período informado: 2026-11-11T17:24:50Z até fim não identificado. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-11T17:24:50Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -94,10 +96,12 @@
     "newsFreshnessHours": 2.7,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-11T17:24:50Z",
-    "last_seen_at": "2026-11-11T20:06:55Z",
-    "active_duration_hours": 2.7,
+    "last_seen_at": "2026-11-11T20:07:13Z",
+    "active_duration_hours": 2.71,
     "active_duration_label": "2.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5406ac76ab7db01946f761fb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +118,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta fica presa em ponte interditada na BR-265 - TV Alterosa. Período informado: 2026-11-11T11:42:05Z até fim não identificado. Fontes consolidadas: Notícias públicas - TV Alterosa. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-11T11:42:05Z; ativo há 8.4 h.",
+    "description": "Carreta fica presa em ponte interditada na BR-265 - TV Alterosa. Período informado: 2026-11-11T11:42:05Z até fim não identificado. Fontes consolidadas: Notícias públicas - TV Alterosa. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-11T11:42:05Z; ativo há 8.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -150,10 +154,12 @@
     "newsFreshnessHours": 8.41,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-11T11:42:05Z",
-    "last_seen_at": "2026-11-11T20:06:55Z",
-    "active_duration_hours": 8.41,
+    "last_seen_at": "2026-11-11T20:07:13Z",
+    "active_duration_hours": 8.42,
     "active_duration_label": "8.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "0c4c1eec1c974c0181eb2027",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -170,7 +176,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 17.1 h.",
+    "description": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 17.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -202,7 +208,10 @@
     "last_seen_at": "2026-11-11T20:06:55Z",
     "active_duration_hours": 17.12,
     "active_duration_label": "17.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-11T20:06:55Z",
+    "news_signature": "7ad321d59a139aab21616e55",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -219,7 +228,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 segue totalmente interditada em Vargem; liberação é prevista para quarta-feira(11) - Michel Teixeira Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Michel Teixeira Notícias. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 17.1 h.",
+    "description": "BR-282 segue totalmente interditada em Vargem; liberação é prevista para quarta-feira(11) - Michel Teixeira Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Michel Teixeira Notícias. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 17.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -251,6 +260,9 @@
     "last_seen_at": "2026-11-11T20:06:55Z",
     "active_duration_hours": 17.12,
     "active_duration_label": "17.1 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-11T20:06:55Z",
+    "news_signature": "15aaf2c550b4a436343039fa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
