@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101 será totalmente interditada em Iconha nesta quarta (11); veja horário - A Gazeta. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
+    "description": "BR 101 será totalmente interditada em Iconha nesta quarta (11); veja horário - A Gazeta. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,10 +43,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-11T03:00:00Z",
-    "last_seen_at": "2026-11-11T05:41:18Z",
+    "last_seen_at": "2026-11-11T05:41:32Z",
     "active_duration_hours": 2.69,
     "active_duration_label": "2.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "49e94a6e87ac0dfff395c5e0",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -63,7 +65,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
+    "description": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,10 +94,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-11T03:00:00Z",
-    "last_seen_at": "2026-11-11T05:41:18Z",
+    "last_seen_at": "2026-11-11T05:41:32Z",
     "active_duration_hours": 2.69,
     "active_duration_label": "2.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7ad321d59a139aab21616e55",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -112,7 +116,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-282 segue totalmente interditada em Vargem; liberação é prevista para quarta-feira(11) - Michel Teixeira Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Michel Teixeira Notícias. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
+    "description": "BR-282 segue totalmente interditada em Vargem; liberação é prevista para quarta-feira(11) - Michel Teixeira Notícias. Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Fontes consolidadas: Michel Teixeira Notícias. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-11T03:00:00Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -141,9 +145,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-11T03:00:00Z",
-    "last_seen_at": "2026-11-11T05:41:18Z",
+    "last_seen_at": "2026-11-11T05:41:32Z",
     "active_duration_hours": 2.69,
     "active_duration_label": "2.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "15aaf2c550b4a436343039fa",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
