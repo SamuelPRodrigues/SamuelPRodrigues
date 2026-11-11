@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:59:37Z",
+  "updatedAt": "2026-11-11T05:41:18Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7256,7 +7256,7 @@
       ]
     },
     "e5dad98e5a16593017d5e0e5": {
-      "active": false,
+      "active": true,
       "event_id": "e5dad98e5a16593017d5e0e5",
       "stable_event_id": "e5dad98e5a16593017d5e0e5",
       "name": "Interdição planejada por notícia pública • BR-282",
@@ -7282,9 +7282,9 @@
       "plannedStartAt": "2026-11-11T03:00:00Z",
       "plannedEndAt": "2026-11-12T02:59:59Z",
       "plannedWindowRule": "Período extraído do texto da notícia.",
-      "lifecycle_status": "scheduled",
+      "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-10T23:59:37Z",
+      "updatedAt": "2026-11-11T05:41:17Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7607,7 +7607,7 @@
       ]
     },
     "efdad0769f5bb607b901dbbf": {
-      "active": false,
+      "active": true,
       "event_id": "efdad0769f5bb607b901dbbf",
       "stable_event_id": "efdad0769f5bb607b901dbbf",
       "name": "Interdição planejada por notícia pública • BR-101",
@@ -7633,15 +7633,54 @@
       "plannedStartAt": "2026-11-11T03:00:00Z",
       "plannedEndAt": "2026-11-12T02:59:59Z",
       "plannedWindowRule": "Período extraído do texto da notícia.",
-      "lifecycle_status": "scheduled",
+      "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-10T23:59:37Z",
+      "updatedAt": "2026-11-11T05:41:17Z",
       "sources": [
         {
           "source": "Aqui Notícias",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWJza0tsMDNOVEVadTR1Z1Z4M0YyQ19QaHh4ZDBTek5kNll6TTZ5S0ZTX3pGc1Q2elBWSU41b3RlZnRTbXA3dk1XSUhqREpSVjFUV3laSWNEeHBNZHQ1N3d5QlBPeXlwdDRpWFV4Uk90Z2p3MmRLY2h1VW1hX0wyMHpaU2p0LXpHNUZiOHVnZlk4eGNHdTJ1R3JZYTg4WnA2NEE?oc=5",
           "headline": "BR-101 será totalmente interditada em Iconha nesta quarta-feira (11) - Aqui Notícias",
           "date": "2026-11-10T20:32:15Z"
+        }
+      ]
+    },
+    "9eb018a0a5c7882f69b01ba4": {
+      "active": true,
+      "event_id": "9eb018a0a5c7882f69b01ba4",
+      "stable_event_id": "9eb018a0a5c7882f69b01ba4",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR 101 será totalmente interditada em Iconha nesta quarta (11); veja horário - A Gazeta.  Período informado: 2026-11-11T03:00:00Z até 2026-11-12T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - A Gazeta",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSWRDMUVkTzdGVzZfVFJzWmx1eUdlb0FyS2pXQnpEZWdEU2U1Wm94V00yNG9fOXlmbUgxMWt4UjdrUjdmZDVINlBnVDBFQTVlTHYzSTNTTGE2VWJPbHh4TDZtY0lMaExwODFwd3ZrbkhEZGtteC1ycWJWbF9nV1V4bmRVOWdobUhTbFY0dEowMTR5QnJKZjRzcmVENDRtbFdya2g5aWZDa084QVhnaU5sbA?oc=5",
+      "headline": "BR 101 será totalmente interditada em Iconha nesta quarta (11); veja horário - A Gazeta",
+      "newsDate": "2026-11-11T00:52:00Z",
+      "plannedStartAt": "2026-11-11T03:00:00Z",
+      "plannedEndAt": "2026-11-12T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "active_planned_closure",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-11T05:41:17Z",
+      "sources": [
+        {
+          "source": "A Gazeta",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSWRDMUVkTzdGVzZfVFJzWmx1eUdlb0FyS2pXQnpEZWdEU2U1Wm94V00yNG9fOXlmbUgxMWt4UjdrUjdmZDVINlBnVDBFQTVlTHYzSTNTTGE2VWJPbHh4TDZtY0lMaExwODFwd3ZrbkhEZGtteC1ycWJWbF9nV1V4bmRVOWdobUhTbFY0dEowMTR5QnJKZjRzcmVENDRtbFdya2g5aWZDa084QVhnaU5sbA?oc=5",
+          "headline": "BR 101 será totalmente interditada em Iconha nesta quarta (11); veja horário - A Gazeta",
+          "date": "2026-11-11T00:52:00Z"
         }
       ]
     }
