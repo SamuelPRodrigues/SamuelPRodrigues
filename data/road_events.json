@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação. Período informado: 2026-11-12T03:00:00Z até 2026-11-13T02:59:59Z. Fontes consolidadas: Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-12T03:00:00Z; ativo há 6.6 h.",
+    "description": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação. Período informado: 2026-11-12T03:00:00Z até 2026-11-13T02:59:59Z. Fontes consolidadas: Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-12T03:00:00Z; ativo há 6.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -43,9 +43,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-12T03:00:00Z",
-    "last_seen_at": "2026-11-12T09:35:30Z",
-    "active_duration_hours": 6.59,
+    "last_seen_at": "2026-11-12T09:35:45Z",
+    "active_duration_hours": 6.6,
     "active_duration_label": "6.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "bbded6267e9ad1c577e1d889",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
