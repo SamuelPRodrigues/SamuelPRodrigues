@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T20:06:54Z",
+  "updatedAt": "2026-11-12T01:53:44Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7284,7 +7284,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-11T20:06:54Z",
+      "updatedAt": "2026-11-12T01:53:44Z",
       "sources": [
         {
           "source": "Michel Teixeira Notícias",
@@ -7635,7 +7635,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-11T20:06:54Z",
+      "updatedAt": "2026-11-12T01:53:44Z",
       "sources": [
         {
           "source": "Aqui Notícias",
@@ -7674,7 +7674,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-11T20:06:54Z",
+      "updatedAt": "2026-11-12T01:53:44Z",
       "sources": [
         {
           "source": "A Gazeta",
@@ -7791,13 +7791,91 @@
       "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
       "lifecycle_status": "active_recent_public_news",
       "tracker_reason": "recent_public_news_without_window",
-      "updatedAt": "2026-11-11T20:06:54Z",
+      "updatedAt": "2026-11-12T01:53:44Z",
       "sources": [
         {
           "source": "Folha Vitória",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTFZpY0M0Q3JzOXFidnhfd0dnbXBQQlVaMVBpbnIzSjNmT2thVkJLU2VNZmg4M2VVMFRQTlp6SENWbThEb3hLLXRkSDN3MGdnWXFOWkNnc1JkZ0ZWUUFHVGxONHo3bDVrX0R5WTF0UU1kM01ZYUgzRXhmdC1zcUpuNDRzeHV3NG5mUm1rbUxHUWx6NnJoSmtPZVQ2d2tLVVZQano1QW13NjRya3p5WkJ3ZzVORkQ4TmVfQlVNUTdmazRxa0RkQlpURll6SVNpWUJG?oc=5",
           "headline": "BR-101 fica totalmente interditada no Sul do ES após caminhões tombarem com carga de remédios - Folha Vitória",
           "date": "2026-11-11T17:24:50Z"
+        }
+      ]
+    },
+    "962887258e08f5b066c3410b": {
+      "active": false,
+      "event_id": "962887258e08f5b066c3410b",
+      "stable_event_id": "962887258e08f5b066c3410b",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR 101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - A Gazeta.  Período informado: 2026-11-12T03:00:00Z até 2026-11-13T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - A Gazeta",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUVcwWTJpUVYzaFdyMEE4akR1OEdvNlg0ZGgySjRDZ3pzSzdvbTc4U3RNUFhhd2VTSTU3Mld4OUt3YnJwcUd6N1E1MkRpdzNYODVxRGZlYktfc1JWNm85V1FidnlETFNnRGRmQk9NNVFqZDdiNEQ2UjNNMEY2OEU5WWZfZzRpQzExVWQ3bFZ3dTRhUDZtbEFlMUpaSXc1ZThlMXUyd3lfaHJOVUl6RHRhdW5R?oc=5",
+      "headline": "BR 101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - A Gazeta",
+      "newsDate": "2026-11-11T19:51:00Z",
+      "plannedStartAt": "2026-11-12T03:00:00Z",
+      "plannedEndAt": "2026-11-13T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "scheduled",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-12T01:53:44Z",
+      "sources": [
+        {
+          "source": "A Gazeta",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUVcwWTJpUVYzaFdyMEE4akR1OEdvNlg0ZGgySjRDZ3pzSzdvbTc4U3RNUFhhd2VTSTU3Mld4OUt3YnJwcUd6N1E1MkRpdzNYODVxRGZlYktfc1JWNm85V1FidnlETFNnRGRmQk9NNVFqZDdiNEQ2UjNNMEY2OEU5WWZfZzRpQzExVWQ3bFZ3dTRhUDZtbEFlMUpaSXc1ZThlMXUyd3lfaHJOVUl6RHRhdW5R?oc=5",
+          "headline": "BR 101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - A Gazeta",
+          "date": "2026-11-11T19:51:00Z"
+        }
+      ]
+    },
+    "3106644cd58476f20aeeb36f": {
+      "active": false,
+      "event_id": "3106644cd58476f20aeeb36f",
+      "stable_event_id": "3106644cd58476f20aeeb36f",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação.  Período informado: 2026-11-12T03:00:00Z até 2026-11-13T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Colatina em Ação",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFZqZUlmb2g5QWhCVTk1UlBjTEF5Mjc5LU1nTnh1dnJZTmFETEtSa2ZKY3Z5X1dwaXBNRGxRV0VQRVJNd1ZRUThsQV96VWVYOENzVzVnMDdRU2VvekRmOEZRUGJhbUI0bTk0b0pOZ1lmWS0zbGo0Ykxsdkw0aWM1ZWlVX2Mzd2ZWM3dLM2xyS201aDdkcnZyOVduTU51QQ?oc=5",
+      "headline": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação",
+      "newsDate": "2026-11-12T00:21:44Z",
+      "plannedStartAt": "2026-11-12T03:00:00Z",
+      "plannedEndAt": "2026-11-13T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "scheduled",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-12T01:53:44Z",
+      "sources": [
+        {
+          "source": "Colatina em Ação",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFZqZUlmb2g5QWhCVTk1UlBjTEF5Mjc5LU1nTnh1dnJZTmFETEtSa2ZKY3Z5X1dwaXBNRGxRV0VQRVJNd1ZRUThsQV96VWVYOENzVzVnMDdRU2VvekRmOEZRUGJhbUI0bTk0b0pOZ1lmWS0zbGo0Ykxsdkw0aWM1ZWlVX2Mzd2ZWM3dLM2xyS201aDdkcnZyOVduTU51QQ?oc=5",
+          "headline": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação",
+          "date": "2026-11-12T00:21:44Z"
         }
       ]
     }
