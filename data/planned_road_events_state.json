@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:35:29Z",
+  "updatedAt": "2026-11-12T17:43:56Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -7713,7 +7713,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-12T09:35:29Z",
+      "updatedAt": "2026-11-12T17:43:56Z",
       "sources": [
         {
           "source": "A Gazeta",
@@ -7752,13 +7752,52 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-12T09:35:29Z",
+      "updatedAt": "2026-11-12T17:43:56Z",
       "sources": [
         {
           "source": "Colatina em Ação",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFZqZUlmb2g5QWhCVTk1UlBjTEF5Mjc5LU1nTnh1dnJZTmFETEtSa2ZKY3Z5X1dwaXBNRGxRV0VQRVJNd1ZRUThsQV96VWVYOENzVzVnMDdRU2VvekRmOEZRUGJhbUI0bTk0b0pOZ1lmWS0zbGo0Ykxsdkw0aWM1ZWlVX2Mzd2ZWM3dLM2xyS201aDdkcnZyOVduTU51QQ?oc=5",
           "headline": "BR-101 será totalmente interditada em Ibiraçu nesta quinta (12); veja horário - Colatina em Ação",
           "date": "2026-11-12T01:21:25Z"
+        }
+      ]
+    },
+    "3e4a710cd712e5b4855b282d": {
+      "active": true,
+      "event_id": "3e4a710cd712e5b4855b282d",
+      "stable_event_id": "3e4a710cd712e5b4855b282d",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será totalmente interditada nesta quinta para detonação de rochas - Sim Notícias.  Período informado: 2026-11-12T12:26:00Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Sim Notícias",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFRzTDNjTnZiNEZrdWM4ekh4Zml2dThUVjhxcEJ1XzY3SV9PcHlKUHM3Tnl3ekxHaEp1NHlvbjJXOGMzb193SWZEWGdTU2RTd3I3V2NXSFlza2tpaS1UMUg3dF9CZmQ4bVhraTAwMUl0Z1dSV0xMc3RPcHJMTmVQeDJNZ1V3Wndsb1M1VEFQaDJtTGpzal95N0JlQm5VcDZNT3FTeFlJZS1POG52?oc=5",
+      "headline": "BR-101 será totalmente interditada nesta quinta para detonação de rochas - Sim Notícias",
+      "newsDate": "2026-11-12T12:26:00Z",
+      "plannedStartAt": "2026-11-12T12:26:00Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-12T17:43:56Z",
+      "sources": [
+        {
+          "source": "Sim Notícias",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFRzTDNjTnZiNEZrdWM4ekh4Zml2dThUVjhxcEJ1XzY3SV9PcHlKUHM3Tnl3ekxHaEp1NHlvbjJXOGMzb193SWZEWGdTU2RTd3I3V2NXSFlza2tpaS1UMUg3dF9CZmQ4bVhraTAwMUl0Z1dSV0xMc3RPcHJMTmVQeDJNZ1V3Wndsb1M1VEFQaDJtTGpzal95N0JlQm5VcDZNT3FTeFlJZS1POG52?oc=5",
+          "headline": "BR-101 será totalmente interditada nesta quinta para detonação de rochas - Sim Notícias",
+          "date": "2026-11-12T12:26:00Z"
         }
       ]
     }
