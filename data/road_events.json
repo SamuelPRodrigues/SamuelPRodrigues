@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 será interditada durante a noite na Grande Curitiba; veja horário - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-13T21:02:00Z; ativo há 2.5 h.",
+    "description": "BR-116 será interditada durante a noite na Grande Curitiba; veja horário - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-13T21:02:00Z; ativo há 2.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.47,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T21:02:00Z",
-    "last_seen_at": "2026-11-13T23:30:01Z",
+    "last_seen_at": "2026-11-13T23:30:17Z",
     "active_duration_hours": 2.47,
     "active_duration_label": "2.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "06f53d4f9bacab90665b5144",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 é bloqueada novamente com pneus em chamas na Grande BH - Por Dentro de Minas. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Instagram; Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-13T12:30:38Z; ativo há 11.0 h.",
+    "description": "BR-040 é bloqueada novamente com pneus em chamas na Grande BH - Por Dentro de Minas. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Instagram; Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-13T12:30:38Z; ativo há 11.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +106,14 @@
     "newsFreshnessHours": 10.99,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T12:30:38Z",
-    "last_seen_at": "2026-11-13T23:30:01Z",
+    "last_seen_at": "2026-11-13T23:30:17Z",
     "active_duration_hours": 10.99,
     "active_duration_label": "11.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f75413dd5a78c554239c101d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -126,7 +130,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 7.6 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 7.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -139,7 +143,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-13T23:28:49Z",
     "sources": [
       {
@@ -157,9 +161,12 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T15:55:00Z",
     "last_seen_at": "2026-11-13T23:30:01Z",
-    "active_duration_hours": 7.58,
+    "active_duration_hours": 7.59,
     "active_duration_label": "7.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-13T23:30:01Z",
+    "news_signature": "8987abaeadd7364316f2ad93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -176,7 +183,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-040 será totalmente interditada para desmonte de rocha, em Congonhas - Rede 98. Período informado: 2026-11-13T13:16:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-13T13:16:00Z; ativo há 10.2 h.",
+    "description": "BR-040 será totalmente interditada para desmonte de rocha, em Congonhas - Rede 98. Período informado: 2026-11-13T13:16:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-13T13:16:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -189,7 +196,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-13T23:28:49Z",
     "sources": [
       {
@@ -207,8 +214,11 @@
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T13:16:00Z",
     "last_seen_at": "2026-11-13T23:30:01Z",
-    "active_duration_hours": 10.23,
+    "active_duration_hours": 10.24,
     "active_duration_label": "10.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-13T23:30:01Z",
+    "news_signature": "5e3de775a88dc18c893d0ee4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
