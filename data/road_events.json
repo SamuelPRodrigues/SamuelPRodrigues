@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 volta a ser bloqueada por manifestantes e provoca nova interdição na RMBH - Por Dentro de Tudo. Fontes consolidadas: Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-13T10:28:00Z; ativo há 20 min.",
+    "description": "BR-040 volta a ser bloqueada por manifestantes e provoca nova interdição na RMBH - Por Dentro de Tudo. Fontes consolidadas: Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-13T10:28:00Z; ativo há 21 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.34,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T10:28:00Z",
-    "last_seen_at": "2026-11-13T10:48:39Z",
-    "active_duration_hours": 0.34,
-    "active_duration_label": "20 min",
+    "last_seen_at": "2026-11-13T10:48:55Z",
+    "active_duration_hours": 0.35,
+    "active_duration_label": "21 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7b274cc33447fe67dd1e32da",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rochas se desprendem e BR-101 fica com pista interditada em Ibiraçu - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-13T01:03:57Z; ativo há 9.7 h.",
+    "description": "Rochas se desprendem e BR-101 fica com pista interditada em Ibiraçu - Tribuna Online. Fontes consolidadas: Notícias públicas - Tribuna Online; Notícias públicas - Folha Vitória; Notícias públicas - Colatina em Ação. Localização aproximada pelo corredor monitorado.8 h.7 h. Rastreio: primeiro registro em 2026-11-13T01:03:57Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 9.75,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T01:03:57Z",
-    "last_seen_at": "2026-11-13T10:48:39Z",
-    "active_duration_hours": 9.74,
-    "active_duration_label": "9.7 h",
+    "last_seen_at": "2026-11-13T10:48:55Z",
+    "active_duration_hours": 9.75,
+    "active_duration_label": "9.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "54f164af01f6120f34161116",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +118,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será totalmente interditada por uma hora em Rio Novo do Sul nesta sexta - Tribuna Online. Período informado: 2026-11-13T01:15:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-13T01:15:20Z; ativo há 9.6 h.",
+    "description": "BR-101 será totalmente interditada por uma hora em Rio Novo do Sul nesta sexta - Tribuna Online. Período informado: 2026-11-13T01:15:20Z até fim não identificado. Fontes consolidadas: Notícias públicas - Tribuna Online. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-13T01:15:20Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,9 +148,11 @@
     "newsFreshnessHours": 9.56,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T01:15:20Z",
-    "last_seen_at": "2026-11-13T10:48:39Z",
+    "last_seen_at": "2026-11-13T10:48:55Z",
     "active_duration_hours": 9.56,
     "active_duration_label": "9.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a512b70b49a1210fae986f96",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
