@@ -9,7 +9,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-040 é bloqueada novamente com pneus em chamas na Grande BH - Por Dentro de Minas. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Instagram; Notícias públicas - Correio da Cidade; Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-13T12:30:38Z; ativo há 5.6 h.",
+    "description": "BR-040 é bloqueada novamente com pneus em chamas na Grande BH - Por Dentro de Minas. Fontes consolidadas: Notícias públicas - Por Dentro de Minas; Notícias públicas - Instagram; Notícias públicas - Correio da Cidade; Notícias públicas - Por Dentro de Tudo. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-13T12:30:38Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -54,12 +54,14 @@
     "newsFreshnessHours": 5.63,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T12:30:38Z",
-    "last_seen_at": "2026-11-13T18:08:28Z",
-    "active_duration_hours": 5.63,
+    "last_seen_at": "2026-11-13T18:08:52Z",
+    "active_duration_hours": 5.64,
     "active_duration_label": "5.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d7b58f5e0080021c96d71776",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -71,7 +73,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai, na BR-262, será interditada de quarta (18) a quinta (19) para concretagem - A Crítica de Campo Grande. Fontes consolidadas: Notícias públicas - A Crítica de Campo Grande. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-13T10:58:37Z; ativo há 7.2 h.",
+    "description": "Ponte sobre o Rio Paraguai, na BR-262, será interditada de quarta (18) a quinta (19) para concretagem - A Crítica de Campo Grande. Fontes consolidadas: Notícias públicas - A Crítica de Campo Grande. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-13T10:58:37Z; ativo há 7.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -98,12 +100,14 @@
     "newsFreshnessHours": 7.16,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T10:58:37Z",
-    "last_seen_at": "2026-11-13T18:08:28Z",
-    "active_duration_hours": 7.16,
+    "last_seen_at": "2026-11-13T18:08:52Z",
+    "active_duration_hours": 7.17,
     "active_duration_label": "7.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8d158ffd38cd92041fdfc76e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -120,7 +124,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 2.2 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -150,10 +154,12 @@
     "newsFreshnessHours": 2.22,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T15:55:00Z",
-    "last_seen_at": "2026-11-13T18:08:28Z",
-    "active_duration_hours": 2.22,
+    "last_seen_at": "2026-11-13T18:08:52Z",
+    "active_duration_hours": 2.23,
     "active_duration_label": "2.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8987abaeadd7364316f2ad93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -170,7 +176,7 @@
     "state": "DF",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-040 será totalmente interditada para desmonte de rocha, em Congonhas - Rede 98. Período informado: 2026-11-13T13:16:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-13T13:16:00Z; ativo há 4.9 h.",
+    "description": "BR-040 será totalmente interditada para desmonte de rocha, em Congonhas - Rede 98. Período informado: 2026-11-13T13:16:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - Rede 98. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-13T13:16:00Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -200,9 +206,11 @@
     "newsFreshnessHours": 4.87,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-13T13:16:00Z",
-    "last_seen_at": "2026-11-13T18:08:28Z",
-    "active_duration_hours": 4.87,
+    "last_seen_at": "2026-11-13T18:08:52Z",
+    "active_duration_hours": 4.88,
     "active_duration_label": "4.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5e3de775a88dc18c893d0ee4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
