@@ -1,17 +1,24 @@
 {
-  "updatedAt": "2026-11-13T02:59:42Z",
+  "updatedAt": "2026-11-13T10:48:39Z",
   "lookbackHours": 12.0,
   "inputEvents": 120,
-  "keptEvents": 4,
-  "removedEvents": 116,
-  "plannedWindowPreserved": 1,
+  "keptEvents": 3,
+  "removedEvents": 117,
+  "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
     {
       "name": "Interdição planejada por notícia pública • BR-101",
       "road": "BR-101",
-      "source": "Folha Vitória + 1 fonte(s)",
+      "source": "Sim Notícias",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-11-12T12:26:00Z"
+    },
+    {
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "source": "Folha Vitória",
       "reason": "public_news_older_than_12h",
       "date": "2026-11-11T17:24:50Z"
     },
@@ -175,13 +182,6 @@
       "source": "Portal RDX + 3 fonte(s)",
       "reason": "public_news_older_than_12h",
       "date": "2026-10-27T13:01:00Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-376",
-      "road": "BR-376",
-      "source": "Banda B",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-10-26T21:18:00Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
