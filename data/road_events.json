@@ -9,7 +9,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-116 será interditada durante a noite na Grande Curitiba; veja horário - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-13T21:02:00Z; ativo há 6.5 h.",
+    "description": "BR-116 será interditada durante a noite na Grande Curitiba; veja horário - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.5 h.5 h. Rastreio: primeiro registro em 2026-11-13T21:02:00Z; ativo há 6.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -46,8 +46,11 @@
     "active_duration_hours": 6.48,
     "active_duration_label": "6.5 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-14T03:30:46Z",
+    "news_signature": "06f53d4f9bacab90665b5144",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +67,7 @@
     "state": "ES",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 11.6 h.",
+    "description": "Ponte sobre o Rio Paraguai será interditada para obras na BR-262 - JD1 Notícias. Período informado: 2026-11-13T15:55:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - JD1 Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-13T15:55:00Z; ativo há 11.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -77,7 +80,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-14T03:29:33Z",
     "sources": [
       {
@@ -97,6 +100,9 @@
     "last_seen_at": "2026-11-14T03:30:46Z",
     "active_duration_hours": 11.6,
     "active_duration_label": "11.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-14T03:30:46Z",
+    "news_signature": "8987abaeadd7364316f2ad93",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
