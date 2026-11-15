@@ -1,6 +1,50 @@
 [
   {
     "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-163",
+    "road": "BR-163",
+    "corridor": "Cuiabá • BR-364 / BR-163 / MT-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.601,
+    "lon": -56.097,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Duas carretas se envolvem em grave acidente na BR-163 e rodovia fica interditada em Capitão Leônidas Marques - SOT. Fontes consolidadas: Notícias públicas - SOT. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-15T01:49:30Z; ativo há 5.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - SOT",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMG9XX0pkV2RlZDVNQ1MtOHBpYTVhYmMyUDczMmhKTFRDWG9vdk1UWk5QTXVPZ25kbnNlSURlazB3LUYzSGdqcTlzNjR0Q2dkMlg1ZlM0cjdoejN6TDJxY2pwcE9NQkVCNzVPT0xSS01XdkQ2VHcwSFZjdWdqQlF6RVhvbHVLaUpnbjdhZ0hSTWVwQWZONjI2alJFcXVyT0VVRGtlZlVNQ1RhM0dDY3IycE5ZZUtQOW85aDkycDYxa2pjbmZmbzRUYk9LVWR2dFVzSlpWRUxYWEk",
+    "headline": "Duas carretas se envolvem em grave acidente na BR-163 e rodovia fica interditada em Capitão Leônidas Marques - SOT",
+    "newsDate": "Sun, 15 Nov 2026 01:49:30 GMT",
+    "updatedAt": "2026-11-15T07:42:37Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMG9XX0pkV2RlZDVNQ1MtOHBpYTVhYmMyUDczMmhKTFRDWG9vdk1UWk5QTXVPZ25kbnNlSURlazB3LUYzSGdqcTlzNjR0Q2dkMlg1ZlM0cjdoejN6TDJxY2pwcE9NQkVCNzVPT0xSS01XdkQ2VHcwSFZjdWdqQlF6RVhvbHVLaUpnbjdhZ0hSTWVwQWZONjI2alJFcXVyT0VVRGtlZlVNQ1RhM0dDY3IycE5ZZUtQOW85aDkycDYxa2pjbmZmbzRUYk9LVWR2dFVzSlpWRUxYWEk",
+    "sources": [
+      {
+        "source": "Notícias públicas - SOT",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMG9XX0pkV2RlZDVNQ1MtOHBpYTVhYmMyUDczMmhKTFRDWG9vdk1UWk5QTXVPZ25kbnNlSURlazB3LUYzSGdqcTlzNjR0Q2dkMlg1ZlM0cjdoejN6TDJxY2pwcE9NQkVCNzVPT0xSS01XdkQ2VHcwSFZjdWdqQlF6RVhvbHVLaUpnbjdhZ0hSTWVwQWZONjI2alJFcXVyT0VVRGtlZlVNQ1RhM0dDY3IycE5ZZUtQOW85aDkycDYxa2pjbmZmbzRUYk9LVWR2dFVzSlpWRUxYWEk",
+        "headline": "Duas carretas se envolvem em grave acidente na BR-163 e rodovia fica interditada em Capitão Leônidas Marques - SOT",
+        "date": "Sun, 15 Nov 2026 01:49:30 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "241bf2e0048a6d95f8cb5e57",
+    "event_id": "241bf2e0048a6d95f8cb5e57",
+    "newsFreshnessHours": 5.91,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-15T01:49:30Z",
+    "last_seen_at": "2026-11-15T07:43:53Z",
+    "active_duration_hours": 5.91,
+    "active_duration_label": "5.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
     "name": "Interdição ou bloqueio por notícia pública • BR-364",
     "road": "BR-364",
     "corridor": "Rio Branco • BR-364 / BR-317",
@@ -9,7 +53,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364 será interditada neste domingo para remoção de caminhão tombado em MT - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias; Notícias públicas - Olhar Direto; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-14T19:49:00Z; ativo há 5.1 h.",
+    "description": "BR-364 será interditada neste domingo para remoção de caminhão tombado em MT - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias; Notícias públicas - Olhar Direto; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-14T19:49:00Z; ativo há 11.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -18,7 +62,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdldGSVJLMTdfbzRRYjhlZTNkbENBWDJwcU5fZ2ZGdUdTcUFvQlNDVHNXLXJFcnlnRmdfYlhldUVUTUZNWFhvMkN5STlNYXV0a2VVQjdDaUVRdFRZNFVyY2FEWmpGaXlfY3dTaGxPSjYxQ1JSM2hURGIwcnoyOHN2dWVUX3JEUG5qbE83VGtuSjFsZU8taEtEaHVLci1idkQ5ZWJZZXowVkRvT0RpSWJfZWN6NA",
     "headline": "BR-364 será interditada neste domingo para remoção de caminhão tombado em MT - Só Notícias",
     "newsDate": "Sat, 14 Nov 2026 19:49:00 GMT",
-    "updatedAt": "2026-11-15T00:55:07Z",
+    "updatedAt": "2026-11-15T07:42:37Z",
     "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdldGSVJLMTdfbzRRYjhlZTNkbENBWDJwcU5fZ2ZGdUdTcUFvQlNDVHNXLXJFcnlnRmdfYlhldUVUTUZNWFhvMkN5STlNYXV0a2VVQjdDaUVRdFRZNFVyY2FEWmpGaXlfY3dTaGxPSjYxQ1JSM2hURGIwcnoyOHN2dWVUX3JEUG5qbE83VGtuSjFsZU8taEtEaHVLci1idkQ5ZWJZZXowVkRvT0RpSWJfZWN6NA",
     "sources": [
       {
@@ -45,80 +89,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "842526ce4d00ade0a639806d",
     "event_id": "842526ce4d00ade0a639806d",
-    "newsFreshnessHours": 5.12,
+    "newsFreshnessHours": 11.91,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-14T19:49:00Z",
-    "last_seen_at": "2026-11-15T00:56:23Z",
-    "active_duration_hours": 5.12,
-    "active_duration_label": "5.1 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-101",
-    "road": "BR-101",
-    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -9.665,
-    "lon": -35.735,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Caminhão atinge limitador de altura e passagem da BR-101 é interditada em Itapema. Fontes consolidadas: Notícias públicas - Portal Menina; Notícias públicas - Enfoco; Notícias públicas - Revista Única; Notícias públicas - Litoralmania; Notícias públicas - HC Notícias. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-14T19:08:49Z; ativo há 5.8 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Portal Menina + 4 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVFQWVIzSzlkZk00Q2tVYTV2MW5aQ2Y0RHFHT1NBbUwzanVNUGc2Z3g1WGdtM3ZySk1hejFMQjdQSjRNOGllbjFpMk0wR21mUWNCZU44R2RGR05qUmRvVnNMVUQ1YU8wd19LMldtQWRMb2pzRHAtNGFuZUhGWGxRSW1ERHhodHdJbFJZdDJxT0Q3TUU4aDViYmJreWdQUElSNUh5dF9EM0QzQWhzRVpF",
-    "headline": "Caminhão atinge limitador de altura e passagem da BR-101 é interditada em Itapema",
-    "newsDate": "Sat, 14 Nov 2026 19:08:49 GMT",
-    "updatedAt": "2026-11-15T00:55:07Z",
-    "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVFQWVIzSzlkZk00Q2tVYTV2MW5aQ2Y0RHFHT1NBbUwzanVNUGc2Z3g1WGdtM3ZySk1hejFMQjdQSjRNOGllbjFpMk0wR21mUWNCZU44R2RGR05qUmRvVnNMVUQ1YU8wd19LMldtQWRMb2pzRHAtNGFuZUhGWGxRSW1ERHhodHdJbFJZdDJxT0Q3TUU4aDViYmJreWdQUElSNUh5dF9EM0QzQWhzRVpF",
-    "sources": [
-      {
-        "source": "Notícias públicas - Portal Menina",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVFQWVIzSzlkZk00Q2tVYTV2MW5aQ2Y0RHFHT1NBbUwzanVNUGc2Z3g1WGdtM3ZySk1hejFMQjdQSjRNOGllbjFpMk0wR21mUWNCZU44R2RGR05qUmRvVnNMVUQ1YU8wd19LMldtQWRMb2pzRHAtNGFuZUhGWGxRSW1ERHhodHdJbFJZdDJxT0Q3TUU4aDViYmJreWdQUElSNUh5dF9EM0QzQWhzRVpF",
-        "headline": "Caminhão atinge limitador de altura e passagem da BR-101 é interditada em Itapema",
-        "date": "Sat, 14 Nov 2026 19:08:49 GMT"
-      },
-      {
-        "source": "Notícias públicas - Enfoco",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNER1MHJzOUJnNjRGNlNMZEZ0ejBnMzh1NEFkTGY3SzRGMnltQlVMU1NwZE9SVW1KMmJ6TWYtcnB2SW1FQjFqeXEtV0hyM2prQXFaTU5YSFhQUWVxRzlYVWh6cmZYM3dVNW1oZG9WWEhWREZ1VTVkZW53ai0wdFU3ZG4zMVFBRmc",
-        "headline": "BR-101 é interditada em Itaboraí - Enfoco",
-        "date": "Sat, 14 Nov 2026 21:09:46 GMT"
-      },
-      {
-        "source": "Notícias públicas - Revista Única",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQnJrM0Z0Vl9lRWRnVGpkMk5rV3dCR3R6SGdmYjhyR3p6R1p5Mm9odXJsbVFWZGluQlpDdHpQQ3pRQmtBVW9rMnU5NW1JS0w3VUtWSjJ1MEktZzRxb1hHNk1Wa2Q1N3FnZ01mUFo2OTVzcFRHdGhpdkNpZEFLM2dIS3NVLVlUeDJpenBQazhhQk9TdFg3ajk2emN0eE5XdVJjaUhMQ05XUzg0NlhISm9SU2ZtZ2Zud2xYbUFza1oxbjRPV3c",
-        "headline": "BR-101 terá bloqueio de pista no acesso à Via Rápida em Criciúma neste fim de semana - Revista Única",
-        "date": "Fri, 13 Nov 2026 21:19:00 GMT"
-      },
-      {
-        "source": "Notícias públicas - Litoralmania",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMVExRkNVbmlpUGZWbVlERy1WSExIMDVKS055SDZZbXp6aVpqRnVqWTRhOXZXc0dpSU1RcllVbWVOYUhmYnNTWWNXWDFhdXRlUnFTOHFzc3g4bUd6TXNCZHhoS0xmM1JYbzNaWDI4Q1daV2JMcW9MMU5wZFlIRVZ0WE40ZlBqQQ",
-        "headline": "Caminhão fica pendurado em viaduto da BR-101 e rodovia é interditada no sentido RS - Litoralmania",
-        "date": "Fri, 13 Nov 2026 17:22:19 GMT"
-      },
-      {
-        "source": "Notícias públicas - HC Notícias",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMzUxbjk0cEEwSWg5RTFyTXRQYVBZbGVpcFpQUkowMDZNMFJPUExPMmVEWFNJS1AwdlQzLTVCNWtlY0lZOHRRQ1lJOXgxY29VZ1FXeGs5dWlrTlNkNFVWOFlaeWctNi1oZXZOZzVYcjRXMUhXNzhpcUpkd3hXZVJLQ1BXeFNHa3RXcWlaZllGb2theWFtSURhTnpuLU9oYjdWVGNCRERvODNoM3laWUs5SnBzY1hTYlZaVkZIemVMRm9tVWFf",
-        "headline": "Caminhão colide em viaduto da BR-101, em Tubarão, e deixa vítimas; pista é interditada - HC Notícias",
-        "date": "Fri, 13 Nov 2026 14:35:00 GMT"
-      }
-    ],
-    "sourceCount": 5,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "a3821286a59f62305766ce95",
-    "event_id": "a3821286a59f62305766ce95",
-    "newsFreshnessHours": 5.79,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-11-14T19:08:49Z",
-    "last_seen_at": "2026-11-15T00:56:23Z",
-    "active_duration_hours": 5.79,
-    "active_duration_label": "5.8 h",
+    "last_seen_at": "2026-11-15T07:43:53Z",
+    "active_duration_hours": 11.91,
+    "active_duration_label": "11.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
@@ -138,7 +114,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-376 é totalmente interditada após carreta tombar e espalhar carga - Canal 38. Período informado: 2026-11-14T20:29:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - Canal 38; Notícias públicas - TNOnline. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-14T20:29:21Z; ativo há 4.5 h.",
+    "description": "BR-376 é totalmente interditada após carreta tombar e espalhar carga - Canal 38. Período informado: 2026-11-14T20:29:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - Canal 38; Notícias públicas - TNOnline. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-14T20:29:21Z; ativo há 11.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -152,7 +128,7 @@
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-11-15T00:55:11Z",
+    "updatedAt": "2026-11-15T07:42:40Z",
     "sources": [
       {
         "source": "Notícias públicas - Canal 38",
@@ -171,12 +147,12 @@
     "sourceCount": 2,
     "dedupedFrom": 2,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 4.45,
+    "newsFreshnessHours": 11.24,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-14T20:29:21Z",
-    "last_seen_at": "2026-11-15T00:56:23Z",
-    "active_duration_hours": 4.45,
-    "active_duration_label": "4.5 h",
+    "last_seen_at": "2026-11-15T07:43:53Z",
+    "active_duration_hours": 11.24,
+    "active_duration_label": "11.2 h",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
