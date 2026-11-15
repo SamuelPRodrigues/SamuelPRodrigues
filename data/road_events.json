@@ -9,7 +9,7 @@
     "lat": -19.916,
     "lon": -43.934,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-381 é interditada após queda de árvores bloquear pista em MG; veja vídeo - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-15T20:07:20Z; ativo há 9 min.",
+    "description": "BR-381 é interditada após queda de árvores bloquear pista em MG; veja vídeo - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-15T20:07:20Z; ativo há 10 min.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 0.15,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T20:07:20Z",
-    "last_seen_at": "2026-11-15T20:16:29Z",
-    "active_duration_hours": 0.15,
-    "active_duration_label": "9 min",
+    "last_seen_at": "2026-11-15T20:16:43Z",
+    "active_duration_hours": 0.16,
+    "active_duration_label": "10 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7df26adb65a99c6a6bebf41d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Trechos da BR-116 no Paraná terão faixa bloqueada por três dias - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-15T18:51:00Z; ativo há 1.4 h.",
+    "description": "Trechos da BR-116 no Paraná terão faixa bloqueada por três dias - Tribuna do Paraná. Fontes consolidadas: Notícias públicas - Tribuna do Paraná; Notícias públicas - Costa Norte. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-15T18:51:00Z; ativo há 1.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,12 +88,14 @@
     "newsFreshnessHours": 1.42,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T18:51:00Z",
-    "last_seen_at": "2026-11-15T20:16:29Z",
-    "active_duration_hours": 1.42,
+    "last_seen_at": "2026-11-15T20:16:43Z",
+    "active_duration_hours": 1.43,
     "active_duration_label": "1.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6c26f38695e08eba21d70f19",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +107,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-277 terá pista sentido Litoral interditada a partir de segunda-feira para serviços na Serra do Mar - XV Curitiba. Fontes consolidadas: Notícias públicas - XV Curitiba; Notícias públicas - Massa.com.br. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-15T17:05:11Z; ativo há 3.2 h.",
+    "description": "BR-277 terá pista sentido Litoral interditada a partir de segunda-feira para serviços na Serra do Mar - XV Curitiba. Fontes consolidadas: Notícias públicas - XV Curitiba; Notícias públicas - Massa.com.br. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-15T17:05:11Z; ativo há 3.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -136,12 +140,14 @@
     "newsFreshnessHours": 3.19,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T17:05:11Z",
-    "last_seen_at": "2026-11-15T20:16:29Z",
+    "last_seen_at": "2026-11-15T20:16:43Z",
     "active_duration_hours": 3.19,
     "active_duration_label": "3.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "26802040ce352de726dc23cb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -153,7 +159,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-364, em Jaciara, será interditada neste domingo para retirada de veículo tombado - Única News. Fontes consolidadas: Notícias públicas - Única News; Notícias públicas - Só Notícias; Notícias públicas - Olhar Direto; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-15T12:16:00Z; ativo há 8.0 h.",
+    "description": "BR-364, em Jaciara, será interditada neste domingo para retirada de veículo tombado - Única News. Fontes consolidadas: Notícias públicas - Única News; Notícias públicas - Só Notícias; Notícias públicas - Olhar Direto; Notícias públicas - Agora MT. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-15T12:16:00Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -198,12 +204,14 @@
     "newsFreshnessHours": 8.01,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T12:16:00Z",
-    "last_seen_at": "2026-11-15T20:16:29Z",
+    "last_seen_at": "2026-11-15T20:16:43Z",
     "active_duration_hours": 8.01,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e0a41780dfec01e3ee54abcd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -220,7 +228,7 @@
     "state": "SC",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta tomba na BR-470 em Ibirama e deixa rodovia totalmente interditada - RBA TV. Período informado: 2026-11-15T18:23:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-15T18:23:21Z; ativo há 1.9 h.",
+    "description": "Carreta tomba na BR-470 em Ibirama e deixa rodovia totalmente interditada - RBA TV. Período informado: 2026-11-15T18:23:21Z até fim não identificado. Fontes consolidadas: Notícias públicas - RBA TV. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-15T18:23:21Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -250,9 +258,11 @@
     "newsFreshnessHours": 1.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T18:23:21Z",
-    "last_seen_at": "2026-11-15T20:16:29Z",
+    "last_seen_at": "2026-11-15T20:16:43Z",
     "active_duration_hours": 1.89,
     "active_duration_label": "1.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "56c7e232a436eb1a44990152",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
