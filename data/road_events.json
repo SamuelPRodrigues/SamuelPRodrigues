@@ -14,7 +14,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Via marginal da BR 101 é parcialmente interditada para obras em Viana - A Gazeta. Período informado: 2026-11-16T17:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-16T17:43:00Z; ativo há 5.6 h.",
+    "description": "Via marginal da BR 101 é parcialmente interditada para obras em Viana - A Gazeta. Período informado: 2026-11-16T17:43:00Z até fim não identificado. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-16T17:43:00Z; ativo há 5.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -44,10 +44,12 @@
     "newsFreshnessHours": 5.59,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T17:43:00Z",
-    "last_seen_at": "2026-11-16T23:18:06Z",
-    "active_duration_hours": 5.58,
+    "last_seen_at": "2026-11-16T23:18:25Z",
+    "active_duration_hours": 5.59,
     "active_duration_label": "5.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1aeb1f44dd1b2aa8da445e02",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -64,7 +66,7 @@
     "state": "MS",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será totalmente interditada por 19 horas na BR-262, em Corumbá - Aquidauana Notícias. Período informado: 2026-11-16T11:51:35Z até fim não identificado. Fontes consolidadas: Aquidauana Notícias. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-16T11:51:35Z; ativo há 11.4 h.",
+    "description": "Ponte sobre o Rio Paraguai será totalmente interditada por 19 horas na BR-262, em Corumbá - Aquidauana Notícias. Período informado: 2026-11-16T11:51:35Z até fim não identificado. Fontes consolidadas: Aquidauana Notícias. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-16T11:51:35Z; ativo há 11.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -94,9 +96,11 @@
     "newsFreshnessHours": 11.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T11:51:35Z",
-    "last_seen_at": "2026-11-16T23:18:06Z",
-    "active_duration_hours": 11.44,
+    "last_seen_at": "2026-11-16T23:18:25Z",
+    "active_duration_hours": 11.45,
     "active_duration_label": "11.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "d4eb134bbd6f20c98eed0b63",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
