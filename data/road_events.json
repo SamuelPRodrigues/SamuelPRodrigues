@@ -36,13 +36,15 @@
     "newsFreshnessHours": 0.28,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T13:48:25Z",
-    "last_seen_at": "2026-11-16T14:05:14Z",
-    "active_duration_hours": 0.28,
+    "last_seen_at": "2026-11-16T14:05:39Z",
+    "active_duration_hours": 0.29,
     "active_duration_label": "17 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "MG-050"
+    "detectedRoad": "MG-050",
+    "news_signature": "0a2a4f76d3306a71012522ce",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -81,13 +83,15 @@
     "newsFreshnessHours": 0.96,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T13:07:23Z",
-    "last_seen_at": "2026-11-16T14:05:14Z",
-    "active_duration_hours": 0.96,
+    "last_seen_at": "2026-11-16T14:05:39Z",
+    "active_duration_hours": 0.97,
     "active_duration_label": "58 min",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "ES-185"
+    "detectedRoad": "ES-185",
+    "news_signature": "4ecd9ef34ffd35218387e7f9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -99,7 +103,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Faixa da BR-101 será interditada para construção de poço em Viana - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Jornal Correio; Notícias públicas - Bahia Econômica; Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-15T23:28:07Z; ativo há 14.6 h.",
+    "description": "Faixa da BR-101 será interditada para construção de poço em Viana - Folha Vitória. Fontes consolidadas: Notícias públicas - Folha Vitória; Notícias públicas - Jornal Correio; Notícias públicas - Bahia Econômica; Notícias públicas - Sim Notícias. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-15T23:28:07Z; ativo há 14.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,12 +148,14 @@
     "newsFreshnessHours": 1.76,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-15T23:28:07Z",
-    "last_seen_at": "2026-11-16T14:05:14Z",
-    "active_duration_hours": 14.62,
+    "last_seen_at": "2026-11-16T14:05:39Z",
+    "active_duration_hours": 14.63,
     "active_duration_label": "14.6 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "fc146e22ba58f5931848e9ad",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -161,7 +167,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Após tombamento de carreta conduzida por motorista bêbado, BR-277 amanhece parcialmente interditada - JB Litoral. Fontes consolidadas: Notícias públicas - JB Litoral; Notícias públicas - Banda B; Notícias públicas - www.band.com.br; Notícias públicas - XV Curitiba; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-16T09:25:00Z; ativo há 4.7 h.",
+    "description": "Após tombamento de carreta conduzida por motorista bêbado, BR-277 amanhece parcialmente interditada - JB Litoral. Fontes consolidadas: Notícias públicas - JB Litoral; Notícias públicas - Banda B; Notícias públicas - www.band.com.br; Notícias públicas - XV Curitiba; Notícias públicas - Tribuna do Paraná. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-16T09:25:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -212,12 +218,14 @@
     "newsFreshnessHours": 4.67,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T09:25:00Z",
-    "last_seen_at": "2026-11-16T14:05:14Z",
-    "active_duration_hours": 4.67,
+    "last_seen_at": "2026-11-16T14:05:39Z",
+    "active_duration_hours": 4.68,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f6277fc9f308b04c51c5f318",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -234,7 +242,7 @@
     "state": "MS",
     "region": "Centro-Oeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai será totalmente interditada por 19 horas na BR-262, em Corumbá - Aquidauana Notícias. Período informado: 2026-11-16T11:51:35Z até fim não identificado. Fontes consolidadas: Notícias públicas - Aquidauana Notícias. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-16T11:51:35Z; ativo há 2.2 h.",
+    "description": "Ponte sobre o Rio Paraguai será totalmente interditada por 19 horas na BR-262, em Corumbá - Aquidauana Notícias. Período informado: 2026-11-16T11:51:35Z até fim não identificado. Fontes consolidadas: Notícias públicas - Aquidauana Notícias. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-16T11:51:35Z; ativo há 2.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -264,9 +272,11 @@
     "newsFreshnessHours": 2.23,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-16T11:51:35Z",
-    "last_seen_at": "2026-11-16T14:05:14Z",
+    "last_seen_at": "2026-11-16T14:05:39Z",
     "active_duration_hours": 2.23,
     "active_duration_label": "2.2 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "2ad434f61441cb71b1eb2ea7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
