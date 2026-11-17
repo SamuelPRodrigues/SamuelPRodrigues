@@ -1,42 +1,137 @@
 {
-  "updatedAt": "2026-11-17T05:07:45Z",
+  "updatedAt": "2026-11-17T14:17:49Z",
   "queries": 6,
-  "newItemsBeforeMerge": 1,
-  "savedRoadNewsReused": 1,
+  "newItemsBeforeMerge": 67,
+  "savedRoadNewsReused": 3,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 0,
+  "rejectedAsIrrelevant": 44,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [],
-  "errors": [
+  "rejectedSample": [
     {
       "category": "road",
-      "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Motiva Autoban realiza mais uma megaoperação com interdição total da Rodovia dos Bandeirantes entre Jundiaí e São Paulo - Motiva Rodovias",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "road",
-      "query": "(BR-101 OR BR-116 OR BR-040 OR BR-381 OR BR-153 OR BR-163 OR BR-262 OR BR-277 OR BR-364) (acidente OR interdição OR bloqueio OR obras) when:7d",
-      "error": "HTTP Error 429: Too Many Requests"
+      "title": "Arteris S.A - Arteris S.A.",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "ERS-149 terá bloqueio total nesta quinta-feira (12), em São João do Polêsine - DAER-RS",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Atenção, motoristas: via marginal da BR-101 terá interdição parcial a partir desta segunda-feira (16) - PREFEITURA MUNICIPAL DE VIANA - ES",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Interdição da ponte sobre o arroio Capané, na ERS-705, será estendida até quarta-feira - DAER-RS",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "DNIT alerta para interdição do km 48 da BR-153/RS, em Erechim, no domingo (15) - www.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Arteris S.A - Arteris S.A.",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Atenção, motoristas: via marginal da BR-101 terá interdição parcial a partir desta segunda-feira (16) - PREFEITURA MUNICIPAL DE VIANA - ES",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "DNIT alerta para interdição do km 48 da BR-153/RS, em Erechim, no domingo (15) - www.gov.br",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caminhão com carga de papel higiênico cai de viaduto e motorista fica ferido na BR-116 - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Dois motoristas morrem em batida de frente na BR-040, em MG - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "road",
+      "title": "Caminhão-tanque sai da pista após colisão e atinge árvores às margens da BR-153 em Marília - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "weather_news",
-      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
-      "error": "HTTP Error 429: Too Many Requests"
+      "title": "Chuva forte causa caos no ABC Paulista e interrompe circulação de trens da Linha 10-Turquesa - R7",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Mogi das Cruzes registra chuva forte na tarde desta quinta-feira (12) Siga o @noticiasdemogi e fique por dentro de tudo o que acontece na região 🎥 Lika, Crislaine, Deni, Leandro e ",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Casas submersas, ruas alagadas e destelhamentos: cidades da Bahia registram estragos após temporal - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Temporal deixa 19 municípios da BA em emergência; governador alinha medidas para cidade onde família foi salva em telhado - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva em Mogi das Cruzes: muro de cemitério desmorona após temporal - G1",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "weather_news",
+      "title": "Chuva alaga ruas de SP e provoca transbordamento de córrego na Zona Leste; vídeos mostram estragos - G1",
+      "reason": "not_operationally_relevant"
     },
     {
       "category": "mobilization",
-      "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "title": "Caminhoneiros do Chile dão início a greve devido à alta dos preços dos combustíveis - Estadão",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "security",
-      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Acesso da Orosimbo Maia para a José Paulino será interditado, nesta quinta (12/11) - EMDEC - Empresa Municipal de Desenvolvimento de Campinas S/A",
+      "reason": "not_operationally_relevant"
     },
     {
-      "category": "operational",
-      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
-      "error": "HTTP Error 503: Service Unavailable"
+      "category": "mobilization",
+      "title": "Espanha tem primeira greve geral em 14 anos - SBT News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Perfil divergente: o que a Justiça tem decidido sobre o bloqueio de caminhoneiros - Blog do Caminhoneiro",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Paralisação de motoristas afeta linhas de ônibus semiurbanos na Grande São Luís - Imirante.com",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "BR-116 tem bloqueio de uma hora previsto para retirada de caminhão em Sapucaia - Berlinda News",
+      "reason": "not_operationally_relevant"
+    },
+    {
+      "category": "mobilization",
+      "title": "Prefeitura irá flexibilizar o uso do Passe Escolar e reforça o transporte coletivo neste domingo para segunda fase do Enem em Taubaté - AgoraVale",
+      "reason": "not_operationally_relevant"
     }
-  ]
+  ],
+  "errors": []
 }
