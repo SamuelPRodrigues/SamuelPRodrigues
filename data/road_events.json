@@ -50,10 +50,12 @@
     "newsFreshnessHours": 0.38,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-17T13:54:33Z",
-    "last_seen_at": "2026-11-17T14:17:27Z",
-    "active_duration_hours": 0.38,
+    "last_seen_at": "2026-11-17T14:17:45Z",
+    "active_duration_hours": 0.39,
     "active_duration_label": "23 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6f14429f6664bfa522f51e2d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -70,7 +72,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: A Gazeta; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
+    "description": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: A Gazeta; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -111,10 +113,12 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-17T03:00:00Z",
-    "last_seen_at": "2026-11-17T14:17:27Z",
-    "active_duration_hours": 11.29,
+    "last_seen_at": "2026-11-17T14:17:45Z",
+    "active_duration_hours": 11.3,
     "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8e0f30cfd5222cddd2f1106d",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -131,7 +135,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
+    "description": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -160,9 +164,11 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-17T03:00:00Z",
-    "last_seen_at": "2026-11-17T14:17:27Z",
-    "active_duration_hours": 11.29,
+    "last_seen_at": "2026-11-17T14:17:45Z",
+    "active_duration_hours": 11.3,
     "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6409443335e1df3f13697038",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
