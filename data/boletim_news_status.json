@@ -1,128 +1,17 @@
 {
-  "updatedAt": "2026-11-16T23:18:29Z",
+  "updatedAt": "2026-11-17T05:07:45Z",
   "queries": 6,
-  "newItemsBeforeMerge": 34,
-  "savedRoadNewsReused": 2,
+  "newItemsBeforeMerge": 1,
+  "savedRoadNewsReused": 1,
   "storedItems": 220,
-  "rejectedAsIrrelevant": 22,
+  "rejectedAsIrrelevant": 0,
   "removedPreviouslyStoredIrrelevant": 0,
-  "rejectedSample": [
-    {
-      "category": "weather_news",
-      "title": "Inmet prevê tempestades no Centro-Sul do país até segunda-feira - Agência Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva forte causa caos no ABC Paulista e interrompe circulação de trens da Linha 10-Turquesa - R7",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Mogi das Cruzes registra chuva forte na tarde desta quinta-feira (12) Siga o @noticiasdemogi e fique por dentro de tudo o que acontece na região 🎥 Lika, Crislaine, Deni, Leandro e ",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Casas submersas, ruas alagadas e destelhamentos: cidades da Bahia registram estragos após temporal - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Chuva em Mogi das Cruzes: muro de cemitério desmorona após temporal - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "weather_news",
-      "title": "Caminhonete fica com a carroceria para cima após ser arrastada e cair em bueiro às margens da BR-153 - G1",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Cão da GCM de Sorocaba localiza maconha durante operação policial em Pilar do Sul - Prefeitura de Sorocaba",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial cumpre mandados por homicídio de idoso, realiza prisões e apreende drogas em Bom Retiro - Polícia Civil de Santa Catarina (PCSC)",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial prende uma das principais lideranças indígenas Pataxó na Bahia - Alma Preta Jornalismo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Arquivos #Draco #Operação Impacto #Operação Policial - www.policiacivil.ce.gov.br",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Policial morre após ser baleado durante operação em Salvador - SBT News",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Maré tem 16ª operação policial em 2026 e moradores enfrentam mais um dia de tensão; aulas foram suspensas em 22 escolas - Voz das Comunidades",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Certidão de óbito passa a registrar morte decorrente de ação policial, decide CNJ - Folha de S.Paulo",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Residência usada para venda de entorpecentes é alvo de operação policial em Rio Grande - GZH",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Basta de criminalização: lideranças indígenas Pataxó são presas em operação policial no sul da Bahia - CSP-Conlutas",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Policial militar morre após ser baleado durante patrulhamento em Salvador - CNN Brasil",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Policial militar morre durante operação que termina com prisão de outro PM - Tribuna do Paraná",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Empresário é alvo de operação policial após suspeita de enviar videogame com bomba para matar concorrente em SP - Jornal Opção",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Seis anos após operação policial na casa de Zaffa, MP arquiva suspeitas contra prefeito de Gravataí — eu avisei - Seguinte",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Policial militar morre após ser baleado na cabeça durante operação em Salvador - Jornal Correio",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "security",
-      "title": "Operação policial violenta inibe denúncia de agressão a mulher, diz estudo - UOL Notícias",
-      "reason": "not_operationally_relevant"
-    },
-    {
-      "category": "operational",
-      "title": "Simtrans informa alterações no trânsito no entorno do Parque de Exposições neste domingo, 8 - Prefeitura Municipal de Vitória da Conquista - PMVC",
-      "reason": "not_operationally_relevant"
-    }
-  ],
+  "rejectedSample": [],
   "errors": [
     {
       "category": "road",
       "query": "(rodovia OR estrada OR pista OR BR) (acidente OR interdição OR interditada OR bloqueio OR bloqueada OR obras OR deslizamento OR erosão) when:7d",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "category": "road",
@@ -130,9 +19,24 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "category": "weather_news",
+      "query": "(chuva forte OR temporal OR alagamento OR inundação OR deslizamento OR enxurrada) (rodovia OR estrada OR trânsito OR cidade OR rota) when:7d",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "category": "mobilization",
       "query": "(caminhoneiros OR transporte OR carga) (greve OR paralisação OR manifestação OR bloqueio) (rodovia OR estrada OR via OR acesso) when:14d",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "security",
+      "query": "(operação policial OR bloqueio policial OR fiscalização OR apreensão) (rodovia OR estrada OR BR OR caminhão OR carga OR trânsito) when:7d",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "category": "operational",
+      "query": "(porto OR terminal OR acesso OR aeroporto OR balsa) (bloqueio OR interditado OR interdição OR restrição OR fila OR paralisação) when:14d",
+      "error": "HTTP Error 503: Service Unavailable"
     }
   ]
 }
