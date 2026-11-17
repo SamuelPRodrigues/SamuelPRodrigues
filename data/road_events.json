@@ -1,8 +1,363 @@
 [
   {
     "active": true,
-    "event_id": "a8b705a67b11e7e5786014ce",
-    "stable_event_id": "a8b705a67b11e7e5786014ce",
+    "name": "Interdição ou bloqueio por notícia pública • BR-471",
+    "road": "BR-471",
+    "corridor": "Rio Grande • BR-392 / BR-471",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -32.035,
+    "lon": -52.098,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte sobre o Rio Jacuí será bloqueada na BR-471 nesta quinta-feira - GAZ. Fontes consolidadas: Notícias públicas - GAZ. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-17T20:31:00Z; ativo há 1.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - GAZ",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYk42N0Y0a1ZzSEJ1NUE2UUxFMmR5alQtdUxnb04wZ0VUS3paeXVpbDgzY3JNcmJ5VVBaLUJyRm1Dbk1JdUtFelI2TXZ3V0RpWS1RN1kwN2E1OTQ0ZjdVS2xvMjlFRXJRQkFEYjA3cnp6NWszbU1pbERQQnFzN1M3MGRoaDd0V1FaSEpZMjVTZ1dadm5hLUE",
+    "headline": "Ponte sobre o Rio Jacuí será bloqueada na BR-471 nesta quinta-feira - GAZ",
+    "newsDate": "Tue, 17 Nov 2026 20:31:00 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYk42N0Y0a1ZzSEJ1NUE2UUxFMmR5alQtdUxnb04wZ0VUS3paeXVpbDgzY3JNcmJ5VVBaLUJyRm1Dbk1JdUtFelI2TXZ3V0RpWS1RN1kwN2E1OTQ0ZjdVS2xvMjlFRXJRQkFEYjA3cnp6NWszbU1pbERQQnFzN1M3MGRoaDd0V1FaSEpZMjVTZ1dadm5hLUE",
+    "sources": [
+      {
+        "source": "Notícias públicas - GAZ",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYk42N0Y0a1ZzSEJ1NUE2UUxFMmR5alQtdUxnb04wZ0VUS3paeXVpbDgzY3JNcmJ5VVBaLUJyRm1Dbk1JdUtFelI2TXZ3V0RpWS1RN1kwN2E1OTQ0ZjdVS2xvMjlFRXJRQkFEYjA3cnp6NWszbU1pbERQQnFzN1M3MGRoaDd0V1FaSEpZMjVTZ1dadm5hLUE",
+        "headline": "Ponte sobre o Rio Jacuí será bloqueada na BR-471 nesta quinta-feira - GAZ",
+        "date": "Tue, 17 Nov 2026 20:31:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "9545c739d7150fb8c2fa51b3",
+    "event_id": "9545c739d7150fb8c2fa51b3",
+    "newsFreshnessHours": 1.94,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T20:31:00Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 1.94,
+    "active_duration_label": "1.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-163",
+    "road": "BR-163",
+    "corridor": "Cuiabá • BR-364 / BR-163 / MT-010",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -15.601,
+    "lon": -56.097,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Picape capota na BR-163 em Sinop e pista fica parcialmente interditada - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-17T18:00:00Z; ativo há 4.5 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Só Notícias",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbExyNkQwQXkzMVp0d3BadVBPcXBaRzRINUVyWDR0a3RxdmNwQXE2NjZva1FFME5PbEFRUV9Qb2QzcXVuX2wzcGNhdk42TzZ0OFZ1NXh2UWpldmZ2M3lKWDUyQ25mVjBpT2F5YTI3UnFGQm1SUWFpdGdtZy01dG95TUQyWnlqejRmMWVJS0dsVkdmZHZVRHhkX0lZcXk1QXVDU1Z6NllfakloWFE",
+    "headline": "Picape capota na BR-163 em Sinop e pista fica parcialmente interditada - Só Notícias",
+    "newsDate": "Tue, 17 Nov 2026 18:00:00 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbExyNkQwQXkzMVp0d3BadVBPcXBaRzRINUVyWDR0a3RxdmNwQXE2NjZva1FFME5PbEFRUV9Qb2QzcXVuX2wzcGNhdk42TzZ0OFZ1NXh2UWpldmZ2M3lKWDUyQ25mVjBpT2F5YTI3UnFGQm1SUWFpdGdtZy01dG95TUQyWnlqejRmMWVJS0dsVkdmZHZVRHhkX0lZcXk1QXVDU1Z6NllfakloWFE",
+    "sources": [
+      {
+        "source": "Notícias públicas - Só Notícias",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbExyNkQwQXkzMVp0d3BadVBPcXBaRzRINUVyWDR0a3RxdmNwQXE2NjZva1FFME5PbEFRUV9Qb2QzcXVuX2wzcGNhdk42TzZ0OFZ1NXh2UWpldmZ2M3lKWDUyQ25mVjBpT2F5YTI3UnFGQm1SUWFpdGdtZy01dG95TUQyWnlqejRmMWVJS0dsVkdmZHZVRHhkX0lZcXk1QXVDU1Z6NllfakloWFE",
+        "headline": "Picape capota na BR-163 em Sinop e pista fica parcialmente interditada - Só Notícias",
+        "date": "Tue, 17 Nov 2026 18:00:00 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "de40e47383d199d98f95b1f5",
+    "event_id": "de40e47383d199d98f95b1f5",
+    "newsFreshnessHours": 4.46,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T18:00:00Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 4.46,
+    "active_duration_label": "4.5 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-101",
+    "road": "BR-101",
+    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -9.665,
+    "lon": -35.735,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco. Fontes consolidadas: Notícias públicas - Blog do Prisco; Notícias públicas - G1; Notícias públicas - Portal Menina; Notícias públicas - Folhaonline.es; Notícias públicas - Jornal Correio; Notícias públicas - Jornal do Comércio; +7 fonte(s). Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-17T15:50:07Z; ativo há 6.6 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Blog do Prisco + 12 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
+    "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco",
+    "newsDate": "Tue, 17 Nov 2026 15:50:07 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
+    "sources": [
+      {
+        "source": "Notícias públicas - Blog do Prisco",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
+        "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco",
+        "date": "Tue, 17 Nov 2026 15:50:07 GMT"
+      },
+      {
+        "source": "Notícias públicas - G1",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRjQxOGJMX3h1X1lvb1Uza0V1QkZMLWZsVURmc1B3MzhiR2hocnNIOTVqd3B2cVZuZDU3SHlySWJVYnA5VjluXzFDRXVoVHpyZjhJR0FMV2xPR2pNOWpqR1MwYTV0NGJOYjFCU29EM0lsckVQcEF6TlV3bzI2Wm0tN2hYaHdFajJxOFVfRlNzVEtqY2hGY3hibGZKWFRZc3FNdjllR01wOXJJM2swVkt0NGVrcmpPMUNGdWk1V1FsSTh0WE5BMGc4Ri0za0NqLWEtODlUbHVaN0tlVVQ3S2pz0gHuAUFVX3lxTE1xZ016THZVTDlvdlZUQWgxMVh4Rzg1WDZQR3RTR1RmUndVWW5MRTNMV2Q2VVhnQXdxNHE3VE9UVmFIMFJhVU1DMkxETFJXeHYwVnVCOTk5Q2xkSEJwR3MxeEpDVUpROUM2NmNyZGRTdFVScDVwczgwRnZLMlNpX1ljZVVFNzh0amNWT2FJcHl4UmJxNTg1VEFKNEp6TVZBSUF6QkxsckNaU3ZVQVJMVmRWTTVFdkQ2OU5OUTQ4Q0JFTFVWMm5XdXpVOW9USVIzUno2RVg4X1JnUjVCbUV4SC1FWXE4TFBWang4TnphMkE",
+        "headline": "BR 101 será totalmente interditada em Ibiraçu nesta terça-feira (17)",
+        "date": "Tue, 17 Nov 2026 18:15:44 GMT"
+      },
+      {
+        "source": "Notícias públicas - Portal Menina",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDJhTEFfbWNlU3ljUW1YUDBLbDFsWFdma2YxbXFKVmFjMWh6QUxDQUh3MVMxYlI3Q0RlYWNZMG9iaUF5WVNMSjlzdW5JWjFrcjFRZFFPeEVwd19kbGZXNjRHRXhiZ2IxZEVwUk5zQnM0NG1hRFFFS3ZvbUJBUXNJYUs1OTdTaEt5WV9ZaW5qOUlScE9UeHVubDM3dGo5cTU0QjhzaFplLWlScDFSYXloUg",
+        "headline": "Acesso à BR-101 em Itajaí será interditado por 90 dias a partir desta quarta-feira",
+        "date": "Tue, 17 Nov 2026 16:52:26 GMT"
+      },
+      {
+        "source": "Notícias públicas - Folhaonline.es",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMjR2TWtTek9oRmRNZElDM3BaVzYzQ0ZVRFNBRjZyYkZGS3dQTk1oaVpPTG1fU3hlbXRrNGpNdFctTUhnWG9DaURUUlpZdVVxZE5xMXhPRXVBTVN3dG50VXdnektzR1l6QmRhOFBKWHNkV2ZRQTdLb2NwU3dxOTBPMmdQamd0UENwN1dfMGpQcTdSMFlIUUxEd1Bod2d6azd1",
+        "headline": "Trecho da BR-101, em Iconha, ficará totalmente interditado nesta terça (17) - Folhaonline.es",
+        "date": "Tue, 17 Nov 2026 13:42:13 GMT"
+      },
+      {
+        "source": "Notícias públicas - Jornal Correio",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTzBpVGNUdGlMR1NNaFcydkw3S3Vsd0lhVjAzZVJmNkZUYTdxek9tUkl0YVE1SG1BSG8tYzl4NlJuUmMyWG1ob3A0VVk0Yjk2S1A0eXlzNjRpaTV3c2hxYXduVHROeDZ6SHQ5RHRyczJSdnRTUXM1Q1JkMWZUYTJvZWtvdl9mNWtPN2RGcUlWVlFCNXZyaGVsbHJoUjRoQlhLUE4xaUNvRUNoODBESFZGNjlNYm91Qi1kT3UyQnhtMGNRQmJGaVVhRUlR",
+        "headline": "Trecho da BR-101 é totalmente interditado e tem engarrafamento de 5 km na Bahia - Jornal Correio",
+        "date": "Mon, 16 Nov 2026 12:19:48 GMT"
+      },
+      {
+        "source": "Notícias públicas - Jornal do Comércio",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3R6QjUzOWs1bzRqRGY1cUZYQjNKUld6ejhxQTV4TWprVnNoRnduTXJEbGlLZ213Q2M2ZmkyWEY2RkljdFFVVmFSTzNLQTNCR3kzXzFjS3pQZFVRZi1zZ05Ob3BBMVdWanc5Si1YWWY4VlNjdHp4eDlmc1RicDV6WEF5bDJnYWNFVXcxcVBGcWsyeXNtdE1XV2x2cGNIRDhueVFDV1c5c0tFUXE5YXhlX1dOVlRJMnVQS3c",
+        "headline": "Acesso à BR-101 em Itajaí será interditado por 90 dias para obras de macrodrenagem - Jornal do Comércio",
+        "date": "Tue, 17 Nov 2026 17:25:26 GMT"
+      },
+      {
+        "source": "Notícias públicas - No Ponto SC",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcklPLUliaGZHNEJKTjVOSjhPUzdfdzJlYUNXc1JncVNVVTZSeFFrdkRqUHU4MnlNSmF0dG5uQlUyVm5XbXRxNERxdTdaSWI0NE9mTm9QaTNQY3YyWjZaZXUyNEpPcjhjTTBQTFI3WWdYdHI0T3QyQUI5TVo5aWNqQUJBZGpLUllGSUJFVE1weW9SbU03NlJjdGNFTXRFeW1RYjhQcHdTM2lRQWhQN1E2UFRrS1lTSFVnVXhORUlR",
+        "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado por 90 dias em Itajaí - No Ponto SC",
+        "date": "Tue, 17 Nov 2026 14:23:06 GMT"
+      },
+      {
+        "source": "Notícias públicas - Jornal Espírito Santo Notícias",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYnFEc1R6dUxBWVQ2ZnR6cFFCSW1oa2VNVEpTVVFHMlYtWGRXa1BLMFVEVHlwbmlKZmJhM3pDWUZzM1N1LWdjRjJIVnAtSzRFQnRycHN1Ym5fLVllYUJCNEl1TmcybTRsc1pJQWdxb3lybnZNQW43QloxdTBOZUdjLWhWUFNMWmZHOTdiRGRheVRQQkNqUXZHUDBGaGpTQnZfUVhRbEN3emI",
+        "headline": "Interdição total bloqueia a BR-101 em Ibiraçu às 14h desta terça (17) - Jornal Espírito Santo Notícias",
+        "date": "Tue, 17 Nov 2026 11:01:58 GMT"
+      },
+      {
+        "source": "Notícias públicas - Tribuna Online",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORnBUMkE5dWhidVdPZDhJRDhHcUFtd01oOVkzeHBqWkhOYVR6dkd0RHhWbDZvUEprZS1WWlYzWXN1cWVRZ0JKUUhRc1oxbUhaaFNxUmpzZFlFRnc0N0ZRUWhGNWNCOHkwR3poRlA0VUczSzhyZWl2anFzVzdNMUN5d0xkT3J4bElidWprWnBIZHI3WmRGTmJyWk1jUGIwMzhCeFBSOU80emJvUXE4cWZRMVBqbThnZS15RWdOaXRsQnZHTC1wNUxJ0gHPAUFVX3lxTFBTUlpjMjczM2JXNWp1aFBVT1EtSGl1NjlFMnI0ZmpEZWpoUzJNaHVMQUZRcU5zLTdPREt3RGpOS0VkLWZ0RFBVZjZMY1ktQjZxVEhtd0JXQTZncUhXYUVOOEZXVkNPVUdlN1VQMjFDbnNYREctZjkzV3BVTVRoaE1fRV9ISGxxWTlpLWhQU3lvY2FtbVB1V256Q1JmVkNUM0tJSmFkX3hWWWJnSHZGQ3VMNFJLRmNxZkRTNmxCQngxbi1TeFFIZUdqTmt6LTRKVQ",
+        "headline": "Via marginal da BR-101 ficará interditada por 3 meses para obras em Viana - Tribuna Online",
+        "date": "Mon, 16 Nov 2026 19:53:12 GMT"
+      },
+      {
+        "source": "Notícias públicas - ES Hoje",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQjdJTWxORHJuQk56bHZVanlyazU3YUNuTnVLMVgyanJKSGFwZzZjR0sxYmNmNXFuMC1fMDFDVmZXYnk0bWtLUjZ4SkVqQ3F4UlEtckp5YmhUdEExSUhYeTQzQlJWcC03VUJtRjJpaVVTYmllMDdlSmp4YkVGUXdzUHg3QVFRZ1JkR09YS0lMVmVNNkV2YUZyVEMzVzBGRGtZdS1hZ2lxZlBDak9k",
+        "headline": "BR-101, em Iconha, será totalmente interditado para desmonte de rochas - ES Hoje",
+        "date": "Mon, 16 Nov 2026 19:52:53 GMT"
+      },
+      {
+        "source": "Notícias públicas - ES Brasil",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85UUdVanl6UGMwZHZtUF9xSDFQcGh1T0NLVEtqVUNQUnJSZUpmQ2kzUkpPcWxBZjVqWTRSak16bGlERnNfMFIxcEpZeWV6eFJXTTFUMDVKQ1VMb1lMaWtKSkluNjY0ZHFoNFNNdjh6SlNwaTRPc3A1OWdDbVc5Zw",
+        "headline": "BR-101 terá interdição total em Ibiraçu a partir das 14h - ES Brasil",
+        "date": "Mon, 16 Nov 2026 19:00:42 GMT"
+      },
+      {
+        "source": "Notícias públicas - Vitória News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2VkWTJRN3VDdzNiUHJXU0dRMnAyXzJxTFM3MmV3X1Y5MkkwZy1Ea1RtUGN4LTJFdGMtY3hUWEtaM0x5Q1JNT2pReWR6Rnp0ajB4clFadEt2dXpNSlMxdlBuZlRKV2lEYkN5TExkb3RadjIxRUEzT1QyNkZzZHZOOE5sWkwwNWJwaUtaUVdYR2Y5em9NUXNv",
+        "headline": "Marginal da BR-101 terá faixa interditada por três meses em Viana - Vitória News",
+        "date": "Mon, 16 Nov 2026 13:59:37 GMT"
+      },
+      {
+        "source": "Notícias públicas - Bahia Econômica",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1JETmRvQS1COUw5R19PTUR0SW1VMDlQTFlxU0NtLTBnNWkxdHFUTjVrVjdVby1BOFRXWFE5VUZlTHNILVAxcjBHb0xicUFlMXpyTkg4RERGcTExMDFZWjJXemJ5ZUgwMjh5U3JzN0Z5cWYtWlZnXzc3VW43dmtSZkxkcmN6eHhWcnRWXzlnRVhlNFNfTEc3T3R5d2tfTkVTQ3JGanRKQWY1VU0",
+        "headline": "BR-101 É INTERDITADA E ENGARRAFAMENTO CHEGA A 5 KM NA BAHIA - Bahia Econômica",
+        "date": "Mon, 16 Nov 2026 13:20:23 GMT"
+      }
+    ],
+    "sourceCount": 13,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "5adacdfedf02084eb4a1172c",
+    "event_id": "5adacdfedf02084eb4a1172c",
+    "newsFreshnessHours": 6.62,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T15:50:07Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 6.62,
+    "active_duration_label": "6.6 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116",
+    "road": "BR-116",
+    "corridor": "Feira de Santana • BR-324 / BR-116 / BR-101",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -12.266,
+    "lon": -38.966,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "BR-116 será bloqueada por uma hora para retirada de caminhão que caiu de viaduto - abc+. Fontes consolidadas: Notícias públicas - abc+; Notícias públicas - Acorda Cidade; Notícias públicas - Portal Salvador FM. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-17T13:33:00Z; ativo há 8.9 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - abc+ + 2 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPREg1WjZxVUVTWVdiaGNqZWk2VjhuWTFZcThDT3NObmM3ZlRzZDQ0X05IRUR5ZlBUTjB3TENqVTMzV09IU1M5UDZ4NEpZeFBDZDdtSnY3R1ZMaGhXTXR1bEgzeGpZNmVuYlEzeXYwTHZrR2p0ZmY4OFNXZXJMZnN0OVFyUzFiR2FTMHhIdkJRblpQOHZCVGNrZnZPN3hKYVVSM3BYTmhKWnNwbEFYQ200aTdVQU9ncVBnYnc",
+    "headline": "BR-116 será bloqueada por uma hora para retirada de caminhão que caiu de viaduto - abc+",
+    "newsDate": "Tue, 17 Nov 2026 13:33:00 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPREg1WjZxVUVTWVdiaGNqZWk2VjhuWTFZcThDT3NObmM3ZlRzZDQ0X05IRUR5ZlBUTjB3TENqVTMzV09IU1M5UDZ4NEpZeFBDZDdtSnY3R1ZMaGhXTXR1bEgzeGpZNmVuYlEzeXYwTHZrR2p0ZmY4OFNXZXJMZnN0OVFyUzFiR2FTMHhIdkJRblpQOHZCVGNrZnZPN3hKYVVSM3BYTmhKWnNwbEFYQ200aTdVQU9ncVBnYnc",
+    "sources": [
+      {
+        "source": "Notícias públicas - abc+",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPREg1WjZxVUVTWVdiaGNqZWk2VjhuWTFZcThDT3NObmM3ZlRzZDQ0X05IRUR5ZlBUTjB3TENqVTMzV09IU1M5UDZ4NEpZeFBDZDdtSnY3R1ZMaGhXTXR1bEgzeGpZNmVuYlEzeXYwTHZrR2p0ZmY4OFNXZXJMZnN0OVFyUzFiR2FTMHhIdkJRblpQOHZCVGNrZnZPN3hKYVVSM3BYTmhKWnNwbEFYQ200aTdVQU9ncVBnYnc",
+        "headline": "BR-116 será bloqueada por uma hora para retirada de caminhão que caiu de viaduto - abc+",
+        "date": "Tue, 17 Nov 2026 13:33:00 GMT"
+      },
+      {
+        "source": "Notícias públicas - Acorda Cidade",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSnFjekZvUGVmaWd3TXViZkFKM2pRVFR4Nzh3OHluNzBtYmNnbkxzazFjOE42ZWlWZjM2S1c1aVpac2ZSQnJhbFRXdFZvMkt6alBsckFza1pJYTV6eU1xV2hXcFZ2S2dQMjFraHZfeDlKOVhocWhZTTZxeVFsMDNsQWJEYTZmcFlNWnpnU3ZBaVR6VUNXRHVpR1VxY3VOaFlvRERoWHFTWEs2UGlvYy15eUhCVjRjUDVJSEdIbFlYUmtoRml0bkZ6UDJ3MjlGbG9yc3JpU1hDcFF3MkE3eno0Z0VR",
+        "headline": "Carreta derrapa durante chuva forte e trecho da BR-116 é interditado em Feira de Santana - Acorda Cidade",
+        "date": "Tue, 17 Nov 2026 12:03:16 GMT"
+      },
+      {
+        "source": "Notícias públicas - Portal Salvador FM",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU1M2T2w4RmVseUtvQ2xhbDFPQVBxdGxNMEFfMko3bUlqcHdSU1kxcDVVcTBCcU5QbmYwSmdoalVUUDV0QTM4Y1pSVmpZMjRoYllCYWNRdnFrOGJJOWRxTGtqZi10YlBKQUY5T21zaTZVWmplT2FzUjBvQ1ZNV3BsWlNQRWVRUE1TaXBRTzdMX0dlcXoxdmxKcVU0Zk94ZEFabWlaZzQ0WEYzN3REano3ZENrNkhkWUlWNmhMXzJlbHZxNkU",
+        "headline": "Carreta derrapa na BR-116 e provoca interdição total em trecho de Feira de Santana",
+        "date": "Mon, 16 Nov 2026 21:06:36 GMT"
+      }
+    ],
+    "sourceCount": 3,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "881da80536a1b7ce9cf3b0d2",
+    "event_id": "881da80536a1b7ce9cf3b0d2",
+    "newsFreshnessHours": 8.91,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T13:33:00Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 8.91,
+    "active_duration_label": "8.9 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-116 / PR-592",
+    "road": "BR-116 / PR-592",
+    "corridor": "Curitiba / São José dos Pinhais • BR-116 / BR-376 / BR-277 / BR-476",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -25.428,
+    "lon": -49.273,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "PR-592 volta a ser totalmente interditada em Nova Prata do Iguaçu após vandalismo e desrespeito às regras de trânsito - Rádio Independência. Fontes consolidadas: Notícias públicas - Rádio Independência; Notícias públicas - Ivaipora Online. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-17T13:01:15Z; ativo há 9.4 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - Rádio Independência + 1 fonte(s)",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMlk2NmU1VHdtSVl5elRoUi1ZUlp4eHpGc01rOHltOUgwTGdxOXFISk54UGxHRUR0Nk5DcmtlbnU2SDlPTmJyaGxzMnpoRTBTZDRySm1XRE9GeE9ZRUw2NjNNLTZIYmNhTVFTLWtySG5oUl9XVmxTTjljN0RuWnVWTml3Mnkzd1JyMWRXTzJ6cG1iSXpYWWFPZTQ1a0FWMTlQR3JIaEkxVS0tYURQLUgybnNYYmFmcnhuN1ZiV3dXUVVzbnVuVW03NEVQa0Y5U0djeGs1TmtkN0NIUkFwTlRhU2tFWHV3ckVNODgyWlY5SENRdWo0SzhiMktR",
+    "headline": "PR-592 volta a ser totalmente interditada em Nova Prata do Iguaçu após vandalismo e desrespeito às regras de trânsito - Rádio Independência",
+    "newsDate": "Tue, 17 Nov 2026 13:01:15 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMlk2NmU1VHdtSVl5elRoUi1ZUlp4eHpGc01rOHltOUgwTGdxOXFISk54UGxHRUR0Nk5DcmtlbnU2SDlPTmJyaGxzMnpoRTBTZDRySm1XRE9GeE9ZRUw2NjNNLTZIYmNhTVFTLWtySG5oUl9XVmxTTjljN0RuWnVWTml3Mnkzd1JyMWRXTzJ6cG1iSXpYWWFPZTQ1a0FWMTlQR3JIaEkxVS0tYURQLUgybnNYYmFmcnhuN1ZiV3dXUVVzbnVuVW03NEVQa0Y5U0djeGs1TmtkN0NIUkFwTlRhU2tFWHV3ckVNODgyWlY5SENRdWo0SzhiMktR",
+    "sources": [
+      {
+        "source": "Notícias públicas - Rádio Independência",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMlk2NmU1VHdtSVl5elRoUi1ZUlp4eHpGc01rOHltOUgwTGdxOXFISk54UGxHRUR0Nk5DcmtlbnU2SDlPTmJyaGxzMnpoRTBTZDRySm1XRE9GeE9ZRUw2NjNNLTZIYmNhTVFTLWtySG5oUl9XVmxTTjljN0RuWnVWTml3Mnkzd1JyMWRXTzJ6cG1iSXpYWWFPZTQ1a0FWMTlQR3JIaEkxVS0tYURQLUgybnNYYmFmcnhuN1ZiV3dXUVVzbnVuVW03NEVQa0Y5U0djeGs1TmtkN0NIUkFwTlRhU2tFWHV3ckVNODgyWlY5SENRdWo0SzhiMktR",
+        "headline": "PR-592 volta a ser totalmente interditada em Nova Prata do Iguaçu após vandalismo e desrespeito às regras de trânsito - Rádio Independência",
+        "date": "Tue, 17 Nov 2026 13:01:15 GMT"
+      },
+      {
+        "source": "Notícias públicas - Ivaipora Online",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQlUzbFRKYVdvZS1vX2RKNFkyeXZSVDE0SWhqR1ZXTUd1MC1ibG55VnpPV2VwNXpQN0ozaG5vNlZxM0RCYkVRWTBRTEJTaFpoaDZSRmRvZnAySmNaYVRlYVZGS2Rxc08yUURUNVBNQVlrRnNTbGY3eVpqUHNrWUI1cDNkS2N6T3F0X0NNX29meUhabGVadk1DMWNNcFVFb3VUVUJsUjdkdVY5dExJUV81TU85Qzd6Qmx5bjRlb0RjYnhUTnl4ZVFhSkcyWU43X0pJb0VsdGk5VzFBeGphUURkNFh5TzRuUWI4dWJhS0xR",
+        "headline": "Atenção motoristas: PR-082 será totalmente interditada nesta terça-feira (17) entre Jardim Alegre e Lunardelli para detonação de rochas - Ivaipora Online",
+        "date": "Tue, 17 Nov 2026 16:04:29 GMT"
+      }
+    ],
+    "sourceCount": 2,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "7b16cc405c73729641ccd00f",
+    "event_id": "7b16cc405c73729641ccd00f",
+    "newsFreshnessHours": 9.44,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T13:01:15Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 9.44,
+    "active_duration_label": "9.4 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "detectedRoad": "PR-592"
+  },
+  {
+    "active": true,
+    "name": "Interdição ou bloqueio por notícia pública • BR-262",
+    "road": "BR-262",
+    "corridor": "Vitória / Serra • BR-101 / BR-262",
+    "isMainRoad": true,
+    "fallbackCorridor": true,
+    "lat": -20.315,
+    "lon": -40.312,
+    "eventType": "Interdição ou bloqueio por notícia pública",
+    "description": "Ponte sobre o Rio Paraguai será interditada por 19 horas para obras na BR-262 - RCN 67. Fontes consolidadas: Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-17T11:46:47Z; ativo há 10.7 h.",
+    "risk": 69,
+    "severity": "Alto",
+    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+    "source": "Notícias públicas - RCN 67",
+    "sourceProvider": "Noticias publicas consolidadas",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaFJEVC1JUk1EWW9mdWU1cExuYTdnclY0ckZoeThJb2ZVaE1OaHpqVUtCdjkzdGVkek9LVmoybE1VWmV1Q1RDd0VuVkR5X1c5NGY1MVhmWDNQUzV4eXNadndsR2FaeGVkNlI2SnREZWhBdUpEZUtfQmhvS2dCU2hfdGJjX2lEb09RUlJmc2hjNEVvOF9KWkhoOVFPYWVjbVcxZm93UzZZdjI1cThORFY4TVlTV0JhM3c",
+    "headline": "Ponte sobre o Rio Paraguai será interditada por 19 horas para obras na BR-262 - RCN 67",
+    "newsDate": "Tue, 17 Nov 2026 11:46:47 GMT",
+    "updatedAt": "2026-11-17T22:26:16Z",
+    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaFJEVC1JUk1EWW9mdWU1cExuYTdnclY0ckZoeThJb2ZVaE1OaHpqVUtCdjkzdGVkek9LVmoybE1VWmV1Q1RDd0VuVkR5X1c5NGY1MVhmWDNQUzV4eXNadndsR2FaeGVkNlI2SnREZWhBdUpEZUtfQmhvS2dCU2hfdGJjX2lEb09RUlJmc2hjNEVvOF9KWkhoOVFPYWVjbVcxZm93UzZZdjI1cThORFY4TVlTV0JhM3c",
+    "sources": [
+      {
+        "source": "Notícias públicas - RCN 67",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaFJEVC1JUk1EWW9mdWU1cExuYTdnclY0ckZoeThJb2ZVaE1OaHpqVUtCdjkzdGVkek9LVmoybE1VWmV1Q1RDd0VuVkR5X1c5NGY1MVhmWDNQUzV4eXNadndsR2FaeGVkNlI2SnREZWhBdUpEZUtfQmhvS2dCU2hfdGJjX2lEb09RUlJmc2hjNEVvOF9KWkhoOVFPYWVjbVcxZm93UzZZdjI1cThORFY4TVlTV0JhM3c",
+        "headline": "Ponte sobre o Rio Paraguai será interditada por 19 horas para obras na BR-262 - RCN 67",
+        "date": "Tue, 17 Nov 2026 11:46:47 GMT"
+      }
+    ],
+    "sourceCount": 1,
+    "dedupedFrom": 1,
+    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
+    "stable_event_id": "258707ba648ea2c826a12a72",
+    "event_id": "258707ba648ea2c826a12a72",
+    "newsFreshnessHours": 10.68,
+    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
+    "first_seen_at": "2026-11-17T11:46:47Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 10.68,
+    "active_duration_label": "10.7 h",
+    "lifecycle_status": "active",
+    "tracker_reason": "seen_in_current_feed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+  },
+  {
+    "active": true,
+    "event_id": "cbd425e7407ae0c451953bdc",
+    "stable_event_id": "cbd425e7407ae0c451953bdc",
     "name": "Interdição planejada por notícia pública • BR-364",
     "road": "BR-364",
     "corridor": "Rio Branco • BR-364 / BR-317",
@@ -14,27 +369,63 @@
     "state": "AC",
     "region": "Norte",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO. Período informado: 2026-11-17T13:54:33Z até fim não identificado. Fontes consolidadas: Notícias públicas - Mais RO; Rondonoticias. Localização aproximada pelo corredor monitorado. Rastreio: primeiro registro em 2026-11-17T13:54:33Z; ativo há 23 min.",
+    "description": "BR-364 continua totalmente interditada em Candeias e PRF não tem previsão de liberação - Rondoniagora.com. Período informado: 2026-11-17T14:10:00Z até fim não identificado. Fontes consolidadas: Rondoniagora.com; Notícias Tudo Aqui; Notícias públicas - Rondoniaovivo.com; Notícias públicas - Alerta Rolim; Notícias públicas - Mais RO; Portal Guajará; +2 fonte(s). Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-11-17T14:10:00Z; ativo há 8.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Mais RO + 1 fonte(s)",
+    "source": "Rondoniagora.com + 7 fonte(s)",
     "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOenBXdkQ3ekJXa0lTUWRta2hZWkM0ZE9pTDlFZk0yTTdDX1JHb2Q4dGVSdU9sWlZOeWxyRXFRVTIweWltM2xWTzAzU1NLV3F6MkN1ZTlUcVQzSEV6VmJXa1BLQzlDRGl4YkdBMDdOQ20yaTZRWlBTQ18tRWF2Vkw3R2lyWWtHbG9aWm5JWmdRUWhWdUZseFZCOWYyc1ZVTGk1bnFyOEJsemhwTWVCRDF6U19lT0NCZFRkTG5sdVplRV83X29HX0ZtUXppYw",
-    "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO",
-    "newsDate": "2026-11-17T13:54:33Z",
-    "plannedStartAt": "2026-11-17T13:54:33Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUlJrWG5YSFhaQU1BT19rbGNmNUlRY21iWkJvVHg1TXVOM3pMVV9wbnFjYmx1Q2tHTUZpamlqbHh1d2YwSENZODNVRmtfMWgzTTAxOTRnXzg1RktwbnpkRzdnamhiTWtqQm9Zd2JWVnNDREtJZ3FOR0pvU2NQQnF5c1g0ZzIyTEpwVFlqYnBaOTZ1cHJlYjhJdW9yQnVtTUloNG9kVEFRRFJLc3lMVkNWWDI4SGZWQXp1QlBFbEVR0gG-AUFVX3lxTFBTVngzYUFVS2VWU2RnWTJhandlWjhCWkhQWmdvZzZKNko5SDZmYjRKNUp0YzBseWJla29KWTd6OFVOZ256X016QlpudF9rTVBlMlBhakExV3pCZ2lJbU9XaXZ1cWZBRXVwMUJweV8zSEdrQW8xOWtYOVhUOHlJRl9KcFpDdkdVZENmcTFrRmxiZHlGMWVkMUJQUG9aY05TMkk4S0xiaElJOThxY1RienF0SXNGVHJuUEJsM2ZsaHc",
+    "headline": "BR-364 continua totalmente interditada em Candeias e PRF não tem previsão de liberação - Rondoniagora.com",
+    "newsDate": "2026-11-17T14:10:00Z",
+    "plannedStartAt": "2026-11-17T14:10:00Z",
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "updatedAt": "2026-11-17T14:16:13Z",
+    "updatedAt": "2026-11-17T22:26:19Z",
     "sources": [
+      {
+        "source": "Rondoniagora.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUlJrWG5YSFhaQU1BT19rbGNmNUlRY21iWkJvVHg1TXVOM3pMVV9wbnFjYmx1Q2tHTUZpamlqbHh1d2YwSENZODNVRmtfMWgzTTAxOTRnXzg1RktwbnpkRzdnamhiTWtqQm9Zd2JWVnNDREtJZ3FOR0pvU2NQQnF5c1g0ZzIyTEpwVFlqYnBaOTZ1cHJlYjhJdW9yQnVtTUloNG9kVEFRRFJLc3lMVkNWWDI4SGZWQXp1QlBFbEVR0gG-AUFVX3lxTFBTVngzYUFVS2VWU2RnWTJhandlWjhCWkhQWmdvZzZKNko5SDZmYjRKNUp0YzBseWJla29KWTd6OFVOZ256X016QlpudF9rTVBlMlBhakExV3pCZ2lJbU9XaXZ1cWZBRXVwMUJweV8zSEdrQW8xOWtYOVhUOHlJRl9KcFpDdkdVZENmcTFrRmxiZHlGMWVkMUJQUG9aY05TMkk4S0xiaElJOThxY1RienF0SXNGVHJuUEJsM2ZsaHc",
+        "headline": "BR-364 continua totalmente interditada em Candeias e PRF não tem previsão de liberação - Rondoniagora.com",
+        "date": "2026-11-17T19:07:00Z"
+      },
+      {
+        "source": "Notícias Tudo Aqui",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPX2M1TTZRZnhBUFVzVGNUQXNZZVJFWTNaYUM4Sk9aYzgwZ3BSLWlNeEZmS3ZfcU10bWw1VDRScGxobEhHMkQtcjZEal9TWUROaEVnNENkQnZDTXNkUzVyZUE0MlhkSFJVSWxMTS1jMUNLWERBcVRUbndkdW91SE16RVR2T2FCdUk3dV9YOF9hRG1YUzU3RXplN3FYRWlfb1l2YTFwNWZhRmZkTVo3YWVzZ1Q5VmpZZGxNV3RJNHROLUswZzJOOTlYX1V1bFBPbm9ZcC0zLTZDcE83TW04RWNKTEkxdVRpRGlsaWVZM0RpTXA5Y2tNdXJjT1R5bWtWdGVnM0lYaTVYOHotXzk3MGpMU3htcHE2RjNBUE9tWUhVNG1iRXhmUm1FVA",
+        "headline": "BR-364 é totalmente interditada após tombamento de caminhão-tanque entre Candeias e Itapuã do Oeste - Notícias Tudo Aqui",
+        "date": "2026-11-17T14:10:00Z"
+      },
+      {
+        "source": "Notícias públicas - Rondoniaovivo.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdWxPdHVUODVlUUJUWGpaYm5zZTlSdjR6N1hoUjVGWGk3c3N6NTlUZDFLWFFiVWRENG5NS2J0NUwxSlJmTTh5MW83S2lpNFRsTkFISmNmS1ctX01GcjZLT0YtMWhxaU03WEk0ZHo0b2w4WVBuRlNmSFdvME92d0hRc3JFZjlIazZyMGxLMWFQMkFYaFdqOC1IVTc3UVlKRmJUc0tXSkZOLTFRYnMzVVh0R3JVc3VOZk9FOXEwcXpLZ0p5V2JzOHNjRVFyVUZTbk8tbmlGRE5IbEJiTlpE",
+        "headline": "TOTALMENTE INTERDITADA: BR-364 segue fechada em Candeias devido a capotamento de caminhão - Rondoniaovivo.com",
+        "date": "2026-11-17T19:07:39Z"
+      },
+      {
+        "source": "Notícias públicas - Alerta Rolim",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWo2VVI0SjNSSEhPM3FhdXNqWFlKeGl0RTAySFhIdW1QWm91Y1g0a1hzZTd0ZFBhaFVENzRONDV4WC1WLUlsTDZnbUNfZm5DdTQtSkdzeW5lenQ3eW9BcmNrYnpTdWw2UTRMVXVoRFB1WmNpM09SQXVQYXloX0piWVNzNnZTRUxyQmg4WW9iakUtOVBIWXZxRENpd290d2ZhRmNJUzNB",
+        "headline": "BR-364 é totalmente interditada entre Candeias e Itapuã do Oeste - Alerta Rolim",
+        "date": "2026-11-17T14:17:00Z"
+      },
       {
         "source": "Notícias públicas - Mais RO",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOenBXdkQ3ekJXa0lTUWRta2hZWkM0ZE9pTDlFZk0yTTdDX1JHb2Q4dGVSdU9sWlZOeWxyRXFRVTIweWltM2xWTzAzU1NLV3F6MkN1ZTlUcVQzSEV6VmJXa1BLQzlDRGl4YkdBMDdOQ20yaTZRWlBTQ18tRWF2Vkw3R2lyWWtHbG9aWm5JWmdRUWhWdUZseFZCOWYyc1ZVTGk1bnFyOEJsemhwTWVCRDF6U19lT0NCZFRkTG5sdVplRV83X29HX0ZtUXppYw",
         "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO",
         "date": "2026-11-17T13:54:33Z"
+      },
+      {
+        "source": "Portal Guajará",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTE8zZkVRbXVxRGk3cDhZTGNZSTVacERibzgxaWtJRnRXU2lOSi1STGU1VTdZRjhXTTBzZFZDNzZ4cDFHWHJpVWhQcThXblBwRkJROVB0TFhmZmR6cWhnbTg2WDZFdmdFa3pKdFlvOTBfTWdPYlVUR3NxWlNXcWRVemJjMldHWmViR3hDZU5FYWRhT21Pbkt0SmVReVFobTlXVjZwWlNBWQ",
+        "headline": "BR-364 é totalmente interditada entre Candeias e Itapuã do Oeste - Portal Guajará",
+        "date": "2026-11-17T13:38:13Z"
+      },
+      {
+        "source": "Notícias públicas - Rondoniagora.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUk3OXAyei1NQWhUX0hMNDNHSGdMQ1kxOGFuaWlfYXRVamdwMjJaZ2VsUHFpZXg3djNkY2lNT2c1em5UVTExcVNOOWJCMmxtaEFQMWloUENDWjBwaVhtWDZpdnhjajFfTHVDVFdCT0hndWloUk1JTGdpcTBFaVBHTnZUSS1vZzBEU3ZZWmQzTG5PaGpjZmFlN1kxR29TZXlW0gGgAUFVX3lxTE5HaGlZeXFmWTVoX1lWOHVHQ3J5UG5EZUxOMHBIQk0yOTU5ZWlfZnZ4aTNUNl9SeU13OUdiMVVvR1FnNXlBTzNRY09tbjZwMWVqN2VBX3o0SHFqbnRIUVRqWHNqQUI5QldKZjJrWFotYjctNDRFZS0tTnc4WVNqdDVWX2E4ckRtN0pfT0JnWEFTMmprX3A4WmowTmFYdkJkUUE",
+        "headline": "BR-364 é totalmente interditada entre Candeias e Itapuã do Oeste - Rondoniagora.com",
+        "date": "2026-11-17T13:21:00Z"
       },
       {
         "source": "Rondonoticias",
@@ -43,19 +434,17 @@
         "date": "2026-11-17T13:01:36Z"
       }
     ],
-    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOenBXdkQ3ekJXa0lTUWRta2hZWkM0ZE9pTDlFZk0yTTdDX1JHb2Q4dGVSdU9sWlZOeWxyRXFRVTIweWltM2xWTzAzU1NLV3F6MkN1ZTlUcVQzSEV6VmJXa1BLQzlDRGl4YkdBMDdOQ20yaTZRWlBTQ18tRWF2Vkw3R2lyWWtHbG9aWm5JWmdRUWhWdUZseFZCOWYyc1ZVTGk1bnFyOEJsemhwTWVCRDF6U19lT0NCZFRkTG5sdVplRV83X29HX0ZtUXppYw",
-    "sourceCount": 2,
-    "dedupedFrom": 2,
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUlJrWG5YSFhaQU1BT19rbGNmNUlRY21iWkJvVHg1TXVOM3pMVV9wbnFjYmx1Q2tHTUZpamlqbHh1d2YwSENZODNVRmtfMWgzTTAxOTRnXzg1RktwbnpkRzdnamhiTWtqQm9Zd2JWVnNDREtJZ3FOR0pvU2NQQnF5c1g0ZzIyTEpwVFlqYnBaOTZ1cHJlYjhJdW9yQnVtTUloNG9kVEFRRFJLc3lMVkNWWDI4SGZWQXp1QlBFbEVR0gG-AUFVX3lxTFBTVngzYUFVS2VWU2RnWTJhandlWjhCWkhQWmdvZzZKNko5SDZmYjRKNUp0YzBseWJla29KWTd6OFVOZ256X016QlpudF9rTVBlMlBhakExV3pCZ2lJbU9XaXZ1cWZBRXVwMUJweV8zSEdrQW8xOWtYOVhUOHlJRl9KcFpDdkdVZENmcTFrRmxiZHlGMWVkMUJQUG9aY05TMkk4S0xiaElJOThxY1RienF0SXNGVHJuUEJsM2ZsaHc",
+    "sourceCount": 8,
+    "dedupedFrom": 8,
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "newsFreshnessHours": 0.38,
+    "newsFreshnessHours": 8.29,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-11-17T13:54:33Z",
-    "last_seen_at": "2026-11-17T14:17:45Z",
-    "active_duration_hours": 0.39,
-    "active_duration_label": "23 min",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "6f14429f6664bfa522f51e2d",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "first_seen_at": "2026-11-17T14:10:00Z",
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 8.29,
+    "active_duration_label": "8.3 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -72,11 +461,11 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: A Gazeta; Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
+    "description": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: Notícias públicas - A Gazeta. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 19.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "A Gazeta + 2 fonte(s)",
+    "source": "Notícias públicas - A Gazeta + 2 fonte(s)",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnNCSDhpbG9jRWk0a2xJaDlHZ3VXRkNKUFNDM01fVjg1ZXFnaVZiWm12MllmQVhJOTlPSEV5QldYY2Rqc0xERktzSEl0Vk9RY1ZKZEhBZWNkR2p2aHNmY3luNkxmd2h1anROdXNYVTg4Y1lrczFvT3JLNlFMWXIzckdCS1R2dElQc0FqRGwwMTM4ZU0ybHdtOWs3Yk4yM1U0ZWo4RzRDMmMzbEZyOHc",
     "headline": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta",
@@ -86,25 +475,25 @@
     "plannedWindowRule": "Período extraído do texto da notícia.",
     "lifecycle_status": "active_planned_closure",
     "tracker_reason": "planned_road_news_window",
-    "updatedAt": "2026-11-17T14:16:13Z",
+    "updatedAt": "2026-11-17T22:26:19Z",
     "sources": [
       {
-        "source": "A Gazeta",
+        "source": "Notícias públicas - A Gazeta",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnNCSDhpbG9jRWk0a2xJaDlHZ3VXRkNKUFNDM01fVjg1ZXFnaVZiWm12MllmQVhJOTlPSEV5QldYY2Rqc0xERktzSEl0Vk9RY1ZKZEhBZWNkR2p2aHNmY3luNkxmd2h1anROdXNYVTg4Y1lrczFvT3JLNlFMWXIzckdCS1R2dElQc0FqRGwwMTM4ZU0ybHdtOWs3Yk4yM1U0ZWo4RzRDMmMzbEZyOHc",
         "headline": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta",
-        "date": "2026-11-16T21:20:00Z"
+        "date": "Mon, 16 Nov 2026 21:20:00 GMT"
       },
       {
         "source": "Notícias públicas - A Gazeta",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVhzT3VpV0xqWVBVR1FUWjd4YjVGOVBoSnQxV2JDRWdUR1NsRnE4OURsdy1kdUVJVDc3TEJUOEdVbk1xVFRRTmxvN21ERm5RdFlhNENBUENSazB0dTRkazJubGNweF9uRFBnZzN3WTBZUHdyeEFwLWlrM2N0bTZpM3prN0g4dUVfbnpvb3dFbkdPeDBPNllFckJYenAtS2tRbFktOTdIaHFVdXM1dGZ3",
         "headline": "BR 101 será totalmente interditada em Ibiraçu nesta terça-feira (17) - A Gazeta",
-        "date": "2026-11-16T20:06:00Z"
+        "date": "Mon, 16 Nov 2026 20:06:00 GMT"
       },
       {
         "source": "Notícias públicas - A Gazeta",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOFdzajVfTDgxSzJ0LXRxU1B0aEttVnc0aVFiS2NuejRrZks2RnMtRHhyWHNDZXRLMTBwV3JyWWJDSEZ6cUpKdGJfRXhGc3B1MFlIVWxuNS1xWi1EOXZuei1ZeDJzVC1scXEtUHpEZGJFekdCblQwdnRSUWU4VUFZVTZuMjUtMi1zc0Jtbnl6RVNXbmFCVEpkRnU4U3lVN21CWVozQTV2VGNtR1JHOVlsaVZxQQ",
         "headline": "Via marginal da BR 101 é parcialmente interditada para obras em Viana - A Gazeta",
-        "date": "2026-11-16T17:43:00Z"
+        "date": "Mon, 16 Nov 2026 17:43:00 GMT"
       }
     ],
     "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnNCSDhpbG9jRWk0a2xJaDlHZ3VXRkNKUFNDM01fVjg1ZXFnaVZiWm12MllmQVhJOTlPSEV5QldYY2Rqc0xERktzSEl0Vk9RY1ZKZEhBZWNkR2p2aHNmY3luNkxmd2h1anROdXNYVTg4Y1lrczFvT3JLNlFMWXIzckdCS1R2dElQc0FqRGwwMTM4ZU0ybHdtOWs3Yk4yM1U0ZWo4RzRDMmMzbEZyOHc",
@@ -113,12 +502,10 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-17T03:00:00Z",
-    "last_seen_at": "2026-11-17T14:17:45Z",
-    "active_duration_hours": 11.3,
-    "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "8e0f30cfd5222cddd2f1106d",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 19.46,
+    "active_duration_label": "19.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   },
   {
     "active": true,
@@ -135,11 +522,11 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: Aqui Notícias. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 11.3 h.",
+    "description": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias. Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Fontes consolidadas: Notícias públicas - Aqui Notícias. Localização aproximada pelo corredor monitorado.5 h. Rastreio: primeiro registro em 2026-11-17T03:00:00Z; ativo há 19.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Aqui Notícias",
+    "source": "Notícias públicas - Aqui Notícias",
     "sourceProvider": "Noticias publicas consolidadas",
     "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ",
     "headline": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias",
@@ -149,13 +536,13 @@
     "plannedWindowRule": "Período extraído do texto da notícia.",
     "lifecycle_status": "active_planned_closure",
     "tracker_reason": "planned_road_news_window",
-    "updatedAt": "2026-11-17T14:16:13Z",
+    "updatedAt": "2026-11-17T22:26:19Z",
     "sources": [
       {
-        "source": "Aqui Notícias",
+        "source": "Notícias públicas - Aqui Notícias",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ",
         "headline": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias",
-        "date": "2026-11-17T10:25:00Z"
+        "date": "Tue, 17 Nov 2026 10:25:00 GMT"
       }
     ],
     "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ",
@@ -164,11 +551,9 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "newsFreshnessRule": "Evento preservado porque a notícia informa período de interdição ainda vigente.",
     "first_seen_at": "2026-11-17T03:00:00Z",
-    "last_seen_at": "2026-11-17T14:17:45Z",
-    "active_duration_hours": 11.3,
-    "active_duration_label": "11.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "news_signature": "6409443335e1df3f13697038",
-    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
+    "last_seen_at": "2026-11-17T22:27:32Z",
+    "active_duration_hours": 19.46,
+    "active_duration_label": "19.5 h",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
   }
 ]
