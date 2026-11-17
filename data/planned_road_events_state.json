@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T05:06:49Z",
+  "updatedAt": "2026-11-17T14:17:26Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -8064,7 +8064,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-17T05:06:49Z",
+      "updatedAt": "2026-11-17T14:17:26Z",
       "sources": [
         {
           "source": "A Gazeta",
@@ -8103,13 +8103,130 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "active_planned_closure",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-17T05:06:49Z",
+      "updatedAt": "2026-11-17T14:17:26Z",
       "sources": [
         {
           "source": "A Gazeta",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnNCSDhpbG9jRWk0a2xJaDlHZ3VXRkNKUFNDM01fVjg1ZXFnaVZiWm12MllmQVhJOTlPSEV5QldYY2Rqc0xERktzSEl0Vk9RY1ZKZEhBZWNkR2p2aHNmY3luNkxmd2h1anROdXNYVTg4Y1lrczFvT3JLNlFMWXIzckdCS1R2dElQc0FqRGwwMTM4ZU0ybHdtOWs3Yk4yM1U0ZWo4RzRDMmMzbEZyOHc?oc=5",
           "headline": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta",
           "date": "2026-11-16T21:20:00Z"
+        }
+      ]
+    },
+    "b4e088b8972da2d6599f4fe4": {
+      "active": true,
+      "event_id": "b4e088b8972da2d6599f4fe4",
+      "stable_event_id": "b4e088b8972da2d6599f4fe4",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias.  Período informado: 2026-11-17T03:00:00Z até 2026-11-18T02:59:59Z. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Aqui Notícias",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ?oc=5",
+      "headline": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias",
+      "newsDate": "2026-11-17T10:25:00Z",
+      "plannedStartAt": "2026-11-17T03:00:00Z",
+      "plannedEndAt": "2026-11-18T02:59:59Z",
+      "plannedWindowRule": "Período extraído do texto da notícia.",
+      "lifecycle_status": "active_planned_closure",
+      "tracker_reason": "planned_road_news_window",
+      "updatedAt": "2026-11-17T14:17:26Z",
+      "sources": [
+        {
+          "source": "Aqui Notícias",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ?oc=5",
+          "headline": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias",
+          "date": "2026-11-17T10:25:00Z"
+        }
+      ]
+    },
+    "43208f109937f3ca9ff47b39": {
+      "active": true,
+      "event_id": "43208f109937f3ca9ff47b39",
+      "stable_event_id": "43208f109937f3ca9ff47b39",
+      "name": "Interdição planejada por notícia pública • BR-364",
+      "road": "BR-364",
+      "corridor": "Rio Branco • BR-364 / BR-317",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Rio Branco",
+      "state": "AC",
+      "region": "Norte",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível - Rondonoticias.  Período informado: 2026-11-17T13:01:36Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Rondonoticias",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2s1dWpieVN2QXRyRzhZUmFqYldZYTVYZ1k0RWtxdmFTcm9aSW1CWkRKWURnLTl5dE5sZ0RWb1oxQVFrZkxOVWJvaUtNYkNZRWM4U19OSFY4V3ZPNE9sbFFGUFY4dXdqTUdmNzVOTTdwWi1YeHluY1dvTlpsT2VXOHdBdWlKd2UzX1VyTVBaV29uaHdCR2NMN3RPREVuQmtoTUo0NjZaUVdQejdwNF9WQS1peC1VbkMtWmpGWDlWWTJfYVN4WlE?oc=5",
+      "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível - Rondonoticias",
+      "newsDate": "2026-11-17T13:01:36Z",
+      "plannedStartAt": "2026-11-17T13:01:36Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-17T14:17:26Z",
+      "sources": [
+        {
+          "source": "Rondonoticias",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2s1dWpieVN2QXRyRzhZUmFqYldZYTVYZ1k0RWtxdmFTcm9aSW1CWkRKWURnLTl5dE5sZ0RWb1oxQVFrZkxOVWJvaUtNYkNZRWM4U19OSFY4V3ZPNE9sbFFGUFY4dXdqTUdmNzVOTTdwWi1YeHluY1dvTlpsT2VXOHdBdWlKd2UzX1VyTVBaV29uaHdCR2NMN3RPREVuQmtoTUo0NjZaUVdQejdwNF9WQS1peC1VbkMtWmpGWDlWWTJfYVN4WlE?oc=5",
+          "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível - Rondonoticias",
+          "date": "2026-11-17T13:01:36Z"
+        }
+      ]
+    },
+    "65d26e02504638dd8d00ad04": {
+      "active": true,
+      "event_id": "65d26e02504638dd8d00ad04",
+      "stable_event_id": "65d26e02504638dd8d00ad04",
+      "name": "Interdição planejada por notícia pública • BR-364",
+      "road": "BR-364",
+      "corridor": "Rio Branco • BR-364 / BR-317",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.975,
+      "lon": -67.824,
+      "city": "Rio Branco",
+      "state": "AC",
+      "region": "Norte",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO.  Período informado: 2026-11-17T13:54:33Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - Mais RO",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOenBXdkQ3ekJXa0lTUWRta2hZWkM0ZE9pTDlFZk0yTTdDX1JHb2Q4dGVSdU9sWlZOeWxyRXFRVTIweWltM2xWTzAzU1NLV3F6MkN1ZTlUcVQzSEV6VmJXa1BLQzlDRGl4YkdBMDdOQ20yaTZRWlBTQ18tRWF2Vkw3R2lyWWtHbG9aWm5JWmdRUWhWdUZseFZCOWYyc1ZVTGk1bnFyOEJsemhwTWVCRDF6U19lT0NCZFRkTG5sdVplRV83X29HX0ZtUXppYw?oc=5",
+      "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO",
+      "newsDate": "2026-11-17T13:54:33Z",
+      "plannedStartAt": "2026-11-17T13:54:33Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-17T14:17:26Z",
+      "sources": [
+        {
+          "source": "Mais RO",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOenBXdkQ3ekJXa0lTUWRta2hZWkM0ZE9pTDlFZk0yTTdDX1JHb2Q4dGVSdU9sWlZOeWxyRXFRVTIweWltM2xWTzAzU1NLV3F6MkN1ZTlUcVQzSEV6VmJXa1BLQzlDRGl4YkdBMDdOQ20yaTZRWlBTQ18tRWF2Vkw3R2lyWWtHbG9aWm5JWmdRUWhWdUZseFZCOWYyc1ZVTGk1bnFyOEJsemhwTWVCRDF6U19lT0NCZFRkTG5sdVplRV83X29HX0ZtUXppYw?oc=5",
+          "headline": "BR-364 é totalmente interditada após caminhão tombar e derramar combustível entre Candeias e Itapuã - Mais RO",
+          "date": "2026-11-17T13:54:33Z"
         }
       ]
     }
