@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio da Várzea na PR-427 será interditada entre 23 e 30 de novembro - Gazeta de Palmeira. Fontes consolidadas: Notícias públicas - Gazeta de Palmeira. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-18T18:50:36Z; ativo há 1.8 h.",
+    "description": "Ponte sobre o Rio da Várzea na PR-427 será interditada entre 23 e 30 de novembro - Gazeta de Palmeira. Fontes consolidadas: Notícias públicas - Gazeta de Palmeira. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-18T18:50:36Z; ativo há 1.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 1.8,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-18T18:50:36Z",
-    "last_seen_at": "2026-11-18T20:38:32Z",
+    "last_seen_at": "2026-11-18T20:38:48Z",
     "active_duration_hours": 1.8,
     "active_duration_label": "1.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-427"
+    "detectedRoad": "PR-427",
+    "news_signature": "d03a89ada60c2e480882db36",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -15.78,
     "lon": -47.929,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Carreta com cimento tomba na BR-040, em Itabirito, pista fica interditada e motorista é socorrido - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-18T17:57:19Z; ativo há 2.7 h.",
+    "description": "Carreta com cimento tomba na BR-040, em Itabirito, pista fica interditada e motorista é socorrido - Rádio Itatiaia. Fontes consolidadas: Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-18T17:57:19Z; ativo há 2.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -81,12 +83,14 @@
     "newsFreshnessHours": 2.69,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-18T17:57:19Z",
-    "last_seen_at": "2026-11-18T20:38:32Z",
+    "last_seen_at": "2026-11-18T20:38:48Z",
     "active_duration_hours": 2.69,
     "active_duration_label": "2.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "c1c5af9eaa9df633fc66c7fd",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -103,7 +107,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Alça de acesso à BR-163 é interditada para obras em Cascavel - Catve. Período informado: 2026-11-18T14:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-18T14:40:28Z; ativo há 6.0 h.",
+    "description": "Alça de acesso à BR-163 é interditada para obras em Cascavel - Catve. Período informado: 2026-11-18T14:40:28Z até fim não identificado. Fontes consolidadas: Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-18T14:40:28Z; ativo há 6.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -133,9 +137,11 @@
     "newsFreshnessHours": 5.97,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-18T14:40:28Z",
-    "last_seen_at": "2026-11-18T20:38:32Z",
+    "last_seen_at": "2026-11-18T20:38:48Z",
     "active_duration_hours": 5.97,
     "active_duration_label": "6.0 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "1773dfee0214ccfa97d0b034",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
