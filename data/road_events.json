@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-092 é totalmente interditada em Wenceslau Braz e filas ultrapassam 4 km - Folha Extra. Fontes consolidadas: Notícias públicas - Folha Extra. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-17T21:04:54Z; ativo há 6.8 h.",
+    "description": "PR-092 é totalmente interditada em Wenceslau Braz e filas ultrapassam 4 km - Folha Extra. Fontes consolidadas: Notícias públicas - Folha Extra. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-17T21:04:54Z; ativo há 6.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 6.75,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-17T21:04:54Z",
-    "last_seen_at": "2026-11-18T03:49:54Z",
+    "last_seen_at": "2026-11-18T03:50:09Z",
     "active_duration_hours": 6.75,
     "active_duration_label": "6.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-092"
+    "detectedRoad": "PR-092",
+    "news_signature": "7afe30ae66c2460e53db2ceb",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -32.035,
     "lon": -52.098,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Jacuí será bloqueada na BR-471 nesta quinta-feira - GAZ. Fontes consolidadas: Notícias públicas - GAZ. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-11-17T20:31:00Z; ativo há 7.3 h.",
+    "description": "Ponte sobre o Rio Jacuí será bloqueada na BR-471 nesta quinta-feira - GAZ. Fontes consolidadas: Notícias públicas - GAZ. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-17T20:31:00Z; ativo há 7.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -85,8 +87,11 @@
     "active_duration_hours": 7.32,
     "active_duration_label": "7.3 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-18T03:49:54Z",
+    "news_signature": "64224e3d5649875516ce6749",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -98,7 +103,7 @@
     "lat": -15.601,
     "lon": -56.097,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Picape capota na BR-163 em Sinop e pista fica parcialmente interditada - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-17T18:00:00Z; ativo há 9.8 h.",
+    "description": "Picape capota na BR-163 em Sinop e pista fica parcialmente interditada - Só Notícias. Fontes consolidadas: Notícias públicas - Só Notícias. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-17T18:00:00Z; ativo há 9.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -122,124 +127,17 @@
     "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
     "stable_event_id": "de40e47383d199d98f95b1f5",
     "event_id": "de40e47383d199d98f95b1f5",
-    "newsFreshnessHours": 9.83,
+    "newsFreshnessHours": 9.84,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-17T18:00:00Z",
     "last_seen_at": "2026-11-18T03:49:54Z",
-    "active_duration_hours": 9.83,
+    "active_duration_hours": 9.84,
     "active_duration_label": "9.8 h",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
-  },
-  {
-    "active": true,
-    "name": "Interdição ou bloqueio por notícia pública • BR-101",
-    "road": "BR-101",
-    "corridor": "Maceió • BR-101 / BR-104 / AL-101",
-    "isMainRoad": true,
-    "fallbackCorridor": true,
-    "lat": -9.665,
-    "lon": -35.735,
-    "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco. Fontes consolidadas: Notícias públicas - Blog do Prisco; Notícias públicas - Portal Menina; Notícias públicas - Folhaonline.es; Notícias públicas - A Gazeta; Notícias públicas - Jornal do Comércio; Notícias públicas - No Ponto SC; +5 fonte(s). Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-17T15:50:07Z; ativo há 12.0 h.",
-    "risk": 69,
-    "severity": "Alto",
-    "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
-    "source": "Notícias públicas - Blog do Prisco + 11 fonte(s)",
-    "sourceProvider": "Noticias publicas consolidadas",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
-    "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco",
-    "newsDate": "Tue, 17 Nov 2026 15:50:07 GMT",
-    "updatedAt": "2026-11-18T03:48:35Z",
-    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
-    "sources": [
-      {
-        "source": "Notícias públicas - Blog do Prisco",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXJtUEZkUjZmejlVZEsweHpCRUdacWFlZUs1NXF0R3FHNHliZGktd042SnJSQzhvdTBoQ2xndGEwNGxVR3V3anRhZXpjdTFlV0w4YkFjbnZTUE02VEdBQ09wQ1FKdlM0eHN6Mjg3d19KNnFLTTFyY2l3VHltTXh1YVZTRkRRUDVkYUtCYXJqRE92SjViVU9jRV9BSFl1NjJQYW9wNmxQRy1GTENOLUowQXNBRUpzdzNIMDJtMTQ1elVzNlU10gHKAUFVX3lxTFAwb1daVzBESV9WVjMtVWdPc2ExREdpeFZockt2NEVkdHlHRE9ZcVlibmNBckdfczFEeGI0R3FiTnBxU3NaaE9fZ2R5MFVpM2tFdWJZWm5rTEd2ZDBZRzlLLThyci00Umc3M1JvM1E3OE9SWnU4MmRoRktfYnZsZmw5bG5CbVZmelZSU0pCY0xnRUItb1ZzWkl5WkhPRFZTVDg4alh2UVVBTzJHMkM5cXM5eGVScVZYelJrUWQ5aGVKb2hidG1SMEVQRkE",
-        "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado a partir desta quarta-feira (18) - Blog do Prisco",
-        "date": "Tue, 17 Nov 2026 15:50:07 GMT"
-      },
-      {
-        "source": "Notícias públicas - Portal Menina",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDJhTEFfbWNlU3ljUW1YUDBLbDFsWFdma2YxbXFKVmFjMWh6QUxDQUh3MVMxYlI3Q0RlYWNZMG9iaUF5WVNMSjlzdW5JWjFrcjFRZFFPeEVwd19kbGZXNjRHRXhiZ2IxZEVwUk5zQnM0NG1hRFFFS3ZvbUJBUXNJYUs1OTdTaEt5WV9ZaW5qOUlScE9UeHVubDM3dGo5cTU0QjhzaFplLWlScDFSYXloUg",
-        "headline": "Acesso à BR-101 em Itajaí será interditado por 90 dias a partir desta quarta-feira",
-        "date": "Tue, 17 Nov 2026 16:57:08 GMT"
-      },
-      {
-        "source": "Notícias públicas - Folhaonline.es",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMjR2TWtTek9oRmRNZElDM3BaVzYzQ0ZVRFNBRjZyYkZGS3dQTk1oaVpPTG1fU3hlbXRrNGpNdFctTUhnWG9DaURUUlpZdVVxZE5xMXhPRXVBTVN3dG50VXdnektzR1l6QmRhOFBKWHNkV2ZRQTdLb2NwU3dxOTBPMmdQamd0UENwN1dfMGpQcTdSMFlIUUxEd1Bod2d6azd1",
-        "headline": "Trecho da BR-101, em Iconha, ficará totalmente interditado nesta terça (17) - Folhaonline.es",
-        "date": "Tue, 17 Nov 2026 13:42:13 GMT"
-      },
-      {
-        "source": "Notícias públicas - A Gazeta",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnNCSDhpbG9jRWk0a2xJaDlHZ3VXRkNKUFNDM01fVjg1ZXFnaVZiWm12MllmQVhJOTlPSEV5QldYY2Rqc0xERktzSEl0Vk9RY1ZKZEhBZWNkR2p2aHNmY3luNkxmd2h1anROdXNYVTg4Y1lrczFvT3JLNlFMWXIzckdCS1R2dElQc0FqRGwwMTM4ZU0ybHdtOWs3Yk4yM1U0ZWo4RzRDMmMzbEZyOHc",
-        "headline": "BR 101 será totalmente interditada em Iconha nesta terça-feira (17) - A Gazeta",
-        "date": "Mon, 16 Nov 2026 21:20:00 GMT"
-      },
-      {
-        "source": "Notícias públicas - Jornal do Comércio",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3R6QjUzOWs1bzRqRGY1cUZYQjNKUld6ejhxQTV4TWprVnNoRnduTXJEbGlLZ213Q2M2ZmkyWEY2RkljdFFVVmFSTzNLQTNCR3kzXzFjS3pQZFVRZi1zZ05Ob3BBMVdWanc5Si1YWWY4VlNjdHp4eDlmc1RicDV6WEF5bDJnYWNFVXcxcVBGcWsyeXNtdE1XV2x2cGNIRDhueVFDV1c5c0tFUXE5YXhlX1dOVlRJMnVQS3c",
-        "headline": "Acesso à BR-101 em Itajaí será interditado por 90 dias para obras de macrodrenagem - Jornal do Comércio",
-        "date": "Tue, 17 Nov 2026 17:25:26 GMT"
-      },
-      {
-        "source": "Notícias públicas - No Ponto SC",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcklPLUliaGZHNEJKTjVOSjhPUzdfdzJlYUNXc1JncVNVVTZSeFFrdkRqUHU4MnlNSmF0dG5uQlUyVm5XbXRxNERxdTdaSWI0NE9mTm9QaTNQY3YyWjZaZXUyNEpPcjhjTTBQTFI3WWdYdHI0T3QyQUI5TVo5aWNqQUJBZGpLUllGSUJFVE1weW9SbU03NlJjdGNFTXRFeW1RYjhQcHdTM2lRQWhQN1E2UFRrS1lTSFVnVXhORUlR",
-        "headline": "Acesso à BR-101 na região da Colônia Japonesa será interditado por 90 dias em Itajaí - No Ponto SC",
-        "date": "Tue, 17 Nov 2026 14:23:06 GMT"
-      },
-      {
-        "source": "Notícias públicas - Jornal Espírito Santo Notícias",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYnFEc1R6dUxBWVQ2ZnR6cFFCSW1oa2VNVEpTVVFHMlYtWGRXa1BLMFVEVHlwbmlKZmJhM3pDWUZzM1N1LWdjRjJIVnAtSzRFQnRycHN1Ym5fLVllYUJCNEl1TmcybTRsc1pJQWdxb3lybnZNQW43QloxdTBOZUdjLWhWUFNMWmZHOTdiRGRheVRQQkNqUXZHUDBGaGpTQnZfUVhRbEN3emI",
-        "headline": "Interdição total bloqueia a BR-101 em Ibiraçu às 14h desta terça (17) - Jornal Espírito Santo Notícias",
-        "date": "Tue, 17 Nov 2026 11:01:58 GMT"
-      },
-      {
-        "source": "Notícias públicas - Aqui Notícias",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjR0RFRvZmVCX3BMMkxldjBoSGpGamU0QkFqVFVDWHdickxOUGJpZDI3RVRjQzE2OUhwT0RtdWUwMjlfeFBleTlnUlhtSDdNQlctLUpMOVhZa0hEMFg0WkM0UG5heml6a1F5VzRINnRGN01GbDRxdXdvVnFPZ3VLdEJSTlBtaFYzNnBCVkRZeUpST3lrU2REZHBJb1RRbVF2NHhVbmVtdWNENUJVeGQ0QkJDTjR3UQ",
-        "headline": "Atenção, motoristas! BR-101 será totalmente interditada nesta terça (17) no Sul do ES - Aqui Notícias",
-        "date": "Tue, 17 Nov 2026 10:25:00 GMT"
-      },
-      {
-        "source": "Notícias públicas - A Gazeta",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVhzT3VpV0xqWVBVR1FUWjd4YjVGOVBoSnQxV2JDRWdUR1NsRnE4OURsdy1kdUVJVDc3TEJUOEdVbk1xVFRRTmxvN21ERm5RdFlhNENBUENSazB0dTRkazJubGNweF9uRFBnZzN3WTBZUHdyeEFwLWlrM2N0bTZpM3prN0g4dUVfbnpvb3dFbkdPeDBPNllFckJYenAtS2tRbFktOTdIaHFVdXM1dGZ3",
-        "headline": "BR 101 será totalmente interditada em Ibiraçu nesta terça-feira (17) - A Gazeta",
-        "date": "Mon, 16 Nov 2026 20:06:00 GMT"
-      },
-      {
-        "source": "Notícias públicas - Tribuna Online",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORnBUMkE5dWhidVdPZDhJRDhHcUFtd01oOVkzeHBqWkhOYVR6dkd0RHhWbDZvUEprZS1WWlYzWXN1cWVRZ0JKUUhRc1oxbUhaaFNxUmpzZFlFRnc0N0ZRUWhGNWNCOHkwR3poRlA0VUczSzhyZWl2anFzVzdNMUN5d0xkT3J4bElidWprWnBIZHI3WmRGTmJyWk1jUGIwMzhCeFBSOU80emJvUXE4cWZRMVBqbThnZS15RWdOaXRsQnZHTC1wNUxJ0gHPAUFVX3lxTFBTUlpjMjczM2JXNWp1aFBVT1EtSGl1NjlFMnI0ZmpEZWpoUzJNaHVMQUZRcU5zLTdPREt3RGpOS0VkLWZ0RFBVZjZMY1ktQjZxVEhtd0JXQTZncUhXYUVOOEZXVkNPVUdlN1VQMjFDbnNYREctZjkzV3BVTVRoaE1fRV9ISGxxWTlpLWhQU3lvY2FtbVB1V256Q1JmVkNUM0tJSmFkX3hWWWJnSHZGQ3VMNFJLRmNxZkRTNmxCQngxbi1TeFFIZUdqTmt6LTRKVQ",
-        "headline": "Via marginal da BR-101 ficará interditada por 3 meses para obras em Viana - Tribuna Online",
-        "date": "Mon, 16 Nov 2026 19:53:12 GMT"
-      },
-      {
-        "source": "Notícias públicas - ES Hoje",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQjdJTWxORHJuQk56bHZVanlyazU3YUNuTnVLMVgyanJKSGFwZzZjR0sxYmNmNXFuMC1fMDFDVmZXYnk0bWtLUjZ4SkVqQ3F4UlEtckp5YmhUdEExSUhYeTQzQlJWcC03VUJtRjJpaVVTYmllMDdlSmp4YkVGUXdzUHg3QVFRZ1JkR09YS0lMVmVNNkV2YUZyVEMzVzBGRGtZdS1hZ2lxZlBDak9k",
-        "headline": "BR-101, em Iconha, será totalmente interditado para desmonte de rochas - ES Hoje",
-        "date": "Mon, 16 Nov 2026 19:52:53 GMT"
-      },
-      {
-        "source": "Notícias públicas - ES Brasil",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85UUdVanl6UGMwZHZtUF9xSDFQcGh1T0NLVEtqVUNQUnJSZUpmQ2kzUkpPcWxBZjVqWTRSak16bGlERnNfMFIxcEpZeWV6eFJXTTFUMDVKQ1VMb1lMaWtKSkluNjY0ZHFoNFNNdjh6SlNwaTRPc3A1OWdDbVc5Zw",
-        "headline": "BR-101 terá interdição total em Ibiraçu a partir das 14h - ES Brasil",
-        "date": "Mon, 16 Nov 2026 19:00:42 GMT"
-      }
-    ],
-    "sourceCount": 12,
-    "dedupedFrom": 1,
-    "duplicatePolicy": "Noticias publicas da mesma situacao rodoviaria ou da mesma matéria sao consolidadas em um unico evento.",
-    "stable_event_id": "5adacdfedf02084eb4a1172c",
-    "event_id": "5adacdfedf02084eb4a1172c",
-    "newsFreshnessHours": 12.0,
-    "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
-    "first_seen_at": "2026-11-17T15:50:07Z",
-    "last_seen_at": "2026-11-18T03:49:54Z",
-    "active_duration_hours": 12.0,
-    "active_duration_label": "12.0 h",
-    "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-18T03:49:54Z",
+    "news_signature": "432ab2e48ed265dc3a5087bc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
