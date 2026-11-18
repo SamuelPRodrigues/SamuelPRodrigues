@@ -9,7 +9,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Colisão envolvendo caminhões e caminhonete deixa SC-386 interditada por três horas – Araguaia 104,5 FM - Rádio Araguaia. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-18T07:55:22Z; ativo há 4.4 h.",
+    "description": "Colisão envolvendo caminhões e caminhonete deixa SC-386 interditada por três horas – Araguaia 104,5 FM - Rádio Araguaia. Fontes consolidadas: Notícias públicas - Rádio Araguaia. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-18T07:55:22Z; ativo há 4.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.4,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-18T07:55:22Z",
-    "last_seen_at": "2026-11-18T12:19:26Z",
-    "active_duration_hours": 4.4,
+    "last_seen_at": "2026-11-18T12:19:43Z",
+    "active_duration_hours": 4.41,
     "active_duration_label": "4.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-386"
+    "detectedRoad": "SC-386",
+    "news_signature": "0a6649f2e3787f76f2c3e5fc",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
