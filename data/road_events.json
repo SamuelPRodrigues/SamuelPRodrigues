@@ -9,7 +9,7 @@
     "lat": -9.975,
     "lon": -67.824,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Retificado: Dois morrem em colisão frontal entre ônibus e caminhão na BR-364; pista é interditada - VG Notícias. Fontes consolidadas: Notícias públicas - VG Notícias; Notícias públicas - Power Mix. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-20T19:16:00Z; ativo há 3.9 h.",
+    "description": "Retificado: Dois morrem em colisão frontal entre ônibus e caminhão na BR-364; pista é interditada - VG Notícias. Fontes consolidadas: Notícias públicas - VG Notícias; Notícias públicas - Power Mix. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-20T19:16:00Z; ativo há 3.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,12 +48,14 @@
     "newsFreshnessHours": 3.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-20T19:16:00Z",
-    "last_seen_at": "2026-11-20T23:09:27Z",
-    "active_duration_hours": 3.89,
+    "last_seen_at": "2026-11-20T23:09:48Z",
+    "active_duration_hours": 3.9,
     "active_duration_label": "3.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "8538c1dfc496c56b0891de44",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +67,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 é totalmente interditada após tombamento de carga. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Canal 38. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-20T10:46:00Z; ativo há 12.4 h.",
+    "description": "BR-376 é totalmente interditada após tombamento de carga. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Canal 38. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-20T10:46:00Z; ativo há 12.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -98,11 +100,13 @@
     "newsFreshnessHours": 10.3,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-20T10:46:00Z",
-    "last_seen_at": "2026-11-20T23:09:27Z",
-    "active_duration_hours": 12.39,
+    "last_seen_at": "2026-11-20T23:09:48Z",
+    "active_duration_hours": 12.4,
     "active_duration_label": "12.4 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "94e04a2415945fef23a9ab6a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
