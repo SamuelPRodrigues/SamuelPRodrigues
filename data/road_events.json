@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai, na BR-262, em Corumbá, será interditada de quarta (25) a quinta (26) para concretagem - A Crítica de Campo Grande. Fontes consolidadas: Notícias públicas - A Crítica de Campo Grande. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-21T16:03:05Z; ativo há 3.4 h.",
+    "description": "Ponte sobre o Rio Paraguai, na BR-262, em Corumbá, será interditada de quarta (25) a quinta (26) para concretagem - A Crítica de Campo Grande. Fontes consolidadas: Notícias públicas - A Crítica de Campo Grande. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-21T16:03:05Z; ativo há 3.5 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 3.44,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-21T16:03:05Z",
-    "last_seen_at": "2026-11-21T19:29:41Z",
-    "active_duration_hours": 3.44,
-    "active_duration_label": "3.4 h",
+    "last_seen_at": "2026-11-21T19:29:55Z",
+    "active_duration_hours": 3.45,
+    "active_duration_label": "3.5 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5401f0e47877846d91b66bb7",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta tomba na BR-265, outra tenta passar e acaba atolada em manancial; acidentes interditam rodovia. Período informado: 2026-11-21T13:14:00Z até fim não identificado. Fontes consolidadas: G1; RCWTV; Notícias públicas - Vertentes das Gerais; Notícias públicas - Correio de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.3 h. Rastreio: primeiro registro em 2026-11-21T13:14:00Z; ativo há 6.3 h.",
+    "description": "Carreta tomba na BR-265, outra tenta passar e acaba atolada em manancial; acidentes interditam rodovia. Período informado: 2026-11-21T13:14:00Z até fim não identificado. Fontes consolidadas: G1; RCWTV; Notícias públicas - Vertentes das Gerais; Notícias públicas - Correio de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.3 h.3 h. Rastreio: primeiro registro em 2026-11-21T13:14:00Z; ativo há 6.3 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -118,9 +120,11 @@
     "newsFreshnessHours": 6.26,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-21T13:14:00Z",
-    "last_seen_at": "2026-11-21T19:29:41Z",
-    "active_duration_hours": 6.26,
+    "last_seen_at": "2026-11-21T19:29:55Z",
+    "active_duration_hours": 6.27,
     "active_duration_label": "6.3 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "7711236ea984de279a137b75",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
