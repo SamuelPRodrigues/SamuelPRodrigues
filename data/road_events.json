@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte do Rio Paraguai na BR-262 será bloqueada por 19 horas - Campo Grande News. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-21T19:11:00Z; ativo há 4.7 h.",
+    "description": "Ponte do Rio Paraguai na BR-262 será bloqueada por 19 horas - Campo Grande News. Fontes consolidadas: Notícias públicas - Campo Grande News. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-21T19:11:00Z; ativo há 4.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 4.73,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-21T19:11:00Z",
-    "last_seen_at": "2026-11-21T23:54:42Z",
+    "last_seen_at": "2026-11-21T23:54:58Z",
     "active_duration_hours": 4.73,
     "active_duration_label": "4.7 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a8928b5f7cdd2d2a1216ea35",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -58,7 +60,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Carreta tomba na BR-265, outra tenta passar e acaba atolada em manancial; acidentes interditam rodovia. Período informado: 2026-11-21T13:14:00Z até fim não identificado. Fontes consolidadas: G1; RCWTV; Notícias públicas - Vertentes das Gerais; Notícias públicas - Correio de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.7 h. Rastreio: primeiro registro em 2026-11-21T13:14:00Z; ativo há 10.7 h.",
+    "description": "Carreta tomba na BR-265, outra tenta passar e acaba atolada em manancial; acidentes interditam rodovia. Período informado: 2026-11-21T13:14:00Z até fim não identificado. Fontes consolidadas: G1; RCWTV; Notícias públicas - Vertentes das Gerais; Notícias públicas - Correio de Minas; Notícias públicas - Correio da Cidade; Notícias públicas - Rádio Itatiaia. Localização aproximada pelo corredor monitorado.7 h.7 h. Rastreio: primeiro registro em 2026-11-21T13:14:00Z; ativo há 10.7 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -71,7 +73,7 @@
     "plannedEndAt": "",
     "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
     "lifecycle_status": "active",
-    "tracker_reason": "seen_in_current_feed",
+    "tracker_reason": "unchanged_public_news_not_reconfirmed",
     "updatedAt": "2026-11-21T23:53:29Z",
     "sources": [
       {
@@ -121,6 +123,9 @@
     "last_seen_at": "2026-11-21T23:54:42Z",
     "active_duration_hours": 10.68,
     "active_duration_label": "10.7 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "last_confirmed_at": "2026-11-21T23:54:42Z",
+    "news_signature": "7711236ea984de279a137b75",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
