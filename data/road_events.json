@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-376 é interditada após acidente entre caminhões em Guaratuba. Fontes consolidadas: Notícias públicas - Band; Notícias públicas - Tribuna do Paraná; Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-23T13:36:06Z; ativo há 7.9 h.",
+    "description": "BR-376 é interditada após acidente entre caminhões em Guaratuba. Fontes consolidadas: Notícias públicas - Band; Notícias públicas - Tribuna do Paraná; Notícias públicas - Catve. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-23T13:36:06Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -48,12 +48,14 @@
     "newsFreshnessHours": 7.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-23T13:36:06Z",
-    "last_seen_at": "2026-11-23T21:29:36Z",
-    "active_duration_hours": 7.89,
+    "last_seen_at": "2026-11-23T21:29:52Z",
+    "active_duration_hours": 7.9,
     "active_duration_label": "7.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "cbec9e60b8bd5d5cacb61d2e",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -65,7 +67,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Mudança na BR-101: acesso a Garopaba será interditado para obras a partir desta segunda-feira - Open Sans, sans-serif;. Fontes consolidadas: Notícias públicas - Open Sans, sans-serif;. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-23T12:42:00Z; ativo há 8.8 h.",
+    "description": "Mudança na BR-101: acesso a Garopaba será interditado para obras a partir desta segunda-feira - Open Sans, sans-serif;. Fontes consolidadas: Notícias públicas - Open Sans, sans-serif;. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-23T12:42:00Z; ativo há 8.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -92,12 +94,14 @@
     "newsFreshnessHours": 8.79,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-23T12:42:00Z",
-    "last_seen_at": "2026-11-23T21:29:36Z",
-    "active_duration_hours": 8.79,
+    "last_seen_at": "2026-11-23T21:29:52Z",
+    "active_duration_hours": 8.8,
     "active_duration_label": "8.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "16dd453fe48e0a17543f9ec2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -114,7 +118,7 @@
     "state": "MG",
     "region": "Sudeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-267 está totalmente interditada entre Jardim e Porto Murtinho - Capital do Pantanal. Período informado: 2026-11-23T18:08:00Z até fim não identificado. Fontes consolidadas: Capital do Pantanal. Localização aproximada pelo corredor monitorado.4 h. Rastreio: primeiro registro em 2026-11-23T18:08:00Z; ativo há 3.4 h.",
+    "description": "BR-267 está totalmente interditada entre Jardim e Porto Murtinho - Capital do Pantanal. Período informado: 2026-11-23T18:08:00Z até fim não identificado. Fontes consolidadas: Capital do Pantanal. Localização aproximada pelo corredor monitorado.4 h.4 h. Rastreio: primeiro registro em 2026-11-23T18:08:00Z; ativo há 3.4 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -144,10 +148,12 @@
     "newsFreshnessHours": 3.36,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-23T18:08:00Z",
-    "last_seen_at": "2026-11-23T21:29:36Z",
+    "last_seen_at": "2026-11-23T21:29:52Z",
     "active_duration_hours": 3.36,
     "active_duration_label": "3.4 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "5ad035b34526db3e07085e83",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -164,7 +170,7 @@
     "state": "PR",
     "region": "Sul",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "Caminhão pega fogo após batida na BR-376 e rodovia é totalmente interditada em Guaratuba. Período informado: 2026-11-23T11:56:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Nosso Dia. Localização aproximada pelo corredor monitorado.6 h. Rastreio: primeiro registro em 2026-11-23T11:56:49Z; ativo há 9.6 h.",
+    "description": "Caminhão pega fogo após batida na BR-376 e rodovia é totalmente interditada em Guaratuba. Período informado: 2026-11-23T11:56:49Z até fim não identificado. Fontes consolidadas: Notícias públicas - Portal Nosso Dia. Localização aproximada pelo corredor monitorado.6 h.6 h. Rastreio: primeiro registro em 2026-11-23T11:56:49Z; ativo há 9.6 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -194,9 +200,11 @@
     "newsFreshnessHours": 9.55,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-23T11:56:49Z",
-    "last_seen_at": "2026-11-23T21:29:36Z",
+    "last_seen_at": "2026-11-23T21:29:52Z",
     "active_duration_hours": 9.55,
     "active_duration_label": "9.6 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "f2ee775bc6c568f26af058e9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
