@@ -9,7 +9,7 @@
     "lat": -21.762,
     "lon": -43.349,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-267 segue interditada e Porto Murtinho continua sem acesso por rodovia nesta terça (24) - HoraMS. Fontes consolidadas: Notícias públicas - HoraMS. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-24T14:22:05Z; ativo há 1.9 h.",
+    "description": "BR-267 segue interditada e Porto Murtinho continua sem acesso por rodovia nesta terça (24) - HoraMS. Fontes consolidadas: Notícias públicas - HoraMS. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-24T14:22:05Z; ativo há 1.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 1.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-24T14:22:05Z",
-    "last_seen_at": "2026-11-24T16:15:44Z",
-    "active_duration_hours": 1.89,
+    "last_seen_at": "2026-11-24T16:16:05Z",
+    "active_duration_hours": 1.9,
     "active_duration_label": "1.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "4eed2c2c3fb0b2df17ed08a6",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -53,7 +55,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "AL-101 Norte bloqueada: Comunidade da Agrovila cobra água - BNews Alagoas. Fontes consolidadas: Notícias públicas - BNews Alagoas; Notícias públicas - Correio do Povo Penedo; Notícias públicas - Folha do Leste; Notícias públicas - Extra online; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-24T12:24:03Z; ativo há 3.9 h.",
+    "description": "AL-101 Norte bloqueada: Comunidade da Agrovila cobra água - BNews Alagoas. Fontes consolidadas: Notícias públicas - BNews Alagoas; Notícias públicas - Correio do Povo Penedo; Notícias públicas - Folha do Leste; Notícias públicas - Extra online; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-24T12:24:03Z; ativo há 3.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -104,12 +106,14 @@
     "newsFreshnessHours": 3.86,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-24T12:24:03Z",
-    "last_seen_at": "2026-11-24T16:15:44Z",
-    "active_duration_hours": 3.86,
+    "last_seen_at": "2026-11-24T16:16:05Z",
+    "active_duration_hours": 3.87,
     "active_duration_label": "3.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "9ae07b12083382777997e5b5",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -121,7 +125,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Motociclista morre após queda de barreira e atropelamento por caminhão na SC-154 - Oeste Mais. Fontes consolidadas: Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-24T11:24:58Z; ativo há 4.8 h.",
+    "description": "Motociclista morre após queda de barreira e atropelamento por caminhão na SC-154 - Oeste Mais. Fontes consolidadas: Notícias públicas - Oeste Mais. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-24T11:24:58Z; ativo há 4.8 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -154,13 +158,15 @@
     "newsFreshnessHours": 4.85,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-24T11:24:58Z",
-    "last_seen_at": "2026-11-24T16:15:44Z",
+    "last_seen_at": "2026-11-24T16:16:05Z",
     "active_duration_hours": 4.85,
     "active_duration_label": "4.8 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-154"
+    "detectedRoad": "SC-154",
+    "news_signature": "3dbdcfb9f3d9dab9cf9b5393",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -172,7 +178,7 @@
     "lat": -12.266,
     "lon": -38.966,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Passarela que cedeu sobre carretas interdita a Régis Bittencourt e gera mais de 27 km de filas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Costa Norte; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-24T11:16:40Z; ativo há 5.0 h.",
+    "description": "Passarela que cedeu sobre carretas interdita a Régis Bittencourt e gera mais de 27 km de filas. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Costa Norte; Notícias públicas - Estradas. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-24T11:16:40Z; ativo há 5.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -211,11 +217,13 @@
     "newsFreshnessHours": 4.98,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-24T11:16:40Z",
-    "last_seen_at": "2026-11-24T16:15:44Z",
-    "active_duration_hours": 4.98,
+    "last_seen_at": "2026-11-24T16:16:05Z",
+    "active_duration_hours": 4.99,
     "active_duration_label": "5.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a361bc3e39a0c2f3dd159fa2",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
