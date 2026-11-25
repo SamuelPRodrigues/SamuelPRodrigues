@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T09:15:30Z",
+  "updatedAt": "2026-11-25T19:22:16Z",
   "events": {
     "06ea6dc7a3c1a496df739b1d": {
       "active": true,
@@ -8805,7 +8805,7 @@
       "plannedWindowRule": "Período extraído do texto da notícia.",
       "lifecycle_status": "scheduled",
       "tracker_reason": "planned_road_news_window",
-      "updatedAt": "2026-11-25T09:15:30Z",
+      "updatedAt": "2026-11-25T19:22:16Z",
       "sources": [
         {
           "source": "Rádio Itatiaia",
@@ -8851,6 +8851,45 @@
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWldpbEQ2NWhJYlZLcVhoaVpVaFRWMEtiaTZRUmIzaFZvbncwQWMyS2VhQkwxejNvYzBsOV96eG5IYlRKR3VqTjRjNkVfUnFfZUs1M0xsalJQektJdVZ3UTUtWEp5SGRiVTlsSnM0eWpUcTdENV8yWV9ERlQtQmxkQzdWWUJiaEVwUUJGZVNMRUhkZVdFTGdFRndBdVkzeDVveWw3WHQ1V1RJdVZqUFNaMndKUDAtbjVmdXBzd2FBNkJ6enEtTDJYTWFjUWdjd2d5ZjRPaw?oc=5",
           "headline": "ATENÇÃO: DNIT interdita Ponte Torta, na BR-265, por 19 dias para obras de recuperação em Carmo do Rio Claro - ONDA SUL",
           "date": "2026-11-24T16:29:24Z"
+        }
+      ]
+    },
+    "8f5f981c6e750b5d9cbc35c9": {
+      "active": true,
+      "event_id": "8f5f981c6e750b5d9cbc35c9",
+      "stable_event_id": "8f5f981c6e750b5d9cbc35c9",
+      "name": "Interdição planejada por notícia pública • BR-101",
+      "road": "BR-101",
+      "corridor": "Maceió • BR-101 / BR-104 / AL-101",
+      "isMainRoad": true,
+      "fallbackCorridor": true,
+      "lat": -9.665,
+      "lon": -35.735,
+      "city": "Maceió",
+      "state": "AL",
+      "region": "Nordeste",
+      "eventType": "Interdição planejada por notícia pública",
+      "description": "BR-101 será interditada para obras de duplicação - G1.  Período informado: 2026-11-25T11:29:09Z até fim não identificado. Localização aproximada pelo corredor monitorado.",
+      "risk": 69,
+      "severity": "Alto",
+      "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
+      "source": "Notícias públicas - G1",
+      "sourceProvider": "Google News RSS planejado",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemYzdm9uZzlVR0hyN19yRFV4N2dldmJqVzFPVHBmZHA2elF6RGR5dkl6Q3pnM2pMdkdzN3ZMaU5UUzh0Y2JJM09aZFhkcnlBN25BYVRVeFRUb3otSk1qVDFjNFdUT2hmZVlIYnRVT2ZlRHM2Wl80OGZHSGF1dG1haUJESEV1UGktQ3lRSTRJT2R3clotVVhEaWR3cWo0UTdGTXNNZmhvbVdjN1NkTU5yRXhjeTB1SWtkOWRlb0tueTFSb0Q20gHTAUFVX3lxTE1ETDdHUjFwQnlrUmRrSUVHWTFkbElPdTdfUUtVQWFidGpMTWdXMng5LV80MGxaNU4zX1RiMnRqalh3SmlVQ3RobXh2bFNXMVF1RlBFa3ktZjRSMmNOM21VV19peElEQWRHSXk0c1g5Vy1iT1pxSTZmMmt4SjgyelJDakZiM2c4Y2xUZ0Fqc1NaeTZRMFhUajRWSjVHNW9SZEZjOUZJS2hlWk9odER3LW5yZmNYaVY1UFRzRjZFSjd3azVJT1R3c2hLVkc2RjhEU0tUZE0?oc=5",
+      "headline": "BR-101 será interditada para obras de duplicação - G1",
+      "newsDate": "2026-11-25T11:29:09Z",
+      "plannedStartAt": "2026-11-25T11:29:09Z",
+      "plannedEndAt": "",
+      "plannedWindowRule": "Sem período explícito; vale a regra de frescor da notícia.",
+      "lifecycle_status": "active_recent_public_news",
+      "tracker_reason": "recent_public_news_without_window",
+      "updatedAt": "2026-11-25T19:22:16Z",
+      "sources": [
+        {
+          "source": "G1",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemYzdm9uZzlVR0hyN19yRFV4N2dldmJqVzFPVHBmZHA2elF6RGR5dkl6Q3pnM2pMdkdzN3ZMaU5UUzh0Y2JJM09aZFhkcnlBN25BYVRVeFRUb3otSk1qVDFjNFdUT2hmZVlIYnRVT2ZlRHM2Wl80OGZHSGF1dG1haUJESEV1UGktQ3lRSTRJT2R3clotVVhEaWR3cWo0UTdGTXNNZmhvbVdjN1NkTU5yRXhjeTB1SWtkOWRlb0tueTFSb0Q20gHTAUFVX3lxTE1ETDdHUjFwQnlrUmRrSUVHWTFkbElPdTdfUUtVQWFidGpMTWdXMng5LV80MGxaNU4zX1RiMnRqalh3SmlVQ3RobXh2bFNXMVF1RlBFa3ktZjRSMmNOM21VV19peElEQWRHSXk0c1g5Vy1iT1pxSTZmMmt4SjgyelJDakZiM2c4Y2xUZ0Fqc1NaeTZRMFhUajRWSjVHNW9SZEZjOUZJS2hlWk9odER3LW5yZmNYaVY1UFRzRjZFSjd3azVJT1R3c2hLVkc2RjhEU0tUZE0?oc=5",
+          "headline": "BR-101 será interditada para obras de duplicação - G1",
+          "date": "2026-11-25T11:29:09Z"
         }
       ]
     }
