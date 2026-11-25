@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-11-25T00:48:56Z",
+  "updatedAt": "2026-11-25T09:15:30Z",
   "lookbackHours": 12.0,
-  "inputEvents": 136,
-  "keptEvents": 6,
-  "removedEvents": 130,
+  "inputEvents": 131,
+  "keptEvents": 0,
+  "removedEvents": 131,
   "plannedWindowPreserved": 0,
   "releaseLikeRemoved": 0,
   "undatedRemoved": 0,
   "removedSample": [
+    {
+      "name": "Interdição planejada por notícia pública • BR-265",
+      "road": "BR-265",
+      "source": "Notícias públicas - Home - Observo + 1 fonte(s)",
+      "reason": "public_news_older_than_12h",
+      "date": "2026-11-24T16:29:24Z"
+    },
     {
       "name": "Interdição planejada por notícia pública • BR-267",
       "road": "BR-267",
@@ -175,13 +182,6 @@
       "source": "Notícias públicas - Grande Ponto",
       "reason": "public_news_older_than_12h",
       "date": "2026-11-06T20:45:00Z"
-    },
-    {
-      "name": "Interdição planejada por notícia pública • BR-101",
-      "road": "BR-101",
-      "source": "Grupo Jota Sidney + 6 fonte(s)",
-      "reason": "public_news_older_than_12h",
-      "date": "2026-11-06T16:15:23Z"
     }
   ],
   "policy": "Notícias públicas antigas não reconfirmam eventos, exceto interdições planejadas com plannedEndAt ainda vigente."
