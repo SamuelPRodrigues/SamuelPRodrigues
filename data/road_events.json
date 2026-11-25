@@ -9,7 +9,7 @@
     "lat": -9.665,
     "lon": -35.735,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Rodovia AL-101 Norte será interditada para instalação de passarela nesta sexta-feira, 27 - TNH1. Fontes consolidadas: Notícias públicas - TNH1. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-25T17:16:11Z; ativo há 2.1 h.",
+    "description": "Rodovia AL-101 Norte será interditada para instalação de passarela nesta sexta-feira, 27 - TNH1. Fontes consolidadas: Notícias públicas - TNH1. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-25T17:16:11Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,13 +36,15 @@
     "newsFreshnessHours": 2.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-25T17:16:11Z",
-    "last_seen_at": "2026-11-25T19:22:17Z",
-    "active_duration_hours": 2.1,
+    "last_seen_at": "2026-11-25T19:22:38Z",
+    "active_duration_hours": 2.11,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "AL-101"
+    "detectedRoad": "AL-101",
+    "news_signature": "a6b984e08aee6e32ece7065a",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -54,7 +56,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte sobre o Rio Paraguai, na BR-262, será interditada por quase 20 horas em Corumbá. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha MS. Localização aproximada pelo corredor monitorado.0 h. Rastreio: primeiro registro em 2026-11-25T11:21:18Z; ativo há 8.0 h.",
+    "description": "Ponte sobre o Rio Paraguai, na BR-262, será interditada por quase 20 horas em Corumbá. Fontes consolidadas: Notícias públicas - G1; Notícias públicas - Folha MS. Localização aproximada pelo corredor monitorado.0 h.0 h. Rastreio: primeiro registro em 2026-11-25T11:21:18Z; ativo há 8.0 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -93,12 +95,14 @@
     "newsFreshnessHours": 8.02,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-25T11:21:18Z",
-    "last_seen_at": "2026-11-25T19:22:17Z",
+    "last_seen_at": "2026-11-25T19:22:38Z",
     "active_duration_hours": 8.02,
     "active_duration_label": "8.0 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "e32e9a0aee564ca3feee4de4",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -110,7 +114,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Derramamento de óleo deixa trecho da SC-390 interditado por cerca de 1 km - Sul. Agora. Fontes consolidadas: Notícias públicas - Sul. Agora. Localização aproximada pelo corredor monitorado.2 h. Rastreio: primeiro registro em 2026-11-25T09:08:00Z; ativo há 10.2 h.",
+    "description": "Derramamento de óleo deixa trecho da SC-390 interditado por cerca de 1 km - Sul. Agora. Fontes consolidadas: Notícias públicas - Sul. Agora. Localização aproximada pelo corredor monitorado.2 h.2 h. Rastreio: primeiro registro em 2026-11-25T09:08:00Z; ativo há 10.2 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -137,13 +141,15 @@
     "newsFreshnessHours": 10.24,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-25T09:08:00Z",
-    "last_seen_at": "2026-11-25T19:22:17Z",
+    "last_seen_at": "2026-11-25T19:22:38Z",
     "active_duration_hours": 10.24,
     "active_duration_label": "10.2 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "SC-390"
+    "detectedRoad": "SC-390",
+    "news_signature": "75b18529e07ee1fbc7016c32",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -160,7 +166,7 @@
     "state": "AL",
     "region": "Nordeste",
     "eventType": "Interdição planejada por notícia pública",
-    "description": "BR-101 será interditada para obras de duplicação. Período informado: 2026-11-25T11:29:09Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.9 h. Rastreio: primeiro registro em 2026-11-25T11:29:09Z; ativo há 7.9 h.",
+    "description": "BR-101 será interditada para obras de duplicação. Período informado: 2026-11-25T11:29:09Z até fim não identificado. Fontes consolidadas: G1. Localização aproximada pelo corredor monitorado.9 h.9 h. Rastreio: primeiro registro em 2026-11-25T11:29:09Z; ativo há 7.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -190,9 +196,11 @@
     "newsFreshnessHours": 7.89,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-25T11:29:09Z",
-    "last_seen_at": "2026-11-25T19:22:17Z",
+    "last_seen_at": "2026-11-25T19:22:38Z",
     "active_duration_hours": 7.89,
     "active_duration_label": "7.9 h",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "6927b0b02df6f7b3498c3f13",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
