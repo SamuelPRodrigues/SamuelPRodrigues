@@ -9,7 +9,7 @@
     "lat": -25.428,
     "lon": -49.273,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "PR-180 é interditada entre Goioerê e Moreira Sales para retirada de carreta tombada - Goionews. Fontes consolidadas: Notícias públicas - Goionews. Localização aproximada pelo corredor monitorado.4 dias. Rastreio: primeiro registro em 2026-11-21T02:01:42Z; ativo há 7.4 dias.",
+    "description": "PR-180 é interditada entre Goioerê e Moreira Sales para retirada de carreta tombada - Goionews. Fontes consolidadas: Notícias públicas - Goionews. Localização aproximada pelo corredor monitorado.4 dias.4 dias. Rastreio: primeiro registro em 2026-11-21T02:01:42Z; ativo há 7.4 dias.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -36,12 +36,14 @@
     "newsFreshnessHours": 8.95,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-21T02:01:42Z",
-    "last_seen_at": "2026-11-28T10:57:42Z",
-    "active_duration_hours": 176.93,
+    "last_seen_at": "2026-11-28T10:58:06Z",
+    "active_duration_hours": 176.94,
     "active_duration_label": "7.4 dias",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
     "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
-    "detectedRoad": "PR-180"
+    "detectedRoad": "PR-180",
+    "news_signature": "b840a763402334d446140783",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
