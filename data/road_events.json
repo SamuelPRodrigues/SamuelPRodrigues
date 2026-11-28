@@ -9,7 +9,7 @@
     "lat": -20.315,
     "lon": -40.312,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "Ponte na BR-262 será interditada por 19 horas para concretagem em Corumbá - O Estado Online. Fontes consolidadas: Notícias públicas - O Estado Online; Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.1 h. Rastreio: primeiro registro em 2026-11-28T16:40:00Z; ativo há 2.1 h.",
+    "description": "Ponte na BR-262 será interditada por 19 horas para concretagem em Corumbá - O Estado Online. Fontes consolidadas: Notícias públicas - O Estado Online; Notícias públicas - RCN 67. Localização aproximada pelo corredor monitorado.1 h.1 h. Rastreio: primeiro registro em 2026-11-28T16:40:00Z; ativo há 2.1 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -42,12 +42,14 @@
     "newsFreshnessHours": 2.1,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-28T16:40:00Z",
-    "last_seen_at": "2026-11-28T18:46:05Z",
-    "active_duration_hours": 2.1,
+    "last_seen_at": "2026-11-28T18:46:22Z",
+    "active_duration_hours": 2.11,
     "active_duration_label": "2.1 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "63d72c93e132fdcd6f008dd9",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   },
   {
     "active": true,
@@ -59,7 +61,7 @@
     "lat": -27.595,
     "lon": -48.548,
     "eventType": "Interdição ou bloqueio por notícia pública",
-    "description": "BR-282 tem interdição total na Grande Florianópolis; veja o trecho bloqueado - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.8 h. Rastreio: primeiro registro em 2026-11-28T13:55:00Z; ativo há 4.8 h.",
+    "description": "BR-282 tem interdição total na Grande Florianópolis; veja o trecho bloqueado - Agora Floripa. Fontes consolidadas: Notícias públicas - Agora Floripa. Localização aproximada pelo corredor monitorado.8 h.8 h. Rastreio: primeiro registro em 2026-11-28T13:55:00Z; ativo há 4.9 h.",
     "risk": 69,
     "severity": "Alto",
     "severityRule": "Eventos rodoviários de bloqueio/interdição têm teto 69 (Alta).",
@@ -86,11 +88,13 @@
     "newsFreshnessHours": 4.85,
     "newsFreshnessRule": "Notícias públicas rodoviárias só ficam ativas se tiverem até 12h, exceto interdições planejadas dentro do período informado.",
     "first_seen_at": "2026-11-28T13:55:00Z",
-    "last_seen_at": "2026-11-28T18:46:05Z",
-    "active_duration_hours": 4.85,
-    "active_duration_label": "4.8 h",
+    "last_seen_at": "2026-11-28T18:46:22Z",
+    "active_duration_hours": 4.86,
+    "active_duration_label": "4.9 h",
     "lifecycle_status": "active",
     "tracker_reason": "seen_in_current_feed",
-    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente."
+    "newsLifecycleRule": "Notícias públicas rodoviárias ativas precisam ter até 12h, exceto quando há plannedEndAt ainda vigente.",
+    "news_signature": "a73024c39938e72727d614f3",
+    "news_signature_policy": "Mesma matéria não reconfirma evento; apenas URL, título, data ou fonte nova renova last_seen_at."
   }
 ]
